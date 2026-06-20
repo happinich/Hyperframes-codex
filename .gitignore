@@ -1,0 +1,30 @@
+.DS_Store
+.venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+node_modules/
+
+# Local media library files stay local by default.
+library/audio/music/*
+!library/audio/music/.gitkeep
+library/audio/sfx/*
+!library/audio/sfx/.gitkeep
+
+# Source recordings and render output stay local by default.
+projects/*/02_audio/inbox/*
+!projects/*/02_audio/inbox/.gitkeep
+projects/*/02_audio/working/*
+!projects/*/02_audio/working/.gitkeep
+projects/*/04_composition/assets/audio/*
+!projects/*/04_composition/assets/audio/.gitkeep
+projects/*/04_composition/snapshots/*
+projects/*/05_review/preview/*
+!projects/*/05_review/preview/.gitkeep
+projects/*/06_delivery/youtube/*
+!projects/*/06_delivery/youtube/.gitkeep
+projects/*/06_delivery/shorts/*
+!projects/*/06_delivery/shorts/.gitkeep
+projects/*/06_delivery/review/*
+projects/*/06_delivery/review_frames/*

@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>Google I/O 2026, 무엇이 달라졌나 - YouTube</title>
+    <style>
+      :root {
+        --bg: #f6f9ff;
+        --panel: rgba(255, 255, 255, 0.88);
+        --panel-2: rgba(239, 246, 255, 0.78);
+        --line: rgba(66, 133, 244, 0.18);
+        --white: #14213d;
+        --muted: #64748b;
+        --blue: #4285f4;
+        --red: #ea4335;
+        --yellow: #fbbc04;
+        --green: #34a853;
+        --aqua: #58e7d2;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--white);
+        font-family: Arial, sans-serif;
+      }
+      .clip { visibility: hidden; }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 75% 22%, rgba(66,133,244,.20), transparent 27%),
+          radial-gradient(circle at 16% 80%, rgba(52,168,83,.16), transparent 29%),
+          linear-gradient(140deg, #ffffff, #edf6ff);
+      }
+      .ambient {
+        position: absolute;
+        z-index: 1;
+        width: 620px;
+        height: 620px;
+        border-radius: 50%;
+        filter: blur(24px);
+        opacity: .22;
+        background: radial-gradient(circle, rgba(66,133,244,.54), transparent 67%);
+      }
+      #ambient-a { top: -130px; right: 160px; }
+      #ambient-b {
+        bottom: -190px;
+        left: 180px;
+        background: radial-gradient(circle, rgba(52,168,83,.4), transparent 67%);
+      }
+      #master::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(66,133,244,.045) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(66,133,244,.045) 1px, transparent 1px);
+        background-size: 64px 64px;
+        mask-image: radial-gradient(ellipse at center, black, transparent 80%);
+      }
+      .topbar {
+        position: absolute;
+        z-index: 50;
+        top: 52px;
+        left: 76px;
+        right: 76px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--muted);
+        font-size: 21px;
+        letter-spacing: .12em;
+      }
+      .io-mark {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        font-weight: 700;
+        color: var(--white);
+      }
+      .dots { display: flex; gap: 7px; }
+      .dots i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+      .dots i:nth-child(1) { background: var(--blue); }
+      .dots i:nth-child(2) { background: var(--red); }
+      .dots i:nth-child(3) { background: var(--yellow); }
+      .dots i:nth-child(4) { background: var(--green); }
+      .progress {
+        position: absolute;
+        left: 76px;
+        right: 76px;
+        bottom: 58px;
+        height: 3px;
+        background: rgba(20,33,61,.10);
+        z-index: 40;
+      }
+      .progress-fill {
+        height: 100%;
+        width: 100%;
+        transform-origin: left center;
+        transform: scaleX(0);
+        background: linear-gradient(90deg, var(--blue), var(--green), var(--yellow));
+      }
+      .scene {
+        position: absolute;
+        z-index: 10;
+        inset: 104px 76px 174px;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        text-align: center;
+      }
+      .kicker {
+        font-size: 22px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--aqua);
+        margin-bottom: 22px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 102px;
+        line-height: 1.04;
+        letter-spacing: -.06em;
+      }
+      h2 {
+        margin: 0 0 20px;
+        font-size: 70px;
+        line-height: 1.12;
+        letter-spacing: -.05em;
+      }
+      .sub {
+        max-width: 1120px;
+        color: var(--muted);
+        font-size: 29px;
+        line-height: 1.5;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid rgba(88,231,210,.48);
+        border-radius: 999px;
+        padding: 9px 16px;
+        color: var(--aqua);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: .1em;
+      }
+      .badge.soon { border-color: rgba(251,188,4,.55); color: var(--yellow); }
+      .badge.beta { border-color: rgba(234,67,53,.5); color: #ff877d; }
+      .hero-layout, .two-col {
+        width: 100%;
+        max-width: 1530px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+      .cards { display: grid; gap: 16px; }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 28px 31px;
+      }
+      .card-title { font-size: 28px; font-weight: 700; margin: 0 0 9px; }
+      .card-text { color: var(--muted); font-size: 21px; line-height: 1.42; }
+      .big-number {
+        font-size: 236px;
+        font-weight: 700;
+        letter-spacing: -.1em;
+        background: linear-gradient(125deg, var(--blue), var(--aqua), var(--yellow));
+        color: transparent;
+        background-clip: text;
+      }
+      .orbital {
+        position: relative;
+        width: 720px;
+        height: 358px;
+        display: grid;
+        place-items: center;
+      }
+      .orbital::before, .orbital::after {
+        content: "";
+        position: absolute;
+        border: 1px solid rgba(88,231,210,.18);
+        border-radius: 50%;
+      }
+      .orbital::before { width: 470px; height: 242px; }
+      .orbital::after { width: 610px; height: 316px; }
+      .icon-node {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        border-radius: 22px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        display: grid;
+        place-items: center;
+        color: var(--muted);
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .icon-node:nth-child(2) { top: 42px; right: 70px; }
+      .icon-node:nth-child(3) { bottom: 36px; right: 88px; }
+      .icon-node:nth-child(4) { bottom: 36px; left: 88px; }
+      .icon-node:nth-child(5) { top: 42px; left: 70px; }
+      .product-card {
+        padding: 34px;
+        border-radius: 30px;
+        border: 1px solid var(--line);
+        background: linear-gradient(145deg, rgba(66,133,244,.16), var(--panel));
+      }
+      #s02 .cards {
+        width: 1180px;
+        grid-template-columns: 1.15fr .85fr;
+        align-items: stretch;
+      }
+      .product-name { font-size: 48px; font-weight: 700; letter-spacing: -.04em; margin: 18px 0 12px; }
+      .nodes {
+        margin-top: 22px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+      .node {
+        padding: 18px;
+        border-radius: 15px;
+        background: rgba(255,255,255,.045);
+        color: var(--muted);
+        font-size: 19px;
+      }
+      .input-row {
+        display: flex;
+        gap: 13px;
+        margin: 26px 0 22px;
+      }
+      .chip {
+        border-radius: 999px;
+        background: rgba(255,255,255,.07);
+        border: 1px solid var(--line);
+        padding: 13px 19px;
+        font-size: 18px;
+      }
+      .video-frame {
+        width: 1100px;
+        height: 265px;
+        border-radius: 28px;
+        border: 1px solid rgba(88,231,210,.26);
+        background:
+          radial-gradient(circle at 66% 36%, rgba(251,188,4,.22), transparent 18%),
+          linear-gradient(140deg, rgba(66,133,244,.24), rgba(52,168,83,.12)),
+          var(--panel);
+        position: relative;
+        overflow: hidden;
+      }
+      .video-frame::after {
+        content: "SYNTH ID  VERIFIED";
+        position: absolute;
+        right: 22px;
+        bottom: 20px;
+        font-size: 16px;
+        color: var(--aqua);
+        border: 1px solid rgba(88,231,210,.35);
+        padding: 9px 12px;
+        border-radius: 10px;
+      }
+      .searchbox {
+        border: 1px solid rgba(123,162,249,.42);
+        border-radius: 30px;
+        padding: 27px 32px;
+        font-size: 30px;
+        background: rgba(13,19,36,.86);
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        margin-bottom: 22px;
+      }
+      #s04 .two-col > div:last-child { width: 1140px; }
+      .searchchips { display: flex; gap: 13px; margin: 20px 0 31px; }
+      .answer {
+        padding: 25px;
+        border-radius: 19px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+      }
+      .watchlist { display: grid; gap: 12px; }
+      #s05 .watchlist {
+        width: 1260px;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .watch {
+        padding: 22px 25px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        font-size: 24px;
+      }
+      .watch small { color: var(--aqua); }
+      .morning {
+        font-size: 19px;
+        letter-spacing: .11em;
+        color: var(--yellow);
+        margin-bottom: 17px;
+      }
+      .task {
+        display: flex;
+        gap: 18px;
+        padding: 18px 0;
+        border-bottom: 1px solid var(--line);
+        font-size: 23px;
+        color: var(--muted);
+      }
+      .tick { color: var(--aqua); }
+      .approval {
+        margin-top: 20px;
+        padding: 19px 22px;
+        border: 1px solid rgba(251,188,4,.3);
+        color: var(--yellow);
+        background: rgba(251,188,4,.07);
+        border-radius: 16px;
+      }
+      #s06 .two-col, #s08 .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1400px;
+        gap: 26px;
+        text-align: left;
+      }
+      #s06 .two-col > *, #s08 .two-col > * { width: 100%; }
+      #s07 .cards {
+        width: 1370px;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .pipeline { display: flex; align-items: center; gap: 17px; margin-top: 29px; }
+      .step {
+        padding: 22px 21px;
+        border-radius: 18px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        min-width: 145px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .arrow { color: var(--aqua); font-size: 29px; }
+      .glasses {
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        position: relative;
+      }
+      .lens {
+        width: 276px;
+        height: 148px;
+        border: 4px solid var(--aqua);
+        border-radius: 76px;
+        box-shadow: 0 0 50px rgba(88,231,210,.12);
+      }
+      .bridge { width: 50px; height: 4px; background: var(--aqua); }
+      .feature-row { display: flex; justify-content: center; gap: 16px; }
+      .feature-row .chip { font-size: 20px; }
+      .closing {
+        text-align: center;
+        align-content: center;
+      }
+      #s01 h1, #s02 h2, #s03 h2, #s04 h2, #s05 h2, #s07 h2 {
+        text-align: center;
+      }
+      #s03 .input-row, #s09 .feature-row { justify-content: center; }
+      .closing h2 { font-size: 94px; }
+      .closing .sub { max-width: none; }
+    </style>
+  </head>
+  <body>
+    <div id="master" data-composition-id="youtube-master" data-start="0" data-width="1920" data-height="1080">
+      <audio id="voice" data-start="0" data-duration="218.135" data-track-index="0"
+        src="assets/audio/voice.wav" data-volume="1"></audio>
+      <div class="ambient" id="ambient-a"></div>
+      <div class="ambient" id="ambient-b"></div>
+      <header class="topbar">
+        <div class="io-mark"><span class="dots"><i></i><i></i><i></i><i></i></span> Google I/O 2026</div>
+        <div>WHAT CHANGED · MAY 19-20</div>
+      </header>
+
+      <section class="scene clip" id="s01" data-start="0" data-duration="16.580" data-track-index="1">
+        <div class="hero-layout scene-panel">
+          <div>
+            <div class="kicker">Google I/O 2026</div>
+            <h1>답변에서<br>행동으로</h1>
+            <p class="sub">Gemini가 검색, 창작, 업무, 개발 그리고 기기로 확장됩니다.</p>
+          </div>
+          <div class="orbital accent-motion">
+            <div class="big-number">100</div>
+            <div class="icon-node">SEARCH</div>
+            <div class="icon-node">CREATE</div>
+            <div class="icon-node">WORK</div>
+            <div class="icon-node">XR</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s02" data-start="16.580" data-duration="21.362" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">The Engine</div>
+            <h2>Gemini 3.5<br>Flash</h2>
+            <span class="badge">NOW</span>
+            <p class="sub">빠른 응답과 복잡한 작업 수행을 함께 겨냥한 새로운 중심 모델.</p>
+          </div>
+          <div class="cards">
+            <div class="product-card primary-card">
+              <div class="card-text">AVAILABLE IN</div>
+              <div class="nodes">
+                <div class="node">Antigravity</div><div class="node">Gemini API</div>
+                <div class="node">AI Studio</div><div class="node">Android Studio</div>
+              </div>
+            </div>
+            <div class="card future-card"><span class="badge soon">NEXT MONTH</span><div class="product-name">Gemini 3.5 Pro</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s03" data-start="37.942" data-duration="31.626" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">Create</div>
+            <h2>Gemini<br>Omni</h2>
+            <p class="sub">대화로 배경과 카메라 움직임까지 수정하는 영상 생성 모델.</p>
+            <div class="input-row">
+              <span class="chip">TEXT</span><span class="chip">IMAGE</span><span class="chip">VIDEO</span><span class="chip">VOICE</span>
+            </div>
+            <span class="badge">ROLLING OUT</span>
+          </div>
+          <div class="video-frame accent-motion"></div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s04" data-start="69.568" data-duration="24.706" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">AI Search</div>
+            <h2>검색창이<br>더 넓어집니다</h2>
+            <span class="badge">AVAILABLE WORLDWIDE</span>
+          </div>
+          <div>
+            <div class="searchbox"><span style="color:var(--muted)">⌕</span> 복잡한 질문을 입력하세요</div>
+            <div class="searchchips"><span class="chip">IMAGE</span><span class="chip">FILE</span><span class="chip">VIDEO</span><span class="chip">TAB</span></div>
+            <div class="answer"><div class="card-title">AI Overview</div><div class="card-text">요약에서 후속 질문까지 하나의 검색 흐름으로 연결</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s05" data-start="94.274" data-duration="16.346" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">Information Agents</div>
+            <h2>계속 살펴보고<br>알려주는 검색</h2>
+            <span class="badge soon">SUMMER · PRO + ULTRA FIRST</span>
+          </div>
+          <div class="watchlist">
+            <div class="watch">가격 변화 추적 <small>MONITORING</small></div>
+            <div class="watch">새로운 발표 소식 <small>UPDATED</small></div>
+            <div class="watch">프로젝트 리서치 <small>SUMMARY READY</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s06" data-start="110.621" data-duration="26.239" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">Gemini App</div>
+            <div class="card">
+              <div class="morning">DAILY BRIEF · MORNING</div>
+              <div class="card-title">오늘 우선순위 3가지</div>
+              <div class="task"><span class="tick">✓</span> 일정과 중요 메일 요약</div>
+              <div class="task"><span class="tick">→</span> 다음 행동 제안</div>
+              <p><span class="badge">U.S. ROLLING OUT</span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="kicker">Gemini Spark</div>
+            <h2 style="font-size:53px">24시간<br>개인 에이전트</h2>
+            <div class="approval">중요 행동 전 사용자 확인 요청</div>
+            <p><span class="badge beta">BETA · U.S. ULTRA</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s07" data-start="136.860" data-duration="18.946" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">Workspace</div>
+            <h2>말하고,<br>정리하고,<br>편집합니다</h2>
+          </div>
+          <div class="cards">
+            <div class="card"><div class="card-title">Voice in Gmail · Docs · Keep</div><div class="card-text">대화형 음성 기능 예정</div></div>
+            <div class="card"><div class="card-title">AI Inbox</div><div class="card-text">답장 초안 + 관련 파일 링크</div></div>
+            <div class="card"><div class="card-title">Google Pics</div><div class="card-text">정밀 이미지 편집 · <span style="color:var(--yellow)">SUMMER</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s08" data-start="155.807" data-duration="24.149" data-track-index="1">
+        <div class="two-col scene-panel">
+          <div>
+            <div class="kicker">For Developers</div>
+            <h2>Antigravity<br>2.0</h2>
+            <p class="sub">여러 에이전트를 병렬로 실행하는 개발 환경.</p>
+            <div class="pipeline"><div class="step">CODE</div><div class="step">TEST</div><div class="step">DESIGN</div></div>
+          </div>
+          <div class="card">
+            <div class="card-title">Managed Agents</div>
+            <div class="card-text">Gemini API에서 격리 환경의 실행 에이전트를 생성</div>
+            <div class="pipeline"><div class="step">Prompt</div><span class="arrow">→</span><div class="step">Android App</div><span class="arrow">→</span><div class="step">Test Track</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s09" data-start="179.956" data-duration="18.158" data-track-index="1">
+        <div class="scene-panel" style="text-align:center">
+          <div class="kicker">Android XR</div>
+          <h2>AI는 화면 밖으로</h2>
+          <div class="glasses"><div class="lens"></div><div class="bridge"></div><div class="lens"></div></div>
+          <div class="feature-row"><span class="chip">길 안내</span><span class="chip">문자</span><span class="chip">촬영</span><span class="chip">번역</span><span class="badge soon">FALL 2026</span></div>
+        </div>
+      </section>
+
+      <section class="scene clip closing" id="s10" data-start="198.114" data-duration="20.021" data-track-index="1">
+        <div class="scene-panel">
+          <div class="kicker">Google I/O 2026</div>
+          <h2>Gemini → Action</h2>
+          <p class="sub">검색 · 업무 · 창작 · 개발 · 웨어러블</p>
+          <p style="margin-top:42px"><span class="badge soon">지역 · 구독 · 출시 시점 확인</span></p>
+        </div>
+      </section>
+
+      <!-- Captions are delivered as external SRT/VTT files, not burned into the MP4. -->
+      <div class="progress"><div class="progress-fill"></div></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      const starts = [0, 16.580, 37.942, 69.568, 94.274, 110.621, 136.860, 155.807, 179.956, 198.114];
+      const tl = gsap.timeline({ paused: true });
+      const show = (selector, at, from = { opacity: 0, y: 24 }, to = { opacity: 1, y: 0, duration: .62, ease: "power2.out" }) =>
+        tl.fromTo(selector, from, to, at);
+      const pulse = (selector, at, amount = 1.06) => {
+        tl.to(selector, { scale: amount, duration: .34, ease: "power2.out" }, at);
+        tl.to(selector, { scale: 1, duration: .42, ease: "power2.inOut" }, at + .34);
+      };
+
+      starts.forEach((start, index) => {
+        tl.fromTo(`#s${String(index + 1).padStart(2, "0")} .scene-panel`,
+          { opacity: 0, y: 32 },
+          { opacity: 1, y: 0, duration: .7, ease: "power2.out" }, start);
+      });
+
+      tl.to("#ambient-a", { x: -90, y: 70, scale: 1.2, duration: 54, ease: "none" }, 0);
+      tl.to("#ambient-a", { x: 35, y: -40, scale: .95, duration: 54, ease: "none" }, 54);
+      tl.to("#ambient-a", { x: -30, y: 50, scale: 1.18, duration: 54, ease: "none" }, 108);
+      tl.to("#ambient-a", { x: 20, y: 10, scale: 1.05, duration: 56.135, ease: "none" }, 162);
+      tl.to("#ambient-b", { x: 100, y: -52, scale: 1.16, duration: 72, ease: "none" }, 0);
+      tl.to("#ambient-b", { x: -52, y: 24, scale: .96, duration: 72, ease: "none" }, 72);
+      tl.to("#ambient-b", { x: 34, y: -30, scale: 1.1, duration: 74.135, ease: "none" }, 144);
+
+      show("#s01 .kicker", .15);
+      show("#s01 h1", .65, { opacity: 0, y: 36, scale: .94 });
+      show("#s01 .sub", 3.25);
+      show("#s01 .big-number", 2.15, { opacity: 0, scale: .78 }, { opacity: 1, scale: 1, duration: .8, ease: "power2.out" });
+      show("#s01 .icon-node:nth-child(2)", 6.55, { opacity: 0, scale: .6 });
+      show("#s01 .icon-node:nth-child(3)", 8.0, { opacity: 0, scale: .6 });
+      show("#s01 .icon-node:nth-child(4)", 9.65, { opacity: 0, scale: .6 });
+      show("#s01 .icon-node:nth-child(5)", 11.3, { opacity: 0, scale: .6 });
+      pulse("#s01 .big-number", 13.15, 1.08);
+
+      show("#s02 .badge", 17.0, { opacity: 0, scale: .7 });
+      show("#s02 .primary-card", 20.1, { opacity: 0, y: 34, x: 275 }, { opacity: 1, y: 0, x: 275, duration: .62, ease: "power2.out" });
+      show("#s02 .node:nth-child(1)", 23.35, { opacity: 0, y: 16 });
+      show("#s02 .node:nth-child(2)", 25.15, { opacity: 0, y: 16 });
+      show("#s02 .node:nth-child(3)", 27.25, { opacity: 0, y: 16 });
+      show("#s02 .node:nth-child(4)", 29.35, { opacity: 0, y: 16 });
+      tl.to("#s02 .primary-card", { x: 0, duration: .7, ease: "power2.inOut" }, 33.35);
+      show("#s02 .future-card", 33.65, { opacity: 0, scale: .93 });
+      pulse("#s02 .future-card", 36.0, 1.03);
+
+      show("#s03 .chip:nth-child(1)", 42.1, { opacity: 0, x: -28 });
+      show("#s03 .chip:nth-child(2)", 43.1, { opacity: 0, x: -28 });
+      show("#s03 .chip:nth-child(3)", 44.1, { opacity: 0, x: -28 });
+      show("#s03 .chip:nth-child(4)", 45.2, { opacity: 0, x: -28 });
+      show("#s03 .video-frame", 46.05, { opacity: 0, scale: .94 });
+      tl.to("#s03 .video-frame", { scale: 1.035, duration: 7.4, ease: "none" }, 48.46);
+      tl.to("#s03 .video-frame", { scale: 1, duration: 5.8, ease: "power2.inOut" }, 55.86);
+      show("#s03 .badge", 55.1, { opacity: 0, y: 15 });
+      pulse("#s03 .video-frame", 64.7, 1.025);
+
+      show("#s04 .searchbox", 71.2, { opacity: 0, scale: .96 });
+      show("#s04 .searchchips .chip:nth-child(1)", 77.7, { opacity: 0, y: 22 });
+      show("#s04 .searchchips .chip:nth-child(2)", 79.05, { opacity: 0, y: 22 });
+      show("#s04 .searchchips .chip:nth-child(3)", 81.3, { opacity: 0, y: 22 });
+      show("#s04 .searchchips .chip:nth-child(4)", 83.1, { opacity: 0, y: 22 });
+      show("#s04 .answer", 86.9, { opacity: 0, y: 28 });
+      pulse("#s04 .answer", 90.35, 1.025);
+
+      show("#s05 .watch:nth-child(1)", 96.2, { opacity: 0, x: 418 }, { opacity: 1, x: 418, duration: .62, ease: "power2.out" });
+      tl.to("#s05 .watch:nth-child(1)", { x: 0, duration: .62, ease: "power2.inOut" }, 99.2);
+      show("#s05 .watch:nth-child(2)", 99.55, { opacity: 0, y: 28 });
+      show("#s05 .watch:nth-child(3)", 102.34, { opacity: 0, x: 38 });
+      pulse("#s05 .watch:nth-child(2)", 105.8, 1.045);
+      show("#s05 .badge", 108.5, { opacity: 0, scale: .8 });
+
+      show("#s06 .two-col > div:first-child", 111.62, { opacity: 0, x: 350 }, { opacity: 1, x: 350, duration: .65, ease: "power2.out" });
+      show("#s06 .task:nth-child(3)", 114.7, { opacity: 0, x: -22 });
+      show("#s06 .task:nth-child(4)", 117.9, { opacity: 0, x: -22 });
+      tl.to("#s06 .two-col > div:first-child", { x: 0, duration: .72, ease: "power2.inOut" }, 124.2);
+      show("#s06 .two-col > div:last-child", 124.62, { opacity: 0, x: 36 });
+      show("#s06 .approval", 127.95, { opacity: 0, y: 20 });
+      pulse("#s06 .approval", 131.0, 1.025);
+      show("#s06 .badge.beta", 134.35, { opacity: 0, scale: .78 });
+
+      show("#s07 .card:nth-child(1)", 137.8, { opacity: 0, y: 30, x: 460 }, { opacity: 1, y: 0, x: 460, duration: .62, ease: "power2.out" });
+      tl.to("#s07 .card:nth-child(1)", { x: 0, duration: .7, ease: "power2.inOut" }, 142.7);
+      show("#s07 .card:nth-child(2)", 143.0, { opacity: 0, y: 30 });
+      show("#s07 .card:nth-child(3)", 147.8, { opacity: 0, y: 30 });
+      pulse("#s07 .card:nth-child(3)", 151.25, 1.035);
+
+      tl.to("#s08 .two-col > div:first-child", { x: 340, duration: .01, ease: "none" }, 155.82);
+      show("#s08 .step:nth-child(1)", 160.25, { opacity: 0, scale: .84 });
+      show("#s08 .step:nth-child(2)", 161.45, { opacity: 0, scale: .84 });
+      show("#s08 .step:nth-child(3)", 162.65, { opacity: 0, scale: .84 });
+      tl.to("#s08 .two-col > div:first-child", { x: 0, duration: .72, ease: "power2.inOut" }, 166.5);
+      show("#s08 .two-col > div:last-child", 166.9, { opacity: 0, x: 34 });
+      show("#s08 .arrow:nth-child(2)", 170.1, { opacity: 0, x: -18 });
+      show("#s08 .step:nth-child(3)", 173.35, { opacity: 0, scale: .86 });
+      pulse("#s08 .step:last-child", 176.7, 1.05);
+
+      show("#s09 .lens:first-child", 180.2, { opacity: 0, x: 46, scale: .82 });
+      show("#s09 .lens:last-child", 180.2, { opacity: 0, x: -46, scale: .82 });
+      show("#s09 .bridge", 182.0, { opacity: 0, scaleX: .1 });
+      show("#s09 .feature-row .chip:nth-child(1)", 183.0, { opacity: 0, y: 20 });
+      show("#s09 .feature-row .chip:nth-child(2)", 184.0, { opacity: 0, y: 20 });
+      show("#s09 .feature-row .chip:nth-child(3)", 185.3, { opacity: 0, y: 20 });
+      show("#s09 .feature-row .chip:nth-child(4)", 186.6, { opacity: 0, y: 20 });
+      show("#s09 .badge", 190.9, { opacity: 0, scale: .8 });
+      pulse("#s09 .glasses", 194.35, 1.045);
+
+      show("#s10 h2", 198.5, { opacity: 0, y: 34, scale: .94 });
+      show("#s10 .sub", 201.55, { opacity: 0, y: 22 });
+      show("#s10 .badge", 208.25, { opacity: 0, scale: .82 });
+      pulse("#s10 h2", 214.0, 1.035);
+      tl.to(".progress-fill", { scaleX: 1, duration: 218.135, ease: "none" }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["youtube-master"] = tl;
+    </script>
+  </body>
+</html>

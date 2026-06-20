@@ -1,0 +1,13 @@
+{
+  "name": "hyperframes-video-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Multi-project narration-driven motion video workspace",
+  "scripts": {
+    "hf:preview": "hyperframes preview",
+    "hf:lint": "hyperframes lint"
+  },
+  "dependencies": {
+    "hyperframes": "^0.6.42"
+  }
+}

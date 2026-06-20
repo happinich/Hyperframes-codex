@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>{{TITLE}} - YouTube</title>
+    <style>
+      :root {
+        --bg: #f6f9ff;
+        --ink: #14213d;
+        --accent: #2bb8a7;
+        --muted: #64748b;
+        --panel: rgba(255, 255, 255, 0.78);
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); font-family: sans-serif; }
+      .clip { visibility: hidden; }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at 72% 24%, rgba(99, 227, 195, 0.24), transparent 31%),
+          radial-gradient(circle at 18% 82%, rgba(66, 133, 244, 0.16), transparent 32%),
+          linear-gradient(140deg, #ffffff, #eef6ff);
+      }
+      .safe-title {
+        position: absolute;
+        left: 120px;
+        top: 104px;
+        font-size: 28px;
+        letter-spacing: 0.04em;
+        color: var(--accent);
+      }
+      .placeholder {
+        position: absolute;
+        inset: 250px 120px 260px;
+        display: grid;
+        place-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        color: var(--muted);
+        font-size: 34px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="master" data-composition-id="youtube-master" data-start="0" data-width="1920" data-height="1080">
+      <audio id="voice" data-start="0" data-duration="1" data-track-index="0"
+        src="assets/audio/voice.wav" data-volume="1"></audio>
+      <div class="safe-title">{{TITLE}}</div>
+      <div class="placeholder">씬 플랜 승인 후 모션 비주얼을 제작합니다</div>
+      <!-- Captions are delivered as external SRT/VTT files, not burned into the MP4. -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["youtube-master"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

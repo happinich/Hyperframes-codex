@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>주식에서 부동산으로, 왜 강남인가 - YouTube</title>
+    <style>
+      :root {
+        --bg: #f7fbff;
+        --ink: #13213c;
+        --muted: #64748b;
+        --blue: #2563eb;
+        --mint: #22c7b8;
+        --gold: #f0b429;
+        --green: #16a34a;
+        --red: #ef4444;
+        --line: rgba(19, 33, 60, .13);
+        --panel: rgba(255, 255, 255, .76);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, sans-serif;
+      }
+      .clip { visibility: hidden; }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 76% 18%, rgba(37, 99, 235, .18), transparent 31%),
+          radial-gradient(circle at 18% 84%, rgba(34, 199, 184, .21), transparent 34%),
+          radial-gradient(circle at 56% 44%, rgba(240, 180, 41, .12), transparent 29%),
+          linear-gradient(145deg, #ffffff, #edf6ff);
+      }
+      .grid {
+        position: absolute;
+        inset: 0;
+        opacity: .45;
+        background-image:
+          linear-gradient(rgba(37,99,235,.055) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(37,99,235,.055) 1px, transparent 1px);
+        background-size: 64px 64px;
+        mask-image: radial-gradient(ellipse at center, black, transparent 84%);
+      }
+      .sheen {
+        position: absolute;
+        inset: -240px;
+        opacity: .55;
+        background:
+          radial-gradient(circle at 20% 24%, rgba(34,199,184,.36), transparent 18%),
+          radial-gradient(circle at 72% 36%, rgba(37,99,235,.32), transparent 22%),
+          linear-gradient(118deg, transparent 30%, rgba(255,255,255,.76) 44%, transparent 58%);
+        filter: blur(3px);
+      }
+      .money-band {
+        position: absolute;
+        z-index: 42;
+        left: -820px;
+        top: 685px;
+        width: 1180px;
+        height: 116px;
+        border-radius: 999px;
+        opacity: .28;
+        background:
+          repeating-linear-gradient(90deg, rgba(255,255,255,.0) 0 42px, rgba(255,255,255,.72) 42px 50px, rgba(255,255,255,.0) 50px 92px),
+          linear-gradient(90deg, rgba(240,180,41,.0), rgba(240,180,41,.70), rgba(34,199,184,.68), rgba(37,99,235,.0));
+        box-shadow: 0 0 48px rgba(240,180,41,.22);
+        transform: rotate(-8deg);
+        mix-blend-mode: multiply;
+      }
+      .money-band.two {
+        top: 255px;
+        width: 980px;
+        height: 86px;
+        opacity: .22;
+        transform: rotate(10deg);
+        background:
+          repeating-linear-gradient(90deg, rgba(255,255,255,.0) 0 36px, rgba(255,255,255,.58) 36px 44px, rgba(255,255,255,.0) 44px 82px),
+          linear-gradient(90deg, rgba(34,199,184,.0), rgba(34,199,184,.56), rgba(37,99,235,.50), rgba(37,99,235,.0));
+      }
+      .pulse-orb {
+        position: absolute;
+        z-index: 41;
+        right: 90px;
+        bottom: 88px;
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        opacity: .25;
+        background: radial-gradient(circle, rgba(240,180,41,.72), rgba(34,199,184,.30) 45%, transparent 68%);
+        mix-blend-mode: multiply;
+      }
+      .motion-rail {
+        position: absolute;
+        z-index: 49;
+        left: 92px;
+        right: 92px;
+        bottom: 92px;
+        height: 14px;
+        border-radius: 999px;
+        opacity: .42;
+        overflow: hidden;
+        background:
+          linear-gradient(rgba(19,33,60,.05), rgba(19,33,60,.05)),
+          repeating-linear-gradient(90deg,
+            rgba(240,180,41,.0) 0 44px,
+            rgba(240,180,41,.95) 44px 72px,
+            rgba(34,199,184,.82) 72px 104px,
+            rgba(37,99,235,.0) 104px 176px);
+        background-size: 360px 14px;
+      }
+      .topbar {
+        position: absolute;
+        z-index: 50;
+        left: 76px;
+        right: 76px;
+        top: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--muted);
+        font-size: 22px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--ink);
+        font-weight: 900;
+      }
+      .brand i {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        display: block;
+        background: var(--gold);
+        box-shadow: 22px 0 0 var(--blue), 44px 0 0 var(--mint);
+      }
+      .scene {
+        position: absolute;
+        z-index: 10;
+        inset: 108px 76px 118px;
+        opacity: 0;
+        visibility: hidden;
+        display: grid;
+        align-items: center;
+      }
+      .panel {
+        width: 100%;
+        min-height: 740px;
+        padding: 70px 84px;
+        border: 1px solid var(--line);
+        border-radius: 44px;
+        background: rgba(255,255,255,.62);
+        box-shadow: 0 26px 76px rgba(20,33,61,.12);
+        backdrop-filter: blur(12px);
+      }
+      .two {
+        display: grid;
+        grid-template-columns: .9fr 1.1fr;
+        gap: 74px;
+        align-items: center;
+      }
+      .center {
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+      .kicker {
+        margin-bottom: 24px;
+        color: var(--mint);
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: .22em;
+        text-transform: uppercase;
+      }
+      h1, h2 {
+        margin: 0;
+        color: var(--ink);
+        line-height: 1.04;
+        letter-spacing: -.055em;
+      }
+      h1 { font-size: 84px; max-width: 820px; }
+      h1.long-title { font-size: 64px; line-height: 1.1; letter-spacing: -.045em; }
+      h1.compact-title { font-size: 72px; line-height: 1.09; letter-spacing: -.048em; }
+      h2 { font-size: 78px; }
+      .sub {
+        margin: 28px 0 0;
+        max-width: 820px;
+        color: var(--muted);
+        font-size: 31px;
+        line-height: 1.42;
+      }
+      .mini {
+        color: var(--muted);
+        font-size: 22px;
+        line-height: 1.36;
+      }
+      .cards {
+        display: grid;
+        gap: 20px;
+      }
+      .card {
+        padding: 26px 30px;
+        border: 1px solid var(--line);
+        border-radius: 30px;
+        background: var(--panel);
+        box-shadow: 0 16px 44px rgba(20,33,61,.08);
+      }
+      .metric {
+        font-size: 66px;
+        font-weight: 900;
+        letter-spacing: -.05em;
+      }
+      .metric.gold { color: var(--gold); }
+      .metric.blue { color: var(--blue); }
+      .metric.mint { color: var(--mint); }
+      .label {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 24px;
+        line-height: 1.35;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 36px;
+      }
+      .chip {
+        padding: 15px 24px;
+        border: 1px solid rgba(37,99,235,.20);
+        border-radius: 999px;
+        background: rgba(255,255,255,.84);
+        color: var(--ink);
+        font-size: 25px;
+        font-weight: 900;
+        box-shadow: 0 12px 32px rgba(20,33,61,.06);
+      }
+      .flow {
+        position: relative;
+        height: 520px;
+      }
+      .flow-step {
+        width: 150px;
+        height: 142px;
+        font-size: 28px;
+      }
+      .flow-caption {
+        width: 330px;
+        height: 112px;
+        font-size: 26px;
+      }
+      .node {
+        position: absolute;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 22px;
+        border-radius: 34px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,.82);
+        box-shadow: 0 18px 46px rgba(20,33,61,.10);
+        font-size: 30px;
+        font-weight: 900;
+      }
+      .node.big {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: white;
+        font-size: 38px;
+      }
+      .node.big.flow-destination {
+        width: 220px;
+        height: 220px;
+        font-size: 34px;
+      }
+      .arrow {
+        position: absolute;
+        height: 8px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--gold), var(--mint));
+        transform-origin: left center;
+        box-shadow: 0 0 26px rgba(240,180,41,.42);
+      }
+      .arrow::after {
+        content: "";
+        position: absolute;
+        right: -2px;
+        top: 50%;
+        width: 22px;
+        height: 22px;
+        border-right: 8px solid var(--mint);
+        border-top: 8px solid var(--mint);
+        transform: translateY(-50%) rotate(45deg);
+      }
+      .map {
+        position: relative;
+        height: 540px;
+        border-radius: 42px;
+        border: 1px solid var(--line);
+        background:
+          radial-gradient(circle at 62% 52%, rgba(240,180,41,.27), transparent 20%),
+          radial-gradient(circle at 48% 60%, rgba(34,199,184,.20), transparent 26%),
+          linear-gradient(145deg, rgba(255,255,255,.88), rgba(232,242,255,.82));
+        overflow: hidden;
+      }
+      .river {
+        position: absolute;
+        left: -8%;
+        right: -8%;
+        top: 190px;
+        height: 68px;
+        border-radius: 999px;
+        background: rgba(37,99,235,.16);
+        transform: rotate(-7deg);
+      }
+      .district {
+        position: absolute;
+        border-radius: 34px;
+        border: 2px solid rgba(19,33,60,.11);
+        background: rgba(255,255,255,.72);
+        padding: 18px 22px;
+        font-size: 27px;
+        font-weight: 900;
+      }
+      .district.hot {
+        border-color: rgba(240,180,41,.72);
+        background: rgba(255,247,218,.88);
+        box-shadow: 0 20px 56px rgba(240,180,41,.24);
+      }
+      .barset {
+        display: grid;
+        gap: 22px;
+        margin-top: 34px;
+      }
+      .bar {
+        display: grid;
+        grid-template-columns: 140px 1fr 160px;
+        gap: 22px;
+        align-items: center;
+        font-size: 26px;
+        font-weight: 900;
+      }
+      .track {
+        height: 28px;
+        border-radius: 999px;
+        background: rgba(19,33,60,.10);
+        overflow: hidden;
+      }
+      .fill {
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--gold), var(--mint));
+        transform-origin: left center;
+      }
+      .spark {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--gold);
+        box-shadow: 0 0 24px rgba(240,180,41,.72);
+      }
+      .tower {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        gap: 26px;
+        height: 390px;
+        padding-top: 30px;
+      }
+      .building {
+        width: 112px;
+        border-radius: 26px 26px 10px 10px;
+        background: linear-gradient(180deg, rgba(37,99,235,.75), rgba(34,199,184,.70));
+        box-shadow: 0 26px 62px rgba(37,99,235,.18);
+      }
+      .building:nth-child(1) { height: 280px; }
+      .building:nth-child(2) { height: 360px; background: linear-gradient(180deg, rgba(240,180,41,.86), rgba(37,99,235,.72)); }
+      .building:nth-child(3) { height: 315px; }
+      .axis {
+        position: relative;
+        height: 520px;
+      }
+      .axis .hub {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 210px;
+        height: 210px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        background: var(--ink);
+        color: white;
+        font-size: 34px;
+        font-weight: 900;
+        text-align: center;
+        box-shadow: 0 22px 70px rgba(19,33,60,.22);
+      }
+      .axis .point {
+        position: absolute;
+        width: 190px;
+        height: 124px;
+        display: grid;
+        place-items: center;
+        border-radius: 28px;
+        background: rgba(255,255,255,.86);
+        border: 1px solid var(--line);
+        font-size: 27px;
+        font-weight: 900;
+        box-shadow: 0 14px 42px rgba(20,33,61,.09);
+      }
+      .connector {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 260px;
+        height: 4px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, rgba(240,180,41,.0), rgba(240,180,41,.85), rgba(34,199,184,.85));
+        transform-origin: left center;
+        opacity: .72;
+      }
+      .risk {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        margin-top: 34px;
+      }
+      .risk div {
+        padding: 22px 26px;
+        border-radius: 24px;
+        background: rgba(255,255,255,.78);
+        border: 1px solid var(--line);
+        color: var(--ink);
+        font-size: 27px;
+        font-weight: 900;
+      }
+      .footer-note {
+        position: absolute;
+        z-index: 55;
+        left: 92px;
+        bottom: 52px;
+        color: var(--muted);
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="master" data-composition-id="youtube-master" data-start="0" data-width="1920" data-height="1080">
+      <audio id="voice" data-start="0" data-duration="379.965" data-track-index="0"
+        src="assets/audio/voice.wav" data-volume="1"></audio>
+      <div class="grid"></div>
+      <div class="sheen"></div>
+      <div class="money-band"></div>
+      <div class="money-band two"></div>
+      <div class="pulse-orb"></div>
+      <div class="motion-rail"></div>
+      <div class="topbar">
+        <div class="brand"><i></i><span>Money Flow Briefing</span></div>
+      </div>
+      <div id="scenes"></div>
+      <div class="footer-note">자료 기반 시장 분석. 수익을 보장하거나 특정 매수를 권유하지 않습니다.</div>
+      <!-- Captions are delivered as external SRT/VTT files, not burned into the MP4. -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      const scenes = [
+        {
+          id: "S01", start: 0.000, end: 20.580, kind: "hero",
+          kicker: "Question",
+          title: "주식으로 번 돈,\n결국 어디로 갈까요?",
+          sub: "1월부터 4월까지 주식·채권 매각대금 3.7조 원 이상이 주택 매입으로 이동했습니다.",
+          visual: "flow",
+          metrics: [["3.7조+", "주택 매입 유입"], ["1~4월", "자금 이동 구간"], ["Signal", "돈의 목적지 변화"]]
+        },
+        {
+          id: "S02", start: 20.230, end: 47.140, kind: "map",
+          kicker: "Where",
+          title: "돈은 서울,\n그리고 강남3구로 갔습니다",
+          sub: "서울 65.5%. 강남구 3,706억, 송파구 3,531억, 서초구 2,903억 원.",
+          visual: "map",
+          metrics: [["65.5%", "서울 주택 매입"], ["3706억", "강남구"], ["강남3구", "자금 집중"]]
+        },
+        {
+          id: "S03", start: 46.790, end: 75.320, kind: "thesis",
+          kicker: "Thesis",
+          title: "지금은 집값보다\n돈의 목적지를 봐야 합니다",
+          sub: "거래가 되고, 희소성이 있고, 다음 이야기가 있는 곳으로 현금성 자금이 움직입니다.",
+          visual: "flow",
+          metrics: [["거래", "살 수 있어야 움직입니다"], ["희소성", "대체가 어려운 입지"], ["스토리", "다음 개발 서사"]]
+        },
+        {
+          id: "S04", start: 74.970, end: 103.960, kind: "cash",
+          kicker: "Mechanism",
+          title: "강남은 대출 시장보다\n현금 시장에 가깝습니다",
+          sub: "고가 주택일수록 대출만으로 접근하기 어렵고, 주식·채권 매각 자금의 역할이 커집니다.",
+          visual: "bars",
+          metrics: [["25억+", "대출 한도 압박"], ["현금", "실제 매입 동력"], ["고가주택", "자금력 경쟁"]]
+        },
+        {
+          id: "S05", start: 103.610, end: 131.260, kind: "answer",
+          kicker: "Answer",
+          title: "강남3구 중에서도\n자료상 답은 강남구입니다",
+          sub: "자금 유입, 업무 중심성, 개발 호재, 재건축 기대가 한 번에 겹칩니다.",
+          visual: "bars",
+          metrics: [["강남구", "3,706억"], ["송파구", "3,531억"], ["서초구", "2,903억"]]
+        },
+        {
+          id: "S06", start: 130.910, end: 163.940, kind: "samsung",
+          kicker: "Axis 1",
+          title: "삼성동은 강남의 판을\n다시 짜는 구간입니다",
+          sub: "영동대로 복합환승센터는 지하 5층, 17만㎡ 규모. GTX-A/C, 위례신사선, 2호선, 9호선이 겹칩니다.",
+          visual: "hub",
+          metrics: [["지하 5층", "복합환승센터"], ["17만㎡", "시설 면적"], ["5개 노선", "초대형 환승축"]]
+        },
+        {
+          id: "S07", start: 163.590, end: 197.240, kind: "gbc",
+          kicker: "Catalyst",
+          title: "GBC는 건물 하나가 아니라\n도시 체급 변화입니다",
+          sub: "49층 3개 동, 2031년 준공 목표, 약 1조 9,827억 원 공공기여.",
+          visual: "tower",
+          metrics: [["49층×3", "GBC 조정안"], ["2031", "준공 목표"], ["1.98조", "공공기여"]]
+        },
+        {
+          id: "S08", start: 196.890, end: 230.620, kind: "apgujeong",
+          kicker: "Axis 2",
+          title: "압구정은 끝난 곳이 아니라\n다시 설계되는 곳입니다",
+          sub: "2~5구역 신속통합기획, 한강변 수변 주거문화, 1만 1천 세대 규모 청사진.",
+          visual: "river",
+          metrics: [["압구정 2~5", "신속통합기획"], ["50층 내외", "스카이라인"], ["1.1만 세대", "한강변 체급"]]
+        },
+        {
+          id: "S09", start: 230.270, end: 263.040, kind: "demand",
+          kicker: "Axis 3",
+          title: "대치와 개포는\n강남 주거 수요의 바닥입니다",
+          sub: "학군, 신축 희소성, 남은 정비 기대가 교통·업무축과 함께 겹칩니다.",
+          visual: "axis",
+          metrics: [["대치", "학군 수요"], ["개포", "신축 전환"], ["희소성", "주거 프리미엄"]]
+        },
+        {
+          id: "S10", start: 262.690, end: 292.240, kind: "liquidity",
+          kicker: "Money Flow",
+          title: "이건 ‘주식 팔아 집 샀다’보다\n큰 이야기입니다",
+          sub: "유동성이 다시 서울 핵심 부동산을 확인하고 있습니다.",
+          visual: "flow",
+          metrics: [["수익 실현", "주식"], ["현금화", "자산 이동"], ["실물자산", "강남 도착"]]
+        },
+        {
+          id: "S11", start: 291.890, end: 317.320, kind: "risk",
+          kicker: "Risk Check",
+          title: "강남이라고\n무조건 오르는 건 아닙니다",
+          sub: "금리, 세금, 대출 규제, 토지거래허가, 재건축 속도, 경기 둔화는 모두 변수입니다.",
+          visual: "risk",
+          metrics: [["금리·세금", "보유 비용"], ["규제", "진입 조건"], ["시간", "버티는 힘"]]
+        },
+        {
+          id: "S12", start: 316.970, end: 379.965, kind: "close",
+          kicker: "Conclusion",
+          title: "방향은 강남,\n판단은 가격과 시간입니다",
+          sub: "삼성, 압구정, 대치, 개포를 하나의 큰 축으로 보세요. 다음 돈의 목적지는 어디일까요?",
+          visual: "axis",
+          metrics: [["삼성", "교통·업무"], ["압구정", "한강 재건축"], ["대치·개포", "주거 수요"]]
+        }
+      ];
+
+      function metricCards(items) {
+        return `<div class="cards">${items.map((item, index) => `
+          <div class="card metric-card">
+            <div class="metric ${index === 0 ? "gold" : index === 1 ? "blue" : "mint"}">${item[0]}</div>
+            <div class="label">${item[1]}</div>
+          </div>
+        `).join("")}</div>`;
+      }
+
+      function visual(scene) {
+        if (scene.visual === "map") {
+          return `<div class="map scene-visual">
+            <div class="river"></div>
+            <div class="district hot" style="left: 47%; top: 54%;">강남구<br><span class="mini">3,706억</span></div>
+            <div class="district" style="left: 66%; top: 48%;">송파구<br><span class="mini">3,531억</span></div>
+            <div class="district" style="left: 31%; top: 55%;">서초구<br><span class="mini">2,903억</span></div>
+            <div class="district" style="left: 42%; top: 20%;">서울 65.5%</div>
+          </div>`;
+        }
+        if (scene.visual === "bars") {
+          return `<div class="card scene-visual">
+            <h2 style="font-size:54px;">자금 유입 비교</h2>
+            <div class="barset">
+              <div class="bar"><span>강남구</span><div class="track"><div class="fill" data-width="1" style="width:100%"></div></div><span>3,706억</span></div>
+              <div class="bar"><span>송파구</span><div class="track"><div class="fill" data-width=".95" style="width:95%"></div></div><span>3,531억</span></div>
+              <div class="bar"><span>서초구</span><div class="track"><div class="fill" data-width=".78" style="width:78%"></div></div><span>2,903억</span></div>
+            </div>
+            <div class="spark" style="left:70%;top:54%;"></div>
+          </div>`;
+        }
+        if (scene.visual === "tower") {
+          return `<div class="card scene-visual">
+            <div class="tower"><div class="building"></div><div class="building"></div><div class="building"></div></div>
+            <div class="chips"><span class="chip">오피스</span><span class="chip">호텔</span><span class="chip">전시장</span><span class="chip">공연장</span><span class="chip">도심숲</span></div>
+          </div>`;
+        }
+        if (scene.visual === "hub") {
+          return `<div class="axis scene-visual">
+            <div class="connector" style="transform: rotate(-138deg);"></div>
+            <div class="connector" style="transform: rotate(-42deg);"></div>
+            <div class="connector" style="transform: rotate(138deg);"></div>
+            <div class="connector" style="transform: rotate(42deg);"></div>
+            <div class="connector" style="transform: rotate(90deg); width:210px;"></div>
+            <div class="hub">삼성역<br>허브</div>
+            <div class="point" style="left:7%;top:9%;">GTX-A</div>
+            <div class="point" style="right:7%;top:9%;">GTX-C</div>
+            <div class="point" style="left:3%;bottom:14%;">2호선</div>
+            <div class="point" style="right:3%;bottom:14%;">9호선</div>
+            <div class="point" style="left:50%;bottom:0;transform:translateX(-50%);">위례신사선</div>
+          </div>`;
+        }
+        if (scene.visual === "river") {
+          return `<div class="map scene-visual">
+            <div class="river"></div>
+            <div class="district hot" style="left:16%;top:46%;">압구정 2구역</div>
+            <div class="district hot" style="left:36%;top:40%;">3구역</div>
+            <div class="district hot" style="left:54%;top:46%;">4구역</div>
+            <div class="district hot" style="left:70%;top:39%;">5구역</div>
+            <div class="district" style="left:34%;top:18%;">한강변 스카이라인</div>
+          </div>`;
+        }
+        if (scene.visual === "risk") {
+          return `<div class="card scene-visual">
+            <h2 style="font-size:54px;">리스크 체크</h2>
+            <div class="risk">
+              <div>금리</div><div>세금</div><div>대출 규제</div><div>토지거래허가</div><div>재건축 속도</div><div>경기 둔화</div>
+            </div>
+          </div>`;
+        }
+        if (scene.visual === "axis") {
+          return `<div class="axis scene-visual">
+            <div class="connector" style="transform: rotate(-138deg);"></div>
+            <div class="connector" style="transform: rotate(-42deg);"></div>
+            <div class="connector" style="transform: rotate(138deg);"></div>
+            <div class="connector" style="transform: rotate(42deg);"></div>
+            <div class="hub">강남<br>4축</div>
+            <div class="point" style="left:8%;top:10%;">삼성<br><span class="mini">교통·업무</span></div>
+            <div class="point" style="right:8%;top:10%;">압구정<br><span class="mini">한강 재건축</span></div>
+            <div class="point" style="left:8%;bottom:12%;">대치<br><span class="mini">학군</span></div>
+            <div class="point" style="right:8%;bottom:12%;">개포<br><span class="mini">신축 수요</span></div>
+          </div>`;
+        }
+        return `<div class="flow scene-visual">
+          <div class="node flow-step" style="left:0;top:92px;">주식<br>수익</div>
+          <div class="arrow" style="left:174px;top:160px;width:108px;"></div>
+          <div class="node flow-step" style="left:312px;top:92px;">현금</div>
+          <div class="arrow" style="left:486px;top:160px;width:92px;"></div>
+          <div class="node big flow-destination" style="left:604px;top:52px;">강남<br>부동산</div>
+          <div class="node flow-caption" style="left:236px;bottom:58px;">돈의 목적지 변화</div>
+        </div>`;
+      }
+
+      document.getElementById("scenes").innerHTML = scenes.map((scene) => `
+        <section class="scene" id="${scene.id}">
+          <div class="panel two">
+            <div>
+              <div class="kicker">${scene.kicker}</div>
+              <h1 class="${titleClass(scene.title)}">${scene.title.replace(/\n/g, "<br>")}</h1>
+              <p class="sub">${scene.sub}</p>
+              <div class="chips">${scene.metrics.map((item) => `<span class="chip">${item[0]}</span>`).join("")}</div>
+            </div>
+            <div>
+              ${visual(scene)}
+            </div>
+          </div>
+        </section>
+      `).join("");
+
+      window.__timelines = window.__timelines || {};
+      function titleClass(title) {
+        const length = title.replace(/\s|\n/g, "").length;
+        if (length >= 20) return "long-title";
+        if (length >= 15) return "compact-title";
+        return "";
+      }
+      const tl = gsap.timeline({ paused: true });
+      function toTargets(selector, vars, at) {
+        if (document.querySelector(selector)) tl.to(selector, vars, at);
+      }
+      function fromToTargets(selector, fromVars, toVars, at) {
+        if (document.querySelector(selector)) tl.fromTo(selector, fromVars, toVars, at);
+      }
+      tl.to(".sheen", { x: 360, y: 120, rotation: 7, duration: 379.965, ease: "none" }, 0);
+      tl.to(".grid", { backgroundPosition: "380px 260px", duration: 379.965, ease: "none" }, 0);
+      tl.fromTo(".money-band:not(.two)", { x: -160 }, { x: 7600, duration: 379.965, ease: "none" }, 0);
+      tl.fromTo(".money-band.two", { x: 4260 }, { x: -6200, duration: 379.965, ease: "none" }, 0);
+      tl.to(".pulse-orb", { x: -1550, y: -680, scale: 1.6, rotation: 360, duration: 379.965, ease: "none" }, 0);
+      tl.to(".motion-rail", { backgroundPosition: "4200px 0", duration: 379.965, ease: "none" }, 0);
+      scenes.forEach((scene) => {
+        const duration = scene.end - scene.start;
+        const element = `#${scene.id}`;
+        tl.set(element, { autoAlpha: 1 }, scene.start);
+        tl.fromTo(`${element} .panel`, { y: 36, scale: .99 }, { y: 0, scale: 1, duration: .55, ease: "power3.out" }, scene.start);
+        tl.fromTo(`${element} h1`, { y: 28, opacity: 0 }, { y: 0, opacity: 1, duration: .48, ease: "power3.out" }, scene.start + .08);
+        tl.fromTo(`${element} .sub`, { y: 18, opacity: 0 }, { y: 0, opacity: 1, duration: .42, ease: "power3.out" }, scene.start + .22);
+        tl.fromTo(`${element} .scene-visual`, { x: 24, opacity: 0 }, { x: 0, opacity: 1, duration: .35, ease: "power3.out" }, scene.start + .02);
+        fromToTargets(`${element} .metric-card, ${element} .chip, ${element} .district, ${element} .point, ${element} .building, ${element} .node`, { y: 18, opacity: .45 }, {
+          y: 0,
+          opacity: 1,
+          stagger: .08,
+          duration: .7,
+          ease: "power2.out"
+        }, scene.start + .22);
+        tl.to(`${element} .scene-visual`, { y: -28, duration: Math.max(duration - .8, .5), ease: "none" }, scene.start + .42);
+        toTargets(`${element} .hub`, {
+          rotation: 6,
+          scale: 1.035,
+          duration: Math.max(duration - 1.2, .5),
+          ease: "sine.inOut"
+        }, scene.start + .6);
+        toTargets(`${element} .fill`, {
+          scaleX: .88,
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2.2)),
+          duration: 1.1,
+          stagger: .12,
+          ease: "sine.inOut"
+        }, scene.start + .5);
+        toTargets(`${element} .spark`, {
+          x: 280,
+          opacity: .25,
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 1.6)),
+          duration: .8,
+          ease: "sine.inOut"
+        }, scene.start + .6);
+        toTargets(`${element} .point`, {
+          x: (index) => (index % 2 === 0 ? 14 : -14),
+          y: (index) => (index % 2 === 0 ? -10 : 10),
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2.4)),
+          duration: 1.2,
+          stagger: .1,
+          ease: "sine.inOut"
+        }, scene.start + .6);
+        fromToTargets(`${element} .connector`, { scaleX: .18, opacity: .18 }, {
+          scaleX: 1,
+          opacity: .72,
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2)),
+          duration: 1.0,
+          stagger: .08,
+          ease: "sine.inOut"
+        }, scene.start + .45);
+        toTargets(`${element} .node`, {
+          x: (index) => (index % 2 === 0 ? 16 : -16),
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2.6)),
+          duration: 1.3,
+          stagger: .12,
+          ease: "sine.inOut"
+        }, scene.start + .55);
+        toTargets(`${element} .district`, {
+          scale: 1.035,
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2.4)),
+          duration: 1.2,
+          stagger: .12,
+          ease: "sine.inOut"
+        }, scene.start + .55);
+        toTargets(`${element} .building`, {
+          scaleY: 1.05,
+          yoyo: true,
+          repeat: Math.max(1, Math.floor(duration / 2.2)),
+          duration: 1.1,
+          stagger: .14,
+          transformOrigin: "bottom center",
+          ease: "sine.inOut"
+        }, scene.start + .6);
+        tl.to(element, { autoAlpha: 0, duration: .35, ease: "power2.in" }, Math.max(scene.end - .35, scene.start + .1));
+      });
+      window.__timelines["youtube-master"] = tl;
+    </script>
+  </body>
+</html>

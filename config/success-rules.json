@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "name": "hyperframes_longform_success_rules",
+  "updated_from_project": "projects/2026-004-stock-to-gangnam",
+  "purpose": "Reusable production rules for face-free HyperFrames long-form YouTube videos.",
+  "defaults": {
+    "format": {
+      "primary": "youtube",
+      "youtube": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "aspect_ratio": "16:9"
+      },
+      "shorts_ready": true,
+      "shorts": {
+        "width": 1080,
+        "height": 1920,
+        "aspect_ratio": "9:16"
+      }
+    },
+    "visual_style": {
+      "face_free": true,
+      "brightness": "bright",
+      "palette": ["white", "light-blue", "mint", "gold", "navy"],
+      "avoid": ["talking-head", "face close-up", "dark muddy background", "burned-in captions"],
+      "top_right_runtime_badge": false
+    },
+    "subtitles": {
+      "delivery": "external_srt_upload",
+      "burn_in_to_video": false,
+      "generate_planned_captions_before_audio": true,
+      "final_alignment_source": "mlx-community/whisper-large-v3-turbo"
+    }
+  },
+  "script_rules": {
+    "hook": {
+      "first_3_seconds": "Start with a sharp question, core number, or reversal. Remove greetings and slow setup.",
+      "examples": ["주식으로 번 돈, 결국 어디로 갈까요?", "3.7조가 움직였습니다. 목적지는 어디였을까요?"]
+    },
+    "visual_cues": {
+      "required": true,
+      "phrases": ["지금 화면에 나오는 이 부분을 보시면", "이 수치가 의미하는 것은", "여기서 중요한 건"]
+    },
+    "spoken_tension": {
+      "style": "short conversational Korean",
+      "sentence_length": "short and tight",
+      "avoid": ["long written-style paragraphs", "slow greetings", "abstract setup without a visual anchor"]
+    },
+    "scene_plan": {
+      "one_scene_one_claim": true,
+      "caption_text_equals_narration_text": true,
+      "required_fields": [
+        "id",
+        "type",
+        "start_seconds",
+        "end_seconds",
+        "duration_seconds",
+        "purpose",
+        "narration_text",
+        "caption_text",
+        "visual",
+        "motion",
+        "motion_beats",
+        "audio",
+        "transition_out",
+        "shorts_adaptation"
+      ]
+    }
+  },
+  "audio_rules": {
+    "elevenlabs": {
+      "model_id": "eleven_v3",
+      "voice_settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.75,
+        "style": 0.15,
+        "use_speaker_boost": true
+      },
+      "chunking": {
+        "enabled": true,
+        "target_chars_min": 1000,
+        "target_chars_max": 1300,
+        "split_on": [".", "?", "!", "\n", "다.", "요."],
+        "avoid_sentence_mid_cut": true
+      },
+      "merge_chunks_sequentially": true
+    },
+    "bgm": {
+      "enabled": true,
+      "loop_to_voice_length": true,
+      "voice_ducking_gain_db": -18,
+      "allowed_gain_db_range": [-20, -15],
+      "outro_delay_seconds": 4,
+      "fade_out_seconds": 3,
+      "cut_bgm_at_voice_plus_outro": true
+    },
+    "pacing_review": {
+      "whisper_model": "mlx-community/whisper-large-v3-turbo",
+      "long_silence_threshold_seconds": 0.8,
+      "long_word_gap_threshold_seconds": 0.8,
+      "target_average_wpm_range": [95, 135]
+    }
+  },
+  "sync_rules": {
+    "source_of_truth": "whisper_word_timings_after_final_audio",
+    "planned_scene_times_are_draft_only": true,
+    "after_audio_generation": [
+      "Run Whisper alignment.",
+      "Recalculate scene start/end from actual word timings.",
+      "Update composition scene times.",
+      "Update scene-plan.json so planning matches the rendered video."
+    ],
+    "screen_timing": {
+      "scene_visual_lead_seconds": 0.35,
+      "visual_reveal_delay_seconds_max": 0.35,
+      "title_reveal_delay_seconds_max": 0.1,
+      "subtitle_reveal_delay_seconds_max": 0.25
+    },
+    "quality_gates": {
+      "caption_match_ratio_min": 0.92,
+      "freeze_detect_threshold": {
+        "noise_db": -55,
+        "duration_seconds": 4
+      },
+      "metadata_duration_match_tolerance_seconds": 0.1,
+      "manual_frame_checks": [
+        "first scene transition",
+        "data/table scene",
+        "hub/axis scene",
+        "final conclusion scene"
+      ]
+    }
+  },
+  "motion_rules": {
+    "minimum_activity": "No static explanatory screen longer than 3 seconds.",
+    "background_motion": ["slow sheen", "moving grid", "money band", "subtle orb"],
+    "data_visuals": {
+      "bars": ["pulse fill", "spark/marker movement", "value highlight"],
+      "tables": ["row reveal", "moving marker", "highlight sweep"],
+      "hub_diagrams": ["connector draw", "node drift", "hub pulse"],
+      "maps": ["pin reveal", "region glow", "slow pan"]
+    },
+    "title_fit": {
+      "dynamic_font_class_by_korean_length": true,
+      "compact_title_min_chars": 15,
+      "long_title_min_chars": 20,
+      "avoid_single_character_orphan_lines": true
+    },
+    "timeline_safety": {
+      "do_not_extend_total_duration_with_repeats": true,
+      "verify_discovered_duration_before_full_render": true,
+      "target_discovered_duration_source": "audio_or_last_scene_end"
+    }
+  },
+  "render_rules": {
+    "commands": [
+      "npm run hf:lint -- <project>/04_composition",
+      "python3 scripts/render_project.py <project> --format youtube --dry-run",
+      "python3 scripts/render_project.py <project> --format youtube"
+    ],
+    "verify": [
+      "ffprobe duration, streams, resolution, fps",
+      "ffmpeg freezedetect=n=-55dB:d=4",
+      "extract review frames around scene transitions",
+      "manually inspect text fit and visual readiness"
+    ],
+    "known_non_blocking_warnings": [
+      "composition_file_too_large can be accepted for urgent iteration, but refactor later"
+    ]
+  },
+  "publishing_rules": {
+    "youtube_publish_md_single_file": true,
+    "include_copy_buttons": true,
+    "description_must_include": ["summary", "timestamps", "key points", "sources", "disclaimer", "hashtags"],
+    "tags": {
+      "comma_separated": true,
+      "target_chars_max": 450
+    },
+    "thumbnail": {
+      "count_min": 2,
+      "style": "provocative but readable",
+      "required": ["large Korean hook text", "core number", "visual money flow", "topic object"],
+      "avoid": ["faces", "logos", "tiny text", "misspelled Korean", "watermark"]
+    }
+  }
+}

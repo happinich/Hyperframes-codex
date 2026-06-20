@@ -1,0 +1,220 @@
+{
+  "project_id": "2026-002-apple-wwdc-2026",
+  "title": "WWDC 2026, 애플 AI는 이번에 증명할까",
+  "target_duration_seconds": 203.871,
+  "master_format": {
+    "aspect_ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "platform": "YouTube"
+  },
+  "shorts_format": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "strategy": "Siri, Apple Intelligence, 실제 사용 가능성 세 질문만 남겨 세로본으로 재편집"
+  },
+  "style": {
+    "face_visible": false,
+    "caption_delivery": "external_srt_upload",
+    "visual_tone": "bright",
+    "palette": "white, light blue, mint, soft gray panels, dark navy text, limited red warning accent",
+    "visual_language": "Apple UI를 직접 복제하지 않는 추상 카드, 질문형 타이포그래피, 파형, 체크리스트, 생태계 노드",
+    "motion_rule": "최소 3초마다 카드 이동, 숫자 카운트업, 하이라이트, 줌, 배경 패턴 이동 중 하나를 넣는다.",
+    "fact_label_rule": "공식 확인은 OFFICIAL, 보도 기반 예상은 EXPECTED, 핵심 질문은 CAN APPLE PROVE IT? 배지로 구분한다."
+  },
+  "timing_policy": {
+    "unit": "seconds",
+    "planning_precision": "0.1s",
+    "alignment_source": "mlx-community/whisper-large-v3-turbo word timings after ElevenLabs generation",
+    "caption_rule": "caption_text는 narration_text와 동일하게 유지한다. MP4에는 번인하지 않고 SRT/VTT로 별도 납품한다."
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "type": "curiosity-hook",
+      "start_seconds": 0.0,
+      "end_seconds": 21.23,
+      "duration_seconds": 21.23,
+      "estimated_words": 43,
+      "target_wpm": 150,
+      "purpose": "새 기능 소개가 아니라 애플 AI의 증명 시험이라는 질문으로 시청자의 궁금증을 만든다.",
+      "narration_text": "이번 WWDC 2026에서 애플이 보여줘야 할 건 새 아이콘이나 예쁜 화면이 아닙니다. 질문은 하나입니다. 애플의 AI는 이제 정말 쓸 만해질까요? 6월 8일 키노트가 중요한 이유는, 애플이 지난 몇 년 동안 미뤄온 답을 이제 내놓아야 하기 때문입니다.",
+      "caption_text": "이번 WWDC 2026에서 애플이 보여줘야 할 건 새 아이콘이나 예쁜 화면이 아닙니다. 질문은 하나입니다. 애플의 AI는 이제 정말 쓸 만해질까요? 6월 8일 키노트가 중요한 이유는, 애플이 지난 몇 년 동안 미뤄온 답을 이제 내놓아야 하기 때문입니다.",
+      "visual": "흰 배경 위에 `Pretty UI?` 카드가 작아지고 `Can Apple prove AI?` 질문 카드가 중앙을 차지한다. 하단에는 `June 8 Keynote` 카운트다운 링.",
+      "motion": "0초 검은 질문 카드가 빠르게 등장, 4초 예쁜 화면 카드가 뒤로 밀림, 8초 AI 질문 문구가 크게 확대, 16초 카운트다운 링이 6월 8일로 고정된다.",
+      "motion_beats": [
+        { "at": 0.0, "action": "`WWDC 2026` 타이틀이 빠르게 확대" },
+        { "at": 4.0, "action": "`new icons?` 카드가 축소되고 흐려짐" },
+        { "at": 8.0, "action": "`Is Apple AI finally useful?` 질문 카드 중앙 등장" },
+        { "at": 16.0, "action": "`June 8 Keynote` 링 카운트다운 후 고정" }
+      ],
+      "audio": "첫 질문에서 짧은 스톱, 이후 밝지만 긴장감 있는 펄스 시작.",
+      "transition_out": "질문 카드가 공식 일정 타임라인으로 접힌다.",
+      "shorts_adaptation": "`애플 AI, 이번엔 쓸 만할까?` 한 문장으로 시작."
+    },
+    {
+      "id": "S02",
+      "type": "official-vs-question",
+      "start_seconds": 21.23,
+      "end_seconds": 44.77,
+      "duration_seconds": 23.54,
+      "estimated_words": 38,
+      "target_wpm": 150,
+      "purpose": "공식 확정 내용은 짧게 정리하고, 진짜 궁금증은 발표 내용이라는 점으로 전환한다.",
+      "narration_text": "공식 일정부터 보면 WWDC 2026은 6월 8일부터 12일까지 열립니다. 키노트는 6월 8일 오전 10시 태평양 시간에 시작되고, 애플은 플랫폼 업데이트, AI 발전, 개발자 도구 소식을 예고했습니다. 여기까지는 확정입니다. 문제는 그 안에 무엇이 들어가느냐입니다.",
+      "caption_text": "공식 일정부터 보면 WWDC 2026은 6월 8일부터 12일까지 열립니다. 키노트는 6월 8일 오전 10시 태평양 시간에 시작되고, 애플은 플랫폼 업데이트, AI 발전, 개발자 도구 소식을 예고했습니다. 여기까지는 확정입니다. 문제는 그 안에 무엇이 들어가느냐입니다.",
+      "visual": "`OFFICIAL` 일정 카드와 `UNKNOWN` 박스가 나란히 놓인다. 일정은 선명하고, 미지의 발표 내용은 잠긴 카드로 표시.",
+      "motion": "공식 일정 타임라인이 5초 안에 정리되고, 잠긴 카드가 화면 중앙으로 확대되며 다음 장면으로 연결된다.",
+      "motion_beats": [
+        { "at": 23.0, "action": "`OFFICIAL` 배지와 6월 8-12일 타임라인 표시" },
+        { "at": 28.0, "action": "`10AM PT Keynote` 카드 팝업" },
+        { "at": 34.0, "action": "Platforms, AI, Developer Tools 세 확정 예고 카드 표시" },
+        { "at": 39.0, "action": "`What's inside?` 잠긴 카드 확대" }
+      ],
+      "audio": "공식 정보는 빠른 탭, 잠긴 카드에서 낮은 호기심 효과음.",
+      "transition_out": "잠긴 카드가 Siri 파형으로 열린다.",
+      "shorts_adaptation": "공식 일정 3초, `진짜 문제는 내용` 카드 2초."
+    },
+    {
+      "id": "S03",
+      "type": "siri-test",
+      "start_seconds": 44.77,
+      "end_seconds": 71.1,
+      "duration_seconds": 26.33,
+      "estimated_words": 47,
+      "target_wpm": 150,
+      "purpose": "Siri를 가장 큰 기대이자 가장 큰 리스크로 제시한다.",
+      "narration_text": "가장 큰 관심은 역시 Siri입니다. 아이폰에는 오래전부터 Siri가 있었지만, 생성형 AI 시대의 기준으로 보면 기대에 못 미쳤다는 평가가 많았습니다. 그래서 이번에는 단순히 대답을 잘하는 Siri가 아니라, 내 맥락을 이해하고, 앱 안의 정보를 찾고, 실제 행동까지 이어지는 Siri가 나올지가 관건입니다.",
+      "caption_text": "가장 큰 관심은 역시 Siri입니다. 아이폰에는 오래전부터 Siri가 있었지만, 생성형 AI 시대의 기준으로 보면 기대에 못 미쳤다는 평가가 많았습니다. 그래서 이번에는 단순히 대답을 잘하는 Siri가 아니라, 내 맥락을 이해하고, 앱 안의 정보를 찾고, 실제 행동까지 이어지는 Siri가 나올지가 관건입니다.",
+      "visual": "Siri를 직접 모사하지 않는 추상 파형. `Answer`, `Context`, `App Info`, `Action` 네 단계를 시험지처럼 체크.",
+      "motion": "Answer만 체크된 상태에서 시작해 Context, App Info, Action이 차례로 시험 항목처럼 나타난다. 마지막 Action은 물음표로 남긴다.",
+      "motion_beats": [
+        { "at": 43.0, "action": "`Siri Test` 제목과 파형 등장" },
+        { "at": 49.0, "action": "`Answer` 체크 후 나머지 항목이 빈칸으로 등장" },
+        { "at": 56.0, "action": "`Context`와 `App Info` 항목 연결" },
+        { "at": 63.0, "action": "`Action?` 항목이 크게 흔들리며 강조" }
+      ],
+      "audio": "시험지 체크 효과와 마지막 물음표에서 짧은 정지.",
+      "transition_out": "Action 물음표가 앱 카드 그리드로 분해된다.",
+      "shorts_adaptation": "`Siri가 말만 할까, 행동할까?` 질문을 세로 중앙에 배치."
+    },
+    {
+      "id": "S04",
+      "type": "ai-inside-apps",
+      "start_seconds": 71.1,
+      "end_seconds": 100.06,
+      "duration_seconds": 28.96,
+      "estimated_words": 47,
+      "target_wpm": 150,
+      "purpose": "Apple Intelligence가 별도 앱이 아니라 기본 앱 안에서 체감될 때 진짜 변화가 된다는 점을 보여준다.",
+      "narration_text": "두 번째 질문은 Apple Intelligence가 어디까지 스며드느냐입니다. 애플이 강한 이유는 사용자가 이미 매일 쓰는 앱과 기기를 갖고 있다는 점입니다. 메일을 정리하고, 사진을 고치고, 사파리에서 정보를 요약하고, 지갑이나 단축어와 연결된다면 AI는 별도 앱이 아니라 운영체제 안의 기능처럼 느껴질 수 있습니다.",
+      "caption_text": "두 번째 질문은 Apple Intelligence가 어디까지 스며드느냐입니다. 애플이 강한 이유는 사용자가 이미 매일 쓰는 앱과 기기를 갖고 있다는 점입니다. 메일을 정리하고, 사진을 고치고, 사파리에서 정보를 요약하고, 지갑이나 단축어와 연결된다면 AI는 별도 앱이 아니라 운영체제 안의 기능처럼 느껴질 수 있습니다.",
+      "visual": "`Separate AI App` 창이 작아지고 Mail, Photos, Safari, Wallet, Shortcuts 추상 카드가 운영체제 레이어 안으로 흡수된다.",
+      "motion": "챗봇 창을 옆으로 밀고 기본 앱 카드들이 사용자 흐름 안에서 직접 변하는 모습을 보여준다.",
+      "motion_beats": [
+        { "at": 68.0, "action": "`Question 2: How deep does AI go?` 등장" },
+        { "at": 74.0, "action": "별도 챗봇 창이 축소" },
+        { "at": 80.0, "action": "Mail, Photos, Safari 카드가 각각 정리/편집/요약 상태로 변환" },
+        { "at": 88.0, "action": "Wallet과 Shortcuts 카드가 시스템 레이어에 연결" }
+      ],
+      "audio": "앱 카드 변환마다 밝은 클릭, 시스템 레이어 연결에서 상승음.",
+      "transition_out": "앱 카드들이 iOS/iPadOS/macOS 플랫폼 카드로 확장.",
+      "shorts_adaptation": "앱 안으로 들어오는 AI만 3개 카드로 표현."
+    },
+    {
+      "id": "S05",
+      "type": "platform-continuity",
+      "start_seconds": 100.06,
+      "end_seconds": 128.26,
+      "duration_seconds": 28.2,
+      "estimated_words": 47,
+      "target_wpm": 150,
+      "purpose": "iOS 27 루머를 기능 나열이 아니라 기기 간 흐름이라는 질문으로 묶는다.",
+      "narration_text": "iOS 27도 그래서 중요합니다. 보도 기준으로는 새 검색 또는 질문 인터페이스, 더 똑똑한 키보드와 자동 수정, 사진과 카메라 관련 AI 기능이 거론됩니다. 하지만 진짜 관전 포인트는 기능 이름이 아닙니다. 이 기능들이 아이폰, 아이패드, 맥에서 같은 흐름으로 이어지는지입니다.",
+      "caption_text": "iOS 27도 그래서 중요합니다. 보도 기준으로는 새 검색 또는 질문 인터페이스, 더 똑똑한 키보드와 자동 수정, 사진과 카메라 관련 AI 기능이 거론됩니다. 하지만 진짜 관전 포인트는 기능 이름이 아닙니다. 이 기능들이 아이폰, 아이패드, 맥에서 같은 흐름으로 이어지는지입니다.",
+      "visual": "`EXPECTED` 배지와 함께 Search/Ask, Keyboard, Photos/Camera 칩이 나오고, 세 기기 카드 사이를 하나의 작업 흐름 선이 통과한다.",
+      "motion": "기능 칩이 쏟아진 뒤 흐려지고, `one flow across devices?` 라인이 iPhone, iPad, Mac을 연결한다.",
+      "motion_beats": [
+        { "at": 93.0, "action": "`iOS 27 rumors` 기능 칩 빠르게 등장" },
+        { "at": 100.0, "action": "기능 칩이 뒤로 물러나고 `not names, flow` 문구 표시" },
+        { "at": 107.0, "action": "iPhone -> iPad -> Mac 연결선 draw" },
+        { "at": 114.0, "action": "`same intelligence, different screens?` 하이라이트" }
+      ],
+      "audio": "칩 등장 때 빠른 스냅, 연결선에서는 부드러운 스와이프.",
+      "transition_out": "연결선이 개발자 API 노드로 전환.",
+      "shorts_adaptation": "기능 나열 대신 `기기간 연결`만 남김."
+    },
+    {
+      "id": "S06",
+      "type": "developer-hidden-core",
+      "start_seconds": 128.26,
+      "end_seconds": 154.48,
+      "duration_seconds": 26.22,
+      "estimated_words": 39,
+      "target_wpm": 150,
+      "purpose": "개발자 도구를 숨은 핵심으로 제시해 시청자가 놓치기 쉬운 포인트를 알려준다.",
+      "narration_text": "개발자 도구도 놓치면 안 됩니다. 애플이 혼자 만든 기능만으로는 생태계가 빨리 커지기 어렵습니다. 개발자가 개인정보 보호를 지키면서 AI 기능을 앱에 붙일 수 있어야 합니다. 온디바이스 처리, 앱 간 연결, 새로운 API가 얼마나 열리는지가 이번 WWDC의 숨은 핵심입니다.",
+      "caption_text": "개발자 도구도 놓치면 안 됩니다. 애플이 혼자 만든 기능만으로는 생태계가 빨리 커지기 어렵습니다. 개발자가 개인정보 보호를 지키면서 AI 기능을 앱에 붙일 수 있어야 합니다. 온디바이스 처리, 앱 간 연결, 새로운 API가 얼마나 열리는지가 이번 WWDC의 숨은 핵심입니다.",
+      "visual": "`Hidden Core` 배지. 중앙에 Developer Tools 노드, 주변에 Privacy, On-device, App Links, APIs 카드. 생태계 속도 게이지.",
+      "motion": "중앙 노드에서 네 카드로 연결선이 뻗고, 게이지가 느림에서 빠름으로 올라가되 Privacy 방패가 함께 유지된다.",
+      "motion_beats": [
+        { "at": 119.0, "action": "`Hidden Core` 카드가 화면 아래에서 올라옴" },
+        { "at": 124.0, "action": "Developer Tools 노드 점등" },
+        { "at": 130.0, "action": "Privacy와 On-device 방패가 먼저 연결" },
+        { "at": 136.0, "action": "App Links와 APIs 연결 후 생태계 게이지 상승" }
+      ],
+      "audio": "노드 연결마다 디지털 탭, 게이지에서 짧은 상승.",
+      "transition_out": "게이지가 실제 확인 체크리스트로 바뀐다.",
+      "shorts_adaptation": "`숨은 핵심은 개발자 도구` 문구와 네 노드만 표시."
+    },
+    {
+      "id": "S07",
+      "type": "reality-check",
+      "start_seconds": 154.48,
+      "end_seconds": 172.14,
+      "duration_seconds": 17.66,
+      "estimated_words": 35,
+      "target_wpm": 150,
+      "purpose": "루머를 신중하게 다루고, 시청자가 키노트에서 확인해야 할 현실 기준을 알려준다.",
+      "narration_text": "물론 지금 이야기되는 세부 기능은 아직 확정이 아닙니다. 그래서 키노트에서 봐야 할 건 화려한 데모보다 출시 시점, 지원 기기, 지원 언어, 그리고 실제로 한국 사용자가 언제 쓸 수 있는지입니다. 멋진 발표보다 중요한 건 사용 가능한 약속입니다.",
+      "caption_text": "물론 지금 이야기되는 세부 기능은 아직 확정이 아닙니다. 그래서 키노트에서 봐야 할 건 화려한 데모보다 출시 시점, 지원 기기, 지원 언어, 그리고 실제로 한국 사용자가 언제 쓸 수 있는지입니다. 멋진 발표보다 중요한 건 사용 가능한 약속입니다.",
+      "visual": "`Reality Check` 카드. Release, Devices, Languages, Korea Availability 네 체크박스. 화려한 Demo 카드는 뒤로 흐려진다.",
+      "motion": "Demo 카드가 밝게 번쩍이다 흐려지고 네 체크박스가 하나씩 전면에 찍힌다.",
+      "motion_beats": [
+        { "at": 141.0, "action": "`Not confirmed yet` 배지 표시" },
+        { "at": 146.0, "action": "Demo 카드가 흐려짐" },
+        { "at": 150.0, "action": "Release, Devices 체크" },
+        { "at": 155.0, "action": "Languages, Korea Availability 체크 후 강조" }
+      ],
+      "audio": "주의 구간에서 음악을 살짝 낮추고 체크마다 맑은 클릭.",
+      "transition_out": "네 체크박스가 최종 시험 결과표로 합쳐진다.",
+      "shorts_adaptation": "`한국에서 언제 쓸 수 있나?`를 중심 질문으로 둔다."
+    },
+    {
+      "id": "S08",
+      "type": "conclusion-stakes",
+      "start_seconds": 172.14,
+      "end_seconds": 203.871,
+      "duration_seconds": 31.731,
+      "estimated_words": 47,
+      "target_wpm": 150,
+      "purpose": "기대와 부담을 동시에 남겨 영상의 여운과 댓글 유도를 만든다.",
+      "narration_text": "정리하면 WWDC 2026은 애플에게 시험대입니다. Siri가 바뀌고, Apple Intelligence가 기본 앱 안으로 자연스럽게 들어오며, 개발자 도구가 그 흐름을 받쳐준다면 애플은 AI 경쟁에서 늦었다는 인식을 바꿀 수 있습니다. 반대로 이번에도 데모만 강하고 실제 사용이 늦어진다면, WWDC 2026은 기대만큼 부담도 큰 행사가 될 겁니다.",
+      "caption_text": "정리하면 WWDC 2026은 애플에게 시험대입니다. Siri가 바뀌고, Apple Intelligence가 기본 앱 안으로 자연스럽게 들어오며, 개발자 도구가 그 흐름을 받쳐준다면 애플은 AI 경쟁에서 늦었다는 인식을 바꿀 수 있습니다. 반대로 이번에도 데모만 강하고 실제 사용이 늦어진다면, WWDC 2026은 기대만큼 부담도 큰 행사가 될 겁니다.",
+      "visual": "`Proof`와 `Delay` 두 갈림길. Siri, Intelligence, Developer Tools 카드가 Proof 쪽으로 이동하려 하지만, `real availability` 체크가 최종 문으로 남는다.",
+      "motion": "두 갈림길이 열리고 세 카드가 Proof 쪽으로 이동한다. 마지막에 `Can Apple prove it?` 엔드 카드와 `June 8` 날짜를 남긴다.",
+      "motion_beats": [
+        { "at": 160.0, "action": "`Apple's AI test` 결과표 등장" },
+        { "at": 166.0, "action": "Siri, Intelligence, Tools 카드가 Proof 경로로 이동" },
+        { "at": 174.0, "action": "`Real availability` 문이 마지막 조건으로 닫혔다 열림" },
+        { "at": 181.0, "action": "`Can Apple prove it? · June 8` 엔드 카드" }
+      ],
+      "audio": "결론부 상승 후 마지막 질문에서 깨끗하게 페이드아웃.",
+      "transition_out": "종료.",
+      "shorts_adaptation": "Proof vs Delay 갈림길과 마지막 질문만 남김."
+    }
+  ]
+}

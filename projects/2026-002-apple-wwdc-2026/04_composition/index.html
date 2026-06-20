@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>WWDC 2026, 애플 AI는 이번에 증명할까 - YouTube</title>
+    <style>
+      :root {
+        --bg: #f7fbff;
+        --ink: #14213d;
+        --muted: #64748b;
+        --line: rgba(20, 33, 61, 0.12);
+        --panel: rgba(255, 255, 255, 0.84);
+        --blue: #3b82f6;
+        --mint: #2dd4bf;
+        --green: #22c55e;
+        --yellow: #f5b700;
+        --red: #ef4444;
+        --shadow: 0 22px 70px rgba(59, 130, 246, 0.14);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, sans-serif;
+      }
+      .clip { visibility: hidden; }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 72% 22%, rgba(59, 130, 246, 0.20), transparent 30%),
+          radial-gradient(circle at 20% 80%, rgba(45, 212, 191, 0.22), transparent 33%),
+          linear-gradient(145deg, #ffffff, #eef7ff);
+      }
+      #master::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(59, 130, 246, 0.045) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(59, 130, 246, 0.045) 1px, transparent 1px);
+        background-size: 64px 64px;
+        mask-image: radial-gradient(ellipse at center, black, transparent 82%);
+      }
+      .motion-sheen {
+        position: absolute;
+        z-index: 1;
+        inset: -220px;
+        pointer-events: none;
+        opacity: .58;
+        background:
+          radial-gradient(circle at 18% 26%, rgba(45, 212, 191, .42), transparent 18%),
+          radial-gradient(circle at 70% 36%, rgba(59, 130, 246, .34), transparent 22%),
+          radial-gradient(circle at 45% 82%, rgba(245, 183, 0, .22), transparent 20%),
+          linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, .78) 42%, transparent 58%);
+        filter: blur(4px);
+      }
+      .drift-lines {
+        position: absolute;
+        z-index: 2;
+        inset: 0;
+        pointer-events: none;
+        opacity: .30;
+        background-image:
+          linear-gradient(120deg, transparent 0 43%, rgba(45, 212, 191, .42) 44%, transparent 46%),
+          linear-gradient(120deg, transparent 0 58%, rgba(59, 130, 246, .30) 59%, transparent 61%);
+        background-size: 540px 540px;
+      }
+      .ambient {
+        position: absolute;
+        width: 560px;
+        height: 560px;
+        border-radius: 50%;
+        filter: blur(28px);
+        opacity: .38;
+        background: radial-gradient(circle, rgba(45, 212, 191, .58), transparent 65%);
+      }
+      #a1 { right: 130px; top: -160px; }
+      #a2 { left: 90px; bottom: -210px; background: radial-gradient(circle, rgba(59, 130, 246, .48), transparent 65%); }
+      .topbar {
+        position: absolute;
+        z-index: 30;
+        left: 76px;
+        right: 76px;
+        top: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--muted);
+        font-size: 21px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+      }
+      .mark {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: var(--ink);
+        font-weight: 800;
+      }
+      .dotrow { display: flex; gap: 7px; }
+      .dotrow i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+      .dotrow i:nth-child(1) { background: var(--blue); }
+      .dotrow i:nth-child(2) { background: var(--mint); }
+      .dotrow i:nth-child(3) { background: var(--yellow); }
+      .dotrow i:nth-child(4) { background: var(--green); }
+      .scene {
+        position: absolute;
+        z-index: 10;
+        inset: 106px 76px 132px;
+        display: grid;
+        align-items: center;
+      }
+      .scene-panel {
+        position: relative;
+        width: 100%;
+        min-height: 720px;
+        padding: 74px 92px;
+        border: 1px solid var(--line);
+        border-radius: 42px;
+        background: rgba(255, 255, 255, 0.54);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+      .two {
+        display: grid;
+        grid-template-columns: 0.95fr 1.05fr;
+        gap: 72px;
+        align-items: center;
+      }
+      .center {
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+      .kicker {
+        margin-bottom: 24px;
+        color: var(--mint);
+        font-size: 24px;
+        font-weight: 800;
+        letter-spacing: .20em;
+        text-transform: uppercase;
+      }
+      h1, h2 {
+        margin: 0;
+        color: var(--ink);
+        letter-spacing: -.055em;
+        line-height: 1.04;
+      }
+      h1 { font-size: 104px; max-width: 920px; }
+      h2 { font-size: 84px; }
+      .sub {
+        margin: 28px 0 0;
+        max-width: 770px;
+        color: var(--muted);
+        font-size: 33px;
+        line-height: 1.42;
+      }
+      .question {
+        display: inline-grid;
+        place-items: center;
+        min-height: 170px;
+        padding: 34px 48px;
+        border-radius: 32px;
+        background: #111827;
+        color: white;
+        font-size: 54px;
+        font-weight: 900;
+        letter-spacing: -.04em;
+        box-shadow: 0 28px 70px rgba(17, 24, 39, .22);
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0 12px 16px 0;
+        padding: 12px 20px;
+        border-radius: 999px;
+        border: 1px solid rgba(45, 212, 191, .45);
+        background: rgba(236, 253, 245, .85);
+        color: #0f766e;
+        font-size: 19px;
+        font-weight: 800;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .badge.warn {
+        background: rgba(254, 242, 242, .9);
+        border-color: rgba(239, 68, 68, .35);
+        color: #b91c1c;
+      }
+      .cards {
+        display: grid;
+        gap: 22px;
+      }
+      .card {
+        padding: 28px 34px;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        box-shadow: 0 16px 42px rgba(20, 33, 61, .08);
+      }
+      .card, .check, .device, .path, .question {
+        will-change: transform, opacity;
+      }
+      .card-title {
+        margin-bottom: 11px;
+        color: var(--ink);
+        font-size: 31px;
+        font-weight: 900;
+        letter-spacing: -.035em;
+      }
+      .card-text {
+        color: var(--muted);
+        font-size: 23px;
+        line-height: 1.38;
+      }
+      .pill-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+      .pill {
+        padding: 17px 25px;
+        border: 1px solid rgba(59, 130, 246, .20);
+        border-radius: 18px;
+        background: rgba(255,255,255,.78);
+        color: var(--ink);
+        font-size: 23px;
+        font-weight: 800;
+      }
+      .ring {
+        width: 390px;
+        height: 390px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        border: 18px solid rgba(59, 130, 246, .15);
+        background:
+          conic-gradient(from 210deg, var(--blue), var(--mint), var(--green), rgba(255,255,255,.4));
+        position: relative;
+      }
+      .ring::after {
+        content: "";
+        position: absolute;
+        inset: 24px;
+        border-radius: 50%;
+        background: rgba(255,255,255,.92);
+      }
+      .ring strong {
+        position: relative;
+        z-index: 2;
+        font-size: 60px;
+        line-height: 1;
+      }
+      .timeline {
+        height: 12px;
+        border-radius: 99px;
+        background: rgba(20,33,61,.10);
+        overflow: hidden;
+        margin: 42px 0;
+      }
+      .timeline span {
+        display: block;
+        height: 100%;
+        width: 100%;
+        transform-origin: left;
+        transform: scaleX(.18);
+        background: linear-gradient(90deg, var(--blue), var(--mint), var(--green));
+      }
+      .wave {
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+      }
+      .wave i {
+        width: 16px;
+        height: 70px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--blue), var(--mint));
+        display: block;
+      }
+      .wave i:nth-child(2n) { height: 136px; }
+      .wave i:nth-child(3n) { height: 196px; }
+      .checklist {
+        display: grid;
+        gap: 18px;
+      }
+      .check {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 24px 28px;
+        border-radius: 24px;
+        background: rgba(255,255,255,.78);
+        border: 1px solid var(--line);
+        font-size: 30px;
+        font-weight: 800;
+      }
+      .check b {
+        display: grid;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: rgba(45, 212, 191, .16);
+        color: #0f766e;
+      }
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+        align-items: stretch;
+      }
+      .device {
+        min-height: 260px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        border-radius: 34px;
+        background: rgba(255,255,255,.82);
+        border: 1px solid var(--line);
+        font-size: 33px;
+        font-weight: 900;
+        box-shadow: 0 16px 42px rgba(20, 33, 61, .08);
+      }
+      .split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+      .path {
+        min-height: 310px;
+        display: grid;
+        place-items: center;
+        border-radius: 36px;
+        border: 1px solid var(--line);
+        background: rgba(255,255,255,.78);
+      }
+      .path.proof { border-color: rgba(34, 197, 94, .35); }
+      .path.delay { border-color: rgba(239, 68, 68, .25); opacity: .78; }
+      .path h3 {
+        margin: 0;
+        font-size: 58px;
+        letter-spacing: -.05em;
+      }
+      .progress {
+        position: absolute;
+        z-index: 35;
+        left: 76px;
+        right: 76px;
+        bottom: 54px;
+        height: 4px;
+        border-radius: 99px;
+        background: rgba(20,33,61,.10);
+        overflow: hidden;
+      }
+      .progress-fill {
+        width: 100%;
+        height: 100%;
+        transform: scaleX(0);
+        transform-origin: left center;
+        background: linear-gradient(90deg, var(--blue), var(--mint), var(--green), var(--yellow));
+      }
+    </style>
+  </head>
+  <body>
+    <div id="master" data-composition-id="youtube-master" data-start="0" data-width="1920" data-height="1080">
+      <audio id="voice" data-start="0" data-duration="203.871" data-track-index="0"
+        src="assets/audio/voice.wav" data-volume="1"></audio>
+      <div class="motion-sheen"></div>
+      <div class="drift-lines"></div>
+      <div class="ambient" id="a1"></div>
+      <div class="ambient" id="a2"></div>
+      <header class="topbar">
+        <div class="mark"><span class="dotrow"><i></i><i></i><i></i><i></i></span> WWDC 2026</div>
+        <div>June 8 · Keynote Preview</div>
+      </header>
+
+      <section class="scene clip center" id="s01" data-start="0.000" data-duration="21.230" data-track-index="1">
+        <div class="scene-panel center">
+          <div class="kicker">Can Apple prove it?</div>
+          <h1>애플 AI,<br>이번엔 쓸 만할까?</h1>
+          <p class="sub">새 아이콘보다 중요한 건, 실제로 믿고 쓸 수 있는 AI 경험입니다.</p>
+          <div style="margin-top:42px"><div class="question">예쁜 데모 말고, 진짜 사용 가능한가?</div></div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s02" data-start="21.230" data-duration="23.540" data-track-index="2">
+        <div class="scene-panel two">
+          <div>
+            <div class="kicker">Official vs Unknown</div>
+            <h2>확정된 건<br>일정입니다</h2>
+            <p class="sub">문제는 그 안에 어떤 AI 경험이 들어가느냐입니다.</p>
+          </div>
+          <div class="cards">
+            <div class="card"><span class="badge">Official</span><div class="card-title">June 8-12</div><div class="card-text">WWDC 2026 온라인 개최, 6월 8일 Apple Park 특별 행사.</div></div>
+            <div class="card"><span class="badge">Keynote</span><div class="card-title">10AM PT</div><div class="card-text">플랫폼 업데이트, AI 발전, 개발자 도구 예고.</div></div>
+            <div class="card"><span class="badge warn">Unknown</span><div class="card-title">What is inside?</div><div class="card-text">진짜 관전 포인트는 발표 내용과 실제 사용 가능성.</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s03" data-start="44.770" data-duration="26.330" data-track-index="3">
+        <div class="scene-panel two">
+          <div>
+            <div class="kicker">Siri Test</div>
+            <h2>말만 할까,<br>행동할까?</h2>
+            <p class="sub">Siri가 맥락을 이해하고 앱 안의 정보와 행동으로 이어질지가 핵심입니다.</p>
+          </div>
+          <div>
+            <div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="checklist">
+              <div class="check"><b>✓</b> Answer</div>
+              <div class="check"><b>?</b> Context</div>
+              <div class="check"><b>?</b> App Info</div>
+              <div class="check"><b>?</b> Action</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s04" data-start="71.100" data-duration="28.960" data-track-index="4">
+        <div class="scene-panel two">
+          <div>
+            <div class="kicker">Apple Intelligence</div>
+            <h2>별도 앱이 아니라<br>OS 안으로</h2>
+            <p class="sub">매일 쓰는 앱 안에서 조용히 도와줄 때, AI는 기능이 아니라 경험이 됩니다.</p>
+          </div>
+          <div class="cards">
+            <div class="card"><div class="card-title">Mail</div><div class="card-text">메일 정리와 요약</div></div>
+            <div class="card"><div class="card-title">Photos</div><div class="card-text">사진 보정과 재구성</div></div>
+            <div class="card"><div class="card-title">Safari</div><div class="card-text">정보 요약과 탐색</div></div>
+            <div class="card"><div class="card-title">Wallet · Shortcuts</div><div class="card-text">개인 흐름과 자동화 연결</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s05" data-start="100.060" data-duration="28.200" data-track-index="5">
+        <div class="scene-panel">
+          <div class="kicker">iOS 27 Watch Point</div>
+          <h2>기능 이름보다<br>기기 간 흐름</h2>
+          <p class="sub">검색, 키보드, 사진 AI가 iPhone, iPad, Mac에서 하나의 흐름으로 이어지는지가 중요합니다.</p>
+          <div class="pill-grid" style="margin:34px 0 42px">
+            <span class="pill">Search or Ask</span><span class="pill">Keyboard</span><span class="pill">Photos</span><span class="pill">Camera AI</span>
+          </div>
+          <div class="flow">
+            <div class="device">iPhone</div>
+            <div class="device">iPad</div>
+            <div class="device">Mac</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s06" data-start="128.260" data-duration="26.220" data-track-index="6">
+        <div class="scene-panel two">
+          <div>
+            <div class="kicker">Hidden Core</div>
+            <h2>숨은 핵심은<br>개발자 도구</h2>
+            <p class="sub">개발자가 안전하게 AI 기능을 앱에 붙일 수 있어야 생태계가 빨라집니다.</p>
+          </div>
+          <div>
+            <div class="cards">
+              <div class="card"><div class="card-title">On-device</div><div class="card-text">기기 안에서 처리되는 AI</div></div>
+              <div class="card"><div class="card-title">Privacy</div><div class="card-text">개인정보 보호를 유지하는 설계</div></div>
+              <div class="card"><div class="card-title">App Links · APIs</div><div class="card-text">앱 간 연결과 새로운 개발 경로</div></div>
+            </div>
+            <div class="timeline"><span></span></div>
+            <div class="card-title">Ecosystem speed</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s07" data-start="154.480" data-duration="17.660" data-track-index="7">
+        <div class="scene-panel two">
+          <div>
+            <div class="kicker">Reality Check</div>
+            <h2>데모보다<br>중요한 것</h2>
+            <p class="sub">한국 사용자가 언제, 어떤 기기에서, 어떤 언어로 쓸 수 있는지가 진짜 체크포인트입니다.</p>
+          </div>
+          <div class="checklist">
+            <div class="check"><b>1</b> Release date</div>
+            <div class="check"><b>2</b> Supported devices</div>
+            <div class="check"><b>3</b> Languages</div>
+            <div class="check"><b>4</b> Korea availability</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene clip" id="s08" data-start="172.140" data-duration="31.731" data-track-index="8">
+        <div class="scene-panel center">
+          <div class="kicker">Proof or Delay</div>
+          <h2>애플에게는<br>시험대입니다</h2>
+          <p class="sub">Siri, Apple Intelligence, 개발자 도구가 실제 사용으로 이어질 때 인식은 바뀝니다.</p>
+          <div class="split" style="width:100%; margin-top:46px">
+            <div class="path proof"><h3>Proof</h3></div>
+            <div class="path delay"><h3>Delay</h3></div>
+          </div>
+          <div style="margin-top:34px"><div class="question">Can Apple prove it? · June 8</div></div>
+        </div>
+      </section>
+
+      <div class="progress"><div class="progress-fill"></div></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      const sceneIds = ["#s01", "#s02", "#s03", "#s04", "#s05", "#s06", "#s07", "#s08"];
+      const animate = (selector, fromVars, toVars, position) => {
+        const nodes = document.querySelectorAll(selector);
+        if (nodes.length) tl.fromTo(nodes, fromVars, toVars, position);
+      };
+      sceneIds.forEach((id) => {
+        const el = document.querySelector(id);
+        const start = Number(el.dataset.start);
+        const duration = Number(el.dataset.duration);
+        animate(id + " .scene-panel", { opacity: 0, y: 32, scale: .985 }, { opacity: 1, y: 0, scale: 1, duration: .65, ease: "power2.out" }, start);
+        animate(id + " .kicker", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .42, ease: "power2.out" }, start + .18);
+        animate(id + " h1, " + id + " h2", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: .58, ease: "power2.out" }, start + .35);
+        animate(id + " .sub", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: .5, ease: "power2.out" }, start + .82);
+        animate(id + " .card, " + id + " .check, " + id + " .device, " + id + " .pill, " + id + " .path", { opacity: 0, y: 22 }, { opacity: 1, y: 0, stagger: .08, duration: .42, ease: "power2.out" }, start + 1.18);
+        animate(id + " .scene-panel", { x: -8 }, { x: 8, duration, ease: "sine.inOut" }, start);
+        animate(id + " .card, " + id + " .check, " + id + " .device, " + id + " .path, " + id + " .question", { x: -7 }, { x: 9, stagger: .12, duration: Math.max(6, duration - 1.5), ease: "sine.inOut" }, start + .75);
+      });
+      tl.fromTo(".question", { scale: .94, opacity: 0 }, { scale: 1, opacity: 1, stagger: .14, duration: .58, ease: "back.out(1.8)" }, 1.0);
+      tl.to(".wave i", { scaleY: .45, yoyo: true, repeat: 60, stagger: .045, duration: .36, ease: "sine.inOut" }, 45.2);
+      tl.fromTo("#s05 .flow", { x: -36 }, { x: 36, yoyo: true, repeat: 8, duration: 1.4, ease: "sine.inOut" }, 105);
+      tl.to("#s06 .timeline span", { scaleX: 1, duration: 12, ease: "power1.inOut" }, 132);
+      tl.fromTo(".motion-sheen", { x: -120, y: 90, rotation: -4 }, { x: 320, y: -150, rotation: 8, duration: 203.871, ease: "none" }, 0);
+      tl.to(".drift-lines", { backgroundPosition: "620px -340px", duration: 203.871, ease: "none" }, 0);
+      tl.to("#a1", { x: -260, y: 210, scale: 1.18, duration: 203.871, ease: "sine.inOut" }, 0);
+      tl.to("#a2", { x: 300, y: -190, scale: .92, duration: 203.871, ease: "sine.inOut" }, 0);
+      tl.to(".progress-fill", { scaleX: 1, duration: 203.871, ease: "none" }, 0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["youtube-master"] = tl;
+    </script>
+  </body>
+</html>
