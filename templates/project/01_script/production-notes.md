@@ -26,5 +26,15 @@
 - 음악 방향:
 - 핵심 이미지/도표:
 - 출처 확인이 필요한 자산:
-- 화면 톤: 밝은 테크 브리핑. 흰색/라이트 블루/민트 배경, 진한 텍스트, 부드러운 그림자.
-- 모션 기준: 최소 3초마다 시각 변화. 긴 정지 화면 금지.
+- 제작 프로필: `{{PRODUCTION_PROFILE_ID}}` · {{PRODUCTION_PROFILE_LABEL}}
+- 프로필 설명: {{PRODUCTION_PROFILE_DESCRIPTION}}
+- 레이아웃 문법: {{PRODUCTION_PROFILE_LAYOUT}}
+- 프로필 모션 밀도: {{PRODUCTION_PROFILE_MOTION}}
+- 목표 낭독 속도: {{PRODUCTION_PROFILE_TARGET_WPM_RANGE}} WPM
+- 자막 적용 렌더러: `{{PRODUCTION_PROFILE_CAPTION_RENDERER}}`
+- 승인된 화면 스타일: `{{VISUAL_STYLE_ID}}` · {{VISUAL_STYLE_LABEL}}
+- 화면 분위기: {{VISUAL_STYLE_MOOD}}
+- 배경: {{VISUAL_STYLE_BACKGROUND}}
+- 팔레트: {{VISUAL_STYLE_PALETTE}}
+- 스타일별 모션: {{VISUAL_STYLE_MOTION}}
+- 모션 기준: {{PRODUCTION_PROFILE_MOTION}}

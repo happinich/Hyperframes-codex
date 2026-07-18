@@ -1,9 +1,15 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "projects/2026-004-stock-to-gangnam",
   "purpose": "Reusable production rules for face-free HyperFrames long-form YouTube videos.",
   "defaults": {
+    "production_profile": {
+      "catalog": "config/production-profiles.json",
+      "preferred_profile_id": "minimal_dark_tech_v1",
+      "legacy_profile_id": "classic_rich_motion_v1",
+      "record_in_project_metadata": true
+    },
     "format": {
       "primary": "youtube",
       "youtube": {
@@ -21,16 +27,58 @@
     },
     "visual_style": {
       "face_free": true,
-      "brightness": "bright",
-      "palette": ["white", "light-blue", "mint", "gold", "navy"],
-      "avoid": ["talking-head", "face close-up", "dark muddy background", "burned-in captions"],
+      "approval_required_before_composition": true,
+      "catalog": "config/visual-styles.json",
+      "brightness": "selected_per_project",
+      "palette": "selected_per_project",
+      "allowed_style_ids": [
+        "minimal_dark_tech",
+        "bright_editorial",
+        "dark_cinematic",
+        "contrast_split",
+        "warm_documentary",
+        "premium_finance",
+        "neon_tech",
+        "paper_collage",
+        "adaptive_mix"
+      ],
+      "avoid": ["talking-head", "face close-up", "dark muddy background", "unapproved burned-in captions"],
       "top_right_runtime_badge": false
     },
     "subtitles": {
       "delivery": "external_srt_upload",
       "burn_in_to_video": false,
       "generate_planned_captions_before_audio": true,
-      "final_alignment_source": "mlx-community/whisper-large-v3-turbo"
+      "final_alignment_source": "mlx-community/whisper-large-v3-turbo",
+      "post_review_captioned_version": {
+        "enabled": true,
+        "preserve_clean_master": true,
+        "output_suffix": "-captioned",
+        "position": "bottom-center-safe-area",
+        "base_text_color": "white",
+        "outline_color": "black",
+        "active_word_color": "red",
+        "timing_source": "captions.words.json"
+      },
+      "profile_variants": {
+        "minimal_dark_tech_v1": {
+          "renderer": "scripts/burn_phrase_captions.mjs",
+          "output_suffix": "-captioned-minimal",
+          "position": "bottom-center-safe-area",
+          "base_text_color": "white",
+          "outline_color": "black",
+          "active_word_color": null,
+          "cue_duration_seconds": [1.5, 2.5]
+        },
+        "classic_rich_motion_v1": {
+          "renderer": "scripts/burn_karaoke_captions.mjs",
+          "output_suffix": "-captioned",
+          "position": "bottom-center-safe-area",
+          "base_text_color": "white",
+          "outline_color": "black",
+          "active_word_color": "red"
+        }
+      }
     }
   },
   "script_rules": {
@@ -99,7 +147,12 @@
       "whisper_model": "mlx-community/whisper-large-v3-turbo",
       "long_silence_threshold_seconds": 0.8,
       "long_word_gap_threshold_seconds": 0.8,
-      "target_average_wpm_range": [95, 135]
+      "target_average_wpm_source": "production_profile",
+      "target_average_wpm_range": [95, 135],
+      "profile_ranges": {
+        "minimal_dark_tech_v1": [145, 165],
+        "classic_rich_motion_v1": [95, 135]
+      }
     }
   },
   "sync_rules": {
@@ -163,7 +216,8 @@
       "ffprobe duration, streams, resolution, fps",
       "ffmpeg freezedetect=n=-55dB:d=4",
       "extract review frames around scene transitions",
-      "manually inspect text fit and visual readiness"
+      "manually inspect text fit and visual readiness",
+      "after the clean master passes review, render and inspect the production-profile-specific captioned version"
     ],
     "known_non_blocking_warnings": [
       "composition_file_too_large can be accepted for urgent iteration, but refactor later"

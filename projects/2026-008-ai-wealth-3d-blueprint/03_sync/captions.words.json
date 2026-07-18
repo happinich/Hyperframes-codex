@@ -1,0 +1,5842 @@
+{
+  "duration": 437.18,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.14,
+      "text": "자, 오늘 살펴볼 분석 자료 바로 들어가 보죠."
+    },
+    {
+      "start": 2.32,
+      "end": 5.18,
+      "text": "오늘은 말이죠. 현대전이 벌어지는 거대한"
+    },
+    {
+      "start": 5.18,
+      "end": 8.54,
+      "text": "전장에서부터 전자 현미경으로나 봐야 하는 아주"
+    },
+    {
+      "start": 8.54,
+      "end": 11.8,
+      "text": "미세한 실리콘 칩까지 이 AI 붐의 숨겨진"
+    },
+    {
+      "start": 11.8,
+      "end": 14.72,
+      "text": "층위들을 아주 입체적으로 한번 쫙 파헤쳐"
+    },
+    {
+      "start": 14.72,
+      "end": 17.78,
+      "text": "보겠습니다. 여러분, AI 하면 보통 뭐가"
+    },
+    {
+      "start": 17.78,
+      "end": 20.8,
+      "text": "떠오르시나요? 그냥 내 말 잘 들어주는 챗봇?"
+    },
+    {
+      "start": 21.0,
+      "end": 23.38,
+      "text": "뭐 유용한 비서? 이런 거 생각하시잖아요."
+    },
+    {
+      "start": 23.9,
+      "end": 27.0,
+      "text": "그런데 최근 이란을 둘러싼 군사 분쟁 같은 걸"
+    },
+    {
+      "start": 27.0,
+      "end": 29.68,
+      "text": "보면 진짜 완전히 다른 현실이 펼쳐지고"
+    },
+    {
+      "start": 29.68,
+      "end": 32.72,
+      "text": "있습니다. 클로드나 팔란티어 같은 AI들이요."
+    },
+    {
+      "start": 33.14,
+      "end": 35.42,
+      "text": "이제는 드론 정찰 데이터를 스스로 분석하고"
+    },
+    {
+      "start": 35.42,
+      "end": 38.12,
+      "text": "심지어 전술적인 판단까지 내리고 있어요."
+    },
+    {
+      "start": 38.8,
+      "end": 41.58,
+      "text": "말 그대로 인간 장군의 역할을 최전선에서"
+    },
+    {
+      "start": 41.58,
+      "end": 44.8,
+      "text": "대신하고 있는 거죠. 자, 이 거대한 흐름"
+    },
+    {
+      "start": 44.8,
+      "end": 48.24,
+      "text": "속에서 진짜 투자 기회를 잡으려면 이 입체적인"
+    },
+    {
+      "start": 48.24,
+      "end": 51.68,
+      "text": "가치사슬을 쭉 훑어봐야 하는데요. 1번,"
+    },
+    {
+      "start": 51.8,
+      "end": 55.26,
+      "text": "AI가 바꾼 현대전부터 클라우드와"
+    },
+    {
+      "start": 55.26,
+      "end": 58.82,
+      "text": "하드웨어, EDA, 파운드리와 HBM"
+    },
+    {
+      "start": 58.82,
+      "end": 61.88,
+      "text": "메모리, 그리고 마지막 장기 투자의 철학까지"
+    },
+    {
+      "start": 61.88,
+      "end": 65.28,
+      "text": "순서대로 빠르게 짚어보겠습니다. 첫 번째,"
+    },
+    {
+      "start": 65.94,
+      "end": 69.28,
+      "text": "AI가 바꾼 현대전입니다. 사슬의 가장"
+    },
+    {
+      "start": 69.28,
+      "end": 72.42,
+      "text": "꼭대기부터 보죠. 이제 AI는 정말 엄청나게"
+    },
+    {
+      "start": 72.42,
+      "end": 75.94,
+      "text": "중요한 고위험 인프라의 핵심이 돼버렸습니다."
+    },
+    {
+      "start": 75.94,
+      "end": 79.42,
+      "text": "이게 무슨 말이냐면요. 그래픽 정보나 CIA"
+    },
+    {
+      "start": 79.42,
+      "end": 82.62,
+      "text": "같은 정보기관의 방대한 데이터들을 싹 다 모아서"
+    },
+    {
+      "start": 82.62,
+      "end": 86.16,
+      "text": "타겟을 정확히 짚어내는 복잡한 과정을 AI가"
+    },
+    {
+      "start": 86.16,
+      "end": 88.72,
+      "text": "실시간으로 막 확률을 계산하면서 처리하고 있다는"
+    },
+    {
+      "start": 88.72,
+      "end": 91.48,
+      "text": "거예요. 전쟁의 판도 자체가 완전히 뒤집히고"
+    },
+    {
+      "start": 91.48,
+      "end": 94.96,
+      "text": "있는 겁니다. 다음으로 두 번째, AI의"
+    },
+    {
+      "start": 94.96,
+      "end": 98.52,
+      "text": "허브인 클라우드와 하드웨어입니다. 여기서 진짜"
+    },
+    {
+      "start": 98.52,
+      "end": 101.52,
+      "text": "흥미로운 게요. 전장에서 활약하는 이 AI가"
+    },
+    {
+      "start": 101.52,
+      "end": 103.78,
+      "text": "그냥 허공에 둥둥 떠 있는 게 아니라는 겁니다."
+    },
+    {
+      "start": 103.78,
+      "end": 106.96,
+      "text": "AI의 두뇌는 바로 클라우드에 살고 있어요. 딱"
+    },
+    {
+      "start": 106.96,
+      "end": 109.86,
+      "text": "짚어보자면 아마존 웹서비스, 마이크로소프트"
+    },
+    {
+      "start": 109.86,
+      "end": 112.56,
+      "text": "애저, 그리고 구글 클라우드죠. 이 세 거대"
+    },
+    {
+      "start": 112.56,
+      "end": 115.06,
+      "text": "기업들이 어마어마한 전산 서버를 쫙 깔아놓고"
+    },
+    {
+      "start": 115.06,
+      "end": 118.36,
+      "text": "이제는 사실상 현대판 국방부 하청업체 역할까지"
+    },
+    {
+      "start": 118.36,
+      "end": 121.2,
+      "text": "빨아들이면서 생태계 전체를 꽉 쥐고 흔드는"
+    },
+    {
+      "start": 121.2,
+      "end": 124.48,
+      "text": "겁니다. 그런데 생각해보세요. 아무리 머리가"
+    },
+    {
+      "start": 124.48,
+      "end": 127.14,
+      "text": "좋아도 우리가 그걸 현장에서 써먹을 수 있어야"
+    },
+    {
+      "start": 127.14,
+      "end": 130.28,
+      "text": "하잖아요? 전장이든 일상이든 이"
+    },
+    {
+      "start": 130.28,
+      "end": 133.56,
+      "text": "똑똑한 클라우드 지능에 접속하려면 그걸 받쳐주는"
+    },
+    {
+      "start": 133.56,
+      "end": 136.6,
+      "text": "하드웨어가 필수적입니다. 우리가 쓰는 애플"
+    },
+    {
+      "start": 136.6,
+      "end": 139.96,
+      "text": "디바이스나 강력한 서버 같은 압도적인 물리적"
+    },
+    {
+      "start": 139.96,
+      "end": 143.06,
+      "text": "장비들이 꼭 있어야 한다는 거죠. 세 번째,"
+    },
+    {
+      "start": 143.58,
+      "end": 146.38,
+      "text": "EDA. 칩 설계의 절대 권력입니다."
+    },
+    {
+      "start": 146.82,
+      "end": 150.4,
+      "text": "이 거대한 생태계를 돌리려면 특수 반도체 칩이"
+    },
+    {
+      "start": 150.4,
+      "end": 153.34,
+      "text": "진짜 산더미처럼 필요한데요? 여기서 잊지 말아야"
+    },
+    {
+      "start": 153.34,
+      "end": 156.76,
+      "text": "할 게 그 반도체를 만들려면 설계도가 필요하다는"
+    },
+    {
+      "start": 156.76,
+      "end": 159.86,
+      "text": "겁니다. 애플이나 엔비디아 칩도 공장에서"
+    },
+    {
+      "start": 159.86,
+      "end": 162.68,
+      "text": "만들어지기 전에는 전부 이 EDA라는"
+    },
+    {
+      "start": 162.68,
+      "end": 165.08,
+      "text": "소프트웨어로 아주 정교하게 그려져야 하거든요."
+    },
+    {
+      "start": 165.72,
+      "end": 168.88,
+      "text": "만약에 어느 날 갑자기 이 EDA 툴이"
+    },
+    {
+      "start": 168.88,
+      "end": 172.3,
+      "text": "세상에서 뿅 하고 사라진다면 장담하건대 전"
+    },
+    {
+      "start": 172.3,
+      "end": 175.84,
+      "text": "세계 기술 산업은 그날로 당장 1970년대로 훅"
+    },
+    {
+      "start": 175.84,
+      "end": 178.38,
+      "text": "뒷걸음질 칠 겁니다. 절대 없어서는 안 되는"
+    },
+    {
+      "start": 178.38,
+      "end": 181.48,
+      "text": "거죠? 시장 상황을 좀 볼까요? 미국의"
+    },
+    {
+      "start": 181.48,
+      "end": 184.58,
+      "text": "시놉시스 그리고 케이던스라는 기업이 이 설계 툴"
+    },
+    {
+      "start": 184.58,
+      "end": 187.86,
+      "text": "시장을 말 그대로 꽉 잡고 있습니다. 완전한"
+    },
+    {
+      "start": 187.86,
+      "end": 191.16,
+      "text": "글로벌 독점 체제예요. 중국이 AI 반도체"
+    },
+    {
+      "start": 191.16,
+      "end": 194.0,
+      "text": "독립하겠다고 막 어마어마하게 돈을 쏟아붓고"
+    },
+    {
+      "start": 194.0,
+      "end": 196.62,
+      "text": "있잖아요. 그런데도 이 분야 점유율은 1%"
+    },
+    {
+      "start": 196.92,
+      "end": 200.48,
+      "text": "남짓입니다. 격차가 정말 어마어마하죠? 더"
+    },
+    {
+      "start": 200.48,
+      "end": 204.02,
+      "text": "무서운 건요. 1등인 시놉시스가 여기서 멈출"
+    },
+    {
+      "start": 204.02,
+      "end": 206.86,
+      "text": "생각이 전혀 없다는 겁니다. 최근에 앤시스라는"
+    },
+    {
+      "start": 206.86,
+      "end": 209.78,
+      "text": "기업을 무려 45조 원이나 주고 인수해버렸어요."
+    },
+    {
+      "start": 209.78,
+      "end": 212.34,
+      "text": "시장 장악력을 그야말로 폭발적으로 늘리는"
+    },
+    {
+      "start": 212.34,
+      "end": 215.74,
+      "text": "중이죠. 거기다 이제는 AI를 써서 자기들의"
+    },
+    {
+      "start": 215.74,
+      "end": 218.34,
+      "text": "AI 칩 설계 툴을 더 똑똑하게 진화시키고"
+    },
+    {
+      "start": 218.34,
+      "end": 221.92,
+      "text": "있습니다. 이거 완전히 전교 1등이 밤새면서"
+    },
+    {
+      "start": 221.92,
+      "end": 224.64,
+      "text": "코피 터지게 공부까지 하는 격이라니까요. 네"
+    },
+    {
+      "start": 224.64,
+      "end": 227.22,
+      "text": "번째, 파운드리와 HBM 메모리입니다."
+    },
+    {
+      "start": 227.66,
+      "end": 230.66,
+      "text": "설계도까지 봤으니 이제 이걸 진짜로"
+    },
+    {
+      "start": 230.66,
+      "end": 234.18,
+      "text": "찍어내는 대장간 그리고 AI 엔진에 들어가는"
+    },
+    {
+      "start": 234.18,
+      "end": 237.18,
+      "text": "연료 얘기를 해보죠. 처음에 ChatGPT가 딱"
+    },
+    {
+      "start": 237.18,
+      "end": 240.36,
+      "text": "나와서 세상을 뒤집어놨을 때 아주 큰 문제가"
+    },
+    {
+      "start": 240.36,
+      "end": 243.36,
+      "text": "하나 터졌습니다. 기존에 쓰던 일반 메모리 칩은"
+    },
+    {
+      "start": 243.36,
+      "end": 246.16,
+      "text": "속도가 너무 느려서 데이터 병목 현상이 생겨버린"
+    },
+    {
+      "start": 246.16,
+      "end": 249.36,
+      "text": "거예요. 그래서 엔비디아 GPU가 제값을 하려면"
+    },
+    {
+      "start": 249.36,
+      "end": 252.46,
+      "text": "데이터를 엄청난 속도로 팍팍 퍼다 나를 수 있는"
+    },
+    {
+      "start": 252.46,
+      "end": 255.92,
+      "text": "HBM 그러니까 고대역폭 메모리가 무조건적인"
+    },
+    {
+      "start": 255.92,
+      "end": 259.2,
+      "text": "필수 연료로 등극한 겁니다. 다행히도 우리나라가"
+    },
+    {
+      "start": 259.2,
+      "end": 261.28,
+      "text": "이 핵심 시장을 꽉 쥐고 있습니다."
+    },
+    {
+      "start": 261.94,
+      "end": 264.62,
+      "text": "SK하이넥스가 그 깐깐하다는 엔비디아 기준을"
+    },
+    {
+      "start": 264.62,
+      "end": 267.74,
+      "text": "제일 먼저 통과하면서 절반인 50%를 딱"
+    },
+    {
+      "start": 267.74,
+      "end": 270.3,
+      "text": "차지했고요. 삼성전자도 가만히 있지 않죠."
+    },
+    {
+      "start": 270.7,
+      "end": 273.52,
+      "text": "CXL이나 PIM 같은 차세대 신기술들을 무기로"
+    },
+    {
+      "start": 273.52,
+      "end": 276.38,
+      "text": "엄청나게 맹추격 중입니다. 아 그리고 여기에"
+    },
+    {
+      "start": 276.38,
+      "end": 278.88,
+      "text": "미국 정부가 든든하게 밀어주고 있는 일종의"
+    },
+    {
+      "start": 278.88,
+      "end": 281.9,
+      "text": "구명정, 마이크론도 10% 점유율을 차지하면서"
+    },
+    {
+      "start": 281.9,
+      "end": 285.46,
+      "text": "바짝 따라 붙고 있습니다. 자 설계도 챙겼고"
+    },
+    {
+      "start": 285.46,
+      "end": 288.38,
+      "text": "연료도 챙겼으니 이제 칩을 만들어야죠."
+    },
+    {
+      "start": 288.84,
+      "end": 292.28,
+      "text": "뉴스 보면 지정학적 문제 때문에 인텔이나"
+    },
+    {
+      "start": 292.28,
+      "end": 295.08,
+      "text": "삼성전자가 반사익을 얻을 거라는 정치적"
+    },
+    {
+      "start": 295.08,
+      "end": 298.02,
+      "text": "노이즈들이 참 많은데요. 현실을 냉정하게 봐야"
+    },
+    {
+      "start": 298.02,
+      "end": 301.1,
+      "text": "합니다. 대만 TSMC가 쌓아둔 반도체 설계"
+    },
+    {
+      "start": 301.1,
+      "end": 303.7,
+      "text": "자산, 생태계는 정말 타의 추종을 불허하거든요."
+    },
+    {
+      "start": 304.34,
+      "end": 307.28,
+      "text": "애플이나 구글 같은 거물들이 리스크 감소 안"
+    },
+    {
+      "start": 307.28,
+      "end": 309.86,
+      "text": "하고 그냥 TSMC에 전적으로 제조를 맡기는"
+    },
+    {
+      "start": 309.86,
+      "end": 312.56,
+      "text": "데는 다 그만한 생태계 장벽과 이유가 있는"
+    },
+    {
+      "start": 312.56,
+      "end": 315.96,
+      "text": "겁니다. 마지막 다섯 번째, 장기 투자의"
+    },
+    {
+      "start": 315.96,
+      "end": 318.98,
+      "text": "철학입니다. 지금 이 복잡한 3D 하드웨어"
+    },
+    {
+      "start": 318.98,
+      "end": 322.42,
+      "text": "사슬을 쭉 보셨잖아요. 그런데 이런 구조를"
+    },
+    {
+      "start": 322.42,
+      "end": 325.54,
+      "text": "알아도 흔들리지 않는 멘탈이 없으면 아무 소용이"
+    },
+    {
+      "start": 325.54,
+      "end": 328.66,
+      "text": "없습니다. 최근에요 시놉시스 같이 엄청난"
+    },
+    {
+      "start": 328.66,
+      "end": 332.14,
+      "text": "최상급 독점 기업들도 시장 패닉이나 지정학적"
+    },
+    {
+      "start": 332.14,
+      "end": 335.18,
+      "text": "이슈 탓에 고점 대비 35%씩 훅 떨어지곤 했던"
+    },
+    {
+      "start": 335.18,
+      "end": 338.52,
+      "text": "말이죠. 딱 보면 솔직히 좀 무섭잖아요. 하지만"
+    },
+    {
+      "start": 338.52,
+      "end": 341.62,
+      "text": "긴 호흡으로 보는 장기 투자자에게 이 숫자는요"
+    },
+    {
+      "start": 341.8,
+      "end": 344.04,
+      "text": "공포가 아니라 오히려 아주 기가 막힌"
+    },
+    {
+      "start": 344.04,
+      "end": 347.36,
+      "text": "기회입니다. 팍팍 오르내리는 유행 타는 주식들"
+    },
+    {
+      "start": 347.36,
+      "end": 350.0,
+      "text": "쫓아다니는 거요. 그거 화려한 스포츠카 타는"
+    },
+    {
+      "start": 350.0,
+      "end": 353.02,
+      "text": "거랑 비슷해요. 순간적으로 짜릿하긴 한데 엄청"
+    },
+    {
+      "start": 353.02,
+      "end": 356.2,
+      "text": "위험하죠. 우리가 진짜 부를 쌓으려면"
+    },
+    {
+      "start": 356.2,
+      "end": 359.44,
+      "text": "이 AI 시대의 필수 인프라를 완전히 장악한"
+    },
+    {
+      "start": 359.44,
+      "end": 362.78,
+      "text": "전세계 1등 기업들 그러니까 제일 비싼"
+    },
+    {
+      "start": 362.78,
+      "end": 366.22,
+      "text": "강남 노른자 땅 같은 그런 자산을 꽉 쥐고"
+    },
+    {
+      "start": 366.22,
+      "end": 369.1,
+      "text": "있어야 하는 겁니다. 이거 하나는 꼭 기억하셔야"
+    },
+    {
+      "start": 369.1,
+      "end": 372.04,
+      "text": "돼요. 시장엔 늘 사이클이 돌고 돕니다."
+    },
+    {
+      "start": 372.66,
+      "end": 375.9,
+      "text": "언젠가는 피할 수 없는 겨울이나 폭락장이 올"
+    },
+    {
+      "start": 375.9,
+      "end": 378.58,
+      "text": "수도 있어요. 그때는 다 같이 충격을 받겠죠."
+    },
+    {
+      "start": 378.86,
+      "end": 382.3,
+      "text": "하지만 애플, 구글, 아마존 그리고"
+    },
+    {
+      "start": 382.3,
+      "end": 385.72,
+      "text": "시놉시스 같은 압도적인 1등 독점 기업들은요."
+    },
+    {
+      "start": 386.2,
+      "end": 389.44,
+      "text": "겨울이 딱 끝나자마자 무조건 제일 먼저 그리고"
+    },
+    {
+      "start": 389.44,
+      "end": 392.86,
+      "text": "제일 높이 치고 올라갈 겁니다. 결국 투자의"
+    },
+    {
+      "start": 392.86,
+      "end": 396.1,
+      "text": "핵심은 아주 단순 명료합니다. 절대 대체할 수"
+    },
+    {
+      "start": 396.1,
+      "end": 399.16,
+      "text": "없는 글로벌 1등 인프라 기업을 쥐고 마음의"
+    },
+    {
+      "start": 399.16,
+      "end": 401.92,
+      "text": "평화를 지키는 거예요. 매일매일 우리의 눈과"
+    },
+    {
+      "start": 401.92,
+      "end": 404.96,
+      "text": "귀를 흔드는 시끄러운 시장의 소음들 그냥 싹 다"
+    },
+    {
+      "start": 404.96,
+      "end": 407.64,
+      "text": "무시해버리는 멘탈이 필요합니다. 자 여러분,"
+    },
+    {
+      "start": 407.84,
+      "end": 410.26,
+      "text": "다음번에 또 한 번 피할 수 없는 폭락장이"
+    },
+    {
+      "start": 410.26,
+      "end": 413.8,
+      "text": "찾아오면 어떡하시겠습니까? 남들처럼 패닉에"
+    },
+    {
+      "start": 413.8,
+      "end": 417.34,
+      "text": "빠지시겠어요? 아니면 오늘 우리가 쭉 훑어본 이"
+    },
+    {
+      "start": 417.34,
+      "end": 420.06,
+      "text": "AI 시대의 튼튼한 3D 아키텍처를"
+    },
+    {
+      "start": 420.06,
+      "end": 423.5,
+      "text": "떠올리시겠습니까? 거대한 폭풍이 몰아칠 때 그"
+    },
+    {
+      "start": 423.5,
+      "end": 426.44,
+      "text": "근간이 되는 기술 구조를 명확하게 꿰뚫어보는"
+    },
+    {
+      "start": 426.44,
+      "end": 429.24,
+      "text": "사람만이 공포를 진짜 부로 바꿀 수 있습니다."
+    },
+    {
+      "start": 429.24,
+      "end": 432.52,
+      "text": "오늘 살펴본 이 입체적인 지도가 여러분의"
+    },
+    {
+      "start": 432.52,
+      "end": 435.34,
+      "text": "흔들리지 않는 나침반이 되기를 바라면서 이번"
+    },
+    {
+      "start": 435.34,
+      "end": 437.18,
+      "text": "분석 시간은 여기서 마무리하겠습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "자,",
+      "start": 0.0,
+      "end": 0.14,
+      "matched": true
+    },
+    {
+      "text": "오늘",
+      "start": 0.38,
+      "end": 0.5,
+      "matched": true
+    },
+    {
+      "text": "살펴볼",
+      "start": 0.5,
+      "end": 0.9,
+      "matched": true
+    },
+    {
+      "text": "분석",
+      "start": 0.9,
+      "end": 1.18,
+      "matched": true
+    },
+    {
+      "text": "자료",
+      "start": 1.18,
+      "end": 1.42,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 1.42,
+      "end": 1.72,
+      "matched": true
+    },
+    {
+      "text": "들어가",
+      "start": 1.72,
+      "end": 1.94,
+      "matched": true
+    },
+    {
+      "text": "보죠.",
+      "start": 1.94,
+      "end": 2.14,
+      "matched": true
+    },
+    {
+      "text": "오늘은",
+      "start": 2.32,
+      "end": 2.86,
+      "matched": true
+    },
+    {
+      "text": "말이죠.",
+      "start": 2.86,
+      "end": 3.2,
+      "matched": true
+    },
+    {
+      "text": "현대전이",
+      "start": 3.48,
+      "end": 4.16,
+      "matched": true
+    },
+    {
+      "text": "벌어지는",
+      "start": 4.16,
+      "end": 4.68,
+      "matched": true
+    },
+    {
+      "text": "거대한",
+      "start": 4.68,
+      "end": 5.18,
+      "matched": true
+    },
+    {
+      "text": "전장에서부터",
+      "start": 5.18,
+      "end": 6.02,
+      "matched": true
+    },
+    {
+      "text": "전자",
+      "start": 6.02,
+      "end": 6.66,
+      "matched": false
+    },
+    {
+      "text": "현미경으로나",
+      "start": 6.66,
+      "end": 7.44,
+      "matched": true
+    },
+    {
+      "text": "봐야",
+      "start": 7.44,
+      "end": 7.74,
+      "matched": true
+    },
+    {
+      "text": "하는",
+      "start": 7.74,
+      "end": 7.96,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 7.96,
+      "end": 8.54,
+      "matched": true
+    },
+    {
+      "text": "미세한",
+      "start": 8.54,
+      "end": 8.98,
+      "matched": true
+    },
+    {
+      "text": "실리콘",
+      "start": 8.98,
+      "end": 9.34,
+      "matched": true
+    },
+    {
+      "text": "칩까지",
+      "start": 9.34,
+      "end": 9.76,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 9.76,
+      "end": 10.54,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 10.54,
+      "end": 10.86,
+      "matched": true
+    },
+    {
+      "text": "붐의",
+      "start": 10.86,
+      "end": 11.32,
+      "matched": true
+    },
+    {
+      "text": "숨겨진",
+      "start": 11.32,
+      "end": 11.8,
+      "matched": true
+    },
+    {
+      "text": "층위들을",
+      "start": 11.8,
+      "end": 12.5,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 12.5,
+      "end": 13.02,
+      "matched": true
+    },
+    {
+      "text": "입체적으로",
+      "start": 13.02,
+      "end": 13.62,
+      "matched": true
+    },
+    {
+      "text": "한번",
+      "start": 13.62,
+      "end": 13.82,
+      "matched": true
+    },
+    {
+      "text": "쫙",
+      "start": 13.82,
+      "end": 14.34,
+      "matched": true
+    },
+    {
+      "text": "파헤쳐",
+      "start": 14.34,
+      "end": 14.72,
+      "matched": true
+    },
+    {
+      "text": "보겠습니다.",
+      "start": 14.72,
+      "end": 15.06,
+      "matched": true
+    },
+    {
+      "text": "여러분,",
+      "start": 15.5,
+      "end": 16.04,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 16.24,
+      "end": 16.8,
+      "matched": true
+    },
+    {
+      "text": "하면",
+      "start": 16.8,
+      "end": 17.04,
+      "matched": true
+    },
+    {
+      "text": "보통",
+      "start": 17.04,
+      "end": 17.46,
+      "matched": true
+    },
+    {
+      "text": "뭐가",
+      "start": 17.46,
+      "end": 17.78,
+      "matched": true
+    },
+    {
+      "text": "떠오르시나요?",
+      "start": 17.78,
+      "end": 18.3,
+      "matched": true
+    },
+    {
+      "text": "그냥",
+      "start": 18.74,
+      "end": 19.2,
+      "matched": true
+    },
+    {
+      "text": "내",
+      "start": 19.2,
+      "end": 19.42,
+      "matched": true
+    },
+    {
+      "text": "말",
+      "start": 19.42,
+      "end": 19.66,
+      "matched": true
+    },
+    {
+      "text": "잘",
+      "start": 19.66,
+      "end": 19.92,
+      "matched": true
+    },
+    {
+      "text": "들어주는",
+      "start": 19.92,
+      "end": 20.38,
+      "matched": true
+    },
+    {
+      "text": "챗봇?",
+      "start": 20.38,
+      "end": 20.8,
+      "matched": true
+    },
+    {
+      "text": "뭐",
+      "start": 21.0,
+      "end": 21.24,
+      "matched": true
+    },
+    {
+      "text": "유용한",
+      "start": 21.24,
+      "end": 21.78,
+      "matched": true
+    },
+    {
+      "text": "비서?",
+      "start": 21.78,
+      "end": 22.14,
+      "matched": true
+    },
+    {
+      "text": "이런",
+      "start": 22.3,
+      "end": 22.6,
+      "matched": true
+    },
+    {
+      "text": "거",
+      "start": 22.6,
+      "end": 22.72,
+      "matched": true
+    },
+    {
+      "text": "생각하시잖아요.",
+      "start": 22.72,
+      "end": 23.38,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 23.9,
+      "end": 24.28,
+      "matched": true
+    },
+    {
+      "text": "최근",
+      "start": 24.28,
+      "end": 25.06,
+      "matched": true
+    },
+    {
+      "text": "이란을",
+      "start": 25.06,
+      "end": 25.62,
+      "matched": true
+    },
+    {
+      "text": "둘러싼",
+      "start": 25.62,
+      "end": 26.0,
+      "matched": true
+    },
+    {
+      "text": "군사",
+      "start": 26.0,
+      "end": 26.36,
+      "matched": true
+    },
+    {
+      "text": "분쟁",
+      "start": 26.36,
+      "end": 26.62,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 26.62,
+      "end": 26.82,
+      "matched": true
+    },
+    {
+      "text": "걸",
+      "start": 26.82,
+      "end": 27.0,
+      "matched": true
+    },
+    {
+      "text": "보면",
+      "start": 27.0,
+      "end": 27.24,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 27.24,
+      "end": 28.08,
+      "matched": true
+    },
+    {
+      "text": "완전히",
+      "start": 28.08,
+      "end": 28.72,
+      "matched": true
+    },
+    {
+      "text": "다른",
+      "start": 28.72,
+      "end": 28.92,
+      "matched": true
+    },
+    {
+      "text": "현실이",
+      "start": 28.92,
+      "end": 29.32,
+      "matched": true
+    },
+    {
+      "text": "펼쳐지고",
+      "start": 29.32,
+      "end": 29.68,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 29.68,
+      "end": 30.02,
+      "matched": true
+    },
+    {
+      "text": "클로드나",
+      "start": 30.54,
+      "end": 31.22,
+      "matched": true
+    },
+    {
+      "text": "팔란티어",
+      "start": 31.22,
+      "end": 31.74,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 31.74,
+      "end": 32.0,
+      "matched": true
+    },
+    {
+      "text": "AI들이요.",
+      "start": 32.0,
+      "end": 32.72,
+      "matched": true
+    },
+    {
+      "text": "이제는",
+      "start": 33.14,
+      "end": 33.44,
+      "matched": true
+    },
+    {
+      "text": "드론",
+      "start": 33.44,
+      "end": 33.78,
+      "matched": true
+    },
+    {
+      "text": "정찰",
+      "start": 33.78,
+      "end": 34.12,
+      "matched": true
+    },
+    {
+      "text": "데이터를",
+      "start": 34.12,
+      "end": 34.54,
+      "matched": true
+    },
+    {
+      "text": "스스로",
+      "start": 34.54,
+      "end": 34.86,
+      "matched": true
+    },
+    {
+      "text": "분석하고",
+      "start": 34.86,
+      "end": 35.42,
+      "matched": true
+    },
+    {
+      "text": "심지어",
+      "start": 35.42,
+      "end": 36.24,
+      "matched": true
+    },
+    {
+      "text": "전술적인",
+      "start": 36.24,
+      "end": 37.0,
+      "matched": true
+    },
+    {
+      "text": "판단까지",
+      "start": 37.0,
+      "end": 37.58,
+      "matched": true
+    },
+    {
+      "text": "내리고",
+      "start": 37.58,
+      "end": 37.86,
+      "matched": true
+    },
+    {
+      "text": "있어요.",
+      "start": 37.86,
+      "end": 38.12,
+      "matched": true
+    },
+    {
+      "text": "말",
+      "start": 38.8,
+      "end": 39.02,
+      "matched": true
+    },
+    {
+      "text": "그대로",
+      "start": 39.02,
+      "end": 39.28,
+      "matched": true
+    },
+    {
+      "text": "인간",
+      "start": 39.28,
+      "end": 40.0,
+      "matched": true
+    },
+    {
+      "text": "장군의",
+      "start": 40.0,
+      "end": 40.52,
+      "matched": true
+    },
+    {
+      "text": "역할을",
+      "start": 40.52,
+      "end": 40.92,
+      "matched": true
+    },
+    {
+      "text": "최전선에서",
+      "start": 40.92,
+      "end": 41.58,
+      "matched": true
+    },
+    {
+      "text": "대신하고",
+      "start": 41.58,
+      "end": 42.08,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 42.08,
+      "end": 42.22,
+      "matched": true
+    },
+    {
+      "text": "거죠.",
+      "start": 42.22,
+      "end": 42.44,
+      "matched": true
+    },
+    {
+      "text": "자,",
+      "start": 43.08,
+      "end": 43.24,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 43.44,
+      "end": 43.9,
+      "matched": true
+    },
+    {
+      "text": "거대한",
+      "start": 43.9,
+      "end": 44.56,
+      "matched": true
+    },
+    {
+      "text": "흐름",
+      "start": 44.56,
+      "end": 44.8,
+      "matched": true
+    },
+    {
+      "text": "속에서",
+      "start": 44.8,
+      "end": 45.22,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 45.22,
+      "end": 45.86,
+      "matched": true
+    },
+    {
+      "text": "투자",
+      "start": 45.86,
+      "end": 46.24,
+      "matched": true
+    },
+    {
+      "text": "기회를",
+      "start": 46.24,
+      "end": 46.56,
+      "matched": true
+    },
+    {
+      "text": "잡으려면",
+      "start": 46.56,
+      "end": 47.06,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 47.06,
+      "end": 47.48,
+      "matched": true
+    },
+    {
+      "text": "입체적인",
+      "start": 47.48,
+      "end": 48.24,
+      "matched": true
+    },
+    {
+      "text": "가치사슬을",
+      "start": 48.24,
+      "end": 49.02,
+      "matched": true
+    },
+    {
+      "text": "쭉",
+      "start": 49.02,
+      "end": 49.42,
+      "matched": true
+    },
+    {
+      "text": "훑어봐야",
+      "start": 49.42,
+      "end": 49.96,
+      "matched": true
+    },
+    {
+      "text": "하는데요.",
+      "start": 49.96,
+      "end": 50.28,
+      "matched": true
+    },
+    {
+      "text": "1번,",
+      "start": 51.0,
+      "end": 51.68,
+      "matched": true
+    },
+    {
+      "text": "AI가",
+      "start": 51.8,
+      "end": 52.58,
+      "matched": true
+    },
+    {
+      "text": "바꾼",
+      "start": 52.58,
+      "end": 53.08,
+      "matched": true
+    },
+    {
+      "text": "현대전부터",
+      "start": 53.08,
+      "end": 53.98,
+      "matched": true
+    },
+    {
+      "text": "클라우드와",
+      "start": 53.98,
+      "end": 55.26,
+      "matched": true
+    },
+    {
+      "text": "하드웨어,",
+      "start": 55.26,
+      "end": 56.22,
+      "matched": true
+    },
+    {
+      "text": "EDA,",
+      "start": 56.72,
+      "end": 57.14,
+      "matched": true
+    },
+    {
+      "text": "파운드리와",
+      "start": 57.62,
+      "end": 58.22,
+      "matched": true
+    },
+    {
+      "text": "HBM",
+      "start": 58.22,
+      "end": 58.82,
+      "matched": true
+    },
+    {
+      "text": "메모리,",
+      "start": 58.82,
+      "end": 59.22,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 59.38,
+      "end": 59.82,
+      "matched": true
+    },
+    {
+      "text": "마지막",
+      "start": 59.82,
+      "end": 60.2,
+      "matched": true
+    },
+    {
+      "text": "장기",
+      "start": 60.2,
+      "end": 60.88,
+      "matched": true
+    },
+    {
+      "text": "투자의",
+      "start": 60.88,
+      "end": 61.3,
+      "matched": true
+    },
+    {
+      "text": "철학까지",
+      "start": 61.3,
+      "end": 61.88,
+      "matched": true
+    },
+    {
+      "text": "순서대로",
+      "start": 61.88,
+      "end": 62.82,
+      "matched": true
+    },
+    {
+      "text": "빠르게",
+      "start": 62.82,
+      "end": 63.52,
+      "matched": true
+    },
+    {
+      "text": "짚어보겠습니다.",
+      "start": 63.52,
+      "end": 64.08,
+      "matched": true
+    },
+    {
+      "text": "첫",
+      "start": 64.46,
+      "end": 64.96,
+      "matched": true
+    },
+    {
+      "text": "번째,",
+      "start": 64.96,
+      "end": 65.28,
+      "matched": true
+    },
+    {
+      "text": "AI가",
+      "start": 65.94,
+      "end": 66.44,
+      "matched": true
+    },
+    {
+      "text": "바꾼",
+      "start": 66.44,
+      "end": 66.92,
+      "matched": true
+    },
+    {
+      "text": "현대전입니다.",
+      "start": 66.92,
+      "end": 68.12,
+      "matched": true
+    },
+    {
+      "text": "사슬의",
+      "start": 68.4,
+      "end": 69.1,
+      "matched": true
+    },
+    {
+      "text": "가장",
+      "start": 69.1,
+      "end": 69.28,
+      "matched": true
+    },
+    {
+      "text": "꼭대기부터",
+      "start": 69.28,
+      "end": 69.86,
+      "matched": true
+    },
+    {
+      "text": "보죠.",
+      "start": 69.86,
+      "end": 70.12,
+      "matched": true
+    },
+    {
+      "text": "이제",
+      "start": 70.34,
+      "end": 70.54,
+      "matched": true
+    },
+    {
+      "text": "AI는",
+      "start": 70.54,
+      "end": 71.18,
+      "matched": true
+    },
+    {
+      "text": "정말",
+      "start": 71.18,
+      "end": 71.54,
+      "matched": true
+    },
+    {
+      "text": "엄청나게",
+      "start": 71.54,
+      "end": 72.42,
+      "matched": true
+    },
+    {
+      "text": "중요한",
+      "start": 72.42,
+      "end": 72.94,
+      "matched": true
+    },
+    {
+      "text": "고위험",
+      "start": 72.94,
+      "end": 73.8,
+      "matched": true
+    },
+    {
+      "text": "인프라의",
+      "start": 73.8,
+      "end": 74.68,
+      "matched": true
+    },
+    {
+      "text": "핵심이",
+      "start": 74.68,
+      "end": 75.38,
+      "matched": true
+    },
+    {
+      "text": "돼버렸습니다.",
+      "start": 75.38,
+      "end": 75.94,
+      "matched": true
+    },
+    {
+      "text": "이게",
+      "start": 75.94,
+      "end": 76.74,
+      "matched": true
+    },
+    {
+      "text": "무슨",
+      "start": 76.74,
+      "end": 76.92,
+      "matched": true
+    },
+    {
+      "text": "말이냐면요.",
+      "start": 76.92,
+      "end": 77.58,
+      "matched": true
+    },
+    {
+      "text": "그래픽",
+      "start": 77.74,
+      "end": 78.42,
+      "matched": true
+    },
+    {
+      "text": "정보나",
+      "start": 78.42,
+      "end": 78.96,
+      "matched": true
+    },
+    {
+      "text": "CIA",
+      "start": 78.96,
+      "end": 79.42,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 79.42,
+      "end": 79.86,
+      "matched": true
+    },
+    {
+      "text": "정보기관의",
+      "start": 79.86,
+      "end": 80.8,
+      "matched": true
+    },
+    {
+      "text": "방대한",
+      "start": 80.8,
+      "end": 81.36,
+      "matched": true
+    },
+    {
+      "text": "데이터들을",
+      "start": 81.36,
+      "end": 81.88,
+      "matched": true
+    },
+    {
+      "text": "싹",
+      "start": 81.88,
+      "end": 82.0,
+      "matched": false
+    },
+    {
+      "text": "다",
+      "start": 81.88,
+      "end": 82.18,
+      "matched": true
+    },
+    {
+      "text": "모아서",
+      "start": 82.18,
+      "end": 82.62,
+      "matched": true
+    },
+    {
+      "text": "타겟을",
+      "start": 82.62,
+      "end": 83.38,
+      "matched": true
+    },
+    {
+      "text": "정확히",
+      "start": 83.38,
+      "end": 83.72,
+      "matched": true
+    },
+    {
+      "text": "짚어내는",
+      "start": 83.72,
+      "end": 84.22,
+      "matched": true
+    },
+    {
+      "text": "복잡한",
+      "start": 84.22,
+      "end": 84.96,
+      "matched": true
+    },
+    {
+      "text": "과정을",
+      "start": 84.96,
+      "end": 85.38,
+      "matched": true
+    },
+    {
+      "text": "AI가",
+      "start": 85.38,
+      "end": 86.16,
+      "matched": true
+    },
+    {
+      "text": "실시간으로",
+      "start": 86.16,
+      "end": 86.86,
+      "matched": true
+    },
+    {
+      "text": "막",
+      "start": 86.86,
+      "end": 87.12,
+      "matched": true
+    },
+    {
+      "text": "확률을",
+      "start": 87.12,
+      "end": 87.64,
+      "matched": true
+    },
+    {
+      "text": "계산하면서",
+      "start": 87.64,
+      "end": 88.12,
+      "matched": true
+    },
+    {
+      "text": "처리하고",
+      "start": 88.12,
+      "end": 88.54,
+      "matched": true
+    },
+    {
+      "text": "있다는",
+      "start": 88.54,
+      "end": 88.72,
+      "matched": true
+    },
+    {
+      "text": "거예요.",
+      "start": 88.72,
+      "end": 88.98,
+      "matched": true
+    },
+    {
+      "text": "전쟁의",
+      "start": 89.54,
+      "end": 89.98,
+      "matched": true
+    },
+    {
+      "text": "판도",
+      "start": 89.98,
+      "end": 90.28,
+      "matched": true
+    },
+    {
+      "text": "자체가",
+      "start": 90.28,
+      "end": 90.64,
+      "matched": true
+    },
+    {
+      "text": "완전히",
+      "start": 90.64,
+      "end": 91.06,
+      "matched": true
+    },
+    {
+      "text": "뒤집히고",
+      "start": 91.06,
+      "end": 91.48,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 91.48,
+      "end": 91.6,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 91.6,
+      "end": 91.88,
+      "matched": true
+    },
+    {
+      "text": "다음으로",
+      "start": 92.52,
+      "end": 92.98,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 92.98,
+      "end": 93.36,
+      "matched": true
+    },
+    {
+      "text": "번째,",
+      "start": 93.36,
+      "end": 93.76,
+      "matched": true
+    },
+    {
+      "text": "AI의",
+      "start": 94.14,
+      "end": 94.96,
+      "matched": true
+    },
+    {
+      "text": "허브인",
+      "start": 94.96,
+      "end": 95.4,
+      "matched": true
+    },
+    {
+      "text": "클라우드와",
+      "start": 95.4,
+      "end": 96.12,
+      "matched": true
+    },
+    {
+      "text": "하드웨어입니다.",
+      "start": 96.12,
+      "end": 97.0,
+      "matched": true
+    },
+    {
+      "text": "여기서",
+      "start": 97.56,
+      "end": 98.02,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 98.02,
+      "end": 98.52,
+      "matched": true
+    },
+    {
+      "text": "흥미로운",
+      "start": 98.52,
+      "end": 99.02,
+      "matched": true
+    },
+    {
+      "text": "게요.",
+      "start": 99.02,
+      "end": 99.28,
+      "matched": true
+    },
+    {
+      "text": "전장에서",
+      "start": 99.62,
+      "end": 100.24,
+      "matched": true
+    },
+    {
+      "text": "활약하는",
+      "start": 100.24,
+      "end": 100.78,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 100.78,
+      "end": 100.96,
+      "matched": true
+    },
+    {
+      "text": "AI가",
+      "start": 100.96,
+      "end": 101.52,
+      "matched": true
+    },
+    {
+      "text": "그냥",
+      "start": 101.52,
+      "end": 101.74,
+      "matched": true
+    },
+    {
+      "text": "허공에",
+      "start": 101.74,
+      "end": 102.3,
+      "matched": true
+    },
+    {
+      "text": "둥둥",
+      "start": 102.3,
+      "end": 102.68,
+      "matched": true
+    },
+    {
+      "text": "떠",
+      "start": 102.68,
+      "end": 102.8,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 102.8,
+      "end": 102.98,
+      "matched": true
+    },
+    {
+      "text": "게",
+      "start": 102.98,
+      "end": 103.12,
+      "matched": true
+    },
+    {
+      "text": "아니라는",
+      "start": 103.12,
+      "end": 103.52,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 103.52,
+      "end": 103.78,
+      "matched": true
+    },
+    {
+      "text": "AI의",
+      "start": 103.78,
+      "end": 104.72,
+      "matched": true
+    },
+    {
+      "text": "두뇌는",
+      "start": 104.72,
+      "end": 105.1,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 105.1,
+      "end": 105.34,
+      "matched": true
+    },
+    {
+      "text": "클라우드에",
+      "start": 105.34,
+      "end": 105.98,
+      "matched": true
+    },
+    {
+      "text": "살고",
+      "start": 105.98,
+      "end": 106.2,
+      "matched": true
+    },
+    {
+      "text": "있어요.",
+      "start": 106.2,
+      "end": 106.46,
+      "matched": true
+    },
+    {
+      "text": "딱",
+      "start": 106.7,
+      "end": 106.96,
+      "matched": true
+    },
+    {
+      "text": "짚어보자면",
+      "start": 106.96,
+      "end": 107.66,
+      "matched": true
+    },
+    {
+      "text": "아마존",
+      "start": 107.66,
+      "end": 108.28,
+      "matched": true
+    },
+    {
+      "text": "웹서비스,",
+      "start": 108.28,
+      "end": 108.94,
+      "matched": true
+    },
+    {
+      "text": "마이크로소프트",
+      "start": 109.28,
+      "end": 109.86,
+      "matched": true
+    },
+    {
+      "text": "애저,",
+      "start": 109.86,
+      "end": 110.16,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 110.42,
+      "end": 110.68,
+      "matched": true
+    },
+    {
+      "text": "구글",
+      "start": 110.68,
+      "end": 111.04,
+      "matched": true
+    },
+    {
+      "text": "클라우드죠.",
+      "start": 111.04,
+      "end": 111.58,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 112.02,
+      "end": 112.14,
+      "matched": true
+    },
+    {
+      "text": "세",
+      "start": 112.14,
+      "end": 112.22,
+      "matched": true
+    },
+    {
+      "text": "거대",
+      "start": 112.22,
+      "end": 112.56,
+      "matched": true
+    },
+    {
+      "text": "기업들이",
+      "start": 112.56,
+      "end": 112.98,
+      "matched": true
+    },
+    {
+      "text": "어마어마한",
+      "start": 112.98,
+      "end": 113.74,
+      "matched": true
+    },
+    {
+      "text": "전산",
+      "start": 113.74,
+      "end": 114.08,
+      "matched": true
+    },
+    {
+      "text": "서버를",
+      "start": 114.08,
+      "end": 114.4,
+      "matched": true
+    },
+    {
+      "text": "쫙",
+      "start": 114.4,
+      "end": 114.62,
+      "matched": true
+    },
+    {
+      "text": "깔아놓고",
+      "start": 114.62,
+      "end": 115.06,
+      "matched": true
+    },
+    {
+      "text": "이제는",
+      "start": 115.06,
+      "end": 115.96,
+      "matched": true
+    },
+    {
+      "text": "사실상",
+      "start": 115.96,
+      "end": 116.38,
+      "matched": true
+    },
+    {
+      "text": "현대판",
+      "start": 116.38,
+      "end": 116.88,
+      "matched": true
+    },
+    {
+      "text": "국방부",
+      "start": 116.88,
+      "end": 117.4,
+      "matched": true
+    },
+    {
+      "text": "하청업체",
+      "start": 117.4,
+      "end": 117.9,
+      "matched": true
+    },
+    {
+      "text": "역할까지",
+      "start": 117.9,
+      "end": 118.36,
+      "matched": true
+    },
+    {
+      "text": "빨아들이면서",
+      "start": 118.36,
+      "end": 119.04,
+      "matched": true
+    },
+    {
+      "text": "생태계",
+      "start": 119.04,
+      "end": 119.88,
+      "matched": true
+    },
+    {
+      "text": "전체를",
+      "start": 119.88,
+      "end": 120.32,
+      "matched": true
+    },
+    {
+      "text": "꽉",
+      "start": 120.32,
+      "end": 120.64,
+      "matched": true
+    },
+    {
+      "text": "쥐고",
+      "start": 120.64,
+      "end": 120.92,
+      "matched": true
+    },
+    {
+      "text": "흔드는",
+      "start": 120.92,
+      "end": 121.2,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 121.2,
+      "end": 121.5,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 121.92,
+      "end": 122.3,
+      "matched": true
+    },
+    {
+      "text": "생각해보세요.",
+      "start": 122.3,
+      "end": 122.98,
+      "matched": true
+    },
+    {
+      "text": "아무리",
+      "start": 123.32,
+      "end": 124.08,
+      "matched": true
+    },
+    {
+      "text": "머리가",
+      "start": 124.08,
+      "end": 124.48,
+      "matched": true
+    },
+    {
+      "text": "좋아도",
+      "start": 124.48,
+      "end": 124.84,
+      "matched": true
+    },
+    {
+      "text": "우리가",
+      "start": 124.84,
+      "end": 125.46,
+      "matched": true
+    },
+    {
+      "text": "그걸",
+      "start": 125.46,
+      "end": 125.72,
+      "matched": true
+    },
+    {
+      "text": "현장에서",
+      "start": 125.72,
+      "end": 126.3,
+      "matched": true
+    },
+    {
+      "text": "써먹을",
+      "start": 126.3,
+      "end": 126.78,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 126.78,
+      "end": 126.88,
+      "matched": true
+    },
+    {
+      "text": "있어야",
+      "start": 126.88,
+      "end": 127.14,
+      "matched": true
+    },
+    {
+      "text": "하잖아요?",
+      "start": 127.14,
+      "end": 127.54,
+      "matched": true
+    },
+    {
+      "text": "전장이든",
+      "start": 128.18,
+      "end": 129.02,
+      "matched": true
+    },
+    {
+      "text": "일상이든",
+      "start": 129.02,
+      "end": 129.8,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 129.8,
+      "end": 130.28,
+      "matched": true
+    },
+    {
+      "text": "똑똑한",
+      "start": 130.28,
+      "end": 130.86,
+      "matched": true
+    },
+    {
+      "text": "클라우드",
+      "start": 130.86,
+      "end": 131.42,
+      "matched": true
+    },
+    {
+      "text": "지능에",
+      "start": 131.42,
+      "end": 131.76,
+      "matched": true
+    },
+    {
+      "text": "접속하려면",
+      "start": 131.76,
+      "end": 132.44,
+      "matched": true
+    },
+    {
+      "text": "그걸",
+      "start": 132.44,
+      "end": 132.98,
+      "matched": true
+    },
+    {
+      "text": "받쳐주는",
+      "start": 132.98,
+      "end": 133.56,
+      "matched": true
+    },
+    {
+      "text": "하드웨어가",
+      "start": 133.56,
+      "end": 134.16,
+      "matched": true
+    },
+    {
+      "text": "필수적입니다.",
+      "start": 134.16,
+      "end": 134.84,
+      "matched": true
+    },
+    {
+      "text": "우리가",
+      "start": 135.26,
+      "end": 135.86,
+      "matched": true
+    },
+    {
+      "text": "쓰는",
+      "start": 135.86,
+      "end": 136.16,
+      "matched": true
+    },
+    {
+      "text": "애플",
+      "start": 136.16,
+      "end": 136.6,
+      "matched": true
+    },
+    {
+      "text": "디바이스나",
+      "start": 136.6,
+      "end": 137.26,
+      "matched": true
+    },
+    {
+      "text": "강력한",
+      "start": 137.26,
+      "end": 138.16,
+      "matched": true
+    },
+    {
+      "text": "서버",
+      "start": 138.16,
+      "end": 138.42,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 138.42,
+      "end": 138.64,
+      "matched": true
+    },
+    {
+      "text": "압도적인",
+      "start": 138.64,
+      "end": 139.46,
+      "matched": true
+    },
+    {
+      "text": "물리적",
+      "start": 139.46,
+      "end": 139.96,
+      "matched": true
+    },
+    {
+      "text": "장비들이",
+      "start": 139.96,
+      "end": 140.46,
+      "matched": true
+    },
+    {
+      "text": "꼭",
+      "start": 140.46,
+      "end": 140.76,
+      "matched": true
+    },
+    {
+      "text": "있어야",
+      "start": 140.76,
+      "end": 141.2,
+      "matched": true
+    },
+    {
+      "text": "한다는",
+      "start": 141.2,
+      "end": 141.52,
+      "matched": true
+    },
+    {
+      "text": "거죠.",
+      "start": 141.52,
+      "end": 141.76,
+      "matched": true
+    },
+    {
+      "text": "세",
+      "start": 142.44,
+      "end": 142.56,
+      "matched": true
+    },
+    {
+      "text": "번째,",
+      "start": 142.56,
+      "end": 143.06,
+      "matched": true
+    },
+    {
+      "text": "EDA.",
+      "start": 143.58,
+      "end": 144.04,
+      "matched": true
+    },
+    {
+      "text": "칩",
+      "start": 144.32,
+      "end": 144.72,
+      "matched": true
+    },
+    {
+      "text": "설계의",
+      "start": 144.72,
+      "end": 145.32,
+      "matched": true
+    },
+    {
+      "text": "절대",
+      "start": 145.32,
+      "end": 145.7,
+      "matched": true
+    },
+    {
+      "text": "권력입니다.",
+      "start": 145.7,
+      "end": 146.38,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 146.82,
+      "end": 147.2,
+      "matched": true
+    },
+    {
+      "text": "거대한",
+      "start": 147.2,
+      "end": 147.58,
+      "matched": true
+    },
+    {
+      "text": "생태계를",
+      "start": 147.58,
+      "end": 148.18,
+      "matched": true
+    },
+    {
+      "text": "돌리려면",
+      "start": 148.18,
+      "end": 148.88,
+      "matched": true
+    },
+    {
+      "text": "특수",
+      "start": 148.88,
+      "end": 149.56,
+      "matched": true
+    },
+    {
+      "text": "반도체",
+      "start": 149.56,
+      "end": 150.04,
+      "matched": true
+    },
+    {
+      "text": "칩이",
+      "start": 150.04,
+      "end": 150.4,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 150.4,
+      "end": 150.78,
+      "matched": true
+    },
+    {
+      "text": "산더미처럼",
+      "start": 150.78,
+      "end": 151.5,
+      "matched": true
+    },
+    {
+      "text": "필요한데요?",
+      "start": 151.5,
+      "end": 152.0,
+      "matched": true
+    },
+    {
+      "text": "여기서",
+      "start": 152.32,
+      "end": 152.72,
+      "matched": true
+    },
+    {
+      "text": "잊지",
+      "start": 152.72,
+      "end": 153.0,
+      "matched": true
+    },
+    {
+      "text": "말아야",
+      "start": 153.0,
+      "end": 153.34,
+      "matched": true
+    },
+    {
+      "text": "할",
+      "start": 153.34,
+      "end": 153.5,
+      "matched": true
+    },
+    {
+      "text": "게",
+      "start": 153.5,
+      "end": 153.64,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 153.64,
+      "end": 154.26,
+      "matched": true
+    },
+    {
+      "text": "반도체를",
+      "start": 154.26,
+      "end": 154.86,
+      "matched": true
+    },
+    {
+      "text": "만들려면",
+      "start": 154.86,
+      "end": 155.44,
+      "matched": true
+    },
+    {
+      "text": "설계도가",
+      "start": 155.44,
+      "end": 156.34,
+      "matched": true
+    },
+    {
+      "text": "필요하다는",
+      "start": 156.34,
+      "end": 156.76,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 156.76,
+      "end": 157.0,
+      "matched": true
+    },
+    {
+      "text": "애플이나",
+      "start": 157.0,
+      "end": 158.24,
+      "matched": true
+    },
+    {
+      "text": "엔비디아",
+      "start": 158.24,
+      "end": 158.62,
+      "matched": true
+    },
+    {
+      "text": "칩도",
+      "start": 158.62,
+      "end": 158.94,
+      "matched": true
+    },
+    {
+      "text": "공장에서",
+      "start": 158.94,
+      "end": 159.86,
+      "matched": true
+    },
+    {
+      "text": "만들어지기",
+      "start": 159.86,
+      "end": 160.4,
+      "matched": true
+    },
+    {
+      "text": "전에는",
+      "start": 160.4,
+      "end": 160.76,
+      "matched": true
+    },
+    {
+      "text": "전부",
+      "start": 160.76,
+      "end": 161.52,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 161.52,
+      "end": 161.64000000000001,
+      "matched": false
+    },
+    {
+      "text": "EDA라는",
+      "start": 161.52,
+      "end": 162.68,
+      "matched": true
+    },
+    {
+      "text": "소프트웨어로",
+      "start": 162.68,
+      "end": 163.34,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 163.34,
+      "end": 163.78,
+      "matched": true
+    },
+    {
+      "text": "정교하게",
+      "start": 163.78,
+      "end": 164.3,
+      "matched": true
+    },
+    {
+      "text": "그려져야",
+      "start": 164.3,
+      "end": 164.72,
+      "matched": true
+    },
+    {
+      "text": "하거든요.",
+      "start": 164.72,
+      "end": 165.08,
+      "matched": true
+    },
+    {
+      "text": "만약에",
+      "start": 165.72,
+      "end": 166.58,
+      "matched": true
+    },
+    {
+      "text": "어느",
+      "start": 166.58,
+      "end": 167.16,
+      "matched": true
+    },
+    {
+      "text": "날",
+      "start": 167.16,
+      "end": 167.28,
+      "matched": true
+    },
+    {
+      "text": "갑자기",
+      "start": 167.28,
+      "end": 167.64,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 167.64,
+      "end": 168.08,
+      "matched": true
+    },
+    {
+      "text": "EDA",
+      "start": 168.08,
+      "end": 168.52,
+      "matched": true
+    },
+    {
+      "text": "툴이",
+      "start": 168.52,
+      "end": 168.88,
+      "matched": true
+    },
+    {
+      "text": "세상에서",
+      "start": 168.88,
+      "end": 169.66,
+      "matched": true
+    },
+    {
+      "text": "뿅",
+      "start": 169.66,
+      "end": 169.9,
+      "matched": true
+    },
+    {
+      "text": "하고",
+      "start": 169.9,
+      "end": 170.12,
+      "matched": true
+    },
+    {
+      "text": "사라진다면",
+      "start": 170.12,
+      "end": 170.64,
+      "matched": true
+    },
+    {
+      "text": "장담하건대",
+      "start": 170.64,
+      "end": 171.7,
+      "matched": true
+    },
+    {
+      "text": "전",
+      "start": 171.7,
+      "end": 172.3,
+      "matched": true
+    },
+    {
+      "text": "세계",
+      "start": 172.3,
+      "end": 172.56,
+      "matched": true
+    },
+    {
+      "text": "기술",
+      "start": 172.56,
+      "end": 173.28,
+      "matched": true
+    },
+    {
+      "text": "산업은",
+      "start": 172.56,
+      "end": 173.28,
+      "matched": true
+    },
+    {
+      "text": "그날로",
+      "start": 173.28,
+      "end": 173.74,
+      "matched": true
+    },
+    {
+      "text": "당장",
+      "start": 173.74,
+      "end": 174.34,
+      "matched": true
+    },
+    {
+      "text": "1970년대로",
+      "start": 174.34,
+      "end": 175.54,
+      "matched": true
+    },
+    {
+      "text": "훅",
+      "start": 175.54,
+      "end": 175.84,
+      "matched": true
+    },
+    {
+      "text": "뒷걸음질",
+      "start": 175.84,
+      "end": 176.44,
+      "matched": true
+    },
+    {
+      "text": "칠",
+      "start": 176.44,
+      "end": 176.62,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 176.62,
+      "end": 176.88,
+      "matched": true
+    },
+    {
+      "text": "절대",
+      "start": 177.38,
+      "end": 177.72,
+      "matched": true
+    },
+    {
+      "text": "없어서는",
+      "start": 177.72,
+      "end": 178.14,
+      "matched": true
+    },
+    {
+      "text": "안",
+      "start": 178.14,
+      "end": 178.24,
+      "matched": true
+    },
+    {
+      "text": "되는",
+      "start": 178.24,
+      "end": 178.38,
+      "matched": true
+    },
+    {
+      "text": "거죠?",
+      "start": 178.38,
+      "end": 178.62,
+      "matched": true
+    },
+    {
+      "text": "시장",
+      "start": 178.98,
+      "end": 179.62,
+      "matched": true
+    },
+    {
+      "text": "상황을",
+      "start": 179.62,
+      "end": 179.98,
+      "matched": true
+    },
+    {
+      "text": "좀",
+      "start": 179.98,
+      "end": 180.08,
+      "matched": true
+    },
+    {
+      "text": "볼까요?",
+      "start": 180.08,
+      "end": 180.48,
+      "matched": true
+    },
+    {
+      "text": "미국의",
+      "start": 180.48,
+      "end": 181.48,
+      "matched": true
+    },
+    {
+      "text": "시놉시스",
+      "start": 181.48,
+      "end": 182.12,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 182.12,
+      "end": 182.38,
+      "matched": true
+    },
+    {
+      "text": "케이던스라는",
+      "start": 182.38,
+      "end": 183.12,
+      "matched": true
+    },
+    {
+      "text": "기업이",
+      "start": 183.12,
+      "end": 183.6,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 183.6,
+      "end": 184.08,
+      "matched": true
+    },
+    {
+      "text": "설계",
+      "start": 184.08,
+      "end": 184.36,
+      "matched": true
+    },
+    {
+      "text": "툴",
+      "start": 184.36,
+      "end": 184.58,
+      "matched": true
+    },
+    {
+      "text": "시장을",
+      "start": 184.58,
+      "end": 184.98,
+      "matched": true
+    },
+    {
+      "text": "말",
+      "start": 184.98,
+      "end": 185.36,
+      "matched": true
+    },
+    {
+      "text": "그대로",
+      "start": 185.36,
+      "end": 185.58,
+      "matched": true
+    },
+    {
+      "text": "꽉",
+      "start": 185.58,
+      "end": 185.96,
+      "matched": true
+    },
+    {
+      "text": "잡고",
+      "start": 185.96,
+      "end": 186.32,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 186.32,
+      "end": 186.62,
+      "matched": true
+    },
+    {
+      "text": "완전한",
+      "start": 187.04,
+      "end": 187.86,
+      "matched": true
+    },
+    {
+      "text": "글로벌",
+      "start": 187.86,
+      "end": 188.36,
+      "matched": true
+    },
+    {
+      "text": "독점",
+      "start": 188.36,
+      "end": 188.72,
+      "matched": true
+    },
+    {
+      "text": "체제예요.",
+      "start": 188.72,
+      "end": 189.2,
+      "matched": true
+    },
+    {
+      "text": "중국이",
+      "start": 189.74,
+      "end": 190.32,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 190.32,
+      "end": 190.7,
+      "matched": true
+    },
+    {
+      "text": "반도체",
+      "start": 190.7,
+      "end": 191.16,
+      "matched": true
+    },
+    {
+      "text": "독립하겠다고",
+      "start": 191.16,
+      "end": 191.94,
+      "matched": true
+    },
+    {
+      "text": "막",
+      "start": 191.94,
+      "end": 192.54,
+      "matched": true
+    },
+    {
+      "text": "어마어마하게",
+      "start": 192.54,
+      "end": 193.3,
+      "matched": true
+    },
+    {
+      "text": "돈을",
+      "start": 193.3,
+      "end": 193.58,
+      "matched": true
+    },
+    {
+      "text": "쏟아붓고",
+      "start": 193.58,
+      "end": 194.0,
+      "matched": true
+    },
+    {
+      "text": "있잖아요.",
+      "start": 194.0,
+      "end": 194.26,
+      "matched": true
+    },
+    {
+      "text": "그런데도",
+      "start": 194.86,
+      "end": 195.26,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 195.26,
+      "end": 195.62,
+      "matched": true
+    },
+    {
+      "text": "분야",
+      "start": 195.62,
+      "end": 195.9,
+      "matched": true
+    },
+    {
+      "text": "점유율은",
+      "start": 195.9,
+      "end": 196.36,
+      "matched": true
+    },
+    {
+      "text": "1%",
+      "start": 196.36,
+      "end": 196.62,
+      "matched": true
+    },
+    {
+      "text": "남짓입니다.",
+      "start": 196.92,
+      "end": 197.52,
+      "matched": true
+    },
+    {
+      "text": "격차가",
+      "start": 198.12,
+      "end": 198.6,
+      "matched": true
+    },
+    {
+      "text": "정말",
+      "start": 198.6,
+      "end": 198.8,
+      "matched": true
+    },
+    {
+      "text": "어마어마하죠?",
+      "start": 198.8,
+      "end": 199.68,
+      "matched": true
+    },
+    {
+      "text": "더",
+      "start": 200.04,
+      "end": 200.48,
+      "matched": true
+    },
+    {
+      "text": "무서운",
+      "start": 200.48,
+      "end": 200.88,
+      "matched": true
+    },
+    {
+      "text": "건요.",
+      "start": 200.88,
+      "end": 201.24,
+      "matched": true
+    },
+    {
+      "text": "1등인",
+      "start": 201.56,
+      "end": 202.26,
+      "matched": true
+    },
+    {
+      "text": "시놉시스가",
+      "start": 202.26,
+      "end": 202.94,
+      "matched": true
+    },
+    {
+      "text": "여기서",
+      "start": 202.94,
+      "end": 203.48,
+      "matched": true
+    },
+    {
+      "text": "멈출",
+      "start": 203.48,
+      "end": 204.02,
+      "matched": true
+    },
+    {
+      "text": "생각이",
+      "start": 204.02,
+      "end": 204.32,
+      "matched": true
+    },
+    {
+      "text": "전혀",
+      "start": 204.32,
+      "end": 204.7,
+      "matched": true
+    },
+    {
+      "text": "없다는",
+      "start": 204.7,
+      "end": 205.0,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 205.0,
+      "end": 205.22,
+      "matched": true
+    },
+    {
+      "text": "최근에",
+      "start": 205.82,
+      "end": 206.2,
+      "matched": true
+    },
+    {
+      "text": "앤시스라는",
+      "start": 206.2,
+      "end": 206.86,
+      "matched": true
+    },
+    {
+      "text": "기업을",
+      "start": 206.86,
+      "end": 207.32,
+      "matched": true
+    },
+    {
+      "text": "무려",
+      "start": 207.32,
+      "end": 207.78,
+      "matched": true
+    },
+    {
+      "text": "45조",
+      "start": 207.78,
+      "end": 208.58,
+      "matched": true
+    },
+    {
+      "text": "원이나",
+      "start": 208.58,
+      "end": 208.86,
+      "matched": true
+    },
+    {
+      "text": "주고",
+      "start": 208.86,
+      "end": 209.06,
+      "matched": true
+    },
+    {
+      "text": "인수해버렸어요.",
+      "start": 209.06,
+      "end": 209.78,
+      "matched": true
+    },
+    {
+      "text": "시장",
+      "start": 209.78,
+      "end": 210.42,
+      "matched": true
+    },
+    {
+      "text": "장악력을",
+      "start": 210.42,
+      "end": 210.98,
+      "matched": true
+    },
+    {
+      "text": "그야말로",
+      "start": 210.98,
+      "end": 211.44,
+      "matched": true
+    },
+    {
+      "text": "폭발적으로",
+      "start": 211.44,
+      "end": 211.98,
+      "matched": true
+    },
+    {
+      "text": "늘리는",
+      "start": 211.98,
+      "end": 212.34,
+      "matched": true
+    },
+    {
+      "text": "중이죠.",
+      "start": 212.34,
+      "end": 212.68,
+      "matched": true
+    },
+    {
+      "text": "거기다",
+      "start": 213.12,
+      "end": 213.36,
+      "matched": true
+    },
+    {
+      "text": "이제는",
+      "start": 213.36,
+      "end": 213.86,
+      "matched": true
+    },
+    {
+      "text": "AI를",
+      "start": 213.86,
+      "end": 214.6,
+      "matched": true
+    },
+    {
+      "text": "써서",
+      "start": 214.6,
+      "end": 215.0,
+      "matched": true
+    },
+    {
+      "text": "자기들의",
+      "start": 215.0,
+      "end": 215.74,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 215.74,
+      "end": 216.12,
+      "matched": true
+    },
+    {
+      "text": "칩",
+      "start": 216.12,
+      "end": 216.42,
+      "matched": true
+    },
+    {
+      "text": "설계",
+      "start": 216.42,
+      "end": 216.76,
+      "matched": true
+    },
+    {
+      "text": "툴을",
+      "start": 216.76,
+      "end": 217.04,
+      "matched": true
+    },
+    {
+      "text": "더",
+      "start": 217.04,
+      "end": 217.18,
+      "matched": true
+    },
+    {
+      "text": "똑똑하게",
+      "start": 217.18,
+      "end": 217.76,
+      "matched": true
+    },
+    {
+      "text": "진화시키고",
+      "start": 217.76,
+      "end": 218.34,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 218.34,
+      "end": 218.58,
+      "matched": true
+    },
+    {
+      "text": "이거",
+      "start": 219.06,
+      "end": 219.28,
+      "matched": true
+    },
+    {
+      "text": "완전히",
+      "start": 219.28,
+      "end": 220.0,
+      "matched": true
+    },
+    {
+      "text": "전교",
+      "start": 220.0,
+      "end": 220.56,
+      "matched": true
+    },
+    {
+      "text": "1등이",
+      "start": 220.56,
+      "end": 221.16,
+      "matched": true
+    },
+    {
+      "text": "밤새면서",
+      "start": 221.16,
+      "end": 221.92,
+      "matched": true
+    },
+    {
+      "text": "코피",
+      "start": 221.92,
+      "end": 222.3,
+      "matched": true
+    },
+    {
+      "text": "터지게",
+      "start": 222.3,
+      "end": 222.66,
+      "matched": true
+    },
+    {
+      "text": "공부까지",
+      "start": 222.66,
+      "end": 223.18,
+      "matched": true
+    },
+    {
+      "text": "하는",
+      "start": 223.18,
+      "end": 223.4,
+      "matched": true
+    },
+    {
+      "text": "격이라니까요.",
+      "start": 223.4,
+      "end": 224.0,
+      "matched": true
+    },
+    {
+      "text": "네",
+      "start": 224.52,
+      "end": 224.64,
+      "matched": true
+    },
+    {
+      "text": "번째,",
+      "start": 224.64,
+      "end": 224.94,
+      "matched": true
+    },
+    {
+      "text": "파운드리와",
+      "start": 225.24,
+      "end": 225.78,
+      "matched": true
+    },
+    {
+      "text": "HBM",
+      "start": 225.78,
+      "end": 226.58,
+      "matched": true
+    },
+    {
+      "text": "메모리입니다.",
+      "start": 226.58,
+      "end": 227.22,
+      "matched": true
+    },
+    {
+      "text": "설계도까지",
+      "start": 227.66,
+      "end": 228.58,
+      "matched": true
+    },
+    {
+      "text": "봤으니",
+      "start": 228.58,
+      "end": 229.16,
+      "matched": true
+    },
+    {
+      "text": "이제",
+      "start": 229.16,
+      "end": 229.6,
+      "matched": true
+    },
+    {
+      "text": "이걸",
+      "start": 229.6,
+      "end": 230.06,
+      "matched": true
+    },
+    {
+      "text": "진짜로",
+      "start": 230.06,
+      "end": 230.66,
+      "matched": true
+    },
+    {
+      "text": "찍어내는",
+      "start": 230.66,
+      "end": 231.32,
+      "matched": true
+    },
+    {
+      "text": "대장간",
+      "start": 231.32,
+      "end": 231.98,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 232.22,
+      "end": 232.52,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 232.52,
+      "end": 233.24,
+      "matched": true
+    },
+    {
+      "text": "엔진에",
+      "start": 233.24,
+      "end": 233.72,
+      "matched": true
+    },
+    {
+      "text": "들어가는",
+      "start": 233.72,
+      "end": 234.18,
+      "matched": true
+    },
+    {
+      "text": "연료",
+      "start": 234.18,
+      "end": 234.66,
+      "matched": true
+    },
+    {
+      "text": "얘기를",
+      "start": 234.66,
+      "end": 234.82,
+      "matched": true
+    },
+    {
+      "text": "해보죠.",
+      "start": 234.82,
+      "end": 235.3,
+      "matched": true
+    },
+    {
+      "text": "처음에",
+      "start": 235.3,
+      "end": 236.32,
+      "matched": true
+    },
+    {
+      "text": "ChatGPT가",
+      "start": 236.68,
+      "end": 237.04,
+      "matched": true
+    },
+    {
+      "text": "딱",
+      "start": 237.04,
+      "end": 237.18,
+      "matched": true
+    },
+    {
+      "text": "나와서",
+      "start": 237.18,
+      "end": 237.62,
+      "matched": true
+    },
+    {
+      "text": "세상을",
+      "start": 237.62,
+      "end": 238.02,
+      "matched": true
+    },
+    {
+      "text": "뒤집어놨을",
+      "start": 238.02,
+      "end": 238.82,
+      "matched": true
+    },
+    {
+      "text": "때",
+      "start": 238.82,
+      "end": 238.98,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 238.98,
+      "end": 239.72,
+      "matched": true
+    },
+    {
+      "text": "큰",
+      "start": 239.72,
+      "end": 239.98,
+      "matched": true
+    },
+    {
+      "text": "문제가",
+      "start": 239.98,
+      "end": 240.36,
+      "matched": true
+    },
+    {
+      "text": "하나",
+      "start": 240.36,
+      "end": 240.54,
+      "matched": true
+    },
+    {
+      "text": "터졌습니다.",
+      "start": 240.54,
+      "end": 241.14,
+      "matched": true
+    },
+    {
+      "text": "기존에",
+      "start": 241.34,
+      "end": 242.06,
+      "matched": true
+    },
+    {
+      "text": "쓰던",
+      "start": 242.06,
+      "end": 242.32,
+      "matched": true
+    },
+    {
+      "text": "일반",
+      "start": 242.32,
+      "end": 242.68,
+      "matched": true
+    },
+    {
+      "text": "메모리",
+      "start": 242.68,
+      "end": 243.02,
+      "matched": true
+    },
+    {
+      "text": "칩은",
+      "start": 243.02,
+      "end": 243.36,
+      "matched": true
+    },
+    {
+      "text": "속도가",
+      "start": 243.36,
+      "end": 243.76,
+      "matched": true
+    },
+    {
+      "text": "너무",
+      "start": 243.76,
+      "end": 243.98,
+      "matched": true
+    },
+    {
+      "text": "느려서",
+      "start": 243.98,
+      "end": 244.32,
+      "matched": true
+    },
+    {
+      "text": "데이터",
+      "start": 244.32,
+      "end": 244.94,
+      "matched": true
+    },
+    {
+      "text": "병목",
+      "start": 244.94,
+      "end": 245.32,
+      "matched": true
+    },
+    {
+      "text": "현상이",
+      "start": 245.32,
+      "end": 245.7,
+      "matched": true
+    },
+    {
+      "text": "생겨버린",
+      "start": 245.7,
+      "end": 246.16,
+      "matched": true
+    },
+    {
+      "text": "거예요.",
+      "start": 246.16,
+      "end": 246.38,
+      "matched": true
+    },
+    {
+      "text": "그래서",
+      "start": 246.7,
+      "end": 247.26,
+      "matched": true
+    },
+    {
+      "text": "엔비디아",
+      "start": 247.26,
+      "end": 247.8,
+      "matched": true
+    },
+    {
+      "text": "GPU가",
+      "start": 247.8,
+      "end": 248.34,
+      "matched": true
+    },
+    {
+      "text": "제값을",
+      "start": 248.34,
+      "end": 248.94,
+      "matched": true
+    },
+    {
+      "text": "하려면",
+      "start": 248.94,
+      "end": 249.36,
+      "matched": true
+    },
+    {
+      "text": "데이터를",
+      "start": 249.36,
+      "end": 250.2,
+      "matched": true
+    },
+    {
+      "text": "엄청난",
+      "start": 250.2,
+      "end": 250.76,
+      "matched": true
+    },
+    {
+      "text": "속도로",
+      "start": 250.76,
+      "end": 251.14,
+      "matched": true
+    },
+    {
+      "text": "팍팍",
+      "start": 251.14,
+      "end": 251.54,
+      "matched": true
+    },
+    {
+      "text": "퍼다",
+      "start": 251.54,
+      "end": 251.8,
+      "matched": true
+    },
+    {
+      "text": "나를",
+      "start": 251.8,
+      "end": 252.04,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 252.04,
+      "end": 252.2,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 252.2,
+      "end": 252.46,
+      "matched": true
+    },
+    {
+      "text": "HBM",
+      "start": 252.46,
+      "end": 253.14,
+      "matched": true
+    },
+    {
+      "text": "그러니까",
+      "start": 253.4,
+      "end": 253.82,
+      "matched": true
+    },
+    {
+      "text": "고대역폭",
+      "start": 253.82,
+      "end": 254.7,
+      "matched": true
+    },
+    {
+      "text": "메모리가",
+      "start": 254.7,
+      "end": 255.12,
+      "matched": true
+    },
+    {
+      "text": "무조건적인",
+      "start": 255.12,
+      "end": 255.92,
+      "matched": true
+    },
+    {
+      "text": "필수",
+      "start": 255.92,
+      "end": 256.36,
+      "matched": true
+    },
+    {
+      "text": "연료로",
+      "start": 256.36,
+      "end": 256.86,
+      "matched": true
+    },
+    {
+      "text": "등극한",
+      "start": 256.86,
+      "end": 257.32,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 257.32,
+      "end": 257.58,
+      "matched": true
+    },
+    {
+      "text": "다행히도",
+      "start": 257.58,
+      "end": 258.52,
+      "matched": true
+    },
+    {
+      "text": "우리나라가",
+      "start": 258.52,
+      "end": 259.2,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 259.2,
+      "end": 259.48,
+      "matched": true
+    },
+    {
+      "text": "핵심",
+      "start": 259.48,
+      "end": 259.86,
+      "matched": true
+    },
+    {
+      "text": "시장을",
+      "start": 259.86,
+      "end": 260.24,
+      "matched": true
+    },
+    {
+      "text": "꽉",
+      "start": 260.24,
+      "end": 260.62,
+      "matched": true
+    },
+    {
+      "text": "쥐고",
+      "start": 260.62,
+      "end": 260.92,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 260.92,
+      "end": 261.28,
+      "matched": true
+    },
+    {
+      "text": "SK하이넥스가",
+      "start": 261.94,
+      "end": 262.68,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 262.68,
+      "end": 262.88,
+      "matched": true
+    },
+    {
+      "text": "깐깐하다는",
+      "start": 262.88,
+      "end": 263.56,
+      "matched": true
+    },
+    {
+      "text": "엔비디아",
+      "start": 263.56,
+      "end": 264.14,
+      "matched": true
+    },
+    {
+      "text": "기준을",
+      "start": 264.14,
+      "end": 264.62,
+      "matched": true
+    },
+    {
+      "text": "제일",
+      "start": 264.62,
+      "end": 264.92,
+      "matched": true
+    },
+    {
+      "text": "먼저",
+      "start": 264.92,
+      "end": 265.2,
+      "matched": true
+    },
+    {
+      "text": "통과하면서",
+      "start": 265.2,
+      "end": 265.82,
+      "matched": true
+    },
+    {
+      "text": "절반인",
+      "start": 265.82,
+      "end": 266.74,
+      "matched": true
+    },
+    {
+      "text": "50%를",
+      "start": 266.74,
+      "end": 267.52,
+      "matched": true
+    },
+    {
+      "text": "딱",
+      "start": 267.52,
+      "end": 267.74,
+      "matched": true
+    },
+    {
+      "text": "차지했고요.",
+      "start": 267.74,
+      "end": 268.3,
+      "matched": true
+    },
+    {
+      "text": "삼성전자도",
+      "start": 268.76,
+      "end": 269.5,
+      "matched": true
+    },
+    {
+      "text": "가만히",
+      "start": 269.5,
+      "end": 269.86,
+      "matched": true
+    },
+    {
+      "text": "있지",
+      "start": 269.86,
+      "end": 270.0,
+      "matched": true
+    },
+    {
+      "text": "않죠.",
+      "start": 270.0,
+      "end": 270.3,
+      "matched": true
+    },
+    {
+      "text": "CXL이나",
+      "start": 270.7,
+      "end": 271.5,
+      "matched": true
+    },
+    {
+      "text": "PIM",
+      "start": 271.5,
+      "end": 271.8,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 271.8,
+      "end": 272.06,
+      "matched": true
+    },
+    {
+      "text": "차세대",
+      "start": 272.06,
+      "end": 272.56,
+      "matched": true
+    },
+    {
+      "text": "신기술들을",
+      "start": 272.56,
+      "end": 273.2,
+      "matched": true
+    },
+    {
+      "text": "무기로",
+      "start": 273.2,
+      "end": 273.52,
+      "matched": true
+    },
+    {
+      "text": "엄청나게",
+      "start": 273.52,
+      "end": 274.38,
+      "matched": true
+    },
+    {
+      "text": "맹추격",
+      "start": 274.38,
+      "end": 274.86,
+      "matched": true
+    },
+    {
+      "text": "중입니다.",
+      "start": 274.86,
+      "end": 275.28,
+      "matched": true
+    },
+    {
+      "text": "아",
+      "start": 275.76,
+      "end": 275.86,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 276.02,
+      "end": 276.06,
+      "matched": true
+    },
+    {
+      "text": "여기에",
+      "start": 276.06,
+      "end": 276.38,
+      "matched": true
+    },
+    {
+      "text": "미국",
+      "start": 276.38,
+      "end": 276.68,
+      "matched": true
+    },
+    {
+      "text": "정부가",
+      "start": 276.68,
+      "end": 277.1,
+      "matched": true
+    },
+    {
+      "text": "든든하게",
+      "start": 277.1,
+      "end": 277.6,
+      "matched": true
+    },
+    {
+      "text": "밀어주고",
+      "start": 277.6,
+      "end": 278.02,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 278.02,
+      "end": 278.22,
+      "matched": true
+    },
+    {
+      "text": "일종의",
+      "start": 278.22,
+      "end": 278.88,
+      "matched": true
+    },
+    {
+      "text": "구명정,",
+      "start": 278.88,
+      "end": 279.42,
+      "matched": true
+    },
+    {
+      "text": "마이크론도",
+      "start": 279.8,
+      "end": 280.36,
+      "matched": true
+    },
+    {
+      "text": "10%",
+      "start": 280.36,
+      "end": 280.58,
+      "matched": true
+    },
+    {
+      "text": "점유율을",
+      "start": 280.88,
+      "end": 281.38,
+      "matched": true
+    },
+    {
+      "text": "차지하면서",
+      "start": 281.38,
+      "end": 281.9,
+      "matched": true
+    },
+    {
+      "text": "바짝",
+      "start": 281.9,
+      "end": 282.6,
+      "matched": true
+    },
+    {
+      "text": "따라",
+      "start": 282.6,
+      "end": 282.76,
+      "matched": true
+    },
+    {
+      "text": "붙고",
+      "start": 282.76,
+      "end": 283.02,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 283.02,
+      "end": 283.3,
+      "matched": true
+    },
+    {
+      "text": "자",
+      "start": 283.3,
+      "end": 284.32,
+      "matched": true
+    },
+    {
+      "text": "설계도",
+      "start": 284.72,
+      "end": 284.96,
+      "matched": true
+    },
+    {
+      "text": "챙겼고",
+      "start": 284.96,
+      "end": 285.46,
+      "matched": true
+    },
+    {
+      "text": "연료도",
+      "start": 285.46,
+      "end": 286.18,
+      "matched": true
+    },
+    {
+      "text": "챙겼으니",
+      "start": 286.18,
+      "end": 286.86,
+      "matched": true
+    },
+    {
+      "text": "이제",
+      "start": 286.86,
+      "end": 287.38,
+      "matched": true
+    },
+    {
+      "text": "칩을",
+      "start": 287.38,
+      "end": 287.76,
+      "matched": true
+    },
+    {
+      "text": "만들어야죠.",
+      "start": 287.76,
+      "end": 288.38,
+      "matched": true
+    },
+    {
+      "text": "뉴스",
+      "start": 288.84,
+      "end": 289.28,
+      "matched": true
+    },
+    {
+      "text": "보면",
+      "start": 289.28,
+      "end": 289.56,
+      "matched": true
+    },
+    {
+      "text": "지정학적",
+      "start": 289.56,
+      "end": 290.54,
+      "matched": true
+    },
+    {
+      "text": "문제",
+      "start": 290.54,
+      "end": 290.8,
+      "matched": true
+    },
+    {
+      "text": "때문에",
+      "start": 290.8,
+      "end": 291.3,
+      "matched": true
+    },
+    {
+      "text": "인텔이나",
+      "start": 291.3,
+      "end": 292.28,
+      "matched": true
+    },
+    {
+      "text": "삼성전자가",
+      "start": 292.28,
+      "end": 293.14,
+      "matched": true
+    },
+    {
+      "text": "반사익을",
+      "start": 293.14,
+      "end": 293.9,
+      "matched": true
+    },
+    {
+      "text": "얻을",
+      "start": 293.9,
+      "end": 294.14,
+      "matched": true
+    },
+    {
+      "text": "거라는",
+      "start": 294.14,
+      "end": 294.46,
+      "matched": true
+    },
+    {
+      "text": "정치적",
+      "start": 294.46,
+      "end": 295.08,
+      "matched": true
+    },
+    {
+      "text": "노이즈들이",
+      "start": 295.08,
+      "end": 295.56,
+      "matched": true
+    },
+    {
+      "text": "참",
+      "start": 295.56,
+      "end": 295.7,
+      "matched": true
+    },
+    {
+      "text": "많은데요.",
+      "start": 295.7,
+      "end": 296.26,
+      "matched": true
+    },
+    {
+      "text": "현실을",
+      "start": 296.48,
+      "end": 297.26,
+      "matched": true
+    },
+    {
+      "text": "냉정하게",
+      "start": 297.26,
+      "end": 297.82,
+      "matched": true
+    },
+    {
+      "text": "봐야",
+      "start": 297.82,
+      "end": 298.02,
+      "matched": true
+    },
+    {
+      "text": "합니다.",
+      "start": 298.02,
+      "end": 298.24,
+      "matched": true
+    },
+    {
+      "text": "대만",
+      "start": 298.84,
+      "end": 299.16,
+      "matched": true
+    },
+    {
+      "text": "TSMC가",
+      "start": 299.16,
+      "end": 299.84,
+      "matched": true
+    },
+    {
+      "text": "쌓아둔",
+      "start": 299.84,
+      "end": 300.26,
+      "matched": true
+    },
+    {
+      "text": "반도체",
+      "start": 300.26,
+      "end": 300.82,
+      "matched": true
+    },
+    {
+      "text": "설계",
+      "start": 300.82,
+      "end": 301.1,
+      "matched": true
+    },
+    {
+      "text": "자산,",
+      "start": 301.1,
+      "end": 301.44,
+      "matched": true
+    },
+    {
+      "text": "생태계는",
+      "start": 301.58,
+      "end": 302.12,
+      "matched": true
+    },
+    {
+      "text": "정말",
+      "start": 302.12,
+      "end": 302.44,
+      "matched": true
+    },
+    {
+      "text": "타의",
+      "start": 302.44,
+      "end": 302.84,
+      "matched": true
+    },
+    {
+      "text": "추종을",
+      "start": 302.84,
+      "end": 303.2,
+      "matched": true
+    },
+    {
+      "text": "불허하거든요.",
+      "start": 303.2,
+      "end": 303.7,
+      "matched": true
+    },
+    {
+      "text": "애플이나",
+      "start": 304.34,
+      "end": 304.88,
+      "matched": true
+    },
+    {
+      "text": "구글",
+      "start": 304.88,
+      "end": 305.24,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 305.24,
+      "end": 305.42,
+      "matched": true
+    },
+    {
+      "text": "거물들이",
+      "start": 305.42,
+      "end": 306.04,
+      "matched": true
+    },
+    {
+      "text": "리스크",
+      "start": 306.04,
+      "end": 306.82,
+      "matched": true
+    },
+    {
+      "text": "감소",
+      "start": 306.82,
+      "end": 307.1,
+      "matched": true
+    },
+    {
+      "text": "안",
+      "start": 307.1,
+      "end": 307.28,
+      "matched": true
+    },
+    {
+      "text": "하고",
+      "start": 307.28,
+      "end": 307.48,
+      "matched": true
+    },
+    {
+      "text": "그냥",
+      "start": 307.48,
+      "end": 307.82,
+      "matched": true
+    },
+    {
+      "text": "TSMC에",
+      "start": 307.82,
+      "end": 308.56,
+      "matched": true
+    },
+    {
+      "text": "전적으로",
+      "start": 308.56,
+      "end": 309.08,
+      "matched": true
+    },
+    {
+      "text": "제조를",
+      "start": 309.08,
+      "end": 309.48,
+      "matched": true
+    },
+    {
+      "text": "맡기는",
+      "start": 309.48,
+      "end": 309.86,
+      "matched": true
+    },
+    {
+      "text": "데는",
+      "start": 309.86,
+      "end": 310.18,
+      "matched": true
+    },
+    {
+      "text": "다",
+      "start": 310.18,
+      "end": 310.64,
+      "matched": true
+    },
+    {
+      "text": "그만한",
+      "start": 310.64,
+      "end": 311.1,
+      "matched": true
+    },
+    {
+      "text": "생태계",
+      "start": 311.1,
+      "end": 311.48,
+      "matched": true
+    },
+    {
+      "text": "장벽과",
+      "start": 311.48,
+      "end": 312.0,
+      "matched": true
+    },
+    {
+      "text": "이유가",
+      "start": 312.0,
+      "end": 312.38,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 312.38,
+      "end": 312.56,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 312.56,
+      "end": 312.86,
+      "matched": true
+    },
+    {
+      "text": "마지막",
+      "start": 313.3,
+      "end": 314.04,
+      "matched": true
+    },
+    {
+      "text": "다섯",
+      "start": 314.04,
+      "end": 314.38,
+      "matched": true
+    },
+    {
+      "text": "번째,",
+      "start": 314.38,
+      "end": 314.76,
+      "matched": true
+    },
+    {
+      "text": "장기",
+      "start": 315.04,
+      "end": 315.54,
+      "matched": true
+    },
+    {
+      "text": "투자의",
+      "start": 315.54,
+      "end": 315.96,
+      "matched": true
+    },
+    {
+      "text": "철학입니다.",
+      "start": 315.96,
+      "end": 316.44,
+      "matched": true
+    },
+    {
+      "text": "지금",
+      "start": 316.88,
+      "end": 317.32,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 317.32,
+      "end": 317.62,
+      "matched": true
+    },
+    {
+      "text": "복잡한",
+      "start": 317.62,
+      "end": 318.28,
+      "matched": true
+    },
+    {
+      "text": "3D",
+      "start": 318.28,
+      "end": 318.6,
+      "matched": true
+    },
+    {
+      "text": "하드웨어",
+      "start": 318.6,
+      "end": 318.98,
+      "matched": true
+    },
+    {
+      "text": "사슬을",
+      "start": 318.98,
+      "end": 319.32,
+      "matched": true
+    },
+    {
+      "text": "쭉",
+      "start": 319.32,
+      "end": 319.52,
+      "matched": true
+    },
+    {
+      "text": "보셨잖아요.",
+      "start": 319.52,
+      "end": 320.1,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 320.48,
+      "end": 321.08,
+      "matched": true
+    },
+    {
+      "text": "이런",
+      "start": 321.08,
+      "end": 321.88,
+      "matched": true
+    },
+    {
+      "text": "구조를",
+      "start": 321.88,
+      "end": 322.42,
+      "matched": true
+    },
+    {
+      "text": "알아도",
+      "start": 322.42,
+      "end": 322.84,
+      "matched": true
+    },
+    {
+      "text": "흔들리지",
+      "start": 322.84,
+      "end": 323.8,
+      "matched": true
+    },
+    {
+      "text": "않는",
+      "start": 323.8,
+      "end": 323.96,
+      "matched": true
+    },
+    {
+      "text": "멘탈이",
+      "start": 323.96,
+      "end": 324.38,
+      "matched": true
+    },
+    {
+      "text": "없으면",
+      "start": 324.38,
+      "end": 324.72,
+      "matched": true
+    },
+    {
+      "text": "아무",
+      "start": 324.72,
+      "end": 325.22,
+      "matched": true
+    },
+    {
+      "text": "소용이",
+      "start": 325.22,
+      "end": 325.54,
+      "matched": true
+    },
+    {
+      "text": "없습니다.",
+      "start": 325.54,
+      "end": 325.82,
+      "matched": true
+    },
+    {
+      "text": "최근에요",
+      "start": 326.5,
+      "end": 326.98,
+      "matched": true
+    },
+    {
+      "text": "시놉시스",
+      "start": 327.2,
+      "end": 328.0,
+      "matched": true
+    },
+    {
+      "text": "같이",
+      "start": 327.2,
+      "end": 328.0,
+      "matched": true
+    },
+    {
+      "text": "엄청난",
+      "start": 328.0,
+      "end": 328.66,
+      "matched": true
+    },
+    {
+      "text": "최상급",
+      "start": 328.66,
+      "end": 329.18,
+      "matched": true
+    },
+    {
+      "text": "독점",
+      "start": 329.18,
+      "end": 329.54,
+      "matched": true
+    },
+    {
+      "text": "기업들도",
+      "start": 329.54,
+      "end": 330.08,
+      "matched": true
+    },
+    {
+      "text": "시장",
+      "start": 330.08,
+      "end": 330.76,
+      "matched": true
+    },
+    {
+      "text": "패닉이나",
+      "start": 330.76,
+      "end": 331.26,
+      "matched": true
+    },
+    {
+      "text": "지정학적",
+      "start": 331.26,
+      "end": 332.14,
+      "matched": true
+    },
+    {
+      "text": "이슈",
+      "start": 332.14,
+      "end": 332.38,
+      "matched": true
+    },
+    {
+      "text": "탓에",
+      "start": 332.38,
+      "end": 332.62,
+      "matched": true
+    },
+    {
+      "text": "고점",
+      "start": 332.62,
+      "end": 332.94,
+      "matched": true
+    },
+    {
+      "text": "대비",
+      "start": 332.94,
+      "end": 333.2,
+      "matched": true
+    },
+    {
+      "text": "35%씩",
+      "start": 333.2,
+      "end": 334.12,
+      "matched": true
+    },
+    {
+      "text": "훅",
+      "start": 334.12,
+      "end": 334.56,
+      "matched": true
+    },
+    {
+      "text": "떨어지곤",
+      "start": 334.56,
+      "end": 335.02,
+      "matched": true
+    },
+    {
+      "text": "했던",
+      "start": 335.02,
+      "end": 335.18,
+      "matched": true
+    },
+    {
+      "text": "말이죠.",
+      "start": 335.18,
+      "end": 335.52,
+      "matched": true
+    },
+    {
+      "text": "딱",
+      "start": 336.1,
+      "end": 336.24,
+      "matched": true
+    },
+    {
+      "text": "보면",
+      "start": 336.24,
+      "end": 336.5,
+      "matched": true
+    },
+    {
+      "text": "솔직히",
+      "start": 336.5,
+      "end": 336.9,
+      "matched": true
+    },
+    {
+      "text": "좀",
+      "start": 336.9,
+      "end": 337.04,
+      "matched": true
+    },
+    {
+      "text": "무섭잖아요.",
+      "start": 337.04,
+      "end": 337.58,
+      "matched": true
+    },
+    {
+      "text": "하지만",
+      "start": 337.58,
+      "end": 338.52,
+      "matched": true
+    },
+    {
+      "text": "긴",
+      "start": 338.52,
+      "end": 338.9,
+      "matched": true
+    },
+    {
+      "text": "호흡으로",
+      "start": 338.9,
+      "end": 339.36,
+      "matched": true
+    },
+    {
+      "text": "보는",
+      "start": 339.36,
+      "end": 339.62,
+      "matched": true
+    },
+    {
+      "text": "장기",
+      "start": 339.62,
+      "end": 339.98,
+      "matched": true
+    },
+    {
+      "text": "투자자에게",
+      "start": 339.98,
+      "end": 340.52,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 340.52,
+      "end": 341.1,
+      "matched": true
+    },
+    {
+      "text": "숫자는요",
+      "start": 341.1,
+      "end": 341.62,
+      "matched": true
+    },
+    {
+      "text": "공포가",
+      "start": 341.8,
+      "end": 342.16,
+      "matched": true
+    },
+    {
+      "text": "아니라",
+      "start": 342.16,
+      "end": 342.36,
+      "matched": true
+    },
+    {
+      "text": "오히려",
+      "start": 342.36,
+      "end": 343.0,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 343.0,
+      "end": 343.38,
+      "matched": true
+    },
+    {
+      "text": "기가",
+      "start": 343.38,
+      "end": 343.7,
+      "matched": true
+    },
+    {
+      "text": "막힌",
+      "start": 343.7,
+      "end": 344.04,
+      "matched": true
+    },
+    {
+      "text": "기회입니다.",
+      "start": 344.04,
+      "end": 344.58,
+      "matched": true
+    },
+    {
+      "text": "팍팍",
+      "start": 345.26,
+      "end": 345.62,
+      "matched": true
+    },
+    {
+      "text": "오르내리는",
+      "start": 345.62,
+      "end": 346.1,
+      "matched": true
+    },
+    {
+      "text": "유행",
+      "start": 346.1,
+      "end": 346.48,
+      "matched": true
+    },
+    {
+      "text": "타는",
+      "start": 346.48,
+      "end": 346.86,
+      "matched": true
+    },
+    {
+      "text": "주식들",
+      "start": 346.86,
+      "end": 347.36,
+      "matched": true
+    },
+    {
+      "text": "쫓아다니는",
+      "start": 347.36,
+      "end": 347.92,
+      "matched": true
+    },
+    {
+      "text": "거요.",
+      "start": 347.92,
+      "end": 348.16,
+      "matched": true
+    },
+    {
+      "text": "그거",
+      "start": 348.62,
+      "end": 348.8,
+      "matched": true
+    },
+    {
+      "text": "화려한",
+      "start": 348.8,
+      "end": 349.26,
+      "matched": true
+    },
+    {
+      "text": "스포츠카",
+      "start": 349.26,
+      "end": 349.74,
+      "matched": true
+    },
+    {
+      "text": "타는",
+      "start": 349.74,
+      "end": 350.0,
+      "matched": true
+    },
+    {
+      "text": "거랑",
+      "start": 350.0,
+      "end": 350.2,
+      "matched": true
+    },
+    {
+      "text": "비슷해요.",
+      "start": 350.2,
+      "end": 350.68,
+      "matched": true
+    },
+    {
+      "text": "순간적으로",
+      "start": 350.68,
+      "end": 351.88,
+      "matched": true
+    },
+    {
+      "text": "짜릿하긴",
+      "start": 351.88,
+      "end": 352.38,
+      "matched": true
+    },
+    {
+      "text": "한데",
+      "start": 352.38,
+      "end": 352.54,
+      "matched": true
+    },
+    {
+      "text": "엄청",
+      "start": 352.54,
+      "end": 353.02,
+      "matched": true
+    },
+    {
+      "text": "위험하죠.",
+      "start": 353.02,
+      "end": 353.66,
+      "matched": true
+    },
+    {
+      "text": "우리가",
+      "start": 354.28,
+      "end": 354.72,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 354.72,
+      "end": 355.24,
+      "matched": true
+    },
+    {
+      "text": "부를",
+      "start": 355.24,
+      "end": 355.64,
+      "matched": false
+    },
+    {
+      "text": "쌓으려면",
+      "start": 355.64,
+      "end": 356.2,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 356.2,
+      "end": 356.72,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 356.72,
+      "end": 357.06,
+      "matched": true
+    },
+    {
+      "text": "시대의",
+      "start": 357.06,
+      "end": 357.48,
+      "matched": true
+    },
+    {
+      "text": "필수",
+      "start": 357.48,
+      "end": 357.86,
+      "matched": true
+    },
+    {
+      "text": "인프라를",
+      "start": 357.86,
+      "end": 358.4,
+      "matched": true
+    },
+    {
+      "text": "완전히",
+      "start": 358.4,
+      "end": 358.88,
+      "matched": true
+    },
+    {
+      "text": "장악한",
+      "start": 358.88,
+      "end": 359.44,
+      "matched": true
+    },
+    {
+      "text": "전세계",
+      "start": 359.44,
+      "end": 360.04,
+      "matched": true
+    },
+    {
+      "text": "1등",
+      "start": 360.04,
+      "end": 360.3,
+      "matched": true
+    },
+    {
+      "text": "기업들",
+      "start": 360.3,
+      "end": 360.78,
+      "matched": true
+    },
+    {
+      "text": "그러니까",
+      "start": 361.16,
+      "end": 361.46,
+      "matched": true
+    },
+    {
+      "text": "제일",
+      "start": 361.46,
+      "end": 362.22,
+      "matched": true
+    },
+    {
+      "text": "비싼",
+      "start": 362.22,
+      "end": 362.78,
+      "matched": true
+    },
+    {
+      "text": "강남",
+      "start": 362.78,
+      "end": 363.28,
+      "matched": true
+    },
+    {
+      "text": "노른자",
+      "start": 363.28,
+      "end": 363.88,
+      "matched": true
+    },
+    {
+      "text": "땅",
+      "start": 363.88,
+      "end": 364.1,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 364.1,
+      "end": 364.4,
+      "matched": true
+    },
+    {
+      "text": "그런",
+      "start": 364.4,
+      "end": 364.98,
+      "matched": true
+    },
+    {
+      "text": "자산을",
+      "start": 364.98,
+      "end": 365.42,
+      "matched": true
+    },
+    {
+      "text": "꽉",
+      "start": 365.42,
+      "end": 365.78,
+      "matched": true
+    },
+    {
+      "text": "쥐고",
+      "start": 365.78,
+      "end": 366.22,
+      "matched": true
+    },
+    {
+      "text": "있어야",
+      "start": 366.22,
+      "end": 366.5,
+      "matched": true
+    },
+    {
+      "text": "하는",
+      "start": 366.5,
+      "end": 366.64,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 366.64,
+      "end": 366.9,
+      "matched": true
+    },
+    {
+      "text": "이거",
+      "start": 367.32,
+      "end": 367.78,
+      "matched": true
+    },
+    {
+      "text": "하나는",
+      "start": 367.78,
+      "end": 368.26,
+      "matched": true
+    },
+    {
+      "text": "꼭",
+      "start": 368.26,
+      "end": 368.48,
+      "matched": true
+    },
+    {
+      "text": "기억하셔야",
+      "start": 368.48,
+      "end": 369.1,
+      "matched": true
+    },
+    {
+      "text": "돼요.",
+      "start": 369.1,
+      "end": 369.3,
+      "matched": true
+    },
+    {
+      "text": "시장엔",
+      "start": 369.5,
+      "end": 370.18,
+      "matched": true
+    },
+    {
+      "text": "늘",
+      "start": 370.18,
+      "end": 370.5,
+      "matched": true
+    },
+    {
+      "text": "사이클이",
+      "start": 370.5,
+      "end": 371.24,
+      "matched": true
+    },
+    {
+      "text": "돌고",
+      "start": 371.24,
+      "end": 371.62,
+      "matched": true
+    },
+    {
+      "text": "돕니다.",
+      "start": 371.62,
+      "end": 372.04,
+      "matched": true
+    },
+    {
+      "text": "언젠가는",
+      "start": 372.66,
+      "end": 373.22,
+      "matched": true
+    },
+    {
+      "text": "피할",
+      "start": 373.22,
+      "end": 373.6,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 373.6,
+      "end": 373.74,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 373.74,
+      "end": 374.02,
+      "matched": true
+    },
+    {
+      "text": "겨울이나",
+      "start": 374.02,
+      "end": 374.88,
+      "matched": true
+    },
+    {
+      "text": "폭락장이",
+      "start": 374.88,
+      "end": 375.68,
+      "matched": true
+    },
+    {
+      "text": "올",
+      "start": 375.68,
+      "end": 375.9,
+      "matched": true
+    },
+    {
+      "text": "수도",
+      "start": 375.9,
+      "end": 376.04,
+      "matched": true
+    },
+    {
+      "text": "있어요.",
+      "start": 376.04,
+      "end": 376.46,
+      "matched": true
+    },
+    {
+      "text": "그때는",
+      "start": 376.46,
+      "end": 377.3,
+      "matched": true
+    },
+    {
+      "text": "다",
+      "start": 377.3,
+      "end": 377.44,
+      "matched": true
+    },
+    {
+      "text": "같이",
+      "start": 377.44,
+      "end": 377.64,
+      "matched": true
+    },
+    {
+      "text": "충격을",
+      "start": 377.64,
+      "end": 378.06,
+      "matched": true
+    },
+    {
+      "text": "받겠죠.",
+      "start": 378.06,
+      "end": 378.58,
+      "matched": true
+    },
+    {
+      "text": "하지만",
+      "start": 378.86,
+      "end": 379.54,
+      "matched": true
+    },
+    {
+      "text": "애플,",
+      "start": 379.54,
+      "end": 380.24,
+      "matched": true
+    },
+    {
+      "text": "구글,",
+      "start": 380.6,
+      "end": 381.0,
+      "matched": true
+    },
+    {
+      "text": "아마존",
+      "start": 381.44,
+      "end": 381.88,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 382.18,
+      "end": 382.3,
+      "matched": true
+    },
+    {
+      "text": "시놉시스",
+      "start": 382.3,
+      "end": 382.84,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 382.84,
+      "end": 383.14,
+      "matched": true
+    },
+    {
+      "text": "압도적인",
+      "start": 383.14,
+      "end": 384.3,
+      "matched": true
+    },
+    {
+      "text": "1등",
+      "start": 384.3,
+      "end": 384.74,
+      "matched": true
+    },
+    {
+      "text": "독점",
+      "start": 384.74,
+      "end": 385.1,
+      "matched": true
+    },
+    {
+      "text": "기업들은요.",
+      "start": 385.1,
+      "end": 385.72,
+      "matched": true
+    },
+    {
+      "text": "겨울이",
+      "start": 386.2,
+      "end": 386.56,
+      "matched": true
+    },
+    {
+      "text": "딱",
+      "start": 386.56,
+      "end": 386.72,
+      "matched": true
+    },
+    {
+      "text": "끝나자마자",
+      "start": 386.72,
+      "end": 387.46,
+      "matched": true
+    },
+    {
+      "text": "무조건",
+      "start": 387.46,
+      "end": 388.26,
+      "matched": true
+    },
+    {
+      "text": "제일",
+      "start": 388.26,
+      "end": 388.52,
+      "matched": true
+    },
+    {
+      "text": "먼저",
+      "start": 388.52,
+      "end": 388.9,
+      "matched": true
+    },
+    {
+      "text": "그리고",
+      "start": 388.9,
+      "end": 389.44,
+      "matched": true
+    },
+    {
+      "text": "제일",
+      "start": 389.44,
+      "end": 389.74,
+      "matched": true
+    },
+    {
+      "text": "높이",
+      "start": 389.74,
+      "end": 390.32,
+      "matched": true
+    },
+    {
+      "text": "치고",
+      "start": 390.32,
+      "end": 390.92,
+      "matched": true
+    },
+    {
+      "text": "올라갈",
+      "start": 390.92,
+      "end": 391.32,
+      "matched": true
+    },
+    {
+      "text": "겁니다.",
+      "start": 391.32,
+      "end": 391.6,
+      "matched": true
+    },
+    {
+      "text": "결국",
+      "start": 391.98,
+      "end": 392.44,
+      "matched": true
+    },
+    {
+      "text": "투자의",
+      "start": 392.44,
+      "end": 392.86,
+      "matched": true
+    },
+    {
+      "text": "핵심은",
+      "start": 392.86,
+      "end": 393.34,
+      "matched": true
+    },
+    {
+      "text": "아주",
+      "start": 393.34,
+      "end": 393.68,
+      "matched": true
+    },
+    {
+      "text": "단순",
+      "start": 393.68,
+      "end": 394.06,
+      "matched": true
+    },
+    {
+      "text": "명료합니다.",
+      "start": 394.06,
+      "end": 394.56,
+      "matched": true
+    },
+    {
+      "text": "절대",
+      "start": 394.98,
+      "end": 395.5,
+      "matched": true
+    },
+    {
+      "text": "대체할",
+      "start": 395.5,
+      "end": 395.98,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 395.98,
+      "end": 396.1,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 396.1,
+      "end": 396.36,
+      "matched": true
+    },
+    {
+      "text": "글로벌",
+      "start": 396.36,
+      "end": 396.98,
+      "matched": true
+    },
+    {
+      "text": "1등",
+      "start": 396.98,
+      "end": 397.34,
+      "matched": true
+    },
+    {
+      "text": "인프라",
+      "start": 397.34,
+      "end": 397.78,
+      "matched": true
+    },
+    {
+      "text": "기업을",
+      "start": 397.78,
+      "end": 398.14,
+      "matched": true
+    },
+    {
+      "text": "쥐고",
+      "start": 398.14,
+      "end": 398.46,
+      "matched": true
+    },
+    {
+      "text": "마음의",
+      "start": 398.46,
+      "end": 399.16,
+      "matched": true
+    },
+    {
+      "text": "평화를",
+      "start": 399.16,
+      "end": 399.52,
+      "matched": true
+    },
+    {
+      "text": "지키는",
+      "start": 399.52,
+      "end": 400.0,
+      "matched": true
+    },
+    {
+      "text": "거예요.",
+      "start": 400.0,
+      "end": 400.24,
+      "matched": true
+    },
+    {
+      "text": "매일매일",
+      "start": 400.24,
+      "end": 401.3,
+      "matched": true
+    },
+    {
+      "text": "우리의",
+      "start": 401.3,
+      "end": 401.58,
+      "matched": true
+    },
+    {
+      "text": "눈과",
+      "start": 401.58,
+      "end": 401.92,
+      "matched": true
+    },
+    {
+      "text": "귀를",
+      "start": 401.92,
+      "end": 402.24,
+      "matched": true
+    },
+    {
+      "text": "흔드는",
+      "start": 402.24,
+      "end": 402.58,
+      "matched": true
+    },
+    {
+      "text": "시끄러운",
+      "start": 402.58,
+      "end": 403.1,
+      "matched": true
+    },
+    {
+      "text": "시장의",
+      "start": 403.1,
+      "end": 403.5,
+      "matched": true
+    },
+    {
+      "text": "소음들",
+      "start": 403.5,
+      "end": 403.96,
+      "matched": true
+    },
+    {
+      "text": "그냥",
+      "start": 404.12,
+      "end": 404.52,
+      "matched": true
+    },
+    {
+      "text": "싹",
+      "start": 404.52,
+      "end": 404.8,
+      "matched": true
+    },
+    {
+      "text": "다",
+      "start": 404.8,
+      "end": 404.96,
+      "matched": true
+    },
+    {
+      "text": "무시해버리는",
+      "start": 404.96,
+      "end": 405.6,
+      "matched": true
+    },
+    {
+      "text": "멘탈이",
+      "start": 405.6,
+      "end": 406.02,
+      "matched": true
+    },
+    {
+      "text": "필요합니다.",
+      "start": 406.02,
+      "end": 406.5,
+      "matched": true
+    },
+    {
+      "text": "자",
+      "start": 406.8,
+      "end": 407.32,
+      "matched": true
+    },
+    {
+      "text": "여러분,",
+      "start": 407.32,
+      "end": 407.64,
+      "matched": true
+    },
+    {
+      "text": "다음번에",
+      "start": 407.84,
+      "end": 408.4,
+      "matched": true
+    },
+    {
+      "text": "또",
+      "start": 408.4,
+      "end": 408.54,
+      "matched": true
+    },
+    {
+      "text": "한",
+      "start": 408.54,
+      "end": 408.76,
+      "matched": true
+    },
+    {
+      "text": "번",
+      "start": 408.76,
+      "end": 408.94,
+      "matched": true
+    },
+    {
+      "text": "피할",
+      "start": 408.94,
+      "end": 409.3,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 409.3,
+      "end": 409.46,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 409.46,
+      "end": 409.68,
+      "matched": true
+    },
+    {
+      "text": "폭락장이",
+      "start": 409.68,
+      "end": 410.26,
+      "matched": true
+    },
+    {
+      "text": "찾아오면",
+      "start": 410.26,
+      "end": 410.84,
+      "matched": true
+    },
+    {
+      "text": "어떡하시겠습니까?",
+      "start": 410.84,
+      "end": 412.24,
+      "matched": true
+    },
+    {
+      "text": "남들처럼",
+      "start": 412.68,
+      "end": 413.44,
+      "matched": true
+    },
+    {
+      "text": "패닉에",
+      "start": 413.44,
+      "end": 413.8,
+      "matched": true
+    },
+    {
+      "text": "빠지시겠어요?",
+      "start": 413.8,
+      "end": 414.5,
+      "matched": true
+    },
+    {
+      "text": "아니면",
+      "start": 414.66,
+      "end": 414.9,
+      "matched": true
+    },
+    {
+      "text": "오늘",
+      "start": 414.9,
+      "end": 415.68,
+      "matched": true
+    },
+    {
+      "text": "우리가",
+      "start": 415.68,
+      "end": 416.02,
+      "matched": true
+    },
+    {
+      "text": "쭉",
+      "start": 416.02,
+      "end": 416.32,
+      "matched": true
+    },
+    {
+      "text": "훑어본",
+      "start": 416.32,
+      "end": 416.9,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 416.9,
+      "end": 417.34,
+      "matched": true
+    },
+    {
+      "text": "AI",
+      "start": 417.34,
+      "end": 417.74,
+      "matched": true
+    },
+    {
+      "text": "시대의",
+      "start": 417.74,
+      "end": 418.32,
+      "matched": true
+    },
+    {
+      "text": "튼튼한",
+      "start": 418.32,
+      "end": 419.02,
+      "matched": true
+    },
+    {
+      "text": "3D",
+      "start": 419.02,
+      "end": 419.36,
+      "matched": true
+    },
+    {
+      "text": "아키텍처를",
+      "start": 419.36,
+      "end": 420.06,
+      "matched": true
+    },
+    {
+      "text": "떠올리시겠습니까?",
+      "start": 420.06,
+      "end": 420.88,
+      "matched": true
+    },
+    {
+      "text": "거대한",
+      "start": 421.26,
+      "end": 422.02,
+      "matched": true
+    },
+    {
+      "text": "폭풍이",
+      "start": 422.02,
+      "end": 422.42,
+      "matched": true
+    },
+    {
+      "text": "몰아칠",
+      "start": 422.42,
+      "end": 422.8,
+      "matched": true
+    },
+    {
+      "text": "때",
+      "start": 422.8,
+      "end": 422.98,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 422.98,
+      "end": 423.5,
+      "matched": true
+    },
+    {
+      "text": "근간이",
+      "start": 423.5,
+      "end": 424.02,
+      "matched": true
+    },
+    {
+      "text": "되는",
+      "start": 424.02,
+      "end": 424.22,
+      "matched": true
+    },
+    {
+      "text": "기술",
+      "start": 424.22,
+      "end": 424.6,
+      "matched": true
+    },
+    {
+      "text": "구조를",
+      "start": 424.6,
+      "end": 425.0,
+      "matched": true
+    },
+    {
+      "text": "명확하게",
+      "start": 425.0,
+      "end": 425.82,
+      "matched": true
+    },
+    {
+      "text": "꿰뚫어보는",
+      "start": 425.82,
+      "end": 426.44,
+      "matched": true
+    },
+    {
+      "text": "사람만이",
+      "start": 426.44,
+      "end": 427.0,
+      "matched": true
+    },
+    {
+      "text": "공포를",
+      "start": 427.0,
+      "end": 427.66,
+      "matched": true
+    },
+    {
+      "text": "진짜",
+      "start": 427.66,
+      "end": 428.0,
+      "matched": true
+    },
+    {
+      "text": "부로",
+      "start": 428.0,
+      "end": 428.42,
+      "matched": true
+    },
+    {
+      "text": "바꿀",
+      "start": 428.42,
+      "end": 428.74,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 428.74,
+      "end": 428.88,
+      "matched": true
+    },
+    {
+      "text": "있습니다.",
+      "start": 428.88,
+      "end": 429.24,
+      "matched": true
+    },
+    {
+      "text": "오늘",
+      "start": 429.24,
+      "end": 430.12,
+      "matched": true
+    },
+    {
+      "text": "살펴본",
+      "start": 430.12,
+      "end": 430.64,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 430.64,
+      "end": 430.76,
+      "matched": true
+    },
+    {
+      "text": "입체적인",
+      "start": 430.76,
+      "end": 431.28,
+      "matched": true
+    },
+    {
+      "text": "지도가",
+      "start": 431.28,
+      "end": 431.74,
+      "matched": true
+    },
+    {
+      "text": "여러분의",
+      "start": 431.74,
+      "end": 432.52,
+      "matched": true
+    },
+    {
+      "text": "흔들리지",
+      "start": 432.52,
+      "end": 433.02,
+      "matched": true
+    },
+    {
+      "text": "않는",
+      "start": 433.02,
+      "end": 433.24,
+      "matched": true
+    },
+    {
+      "text": "나침반이",
+      "start": 433.24,
+      "end": 433.86,
+      "matched": true
+    },
+    {
+      "text": "되기를",
+      "start": 433.86,
+      "end": 434.12,
+      "matched": true
+    },
+    {
+      "text": "바라면서",
+      "start": 434.12,
+      "end": 434.74,
+      "matched": true
+    },
+    {
+      "text": "이번",
+      "start": 434.74,
+      "end": 435.34,
+      "matched": true
+    },
+    {
+      "text": "분석",
+      "start": 435.34,
+      "end": 435.76,
+      "matched": true
+    },
+    {
+      "text": "시간은",
+      "start": 435.76,
+      "end": 436.16,
+      "matched": true
+    },
+    {
+      "text": "여기서",
+      "start": 436.16,
+      "end": 436.48,
+      "matched": true
+    },
+    {
+      "text": "마무리하겠습니다.",
+      "start": 436.48,
+      "end": 437.18,
+      "matched": true
+    }
+  ]
+}

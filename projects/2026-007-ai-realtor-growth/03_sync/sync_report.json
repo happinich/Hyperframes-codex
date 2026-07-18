@@ -1,0 +1,10 @@
+{
+  "status": "ready_for_review",
+  "whisper_backend": "mlx-whisper",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "subtitle_delivery_mode": "external_srt_upload",
+  "subtitle_text_source": "01_script/narration.txt",
+  "matched_character_ratio": 0.9925,
+  "required_ratio": 0.92,
+  "note": "Captions are delivered as external SRT/VTT files. The rendered MP4 does not burn captions into the image."
+}

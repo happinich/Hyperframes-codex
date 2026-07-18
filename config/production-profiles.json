@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "default_profile_id": "minimal_dark_tech_v1",
+  "profiles": {
+    "classic_rich_motion_v1": {
+      "label_ko": "기존 리치 모션형",
+      "status": "active_legacy",
+      "description": "밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식.",
+      "compatible_visual_styles": [
+        "bright_editorial",
+        "dark_cinematic",
+        "contrast_split",
+        "warm_documentary",
+        "premium_finance",
+        "neon_tech",
+        "paper_collage",
+        "adaptive_mix"
+      ],
+      "default_visual_style_id": "adaptive_mix",
+      "composition_template": "templates/composition-profiles/classic_rich_motion_v1/index.html",
+      "motion_density": "의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다.",
+      "layout_language": "대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다.",
+      "captioned_output": {
+        "renderer": "scripts/burn_karaoke_captions.mjs",
+        "suffix": "-captioned",
+        "style": "흰색 굵은 글자, 검정 외곽선, 현재 발화 단어만 빨간색"
+      },
+      "target_wpm_range": [95, 135]
+    },
+    "minimal_dark_tech_v1": {
+      "label_ko": "미니멀 다크 테크형",
+      "status": "preferred",
+      "description": "검정 캔버스 위 흰색 타이포와 네온 초록 강조를 사용하고, 한 문장마다 하나의 도형 변화로 설명하는 미니멀 모션 방식.",
+      "compatible_visual_styles": [
+        "minimal_dark_tech"
+      ],
+      "default_visual_style_id": "minimal_dark_tech",
+      "composition_template": "templates/composition-profiles/minimal_dark_tech_v1/index.html",
+      "motion_density": "1~3초마다 카드 추가, 선 연결, 진행바 채움, 숫자 변화 중 하나를 실행하고 3초 이상 완전 정지를 금지한다.",
+      "layout_language": "화면 중앙 960~1200px 안에 한 번에 하나의 개념만 배치하고 넓은 검정 여백을 유지한다.",
+      "captioned_output": {
+        "renderer": "scripts/burn_phrase_captions.mjs",
+        "suffix": "-captioned-minimal",
+        "style": "하단 중앙의 한 줄 흰색 문장 자막, 검정 그림자, 1.5~2.5초 단위 교체"
+      },
+      "target_wpm_range": [145, 165]
+    }
+  }
+}

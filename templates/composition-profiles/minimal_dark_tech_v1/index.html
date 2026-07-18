@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>{{TITLE}} - Minimal Dark Tech</title>
+    <style>
+      :root {
+        --bg: #000000;
+        --ink: #ffffff;
+        --muted: #9ca3af;
+        --accent: #00f28a;
+        --accent-dark: #052e22;
+        --line: rgba(255, 255, 255, 0.72);
+        --panel: rgba(255, 255, 255, 0.025);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, sans-serif;
+      }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--bg);
+      }
+      .micro-grid {
+        position: absolute;
+        inset: 0;
+        opacity: 0.055;
+        background-image:
+          linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px);
+        background-size: 96px 96px;
+        mask-image: radial-gradient(circle at center, #000 0 24%, transparent 74%);
+      }
+      .ambient {
+        position: absolute;
+        left: 50%;
+        top: 48%;
+        width: 760px;
+        height: 520px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(0,242,138,.085), transparent 70%);
+        filter: blur(30px);
+      }
+      .stage {
+        position: absolute;
+        left: 50%;
+        top: 48%;
+        width: 1120px;
+        min-height: 610px;
+        transform: translate(-50%, -50%);
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        text-align: center;
+      }
+      .kicker {
+        margin-bottom: 30px;
+        color: var(--muted);
+        font-size: 27px;
+        font-weight: 800;
+        letter-spacing: .14em;
+      }
+      .headline {
+        margin: 0;
+        max-width: 1080px;
+        font-size: 72px;
+        line-height: 1.12;
+        letter-spacing: -.055em;
+        word-break: keep-all;
+      }
+      .accent { color: var(--accent); }
+      .diagram {
+        position: relative;
+        width: 920px;
+        height: 290px;
+        margin-top: 54px;
+        display: grid;
+        grid-template-columns: 1fr 170px 1fr;
+        align-items: center;
+      }
+      .card {
+        min-height: 220px;
+        padding: 30px;
+        display: grid;
+        place-items: center;
+        align-content: center;
+        border: 2px solid var(--line);
+        border-radius: 22px;
+        background: var(--panel);
+      }
+      .card.active {
+        border-color: var(--accent);
+        box-shadow: 0 0 38px rgba(0,242,138,.17), inset 0 0 28px rgba(0,242,138,.04);
+      }
+      .card strong {
+        display: block;
+        font-size: 42px;
+        line-height: 1.18;
+      }
+      .card span {
+        display: block;
+        margin-top: 13px;
+        color: var(--muted);
+        font-size: 23px;
+        font-weight: 700;
+      }
+      .connector {
+        position: relative;
+        height: 6px;
+        margin: 0 22px;
+        border-radius: 999px;
+        background: var(--accent);
+        transform-origin: left center;
+        box-shadow: 0 0 20px rgba(0,242,138,.28);
+      }
+      .connector::after {
+        content: "";
+        position: absolute;
+        right: -3px;
+        top: 50%;
+        width: 22px;
+        height: 22px;
+        border-right: 7px solid var(--accent);
+        border-top: 7px solid var(--accent);
+        transform: translateY(-50%) rotate(45deg);
+      }
+      .progress {
+        position: absolute;
+        left: 120px;
+        right: 120px;
+        bottom: 68px;
+        height: 5px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(255,255,255,.1);
+      }
+      .progress-fill {
+        width: 100%;
+        height: 100%;
+        background: var(--accent);
+        transform-origin: left;
+      }
+      .caption-safe-guide {
+        position: absolute;
+        left: 180px;
+        right: 180px;
+        bottom: 105px;
+        display: none;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 900;
+        line-height: 1.28;
+        text-shadow: 0 4px 0 rgba(0,0,0,.95), 0 0 16px rgba(0,0,0,.9);
+      }
+    </style>
+  </head>
+  <body>
+    <main id="master" data-composition-id="youtube-master" data-width="1920" data-height="1080" data-start="0" data-duration="8">
+      <div class="micro-grid"></div>
+      <div class="ambient"></div>
+      <section class="stage">
+        <div class="kicker">MINIMAL DARK TECH · {{PRODUCTION_PROFILE_ID}}</div>
+        <h1 class="headline">씬 플랜 승인 후<br><span class="accent">문장 단위 모션</span>을 제작합니다</h1>
+        <div class="diagram">
+          <div class="card source">
+            <strong>한 문장</strong>
+            <span>하나의 주장</span>
+          </div>
+          <div class="connector"></div>
+          <div class="card active result">
+            <strong>한 변화</strong>
+            <span>1~3초 모션 비트</span>
+          </div>
+        </div>
+      </section>
+      <div class="progress"><div class="progress-fill"></div></div>
+      <div class="caption-safe-guide">최종 자막은 별도 버전으로 생성합니다</div>
+      <audio id="voice" data-start="0" data-duration="8" data-track-index="0" src="assets/audio/voice.wav" data-volume="1"></audio>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const timeline = gsap.timeline({ paused: true });
+      timeline
+        .from(".kicker", { opacity: 0, y: 14, duration: 0.45 }, 0)
+        .from(".headline", { opacity: 0, y: 24, scale: 0.985, duration: 0.55 }, 0.18)
+        .from(".source", { opacity: 0, y: 20, duration: 0.5 }, 1.1)
+        .from(".connector", { scaleX: 0, duration: 0.7, ease: "power2.out" }, 1.65)
+        .from(".result", { opacity: 0, y: 20, scale: 0.96, duration: 0.52 }, 2.2)
+        .to(".result", { boxShadow: "0 0 58px rgba(0,242,138,.26), inset 0 0 36px rgba(0,242,138,.06)", duration: 1.1, repeat: 3, yoyo: true }, 2.8)
+        .fromTo(".progress-fill", { scaleX: 0 }, { scaleX: 1, duration: 8, ease: "none" }, 0)
+        .fromTo(
+          ".ambient",
+          { xPercent: -50, yPercent: -50, x: 0, y: 0, scale: 1 },
+          { xPercent: -50, yPercent: -50, x: 22, y: -14, scale: 1.04, duration: 4, repeat: 1, yoyo: true, ease: "sine.inOut" },
+          0
+        );
+      window.__timelines["youtube-master"] = timeline;
+    </script>
+  </body>
+</html>

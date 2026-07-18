@@ -16,10 +16,18 @@
   "style": {
     "face_visible": false,
     "caption_delivery": "external_srt_upload",
-    "visual_tone": "bright",
-    "palette": "white, light blue, mint, soft gray panels, dark navy text",
-    "motion_rule": "최소 3초마다 카드 이동, 숫자 카운트업, 하이라이트, 줌, 배경 패턴 이동 중 하나를 넣는다.",
-    "notes": "밝은 키네틱 타이포그래피, 도형, 아이콘, 데이터 시각화를 중심으로 구성"
+    "production_profile_id": "{{PRODUCTION_PROFILE_ID}}",
+    "production_profile_label": "{{PRODUCTION_PROFILE_LABEL}}",
+    "visual_style_id": "{{VISUAL_STYLE_ID}}",
+    "visual_style_label": "{{VISUAL_STYLE_LABEL}}",
+    "visual_tone": "{{VISUAL_STYLE_MOOD}}",
+    "background": "{{VISUAL_STYLE_BACKGROUND}}",
+    "palette": "{{VISUAL_STYLE_PALETTE}}",
+    "layout_language": "{{PRODUCTION_PROFILE_LAYOUT}}",
+    "motion_rule": "{{PRODUCTION_PROFILE_MOTION}} {{VISUAL_STYLE_MOTION}}",
+    "captioned_renderer": "{{PRODUCTION_PROFILE_CAPTION_RENDERER}}",
+    "captioned_output_suffix": "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}",
+    "notes": "사용자가 승인한 스타일을 유지하되 장면별 정보 구조는 다양하게 만든다."
   },
   "timing_policy": {
     "unit": "seconds",
@@ -41,7 +49,7 @@
       "end_seconds": 5.0,
       "duration_seconds": 5.0,
       "estimated_words": 0,
-      "target_wpm": 155,
+      "target_wpm": {{PRODUCTION_PROFILE_TARGET_WPM}},
       "purpose": "첫 문장에 해당하는 질문 또는 핵심 약속",
       "narration_text": "",
       "caption_text": "",

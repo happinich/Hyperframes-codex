@@ -1,5 +1,14 @@
 # 제작 운영 방식
 
+## 제작 프로필
+
+새 프로젝트는 먼저 제작 프로필을 구분합니다. 앞으로 기본 권장은 `minimal_dark_tech_v1`이며, 기존 방식은 `classic_rich_motion_v1`로 보존합니다. 세부 규칙은 [`PRODUCTION_PROFILES.ko.md`](PRODUCTION_PROFILES.ko.md)와 `config/production-profiles.json`을 기준으로 합니다.
+
+- `minimal_dark_tech_v1`: 검정 배경, 흰색 타이포, 네온 초록 강조, 1~3초 문장 단위 모션, 한 줄 흰색 자막본.
+- `classic_rich_motion_v1`: 기존 밝은 카드·지도·표·다층 패널, 3초 단위 정보 변화, 현재 단어가 빨간색인 가라오케 자막본.
+- 완료된 기존 프로젝트는 이름을 바꾸거나 다시 렌더하지 않습니다.
+- 신규 프로젝트는 브리프, 씬 플랜, 연출 노트, 컴포지션, 납품 메타데이터에 프로필 ID를 기록합니다.
+
 ## 역할과 승인 시점
 
 | 단계 | 제가 하는 일 | 사용자가 하는 일 | 다음 단계 조건 |
@@ -10,6 +19,8 @@
 | 편집 | 모션 씬 제작, 배경음/효과 배치 | 프리뷰 피드백 | 영상 QA 통과 |
 | 출력 | 16:9 마스터 렌더, 필요 시 9:16 재편집 | 게시 승인 | 납품 |
 | 게시 준비 | 제목, 설명, 태그, 챕터, 썸네일 문구, 고정 댓글, 출처 정리 | YouTube Studio 입력 및 게시 | 업로드 완료 |
+
+화면 구성에 들어가기 전에는 별도의 **비주얼 스타일 승인 단계**를 둡니다. 주제와 대본이 승인되어도 화면 스타일이 선택되지 않았다면 HyperFrames HTML 제작을 시작하지 않습니다.
 
 ## 왜 자막에 Whisper 텍스트를 그대로 쓰지 않는가
 
@@ -42,8 +53,29 @@ pip install -r requirements.txt
 
 ## 프로젝트 시작
 
+먼저 사용 가능한 제작 프로필과 스타일을 확인합니다.
+
 ```bash
-python3 scripts/new_project.py 2026-001-ai-workflow --title "AI 업무 자동화의 시작"
+python3 scripts/new_project.py --list-production-profiles
+python3 scripts/new_project.py --list-visual-styles
+```
+
+사용자에게 스타일 후보와 추천 이유를 보여주고 승인을 받은 뒤 프로젝트를 생성합니다.
+
+```bash
+python3 scripts/new_project.py 2026-001-ai-workflow \
+  --title "AI 업무 자동화의 시작" \
+  --production-profile minimal_dark_tech_v1 \
+  --visual-style minimal_dark_tech
+```
+
+기존 리치 모션 방식은 별도로 선택합니다.
+
+```bash
+python3 scripts/new_project.py 2026-001-ai-workflow \
+  --title "AI 업무 자동화의 시작" \
+  --production-profile classic_rich_motion_v1 \
+  --visual-style adaptive_mix
 ```
 
 `01_script/narration.txt`에는 실제로 읽을 말만 기록합니다. 제목, 지시문, 괄호 연기 표시는 넣지 않습니다. 연출 설명은 `01_script/scene-plan.json`과 `01_script/production-notes.md`에 분리합니다.
@@ -116,9 +148,23 @@ python3 scripts/analyze_audio_pacing.py projects/2026-001-ai-workflow --language
 원본 오디오는 변경하지 않고 `02_audio/inbox/<project-id>-narration.<ext>`로 보관됩니다. 영상용 오디오는 `02_audio/working/voice.wav`로 정규화되며, HyperFrames가 자체 프로젝트 안에서 읽을 수 있도록 `04_composition/assets/audio/voice.wav`에도 복사됩니다.
 제공된 SRT는 원문과 완전히 일치할 때만 최종 자막 후보로 보관합니다. 이후 `align_captions.py`가 `mlx-community/whisper-large-v3-turbo` 결과로 싱크를 독립 검증하고 YouTube 업로드용 최종 자막 산출물을 갱신합니다. HyperFrames 렌더에는 자막을 화면 요소로 넣지 않습니다.
 
-## 화면 톤
+## 화면 스타일 선택
 
-HyperFrames 영상은 기본적으로 밝은 분위기를 사용합니다. 배경은 화이트, 옅은 블루, 민트, 연한 그라데이션을 중심으로 잡고, 텍스트는 진한 네이비/차콜로 대비를 만듭니다. 어두운 배경은 경고, 장애, 보안처럼 주제상 필요한 경우에만 짧게 사용합니다.
+HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프로젝트마다 `config/visual-styles.json`의 후보를 먼저 제시하고 사용자의 승인을 받습니다.
+
+| 스타일 | 특징 | 잘 맞는 주제 |
+| --- | --- | --- |
+| 미니멀 다크 테크 | 순수 검정·흰색 타이포·네온 초록, 1~3초 정보 변화 | AI, 개발 도구, 워크플로 |
+| 밝은 에디토리얼 | 화이트·아이스 블루, 깨끗한 데이터 카드 | 정책, 교육, 사업 소개 |
+| 다크 시네마틱 | 딥 네이비·블랙, 국소 조명과 강한 긴장감 | 위기, 경고, 미스터리 |
+| 명암 분할 | 문제는 어둡게, 해결은 밝게 대비 | AI 전환, 전후 비교 |
+| 따뜻한 다큐멘터리 | 크림·종이 질감, 성장 기록 분위기 | 창업기, 현장 기록 |
+| 프리미엄 금융 | 차콜·딥 그린·골드, 절제된 리포트 | 부동산, 주식, 경제 |
+| 네온 테크 | 블랙·시안·퍼플, 데이터 스트림 | AI, 자동화, 소프트웨어 |
+| 종이 콜라주 | 오프화이트, 포스트잇과 손그림 | 이야기 해설, 문화, 책 |
+| 주제 혼합형 | 위기는 어둡게, 해결은 밝게 장면 전환 | 5분 이상 문제 해결 서사 |
+
+스타일을 고를 때는 `밝게/어둡게`만 정하지 않습니다. 배경 밝기, 색상 팔레트, 질감, 데이터 표현 방식, 전환 속도까지 함께 승인받습니다. 같은 스타일을 연속 사용해야 한다면 레이아웃과 시각 소재를 바꿔 이전 프로젝트와 구분합니다.
 
 ## 포맷 전략
 
@@ -127,3 +173,21 @@ YouTube 본편은 처음부터 `1920x1080`, `30fps`, 안전 영역 좌우 `120px
 ## 게시 자료
 
 최종 렌더와 자막 검수를 마치면 `07_publish/youtube/youtube-publish.md` 한 파일에 YouTube 업로드 자료를 작성합니다. 검색 친화적인 제목 후보, 복사용 설명란, 챕터, 태그 입력란용 키워드, 썸네일 문구, 고정 댓글과 업로드 체크리스트를 모두 이 문서에 넣습니다. 설명란에는 영상에서 참고한 공식 자료 링크를 반드시 넣습니다.
+
+## 검수 후 자막 번인 버전
+
+무자막 마스터의 영상·음성 싱크와 화면 배치를 먼저 검수한 뒤, 필요할 때 별도의 자막 버전을 생성합니다. 기존 마스터와 외부 업로드용 SRT/VTT는 그대로 보존합니다.
+
+```bash
+node scripts/burn_karaoke_captions.mjs projects/2026-001-ai-workflow
+```
+
+자막 버전은 `06_delivery/youtube/<project-id>-youtube-captioned.mp4`로 저장합니다. 기본 스타일은 하단 중앙의 흰색 굵은 글자, 검정 외곽선이며 `captions.words.json`의 실제 발화 타이밍을 따라 현재 말하는 단어만 빨간색으로 표시합니다. 자막은 화면 하단 끝에 붙이지 않고 YouTube 재생 컨트롤과 겹치지 않는 안전 영역에 배치합니다.
+
+`minimal_dark_tech_v1`은 현재 단어를 칠하지 않고 문장 전체가 흰색으로 교체되는 별도 자막본을 생성합니다.
+
+```bash
+node scripts/burn_phrase_captions.mjs projects/2026-001-ai-workflow
+```
+
+출력은 `06_delivery/youtube/<project-id>-youtube-captioned-minimal.mp4`이며 기존 가라오케 자막본과 구분해 보존합니다.

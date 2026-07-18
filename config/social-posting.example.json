@@ -1,0 +1,20 @@
+{
+  "threads": {
+    "enabled": true,
+    "access_token_env": "THREADS_ACCESS_TOKEN",
+    "user_id_env": "THREADS_USER_ID",
+    "graph_base_url": "https://graph.threads.net/v1.0"
+  },
+  "instagram": {
+    "enabled": true,
+    "access_token_env": "INSTAGRAM_ACCESS_TOKEN",
+    "user_id_env": "INSTAGRAM_USER_ID",
+    "graph_base_url": "https://graph.facebook.com/v20.0",
+    "requires_public_media_url": true
+  },
+  "x": {
+    "enabled": true,
+    "access_token_env": "X_ACCESS_TOKEN",
+    "create_post_url": "https://api.x.com/2/tweets"
+  }
+}

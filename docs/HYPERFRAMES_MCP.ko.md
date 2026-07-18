@@ -23,7 +23,7 @@ HeyGen 계정으로 OAuth 인증한 뒤 사용할 수 있으며, 공식 문서�
 1. ElevenLabs API로 생성한 원본 MP3를 `02_audio/inbox/`에 보관합니다.
 2. `scripts/ingest_audio.py`가 원본을 보관하고 렌더용 WAV를 생성합니다.
 3. `scripts/align_captions.py`가 `mlx-community/whisper-large-v3-turbo` 타이밍에 승인된 원문을 맞춥니다.
-4. HyperFrames HTML은 자막을 번인하지 않고 밝은 톤의 모션 씬만 포함합니다.
+4. HyperFrames HTML은 승인된 프로젝트별 비주얼 스타일로 제작합니다. 화면 스타일 승인 전에는 컴포지션 생성을 시작하지 않습니다.
 5. 정확 문구 자막은 `03_sync/captions.srt`로 별도 납품합니다.
 6. `scripts/render_project.py`가 YouTube 또는 Shorts MP4를 로컬 렌더합니다.
 

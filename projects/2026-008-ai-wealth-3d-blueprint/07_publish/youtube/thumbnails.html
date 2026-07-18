@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Thumbnails · AI 부의 3D 설계도</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#111827;font-family:Arial,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+    .stage{display:grid;gap:40px;padding:40px}
+    .thumb{position:relative;width:1280px;height:720px;overflow:hidden;background:#07101f;color:#fff}
+    .noise{position:absolute;inset:0;opacity:.12;background-image:radial-gradient(circle at 30% 20%,#fff 0 1px,transparent 1px);background-size:28px 28px}
+    .grid{position:absolute;inset:-20%;opacity:.28;background:linear-gradient(rgba(80,220,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(80,220,255,.18) 1px,transparent 1px);background-size:54px 54px;transform:perspective(600px) rotateX(58deg) translateY(140px)}
+    .badge{position:absolute;left:66px;top:52px;padding:12px 22px;border-radius:999px;font-size:25px;font-weight:900;letter-spacing:.06em;background:#ff284f;color:#fff;box-shadow:0 12px 30px rgba(255,40,79,.38)}
+    .kicker{position:absolute;left:70px;top:122px;font-size:31px;font-weight:900;color:#32f5ff;letter-spacing:.08em;text-shadow:0 0 20px rgba(50,245,255,.8)}
+    .title{position:absolute;left:66px;top:172px;width:650px;font-weight:1000;letter-spacing:-.085em;line-height:.98;text-shadow:0 8px 0 rgba(0,0,0,.22),0 22px 54px rgba(0,0,0,.55)}
+    .title .line1{display:block;font-size:98px;color:#fff}
+    .title .line2{display:block;font-size:112px;color:#ffd43b}
+    .title .line3{display:block;font-size:108px;color:#fff}
+    .sub{position:absolute;left:72px;bottom:58px;padding:14px 20px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);font-size:31px;font-weight:900;color:#fff}
+    .chip{position:absolute;right:76px;top:150px;width:390px;height:390px;border-radius:44px;background:linear-gradient(145deg,#27324c,#060b16);border:5px solid rgba(85,242,255,.8);box-shadow:0 0 0 14px rgba(50,245,255,.08),0 0 80px rgba(50,245,255,.5),inset 0 0 42px rgba(50,245,255,.2);transform:rotate(-8deg)}
+    .chip:before,.chip:after{content:"";position:absolute;inset:44px;border:2px solid rgba(255,255,255,.18);border-radius:24px}
+    .chip:after{inset:110px;border-color:rgba(255,212,59,.6);box-shadow:0 0 34px rgba(255,212,59,.4)}
+    .pin{position:absolute;width:15px;height:34px;background:#32f5ff;border-radius:4px;box-shadow:0 0 15px #32f5ff}
+    .pin.p1{right:500px;top:178px}.pin.p2{right:496px;top:244px}.pin.p3{right:490px;top:312px}.pin.p4{right:485px;top:380px}.pin.p5{right:470px;top:448px}
+    .pin.r1{right:42px;top:190px}.pin.r2{right:48px;top:258px}.pin.r3{right:52px;top:326px}.pin.r4{right:60px;top:394px}.pin.r5{right:66px;top:462px}
+    .centerText{position:absolute;right:158px;top:288px;font-size:62px;font-weight:1000;letter-spacing:-.06em;color:#fff;text-align:center;transform:rotate(-8deg);text-shadow:0 0 22px rgba(50,245,255,.75)}
+    .arrow{position:absolute;right:418px;top:90px;width:240px;height:12px;background:linear-gradient(90deg,#ff284f,#ffd43b,#32f5ff);box-shadow:0 0 28px rgba(50,245,255,.7);transform:rotate(-18deg)}
+    .arrow:after{content:"";position:absolute;right:-8px;top:-18px;border-left:46px solid #32f5ff;border-top:24px solid transparent;border-bottom:24px solid transparent}
+    .thumb.b{background:radial-gradient(circle at 82% 18%,rgba(50,245,255,.28),transparent 33%),linear-gradient(135deg,#050816 0%,#0b1730 46%,#f5fbff 46%,#eaf4ff 100%);color:#0d1730}
+    .b .noise{opacity:.08}
+    .b .top{position:absolute;left:64px;top:50px;font-size:30px;font-weight:1000;color:#ff405f;letter-spacing:.08em}
+    .b .titleB{position:absolute;left:62px;top:106px;width:555px;font-weight:1000;letter-spacing:-.08em;line-height:.95;color:#fff;text-shadow:0 20px 45px rgba(0,0,0,.46)}
+    .b .titleB span{display:block;font-size:94px}
+    .b .titleB .hot{font-size:112px;color:#ffd43b}
+    .b .path{position:absolute;right:42px;top:98px;width:620px;height:430px}
+    .node{position:absolute;display:grid;place-items:center;border-radius:30px;background:#fff;color:#0d1730;border:3px solid rgba(13,23,48,.12);font-size:38px;font-weight:1000;letter-spacing:-.05em;box-shadow:0 22px 45px rgba(13,23,48,.16)}
+    .node.dark{background:#0d1730;color:#fff;border-color:#32f5ff;box-shadow:0 0 44px rgba(50,245,255,.45)}
+    .node.war{left:0;top:150px;width:174px;height:126px;background:#101827;color:#fff;border-color:#ff405f}
+    .node.cloud{left:230px;top:28px;width:198px;height:126px}
+    .node.eda{left:170px;top:304px;width:210px;height:112px}
+    .node.hbm{right:20px;top:142px;width:178px;height:132px;background:#ffd43b}
+    .node.tsmc{right:10px;bottom:-4px;width:218px;height:116px}
+    .line{position:absolute;height:12px;border-radius:999px;background:linear-gradient(90deg,#ff405f,#ffd43b,#32f5ff);box-shadow:0 0 22px rgba(50,245,255,.55);transform-origin:left center}
+    .l1{left:154px;top:194px;width:206px;transform:rotate(-24deg)}.l2{left:370px;top:106px;width:168px;transform:rotate(28deg)}.l3{left:350px;top:360px;width:176px;transform:rotate(-24deg)}.l4{left:512px;top:232px;width:124px;transform:rotate(64deg)}
+    .b .subB{position:absolute;left:66px;bottom:56px;color:#fff;background:#ff284f;border:4px solid #fff;border-radius:18px;padding:12px 20px;font-size:32px;font-weight:1000;box-shadow:0 20px 45px rgba(255,40,79,.35)}
+    .b .stamp{position:absolute;right:72px;bottom:48px;padding:13px 20px;border-radius:999px;background:#0d1730;color:#32f5ff;font-size:28px;font-weight:1000;box-shadow:0 16px 35px rgba(13,23,48,.25)}
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <section id="thumbnail-a" class="thumb">
+      <div class="grid"></div><div class="noise"></div>
+      <div class="badge">AI MONEY MAP</div>
+      <div class="kicker">엔비디아만 보면</div>
+      <h1 class="title"><span class="line1">이미</span><span class="line2">늦었다</span><span class="line3">진짜 돈줄</span></h1>
+      <div class="sub">클라우드 · EDA · HBM · TSMC</div>
+      <div class="arrow"></div>
+      <div class="chip"></div>
+      <div class="pin p1"></div><div class="pin p2"></div><div class="pin p3"></div><div class="pin p4"></div><div class="pin p5"></div>
+      <div class="pin r1"></div><div class="pin r2"></div><div class="pin r3"></div><div class="pin r4"></div><div class="pin r5"></div>
+      <div class="centerText">AI<br>칩</div>
+    </section>
+
+    <section id="thumbnail-b" class="thumb b">
+      <div class="noise"></div>
+      <div class="top">전쟁터에서 실리콘 칩까지</div>
+      <h1 class="titleB"><span>AI 부의</span><span class="hot">3D</span><span>설계도</span></h1>
+      <div class="path">
+        <div class="line l1"></div><div class="line l2"></div><div class="line l3"></div><div class="line l4"></div>
+        <div class="node war">전장<br>AI</div>
+        <div class="node cloud">클라우드</div>
+        <div class="node eda dark">EDA<br>독점</div>
+        <div class="node hbm">HBM</div>
+        <div class="node tsmc dark">TSMC</div>
+      </div>
+      <div class="subB">돈의 흐름은 인프라에 있다</div>
+      <div class="stamp">7분 핵심정리</div>
+    </section>
+  </div>
+</body>
+</html>

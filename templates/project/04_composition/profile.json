@@ -1,0 +1,10 @@
+{
+  "production_profile_id": "{{PRODUCTION_PROFILE_ID}}",
+  "production_profile_label": "{{PRODUCTION_PROFILE_LABEL}}",
+  "visual_style_id": "{{VISUAL_STYLE_ID}}",
+  "visual_style_label": "{{VISUAL_STYLE_LABEL}}",
+  "layout_language": "{{PRODUCTION_PROFILE_LAYOUT}}",
+  "motion_density": "{{PRODUCTION_PROFILE_MOTION}}",
+  "captioned_renderer": "{{PRODUCTION_PROFILE_CAPTION_RENDERER}}",
+  "captioned_output_suffix": "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}"
+}
