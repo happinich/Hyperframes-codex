@@ -83,7 +83,10 @@ def request_music_bytes(
         method="POST",
     )
     with urllib.request.urlopen(request) as response:
-        return response.read()
+        audio = response.read()
+    if not audio:
+        raise ValueError("API returned empty response body")
+    return audio
 
 
 def slice_narration(voice: Path, target: Path, start: float, duration: float) -> None:
@@ -177,36 +180,36 @@ def main() -> int:
                 length_ms=length_ms,
                 output_format=output_format,
             )
-        except (urllib.error.HTTPError, urllib.error.URLError) as error:
+
+            candidate_path = candidates_dir / f"{spec['id']}.mp3"
+            candidate_path.write_bytes(audio)
+
+            preview_href = ""
+            if narration_slice is not None:
+                preview_path = previews_dir / f"mix-{index:02d}.mp3"
+                mix_bgm_with_voice(
+                    voice_audio=narration_slice,
+                    bgm_audio=candidate_path,
+                    target_audio=preview_path,
+                    gain_db=settings.gain_db,
+                    outro_seconds=0.0,
+                    outro_gain_db=settings.outro_gain_db,
+                    fade_out_seconds=settings.fade_out_seconds,
+                )
+                preview_href = f"../02_audio/bgm/previews/{preview_path.name}"
+
+            rendered.append(
+                {
+                    "id": spec["id"],
+                    "prompt": spec["prompt"],
+                    "bgm_href": f"../02_audio/bgm/candidates/{candidate_path.name}",
+                    "preview_href": preview_href,
+                }
+            )
+        except Exception as error:
             failures += 1
             print(f"  {spec['id']}: FAILED ({error})")
             continue
-
-        candidate_path = candidates_dir / f"{spec['id']}.mp3"
-        candidate_path.write_bytes(audio)
-
-        preview_href = ""
-        if narration_slice is not None:
-            preview_path = previews_dir / f"mix-{index:02d}.mp3"
-            mix_bgm_with_voice(
-                voice_audio=narration_slice,
-                bgm_audio=candidate_path,
-                target_audio=preview_path,
-                gain_db=settings.gain_db,
-                outro_seconds=0.0,
-                outro_gain_db=settings.outro_gain_db,
-                fade_out_seconds=settings.fade_out_seconds,
-            )
-            preview_href = f"../02_audio/bgm/previews/{preview_path.name}"
-
-        rendered.append(
-            {
-                "id": spec["id"],
-                "prompt": spec["prompt"],
-                "bgm_href": f"../02_audio/bgm/candidates/{candidate_path.name}",
-                "preview_href": preview_href,
-            }
-        )
 
     if not rendered:
         print(f"All {failures} candidate(s) failed.")
