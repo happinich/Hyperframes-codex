@@ -193,3 +193,20 @@ node scripts/burn_phrase_captions.mjs projects/2026-001-ai-workflow
 ```
 
 출력은 `06_delivery/youtube/<project-id>-youtube-captioned-minimal.mp4`이며 기존 가라오케 자막본과 구분해 보존합니다.
+
+## 배경음악 선택 및 적용
+
+음성 검수가 완료된 후, 배경음악을 추가하기 전에 후보를 생성하고 승인합니다. `generate_bgm_candidates.py`는 프로젝트의 승인된 비주얼 스타일을 읽고 ElevenLabs Music API를 통해 후보를 생성한 뒤 음성 프리뷰와 함께 혼합하여 `05_review/bgm-selection.html` 페이지에 저장합니다. 사용자가 이 페이지에서 정확히 하나의 후보를 선택하면 `apply_bgm.py`로 적용합니다.
+
+```bash
+python3 scripts/generate_bgm_candidates.py projects/2026-001-ai-workflow
+```
+
+`apply_bgm.py`는 TTS를 재실행하지 않으므로, 승인된 음성 테이크와 자막 타이밍이 그대로 유지됩니다. 선택한 후보 ID를 지정하여 적용하며, `--dry-run` 플래그로 실제 쓰기 전에 계획을 미리 확인할 수 있습니다.
+
+```bash
+python3 scripts/apply_bgm.py projects/2026-001-ai-workflow --candidate cand-02 --dry-run
+python3 scripts/apply_bgm.py projects/2026-001-ai-workflow --candidate cand-02
+```
+
+배경음악 적용 후 최종 오디오는 음성 길이에 설정된 아웃트로 딜레이 4초가 추가됩니다. HyperFrames 컴포지션의 아웃트로도 같은 길이만큼 연장해야 하며, 연장 후 다시 렌더링합니다.

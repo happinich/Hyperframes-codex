@@ -45,10 +45,13 @@ Follow these gates for every new long-form production:
 4. Show the complete narration and wait for explicit approval.
 5. Present the production profile and compatible visual-style options.
 6. Wait for explicit visual-style approval.
-7. Only then generate voice, create the Hyperframes composition, and render.
+7. Generate voice, then create the Hyperframes composition.
+8. After the voice review passes, generate BGM candidates and wait for explicit
+   BGM approval. Apply the approved track with `scripts/apply_bgm.py`, which
+   never re-runs TTS, and extend the composition outro by the configured delay.
 
-Script approval and visual-style approval are separate. Do not silently carry a
-previous project's style into a new project.
+Script approval, visual-style approval, and BGM approval are separate. Do not
+silently carry a previous project's style or BGM into a new project.
 
 ## Script And Scene Planning
 
@@ -138,6 +141,14 @@ python3 scripts/create_planned_captions.py <project>
 python3 scripts/generate_elevenlabs_audio.py <project> --replace --postprocess
 python3 scripts/align_captions.py <project> --language ko
 python3 scripts/analyze_audio_pacing.py <project> --language ko
+```
+
+Choose and apply BGM (after the voice review passes):
+
+```bash
+python3 scripts/generate_bgm_candidates.py <project>
+python3 scripts/apply_bgm.py <project> --candidate cand-02 --dry-run
+python3 scripts/apply_bgm.py <project> --candidate cand-02
 ```
 
 Validate and render:

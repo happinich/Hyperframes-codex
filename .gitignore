@@ -27,6 +27,8 @@ projects/*/05_review/preview/*
 !projects/*/05_review/preview/.gitkeep
 projects/*/05_review/frames/*
 !projects/*/05_review/frames/.gitkeep
+projects/*/02_audio/bgm/candidates/*
+projects/*/02_audio/bgm/previews/*
 projects/*/06_delivery/youtube/*
 !projects/*/06_delivery/youtube/.gitkeep
 projects/*/06_delivery/shorts/*
