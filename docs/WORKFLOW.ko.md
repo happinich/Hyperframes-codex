@@ -98,6 +98,8 @@ python3 scripts/create_planned_captions.py projects/2026-001-ai-workflow
 
 ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. API 키는 `.env`나 로컬 환경 변수로만 사용하고 프로젝트 파일에는 기록하지 않습니다.
 
+로컬 API 키 입력 파일은 저장소 최상단의 `/Users/happinich/Documents/Hyperframes-codex/.env`입니다. `.env.example`을 형식 참고용으로 사용하며, 실제 `.env`는 `.gitignore`에 의해 Git에 포함되지 않습니다. `generate_elevenlabs_audio.py`는 실행 시 이 파일을 자동으로 읽되, 이미 설정된 운영체제 환경 변수가 있으면 그 값을 우선합니다.
+
 | 항목 | 용도 |
 | --- | --- |
 | `ELEVENLABS_API_KEY` | 로컬 환경 변수로만 보관하는 API 키 |
@@ -168,7 +170,7 @@ HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프
 
 ## 포맷 전략
 
-YouTube 본편은 처음부터 `1920x1080`, `30fps`, 안전 영역 좌우 `120px`, 하단 자막 안전 영역 `140px`을 기준으로 설계합니다. Shorts는 단순 크롭이 아니라 동일 대본에서 핵심 씬을 `1080x1920` 중앙 집중 레이아웃으로 다시 배치합니다. 씬 플랜의 각 씬에 `shorts_adaptation`을 미리 기록해 재작업을 줄입니다.
+새 YouTube 본편은 처음부터 `1920x1080`, `60fps`, 안전 영역 좌우 `120px`, 하단 자막 안전 영역 `140px`을 기준으로 설계합니다. 렌더러는 프로젝트의 `scene-plan.json`에 기록된 fps를 사용하므로 완료된 기존 프로젝트는 원래 프레임레이트를 유지합니다. Shorts는 단순 크롭이 아니라 동일 대본에서 핵심 씬을 `1080x1920`, `60fps` 중앙 집중 레이아웃으로 다시 배치합니다. 씬 플랜의 각 씬에 `shorts_adaptation`을 미리 기록해 재작업을 줄입니다.
 
 ## 게시 자료
 
