@@ -15,6 +15,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 DEFAULT_MODEL_ID = "eleven_v3"
 DEFAULT_VOICE_SETTINGS = {
     "stability": 0.50,
@@ -68,7 +70,9 @@ def split_text_chunks(text: str, min_chars: int = DEFAULT_MIN_CHARS, max_chars: 
     for unit in sentence_units(text):
         candidates = split_oversized_unit(unit, max_chars) if len(unit) > max_chars else [unit]
         for candidate in candidates:
-            separator = "\n" if current else ""
+            # Sentence units should remain natural prose inside a chunk. Sending
+            # every sentence on a new line makes V3 add an exaggerated pause.
+            separator = " " if current else ""
             proposed = f"{current}{separator}{candidate}" if current else candidate
             if current and len(proposed) > max_chars:
                 chunks.append(current.strip())
@@ -84,7 +88,7 @@ def split_text_chunks(text: str, min_chars: int = DEFAULT_MIN_CHARS, max_chars: 
     balanced: list[str] = []
     for chunk in chunks:
         if balanced and len(balanced[-1]) < min_chars and len(balanced[-1]) + 1 + len(chunk) <= max_chars:
-            balanced[-1] = f"{balanced[-1]}\n{chunk}"
+            balanced[-1] = f"{balanced[-1]} {chunk}"
         else:
             balanced.append(chunk)
     return balanced
@@ -304,6 +308,8 @@ def main() -> int:
     args = parser.parse_args()
 
     project = args.project.resolve()
+    repo = Path(__file__).resolve().parent.parent
+    load_dotenv(repo / ".env", override=False)
     config_path = (args.config or project / "02_audio" / "elevenlabs-request.json").resolve()
     if not config_path.exists():
         parser.error(f"missing config: {config_path}")
@@ -393,7 +399,6 @@ def main() -> int:
 
     print(f"Generated: {target_audio}")
     if args.postprocess:
-        repo = Path(__file__).resolve().parent.parent
         subprocess.run(
             [sys.executable, str(repo / "scripts" / "ingest_audio.py"), str(project), str(target_audio), "--replace"],
             check=True,
