@@ -17,6 +17,15 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from audio_mixing import (
+    DEFAULT_BGM_FADE_OUT_SECONDS,
+    DEFAULT_BGM_GAIN_DB,
+    DEFAULT_BGM_OUTRO_GAIN_DB,
+    DEFAULT_BGM_OUTRO_SECONDS,
+    audio_duration_seconds,
+    mix_bgm_with_voice,
+)
+
 DEFAULT_MODEL_ID = "eleven_v3"
 DEFAULT_VOICE_SETTINGS = {
     "stability": 0.50,
@@ -26,10 +35,6 @@ DEFAULT_VOICE_SETTINGS = {
 }
 DEFAULT_MIN_CHARS = 1000
 DEFAULT_MAX_CHARS = 1300
-DEFAULT_BGM_GAIN_DB = -18.0
-DEFAULT_BGM_OUTRO_SECONDS = 4.0
-DEFAULT_BGM_OUTRO_GAIN_DB = -14.0
-DEFAULT_BGM_FADE_OUT_SECONDS = 3.0
 
 
 def load_json(path: Path) -> dict:
@@ -167,81 +172,6 @@ def merge_audio_parts(part_paths: list[Path], target_audio: Path) -> None:
         )
     finally:
         list_path.unlink(missing_ok=True)
-
-
-def audio_duration_seconds(path: Path) -> float:
-    result = subprocess.run(
-        [
-            "ffprobe",
-            "-v",
-            "error",
-            "-show_entries",
-            "format=duration",
-            "-of",
-            "default=noprint_wrappers=1:nokey=1",
-            str(path),
-        ],
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    return float(result.stdout.strip())
-
-
-def mix_bgm_with_voice(
-    *,
-    voice_audio: Path,
-    bgm_audio: Path,
-    target_audio: Path,
-    gain_db: float = DEFAULT_BGM_GAIN_DB,
-    outro_seconds: float = DEFAULT_BGM_OUTRO_SECONDS,
-    outro_gain_db: float = DEFAULT_BGM_OUTRO_GAIN_DB,
-    fade_out_seconds: float = DEFAULT_BGM_FADE_OUT_SECONDS,
-) -> None:
-    voice_duration = audio_duration_seconds(voice_audio)
-    outro_duration = max(outro_seconds, 0.0)
-    total_duration = voice_duration + outro_duration
-    fade_duration = min(max(fade_out_seconds, 0.0), max(total_duration, 0.0))
-    fade_start = max(total_duration - fade_duration, 0.0)
-    bgm_main_volume = 10 ** (gain_db / 20)
-    bgm_outro_volume = 10 ** (outro_gain_db / 20)
-    filter_complex = (
-        f"[0:a]atrim=0:{voice_duration:.3f},asetpts=PTS-STARTPTS,"
-        f"apad=pad_dur={outro_duration:.3f},atrim=0:{total_duration:.3f}[voice];"
-        f"[1:a]atrim=0:{total_duration:.3f},asetpts=PTS-STARTPTS,"
-        f"volume='if(lt(t,{voice_duration:.3f}),{bgm_main_volume:.8f},{bgm_outro_volume:.8f})':eval=frame,"
-        f"atrim=0:{total_duration:.3f},asetpts=PTS-STARTPTS,"
-        f"afade=t=out:st={fade_start:.3f}:d={fade_duration:.3f}[bgm];"
-        "[voice][bgm]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
-        f"atrim=0:{total_duration:.3f},asetpts=PTS-STARTPTS[mixed]"
-    )
-    subprocess.run(
-        [
-            "ffmpeg",
-            "-hide_banner",
-            "-loglevel",
-            "error",
-            "-y",
-            "-i",
-            str(voice_audio),
-            "-stream_loop",
-            "-1",
-            "-i",
-            str(bgm_audio),
-            "-filter_complex",
-            filter_complex,
-            "-map",
-            "[mixed]",
-            "-t",
-            f"{total_duration:.3f}",
-            "-c:a",
-            "libmp3lame",
-            "-b:a",
-            "192k",
-            str(target_audio),
-        ],
-        check=True,
-    )
 
 
 def configured_bgm(config_path: Path, config: dict, args: argparse.Namespace) -> tuple[Path | None, float, float, float, float]:
