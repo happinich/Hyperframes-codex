@@ -61,6 +61,31 @@ def test_update_composition_duration_reports_no_match(tmp_path: Path):
     assert update_composition_duration(index_html, 10.0) is False
 
 
+def test_update_composition_duration_with_reversed_attributes(tmp_path: Path):
+    index_html = tmp_path / "index.html"
+    index_html.write_text(
+        '<audio data-duration="1153.031" id="voice" data-start="0" '
+        'src="assets/audio/voice.wav"></audio>',
+        encoding="utf-8",
+    )
+    assert update_composition_duration(index_html, 1157.031) is True
+    assert 'data-duration="1157.031"' in index_html.read_text(encoding="utf-8")
+
+
+def test_update_composition_duration_ignores_other_audio_elements(tmp_path: Path):
+    index_html = tmp_path / "index.html"
+    index_html.write_text(
+        '<audio id="bgm" data-duration="2000.000" src="assets/audio/bgm.wav"></audio>'
+        '<audio id="voice" data-start="0" data-duration="1153.031" '
+        'src="assets/audio/voice.wav"></audio>',
+        encoding="utf-8",
+    )
+    assert update_composition_duration(index_html, 1157.031) is True
+    content = index_html.read_text(encoding="utf-8")
+    assert 'id="voice"' in content and 'data-duration="1157.031"' in content
+    assert 'id="bgm"' in content and 'data-duration="2000.000"' in content
+
+
 def test_wav_output_is_pcm(tmp_path: Path):
     voice = make_tone(tmp_path / "voice.wav", 3.0, 220)
     bgm = make_tone(tmp_path / "bgm.mp3", 1.0, 440)

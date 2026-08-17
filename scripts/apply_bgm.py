@@ -48,7 +48,7 @@ def resolve_candidate(project: Path, candidate: str) -> Path:
 
 def update_composition_duration(index_html: Path, total_seconds: float) -> bool:
     text = index_html.read_text(encoding="utf-8")
-    pattern = re.compile(r'(<audio[^>]*id="voice"[^>]*data-duration=")([0-9.]+)(")')
+    pattern = re.compile(r'(<audio\b(?=[^>]*\bid="voice")[^>]*?\bdata-duration=")([0-9.]+)(")')
     updated, count = pattern.subn(rf"\g<1>{total_seconds:.3f}\g<3>", text)
     if count:
         index_html.write_text(updated, encoding="utf-8")
