@@ -11,6 +11,9 @@ DEFAULT_BGM_OUTRO_SECONDS = 4.0
 DEFAULT_BGM_OUTRO_GAIN_DB = -14.0
 DEFAULT_BGM_FADE_OUT_SECONDS = 3.0
 
+MP3_CODEC_ARGS = ["-c:a", "libmp3lame", "-b:a", "192k"]
+WAV_CODEC_ARGS = ["-c:a", "pcm_s16le"]
+
 
 def audio_duration_seconds(path: Path) -> float:
     result = subprocess.run(
@@ -40,7 +43,9 @@ def mix_bgm_with_voice(
     outro_seconds: float = DEFAULT_BGM_OUTRO_SECONDS,
     outro_gain_db: float = DEFAULT_BGM_OUTRO_GAIN_DB,
     fade_out_seconds: float = DEFAULT_BGM_FADE_OUT_SECONDS,
+    output_codec_args: list = None,
 ) -> None:
+    codec_args = list(output_codec_args) if output_codec_args else list(MP3_CODEC_ARGS)
     voice_duration = audio_duration_seconds(voice_audio)
     outro_duration = max(outro_seconds, 0.0)
     total_duration = voice_duration + outro_duration
@@ -77,10 +82,7 @@ def mix_bgm_with_voice(
             "[mixed]",
             "-t",
             f"{total_duration:.3f}",
-            "-c:a",
-            "libmp3lame",
-            "-b:a",
-            "192k",
+            *codec_args,
             str(target_audio),
         ],
         check=True,
