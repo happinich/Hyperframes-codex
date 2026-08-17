@@ -206,7 +206,7 @@ def main() -> int:
                     "preview_href": preview_href,
                 }
             )
-        except Exception as error:
+        except (OSError, ValueError, subprocess.CalledProcessError) as error:
             failures += 1
             print(f"  {spec['id']}: FAILED ({error})")
             continue
