@@ -6,6 +6,74 @@ import pytest
 
 from generate_bgm_candidates import build_candidate_specs, default_content_hint
 
+
+@pytest.fixture
+def minimal_bgm_project(tmp_path: Path, monkeypatch):
+    """
+    Fixture that creates a minimal project structure with config files
+    needed for BGM candidate generation testing.
+
+    Returns a dict with:
+      - project: Path to the project directory
+      - success_rules_path: Path to success-rules.json
+      - presets_path: Path to bgm-presets.json
+    """
+    import json
+
+    project = tmp_path / "test_project"
+    project.mkdir()
+    (project / "00_brief").mkdir()
+    (project / "02_audio").mkdir()
+    (project / "02_audio" / "bgm").mkdir()
+    (project / "02_audio" / "bgm" / "candidates").mkdir()
+    (project / "02_audio" / "bgm" / "previews").mkdir()
+    (project / "04_composition").mkdir()
+    (project / "05_review").mkdir()
+
+    # Create profile.json
+    profile_data = {"visual_style_id": "minimal_dark_tech"}
+    (project / "04_composition" / "profile.json").write_text(
+        json.dumps(profile_data), encoding="utf-8"
+    )
+
+    monkeypatch.setenv("ELEVENLABS_API_KEY", "test-key")
+
+    # Create success-rules.json
+    success_rules_path = tmp_path / "success-rules.json"
+    success_rules_data = {
+        "audio_rules": {
+            "bgm": {
+                "voice_ducking_gain_db": -6.0,
+                "outro_gain_db": -20.0,
+                "fade_out_seconds": 2.0,
+            }
+        }
+    }
+    success_rules_path.write_text(json.dumps(success_rules_data), encoding="utf-8")
+
+    # Create bgm-presets.json
+    presets_path = tmp_path / "bgm-presets.json"
+    presets_data = {
+        "defaults": {
+            "candidate_count": 2,
+            "candidate_length_ms": 30000,
+            "preview_seconds": 10,
+        },
+        "styles": {
+            "minimal_dark_tech": {
+                "base_prompt": "minimal electronic",
+                "variation_hints": ["variation 1", "variation 2"],
+            }
+        },
+    }
+    presets_path.write_text(json.dumps(presets_data), encoding="utf-8")
+
+    return {
+        "project": project,
+        "success_rules_path": success_rules_path,
+        "presets_path": presets_path,
+    }
+
 PRESET = {
     "base_prompt": "낮은 드론.",
     "variation_hints": ["현악 중심", "드론 중심", "금속성 울림", "피아노 단음"],
@@ -283,7 +351,7 @@ def test_all_candidates_fail_exits_nonzero(
 
 
 def test_subprocess_error_caught_in_preview_mix(
-    tmp_path: Path, monkeypatch, capsys
+    minimal_bgm_project, capsys
 ):
     """
     Test that subprocess.CalledProcessError during preview mix is caught
@@ -294,54 +362,9 @@ def test_subprocess_error_caught_in_preview_mix(
     import subprocess
     import generate_bgm_candidates
 
-    # Set up minimal project structure
-    project = tmp_path / "test_project_subprocess"
-    project.mkdir()
-    (project / "00_brief").mkdir()
-    (project / "02_audio").mkdir()
-    (project / "02_audio" / "bgm").mkdir()
-    (project / "02_audio" / "bgm" / "candidates").mkdir()
-    (project / "02_audio" / "bgm" / "previews").mkdir()
-    (project / "04_composition").mkdir()
-    (project / "05_review").mkdir()
-
-    # Create profile.json
-    profile_data = {"visual_style_id": "minimal_dark_tech"}
-    (project / "04_composition" / "profile.json").write_text(
-        json.dumps(profile_data), encoding="utf-8"
-    )
-
-    monkeypatch.setenv("ELEVENLABS_API_KEY", "test-key")
-
-    # Create success-rules.json
-    success_rules_path = tmp_path / "success-rules.json"
-    success_rules_data = {
-        "audio_rules": {
-            "bgm": {
-                "voice_ducking_gain_db": -6.0,
-                "outro_gain_db": -20.0,
-                "fade_out_seconds": 2.0,
-            }
-        }
-    }
-    success_rules_path.write_text(json.dumps(success_rules_data), encoding="utf-8")
-
-    # Create bgm-presets.json
-    presets_path = tmp_path / "bgm-presets.json"
-    presets_data = {
-        "defaults": {
-            "candidate_count": 2,
-            "candidate_length_ms": 30000,
-            "preview_seconds": 10,
-        },
-        "styles": {
-            "minimal_dark_tech": {
-                "base_prompt": "minimal electronic",
-                "variation_hints": ["variation 1", "variation 2"],
-            }
-        },
-    }
-    presets_path.write_text(json.dumps(presets_data), encoding="utf-8")
+    project = minimal_bgm_project["project"]
+    success_rules_path = minimal_bgm_project["success_rules_path"]
+    presets_path = minimal_bgm_project["presets_path"]
 
     # Create a fake voice file
     voice_file = project / "02_audio" / "working" / "voice.wav"
@@ -419,64 +442,18 @@ def test_subprocess_error_caught_in_preview_mix(
 
 
 def test_programming_error_propagates_out(
-    tmp_path: Path, monkeypatch
+    minimal_bgm_project
 ):
     """
     Test that programming errors (TypeError) in dependencies propagate out
     rather than being silently caught, so bugs are surfaced.
     """
     from unittest.mock import patch
-    import json
     import generate_bgm_candidates
 
-    # Set up minimal project structure
-    project = tmp_path / "test_project_typeerror"
-    project.mkdir()
-    (project / "00_brief").mkdir()
-    (project / "02_audio").mkdir()
-    (project / "02_audio" / "bgm").mkdir()
-    (project / "02_audio" / "bgm" / "candidates").mkdir()
-    (project / "02_audio" / "bgm" / "previews").mkdir()
-    (project / "04_composition").mkdir()
-    (project / "05_review").mkdir()
-
-    # Create profile.json
-    profile_data = {"visual_style_id": "minimal_dark_tech"}
-    (project / "04_composition" / "profile.json").write_text(
-        json.dumps(profile_data), encoding="utf-8"
-    )
-
-    monkeypatch.setenv("ELEVENLABS_API_KEY", "test-key")
-
-    # Create success-rules.json
-    success_rules_path = tmp_path / "success-rules.json"
-    success_rules_data = {
-        "audio_rules": {
-            "bgm": {
-                "voice_ducking_gain_db": -6.0,
-                "outro_gain_db": -20.0,
-                "fade_out_seconds": 2.0,
-            }
-        }
-    }
-    success_rules_path.write_text(json.dumps(success_rules_data), encoding="utf-8")
-
-    # Create bgm-presets.json
-    presets_path = tmp_path / "bgm-presets.json"
-    presets_data = {
-        "defaults": {
-            "candidate_count": 1,
-            "candidate_length_ms": 30000,
-            "preview_seconds": 10,
-        },
-        "styles": {
-            "minimal_dark_tech": {
-                "base_prompt": "minimal electronic",
-                "variation_hints": ["variation 1"],
-            }
-        },
-    }
-    presets_path.write_text(json.dumps(presets_data), encoding="utf-8")
+    project = minimal_bgm_project["project"]
+    success_rules_path = minimal_bgm_project["success_rules_path"]
+    presets_path = minimal_bgm_project["presets_path"]
 
     with patch.object(
         generate_bgm_candidates, "SUCCESS_RULES_PATH", success_rules_path
