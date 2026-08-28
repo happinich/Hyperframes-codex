@@ -107,6 +107,10 @@ def main() -> int:
         "{{PRODUCTION_PROFILE_DESCRIPTION}}": selected_profile["description"],
         "{{PRODUCTION_PROFILE_LAYOUT}}": selected_profile["layout_language"],
         "{{PRODUCTION_PROFILE_MOTION}}": selected_profile["motion_density"],
+        "{{PRODUCTION_PROFILE_SCRIPT_MODE}}": selected_profile["script_mode"],
+        "{{PRODUCTION_PROFILE_OPENING_RULE}}": selected_profile["opening_rule"],
+        "{{PRODUCTION_PROFILE_NARRATION_RULE}}": selected_profile["narration_rule"],
+        "{{PRODUCTION_PROFILE_SOUND_RULE}}": selected_profile["sound_rule"],
         "{{PRODUCTION_PROFILE_CAPTION_RENDERER}}": selected_profile["captioned_output"]["renderer"],
         "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}": selected_profile["captioned_output"]["suffix"],
         "{{PRODUCTION_PROFILE_TARGET_WPM}}": str(

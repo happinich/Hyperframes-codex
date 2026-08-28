@@ -14,6 +14,10 @@ DEFAULT_BGM_FADE_OUT_SECONDS = 3.0
 MP3_CODEC_ARGS = ["-c:a", "libmp3lame", "-b:a", "192k"]
 WAV_CODEC_ARGS = ["-c:a", "pcm_s16le"]
 
+# The pipeline standard is 48 kHz stereo. BGM sources are often 44.1 kHz, and
+# without pinning this, amix silently downsamples the 48 kHz voice master.
+OUTPUT_SAMPLE_RATE = 48000
+
 
 def audio_duration_seconds(path: Path) -> float:
     result = subprocess.run(
@@ -82,6 +86,10 @@ def mix_bgm_with_voice(
             "[mixed]",
             "-t",
             f"{total_duration:.3f}",
+            "-ar",
+            str(OUTPUT_SAMPLE_RATE),
+            "-ac",
+            "2",
             *codec_args,
             str(target_audio),
         ],

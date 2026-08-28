@@ -3,6 +3,8 @@
   "production_profile_label": "{{PRODUCTION_PROFILE_LABEL}}",
   "visual_style_id": "{{VISUAL_STYLE_ID}}",
   "visual_style_label": "{{VISUAL_STYLE_LABEL}}",
+  "script_mode": "{{PRODUCTION_PROFILE_SCRIPT_MODE}}",
+  "sound_rule": "{{PRODUCTION_PROFILE_SOUND_RULE}}",
   "clean_master_suffix": "",
   "captioned_output_suffix": "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}"
 }

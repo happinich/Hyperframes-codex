@@ -5,6 +5,8 @@
   "visual_style_label": "{{VISUAL_STYLE_LABEL}}",
   "layout_language": "{{PRODUCTION_PROFILE_LAYOUT}}",
   "motion_density": "{{PRODUCTION_PROFILE_MOTION}}",
+  "script_mode": "{{PRODUCTION_PROFILE_SCRIPT_MODE}}",
+  "sound_rule": "{{PRODUCTION_PROFILE_SOUND_RULE}}",
   "captioned_renderer": "{{PRODUCTION_PROFILE_CAPTION_RENDERER}}",
   "captioned_output_suffix": "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}"
 }

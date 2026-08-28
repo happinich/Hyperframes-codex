@@ -18,12 +18,19 @@
 - 태그는 검색어 표기 변형과 고유명사 보조용으로만 사용합니다. 설명란에 태그 목록을 대량 붙이지 않습니다.
 - 챕터는 `00:00`으로 시작하고, 오름차순이며, 각 챕터가 최소 10초 이상 유지되도록 구성합니다.
 - 영상 자막 파일과 게시 설명의 고유명사 표기가 일치하는지 확인합니다.
+- 공포 영상은 `창작 공포`, `제보 각색`, `검증된 경험담` 중 하나의 작품 성격을 표시합니다.
+- 공포 썸네일은 한글 4~8자와 하나의 결정적 단서를 사용하며 제목 문구를 그대로 반복하지 않습니다.
+- 롱폼 마지막 15~20초에는 관련 다음 영상 또는 공개 재생목록과 구독 엔드스크린을 배치합니다.
+- 쇼츠는 설명란 URL에 의존하지 않고 업로드 후 YouTube Studio에서 본편을 `관련 동영상`으로 지정합니다.
 
 ## 완료 기준
 
-YouTube 본편의 납품에는 자막이 번인되지 않은 영상 MP4, 별도 업로드용 SRT 자막, `youtube/youtube-publish.md`와 문서 안의 공식 출처 목록이 함께 포함됩니다. Shorts를 만들 때도 `07_publish/shorts/` 아래에 동일한 단일 문서 방식으로 세로 영상 전용 게시 내용을 작성합니다.
+YouTube 본편의 납품에는 자막이 번인되지 않은 영상 MP4, 별도 업로드용 SRT 자막, `youtube/youtube-publish.md`와 문서 안의 공식 출처 목록이 함께 포함됩니다. 모든 새 본편은 `1080x1920`, `60fps`, `15~40초` 쇼츠 최소 1편을 함께 납품합니다. 쇼츠에는 모바일용 번인 자막, 외부 SRT/VTT와 `07_publish/shorts/shorts-publish.html`을 포함하며, 해당 HTML에 YouTube Studio에서 지정할 본편 `관련 동영상`을 명시합니다.
 
 ## 기준 출처
 
 - YouTube 태그 안내: <https://support.google.com/youtube/answer/146402>
 - YouTube 챕터 안내: <https://support.google.com/youtube/answer/9884579>
+- YouTube Shorts 관련 동영상: <https://support.google.com/youtube/answer/14075157>
+- YouTube 엔드스크린: <https://support.google.com/youtube/answer/6388789>
+- YouTube 제목·썸네일 팁: <https://support.google.com/youtube/answer/12340300>

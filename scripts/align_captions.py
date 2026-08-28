@@ -10,6 +10,8 @@ import re
 from dataclasses import dataclass, asdict
 from pathlib import Path
 
+from korean_tts_normalization import normalize_korean_tts_text
+
 
 @dataclass
 class TimedToken:
@@ -21,6 +23,16 @@ class TimedToken:
 
 def normalized(text: str) -> str:
     return "".join(char.lower() for char in text if char.isalnum())
+
+
+def character_coverage(script: str, raw_words: list[dict]) -> float:
+    script_norm = normalized(normalize_korean_tts_text(script))
+    heard_text = " ".join(word["text"] for word in raw_words)
+    heard_norm = normalized(normalize_korean_tts_text(heard_text))
+    if not script_norm or not heard_norm:
+        return 0.0
+    matcher = difflib.SequenceMatcher(None, script_norm, heard_norm, autojunk=False)
+    return sum(block.size for block in matcher.get_matching_blocks()) / len(script_norm)
 
 
 def timecode(seconds: float, vtt: bool = False) -> str:
@@ -170,10 +182,12 @@ def main() -> int:
 
     project = args.project.resolve()
     script_path = project / "01_script" / "narration.txt"
+    spoken_script_path = project / "01_script" / "tts-narration.txt"
     audio_path = project / "02_audio" / "working" / "voice.wav"
     if not script_path.exists() or not audio_path.exists():
         parser.error("project must contain narration.txt and normalized voice.wav")
     script = script_path.read_text(encoding="utf-8").strip()
+    spoken_script = spoken_script_path.read_text(encoding="utf-8").strip() if spoken_script_path.exists() else script
 
     try:
         import mlx_whisper
@@ -185,6 +199,8 @@ def main() -> int:
         path_or_hf_repo=args.model,
         language=args.language,
         word_timestamps=True,
+        condition_on_previous_text=False,
+        hallucination_silence_threshold=1.0,
         verbose=False,
     )
     raw_segments: list[dict] = []
@@ -210,7 +226,8 @@ def main() -> int:
             "words": words,
         })
     duration = float(result.get("duration") or (raw_words[-1]["end"] if raw_words else 0))
-    timed, coverage = align_tokens(script, raw_words, duration)
+    timed, caption_coverage = align_tokens(script, raw_words, duration)
+    spoken_coverage = character_coverage(spoken_script, raw_words)
     cues = make_cues(timed, args.max_caption_chars, 3.6)
     sync_dir = project / "03_sync"
     sync_dir.mkdir(parents=True, exist_ok=True)
@@ -229,6 +246,7 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     write_captions(cues, sync_dir)
+    coverage = spoken_coverage if spoken_script_path.exists() else caption_coverage
     status = "ready_for_review" if coverage >= args.threshold else "alignment_review_required"
     report = {
         "status": status,
@@ -236,7 +254,10 @@ def main() -> int:
         "whisper_model": args.model,
         "subtitle_delivery_mode": "external_srt_upload",
         "subtitle_text_source": "01_script/narration.txt",
+        "spoken_text_source": "01_script/tts-narration.txt" if spoken_script_path.exists() else "01_script/narration.txt",
         "matched_character_ratio": round(coverage, 4),
+        "caption_surface_match_ratio": round(caption_coverage, 4),
+        "spoken_match_ratio": round(spoken_coverage, 4),
         "required_ratio": args.threshold,
         "note": "Captions are delivered as external SRT/VTT files. The rendered MP4 does not burn captions into the image.",
     }

@@ -1,0 +1,498 @@
+{
+  "status": "pacing_review_required",
+  "duration": 1152.9,
+  "word_count": 2076,
+  "average_wpm": 108.0,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 63,
+  "long_word_gaps": [
+    {
+      "start": 21.0,
+      "end": 21.82,
+      "duration": 0.82,
+      "before": "수아였습니다.",
+      "after": "대학을"
+    },
+    {
+      "start": 45.54,
+      "end": 46.38,
+      "duration": 0.84,
+      "before": "근사했습니다.",
+      "after": "눈"
+    },
+    {
+      "start": 56.26,
+      "end": 57.1,
+      "duration": 0.84,
+      "before": "겁니다.",
+      "after": "그때부터"
+    },
+    {
+      "start": 72.34,
+      "end": 73.26,
+      "duration": 0.92,
+      "before": "됩니다.",
+      "after": "눈은"
+    },
+    {
+      "start": 77.3,
+      "end": 78.2,
+      "duration": 0.9,
+      "before": "남았습니다.",
+      "after": "20분쯤"
+    },
+    {
+      "start": 126.42,
+      "end": 127.3,
+      "duration": 0.88,
+      "before": "웃었습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 136.14,
+      "end": 136.96,
+      "duration": 0.82,
+      "before": "확인했습니다.",
+      "after": "예약"
+    },
+    {
+      "start": 145.14,
+      "end": 145.96,
+      "duration": 0.82,
+      "before": "했죠.",
+      "after": "민석은"
+    },
+    {
+      "start": 154.52,
+      "end": 155.44,
+      "duration": 0.92,
+      "before": "넣었습니다.",
+      "after": "저녁을"
+    },
+    {
+      "start": 161.82,
+      "end": 162.72,
+      "duration": 0.9,
+      "before": "정리했습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 181.12,
+      "end": 181.94,
+      "duration": 0.82,
+      "before": "의자였습니다.",
+      "after": "민석이"
+    },
+    {
+      "start": 206.94,
+      "end": 207.74,
+      "duration": 0.8,
+      "before": "사람이었습니다.",
+      "after": "수아도"
+    },
+    {
+      "start": 209.14,
+      "end": 210.02,
+      "duration": 0.88,
+      "before": "기억했습니다.",
+      "after": "태우도"
+    },
+    {
+      "start": 215.3,
+      "end": 216.18,
+      "duration": 0.88,
+      "before": "말했습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 227.72,
+      "end": 228.56,
+      "duration": 0.84,
+      "before": "했습니다.",
+      "after": "수아는"
+    },
+    {
+      "start": 229.7,
+      "end": 230.56,
+      "duration": 0.86,
+      "before": "했습니다.",
+      "after": "출발할"
+    },
+    {
+      "start": 294.18,
+      "end": 295.0,
+      "duration": 0.82,
+      "before": "방이었습니다.",
+      "after": "세"
+    },
+    {
+      "start": 297.4,
+      "end": 298.2,
+      "duration": 0.8,
+      "before": "있었습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 325.18,
+      "end": 326.02,
+      "duration": 0.84,
+      "before": "못했습니다.",
+      "after": "손잡이는"
+    },
+    {
+      "start": 339.3,
+      "end": 340.28,
+      "duration": 0.98,
+      "before": "들렸습니다.",
+      "after": "수아가"
+    },
+    {
+      "start": 360.4,
+      "end": 361.3,
+      "duration": 0.9,
+      "before": "했습니다.",
+      "after": "그곳"
+    },
+    {
+      "start": 448.52,
+      "end": 449.38,
+      "duration": 0.86,
+      "before": "아니었습니다.",
+      "after": "바로"
+    },
+    {
+      "start": 476.12,
+      "end": 476.94,
+      "duration": 0.82,
+      "before": "있었습니다.",
+      "after": "수아가"
+    },
+    {
+      "start": 524.18,
+      "end": 525.0,
+      "duration": 0.82,
+      "before": "있었습니다.",
+      "after": "이제"
+    },
+    {
+      "start": 528.8,
+      "end": 529.66,
+      "duration": 0.86,
+      "before": "했습니다.",
+      "after": "우리는"
+    },
+    {
+      "start": 544.84,
+      "end": 545.76,
+      "duration": 0.92,
+      "before": "말했습니다.",
+      "after": "성호는"
+    },
+    {
+      "start": 553.36,
+      "end": 554.26,
+      "duration": 0.9,
+      "before": "했습니다.",
+      "after": "이번에는"
+    },
+    {
+      "start": 556.58,
+      "end": 557.46,
+      "duration": 0.88,
+      "before": "했습니다.",
+      "after": "수아는"
+    },
+    {
+      "start": 560.26,
+      "end": 561.14,
+      "duration": 0.88,
+      "before": "했습니다.",
+      "after": "그러자"
+    },
+    {
+      "start": 563.36,
+      "end": 564.18,
+      "duration": 0.82,
+      "before": "보여줬습니다.",
+      "after": "사진"
+    },
+    {
+      "start": 568.28,
+      "end": 569.14,
+      "duration": 0.86,
+      "before": "있었습니다.",
+      "after": "남학생의"
+    },
+    {
+      "start": 614.64,
+      "end": 615.44,
+      "duration": 0.8,
+      "before": "없었습니다.",
+      "after": "폭설은"
+    },
+    {
+      "start": 619.88,
+      "end": 620.74,
+      "duration": 0.86,
+      "before": "불가능했습니다.",
+      "after": "현관에"
+    },
+    {
+      "start": 631.08,
+      "end": 631.92,
+      "duration": 0.84,
+      "before": "있었습니다.",
+      "after": "수아가"
+    },
+    {
+      "start": 633.78,
+      "end": 634.6,
+      "duration": 0.82,
+      "before": "걸었습니다.",
+      "after": "이번에는"
+    },
+    {
+      "start": 639.36,
+      "end": 640.2,
+      "duration": 0.84,
+      "before": "물었습니다.",
+      "after": "민석이"
+    },
+    {
+      "start": 644.06,
+      "end": 644.88,
+      "duration": 0.82,
+      "before": "쉬었습니다.",
+      "after": "그리고"
+    },
+    {
+      "start": 652.78,
+      "end": 653.58,
+      "duration": 0.8,
+      "before": "만듭니다.",
+      "after": "화면에서"
+    },
+    {
+      "start": 666.18,
+      "end": 667.08,
+      "duration": 0.9,
+      "before": "했습니다.",
+      "after": "그렇다면"
+    },
+    {
+      "start": 697.22,
+      "end": 698.08,
+      "duration": 0.86,
+      "before": "했습니다.",
+      "after": "혹시"
+    },
+    {
+      "start": 744.2,
+      "end": 745.04,
+      "duration": 0.84,
+      "before": "했습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 786.04,
+      "end": 786.84,
+      "duration": 0.8,
+      "before": "같았습니다.",
+      "after": "이어서"
+    },
+    {
+      "start": 804.26,
+      "end": 805.07,
+      "duration": 0.81,
+      "before": "기억했습니다.",
+      "after": "성호는"
+    },
+    {
+      "start": 837.96,
+      "end": 838.78,
+      "duration": 0.82,
+      "before": "흘러나왔습니다.",
+      "after": "수아,"
+    },
+    {
+      "start": 855.4,
+      "end": 856.22,
+      "duration": 0.82,
+      "before": "순간",
+      "after": "노끈이"
+    },
+    {
+      "start": 857.6,
+      "end": 858.41,
+      "duration": 0.81,
+      "before": "끊어졌습니다.",
+      "after": "눈밭에"
+    },
+    {
+      "start": 883.4,
+      "end": 884.2,
+      "duration": 0.8,
+      "before": "않았습니다.",
+      "after": "각자"
+    },
+    {
+      "start": 900.28,
+      "end": 901.08,
+      "duration": 0.8,
+      "before": "않았습니다.",
+      "after": "얼마나"
+    },
+    {
+      "start": 922.84,
+      "end": 923.74,
+      "duration": 0.9,
+      "before": "시작했습니다.",
+      "after": "수아,"
+    },
+    {
+      "start": 935.8,
+      "end": 936.66,
+      "duration": 0.86,
+      "before": "했습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 954.46,
+      "end": 955.32,
+      "duration": 0.86,
+      "before": "못했습니다.",
+      "after": "더"
+    },
+    {
+      "start": 962.2,
+      "end": 963.08,
+      "duration": 0.88,
+      "before": "시작했습니다.",
+      "after": "수아가"
+    },
+    {
+      "start": 980.2,
+      "end": 981.04,
+      "duration": 0.84,
+      "before": "생각했습니다.",
+      "after": "경찰이"
+    },
+    {
+      "start": 983.28,
+      "end": 984.14,
+      "duration": 0.86,
+      "before": "연결했습니다.",
+      "after": "첫"
+    },
+    {
+      "start": 987.06,
+      "end": 987.86,
+      "duration": 0.8,
+      "before": "있었습니다.",
+      "after": "수아,"
+    },
+    {
+      "start": 1000.18,
+      "end": 1001.02,
+      "duration": 0.84,
+      "before": "불렀습니다.",
+      "after": "그"
+    },
+    {
+      "start": 1003.48,
+      "end": 1004.32,
+      "duration": 0.84,
+      "before": "않았습니다.",
+      "after": "저는"
+    },
+    {
+      "start": 1012.36,
+      "end": 1013.28,
+      "duration": 0.92,
+      "before": "했습니다.",
+      "after": "하지만"
+    },
+    {
+      "start": 1078.94,
+      "end": 1079.82,
+      "duration": 0.88,
+      "before": "없습니다.",
+      "after": "입꼬리가"
+    },
+    {
+      "start": 1090.96,
+      "end": 1091.78,
+      "duration": 0.82,
+      "before": "않습니다.",
+      "after": "정신을"
+    },
+    {
+      "start": 1101.26,
+      "end": 1102.12,
+      "duration": 0.86,
+      "before": "차단했습니다.",
+      "after": "성호라는"
+    },
+    {
+      "start": 1131.56,
+      "end": 1132.44,
+      "duration": 0.88,
+      "before": "있습니다.",
+      "after": "컴퓨터"
+    },
+    {
+      "start": 1144.58,
+      "end": 1145.38,
+      "duration": 0.8,
+      "before": "있습니다.",
+      "after": "방금"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 1150.0,
+      "end": 1152.9,
+      "word_count": 5,
+      "wpm": 20.0
+    }
+  ],
+  "fast_window_count": 4,
+  "fast_windows": [
+    {
+      "start": 285.0,
+      "end": 300.0,
+      "word_count": 35,
+      "wpm": 140.0
+    },
+    {
+      "start": 1125.0,
+      "end": 1140.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 1130.0,
+      "end": 1145.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 1135.0,
+      "end": 1150.0,
+      "word_count": 34,
+      "wpm": 136.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "approved_after_manual_review",
+  "voice": "Esther",
+  "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+  "model": "eleven_v3",
+  "voice_duration_seconds": 363.033,
+  "mixed_duration_seconds": 367.033,
+  "caption_alignment_ratio": 0.9966,
+  "caption_surface_ratio": 0.9937,
+  "bgm_candidate": "cand-03",
+  "notes": "The user approved the complete paced narration and approved cand-03 for the final mix. The voice-only master remains preserved."
+}

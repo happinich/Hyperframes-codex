@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "defaults": {
     "candidate_count": 4,
     "candidate_length_ms": 40000,
@@ -8,6 +8,16 @@
     "preview_start_ratio": 0.6
   },
   "styles": {
+    "horror_cinematic": {
+      "label_ko": "호러 시네마틱",
+      "base_prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움.",
+      "variation_hints": [
+        "병원 복도의 형광등 험과 호출기 잔향을 얇게",
+        "젖은 야간 도로와 차량 내부 저역 공명을 중심으로",
+        "CCTV 전자 노이즈와 드문 금속 마찰음을 추가",
+        "거의 정적인 드론과 긴 적막 여백을 중심으로"
+      ]
+    },
     "minimal_dark_tech": {
       "label_ko": "미니멀 다크 테크",
       "base_prompt": "절제된 신스 펄스와 낮은 베이스, 넓은 여백. 일정한 템포의 미니멀 아르페지오. 보컬 없음, 오케스트라 없음, 과한 리버브 없음.",

@@ -1,0 +1,32 @@
+{
+  "style_id": "dark_cinematic",
+  "length_ms": 40000,
+  "output_format": "mp3_44100_128",
+  "content_hint": "- Project ID: `2026-013-three-signals-0317` - Created: `2026-08-24` - Primary format: YouTube 16:9 (1920x1080, 60fps) - Secondary format: Shorts 9:16 (1080x1920, separately adapted) - Face policy: 얼굴 노출 없음. 그래픽, 타이포그래피, 아이콘, 화면 목업만 사용. - Production profile: `classic_rich_motion_v1` · 기존 리치 모션형 - Profile description: 밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식. - Approved visual style: `dark_cinematic` · 다크 시네마틱 - Visual mood: 긴장감 있고 몰입도 높은 영화형 - Background: 블랙, 딥 네이비, 짙은 그라데이션과 국소 조명 - Palette: #05070d, #0b1730, #172b4d, #f5f7ff, #ff4d5f - Layout language: 대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다. - Motion density: 의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다. - Captioned renderer: `scripts/burn_karaoke_captions.mjs` - Voice generation: ElevenLabs API. - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.",
+  "candidates": [
+    {
+      "id": "cand-01",
+      "prompt": "낮은 서브 드론과 지속되는 불협 현악, 멀리서 들리는 겨울 바람. 느리고 일정한 긴장. 보컬 없음, 갑작스러운 큰 스팅어 없음, 드럼 비트 없음. 현악 중심으로 활 긁는 질감을 조금 더 - Project ID: `2026-013-three-signals-0317` - Created: `2026-08-24` - Primary format: YouTube 16:9 (1920x1080, 60fps) - Secondary format: Shorts 9:16 (1080x1920, separately adapted) - Face policy: 얼굴 노출 없음. 그래픽, 타이포그래피, 아이콘, 화면 목업만 사용. - Production profile: `classic_rich_motion_v1` · 기존 리치 모션형 - Profile description: 밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식. - Approved visual style: `dark_cinematic` · 다크 시네마틱 - Visual mood: 긴장감 있고 몰입도 높은 영화형 - Background: 블랙, 딥 네이비, 짙은 그라데이션과 국소 조명 - Palette: #05070d, #0b1730, #172b4d, #f5f7ff, #ff4d5f - Layout language: 대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다. - Motion density: 의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다. - Captioned renderer: `scripts/burn_karaoke_captions.mjs` - Voice generation: ElevenLabs API. - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-01.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-01.mp3"
+    },
+    {
+      "id": "cand-02",
+      "prompt": "낮은 서브 드론과 지속되는 불협 현악, 멀리서 들리는 겨울 바람. 느리고 일정한 긴장. 보컬 없음, 갑작스러운 큰 스팅어 없음, 드럼 비트 없음. 드론 중심으로 거의 정적에 가깝게 - Project ID: `2026-013-three-signals-0317` - Created: `2026-08-24` - Primary format: YouTube 16:9 (1920x1080, 60fps) - Secondary format: Shorts 9:16 (1080x1920, separately adapted) - Face policy: 얼굴 노출 없음. 그래픽, 타이포그래피, 아이콘, 화면 목업만 사용. - Production profile: `classic_rich_motion_v1` · 기존 리치 모션형 - Profile description: 밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식. - Approved visual style: `dark_cinematic` · 다크 시네마틱 - Visual mood: 긴장감 있고 몰입도 높은 영화형 - Background: 블랙, 딥 네이비, 짙은 그라데이션과 국소 조명 - Palette: #05070d, #0b1730, #172b4d, #f5f7ff, #ff4d5f - Layout language: 대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다. - Motion density: 의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다. - Captioned renderer: `scripts/burn_karaoke_captions.mjs` - Voice generation: ElevenLabs API. - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-02.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-02.mp3"
+    },
+    {
+      "id": "cand-03",
+      "prompt": "낮은 서브 드론과 지속되는 불협 현악, 멀리서 들리는 겨울 바람. 느리고 일정한 긴장. 보컬 없음, 갑작스러운 큰 스팅어 없음, 드럼 비트 없음. 금속성 울림과 미세한 하모닉스 추가 - Project ID: `2026-013-three-signals-0317` - Created: `2026-08-24` - Primary format: YouTube 16:9 (1920x1080, 60fps) - Secondary format: Shorts 9:16 (1080x1920, separately adapted) - Face policy: 얼굴 노출 없음. 그래픽, 타이포그래피, 아이콘, 화면 목업만 사용. - Production profile: `classic_rich_motion_v1` · 기존 리치 모션형 - Profile description: 밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식. - Approved visual style: `dark_cinematic` · 다크 시네마틱 - Visual mood: 긴장감 있고 몰입도 높은 영화형 - Background: 블랙, 딥 네이비, 짙은 그라데이션과 국소 조명 - Palette: #05070d, #0b1730, #172b4d, #f5f7ff, #ff4d5f - Layout language: 대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다. - Motion density: 의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다. - Captioned renderer: `scripts/burn_karaoke_captions.mjs` - Voice generation: ElevenLabs API. - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-03.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-03.mp3"
+    },
+    {
+      "id": "cand-04",
+      "prompt": "낮은 서브 드론과 지속되는 불협 현악, 멀리서 들리는 겨울 바람. 느리고 일정한 긴장. 보컬 없음, 갑작스러운 큰 스팅어 없음, 드럼 비트 없음. 낮은 피아노 단음을 드문드문 - Project ID: `2026-013-three-signals-0317` - Created: `2026-08-24` - Primary format: YouTube 16:9 (1920x1080, 60fps) - Secondary format: Shorts 9:16 (1080x1920, separately adapted) - Face policy: 얼굴 노출 없음. 그래픽, 타이포그래피, 아이콘, 화면 목업만 사용. - Production profile: `classic_rich_motion_v1` · 기존 리치 모션형 - Profile description: 밝은 카드, 다층 패널, 지도, 표, 허브 도식과 장면별 색조 변화를 사용하는 기존 Hyperframes 제작 방식. - Approved visual style: `dark_cinematic` · 다크 시네마틱 - Visual mood: 긴장감 있고 몰입도 높은 영화형 - Background: 블랙, 딥 네이비, 짙은 그라데이션과 국소 조명 - Palette: #05070d, #0b1730, #172b4d, #f5f7ff, #ff4d5f - Layout language: 대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다. - Motion density: 의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다. - Captioned renderer: `scripts/burn_karaoke_captions.mjs` - Voice generation: ElevenLabs API. - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-04.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-04.mp3"
+    }
+  ]
+}

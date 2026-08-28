@@ -9,13 +9,13 @@
 3. 대본 승인 직후 `planned-captions.srt`를 함께 생성해 예상 자막과 씬 타이밍을 검수합니다.
 4. 받은 파일은 `02_audio/inbox/`에 놓고 아래 명령으로 표준 WAV를 만듭니다.
 5. MLX Whisper turbo가 발화 시간을 찾고, 작성된 대본 원문으로 YouTube 업로드용 `captions.srt`를 만듭니다.
-6. 제작 프로필과 화면 스타일 후보를 먼저 제시하고 사용자 승인을 받은 뒤 HyperFrames HTML 컴포지션을 만들어 YouTube 16:9를 우선 렌더합니다. 신규 기본은 미니멀 다크 테크형이며, 기존 카드·차트 중심 방식은 별도 클래식 프로필로 보존합니다. 동일 기획에서 Shorts용 9:16 재구성도 보관합니다.
+6. 제작 프로필과 화면 스타일 후보를 먼저 제시하고 사용자 승인을 받은 뒤 HyperFrames HTML 컴포지션을 만들어 YouTube 16:9를 우선 렌더합니다. 현재 신규 기본은 공포 채널용 호러 시네마틱 스토리형이며, 설명형 미니멀 다크 테크와 기존 카드·차트 중심 방식은 별도 프로필로 보존합니다. 동일 기획에서 Shorts용 9:16 재구성도 보관합니다.
 
 ```bash
-python3 scripts/new_project.py first-video \
-  --title "첫 영상" \
-  --production-profile minimal_dark_tech_v1 \
-  --visual-style minimal_dark_tech
+python3 scripts/new_project.py first-horror \
+  --title "새벽 호출벨이 세 번 울리면" \
+  --production-profile horror_cinematic_story_v1 \
+  --visual-style horror_cinematic
 python3 scripts/create_planned_captions.py projects/first-video
 python3 scripts/ingest_audio.py projects/first-video path/to/recording.m4a
 python3 scripts/import_srt_captions.py projects/first-video path/to/provided-captions.srt
@@ -30,7 +30,7 @@ Hosted MCP와 로컬 음성 처리의 역할 구분은 [docs/HYPERFRAMES_MCP.ko.
 
 완성본 제작 중 검증된 장기 운영 규칙은 [docs/SUCCESS_RULES.ko.md](docs/SUCCESS_RULES.ko.md)와 [config/success-rules.json](config/success-rules.json)에 저장되어 있습니다.
 
-신규 미니멀 다크 테크형과 기존 리치 모션형의 구분, 자막본 파일명과 선택 명령은 [docs/PRODUCTION_PROFILES.ko.md](docs/PRODUCTION_PROFILES.ko.md)에 정리되어 있습니다.
+호러 시네마틱 스토리형, 미니멀 다크 테크형, 기존 리치 모션형의 구분과 선택 명령은 [docs/PRODUCTION_PROFILES.ko.md](docs/PRODUCTION_PROFILES.ko.md)에 정리되어 있습니다. 공포 채널의 쇼츠·본편·몰아듣기·제목·썸네일·분석 기준은 [docs/HORROR_CHANNEL_STRATEGY.ko.md](docs/HORROR_CHANNEL_STRATEGY.ko.md)를 따릅니다.
 
 ## 폴더 지도
 

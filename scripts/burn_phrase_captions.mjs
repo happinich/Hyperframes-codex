@@ -33,14 +33,23 @@ if (!fs.existsSync(timingPath)) fail(`Missing caption timings: ${timingPath}`);
 
 const probe = spawnSync("ffprobe", [
   "-v", "error",
-  "-show_entries", "format=duration",
-  "-of", "default=noprint_wrappers=1:nokey=1",
+  "-select_streams", "v:0",
+  "-show_entries", "format=duration:stream=avg_frame_rate,r_frame_rate",
+  "-of", "json",
   input,
 ], { encoding: "utf8" });
 if (probe.status !== 0) fail(probe.stderr || "ffprobe failed");
 
-const duration = Number.parseFloat(probe.stdout.trim());
-const fps = 30;
+function parseFrameRate(value) {
+  const [numerator, denominator = "1"] = String(value || "").split("/");
+  const rate = Number(numerator) / Number(denominator);
+  return Number.isFinite(rate) && rate > 0 ? rate : 60;
+}
+
+const media = JSON.parse(probe.stdout);
+const duration = Number.parseFloat(media.format.duration);
+const videoStream = media.streams?.[0] || {};
+const fps = parseFrameRate(videoStream.avg_frame_rate || videoStream.r_frame_rate);
 const frameCount = Math.ceil(duration * fps);
 const width = 1920;
 const layerHeight = 190;
@@ -100,6 +109,7 @@ const ffmpeg = spawn("ffmpeg", [
   "-filter_complex", "[1:v][0:v]overlay=0:H-h-48:format=auto[v]",
   "-map", "[v]", "-map", "1:a?",
   "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+  "-r", String(fps),
   "-c:a", "copy", "-movflags", "+faststart", "-shortest", output,
 ], { stdio: ["pipe", "inherit", "inherit"] });
 

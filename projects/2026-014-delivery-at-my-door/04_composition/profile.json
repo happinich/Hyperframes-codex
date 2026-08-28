@@ -1,0 +1,12 @@
+{
+  "production_profile_id": "horror_cinematic_story_v1",
+  "production_profile_label": "호러 시네마틱 스토리형",
+  "visual_style_id": "horror_cinematic",
+  "visual_style_label": "호러 시네마틱",
+  "layout_language": "풀블리드 시네마틱 이미지, 단서 클로즈업, CCTV·호출 패널·휴대전화 프레임, 짧은 경고 타이포를 이야기 감정선에 맞춰 교차한다.",
+  "motion_density": "정지 이미지도 1~3초마다 줌, 패닝, 초점, 조명, 스캔, 그림자 중 하나가 변하고 3초 이상 완전 정지를 금지한다.",
+  "script_mode": "cold_open_modern_horror_anthology",
+  "sound_rule": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+  "captioned_renderer": "scripts/burn_story_captions.mjs",
+  "captioned_output_suffix": "-captioned-story"
+}

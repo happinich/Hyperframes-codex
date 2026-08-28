@@ -1,0 +1,17 @@
+{
+  "status": "approved_after_manual_review",
+  "approved_at": "2026-08-21",
+  "approved_voice": "ElevenLabs Bin (jB1Cifc2UQbq1gR3wnb0)",
+  "voice_duration_seconds": 1101.606,
+  "alignment_ratio": 0.9736,
+  "pacing_note": "공포 내레이션의 의도된 정적과 숫자 나열 구간을 수동 승인함.",
+  "number_pronunciation": "TTS 전용 한글 숫자 원고로 전체 재생성 후 승인함.",
+  "approved_bgm_candidate": "cand-03",
+  "bgm_mix": {
+    "gain_db": -18,
+    "outro_seconds": 4,
+    "outro_gain_db": -14,
+    "fade_out_seconds": 3,
+    "mixed_duration_seconds": 1105.606
+  }
+}

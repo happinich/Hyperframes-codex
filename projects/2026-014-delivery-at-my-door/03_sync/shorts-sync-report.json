@@ -1,0 +1,8 @@
+{
+  "status": "ready_for_review",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "matched_character_ratio": 1.0,
+  "caption_surface_match_ratio": 1.0,
+  "speed_multiplier": 1.07,
+  "duration_seconds": 26.771
+}

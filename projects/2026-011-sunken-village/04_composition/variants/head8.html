@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+  <head><meta charset="utf-8"><link rel="icon" href="data:,">
+    <style>*{box-sizing:border-box}html,body{margin:0;background:#000;overflow:hidden}#s{width:1920px;height:1080px;position:relative}</style>
+  </head>
+  <body>
+    <div id="s" data-composition-id="head8" data-start="0" data-duration="8" data-width="1920" data-height="1080">
+      <div data-composition-src="index.html" data-start="0" data-duration="8" data-track-index="0"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to({}, { duration: 8 });
+      window.__timelines["head8"] = tl;
+    </script>
+  </body>
+</html>

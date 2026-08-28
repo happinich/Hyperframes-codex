@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "strategy_id": "korean_modern_horror_channel_v1",
+  "status": "active_default",
+  "purpose": "Face-free Korean modern-horror narration channel strategy for discovery, retention, binge viewing, and repeatable production.",
+  "evidence_policy": {
+    "external_channel_analysis": "Treat Gemini/Grok channel snapshots as directional input, not as verified live metrics.",
+    "official_guidance_checked_on": "2026-08-27",
+    "review_live_channel_metrics_in_youtube_studio": true
+  },
+  "positioning": {
+    "primary_niche": "한국의 일상 공간과 현대 기기에서 시작되는 창작 공포·도시괴담 오디오 드라마",
+    "channel_promise": "불을 끄고 들을수록 현실의 익숙한 장면이 무서워지는 기록",
+    "primary_audience": "늦은 밤 공포, 도시괴담, 미스터리 오디오 콘텐츠를 듣는 한국어 시청자",
+    "preferred_story_axes": [
+      "원룸·고시원·아파트·병원·편의점 같은 일상 공간",
+      "호출벨·인터폰·CCTV·블랙박스·택시 앱·단체 채팅방 같은 현대 기기",
+      "야간 근무·배달·택시·경비·병원 당직 같은 현실적인 직업",
+      "구체적 시간·호수·층수·인원 불일치가 만드는 규칙형 공포"
+    ],
+    "avoid_topic_drift": [
+      "공포와 무관한 시사·재테크 영상 혼합",
+      "한 채널 안에서 코미디·다큐·점프스케어 톤을 무작위로 교차",
+      "현대 일상형 공포의 약속을 깨는 무관한 소재 반복"
+    ]
+  },
+  "format_ladder": {
+    "shorts": {
+      "role": "discovery",
+      "duration_seconds_range": [15, 40],
+      "weekly_target_range": [4, 7],
+      "source": "approved long-form top moment, spike candidate, or climax setup",
+      "ending": "절정 직전 또는 독립적인 경고 문장 뒤 본편 관련 동영상으로 연결",
+      "related_video_required_after_upload": true,
+      "do_not_rely_on_description_urls": true,
+      "composition": "separate 1080x1920 60fps composition; never center-crop the long-form master"
+    },
+    "flagship_longform": {
+      "role": "retention_and_identity",
+      "duration_minutes_range": [15, 22],
+      "stories_per_video_range": [3, 4],
+      "minutes_per_story_range": [4.5, 6.5],
+      "weekly_target": 2,
+      "series_rule": "각 이야기 종료 직후 다음 이야기의 콜드 훅을 넣어 이탈 지점을 줄인다."
+    },
+    "compilation": {
+      "role": "binge_and_night_listening",
+      "duration_minutes_range": [60, 90],
+      "release_interval_days_target": 14,
+      "source": "previously approved and published stories only",
+      "requirements": [
+        "새 인트로와 챕터 타임스탬프",
+        "중복 인트로·아웃트로 제거",
+        "이야기 사이 음량과 BGM 전환 재검수",
+        "공개 재생목록과 엔드스크린 연결"
+      ]
+    }
+  },
+  "story_rules": {
+    "cold_open": {
+      "start_seconds": 0,
+      "highlight_duration_seconds_range": [5, 10],
+      "source": "해당 영상의 가장 이상하거나 위험한 대사 한 줄",
+      "no_greeting": true,
+      "no_channel_bumper_before_hook": true,
+      "must_match_title_and_thumbnail_promise": true
+    },
+    "first_anomaly_deadline_seconds": 30,
+    "setup_policy": "인물 소개와 이동 과정은 사건 이해에 필요한 최소 정보만 남긴다.",
+    "tension_cycle": [
+      "정상적인 일상 규칙 제시",
+      "작은 불일치 발견",
+      "확인 행동 또는 금지 규칙 등장",
+      "대가가 커지는 두 번째 이상 징후",
+      "결정적 선택",
+      "완전한 설명 대신 잔상을 남기는 결말"
+    ],
+    "anthology_bridge": "앞 이야기의 마지막 문장이 끝난 뒤 3초 안에 다음 이야기의 구체적 장소·시간·금지 규칙을 제시한다.",
+    "truth_label": {
+      "allowed": ["fiction", "adapted_submission", "verified_account"],
+      "default": "fiction",
+      "rule": "검증 근거가 없으면 제목과 썸네일에 실화라고 표시하지 않는다. 각색물은 설명란에 각색 사실을 표시한다."
+    }
+  },
+  "sound_design": {
+    "required_layers": ["narration", "room_ambience", "event_foley", "approved_bgm"],
+    "narration_priority": true,
+    "foley_examples": ["호출벨", "문고리", "발소리", "엘리베이터 도착음", "휴대전화 진동", "CCTV 전자음"],
+    "intentional_silence": {
+      "allowed_before_reveal_seconds_range": [0.35, 1.2],
+      "must_be_marked_in_scene_plan": true,
+      "manual_review_required_over_seconds": 0.8
+    },
+    "avoid": [
+      "내레이션을 가리는 지속적인 고역대 효과음",
+      "예고 없이 과도하게 큰 점프스케어",
+      "모든 장면에 같은 드론을 동일 음량으로 반복"
+    ]
+  },
+  "visual_direction": {
+    "face_free": true,
+    "reference_sheet_required_per_story": ["character", "location", "period", "palette", "lighting", "recurring_object"],
+    "preferred_imagery": [
+      "문틈·복도·호출 패널·CCTV 프레임 같은 단서 중심 미장센",
+      "얼굴 대신 실루엣·손·뒷모습·비어 있는 공간",
+      "젖은 야간 도로·형광등·전자 노이즈·국소 적색 경고등"
+    ],
+    "motion": {
+      "meaningful_change_seconds_range": [1, 3],
+      "still_image_animation": ["slow pan", "deep zoom", "parallax", "focus shift", "light flicker", "fog", "scanline", "shadow movement"],
+      "avoid_static_seconds_over": 3,
+      "avoid_extended_full_black_seconds_over": 1
+    },
+    "avoid": ["귀신 얼굴만 크게 반복", "고어를 핵심 클릭 요소로 사용", "밝기 부족으로 모바일에서 단서가 사라지는 화면"]
+  },
+  "packaging": {
+    "title": {
+      "formula": "일상 공간·기기 + 구체적 불일치·시간 + 금지 또는 결과 + 장르 꼬리표",
+      "important_words_first": true,
+      "episode_number_at_end": true,
+      "accurate_to_video": true,
+      "target_korean_chars_max": 45,
+      "main_plus_alternatives": 6
+    },
+    "thumbnail": {
+      "count": 2,
+      "text_korean_syllables_range": [4, 8],
+      "layout": "한쪽 결정적 단서, 반대쪽 짧은 경고 문구",
+      "palette": ["black", "deep_navy", "white", "warning_red"],
+      "rule": "제목을 그대로 반복하지 않고 제목이 숨긴 결정적 대사나 규칙을 보여준다.",
+      "avoid": ["작은 글자", "복잡한 콜라주", "노랑·네온 남용", "고어", "오타", "워터마크"]
+    }
+  },
+  "channel_connections": {
+    "playlists": ["공포괴담 본편", "1시간 몰아듣기", "직업 괴담", "주거 괴담", "현대 기기 괴담"],
+    "longform_end_screen": {
+      "reserve_seconds_range": [15, 20],
+      "primary_element": "most relevant next story or public playlist",
+      "secondary_element": "subscribe"
+    },
+    "pinned_comment": ["다음 편 예고", "구체적인 선택형 질문", "제보 안내"],
+    "submission_policy": [
+      "연락처는 환경설정 또는 채널 문서에서만 관리하고 템플릿에는 placeholder를 사용한다.",
+      "채택 전 사용 허락과 익명 처리 범위를 확인한다.",
+      "각색 여부를 영상 설명에 표시한다."
+    ]
+  },
+  "fallback_release_schedule_kst": {
+    "use_until_audience_heatmap_is_reliable": true,
+    "longform": ["Wednesday 22:00", "Sunday 22:00"],
+    "shorts_primary_window": "20:30",
+    "shorts_days": ["Tuesday", "Thursday", "Friday", "Saturday"],
+    "compilation": "alternate Saturday 22:00",
+    "override_rule": "When YouTube Studio audience data is available, schedule 30-60 minutes before the darkest viewer-activity block."
+  },
+  "analytics_loop": {
+    "first_review_after_hours": 48,
+    "second_review_after_days": 7,
+    "compare_similar_recent_videos_count": 10,
+    "intro_30s_retention_diagnostic_goal": 0.5,
+    "longform_metrics": ["impressions", "home_and_suggested_ctr", "30s_intro_retention", "average_view_duration", "top_moments", "spikes", "dips", "end_screen_click_rate"],
+    "shorts_metrics": ["shown_in_feed", "stayed_to_watch", "engaged_views", "average_percentage_viewed", "related_video_clicks"],
+    "iteration_rule": "조회가 오른 한 편의 소재·제목 구조·길이·오프닝을 3편 이상 같은 축으로 재검증하되 이야기를 복제하지 않는다."
+  }
+}

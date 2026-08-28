@@ -1,0 +1,12 @@
+{
+  "status": "approved_after_manual_review",
+  "reviewed_at": "2026-08-18",
+  "reviewer": "production",
+  "basis": {
+    "long_silences_over_0_8_seconds": 0,
+    "word_gaps_over_1_0_seconds": 0,
+    "alignment_ratio": 0.9732,
+    "average_wpm": 98.3
+  },
+  "note": "All 0.80-1.00 second gaps were manually reviewed as intentional sentence-end breathing in the horror narration. See 05_review/audio-review.md."
+}

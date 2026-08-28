@@ -1,7 +1,31 @@
 {
-  "schema_version": "1.0.0",
-  "default_profile_id": "minimal_dark_tech_v1",
+  "schema_version": "1.1.0",
+  "default_profile_id": "horror_cinematic_story_v1",
   "profiles": {
+    "horror_cinematic_story_v1": {
+      "label_ko": "호러 시네마틱 스토리형",
+      "status": "preferred",
+      "description": "한국의 일상 공간과 현대 기기에서 시작되는 공포 앤솔로지를 콜드 오프닝, 시네마틱 이미지 모션, 다층 사운드와 쇼츠 유입 구조로 제작하는 방식.",
+      "compatible_visual_styles": [
+        "horror_cinematic",
+        "dark_cinematic"
+      ],
+      "default_visual_style_id": "horror_cinematic",
+      "composition_template": "templates/composition-profiles/horror_cinematic_story_v1/index.html",
+      "target_fps": 60,
+      "motion_density": "정지 이미지도 1~3초마다 줌, 패닝, 초점, 조명, 스캔, 그림자 중 하나가 변하고 3초 이상 완전 정지를 금지한다.",
+      "layout_language": "풀블리드 시네마틱 이미지, 단서 클로즈업, CCTV·호출 패널·휴대전화 프레임, 짧은 경고 타이포를 이야기 감정선에 맞춰 교차한다.",
+      "script_mode": "cold_open_modern_horror_anthology",
+      "opening_rule": "첫 5~10초에 가장 위험하거나 이상한 대사 한 줄을 선제시하고, 30초 안에 첫 이상 징후에 진입한다.",
+      "narration_rule": "화면을 설명하는 메타 멘트 없이 짧고 감각적인 한국어로 쓰며, 한 편당 4.5~6.5분의 현대 일상형 공포를 3~4편 연결한다.",
+      "sound_rule": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+      "captioned_output": {
+        "renderer": "scripts/burn_story_captions.mjs",
+        "suffix": "-captioned-story",
+        "style": "하단 중앙 44px 흰색 구문 자막, 6px 검정 외곽선, 단어별 색상 추적 없음"
+      },
+      "target_wpm_range": [110, 140]
+    },
     "classic_rich_motion_v1": {
       "label_ko": "기존 리치 모션형",
       "status": "active_legacy",
@@ -18,12 +42,17 @@
       ],
       "default_visual_style_id": "adaptive_mix",
       "composition_template": "templates/composition-profiles/classic_rich_motion_v1/index.html",
+      "target_fps": 60,
       "motion_density": "의미 있는 정보 변화가 최소 3초마다 발생하고 배경 미세 움직임을 유지한다.",
       "layout_language": "대형 패널, 2열 카드, 차트, 지도, 허브, 전체 화면 타이포를 장면마다 교차 사용한다.",
+      "script_mode": "conversational_explainer",
+      "opening_rule": "첫 3초 안에 질문, 핵심 수치, 반전 사실로 시작한다.",
+      "narration_rule": "짧은 구어체 문장과 필요한 시각 자료 안내 멘트를 사용한다.",
+      "sound_rule": "내레이션을 중심으로 승인된 BGM을 낮게 믹싱하고 필요한 효과음을 씬별로 계획한다.",
       "captioned_output": {
-        "renderer": "scripts/burn_karaoke_captions.mjs",
-        "suffix": "-captioned",
-        "style": "흰색 굵은 글자, 검정 외곽선, 현재 발화 단어만 빨간색"
+        "renderer": "scripts/burn_story_captions.mjs",
+        "suffix": "-captioned-story",
+        "style": "하단 중앙 44px 흰색 구문 자막, 6px 검정 외곽선, 단어별 색상 추적 없음"
       },
       "target_wpm_range": [95, 135]
     },
@@ -36,12 +65,17 @@
       ],
       "default_visual_style_id": "minimal_dark_tech",
       "composition_template": "templates/composition-profiles/minimal_dark_tech_v1/index.html",
+      "target_fps": 60,
       "motion_density": "1~3초마다 카드 추가, 선 연결, 진행바 채움, 숫자 변화 중 하나를 실행하고 3초 이상 완전 정지를 금지한다.",
       "layout_language": "화면 중앙 960~1200px 안에 한 번에 하나의 개념만 배치하고 넓은 검정 여백을 유지한다.",
+      "script_mode": "fast_minimal_explainer",
+      "opening_rule": "첫 3초 안에 질문, 핵심 수치, 반전 사실로 시작한다.",
+      "narration_rule": "한 문장에 한 개념만 담고 짧고 빠른 구어체로 설명한다.",
+      "sound_rule": "내레이션을 중심으로 절제된 BGM을 사용하고 화면 상태 변화와 필요한 효과음을 맞춘다.",
       "captioned_output": {
-        "renderer": "scripts/burn_phrase_captions.mjs",
-        "suffix": "-captioned-minimal",
-        "style": "하단 중앙의 한 줄 흰색 문장 자막, 검정 그림자, 1.5~2.5초 단위 교체"
+        "renderer": "scripts/burn_story_captions.mjs",
+        "suffix": "-captioned-story",
+        "style": "하단 중앙 44px 흰색 구문 자막, 6px 검정 외곽선, 단어별 색상 추적 없음"
       },
       "target_wpm_range": [145, 165]
     }

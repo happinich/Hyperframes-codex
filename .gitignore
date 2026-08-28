@@ -8,6 +8,16 @@ __pycache__/
 node_modules/
 tmp/
 
+# Generated audio/video stays local. Commit scripts, timing data, and project
+# metadata instead of large or credential-adjacent media binaries.
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.mp4
+*.mov
+*.webm
+
 # Local media library files stay local by default.
 library/audio/music/*
 !library/audio/music/.gitkeep

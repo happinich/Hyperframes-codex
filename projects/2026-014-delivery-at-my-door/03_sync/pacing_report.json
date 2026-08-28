@@ -1,0 +1,143 @@
+{
+  "status": "pacing_review_required",
+  "duration": 362.82,
+  "word_count": 589,
+  "average_wpm": 97.4,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 16,
+  "long_word_gaps": [
+    {
+      "start": 3.2,
+      "end": 4.02,
+      "duration": 0.82,
+      "before": "전화했습니다.",
+      "after": "“고객님,"
+    },
+    {
+      "start": 13.78,
+      "end": 14.6,
+      "duration": 0.82,
+      "before": "곳이었습니다.",
+      "after": "그리고"
+    },
+    {
+      "start": 20.62,
+      "end": 21.6,
+      "duration": 0.98,
+      "before": "알았습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 43.2,
+      "end": 44.08,
+      "duration": 0.88,
+      "before": "똑같았습니다.",
+      "after": "저는"
+    },
+    {
+      "start": 47.18,
+      "end": 48.04,
+      "duration": 0.86,
+      "before": "했습니다.",
+      "after": "장난치는"
+    },
+    {
+      "start": 87.24,
+      "end": 88.31,
+      "duration": 1.07,
+      "before": "있었습니다.",
+      "after": "결제도"
+    },
+    {
+      "start": 117.4,
+      "end": 118.22,
+      "duration": 0.82,
+      "before": "소리였습니다.",
+      "after": "“고객님,"
+    },
+    {
+      "start": 142.7,
+      "end": 143.6,
+      "duration": 0.9,
+      "before": "말했습니다.",
+      "after": "“얼굴은"
+    },
+    {
+      "start": 146.82,
+      "end": 147.7,
+      "duration": 0.88,
+      "before": "이상합니다.”",
+      "after": "“어떻게요?”"
+    },
+    {
+      "start": 153.54,
+      "end": 154.48,
+      "duration": 0.94,
+      "before": "떴습니다.",
+      "after": "제가"
+    },
+    {
+      "start": 156.74,
+      "end": 157.58,
+      "duration": 0.84,
+      "before": "메시지였습니다.",
+      "after": "‘문"
+    },
+    {
+      "start": 182.42,
+      "end": 183.32,
+      "duration": 0.9,
+      "before": "있었습니다.",
+      "after": "“지금"
+    },
+    {
+      "start": 192.52,
+      "end": 193.34,
+      "duration": 0.82,
+      "before": "떴습니다.",
+      "after": "‘실내"
+    },
+    {
+      "start": 205.0,
+      "end": 206.04,
+      "duration": 1.04,
+      "before": "신고했습니다.",
+      "after": "상담원에게"
+    },
+    {
+      "start": 211.3,
+      "end": 212.18,
+      "duration": 0.88,
+      "before": "났습니다.",
+      "after": "사각."
+    },
+    {
+      "start": 242.92,
+      "end": 243.78,
+      "duration": 0.86,
+      "before": "걸렸습니다.",
+      "after": "사진"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 360.0,
+      "end": 362.82,
+      "word_count": 7,
+      "wpm": 28.0
+    }
+  ],
+  "fast_window_count": 0,
+  "fast_windows": [],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "production_profile_id": "classic_rich_motion_v1",
+  "production_profile_label": "기존 리치 모션형",
+  "visual_style_id": "dark_cinematic",
+  "visual_style_label": "다크 시네마틱",
+  "clean_master_suffix": "",
+  "captioned_output_suffix": "-captioned-story"
+}

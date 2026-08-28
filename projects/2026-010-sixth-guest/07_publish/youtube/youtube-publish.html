@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>여섯 번째 손님 - YouTube 게시 도우미</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090c13; --card:#111827; --line:#273449; --text:#f7f8fb; --muted:#9eabc0; --red:#ff334f; --blue:#54b9ff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; background:radial-gradient(circle at 85% 0,#172a43 0,transparent 32%),var(--bg); color:var(--text); }
+    main { width:min(1120px,calc(100% - 32px)); margin:0 auto; padding:44px 0 80px; }
+    header { margin-bottom:28px; }
+    h1 { margin:0 0 10px; font-size:clamp(30px,5vw,54px); letter-spacing:-.04em; }
+    .lead { color:var(--muted); font-size:17px; }
+    .toolbar { position:sticky; top:12px; z-index:5; display:flex; gap:10px; flex-wrap:wrap; padding:12px; margin:22px 0; border:1px solid var(--line); border-radius:16px; background:rgba(9,12,19,.88); backdrop-filter:blur(14px); }
+    button { border:0; border-radius:10px; padding:11px 15px; background:#20304a; color:white; font-weight:800; cursor:pointer; }
+    button.primary { background:var(--red); }
+    button:hover { filter:brightness(1.13); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    section { border:1px solid var(--line); border-radius:18px; padding:22px; background:rgba(17,24,39,.92); box-shadow:0 18px 50px rgba(0,0,0,.22); }
+    section.wide { grid-column:1/-1; }
+    h2 { margin:0 0 14px; font-size:21px; }
+    .label { color:var(--red); font-size:12px; font-weight:900; letter-spacing:.12em; }
+    .copybox { white-space:pre-wrap; overflow-wrap:anywhere; margin:12px 0 0; padding:16px; border:1px solid #324159; border-radius:12px; background:#090f1a; color:#eef3fa; line-height:1.65; font-size:15px; }
+    .actions { display:flex; justify-content:flex-end; margin-top:12px; }
+    .thumbs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .thumbs img { width:100%; border-radius:12px; border:1px solid var(--line); }
+    .files { color:var(--muted); line-height:1.8; }
+    .toast { position:fixed; right:20px; bottom:20px; padding:13px 18px; border-radius:10px; background:#fff; color:#111827; font-weight:800; opacity:0; transform:translateY(12px); transition:.2s; pointer-events:none; }
+    .toast.show { opacity:1; transform:translateY(0); }
+    @media (max-width:760px) { .grid,.thumbs { grid-template-columns:1fr; } section.wide { grid-column:auto; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="label">YOUTUBE PUBLISH KIT</div>
+    <h1>여섯 번째 손님</h1>
+    <div class="lead">제목부터 SNS 홍보문까지 필요한 내용을 한 화면에서 복사할 수 있습니다.</div>
+  </header>
+
+  <div class="toolbar">
+    <button class="primary" data-copy="all">전체 패키지 복사</button>
+    <button data-copy="main-title">메인 제목 복사</button>
+    <button data-copy="description">설명란 복사</button>
+    <button data-copy="tags">태그 복사</button>
+  </div>
+
+  <div class="grid">
+    <section>
+      <div class="label">MAIN TITLE</div><h2>메인 제목</h2>
+      <div id="main-title" class="copybox">5명이 체크인했는데 CCTV에는 6명이 찍혔다 | 소름 돋는 펜션 괴담</div>
+      <div class="actions"><button data-copy="main-title">복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">ALTERNATIVES</div><h2>추천 제목 5가지</h2>
+      <div id="alternate-titles" class="copybox">다섯 명이 갔는데 물컵은 여섯 개였다 | 월영재 괴담
+여섯 번째 손님은 언제부터 우리와 함께였을까?
+CCTV를 확인한 순간, 친구 한 명이 사라졌다
+사람 수를 세지 말라는 펜션 주인 | 공포 실화풍 괴담
+내 친구들은 나를 기억하지 못했다 | 반전 공포 이야기</div>
+      <div class="actions"><button data-copy="alternate-titles">추천 제목 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">DESCRIPTION</div><h2>설명란 + 타임스탬프</h2>
+      <div id="description" class="copybox">다섯 명이 산속 펜션에 도착했습니다. 그런데 식탁에는 물컵이 여섯 개였고, CCTV에는 차에서 내리는 여섯 번째 사람이 찍혀 있었습니다.
+
+이름은 성호. 문제는 다섯 사람 모두 그를 기억하지만, 누구도 그가 정확히 누구인지 설명하지 못한다는 겁니다. 그리고 펜션 주인은 단 한 가지 경고를 남깁니다.
+
+“현관 카메라는 확인해도 됩니다. 하지만 사람 수는 세지 마세요.”
+
+눈 덮인 산속 한옥 ‘월영재’에서 벌어지는 19분의 창작 공포 오디오 드라마입니다. 이어폰을 착용하고 불을 끈 채 감상해 보세요. 마지막 순간, 처음부터 누가 잘못 들어와 있었는지 드러납니다.
+
+⏱️ 타임스탬프
+00:00 CCTV에는 여섯 명이 찍혔다
+00:37 길이 사라진 산속
+01:29 주인 없는 펜션 월영재
+01:55 물컵과 실내화는 여섯 개
+02:35 빈 의자와 성호의 이름
+03:56 여섯 번째 단체 대화방
+04:40 도면에 없는 네 번째 방문
+05:31 사람 수를 세지 마세요
+06:12 차에서 내린 여섯 번째 사람
+07:38 실시간 CCTV 속 식탁
+09:02 휴대전화에 생긴 사진
+10:11 집이 빈자리를 채우는 방법
+12:08 붉은 노끈을 잡고 탈출
+13:46 캠코더에 녹음된 목소리
+15:00 아무도 나를 기억하지 못했다
+16:12 원본 영상이 보여 준 진실
+18:08 방 안의 두 번째 물컵
+
+이 영상은 창작된 공포 이야기이며 실제 인물·장소·사건과 관련이 없습니다.
+
+#공포이야기 #괴담 #반전공포 #오디오드라마 #무서운이야기</div>
+      <div class="actions"><button data-copy="description">설명란 전체 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">TAGS</div><h2>태그</h2>
+      <div id="tags" class="copybox">공포이야기, 무서운이야기, 괴담, 반전공포, 소름돋는이야기, 오디오드라마, 한국괴담, 펜션괴담, CCTV괴담, 심야괴담, 공포라디오, 창작괴담, 미스터리, 스릴러, 월영재, 여섯번째손님, horror story, korean horror, scary story, ghost story</div>
+      <div class="actions"><button data-copy="tags">태그 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">PINNED COMMENT</div><h2>고정 댓글</h2>
+      <div id="pinned-comment" class="copybox">여러분은 여섯 번째 손님이 정확히 어느 순간부터 함께 있었다고 생각하시나요? 가장 먼저 이상하다고 느낀 장면의 타임스탬프를 댓글로 남겨 주세요.</div>
+      <div class="actions"><button data-copy="pinned-comment">댓글 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">THUMBNAILS</div><h2>썸네일 2종</h2>
+      <div class="thumbs"><img src="thumbnail-a.png" alt="CCTV 썸네일"><img src="thumbnail-b.png" alt="여섯 개 물컵 썸네일"></div>
+    </section>
+
+    <section>
+      <div class="label">SOCIAL</div><h2>SNS 홍보문</h2>
+      <div id="social" class="copybox">다섯 명이 체크인했습니다.
+그런데 물컵은 여섯 개.
+CCTV에도 여섯 명이 찍혔습니다.
+
+펜션 주인이 남긴 경고는 하나였습니다.
+“카메라는 봐도 됩니다. 사람 수는 세지 마세요.”
+
+19분 반전 공포 이야기, 지금 공개합니다.
+[유튜브 링크]
+
+#공포이야기 #괴담 #반전공포</div>
+      <div class="actions"><button data-copy="social">홍보문 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">PUBLISH TIME</div><h2>게시 최적화 시간</h2>
+      <div id="publish-time" class="copybox">1순위: 금요일 또는 토요일 오후 9시 (한국 시간)
+2순위: 일요일 오후 8시 (한국 시간)
+예약 업로드는 공개 1~2시간 전에 처리하고, 공개 직후 30분 동안 댓글에 응답합니다.</div>
+      <div class="actions"><button data-copy="publish-time">시간 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">FILES</div><h2>업로드 파일</h2>
+      <div class="files">권장 영상: <b>2026-010-sixth-guest-youtube-captioned.mp4</b><br>클린 영상: 2026-010-sixth-guest-youtube.mp4<br>별도 자막: captions.srt<br>영상 사양: 1920×1080 · 60fps · 19분 13초</div>
+    </section>
+  </div>
+</main>
+<div id="toast" class="toast">복사했습니다</div>
+<script>
+  const ids = ["main-title","alternate-titles","description","tags","pinned-comment","social","publish-time"];
+  const value = (id) => document.getElementById(id).innerText.trim();
+  const fallbackCopy = (text) => {
+    const area = document.createElement("textarea");
+    area.value = text; area.style.position = "fixed"; area.style.opacity = "0";
+    document.body.appendChild(area); area.select(); document.execCommand("copy"); area.remove();
+  };
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); } catch { fallbackCopy(text); }
+    const toast = document.getElementById("toast");
+    toast.classList.add("show"); setTimeout(() => toast.classList.remove("show"), 1300);
+  }
+  document.addEventListener("click", (event) => {
+    const id = event.target.dataset.copy;
+    if (!id) return;
+    if (id === "all") {
+      copyText(ids.map((key) => `## ${key}\n${value(key)}`).join("\n\n"));
+      return;
+    }
+    copyText(value(id));
+  });
+</script>
+</body>
+</html>

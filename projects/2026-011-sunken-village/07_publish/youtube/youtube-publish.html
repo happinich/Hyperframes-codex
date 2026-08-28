@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>소흔리에서 종이 울렸다 - YouTube 게시 도우미</title>
+  <style>
+    :root { color-scheme: dark; --bg:#07090e; --card:#11161f; --line:#2a3344; --text:#f4f6fa; --muted:#9aa6b8; --red:#ff4d5f; --amber:#e8b86d; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; background:radial-gradient(circle at 88% 0,#1a2438 0,transparent 34%),var(--bg); color:var(--text); }
+    main { width:min(1120px,calc(100% - 32px)); margin:0 auto; padding:44px 0 80px; }
+    header { margin-bottom:28px; }
+    h1 { margin:0 0 10px; font-size:clamp(30px,5vw,54px); letter-spacing:-.04em; }
+    .lead { color:var(--muted); font-size:17px; }
+    .toolbar { position:sticky; top:12px; z-index:5; display:flex; gap:10px; flex-wrap:wrap; padding:12px; margin:22px 0; border:1px solid var(--line); border-radius:16px; background:rgba(7,9,14,.88); backdrop-filter:blur(14px); }
+    button { border:0; border-radius:10px; padding:11px 15px; background:#223044; color:white; font-weight:800; cursor:pointer; }
+    button.primary { background:var(--red); }
+    button:hover { filter:brightness(1.13); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    section { border:1px solid var(--line); border-radius:18px; padding:22px; background:rgba(17,22,31,.94); box-shadow:0 18px 50px rgba(0,0,0,.22); }
+    section.wide { grid-column:1/-1; }
+    h2 { margin:0 0 14px; font-size:21px; }
+    .label { color:var(--red); font-size:12px; font-weight:900; letter-spacing:.12em; }
+    .copybox { white-space:pre-wrap; overflow-wrap:anywhere; margin:12px 0 0; padding:16px; border:1px solid #324159; border-radius:12px; background:#090f1a; color:#eef3fa; line-height:1.65; font-size:15px; }
+    .actions { display:flex; justify-content:flex-end; margin-top:12px; }
+    .thumbs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .thumbs figure { margin:0; }
+    .thumbs img { width:100%; border-radius:12px; border:1px solid var(--line); }
+    .thumbs figcaption { margin-top:8px; color:var(--muted); font-size:13px; }
+    .files { color:var(--muted); line-height:1.8; }
+    .toast { position:fixed; right:20px; bottom:20px; padding:13px 18px; border-radius:10px; background:#fff; color:#111827; font-weight:800; opacity:0; transform:translateY(12px); transition:.2s; pointer-events:none; }
+    .toast.show { opacity:1; transform:translateY(0); }
+    @media (max-width:760px) { .grid,.thumbs { grid-template-columns:1fr; } section.wide { grid-column:auto; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="label">YOUTUBE PUBLISH KIT</div>
+    <h1>소흔리에서 종이 울렸다</h1>
+    <div class="lead">제목부터 SNS 홍보문까지 필요한 내용을 한 화면에서 복사할 수 있습니다.</div>
+  </header>
+
+  <div class="toolbar">
+    <button class="primary" data-copy="all">전체 패키지 복사</button>
+    <button data-copy="main-title">메인 제목 복사</button>
+    <button data-copy="description">설명란 복사</button>
+    <button data-copy="tags">태그 복사</button>
+  </div>
+
+  <div class="grid">
+    <section>
+      <div class="label">MAIN TITLE</div><h2>메인 제목</h2>
+      <div id="main-title" class="copybox">철거된 종탑에서 종이 울렸다 | 30년 만에 드러난 수몰 마을</div>
+      <div class="actions"><button data-copy="main-title">복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">ALTERNATIVES</div><h2>추천 제목 5가지</h2>
+      <div id="alternate-titles" class="copybox">42가구가 이주했다는데, 마을은 그대로였다 | 소흔리 괴담
+저수율 9.4%, 물속에서 종이 울렸다
+관리소 직원이 말했다. 소리는 신경 쓰지 말라고요
+달력은 전부 1996년 8월에 멈춰 있었다
+붉은 수첩에는 이름만 마흔두 개 적혀 있었다</div>
+      <div class="actions"><button data-copy="alternate-titles">추천 제목 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">DESCRIPTION</div><h2>설명란 + 타임스탬프</h2>
+      <div id="description" class="copybox">30년 만에 저수지 물이 빠졌습니다. 그리고 물속에서 종이 울렸습니다. 문제는 그 종탑이 30년 전에 철거됐다는 겁니다.
+
+소흔저수지 저수율 9.4퍼센트. 드러난 마을에는 항아리, 이불, 옷이 그대로 남아 있었습니다. 이주 대장에는 42가구가 전부 이주 완료로 찍혀 있었습니다. 그런데 도장 날짜는 하루였습니다. 담수가 시작된 날.
+
+이어폰을 끼고 불을 끈 채 들어 주세요. 17분의 창작 공포 오디오 드라마입니다.
+
+⏱️ 타임스탬프
+00:00 철거된 종탑에서 종이 울렸다
+00:10 저수율 9.4퍼센트
+00:27 물 아래 고향
+01:44 붉은 수첩, 이름 마흔두 개
+02:25 30년 만에 드러난 마을
+02:52 여섯 시 전에 올라오세요
+03:53 항아리를 두고 간 집
+04:50 8월 14일까지 나온 아이들
+06:17 1996년 8월에 멈춰 있는 달력
+07:00 존재하지 않는 종이 울렸다
+08:37 소흔리 이주 처리 대장
+09:57 전부 같은 날 찍힌 도장
+11:06 상류에 비가 내리기 시작했다
+12:09 물 위의 발자국
+12:55 밥그릇 마흔두 개
+13:33 수첩의 마지막 장
+15:00 유골함과 종소리
+16:07 수면 아래 등불
+16:37 젖은 글씨, 자리는 비워두마
+
+이 영상은 창작된 공포 이야기입니다. 실존하는 마을·댐·저수지·인물·사건과 관련이 없습니다. 소흔리와 소흔저수지는 가상의 지명입니다.
+
+#공포이야기 #괴담 #수몰마을 #오디오드라마 #무서운이야기</div>
+      <div class="actions"><button data-copy="description">설명란 전체 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">TAGS</div><h2>태그</h2>
+      <div id="tags" class="copybox">공포이야기, 무서운이야기, 괴담, 수몰마을, 반전공포, 소름돋는이야기, 오디오드라마, 한국괴담, 심야괴담, 공포라디오, 창작괴담, 미스터리, 스릴러, 종탑괴담, 소흔리, 소흔저수지, horror story, korean horror, scary story, ghost story</div>
+      <div class="actions"><button data-copy="tags">태그 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">PINNED COMMENT</div><h2>고정 댓글</h2>
+      <div id="pinned-comment" class="copybox">여러분은 종소리가 처음 들렸을 때부터 이상했다고 느끼셨나요, 아니면 대장의 도장에서였나요? 가장 먼저 소름 돋은 장면의 타임스탬프를 남겨 주세요. 이 이야기는 창작입니다.</div>
+      <div class="actions"><button data-copy="pinned-comment">댓글 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">THUMBNAILS</div><h2>썸네일 2종</h2>
+      <div class="thumbs">
+        <figure>
+          <img src="thumbnail-a.png" alt="철거된 종탑 썸네일">
+          <figcaption>A안 1순위 · 철거된 종탑 / 종이 울렸다</figcaption>
+        </figure>
+        <figure>
+          <img src="thumbnail-b.png" alt="42가구 이주 썸네일">
+          <figcaption>B안 A/B · 42가구 이주 / 마을은 그대로</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <div class="label">SOCIAL</div><h2>SNS 홍보문</h2>
+      <div id="social" class="copybox">30년 만에 저수지 물이 빠졌습니다.
+그리고 물속에서 종이 울렸습니다.
+
+문제는 그 종탑이 30년 전에 철거됐다는 겁니다.
+
+17분 창작 공포 이야기, 지금 공개합니다.
+[유튜브 링크]
+
+#공포이야기 #괴담 #수몰마을</div>
+      <div class="actions"><button data-copy="social">홍보문 복사</button></div>
+    </section>
+
+    <section>
+      <div class="label">PUBLISH TIME</div><h2>게시 최적화 시간</h2>
+      <div id="publish-time" class="copybox">1순위: 금요일 또는 토요일 오후 9시 (한국 시간)
+2순위: 일요일 오후 8시 (한국 시간)
+예약 업로드는 공개 1~2시간 전에 처리하고, 공개 직후 30분 동안 댓글에 응답합니다.</div>
+      <div class="actions"><button data-copy="publish-time">시간 복사</button></div>
+    </section>
+
+    <section class="wide">
+      <div class="label">FILES</div><h2>업로드 파일</h2>
+      <div class="files">권장 영상: <b>2026-011-sunken-village-youtube.mp4</b><br>자막 번인본: 2026-011-sunken-village-youtube-captioned.mp4<br>별도 자막: captions.srt<br>영상 사양: 1920×1080 · 60fps · 17분 10초<br>미드롤: 07:33, 12:09 · 카드: 16:50</div>
+    </section>
+  </div>
+</main>
+<div id="toast" class="toast">복사했습니다</div>
+<script>
+  const ids = ["main-title","alternate-titles","description","tags","pinned-comment","social","publish-time"];
+  const value = (id) => document.getElementById(id).innerText.trim();
+  const fallbackCopy = (text) => {
+    const area = document.createElement("textarea");
+    area.value = text; area.style.position = "fixed"; area.style.opacity = "0";
+    document.body.appendChild(area); area.select(); document.execCommand("copy"); area.remove();
+  };
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); } catch { fallbackCopy(text); }
+    const toast = document.getElementById("toast");
+    toast.classList.add("show"); setTimeout(() => toast.classList.remove("show"), 1300);
+  }
+  document.addEventListener("click", (event) => {
+    const id = event.target.dataset.copy;
+    if (!id) return;
+    if (id === "all") {
+      copyText(ids.map((key) => `## ${key}\n${value(key)}`).join("\n\n"));
+      return;
+    }
+    copyText(value(id));
+  });
+</script>
+</body>
+</html>

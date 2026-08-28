@@ -110,13 +110,75 @@ def main() -> int:
     parser.add_argument("--length-ms", type=int)
     parser.add_argument("--content-hint", default=None)
     parser.add_argument("--replace", action="store_true")
+    parser.add_argument(
+        "--refresh-previews",
+        action="store_true",
+        help="Reuse existing BGM candidates and rebuild narration mix previews",
+    )
     args = parser.parse_args()
+
+    project = args.project.resolve()
+    bgm_dir = project / "02_audio" / "bgm"
+    candidates_dir = bgm_dir / "candidates"
+    previews_dir = bgm_dir / "previews"
+    voice = project / "02_audio" / "working" / "voice.wav"
+    settings = load_bgm_settings(load_json(SUCCESS_RULES_PATH))
+
+    if args.refresh_previews:
+        manifest_path = bgm_dir / "candidates.json"
+        if not manifest_path.is_file():
+            parser.error(f"missing candidate manifest: {manifest_path}")
+        if not voice.is_file():
+            parser.error(f"missing voice track: {voice}")
+
+        manifest = load_json(manifest_path)
+        candidates = manifest.get("candidates") or []
+        if not candidates:
+            parser.error(f"no candidates in manifest: {manifest_path}")
+
+        previews_dir.mkdir(parents=True, exist_ok=True)
+        start, duration = preview_window(
+            audio_duration_seconds(voice), 0.6, 30
+        )
+        narration_slice = previews_dir / "narration-slice.wav"
+        slice_narration(voice, narration_slice, start, duration)
+
+        for index, candidate in enumerate(candidates, start=1):
+            candidate_path = candidates_dir / f"{candidate['id']}.mp3"
+            if not candidate_path.is_file():
+                parser.error(f"missing candidate audio: {candidate_path}")
+            preview_path = previews_dir / f"mix-{index:02d}.mp3"
+            mix_bgm_with_voice(
+                voice_audio=narration_slice,
+                bgm_audio=candidate_path,
+                target_audio=preview_path,
+                gain_db=settings.gain_db,
+                outro_seconds=0.0,
+                outro_gain_db=settings.outro_gain_db,
+                fade_out_seconds=settings.fade_out_seconds,
+            )
+            candidate["preview_href"] = (
+                f"../02_audio/bgm/previews/{preview_path.name}"
+            )
+
+        manifest_path.write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        review_page = project / "05_review" / "bgm-selection.html"
+        review_page.parent.mkdir(parents=True, exist_ok=True)
+        review_page.write_text(
+            render_selection_page(project.name, candidates), encoding="utf-8"
+        )
+        print(f"Refreshed   : {len(candidates)} narration mix preview(s)")
+        print(f"Voice slice : {start:.2f}s - {start + duration:.2f}s")
+        print(f"Review page : {review_page}")
+        return 0
 
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         parser.error("missing API key. Set ELEVENLABS_API_KEY in your shell environment")
 
-    project = args.project.resolve()
     profile_path = project / "04_composition" / "profile.json"
     if not profile_path.is_file():
         parser.error(f"missing composition profile: {profile_path}")
@@ -144,16 +206,11 @@ def main() -> int:
     except ValueError as error:
         parser.error(str(error))
 
-    bgm_dir = project / "02_audio" / "bgm"
-    candidates_dir = bgm_dir / "candidates"
-    previews_dir = bgm_dir / "previews"
     if candidates_dir.exists() and any(candidates_dir.glob("*.mp3")) and not args.replace:
         parser.error(f"candidates already exist: {candidates_dir}. Pass --replace")
     candidates_dir.mkdir(parents=True, exist_ok=True)
     previews_dir.mkdir(parents=True, exist_ok=True)
 
-    voice = project / "02_audio" / "working" / "voice.wav"
-    settings = load_bgm_settings(load_json(SUCCESS_RULES_PATH))
     narration_slice = None
     if voice.is_file():
         start, duration = preview_window(

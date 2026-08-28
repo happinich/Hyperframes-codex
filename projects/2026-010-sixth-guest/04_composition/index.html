@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>여섯 번째 투숙객 - YouTube</title>
+    <style>
+      :root {
+        --black: #05070d;
+        --navy: #0b1730;
+        --ice: #f5f7ff;
+        --muted: #9aa7ba;
+        --red: #c62f46;
+        --amber: #d4a25f;
+      }
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #000; }
+      body {
+        font-family: Arial, sans-serif;
+        color: var(--ice);
+      }
+      #master {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        isolation: isolate;
+        background: #000;
+      }
+      .clip { visibility: hidden; opacity: 0; }
+      .scene {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: var(--black);
+      }
+      .scene-image {
+        position: absolute;
+        inset: -4%;
+        width: 108%;
+        height: 108%;
+        opacity: 0;
+        object-fit: cover;
+        filter: saturate(.8) contrast(1.1) brightness(.86);
+        will-change: transform, filter;
+      }
+      .scene-scrim {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(circle at 50% 44%, transparent 20%, rgba(2, 4, 10, .16) 58%, rgba(2, 4, 10, .52) 100%),
+          linear-gradient(180deg, rgba(0, 0, 0, .18), transparent 28%, transparent 70%, rgba(0, 0, 0, .58));
+      }
+      .scene-glow {
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        right: -180px;
+        top: -220px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(44, 100, 158, .22), transparent 68%);
+        mix-blend-mode: screen;
+        filter: blur(8px);
+      }
+      .grain {
+        position: absolute;
+        inset: 0;
+        opacity: .16;
+        background-image:
+          repeating-radial-gradient(circle at 17% 23%, rgba(255,255,255,.25) 0 1px, transparent 1px 4px),
+          repeating-radial-gradient(circle at 73% 67%, rgba(255,255,255,.12) 0 1px, transparent 1px 5px);
+        background-size: 11px 13px, 17px 19px;
+        mix-blend-mode: overlay;
+      }
+      .mist {
+        position: absolute;
+        left: -20%;
+        bottom: -190px;
+        width: 140%;
+        height: 420px;
+        opacity: .22;
+        background: radial-gradient(ellipse, rgba(146, 178, 205, .32), transparent 68%);
+        filter: blur(38px);
+      }
+      .scanline {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -90px;
+        height: 78px;
+        opacity: 0;
+        background: linear-gradient(180deg, transparent, rgba(199, 225, 245, .12), transparent);
+        mix-blend-mode: screen;
+      }
+      .scene[data-type="cctv"] .scanline,
+      .scene[data-type="blackout"] .scanline,
+      .scene[data-type="double"] .scanline,
+      .scene[data-type="reversal"] .scanline { opacity: .9; }
+      .corner {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        border-color: rgba(235, 242, 251, .38);
+        border-style: solid;
+      }
+      .corner.tl { left: 60px; top: 58px; border-width: 2px 0 0 2px; }
+      .corner.tr { right: 60px; top: 58px; border-width: 2px 2px 0 0; }
+      .corner.bl { left: 60px; bottom: 58px; border-width: 0 0 2px 2px; }
+      .corner.br { right: 60px; bottom: 58px; border-width: 0 2px 2px 0; }
+      .film-bar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        height: 42px;
+        background: #000;
+      }
+      .film-bar.top { top: 0; }
+      .film-bar.bottom { bottom: 0; }
+      .progress-line {
+        position: absolute;
+        left: 0;
+        bottom: 42px;
+        width: 100%;
+        height: 3px;
+        transform-origin: left center;
+        background: linear-gradient(90deg, var(--red), rgba(198, 47, 70, .08));
+        opacity: .65;
+      }
+      .layout-1 .scene-scrim {
+        background:
+          radial-gradient(circle at 50% 44%, transparent 20%, rgba(2, 4, 10, .16) 58%, rgba(2, 4, 10, .52) 100%),
+          linear-gradient(180deg, rgba(0, 0, 0, .18), transparent 28%, transparent 70%, rgba(0, 0, 0, .58));
+      }
+    </style>
+  </head>
+  <body>
+    <div id="master" data-composition-id="youtube-master" data-start="0" data-duration="1153.031" data-width="1920" data-height="1080">
+      <audio id="voice" data-start="0" data-duration="1153.031" data-track-index="0" src="assets/audio/voice.wav" data-volume="1"></audio>
+      <div id="scene-host"></div>
+      <div class="film-bar top"></div>
+      <div class="film-bar bottom"></div>
+      <div class="progress-line"></div>
+      <!-- Captions are delivered as external SRT/VTT files. -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="scene-data.js"></script>
+    <script>
+      const host = document.getElementById("scene-host");
+      const visualSequences = {
+        S01: [
+          { src: "assets/visuals/sample-cctv-sixth.png", focus: "72% 50%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/dining-six-settings.png", focus: "50% 53%", zoom: 1.12, x: 0 }
+        ],
+        S02: [
+          { src: "assets/visuals/sample-five-friends-departure.png", focus: "50% 50%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/sample-five-friends-departure.png", focus: "50% 50%", zoom: 1.62, x: 18 },
+          { src: "assets/visuals/sample-five-friends-departure.png", focus: "50% 50%", zoom: 1.56, x: -17 }
+        ],
+        S03: [
+          { src: "assets/visuals/sample-navigation-no-signal.png", focus: "50% 55%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/sample-snow-road-lantern.png", focus: "56% 48%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/wolyeongjae-reference.png", focus: "50% 30%", zoom: 1.58, x: 0 }
+        ],
+        S04: [
+          { src: "assets/visuals/sample-snow-road-lantern.png", focus: "56% 48%", zoom: 1.1, x: -2 },
+          { src: "assets/visuals/wolyeongjae-reference.png", focus: "11% 38%", zoom: 1.46, x: 15 },
+          { src: "assets/visuals/wolyeongjae-reference.png", focus: "12% 42%", zoom: 1.84, x: 25, y: 2 }
+        ],
+        S05: [
+          { src: "assets/visuals/dining-six-settings.png", focus: "50% 54%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/dining-six-settings.png", focus: "56% 49%", zoom: 1.52, x: -17, y: -2 },
+          { src: "assets/visuals/dining-six-settings.png", focus: "37% 61%", zoom: 1.68, x: 19, y: -4 }
+        ],
+        S06: [
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 50%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 50%", zoom: 1.52, x: 1, y: -3 },
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 62%", zoom: 1.72, x: 0, y: 9 }
+        ],
+        S07: [
+          { src: "assets/visuals/dining-six-settings.png", focus: "55% 50%", zoom: 1.18, x: -4 },
+          { src: "assets/visuals/empty-chair-black-coat.png", focus: "50% 54%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/empty-chair-black-coat.png", focus: "52% 45%", zoom: 1.54, x: -1, y: -5 },
+          { src: "assets/visuals/empty-chair-black-coat.png", focus: "48% 76%", zoom: 1.82, x: 2, y: 16 }
+        ],
+        S08: [
+          { src: "assets/visuals/empty-chair-black-coat.png", focus: "50% 50%", zoom: 1.15, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "26% 48%", zoom: 1.62, x: 16, y: -1 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "74% 52%", zoom: 1.62, x: -16, y: 1 }
+        ],
+        S09: [
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 50%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 43%", zoom: 1.54, x: 0, y: -9 },
+          { src: "assets/visuals/phone-booking-six.png", focus: "50% 66%", zoom: 1.74, x: 0, y: 12 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.2, x: 0 }
+        ],
+        S10: [
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "82% 45%", zoom: 1.62, x: -19, y: -2 },
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "54% 54%", zoom: 1.58, x: 0, y: 4 },
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "18% 68%", zoom: 1.64, x: 20, y: 10 },
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "48% 58%", zoom: 1.48, x: 1, y: 5 }
+        ],
+        S11: [
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "18% 67%", zoom: 1.56, x: 18, y: 8 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 53%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "67% 42%", zoom: 1.48, x: -11, y: -6 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "33% 58%", zoom: 1.56, x: 13, y: 6 }
+        ],
+        S12: [
+          { src: "assets/visuals/sample-cctv-sixth.png", focus: "72% 50%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/sample-cctv-sixth.png", focus: "73% 48%", zoom: 1.52, x: -14, y: -2 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 51%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "50% 52%", zoom: 1.62, x: 0, y: 1 }
+        ],
+        S13: [
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 50%", zoom: 1.1, x: 0 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "50% 50%", zoom: 1.5, x: 0 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 50%", zoom: 1.82, x: 0, y: -2 }
+        ],
+        S14: [
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "50% 52%", zoom: 1.48, x: 0, y: 2 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "32% 53%", zoom: 1.68, x: 15, y: 2 },
+          { src: "assets/visuals/cctv-live-six-table.png", focus: "70% 48%", zoom: 1.72, x: -17, y: -2 },
+          { src: "assets/visuals/sample-cctv-sixth.png", focus: "72% 50%", zoom: 1.38, x: -10 }
+        ],
+        S15: [
+          { src: "assets/visuals/empty-room-footprints.png", focus: "50% 55%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/empty-room-footprints.png", focus: "47% 74%", zoom: 1.5, x: 2, y: 11 },
+          { src: "assets/visuals/dining-six-settings.png", focus: "50% 54%", zoom: 1.22, x: 0 }
+        ],
+        S16: [
+          { src: "assets/visuals/stalled-car-photo-corruption.png", focus: "29% 44%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/stalled-car-photo-corruption.png", focus: "24% 54%", zoom: 1.62, x: 15, y: 3 }
+        ],
+        S17: [
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "22% 49%", zoom: 1.6, x: 18 },
+          { src: "assets/visuals/stalled-car-photo-corruption.png", focus: "66% 72%", zoom: 1.48, x: -10, y: 10 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "76% 50%", zoom: 1.64, x: -17 },
+          { src: "assets/visuals/stalled-car-photo-corruption.png", focus: "58% 64%", zoom: 1.78, x: -8, y: 8 }
+        ],
+        S18: [
+          { src: "assets/visuals/rear-seat-belt.png", focus: "50% 52%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/rear-seat-belt.png", focus: "50% 58%", zoom: 1.6, x: 0, y: 5 },
+          { src: "assets/visuals/rear-seat-belt.png", focus: "42% 55%", zoom: 1.82, x: 7, y: 3 }
+        ],
+        S19: [
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "23% 29%", zoom: 1.58, x: 19, y: -13 },
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "52% 58%", zoom: 1.48, x: 0, y: 5 },
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "78% 58%", zoom: 1.62, x: -18, y: 6 },
+          { src: "assets/visuals/empty-chair-black-coat.png", focus: "50% 52%", zoom: 1.12, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.18, x: 0 }
+        ],
+        S20: [
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 56%", zoom: 1.05, x: 0 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "25% 64%", zoom: 1.62, x: 16, y: 7 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "72% 61%", zoom: 1.64, x: -17, y: 5 },
+          { src: "assets/visuals/clock-blueprint-ledger.png", focus: "73% 61%", zoom: 1.68, x: -16, y: 7 }
+        ],
+        S21: [
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "30% 48%", zoom: 1.52, x: 15, y: -1 },
+          { src: "assets/visuals/fourth-door-wet-coat.png", focus: "50% 50%", zoom: 1.12, x: 0 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "69% 48%", zoom: 1.56, x: -15, y: -1 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 60%", zoom: 1.34, x: 0, y: 5 }
+        ],
+        S22: [
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "22% 48%", zoom: 1.64, x: 18 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 54%", zoom: 1.16, x: 0 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "76% 50%", zoom: 1.62, x: -18 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 57%", zoom: 1.52, x: 0, y: 5 }
+        ],
+        S23: [
+          { src: "assets/visuals/camcorder-five-names.png", focus: "50% 60%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/camcorder-five-names.png", focus: "55% 62%", zoom: 1.52, x: -4, y: 7 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 53%", zoom: 1.24, x: 0 }
+        ],
+        S24: [
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 53%", zoom: 1.06, x: 0 },
+          { src: "assets/visuals/red-rope-procession.png", focus: "50% 54%", zoom: 1.56, x: 0, y: 2 },
+          { src: "assets/visuals/sample-snow-road-lantern.png", focus: "48% 48%", zoom: 1.12, x: 0 },
+          { src: "assets/visuals/sample-five-friends-departure.png", focus: "50% 50%", zoom: 1.24, x: 0 }
+        ],
+        S25: [
+          { src: "assets/visuals/police-cctv-reversal.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/police-cctv-reversal.png", focus: "24% 49%", zoom: 1.52, x: 17, y: -1 },
+          { src: "assets/visuals/police-cctv-reversal.png", focus: "76% 48%", zoom: 1.56, x: -17, y: -2 },
+          { src: "assets/visuals/camcorder-five-names.png", focus: "55% 61%", zoom: 1.48, x: -3, y: 6 },
+          { src: "assets/visuals/cctv-control-room.png", focus: "50% 51%", zoom: 1.2, x: 0 },
+          { src: "assets/visuals/police-cctv-reversal.png", focus: "50% 50%", zoom: 1.28, x: 0 }
+        ],
+        S26: [
+          { src: "assets/visuals/restored-cctv-outsider.png", focus: "50% 50%", zoom: 1.03, x: 0 },
+          { src: "assets/visuals/restored-cctv-outsider.png", focus: "56% 47%", zoom: 1.42, x: -4, y: -2 },
+          { src: "assets/visuals/restored-cctv-outsider.png", focus: "17% 62%", zoom: 1.7, x: 22, y: 8 },
+          { src: "assets/visuals/police-cctv-reversal.png", focus: "50% 50%", zoom: 1.08, x: 0 },
+          { src: "assets/visuals/sample-cctv-sixth.png", focus: "72% 50%", zoom: 1.22, x: -6 },
+          { src: "assets/visuals/restored-cctv-outsider.png", focus: "52% 49%", zoom: 1.56, x: -2 },
+          { src: "assets/visuals/photo-collage-black-figure.png", focus: "50% 50%", zoom: 1.18, x: 0 },
+          { src: "assets/visuals/restored-cctv-outsider.png", focus: "17% 62%", zoom: 1.82, x: 23, y: 9 }
+        ],
+        S27: [
+          { src: "assets/visuals/final-two-glasses.png", focus: "50% 50%", zoom: 1.04, x: 0 },
+          { src: "assets/visuals/final-two-glasses.png", focus: "31% 60%", zoom: 1.58, x: 14, y: 7 },
+          { src: "assets/visuals/final-two-glasses.png", focus: "69% 59%", zoom: 1.58, x: -14, y: 7 },
+          { src: "assets/visuals/final-two-glasses.png", focus: "50% 40%", zoom: 1.36, x: 0, y: -5 },
+          { src: "assets/visuals/final-two-glasses.png", focus: "50% 50%", zoom: 1.08, x: 0 }
+        ]
+      };
+
+      function sceneMarkup(scene) {
+        const visuals = visualSequences[scene.id] || [{ src: scene.asset, focus: scene.focus }];
+        const images = visuals.map((visual, index) =>
+          `<img class="scene-image" data-visual-index="${index}" data-zoom="${visual.zoom || ""}" data-x="${visual.x || 0}" data-y="${visual.y || 0}" src="${visual.src}" alt="" style="object-position:${visual.focus}">`
+        ).join("");
+        return `
+          <section id="scene-${scene.id}" class="scene clip layout-${scene.index % 4}" data-start="${scene.start}" data-duration="${scene.duration}" data-type="${scene.type}" style="visibility:hidden;opacity:0">
+            ${images}
+            <div class="scene-scrim"></div>
+            <div class="scene-glow"></div>
+            <div class="grain"></div>
+            <div class="mist"></div>
+            <div class="scanline"></div>
+            <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+          </section>`;
+      }
+
+      host.innerHTML = window.HF_SCENES.map(sceneMarkup).join("");
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true, defaults: { ease: "power2.out" } });
+      tl.set(".progress-line", { scaleX: 0 }, 0);
+
+      window.HF_SCENES.forEach((scene, sceneIndex) => {
+        const el = document.getElementById(`scene-${scene.id}`);
+        const images = Array.from(el.querySelectorAll(".scene-image"));
+        const scanline = el.querySelector(".scanline");
+        const glow = el.querySelector(".scene-glow");
+        const mist = el.querySelector(".mist");
+        const start = Number(scene.start);
+        const duration = Number(scene.duration);
+        const end = Number(scene.end);
+        const direction = sceneIndex % 2 === 0 ? 1 : -1;
+
+        tl.set(el, { autoAlpha: 1 }, start);
+        const visualDuration = duration / images.length;
+        images.forEach((image, imageIndex) => {
+          const visualStart = start + imageIndex * visualDuration;
+          const isReferenceSheet = image.src.includes("wolyeongjae-reference");
+          const zoom = Number(image.dataset.zoom) || (isReferenceSheet ? 1.58 : 1.08);
+          const xOffset = Number(image.dataset.x) || 0;
+          const yOffset = Number(image.dataset.y) || 0;
+          tl.set(image, { autoAlpha: imageIndex === 0 ? 1 : 0 }, start);
+          if (imageIndex > 0) {
+            tl.to(image, { autoAlpha: 1, duration: .72, ease: "power1.inOut" }, visualStart);
+          }
+          tl.fromTo(image,
+            { scale: zoom, xPercent: xOffset - 1.5 * direction, yPercent: yOffset + sceneIndex % 3 - 1, filter: "saturate(.76) contrast(1.13) brightness(.76)" },
+            { scale: zoom + .075, xPercent: xOffset + 1.8 * direction, yPercent: yOffset + 1 - sceneIndex % 3, filter: "saturate(.86) contrast(1.08) brightness(.92)", duration: visualDuration + .15, ease: "none" },
+            visualStart
+          );
+        });
+        tl.fromTo(mist, { xPercent: -8, opacity: .12 }, { xPercent: 8, opacity: .28, duration, ease: "sine.inOut" }, start);
+        tl.to(".progress-line", { scaleX: end / 1153.031, duration, ease: "none" }, start);
+
+        for (let beat = 2.5, step = 0; beat < duration - 2.2; beat += 2.5, step += 1) {
+          const at = start + beat;
+          tl.fromTo(scanline, { y: -80, autoAlpha: 0 }, { y: 1160, autoAlpha: .8, duration: 1.15, ease: "none" }, at);
+          tl.to(glow, { x: 70 * direction * ((step % 3) - 1), y: 42 * ((step % 2) ? 1 : -1), duration: 2.1, ease: "sine.inOut" }, at);
+        }
+
+        tl.to(el, { autoAlpha: 0, duration: .42, ease: "power1.in" }, Math.max(start, end - .42));
+        tl.set(el, { visibility: "hidden" }, end);
+      });
+
+      tl.to({}, { duration: .001 }, 1153.03);
+      window.__timelines["youtube-master"] = tl;
+    </script>
+  </body>
+</html>

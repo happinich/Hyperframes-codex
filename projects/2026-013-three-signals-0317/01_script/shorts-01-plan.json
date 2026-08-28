@@ -1,0 +1,40 @@
+{
+  "id": "shorts-01-next-signal",
+  "source_project": "2026-013-three-signals-0317",
+  "source_start_seconds": 1057.11,
+  "source_narration_end_seconds": 1089.56,
+  "source_end_seconds": 1092.11,
+  "duration_seconds": 35.0,
+  "audio_cleanup": {
+    "issue": "The original extraction included the final 0.35 seconds of the preceding sentence.",
+    "source_voice_start_seconds": 1057.46,
+    "leading_silence_seconds": 0.35,
+    "timing_shift_seconds": 0.0
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "aspect_ratio": "9:16"
+  },
+  "selection_reason": "세 사건의 공통점과 새벽 3시 17분의 전자음을 연결한 뒤 시청자에게 다음 신호가 향한다는 문장으로 끝나므로, 개별 결말을 과도하게 공개하지 않으면서 독립적인 공포 쇼츠로 완결된다.",
+  "caption_style": {
+    "mode": "semantic_phrase",
+    "font_size_px": 56,
+    "font_weight": 700,
+    "base_text_color": "white",
+    "outline_color": "black",
+    "outline_width_px": 7,
+    "active_word_color": null,
+    "movement": false,
+    "position": "bottom-center-safe-area"
+  },
+  "beats": [
+    {"start": 0.0, "end": 4.4, "visual": "병원 복도와 세 사건 후킹"},
+    {"start": 4.4, "end": 9.0, "visual": "병원 호출 패널, 현관 CCTV, 택시 앱 세로 삼분할"},
+    {"start": 9.0, "end": 18.7, "visual": "공통 기록과 붉은 03:17 확대"},
+    {"start": 18.7, "end": 22.5, "visual": "전자음 세 번에 맞춘 세 개의 붉은 펄스"},
+    {"start": 22.5, "end": 28.5, "visual": "어떤 화면도 확인하지 말라는 경고"},
+    {"start": 28.5, "end": 35.0, "visual": "다음 신호 경고와 본편 유도"}
+  ]
+}

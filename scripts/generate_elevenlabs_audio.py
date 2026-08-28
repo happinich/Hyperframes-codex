@@ -70,25 +70,40 @@ def split_text_chunks(text: str, min_chars: int = DEFAULT_MIN_CHARS, max_chars: 
     if min_chars < 1 or max_chars < min_chars:
         raise ValueError("chunk character limits must satisfy 1 <= min_chars <= max_chars")
 
-    chunks: list[str] = []
-    current = ""
+    units: list[str] = []
     for unit in sentence_units(text):
         candidates = split_oversized_unit(unit, max_chars) if len(unit) > max_chars else [unit]
-        for candidate in candidates:
+        units.extend(candidates)
+
+    def pack(limit: int) -> list[str]:
+        chunks: list[str] = []
+        current = ""
+        for candidate in units:
             # Sentence units should remain natural prose inside a chunk. Sending
             # every sentence on a new line makes V3 add an exaggerated pause.
             separator = " " if current else ""
             proposed = f"{current}{separator}{candidate}" if current else candidate
-            if current and len(proposed) > max_chars:
+            if current and len(proposed) > limit:
                 chunks.append(current.strip())
                 current = candidate
             else:
                 current = proposed
-    if current.strip():
-        chunks.append(current.strip())
+        if current.strip():
+            chunks.append(current.strip())
+        return chunks
+
+    chunks = pack(max_chars)
 
     if len(chunks) <= 1:
         return chunks
+
+    # A greedy max-sized split can leave an unstable tiny final prompt. Retry
+    # with a lower packing target so all chunks stay inside the approved range.
+    if len(chunks[-1]) < min_chars:
+        for target in range(max_chars - 25, min_chars - 1, -25):
+            candidate_chunks = pack(target)
+            if candidate_chunks and all(min_chars <= len(chunk) <= max_chars for chunk in candidate_chunks):
+                return candidate_chunks
 
     balanced: list[str] = []
     for chunk in chunks:
@@ -115,6 +130,8 @@ def request_audio_bytes(
     }
     if request_config.get("language_code"):
         payload["language_code"] = request_config["language_code"]
+    if request_config.get("apply_text_normalization") in {"auto", "on", "off"}:
+        payload["apply_text_normalization"] = request_config["apply_text_normalization"]
 
     request = urllib.request.Request(
         url,
@@ -265,11 +282,19 @@ def main() -> int:
         parser.error(f"missing API key. Set {env_var} in your shell environment")
 
     script_source = (config_path.parent / config.get("script_source", "../01_script/narration.txt")).resolve()
+    tts_script_source = (config_path.parent / config.get("tts_script_source", config.get("script_source", "../01_script/narration.txt"))).resolve()
     if not script_source.exists():
-        parser.error(f"missing narration script: {script_source}")
-    text = script_source.read_text(encoding="utf-8").strip()
+        parser.error(f"missing approved narration script: {script_source}")
+    if not tts_script_source.exists():
+        parser.error(f"missing TTS narration script: {tts_script_source}")
+    text = tts_script_source.read_text(encoding="utf-8").strip()
     if not text:
         parser.error("narration script is empty")
+    if re.search(r"\d", text):
+        parser.error(
+            "TTS narration still contains digits. Run scripts/prepare_tts_script.py "
+            "and review tts-normalization-report.json before generating audio"
+        )
 
     target_audio = (config_path.parent / config.get("target_audio", f"inbox/{project.name}-narration.mp3")).resolve()
     if target_audio.exists() and not args.replace:
@@ -281,6 +306,7 @@ def main() -> int:
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{urllib.parse.quote(voice_id)}?{query}"
 
     chunks = split_text_chunks(text, min_chars=args.chunk_min_chars, max_chars=args.chunk_max_chars)
+    print(f"TTS source: {tts_script_source}")
     print(
         f"Generating with {request_config.get('model_id', DEFAULT_MODEL_ID)} "
         f"in {len(chunks)} chunk(s): {', '.join(str(len(chunk)) for chunk in chunks)} chars"

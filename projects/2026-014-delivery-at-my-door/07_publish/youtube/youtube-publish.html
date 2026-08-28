@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>유튜브 게시 도우미 · 문 앞에 내가 있다</title>
+  <style>
+    :root{--bg:#07090f;--card:#111621;--line:#2b3445;--text:#f6f7fb;--muted:#aab3c2;--red:#ff2858;--teal:#57d8cd}
+    *{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#05070c,#111827);color:var(--text);font-family:Arial,"Apple SD Gothic Neo",sans-serif;line-height:1.62}
+    main{max-width:1160px;margin:auto;padding:40px 22px 90px}.hero,section{border:1px solid var(--line);background:rgba(15,20,30,.94);border-radius:22px}.hero{padding:34px}section{margin-top:26px;padding:28px}
+    h1{margin:4px 0 8px;font-size:38px;letter-spacing:-1.5px}h2{margin:0 0 17px;font-size:25px}.lead{margin:0;color:var(--muted)}.label{color:var(--teal);font-size:13px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:23px}button,.download{border:0;border-radius:10px;padding:11px 16px;background:var(--red);color:#fff;font-weight:800;font-size:15px;cursor:pointer;text-decoration:none}.secondary{background:#263247}.download{background:#174441;color:#dcfffb}
+    .copy-box{white-space:pre-wrap;word-break:keep-all;margin:12px 0 0;padding:18px;border:1px solid #354054;border-radius:12px;background:#080b12;color:#eef3fb;font:16px/1.72 Arial,"Apple SD Gothic Neo",sans-serif}.main-title{font-size:23px;font-weight:900}
+    .title-list{display:grid;gap:11px}.title-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:15px;border:1px solid #30394a;border-radius:12px;background:#090d15}.title-row p{margin:0}.thumbs,.time-grid,.test-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.thumbs img{display:block;width:100%;border:1px solid #3a4352;border-radius:14px}.thumbs h3{margin:10px 0 0}.time-grid div,.test-card{padding:18px;border:1px solid #30394a;border-radius:14px;background:#090d15}.time-grid strong{display:block;color:var(--red);font-size:23px}.test-grid{grid-template-columns:repeat(3,1fr)}.test-card strong{color:var(--teal)}
+    .notice{padding:16px 18px;border-left:4px solid var(--red);background:#180c13}.schedule{width:100%;border-collapse:collapse;margin-top:16px}.schedule th,.schedule td{padding:12px 14px;border-bottom:1px solid #30394a;text-align:left;vertical-align:top}.schedule th{color:var(--teal);white-space:nowrap}.toast{position:fixed;right:22px;bottom:22px;padding:13px 18px;border-radius:10px;background:var(--teal);color:#031312;font-weight:900;opacity:0;transform:translateY(12px);transition:.2s}.toast.show{opacity:1;transform:none}
+    @media(max-width:760px){h1{font-size:30px}.thumbs,.time-grid,.test-grid{grid-template-columns:1fr}.title-row{grid-template-columns:1fr}.title-row button{justify-self:start}.schedule th{white-space:normal}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <div class="label">YouTube Publish Kit</div>
+    <h1>문 앞에 내가 있다</h1>
+    <p class="lead">제목, 설명, 태그, 고정 댓글, SNS 문구를 한 화면에서 복사하고 완성 영상을 바로 열 수 있습니다.</p>
+    <div class="actions">
+      <button onclick="copyPackage()">전체 게시 패키지 복사</button>
+      <a class="download" href="../../06_delivery/youtube/2026-014-delivery-at-my-door-youtube-captioned-story.mp4">자막 영상 열기</a>
+      <a class="download" href="../../06_delivery/youtube/2026-014-delivery-at-my-door-youtube.mp4">클린 영상 열기</a>
+      <a class="download" href="../../06_delivery/shorts/2026-014-delivery-at-my-door-shorts.mp4">쇼츠 영상 열기</a>
+      <a class="download" href="../shorts/shorts-publish.html">쇼츠 게시 도우미</a>
+      <a class="download" href="../../06_delivery/youtube/2026-014-delivery-at-my-door-ko.srt">SRT 열기</a>
+      <a class="download" href="../../06_delivery/youtube/2026-014-delivery-at-my-door-ko.vtt">VTT 열기</a>
+    </div>
+  </div>
+
+  <section>
+    <div class="label">Main Title</div><h2>메인 제목</h2>
+    <button class="secondary" onclick="copyText('main-title')">메인 제목 복사</button>
+    <div id="main-title" class="copy-box main-title">새벽 2시 44분, 문 앞에 나와 똑같은 사람이 서 있었다 | 공포괴담</div>
+  </section>
+
+  <section>
+    <div class="label">Alternative Titles</div><h2>추천 제목 5가지</h2>
+    <div class="title-list">
+      <div class="title-row"><p id="alt-1">배달기사가 말했다 “고객님이 문 앞에 서 계세요” 그런데 나는 집 안에 있었다</p><button class="secondary" onclick="copyText('alt-1')">복사</button></div>
+      <div class="title-row"><p id="alt-2">완료 사진은 집 안에서 찍혔다…사진 속에는 내가 둘이었다</p><button class="secondary" onclick="copyText('alt-2')">복사</button></div>
+      <div class="title-row"><p id="alt-3">주문하지 않은 배달이 도착했다 “빈 그릇 하나, 직접 전달”</p><button class="secondary" onclick="copyText('alt-3')">복사</button></div>
+      <div class="title-row"><p id="alt-4">문에 등을 붙인 채 고개만 꺾어 집 안을 보던 사람 | 무서운 이야기</p><button class="secondary" onclick="copyText('alt-4')">복사</button></div>
+      <div class="title-row"><p id="alt-5">새집 주소를 아무도 모르는데 배달원은 이미 문 앞에 도착했다</p><button class="secondary" onclick="copyText('alt-5')">복사</button></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Description</div><h2>설명란</h2>
+    <button class="secondary" onclick="copyText('description')">설명란 전체 복사</button>
+    <pre id="description" class="copy-box">새벽 두 시 사십사 분, 배달기사가 전화했습니다.
+
+“고객님, 문 앞에 계시면서 왜 전화를 안 받으세요?”
+
+하지만 나는 침대에 누워 있었습니다. 문 앞에는 회색 운동복을 입고 맨발로 선 사람이 있었습니다. 나와 똑같은 옷차림이었습니다. 주문하지 않은 배달앱에는 ‘빈 그릇 하나. 직접 전달.’이라는 문장이 떠 있었고, 완료 사진은 복도가 아니라 집 안에서 찍혀 있었습니다.
+
+사진 속에는 내가 둘이었습니다.
+
+문 앞의 또 다른 나, 실내에서 열린 도어록, 화장실 앞에 겹쳐 선 네 개의 발끝, 그리고 이사한 새집까지 따라온 마지막 배달. 일상적인 배달 한 통에서 시작해 끝까지 조여 오는 창작 공포괴담입니다.
+
+⏱ 타임스탬프
+00:00 배달기사가 건 전화
+00:18 문 앞의 회색 운동복
+00:44 목소리를 따라 고개를 드는 사람
+01:15 빈 그릇 하나 · 직접 전달
+01:47 문에 등을 붙인 채 집 안을 보다
+02:30 내가 보내지 않은 채팅
+02:52 실내 수동 열림
+03:19 화장실 앞 네 개의 발끝
+03:55 집 안에서 찍힌 완료 사진
+04:19 사진 속 두 명의 나
+04:40 젖은 빈 그릇
+05:13 새집으로 따라온 배달
+06:03 이미 문 앞에 도착했습니다
+
+🎧 영상 구성
+- 얼굴 노출 없는 다크 시네마틱 모션 영상
+- ElevenLabs Esther 보이스 내레이션
+- 승인 BGM cand-03
+- 한국어 SRT/VTT 자막 제공
+
+이 영상은 창작 공포 이야기입니다. 등장인물, 장소와 사건은 허구이며 실제 인물이나 사건과 관계가 없습니다.
+
+여러분이라면 어느 순간 문을 열었을까요? 가장 소름 돋았던 장면을 댓글로 남겨 주세요.
+
+#공포이야기 #무서운이야기 #공포괴담</pre>
+  </section>
+
+  <section>
+    <div class="label">Tags</div><h2>검색 태그</h2>
+    <button class="secondary" onclick="copyText('tags')">태그 복사</button>
+    <div id="tags" class="copy-box">공포이야기, 무서운이야기, 공포괴담, 괴담, 창작괴담, 소름돋는이야기, 공포라디오, 공포썰, 배달괴담, 원룸괴담, 도플갱어괴담, 새벽괴담, 무서운배달, 현관문괴담, 사진괴담, 단편공포, 한국공포, horror story, korean horror, scary story, 문앞에내가있다</div>
+  </section>
+
+  <section>
+    <div class="label">Pinned Comment</div><h2>고정 댓글</h2>
+    <button class="secondary" onclick="copyText('pinned')">고정 댓글 복사</button>
+    <pre id="pinned" class="copy-box">여러분이라면 어느 순간 가장 먼저 도망쳤을까요?
+
+1. 문 앞에 나와 똑같은 사람이 서 있었을 때
+2. 도어록에 ‘실내 수동 열림’이 떴을 때
+3. 완료 사진이 집 안에서 찍힌 것을 확인했을 때
+4. 새집 문 앞에서 내 목소리가 들렸을 때
+
+번호와 이유를 함께 남겨 주세요. 가장 많은 선택을 받은 장면을 다음 공포 이야기와 연결하겠습니다.</pre>
+  </section>
+
+  <section>
+    <div class="label">Social Promotion</div><h2>SNS 홍보 문구</h2>
+    <button class="secondary" onclick="copyText('sns-teaser')">공개 전 예고 복사</button>
+    <pre id="sns-teaser" class="copy-box">오늘 밤, 배달기사가 전화했습니다.
+
+“고객님, 문 앞에 계시면서 왜 전화를 안 받으세요?”
+
+그런데 나는 집 안 침대에 누워 있었습니다. 문 앞에는 나와 똑같은 옷을 입은 사람이 서 있었습니다.
+
+오늘 밤 10시 공개.
+#공포이야기 #무서운이야기 #괴담</pre>
+    <button class="secondary" onclick="copyText('sns-x')">X 문구 복사</button>
+    <pre id="sns-x" class="copy-box">배달기사가 말했다. “고객님이 문 앞에 서 계세요.” 하지만 나는 집 안에 있었다. 완료 사진은 집 안에서 찍혔고, 사진 속에는 내가 둘이었다. 전체 이야기 → [유튜브 링크] #공포이야기 #괴담</pre>
+    <button class="secondary" onclick="copyText('sns-long')">인스타·스레드 문구 복사</button>
+    <pre id="sns-long" class="copy-box">새벽 두 시 사십사 분, 배달기사가 문 앞에 내가 서 있다고 말했습니다.
+
+나는 집 안에 있었습니다. 문 앞의 사람은 내가 입은 것과 똑같은 회색 운동복을 입고 있었습니다. 완료 사진은 집 안에서 찍혔고, 사진 속에는 내가 둘이었습니다.
+
+일상적인 배달 한 통에서 시작하는 6분 창작 공포괴담을 공개했습니다. 여러분이라면 어느 순간 가장 먼저 도망쳤을까요?
+
+전체 영상 → [유튜브 링크]
+
+#공포이야기 #무서운이야기 #공포괴담 #괴담</pre>
+  </section>
+
+  <section>
+    <div class="label">Thumbnails</div><h2>썸네일 2안</h2>
+    <div class="thumbs">
+      <div><img src="thumbnail-a.png" alt="문 앞에 내가 있다"><h3>A안 · 문 앞의 또 다른 나</h3></div>
+      <div><img src="thumbnail-b.png" alt="사진 속 나는 둘"><h3>B안 · 완료 사진의 반전</h3></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Test & Compare</div><h2>제목·썸네일 테스트 조합</h2>
+    <div class="test-grid">
+      <div class="test-card"><strong>조합 1 · 기본</strong><p>A안</p><p>새벽 2시 44분, 문 앞에 나와 똑같은 사람이 서 있었다 | 공포괴담</p></div>
+      <div class="test-card"><strong>조합 2 · 대화형</strong><p>A안</p><p>배달기사가 말했다 “고객님이 문 앞에 서 계세요” 그런데 나는 집 안에 있었다</p></div>
+      <div class="test-card"><strong>조합 3 · 반전형</strong><p>B안</p><p>완료 사진은 집 안에서 찍혔다…사진 속에는 내가 둘이었다</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Publishing Time</div><h2>게시 최적화 시간</h2>
+    <p class="notice"><strong>최종 권장:</strong> 2026년 8월 28일 금요일 22:00 KST · 일반 예약 공개</p>
+    <div class="time-grid">
+      <div><span>1순위</span><strong>금요일 22:00</strong><p>심야 공포 분위기와 주말 진입 시청 수요를 함께 노립니다.</p></div>
+      <div><span>대안</span><strong>토요일 22:00</strong><p>YouTube Studio의 ‘시청자가 YouTube를 이용하는 시간’ 데이터가 있다면 그 시간보다 30~60분 먼저 공개합니다.</p></div>
+    </div>
+    <table class="schedule">
+      <tr><th>공개 전</th><td>자막본 비공개 업로드, 1080p 처리·SRT·챕터·엔드스크린·저작권 검사 완료</td></tr>
+      <tr><th>19:00</th><td>커뮤니티와 SNS에 3시간 전 예고 게시</td></tr>
+      <tr><th>22:00</th><td>일반 예약 공개, 제목·썸네일 테스트 시작</td></tr>
+      <tr><th>22:05</th><td>고정 댓글 등록, X·Threads·Instagram에 링크 게시</td></tr>
+      <tr><th>다음 날 12:00</th><td>가장 무서웠던 장면 번호를 묻는 커뮤니티 투표</td></tr>
+    </table>
+  </section>
+</main>
+<div id="toast" class="toast">복사했습니다</div>
+<script>
+  const packageIds=['main-title','description','tags','pinned','sns-teaser','sns-x','sns-long'];
+  async function write(value){try{await navigator.clipboard.writeText(value)}catch(error){const area=document.createElement('textarea');area.value=value;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}const toast=document.getElementById('toast');toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1300)}
+  function copyText(id){write(document.getElementById(id).textContent.trim())}
+  function copyPackage(){write(packageIds.map(id=>`[${id}]\n${document.getElementById(id).textContent.trim()}`).join('\n\n'))}
+</script>
+</body>
+</html>

@@ -14,11 +14,13 @@ changes do not propagate between the two projects automatically.
 Before planning or editing a video project, read:
 
 1. `config/success-rules.json`
-2. `config/production-profiles.json`
-3. `config/visual-styles.json`
-4. `docs/WORKFLOW.ko.md`
-5. `docs/SUCCESS_RULES.ko.md`
-6. The latest relevant project that uses the same production profile
+2. `config/horror-channel-strategy.json`
+3. `config/production-profiles.json`
+4. `config/visual-styles.json`
+5. `docs/WORKFLOW.ko.md`
+6. `docs/SUCCESS_RULES.ko.md`
+7. `docs/HORROR_CHANNEL_STRATEGY.ko.md`
+8. The latest relevant project that uses the same production profile
 
 Treat the JSON configuration as the source of truth for numeric settings. Keep
 the documentation and templates in sync when a shared rule changes.
@@ -55,8 +57,11 @@ silently carry a previous project's style or BGM into a new project.
 
 ## Script And Scene Planning
 
-- Start within three seconds with a sharp question, important number, reversal,
-  or high-stakes claim. Remove greetings and slow setup.
+- For horror, start with the strongest disturbing line in a 5-10 second cold
+  open, remove greetings and channel bumpers before it, and reach the first
+  anomaly within 30 seconds.
+- For explainer profiles, start within three seconds with a sharp question,
+  important number, reversal, or high-stakes claim.
 - Write short, conversational Korean suitable for ElevenLabs V3.
 - Preserve the user's argument and intended energy while checking factual claims.
 - Make `01_script/narration.txt` the approved text source of truth.
@@ -67,7 +72,18 @@ silently carry a previous project's style or BGM into a new project.
 - Prevent oversized titles, single-character orphan lines, clipped text, and
   overlapping cards or diagrams.
 - Do not display a total-runtime badge in the video.
-- Plan both 16:9 YouTube delivery and a separately composed 9:16 Shorts version.
+- Every new long-form project must also deliver at least one separately composed
+  9:16 Short. Treat the Short as a required output, not an optional readiness
+  item. Rewrite the long-form premise as a standalone 15-40 second mini-story
+  with its own first-second hook, compressed escalation, and satisfying payoff.
+  A raw long-form excerpt is not the default Shorts script.
+- For horror anthologies, prefer three or four 4.5-6.5 minute stories in a
+  15-22 minute long-form episode, with the next story hook starting within
+  three seconds of the previous ending.
+- Do not insert explainer phrases such as "지금 화면을 보시면" into immersive
+  horror narration.
+- Record whether the story is fiction, an adapted submission, or a verified
+  account. Do not label unverified fiction as a true story.
 
 ## Audio And Timing
 
@@ -79,6 +95,9 @@ silently carry a previous project's style or BGM into a new project.
   Markdown, JSON, logs, commits, or final responses.
 - Preserve the voice-only master when mixing BGM.
 - Apply the configured BGM ducking, outro delay, and fade-out settings.
+- For horror, plan narration, room ambience, event foley, and approved BGM as
+  separate layers. Mark intentional silence longer than 0.8 seconds in the
+  scene plan so pacing QA does not mistake it for an error.
 - Use `mlx-community/whisper-large-v3-turbo` as the timing and correction model.
 - Whisper supplies timing; it must not rewrite the approved narration.
 - Require a caption alignment ratio of at least `0.92` and manually review long
@@ -89,8 +108,9 @@ silently carry a previous project's style or BGM into a new project.
 ## Visual Production
 
 - Keep the production face-free unless the user explicitly requests otherwise.
-- Use `minimal_dark_tech_v1` as the preferred profile for new projects, but still
-  obtain visual-style approval.
+- Use `horror_cinematic_story_v1` as the preferred profile for new projects in
+  this channel, but still obtain visual-style approval.
+- Preserve `minimal_dark_tech_v1` for future explainer projects.
 - Preserve `classic_rich_motion_v1` for the existing bright/editorial, finance,
   collage, map, table, and hub-diagram grammar.
 - For horror stories, establish consistent character, location, period, palette,
@@ -98,6 +118,8 @@ silently carry a previous project's style or BGM into a new project.
 - Animate still images with deliberate pans, zooms, parallax, fog, shadow,
   lighting, focus, or crop changes that support the narration.
 - Avoid a static explanatory screen longer than three seconds.
+- Avoid a full-black horror frame longer than one second; darkness must retain a
+  readable clue on mobile.
 - Animate tables, charts, routes, connectors, and comparisons instead of showing
   them as motionless illustrations.
 - Use only local, licensed, generated, or otherwise permitted visual assets.
@@ -106,6 +128,11 @@ silently carry a previous project's style or BGM into a new project.
 
 - New YouTube projects default to `1920x1080`, 16:9, 60fps.
 - New Shorts projects default to `1080x1920`, 9:16, 60fps.
+- Recompose Shorts for the vertical canvas; never satisfy this requirement with
+  a simple center crop of the 16:9 master.
+- Generate Shorts narration from a separately approved script. For Eleven V3,
+  keep the normal generation settings and apply a pitch-preserving 1.05-1.10x
+  postprocess only after generation; use 1.07x by default and review it by ear.
 - Frame rate improves motion smoothness; narration synchronization still depends
   on Whisper timings and correctly planned motion beats.
 - Preserve the fps recorded in completed projects. If no fps is recorded, the
@@ -113,8 +140,9 @@ silently carry a previous project's style or BGM into a new project.
 - Render a clean master first. Create the captioned derivative only after the
   clean master passes review.
 - Keep SRT and VTT as separate uploadable caption files.
-- Minimal dark projects use phrase captions. Classic projects use word-following
-  karaoke captions unless the approved project brief says otherwise.
+- Long-form projects use restrained semantic-phrase captions: 44px bold white
+  text, a 6px black outline, bottom-center safe placement, and no active-word
+  color or movement unless the approved project brief explicitly says otherwise.
 
 ## Standard Commands
 
@@ -157,16 +185,15 @@ Validate and render:
 npm run hf:lint -- <project>/04_composition
 python3 scripts/render_project.py <project> --format youtube --dry-run
 python3 scripts/render_project.py <project> --format youtube
+python3 scripts/render_project.py <project> --format shorts --dry-run
+python3 scripts/render_project.py <project> --format shorts
 ```
 
-Create the approved profile-specific captioned version:
+Create the approved long-form captioned version:
 
 ```bash
-node scripts/burn_phrase_captions.mjs <project>
-node scripts/burn_karaoke_captions.mjs <project>
+node scripts/burn_story_captions.mjs <project>
 ```
-
-Run only the caption renderer assigned to the project's production profile.
 
 ## Review Requirements
 
@@ -181,6 +208,9 @@ Before declaring a video complete:
 - Confirm that visual events match the spoken narration throughout the video.
 - Inspect the captioned output separately for timing, safe-area placement,
   readability, and dropped frames.
+- Inspect every required Short separately for its first frame and first audio
+  sample, vertical safe areas, 15-40 second duration, 60fps, caption timing,
+  motion, and a clean complete-sentence ending.
 
 ## Publishing Package
 
@@ -194,6 +224,16 @@ Each finished YouTube project should include:
 - One main title and five alternative titles
 - Description with accurate timestamps, sources, hashtags, and tags
 - Pinned comment, SNS promotional copy, and recommended publishing time
+- At least one 1080x1920, 60fps, 15-40 second Short built as a separate vertical
+  composition, with burned captions plus uploadable SRT and VTT files
+- One Shorts publishing helper containing its title, description, hashtags,
+  pinned comment, recommended time, and the exact long-form Related Video target
+- Horror title and thumbnail must complement rather than repeat each other. Use
+  one decisive visual clue and four to eight Korean syllables on each thumbnail.
+- Shorts must designate the long-form episode through YouTube's Related Video
+  control after upload; do not rely on non-clickable Shorts description URLs.
+- Reserve the final 15-20 seconds of long-form compositions for a relevant next
+  video or playlist end screen.
 
 Keep publishing assets under `07_publish/`. Do not claim that an artifact exists
 until it has been generated and verified.

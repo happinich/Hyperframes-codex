@@ -2,10 +2,12 @@
 
 ## 제작 프로필
 
-새 프로젝트는 먼저 제작 프로필을 구분합니다. 앞으로 기본 권장은 `minimal_dark_tech_v1`이며, 기존 방식은 `classic_rich_motion_v1`로 보존합니다. 세부 규칙은 [`PRODUCTION_PROFILES.ko.md`](PRODUCTION_PROFILES.ko.md)와 `config/production-profiles.json`을 기준으로 합니다.
+새 프로젝트는 먼저 제작 프로필을 구분합니다. 현재 채널은 공포 이야기에 집중하므로 기본 권장은 `horror_cinematic_story_v1`입니다. 설명형 영상의 `minimal_dark_tech_v1`과 기존 방식인 `classic_rich_motion_v1`도 별도로 보존합니다. 세부 규칙은 [`PRODUCTION_PROFILES.ko.md`](PRODUCTION_PROFILES.ko.md)와 `config/production-profiles.json`을 기준으로 합니다.
 
-- `minimal_dark_tech_v1`: 검정 배경, 흰색 타이포, 네온 초록 강조, 1~3초 문장 단위 모션, 한 줄 흰색 자막본.
-- `classic_rich_motion_v1`: 기존 밝은 카드·지도·표·다층 패널, 3초 단위 정보 변화, 현재 단어가 빨간색인 가라오케 자막본.
+- `horror_cinematic_story_v1`: 콜드 오프닝, 현대 일상형 공포 앤솔로지, 시네마틱 이미지 모션, 다층 사운드, 쇼츠 연결.
+- `minimal_dark_tech_v1`: 검정 배경, 흰색 타이포, 네온 초록 강조, 1~3초 문장 단위 모션.
+- `classic_rich_motion_v1`: 기존 밝은 카드·지도·표·다층 패널, 3초 단위 정보 변화.
+- 세 프로필의 롱폼 자막본은 작은 고정형 구문 자막을 공통 사용합니다.
 - 완료된 기존 프로젝트는 이름을 바꾸거나 다시 렌더하지 않습니다.
 - 신규 프로젝트는 브리프, 씬 플랜, 연출 노트, 컴포지션, 납품 메타데이터에 프로필 ID를 기록합니다.
 
@@ -17,7 +19,7 @@
 | 음성 | ElevenLabs API 요청 설정 정리, 생성 파일 정규화, 무음/길이 확인 | API 키와 voice/model 설정 제공 | 최종 음성 1개 확정 |
 | 싱크 | 기획용 SRT 생성, Whisper 시간 추출, 원문 기반 최종 SRT/VTT 생성 | 발음 오류가 있으면 재녹음 | 자막 QA 통과 |
 | 편집 | 모션 씬 제작, 배경음/효과 배치 | 프리뷰 피드백 | 영상 QA 통과 |
-| 출력 | 16:9 마스터 렌더, 필요 시 9:16 재편집 | 게시 승인 | 납품 |
+| 출력 | 16:9 마스터와 9:16 쇼츠 최소 1편 렌더 | 게시 승인 | 납품 |
 | 게시 준비 | 제목, 설명, 태그, 챕터, 썸네일 문구, 고정 댓글, 출처 정리 | YouTube Studio 입력 및 게시 | 업로드 완료 |
 
 화면 구성에 들어가기 전에는 별도의 **비주얼 스타일 승인 단계**를 둡니다. 주제와 대본이 승인되어도 화면 스타일이 선택되지 않았다면 HyperFrames HTML 제작을 시작하지 않습니다.
@@ -63,13 +65,13 @@ python3 scripts/new_project.py --list-visual-styles
 사용자에게 스타일 후보와 추천 이유를 보여주고 승인을 받은 뒤 프로젝트를 생성합니다.
 
 ```bash
-python3 scripts/new_project.py 2026-001-ai-workflow \
-  --title "AI 업무 자동화의 시작" \
-  --production-profile minimal_dark_tech_v1 \
-  --visual-style minimal_dark_tech
+python3 scripts/new_project.py 2026-014-night-call \
+  --title "새벽 호출벨이 세 번 울리면" \
+  --production-profile horror_cinematic_story_v1 \
+  --visual-style horror_cinematic
 ```
 
-기존 리치 모션 방식은 별도로 선택합니다.
+설명형 미니멀 프로필과 기존 리치 모션 방식은 별도로 선택합니다.
 
 ```bash
 python3 scripts/new_project.py 2026-001-ai-workflow \
@@ -85,6 +87,8 @@ python3 scripts/new_project.py 2026-001-ai-workflow \
 - 초반 3초 후킹: 지루한 인사말과 일반론을 삭제하고, 첫 문장은 질문형 문장, 핵심 수치, 또는 반전 사실로 시작합니다.
 - 시각 자료 힌트 주입: 자막, 이미지, 그래프가 타이밍에 맞춰 등장하기 쉽도록 "지금 화면에 나오는 이 부분을 보시면...", "이 수치가 의미하는 것은..." 같은 시각적 안내 멘트를 자연스럽게 넣습니다.
 - 구어체 텐션 극대화: 일레븐랩스 V3 억양이 살아나도록 "~아시죠?", "~거든요" 같은 대화체 종결을 활용하고, 문장을 짧고 타이트하게 쪼갭니다.
+
+공포 프로필에서는 설명형 규칙을 그대로 사용하지 않습니다. 첫 5~10초에 가장 소름 돋는 대사 한 줄을 선제시하고 30초 안에 첫 이상 징후를 보여줍니다. "지금 화면을 보시면" 같은 메타 안내 멘트는 몰입을 깨므로 금지하며, 4.5~6.5분 이야기 3~4편을 연결해 15~22분 본편을 구성합니다. 세부 기준은 [`HORROR_CHANNEL_STRATEGY.ko.md`](HORROR_CHANNEL_STRATEGY.ko.md)를 따릅니다.
 
 씬 플랜은 녹음 전부터 초 단위로 작성합니다. 각 씬에는 `start_seconds`, `end_seconds`, `duration_seconds`, `estimated_words`, `target_wpm`, `narration_text`, `caption_text`, `motion_beats`를 넣습니다. 실제 음성 생성 후 MLX Whisper turbo 타이밍이 들어오면 예상 시간을 실제 발화 시간으로 보정하되, 자막 문구는 승인된 원문을 유지합니다.
 
@@ -108,6 +112,7 @@ ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. A
 | `language_code` | 한국어 고정을 위해 `ko` 사용 |
 | `output_format` | 기본 `mp3_44100_128`, 필요 시 더 높은 비트레이트로 조정 |
 | `voice_settings` | 안정성, 유사도, 스타일, 스피커 부스트 등 목소리 설정 |
+| `apply_text_normalization` | 한국어 숫자 정규화를 보조하기 위해 `on` 사용 |
 | `bgm` | 선택 항목. 지정하면 최종 목소리 파일 생성 직후 배경음악을 자동 루프/믹싱 |
 
 생성 요청 설정은 `02_audio/elevenlabs-request.json`에 남기고, 결과 MP3만 `02_audio/inbox/`에 저장합니다.
@@ -125,10 +130,13 @@ ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. A
 
 V3는 긴 원고에서 타임아웃이나 음성 끊김이 생길 수 있으므로 `generate_elevenlabs_audio.py`가 원고를 공백 포함 1,000~1,300자 안팎으로 문장 단위 분할하고, 각 파트를 순차 생성한 뒤 ffmpeg로 최종 MP3를 병합합니다.
 
+숫자는 ElevenLabs가 문맥에 따라 자릿수로 잘못 읽을 수 있습니다. 화면과 자막에는 승인 원문인 `01_script/narration.txt`의 숫자 표기를 유지하고, 음성 API에는 `scripts/prepare_tts_script.py`가 만든 `01_script/tts-narration.txt`를 전달합니다. 예를 들어 `1401호`, `104동`, `3시 17분`은 각각 `천사백일 호`, `백사 동`, `세 시 십칠 분`으로 바꿉니다. 발음용 파일에 숫자가 하나라도 남으면 생성하지 않습니다.
+
 BGM은 `02_audio/elevenlabs-request.json`의 `bgm.source` 또는 실행 시 `--bgm`으로 지정합니다. 배경음악은 목소리 길이보다 짧으면 자동으로 반복됩니다. 최종 길이는 기본적으로 `목소리 길이 + 4초 여운`이며, 목소리가 나오는 동안은 `-18dB`, 목소리 종료 후 여운 구간은 `-14dB`로 살짝 올라갑니다. 마지막 `3초`에는 페이드아웃되어 뚝 끊기지 않게 마무리합니다. 믹싱된 파일은 기존 `target_audio` 위치에 저장되고, 원본 목소리만 있는 파일은 같은 폴더에 `*-voice-only.mp3`로 보관됩니다.
 
 ```bash
 export ELEVENLABS_API_KEY="..."
+python3 scripts/prepare_tts_script.py projects/2026-001-ai-workflow --replace
 python3 scripts/generate_elevenlabs_audio.py projects/2026-001-ai-workflow --replace --postprocess
 ```
 
@@ -156,6 +164,7 @@ HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프
 
 | 스타일 | 특징 | 잘 맞는 주제 |
 | --- | --- | --- |
+| 호러 시네마틱 | 저조도 실사·생성 이미지, 단서 클로즈업, 형광등·CCTV·적색 경고 신호 | 창작 공포, 도시괴담, 규칙괴담 |
 | 미니멀 다크 테크 | 순수 검정·흰색 타이포·네온 초록, 1~3초 정보 변화 | AI, 개발 도구, 워크플로 |
 | 밝은 에디토리얼 | 화이트·아이스 블루, 깨끗한 데이터 카드 | 정책, 교육, 사업 소개 |
 | 다크 시네마틱 | 딥 네이비·블랙, 국소 조명과 강한 긴장감 | 위기, 경고, 미스터리 |
@@ -170,29 +179,23 @@ HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프
 
 ## 포맷 전략
 
-새 YouTube 본편은 처음부터 `1920x1080`, `60fps`, 안전 영역 좌우 `120px`, 하단 자막 안전 영역 `140px`을 기준으로 설계합니다. 렌더러는 프로젝트의 `scene-plan.json`에 기록된 fps를 사용하므로 완료된 기존 프로젝트는 원래 프레임레이트를 유지합니다. Shorts는 단순 크롭이 아니라 동일 대본에서 핵심 씬을 `1080x1920`, `60fps` 중앙 집중 레이아웃으로 다시 배치합니다. 씬 플랜의 각 씬에 `shorts_adaptation`을 미리 기록해 재작업을 줄입니다.
+새 YouTube 본편은 처음부터 `1920x1080`, `60fps`, 안전 영역 좌우 `120px`, 하단 자막 안전 영역 `140px`을 기준으로 설계합니다. 렌더러는 프로젝트의 `scene-plan.json`에 기록된 fps를 사용하므로 완료된 기존 프로젝트는 원래 프레임레이트를 유지합니다. 모든 새 본편은 같은 소재를 `15~40초`의 독립된 미니 스토리로 다시 요약·각색해 쇼츠 최소 1편을 함께 납품합니다. 본편 음성을 그대로 자르는 방식은 기본값으로 사용하지 않습니다. 쇼츠 전용 대본을 별도 승인받고 Eleven V3로 새 음성을 만든 다음, 피치를 유지하는 `1.05~1.10배` 후처리를 적용하며 기본값은 `1.07배`입니다. 쇼츠는 단순 크롭이 아니라 `1080x1920`, `60fps` 중앙 집중 레이아웃으로 다시 배치하고, 모바일용 번인 자막과 외부 SRT/VTT를 모두 만듭니다.
 
 ## 게시 자료
 
 최종 렌더와 자막 검수를 마치면 `07_publish/youtube/youtube-publish.md` 한 파일에 YouTube 업로드 자료를 작성합니다. 검색 친화적인 제목 후보, 복사용 설명란, 챕터, 태그 입력란용 키워드, 썸네일 문구, 고정 댓글과 업로드 체크리스트를 모두 이 문서에 넣습니다. 설명란에는 영상에서 참고한 공식 자료 링크를 반드시 넣습니다.
 
-## 검수 후 자막 번인 버전
+공포 영상은 설명란에 `창작 공포`, `제보 각색`, `검증된 경험담` 중 하나의 작품 성격을 표시합니다. `07_publish/shorts/shorts-publish.html`에는 쇼츠 제목, 설명, 해시태그, 고정 댓글, 추천 게시 시간과 연결할 본편을 기록합니다. 쇼츠는 일반 URL 대신 YouTube Studio의 `관련 동영상`으로 본편을 연결하고, 롱폼은 마지막 15~20초를 엔드스크린용으로 비워 둡니다.
+
+## 검수 후 스토리 자막 버전
 
 무자막 마스터의 영상·음성 싱크와 화면 배치를 먼저 검수한 뒤, 필요할 때 별도의 자막 버전을 생성합니다. 기존 마스터와 외부 업로드용 SRT/VTT는 그대로 보존합니다.
 
 ```bash
-node scripts/burn_karaoke_captions.mjs projects/2026-001-ai-workflow
+node scripts/burn_story_captions.mjs projects/2026-001-ai-workflow
 ```
 
-자막 버전은 `06_delivery/youtube/<project-id>-youtube-captioned.mp4`로 저장합니다. 기본 스타일은 하단 중앙의 흰색 굵은 글자, 검정 외곽선이며 `captions.words.json`의 실제 발화 타이밍을 따라 현재 말하는 단어만 빨간색으로 표시합니다. 자막은 화면 하단 끝에 붙이지 않고 YouTube 재생 컨트롤과 겹치지 않는 안전 영역에 배치합니다.
-
-`minimal_dark_tech_v1`은 현재 단어를 칠하지 않고 문장 전체가 흰색으로 교체되는 별도 자막본을 생성합니다.
-
-```bash
-node scripts/burn_phrase_captions.mjs projects/2026-001-ai-workflow
-```
-
-출력은 `06_delivery/youtube/<project-id>-youtube-captioned-minimal.mp4`이며 기존 가라오케 자막본과 구분해 보존합니다.
+자막 버전은 `06_delivery/youtube/<project-id>-youtube-captioned-story.mp4`로 저장합니다. 기본 스타일은 하단 중앙의 `44px`, 굵기 `700` 흰색 구문 자막과 `6px` 검정 외곽선입니다. `captions.words.json`의 실제 발화 타이밍을 사용하되 문장부호, 쉼표, 발화 간격과 최대 28글자를 기준으로 의미 단위에서 나눕니다. 단어별 빨간색 추적이나 이동 효과는 사용하지 않으며, 자막은 YouTube 재생 컨트롤과 겹치지 않는 안전 영역에 둡니다.
 
 ## 배경음악 선택 및 적용
 

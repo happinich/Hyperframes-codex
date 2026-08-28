@@ -28,14 +28,25 @@ if (!fs.existsSync(timingPath)) fail(`Missing word timings: ${timingPath}`);
 
 const probe = spawnSync("ffprobe", [
   "-v", "error",
-  "-show_entries", "format=duration",
-  "-of", "default=noprint_wrappers=1:nokey=1",
+  "-select_streams", "v:0",
+  "-show_entries", "format=duration:stream=avg_frame_rate,r_frame_rate",
+  "-of", "json",
   input,
 ], { encoding: "utf8" });
 if (probe.status !== 0) fail(probe.stderr || "ffprobe failed");
 
-const duration = Number.parseFloat(probe.stdout.trim());
-const fps = 30;
+function parseFrameRate(value) {
+  const [numerator, denominator = "1"] = String(value || "").split("/");
+  const rate = Number(numerator) / Number(denominator);
+  return Number.isFinite(rate) && rate > 0 ? rate : 60;
+}
+
+const media = JSON.parse(probe.stdout);
+const duration = Number.parseFloat(media.format.duration);
+const videoStream = media.streams?.[0] || {};
+// Preserve the authored frame rate. Concatenated masters can report a slightly
+// noisy average rate even when every source segment is constant-rate 60fps.
+const fps = parseFrameRate(videoStream.r_frame_rate || videoStream.avg_frame_rate);
 const frameCount = Math.ceil(duration * fps);
 const width = 1920;
 const layerHeight = 190;
@@ -103,10 +114,11 @@ const ffmpeg = spawn("ffmpeg", [
   "-f", "rawvideo", "-pix_fmt", "rgba", "-video_size", `${width}x${layerHeight}`,
   "-framerate", String(fps), "-i", "pipe:0",
   "-i", input,
-  "-filter_complex", "[1:v][0:v]overlay=0:H-h-55:format=auto[v]",
+  "-filter_complex", "[1:v]tpad=stop_mode=clone:stop_duration=1[base];[base][0:v]overlay=0:H-h-55:format=auto:shortest=1[v]",
   "-map", "[v]", "-map", "1:a?",
   "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
-  "-c:a", "copy", "-movflags", "+faststart", "-shortest", output,
+  "-r", String(fps), "-fps_mode", "cfr", "-video_track_timescale", String(Math.round(fps * 1000)),
+  "-c:a", "copy", "-t", String(duration), "-movflags", "+faststart", output,
 ], { stdio: ["pipe", "inherit", "inherit"] });
 
 ffmpeg.on("error", (error) => fail(`Unable to start ffmpeg: ${error.message}`));

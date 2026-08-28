@@ -1,0 +1,22 @@
+{
+  "status": "approved_after_manual_review",
+  "approved_at": "2026-08-24",
+  "approved_voice": "ElevenLabs Bin (jB1Cifc2UQbq1gR3wnb0)",
+  "voice_duration_seconds": 1089.582,
+  "alignment_ratio": 0.9918,
+  "caption_surface_match_ratio": 0.9906,
+  "average_wpm": 91.9,
+  "unexplained_silences_over_2_5_seconds": 0,
+  "chapter_titles_verified": true,
+  "number_pronunciation": "404호, 3시 17분, 2014년 7월 18일, 107동, 카메라 2번을 한글 발음용 원고로 생성하고 Whisper 전사로 확인함.",
+  "pacing_note": "약 1.94초 간격 두 곳은 대사 직후 반전 호흡으로 유지함.",
+  "approved_bgm_candidate": "cand-04",
+  "bgm_approved_at": "2026-08-25",
+  "bgm_mix": {
+    "gain_db": -18,
+    "outro_seconds": 4,
+    "outro_gain_db": -14,
+    "fade_out_seconds": 3,
+    "mixed_duration_seconds": 1093.582
+  }
+}

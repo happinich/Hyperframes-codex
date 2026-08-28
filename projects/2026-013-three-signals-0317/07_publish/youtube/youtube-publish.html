@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>유튜브 게시 도우미 · 새벽 3시 17분</title>
+    <style>
+      :root{--bg:#07090f;--card:#111621;--line:#293142;--text:#f5f7fb;--muted:#a6b0c0;--red:#ff4057;--teal:#54d8d0}
+      *{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#05070c,#101827);color:var(--text);font-family:Arial,"Apple SD Gothic Neo",sans-serif;line-height:1.6}
+      main{max-width:1180px;margin:auto;padding:42px 24px 90px}.hero{padding:34px;border:1px solid var(--line);border-radius:24px;background:rgba(8,11,18,.9)}
+      h1{margin:0 0 8px;font-size:38px;letter-spacing:-1.5px}.lead{margin:0;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+      button,.download{border:0;border-radius:10px;padding:11px 16px;background:var(--red);color:#fff;font-weight:800;cursor:pointer;text-decoration:none;font-size:15px}.secondary{background:#263247}.download{background:#183f41;color:#d9fffb}
+      section{margin-top:28px;padding:28px;border:1px solid var(--line);border-radius:20px;background:rgba(17,22,33,.94)}h2{margin:0 0 18px;font-size:25px}.label{color:var(--teal);font-size:13px;font-weight:900;letter-spacing:.15em;text-transform:uppercase}
+      .copy-box{margin:12px 0 0;padding:18px;border:1px solid #354054;border-radius:12px;background:#080b12;color:#eef3fb;white-space:pre-wrap;word-break:keep-all;font:16px/1.7 Arial,"Apple SD Gothic Neo",sans-serif}
+      .title-main{font-size:22px;font-weight:900}.title-list{display:grid;gap:12px}.title-row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:15px;border:1px solid #30394a;border-radius:12px;background:#0a0e16}.title-row p{margin:0}
+      .thumbs{display:grid;grid-template-columns:1fr 1fr;gap:18px}.thumbs img{display:block;width:100%;border-radius:14px;border:1px solid #3a4352}.thumbs h3{margin:10px 0 0}
+      .time-card{display:grid;grid-template-columns:1fr 1fr;gap:16px}.time-card div{padding:18px;border-radius:14px;background:#090d15;border:1px solid #30394a}.time-card strong{display:block;color:var(--red);font-size:24px}
+      .plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}.plan-card{padding:18px;border:1px solid #30394a;border-radius:14px;background:#090d15}.plan-card strong{display:block;margin-bottom:8px;color:var(--teal);font-size:18px}
+      .schedule{width:100%;border-collapse:collapse;margin-top:16px}.schedule th,.schedule td{padding:13px 14px;border-bottom:1px solid #30394a;text-align:left;vertical-align:top}.schedule th{color:var(--teal);white-space:nowrap}.sources a{color:#87e9e2}.notice{padding:16px 18px;border-left:4px solid var(--red);background:#160d13;color:#f7dbe0}
+      .toast{position:fixed;right:24px;bottom:24px;padding:13px 18px;border-radius:10px;background:var(--teal);color:#041012;font-weight:900;opacity:0;transform:translateY(12px);transition:.2s}.toast.show{opacity:1;transform:none}
+      @media(max-width:760px){h1{font-size:30px}.thumbs,.time-card,.plan-grid{grid-template-columns:1fr}.title-row{grid-template-columns:1fr}.title-row button{justify-self:start}.schedule th{white-space:normal}}
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <div class="label">YouTube Publish Kit</div>
+        <h1>새벽 3시 17분 · 공포괴담 3편</h1>
+        <p class="lead">제목, 설명, 태그, 고정 댓글과 SNS 홍보문을 이 화면에서 바로 복사할 수 있습니다.</p>
+        <div class="actions">
+          <button onclick="copyPackage()">전체 게시 패키지 복사</button>
+          <button class="secondary" onclick="copyText('strategy')">게시 전략 복사</button>
+          <a class="download" href="../../06_delivery/youtube/2026-013-three-signals-0317-youtube-captioned-story.mp4">자막 영상 열기</a>
+          <a class="download" href="../../06_delivery/youtube/2026-013-three-signals-0317-ko.srt">SRT 자막 열기</a>
+          <a class="download" href="../../06_delivery/youtube/2026-013-three-signals-0317-ko.vtt">VTT 자막 열기</a>
+        </div>
+      </div>
+
+      <section>
+        <div class="label">Publishing Strategy</div><h2>이번 게시 전략</h2>
+        <p class="notice"><strong>최종 권장:</strong> 2026년 8월 28일 금요일 21:30 KST · 일반 예약 공개 · 제목/썸네일 테스트 동시 시작</p>
+        <button class="secondary" onclick="copyText('strategy')">전략 전체 복사</button>
+        <pre id="strategy" class="copy-box">[공개 설정]
+- 공개 방식: 프리미어가 아닌 일반 예약 공개
+- 공개 시각: 2026년 8월 28일 금요일 21:30 KST
+- 대안 시각: 2026년 8월 29일 토요일 22:00 KST
+- 업로드 마감: 공개 24시간 전
+- 업로드 영상: 2026-013-three-signals-0317-youtube-captioned-story.mp4
+- 외부 자막: 2026-013-three-signals-0317-ko.srt
+- 카테고리: 엔터테인먼트
+- 시청자층: 아동용 아님
+- 재생목록: 심야 공포괴담
+
+[공개 전후]
+- T-24시간: 비공개 업로드, 1080p 처리·자막·챕터·저작권 검사
+- T-3시간: 커뮤니티와 SNS 예고
+- T+5분: 고정 댓글과 SNS 링크 게시
+- T+2시간: 재생 오류와 댓글만 확인, 제목·썸네일 성급한 변경 금지
+- T+24시간: 홈·추천 CTR, 첫 30초 유지율, 평균 시청시간 확인
+- T+72시간: 검색어와 이야기별 이탈 지점 확인
+- T+7일: 승리 조합 확정, 후속 Shorts 결정
+
+[영상 요소]
+- 엔드스크린: 이전 공포 영상 + 심야 공포괴담 재생목록 + 구독
+- 카드: 17:37 연결 장면에 이전 공포 영상 1개
+- 후속 커뮤니티 투표: 1번 호출벨 / 2번 CCTV / 3번 빈 택시</pre>
+      </section>
+
+      <section>
+        <div class="label">Main Title</div><h2>메인 제목</h2>
+        <button class="secondary" onclick="copyText('main-title')">메인 제목 복사</button>
+        <div id="main-title" class="copy-box title-main">새벽 3시 17분, 절대 응답하면 안 되는 세 가지 신호 | 공포괴담 3편</div>
+      </section>
+
+      <section>
+        <div class="label">Alternative Titles</div><h2>추천 제목 5가지</h2>
+        <div class="title-list">
+          <div class="title-row"><p id="alt-1">폐쇄 병실 호출벨·내일의 CCTV·빈 택시…응답한 사람은 사라졌다</p><button class="secondary" onclick="copyText('alt-1')">복사</button></div>
+          <div class="title-row"><p id="alt-2">새벽 3:17에 울린 세 가지 신호, 받는 순간 기록에서 지워진다</p><button class="secondary" onclick="copyText('alt-2')">복사</button></div>
+          <div class="title-row"><p id="alt-3">혼자 듣지 마세요: 끝까지 보면 3시 17분이 무서워집니다</p><button class="secondary" onclick="copyText('alt-3')">복사</button></div>
+          <div class="title-row"><p id="alt-4">404호 호출, 내일의 나, 빈 뒷좌석 | 소름 돋는 공포괴담 3편</p><button class="secondary" onclick="copyText('alt-4')">복사</button></div>
+          <div class="title-row"><p id="alt-5">절대 문을 열지 마라…새벽 세 시 십칠 분 공포 이야기 모음</p><button class="secondary" onclick="copyText('alt-5')">복사</button></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="label">Description</div><h2>설명란</h2>
+        <button class="secondary" onclick="copyText('description')">설명란 전체 복사</button>
+        <pre id="description" class="copy-box">새벽 3시 17분. 폐쇄된 병실에서 호출벨이 울리고, 현관 CCTV에는 내일의 내가 찍혔습니다. 승객이 없는 택시에서는 안전벨트 경고음이 켜졌습니다.
+
+세 사람은 모두 그 신호에 응답했습니다. 그리고 다음 날, 세 사람의 이름은 기록에서 사라졌습니다.
+
+이번 영상은 폐쇄된 404호, 미래를 먼저 보여 주는 현관 CCTV, 빈 뒷좌석에서 시작된 택시 예약까지 세 편의 무서운 이야기를 한 번에 담은 창작 공포괴담 모음입니다. 이어폰을 끼고 불을 끈 뒤 들어 보세요. 다만 새벽 3시 17분에 어떤 신호가 울린다면, 절대 응답하지 마십시오.
+
+⏱ 타임스탬프
+00:00 새벽 3시 17분, 세 가지 신호
+00:21 첫 번째 이야기 · 폐쇄된 404호
+06:36 두 번째 이야기 · 내일의 CCTV
+11:38 세 번째 이야기 · 빈 택시의 승객
+17:37 세 사건이 하나로 연결되는 순간
+18:09 마지막 신호와 엔딩
+
+🎧 영상 구성
+- 얼굴 노출 없는 다크 시네마틱 모션 영상
+- ElevenLabs Bin 보이스 내레이션
+- 승인 BGM cand-04와 새벽 공포 분위기
+- 한국어 SRT/VTT 자막 제공
+
+이 영상은 창작 공포 이야기입니다. 등장인물, 장소와 사건은 허구이며 실제 인물이나 사건과 관계가 없습니다.
+
+세 이야기 중 가장 소름 돋았던 신호를 댓글로 남겨 주세요.
+
+#공포이야기 #무서운이야기 #괴담</pre>
+      </section>
+
+      <section>
+        <div class="label">Tags</div><h2>검색 태그</h2>
+        <button class="secondary" onclick="copyText('tags')">태그 복사</button>
+        <div id="tags" class="copy-box">공포이야기, 무서운이야기, 공포괴담, 괴담, 무서운괴담, 공포라디오, 공포썰, 소름돋는이야기, 새벽괴담, 병원괴담, CCTV괴담, 택시괴담, 장편공포, 공포스토리, horror story, korean horror, scary stories, 새벽3시17분, 404호, 창작괴담</div>
+      </section>
+
+      <section>
+        <div class="label">Pinned Comment</div><h2>고정 댓글</h2>
+        <button class="secondary" onclick="copyText('pinned')">고정 댓글 복사</button>
+        <pre id="pinned" class="copy-box">세 가지 신호 중 여러분이라면 어느 순간에 가장 먼저 도망쳤을까요?
+
+1. 폐쇄된 404호의 호출벨
+2. 내일의 내가 찍힌 현관 CCTV
+3. 승객이 없는 택시의 안전벨트 경고음
+
+숫자와 이유를 함께 남겨 주세요. 다음 공포괴담 주제 선정에 반영하겠습니다.</pre>
+      </section>
+
+      <section>
+        <div class="label">Social Promotion</div><h2>SNS 홍보 문구</h2>
+        <button class="secondary" onclick="copyText('sns-teaser')">3시간 전 예고 복사</button>
+        <pre id="sns-teaser" class="copy-box">오늘 밤 9시 30분, 새벽 3시 17분에만 울리는 세 가지 신호가 공개됩니다.
+
+폐쇄된 404호의 호출벨.
+내일의 내가 찍힌 현관 CCTV.
+승객이 없는 택시의 안전벨트 경고음.
+
+신호를 확인한 세 사람은 다음 날 기록에서 사라졌습니다.
+오늘 밤, 절대 혼자 확인하지 마세요.
+
+#공포이야기 #무서운이야기 #괴담</pre>
+        <button class="secondary" onclick="copyText('sns-x')">X 문구 복사</button>
+        <pre id="sns-x" class="copy-box">새벽 3시 17분. 폐쇄 병실 호출벨, 내일의 내가 찍힌 CCTV, 승객 없는 택시의 경고음. 세 신호에 응답한 사람은 다음 날 기록에서 사라졌습니다. 공포괴담 3편 연속 보기 → [유튜브 링크] #공포이야기 #괴담</pre>
+        <button class="secondary" onclick="copyText('sns-long')">인스타·스레드 문구 복사</button>
+        <pre id="sns-long" class="copy-box">새벽 3시 17분에 신호가 울린다면 절대 응답하지 마세요.
+
+폐쇄된 404호에서 걸려 온 호출, 내일의 내가 찍힌 현관 CCTV, 승객이 없는 택시에서 켜진 안전벨트 경고음. 세 사람은 모두 신호를 확인했고, 다음 날 기록에서 사라졌습니다.
+
+18분 동안 이어지는 창작 공포괴담 3편을 공개했습니다. 여러분이라면 어느 신호에서 가장 먼저 도망쳤을지 댓글로 알려 주세요.
+
+전체 영상 → [유튜브 링크]
+
+#공포이야기 #무서운이야기 #공포괴담 #괴담</pre>
+        <button class="secondary" onclick="copyText('community-poll')">다음 날 투표 복사</button>
+        <pre id="community-poll" class="copy-box">새벽 3시 17분, 여러분이라면 어떤 신호가 가장 무서웠나요?
+
+1. 폐쇄된 404호의 호출벨
+2. 내일의 내가 찍힌 CCTV
+3. 승객 없는 택시의 안전벨트 경고음
+
+가장 무서웠던 번호와 이유를 댓글로 남겨 주세요. 가장 많은 선택을 받은 소재는 다음 이야기로 이어갑니다.</pre>
+      </section>
+
+      <section>
+        <div class="label">Thumbnails</div><h2>썸네일 2안</h2>
+        <div class="thumbs">
+          <div><img src="thumbnail-a.png" alt="응답하면 사라진다 썸네일"><h3>A안 · 결과 위협형</h3></div>
+          <div><img src="thumbnail-b.png" alt="절대 받지 마라 썸네일"><h3>B안 · 금지 명령형</h3></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="label">Test & Compare</div><h2>제목·썸네일 테스트 3조합</h2>
+        <p>YouTube Studio에 <strong>테스트 및 비교</strong>가 보이면 아래 조합을 동시에 등록합니다. 결과는 클릭률만이 아니라 노출당 시청시간을 기준으로 판단하므로 중간에 성급하게 종료하지 않습니다.</p>
+        <div class="plan-grid">
+          <div class="plan-card"><strong>조합 1 · 기본</strong><p>A안</p><p id="test-1">새벽 3시 17분, 절대 응답하면 안 되는 세 가지 신호 | 공포괴담 3편</p><button class="secondary" onclick="copyText('test-1')">제목 복사</button></div>
+          <div class="plan-card"><strong>조합 2 · 결과 위협</strong><p>B안</p><p id="test-2">응답한 순간 기록에서 사라졌다…새벽 3:17 공포괴담 3편</p><button class="secondary" onclick="copyText('test-2')">제목 복사</button></div>
+          <div class="plan-card"><strong>조합 3 · 소재 명확화</strong><p>A안</p><p id="test-3">폐쇄된 404호·내일의 CCTV·빈 택시 | 무서운 이야기 3편</p><button class="secondary" onclick="copyText('test-3')">제목 복사</button></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="label">Publishing Time</div><h2>게시 최적화 시간</h2>
+        <div class="time-card">
+          <div><span>1순위</span><strong>8월 28일 금요일 21:30</strong><p>야간 공포 콘텐츠의 분위기와 주말 진입 시간을 함께 노리는 일반 예약 공개입니다.</p></div>
+          <div><span>대안</span><strong>8월 29일 토요일 22:00</strong><p>YouTube Studio에 시청자 접속 시간 데이터가 있다면 그 시간대를 우선합니다.</p></div>
+        </div>
+        <table class="schedule">
+          <tr><th>8월 27일 21:30까지</th><td>자막본 비공개 업로드, SRT·챕터·엔드스크린·재생목록·저작권 검사 완료</td></tr>
+          <tr><th>8월 28일 18:30</th><td>커뮤니티와 SNS에 3시간 전 예고</td></tr>
+          <tr><th>8월 28일 21:30</th><td>예약 공개 및 제목·썸네일 테스트 시작</td></tr>
+          <tr><th>8월 28일 21:35</th><td>고정 댓글 등록, X·Threads·Instagram 링크 게시</td></tr>
+          <tr><th>8월 29일 12:00</th><td>세 가지 신호 중 가장 무서운 장면 커뮤니티 투표</td></tr>
+        </table>
+      </section>
+
+      <section class="sources">
+        <div class="label">Official References</div><h2>공식 참고</h2>
+        <p><a href="https://support.google.com/youtube/answer/1270709">YouTube 예약 게시 안내</a></p>
+        <p><a href="https://support.google.com/youtube/answer/9314416">시청자가 YouTube를 이용하는 시간 확인</a></p>
+        <p><a href="https://support.google.com/youtube/answer/12340300">제목과 썸네일 작성 팁</a></p>
+        <p><a href="https://support.google.com/youtube/answer/13861714">썸네일 테스트 및 비교</a></p>
+        <p><a href="https://support.google.com/youtube/thread/393332200">제목·썸네일 조합 테스트 공식 안내</a></p>
+        <p><a href="https://support.google.com/youtubecreatorstudio/answer/141805">게시 시각과 영상 성과 안내</a></p>
+      </section>
+    </main>
+    <div id="toast" class="toast">복사했습니다</div>
+    <script>
+      const ids=["strategy","main-title","description","tags","pinned","sns-teaser","sns-x","sns-long","community-poll"];
+      async function write(value){try{await navigator.clipboard.writeText(value)}catch(error){const area=document.createElement("textarea");area.value=value;document.body.appendChild(area);area.select();document.execCommand("copy");area.remove()}const toast=document.getElementById("toast");toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),1300)}
+      function copyText(id){write(document.getElementById(id).textContent.trim())}
+      function copyPackage(){const value=ids.map(id=>`[${id}]\n${document.getElementById(id).textContent.trim()}`).join("\n\n");write(value)}
+    </script>
+  </body>
+</html>

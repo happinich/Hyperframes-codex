@@ -5,13 +5,13 @@
     "aspect_ratio": "16:9",
     "width": 1920,
     "height": 1080,
-    "fps": 30
+    "fps": 60
   },
   "shorts_format": {
     "aspect_ratio": "9:16",
     "width": 1080,
     "height": 1920,
-    "fps": 30
+    "fps": 60
   },
   "style": {
     "face_visible": false,
@@ -37,9 +37,12 @@
   },
   "script_rewrite_rules": {
     "name": "하이퍼프레임스 롱폼 성공 팁",
-    "opening_hook": "초반 3초 안에 지루한 인사말이나 일반론 없이 질문형 문장, 핵심 수치, 또는 반전 사실로 시작한다.",
-    "visual_cues": "문맥 중간에 '지금 화면에 나오는 이 부분을 보시면...', '이 수치가 의미하는 것은...' 같은 자연스러운 시각 자료 안내 멘트를 넣는다.",
-    "spoken_tension": "일레븐랩스 V3의 억양이 살아나도록 '~아시죠?', '~거든요' 같은 구어체 종결을 활용하고, 호흡이 늘어지지 않게 짧고 타이트한 문장으로 쪼갠다."
+    "profile_mode": "{{PRODUCTION_PROFILE_SCRIPT_MODE}}",
+    "opening_hook": "{{PRODUCTION_PROFILE_OPENING_RULE}}",
+    "narration": "{{PRODUCTION_PROFILE_NARRATION_RULE}}",
+    "sound": "{{PRODUCTION_PROFILE_SOUND_RULE}}",
+    "explainer_visual_cues": "설명형 프로필에서만 '지금 화면에 나오는 이 부분을 보시면...' 같은 시각 자료 안내 멘트를 사용한다.",
+    "horror_meta_cue_policy": "공포 프로필에서는 화면을 직접 지시하는 메타 멘트를 사용하지 않는다."
   },
   "scenes": [
     {
@@ -61,7 +64,13 @@
           "action": ""
         }
       ],
-      "audio": "",
+      "audio": {
+        "narration": "",
+        "ambience": "",
+        "foley": [],
+        "bgm": "",
+        "intentional_silence": null
+      },
       "transition_out": "",
       "shorts_adaptation": ""
     }
