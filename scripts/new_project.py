@@ -113,6 +113,9 @@ def main() -> int:
         "{{PRODUCTION_PROFILE_SOUND_RULE}}": selected_profile["sound_rule"],
         "{{PRODUCTION_PROFILE_CAPTION_RENDERER}}": selected_profile["captioned_output"]["renderer"],
         "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}": selected_profile["captioned_output"]["suffix"],
+        "{{PRODUCTION_PROFILE_CAPTION_DEFAULT_ENABLED}}": str(
+            selected_profile["captioned_output"].get("default_enabled", True)
+        ).lower(),
         "{{PRODUCTION_PROFILE_TARGET_WPM}}": str(
             round(sum(selected_profile["target_wpm_range"]) / len(selected_profile["target_wpm_range"]))
         ),

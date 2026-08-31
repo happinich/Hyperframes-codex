@@ -1,11 +1,11 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "default_profile_id": "horror_cinematic_story_v1",
   "profiles": {
     "horror_cinematic_story_v1": {
       "label_ko": "호러 시네마틱 스토리형",
       "status": "preferred",
-      "description": "한국의 일상 공간과 현대 기기에서 시작되는 공포 앤솔로지를 콜드 오프닝, 시네마틱 이미지 모션, 다층 사운드와 쇼츠 유입 구조로 제작하는 방식.",
+      "description": "한국의 일상 공간에서 시작해 귀신·괴물·현대 규칙 공포를 균형 있게 다루는 6~8분 단편을 콜드 오프닝, 단계적 존재 공개, 시네마틱 이미지 모션, 다층 사운드와 무스포 쇼츠 유입 구조로 제작하는 방식.",
       "compatible_visual_styles": [
         "horror_cinematic",
         "dark_cinematic"
@@ -15,14 +15,15 @@
       "target_fps": 60,
       "motion_density": "정지 이미지도 1~3초마다 줌, 패닝, 초점, 조명, 스캔, 그림자 중 하나가 변하고 3초 이상 완전 정지를 금지한다.",
       "layout_language": "풀블리드 시네마틱 이미지, 단서 클로즈업, CCTV·호출 패널·휴대전화 프레임, 짧은 경고 타이포를 이야기 감정선에 맞춰 교차한다.",
-      "script_mode": "cold_open_modern_horror_anthology",
-      "opening_rule": "첫 5~10초에 가장 위험하거나 이상한 대사 한 줄을 선제시하고, 30초 안에 첫 이상 징후에 진입한다.",
-      "narration_rule": "화면을 설명하는 메타 멘트 없이 짧고 감각적인 한국어로 쓰며, 한 편당 4.5~6.5분의 현대 일상형 공포를 3~4편 연결한다.",
+      "script_mode": "cold_open_modern_horror_single_story",
+      "opening_rule": "첫 5~10초에 가장 위험하거나 이상한 대사 한 줄을 선제시한 뒤 장소와 정상 규칙을 앉히고, 40~60초 사이에 첫 이상 징후에 진입한다.",
+      "narration_rule": "화면을 설명하는 메타 멘트 없이 짧고 감각적인 했다체를 기본으로 쓴다. 귀신·괴물 축에서는 흔적, 부분 노출, 직접 상호작용 순으로 존재를 확인시키며 한 영상에서 6~8분 공포 한 편을 완결한다.",
       "sound_rule": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
       "captioned_output": {
+        "default_enabled": false,
         "renderer": "scripts/burn_story_captions.mjs",
         "suffix": "-captioned-story",
-        "style": "하단 중앙 44px 흰색 구문 자막, 6px 검정 외곽선, 단어별 색상 추적 없음"
+        "style": "기본 미생성. 사용자가 별도 승인한 경우에만 하단 중앙 고정형 구문 자막 파생본 생성"
       },
       "target_wpm_range": [110, 140]
     },

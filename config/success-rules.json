@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3.0",
+  "schema_version": "1.5.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -28,8 +28,9 @@
         "duration_seconds_range": [15, 40],
         "composition": "separate_vertical_recomposition",
         "simple_center_crop_forbidden": true,
-        "source": "standalone summary rewrite based on the approved long-form story",
-        "script_strategy": "rewrite as a complete mini-story with a first-second hook, compressed escalation, and satisfying payoff",
+        "source": "standalone spoiler-free cliffhanger rewrite based on the approved long-form story",
+        "script_strategy": "start with a first-second hook, compress the threat escalation, and stop on a complete sentence immediately before the identity, twist, or ending is revealed",
+        "reveal_longform_twist_or_ending": false,
         "raw_longform_excerpt_default": false,
         "separate_script_approval_required": true,
         "separate_tts_generation_required": true,
@@ -91,6 +92,8 @@
       },
       "profile_variants": {
         "horror_cinematic_story_v1": {
+          "enabled": false,
+          "delivery": "clean_master_plus_external_srt_vtt",
           "renderer": "scripts/burn_story_captions.mjs",
           "output_suffix": "-captioned-story",
           "position": "bottom-center-safe-area",
@@ -131,7 +134,7 @@
     "hook": {
       "first_3_seconds": "Start with a sharp question, core number, or reversal. Remove greetings and slow setup.",
       "horror_cold_open_seconds_range": [5, 10],
-      "horror_first_anomaly_deadline_seconds": 30,
+      "horror_first_anomaly_window_seconds": [40, 60],
       "examples": ["체크인한 사람은 다섯 명이었습니다. 그런데 CCTV에는 여섯 명이 찍혔습니다.", "새벽 세 시 십칠 분, 호출벨이 울려도 절대 받지 마십시오."]
     },
     "visual_cues": {
@@ -145,10 +148,19 @@
       "avoid": ["long written-style paragraphs", "slow greetings", "abstract setup without a visual anchor"]
     },
     "horror_story": {
-      "format": "3-4 connected modern-horror stories, 4.5-6.5 minutes each",
+      "format": "one complete 6-8 minute modern everyday-horror story per video",
       "preferred_devices": ["호출벨", "인터폰", "CCTV", "블랙박스", "택시 앱", "단체 채팅방"],
-      "opening": "Lead with the most disturbing line, then establish the ordinary rule and the first anomaly within 30 seconds.",
-      "bridge": "Start the next story hook within 3 seconds of the previous ending.",
+      "rotation_target_percent": {
+        "explicit_ghost": 40,
+        "creature_or_unknown_entity": 30,
+        "modern_rule_horror": 20,
+        "psychological_or_mystery_horror": 10
+      },
+      "maximum_consecutive_implicit_only_stories": 1,
+      "opening": "Lead with the most disturbing line for 5-10 seconds, establish why the narrator is there and what normal looks like, then introduce the first anomaly between 40 and 60 seconds.",
+      "narration_style": "Use Korean haetda-che by default from the next project; vary sentence lengths and avoid repeating short seumnida endings.",
+      "explicit_entity_rule": "For ghost or creature stories, confirm that the entity exists through direct interaction by the late story. Reveal it as trace, partial form, then clear interaction without repeatedly showing a full face or explaining its complete origin.",
+      "anthology_default": false,
       "ending": "Leave a concrete residual rule, sound, time, object, or viewer-directed implication instead of explaining everything.",
       "truth_label_required": true,
       "default_truth_label": "fiction"
@@ -264,9 +276,11 @@
     "minimum_activity": "No static explanatory screen longer than 3 seconds.",
     "background_motion": ["slow sheen", "moving grid", "subtle orb", "deep zoom", "focus shift", "light flicker", "fog", "scanline", "shadow movement"],
     "horror_visuals": {
-      "reference_sheet_required": ["character", "location", "period", "palette", "lighting", "recurring_object"],
-      "preferred": ["clue close-up", "empty corridor", "door gap", "CCTV frame", "phone interface", "rainy night road"],
-      "avoid": ["repeated ghost-face close-up", "gore as the primary hook", "unreadable darkness", "full black over 1 second"]
+      "reference_sheet_required": ["character", "location", "period", "palette", "lighting", "recurring_object", "threat_entity_when_present"],
+      "preferred": ["clue close-up", "empty corridor", "door gap", "CCTV frame", "phone interface", "rainy night road", "consistent ghost or creature interaction in the mid-to-late reveal"],
+      "entity_reveal_stages": ["trace", "partial silhouette or body detail", "clear physical interaction"],
+      "narrator_face_free_does_not_forbid_entity_visibility": true,
+      "avoid": ["repeated ghost-face close-up", "unmotivated early full-body creature reveal", "gore as the primary hook", "unreadable darkness", "full black over 1 second"]
     },
     "data_visuals": {
       "bars": ["pulse fill", "spark/marker movement", "value highlight"],
@@ -299,7 +313,7 @@
       "ffmpeg freezedetect=n=-55dB:d=4",
       "extract review frames around scene transitions",
       "manually inspect text fit and visual readiness",
-      "after the clean master passes review, render and inspect the production-profile-specific captioned version"
+      "render a captioned derivative only when the selected production profile and project brief explicitly enable it"
     ],
     "known_non_blocking_warnings": [
       "composition_file_too_large can be accepted for urgent iteration, but refactor later"
@@ -314,6 +328,7 @@
     "shorts_publish_package_required": true,
     "shorts_publish_package_path": "07_publish/shorts/shorts-publish.html",
     "shorts_description_urls_are_not_treated_as_clickable_cta": true,
+    "horror_short_must_not_reveal_longform_twist_or_ending": true,
     "longform_end_screen_seconds_range": [15, 20],
     "tags": {
       "comma_separated": true,

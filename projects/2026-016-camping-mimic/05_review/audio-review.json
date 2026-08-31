@@ -1,0 +1,39 @@
+{
+  "status": "approved_after_manual_review",
+  "reviewed_at": "2026-09-01",
+  "authorization": "사용자가 오늘 프로젝트의 음성 승인을 위임하고 자동 검수 두 회 통과 후 진행하도록 승인함",
+  "postprocess": {
+    "excess_pause_trim": {
+      "minimum_pause_seconds": 0.7,
+      "kept_pause_seconds": 0.42,
+      "detected_pause_count": 75,
+      "removed_seconds": 55.237
+    },
+    "pitch_preserving_tempo": 1.1,
+    "voice_only_backup": "02_audio/working/voice-before-pacing-trim.wav"
+  },
+  "pass_1": {
+    "name": "script_alignment_and_timing",
+    "result": "pass",
+    "duration_seconds": 419.476,
+    "whisper_model": "mlx-community/whisper-large-v3-turbo",
+    "matched_character_ratio": 0.9832,
+    "required_ratio": 0.92,
+    "remaining_digits_in_tts_source": 0,
+    "average_wpm": 110.6,
+    "long_silence_count": 0
+  },
+  "pass_2": {
+    "name": "acoustic_and_gap_review",
+    "result": "pass",
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "mean_volume_db": -17.5,
+    "peak_volume_db": -3.7,
+    "clipping_detected": false,
+    "long_word_gap_count": 11,
+    "gap_disposition": "문장 경계, 대사 전환, 톡 효과음 뒤에만 있으며 과도한 무음으로 검출된 구간은 없음",
+    "slow_window_disposition": "마지막 4.32초짜리 부분 창에서 발생한 계산상 저속 구간으로 전체 평균과 실제 발화에는 영향 없음"
+  },
+  "decision": "두 검수 모두 통과. 실제 Whisper 단어 타이밍을 scene-plan.json에 반영하고 BGM 및 영상 제작 진행."
+}

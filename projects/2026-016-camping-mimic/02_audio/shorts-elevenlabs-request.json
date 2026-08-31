@@ -1,0 +1,30 @@
+{
+  "provider": "elevenlabs",
+  "endpoint": "POST /v1/text-to-speech/:voice_id",
+  "script_source": "../01_script/shorts-narration.txt",
+  "tts_script_source": "../01_script/shorts-tts-narration.txt",
+  "target_audio": "inbox/2026-016-camping-mimic-shorts-esther.mp3",
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY",
+    "do_not_commit_api_key": true
+  },
+  "request": {
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v3",
+    "language_code": "ko",
+    "apply_text_normalization": "on",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.15,
+      "use_speaker_boost": true
+    }
+  },
+  "postprocess": {
+    "speed_multiplier": 1.07,
+    "preserve_pitch": true,
+    "approval": "사용자 오늘 작업 일괄 승인",
+    "qa_passes_required": 2
+  }
+}

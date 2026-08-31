@@ -13,6 +13,12 @@
     "height": 1920,
     "fps": 60
   },
+  "horror_direction": {
+    "threat_type": "",
+    "entity_design": "",
+    "reveal_mode": "",
+    "reveal_beats": []
+  },
   "style": {
     "face_visible": false,
     "caption_delivery": "external_srt_upload",
@@ -57,6 +63,7 @@
       "narration_text": "",
       "caption_text": "",
       "visual": "",
+      "entity_reveal_stage": "none",
       "motion": "",
       "motion_beats": [
         {

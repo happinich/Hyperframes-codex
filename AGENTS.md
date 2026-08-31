@@ -58,8 +58,9 @@ silently carry a previous project's style or BGM into a new project.
 ## Script And Scene Planning
 
 - For horror, start with the strongest disturbing line in a 5-10 second cold
-  open, remove greetings and channel bumpers before it, and reach the first
-  anomaly within 30 seconds.
+  open, remove greetings and channel bumpers before it, then establish why the
+  narrator is there and what the normal place or job looks like. Introduce the
+  first anomaly between 40 and 60 seconds.
 - For explainer profiles, start within three seconds with a sharp question,
   important number, reversal, or high-stakes claim.
 - Write short, conversational Korean suitable for ElevenLabs V3.
@@ -74,16 +75,27 @@ silently carry a previous project's style or BGM into a new project.
 - Do not display a total-runtime badge in the video.
 - Every new long-form project must also deliver at least one separately composed
   9:16 Short. Treat the Short as a required output, not an optional readiness
-  item. Rewrite the long-form premise as a standalone 15-40 second mini-story
-  with its own first-second hook, compressed escalation, and satisfying payoff.
-  A raw long-form excerpt is not the default Shorts script.
-- For horror anthologies, prefer three or four 4.5-6.5 minute stories in a
-  15-22 minute long-form episode, with the next story hook starting within
-  three seconds of the previous ending.
+  item. Rewrite the long-form threat as a standalone 15-40 second spoiler-free
+  teaser with its own first-second hook and compressed escalation. End on a
+  complete sentence immediately before the identity, twist, or ending is
+  revealed. A raw long-form excerpt is not the default Shorts script.
+- For this horror channel, make one complete 6-8 minute story per long-form
+  video. Keep multi-story anthologies paused until single-story retention data
+  is sufficient, and build compilations only from approved published stories.
+- Write new horror narration in natural Korean `했다체` by default. Vary sentence
+  length and avoid repeating short `습니다` endings. Preserve the voice and style
+  of already approved or completed projects.
 - Do not insert explainer phrases such as "지금 화면을 보시면" into immersive
   horror narration.
 - Record whether the story is fiction, an adapted submission, or a verified
   account. Do not label unverified fiction as a true story.
+- Rotate new horror premises toward explicit ghosts (40%), creatures or unknown
+  entities (30%), modern rule horror (20%), and psychological or mystery horror
+  (10%) as a long-range editorial target. Do not run more than one implicit-only
+  story in a row.
+- For ghost or creature stories, confirm the entity through a trace, partial
+  reveal, and direct physical interaction by the late story. Keep its origin
+  partly unexplained, but do not leave its existence ambiguous.
 
 ## Audio And Timing
 
@@ -115,6 +127,9 @@ silently carry a previous project's style or BGM into a new project.
   collage, map, table, and hub-diagram grammar.
 - For horror stories, establish consistent character, location, period, palette,
   lighting, and horror-intensity references before generating scene images.
+- When a ghost or creature appears, establish one consistent entity reference
+  for its body, clothing or surface, damage, and movement. Face-free narration
+  does not prohibit showing the supernatural entity.
 - Animate still images with deliberate pans, zooms, parallax, fog, shadow,
   lighting, focus, or crop changes that support the narration.
 - Avoid a static explanatory screen longer than three seconds.
@@ -138,11 +153,11 @@ silently carry a previous project's style or BGM into a new project.
 - Preserve the fps recorded in completed projects. If no fps is recorded, the
   renderer must preserve an existing completed master's detected fps.
 - Render a clean master first. Create the captioned derivative only after the
-  clean master passes review.
+  clean master passes review and the selected profile explicitly enables it.
 - Keep SRT and VTT as separate uploadable caption files.
-- Long-form projects use restrained semantic-phrase captions: 44px bold white
-  text, a 6px black outline, bottom-center safe placement, and no active-word
-  color or movement unless the approved project brief explicitly says otherwise.
+- Horror long-form videos default to no burned captions. Deliver the clean master
+  plus SRT and VTT for YouTube captions. Generate a restrained semantic-phrase
+  captioned derivative only when the project brief explicitly approves it.
 
 ## Standard Commands
 
@@ -189,7 +204,7 @@ python3 scripts/render_project.py <project> --format shorts --dry-run
 python3 scripts/render_project.py <project> --format shorts
 ```
 
-Create the approved long-form captioned version:
+Create an explicitly approved optional long-form captioned version:
 
 ```bash
 node scripts/burn_story_captions.mjs <project>
@@ -206,19 +221,21 @@ Before declaring a video complete:
 - Inspect early, middle, late, data-heavy, diagram, transition, and ending frames.
 - Confirm that titles fit and no text or shapes overlap.
 - Confirm that visual events match the spoken narration throughout the video.
-- Inspect the captioned output separately for timing, safe-area placement,
-  readability, and dropped frames.
+- When a captioned derivative was explicitly requested, inspect it separately
+  for timing, safe-area placement, readability, and dropped frames.
 - Inspect every required Short separately for its first frame and first audio
   sample, vertical safe areas, 15-40 second duration, 60fps, caption timing,
-  motion, and a clean complete-sentence ending.
+  motion, and a clean complete-sentence cliffhanger that does not reveal the
+  long-form identity, twist, or ending.
 
 ## Publishing Package
 
 Each finished YouTube project should include:
 
 - Clean 1920x1080 MP4
-- Profile-specific captioned MP4
 - SRT and VTT files
+- For horror, no captioned MP4 by default; include one only when explicitly
+  enabled in the project brief
 - Two readable, provocative 1280x720 thumbnails
 - One HTML YouTube publishing helper with copy buttons
 - One main title and five alternative titles
@@ -244,6 +261,10 @@ until it has been generated and verified.
   outputs normally remain local.
 - Never commit secrets, API credentials, private tokens, or downloaded media with
   unclear rights.
-- Do not stage, commit, or push unless the user explicitly requests it.
+- The user has granted standing authorization to commit and push after a requested
+  Hyperframes task is fully complete and verified. Stage only files relevant to
+  that completed task, leave unrelated worktree changes untouched, and push the
+  current branch to `origin`. If push fails, report the exact failure and keep
+  the local commit intact.
 - When committing, include only the files relevant to the approved task and leave
   unrelated worktree changes untouched.

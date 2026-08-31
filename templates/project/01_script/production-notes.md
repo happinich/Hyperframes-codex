@@ -28,10 +28,17 @@
 - Narration: {{PRODUCTION_PROFILE_NARRATION_RULE}}
 - Sound: {{PRODUCTION_PROFILE_SOUND_RULE}}
 - 공포 프로필에서는 설명형 시각 안내 멘트를 사용하지 않는다.
+- 공포 프로필은 첫 5~10초 콜드 훅 뒤 장소와 정상 규칙을 앉히고 40~60초 사이 첫 이상 징후를 배치한다.
+- 새 공포 대본은 했다체를 기본으로 하고 짧은 습니다체 반복을 피한다.
+- 한 영상에 6~8분 이야기 한 편을 완결하며, 쇼츠는 정체·반전·결말을 공개하지 않는다.
+- 귀신·괴물 축은 흔적, 부분 노출, 직접 상호작용 순으로 존재를 확인시키고 같은 얼굴·전신을 반복하지 않는다.
 
 ## 편집 메모
 
 - 음악 방향:
+- 위협 유형:
+- 존재 디자인 및 움직임 규칙:
+- 공개 단계별 핵심 장면:
 - 핵심 이미지/도표:
 - 출처 확인이 필요한 자산:
 - 제작 프로필: `{{PRODUCTION_PROFILE_ID}}` · {{PRODUCTION_PROFILE_LABEL}}
@@ -44,6 +51,7 @@
 - 사운드 기준: {{PRODUCTION_PROFILE_SOUND_RULE}}
 - 목표 낭독 속도: {{PRODUCTION_PROFILE_TARGET_WPM_RANGE}} WPM
 - 자막 적용 렌더러: `{{PRODUCTION_PROFILE_CAPTION_RENDERER}}`
+- 자막 파생본 기본 활성화: `{{PRODUCTION_PROFILE_CAPTION_DEFAULT_ENABLED}}`
 - 승인된 화면 스타일: `{{VISUAL_STYLE_ID}}` · {{VISUAL_STYLE_LABEL}}
 - 화면 분위기: {{VISUAL_STYLE_MOOD}}
 - 배경: {{VISUAL_STYLE_BACKGROUND}}

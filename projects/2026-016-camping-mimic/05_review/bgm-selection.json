@@ -1,0 +1,23 @@
+{
+  "status": "approved_by_delegated_selection",
+  "selected_candidate": "cand-02",
+  "selection_reason": "낮은 드론과 절제된 펄스가 목소리를 가리지 않으면서 캠핑장 장면의 불안을 단계적으로 높인다.",
+  "mix": {
+    "voice_gain_db": 0,
+    "bgm_gain_db": -18,
+    "outro_delay_seconds": 4,
+    "outro_gain_db": -14,
+    "fade_out_seconds": 3
+  },
+  "verification": {
+    "voice_master_preserved": true,
+    "mixed_duration_seconds": 423.488,
+    "tail_mean_volume_db": {
+      "419_to_420": -22.9,
+      "420_to_421": -25.0,
+      "421_to_422": -27.7,
+      "422_to_423": -34.6
+    },
+    "abrupt_cut_detected": false
+  }
+}

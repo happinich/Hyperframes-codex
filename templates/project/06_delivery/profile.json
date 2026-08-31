@@ -6,5 +6,6 @@
   "script_mode": "{{PRODUCTION_PROFILE_SCRIPT_MODE}}",
   "sound_rule": "{{PRODUCTION_PROFILE_SOUND_RULE}}",
   "clean_master_suffix": "",
+  "captioned_output_default_enabled": {{PRODUCTION_PROFILE_CAPTION_DEFAULT_ENABLED}},
   "captioned_output_suffix": "{{PRODUCTION_PROFILE_CAPTION_SUFFIX}}"
 }

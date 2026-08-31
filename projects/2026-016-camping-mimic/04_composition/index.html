@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>텐트 밖에서 친구 목소리를 흉내 내는 것</title>
+  <style>
+    @font-face{font-family:AppleSD;src:local("Apple SD Gothic Neo")}
+    :root{--black:#010305;--ink:#edf4f3;--teal:#63c8c1;--amber:#f29a49;--red:#ff334f}
+    *{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:var(--black);color:var(--ink);font-family:AppleSD,Arial,sans-serif}
+    #master,.scene,.scene-image,.scrim,.cast,.grain,.rain,.vignette,.overlay{position:absolute;inset:0}
+    #master{width:1920px;height:1080px;overflow:hidden;background:#010305}.scene{visibility:hidden;opacity:0;overflow:hidden;background:#010305}
+    .scene-image{width:100%;height:100%;object-fit:cover;opacity:0;will-change:transform,opacity,filter}
+    .scrim{z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.08),transparent 45%,rgba(0,0,0,.6)),linear-gradient(90deg,rgba(0,0,0,.35),transparent 42%,rgba(0,0,0,.2))}
+    .cast{z-index:3;inset:-18%;background:radial-gradient(circle at 52% 45%,rgba(71,177,169,.17),transparent 27%),radial-gradient(circle at 16% 80%,rgba(242,154,73,.12),transparent 20%)}
+    .grain{z-index:8;opacity:.14;background-image:repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.035) 3px 4px)}
+    .rain{z-index:7;opacity:.22;background:repeating-linear-gradient(113deg,transparent 0 22px,rgba(220,246,244,.18) 23px 24px,transparent 25px 50px);transform:translateY(-120px)}
+    .vignette{z-index:9;box-shadow:inset 0 0 220px 75px rgba(0,0,0,.78);pointer-events:none}.overlay{z-index:5}.reveal{will-change:transform,opacity}.red{color:var(--red)}
+    .eyebrow{font-size:20px;font-weight:900;letter-spacing:.22em;color:#8ddbd4;text-transform:uppercase;margin-bottom:18px}
+    .headline{font-size:58px;line-height:1.15;font-weight:900;letter-spacing:-.047em;word-break:keep-all;text-shadow:0 8px 32px #000}
+    .story-copy{position:absolute;left:118px;top:170px;width:900px;padding:28px 34px;border-left:5px solid rgba(255,51,79,.85);background:linear-gradient(90deg,rgba(1,4,6,.76),rgba(1,4,6,.16),transparent)}
+    .story-copy.right{left:auto;right:105px;width:760px}.story-copy.center{left:250px;right:250px;top:245px;width:auto;text-align:center;border-left:0;background:radial-gradient(circle,rgba(0,0,0,.76),transparent 68%)}
+    .hook{position:absolute;left:120px;top:185px;width:1050px}.hook .headline{font-size:67px}.hook .quote{margin-top:32px;font-size:31px;font-weight:800;color:#c4d3d2}
+    .sound-wave{display:flex;align-items:center;gap:7px;height:88px;margin-top:28px}.sound-wave i{width:6px;height:54px;border-radius:5px;background:linear-gradient(var(--red),var(--teal));transform-origin:center}
+    .locator{position:absolute;right:190px;top:205px;width:520px;height:520px;border:2px solid rgba(145,224,216,.3);border-radius:50%;box-shadow:0 0 80px rgba(77,202,190,.16)}
+    .locator:before,.locator:after{content:"";position:absolute;left:50%;top:50%;background:rgba(154,235,225,.2);transform:translate(-50%,-50%)}.locator:before{width:2px;height:100%}.locator:after{width:100%;height:2px}
+    .dot{position:absolute;width:34px;height:34px;border-radius:50%;background:var(--red);box-shadow:0 0 28px var(--red)}.dot.inside{left:236px;top:236px}.dot.outside{left:105px;top:80px;background:var(--teal);box-shadow:0 0 28px var(--teal)}
+    .labels{position:absolute;right:125px;bottom:195px;width:650px;font-size:27px;font-weight:900;display:flex;justify-content:space-between}.labels span:first-child{color:var(--teal)}.labels span:last-child{color:var(--red)}
+    .station-line{position:absolute;left:110px;right:110px;bottom:125px;height:3px;background:linear-gradient(90deg,transparent,var(--teal),transparent);transform-origin:left}.station-pulse{position:absolute;left:350px;bottom:105px;width:44px;height:44px;border:3px solid var(--teal);border-radius:50%;box-shadow:0 0 38px var(--teal)}
+    .finger-ring{position:absolute;left:770px;top:170px;width:620px;height:620px;border:4px solid rgba(255,51,79,.68);border-radius:50%;box-shadow:0 0 55px rgba(255,51,79,.28),inset 0 0 55px rgba(255,51,79,.16)}
+    .warning{position:absolute;left:220px;right:220px;top:210px;text-align:center}.warning .headline{font-size:70px}.warning-mark{width:180px;height:180px;margin:48px auto 0;border:9px solid var(--red);transform:rotate(45deg);box-shadow:0 0 48px rgba(255,51,79,.35)}
+    .route{position:absolute;left:150px;right:150px;bottom:150px;height:10px;border-radius:8px;background:rgba(220,240,238,.16)}.route i{display:block;width:0;height:100%;border-radius:8px;background:linear-gradient(90deg,var(--amber),var(--red));box-shadow:0 0 24px rgba(255,51,79,.55)}
+    .car-glitch{position:absolute;left:0;right:0;top:40%;height:5px;background:rgba(171,242,234,.8);opacity:0;box-shadow:0 0 30px rgba(171,242,234,.7)}
+    .reveal-frame{position:absolute;inset:80px;border:3px solid rgba(229,245,242,.22);box-shadow:inset 0 0 120px rgba(0,0,0,.75)}.reveal-frame:before{content:"";position:absolute;left:50%;top:0;width:2px;height:100%;background:rgba(255,255,255,.12)}
+    .chest-wave{position:absolute;left:50%;top:505px;width:430px;height:110px;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:5px}.chest-wave i{width:5px;height:36px;background:var(--red);border-radius:4px;box-shadow:0 0 10px rgba(255,51,79,.45)}
+    .end-card{position:absolute;left:105px;bottom:95px;width:750px;padding:26px 32px;background:rgba(1,4,6,.78);border-left:5px solid var(--teal);opacity:0}.end-card b{display:block;font-size:24px;color:var(--teal);letter-spacing:.12em}.end-card span{display:block;margin-top:12px;font-size:38px;font-weight:900;line-height:1.18}
+    .outro-black{position:absolute;inset:0;background:#000;opacity:0}.outro-word{position:absolute;left:0;right:0;top:455px;text-align:center;font-size:44px;font-weight:900;text-shadow:0 6px 24px #000}
+  </style>
+</head>
+<body>
+  <main id="master" data-composition-id="youtube-master" data-width="1920" data-height="1080" data-start="0" data-duration="423.476">
+    <audio id="voice" data-start="0" data-duration="423.476" data-track-index="0" src="assets/audio/voice.wav" data-volume="1"></audio><div id="scene-host"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="scene-data.js"></script>
+  <script>
+    const DURATION=423.476,A="assets/visuals/";const bars=(n=34)=>Array.from({length:n},(_,i)=>`<i style="height:${22+(i*29)%62}px"></i>`).join("");
+    function overlay(s){
+      if(s.overlay==="hook")return `<div class="overlay"><div class="hook"><div class="eyebrow reveal">텐트 안과 밖 · 같은 목소리</div><div class="headline reveal">민수는 내 옆에 있었다.<br><span class="red">그런데 밖에서도 불렀다.</span></div><div class="quote reveal">“야, 지퍼 좀 열어.”</div><div class="sound-wave">${bars()}</div></div></div>`;
+      if(s.overlay==="setup")return `<div class="overlay"><div class="story-copy reveal"><div class="eyebrow">비수기 · 산속 캠핑장</div><div class="headline">남은 사람은 우리 둘뿐이었다</div></div><div class="station-line"></div><div class="station-pulse"></div></div>`;
+      if(s.overlay==="station")return `<div class="overlay"><div class="story-copy right reveal"><div class="eyebrow">첫 번째 이상</div><div class="headline">세면대는 비어 있었다.<br><span class="red">대답만 숲에서 돌아왔다.</span></div></div><div class="station-line"></div></div>`;
+      if(s.overlay==="position")return `<div class="overlay"><div class="locator"><i class="dot outside"></i><i class="dot inside"></i></div><div class="labels reveal"><span>목소리 · 텐트 밖</span><span>민수 · 침낭 안</span></div></div>`;
+      if(s.overlay==="wave")return `<div class="overlay"><div class="story-copy center reveal"><div class="eyebrow">훔친 목소리</div><div class="headline">말투도, 숨소리도,<br><span class="red">민수와 똑같았다</span></div><div class="sound-wave">${bars(52)}</div></div></div>`;
+      if(s.overlay==="fingers")return `<div class="overlay"><div class="story-copy reveal"><div class="eyebrow">텐트 바닥 아래</div><div class="headline">손가락이 여섯 개였다</div></div><div class="finger-ring"></div></div>`;
+      if(s.overlay==="tear")return `<div class="overlay"><div class="warning"><div class="eyebrow reveal">절대 열지 마</div><div class="headline reveal">그것은 우리 목소리를<br><span class="red">번갈아 사용했다</span></div><div class="warning-mark"></div></div></div>`;
+      if(s.overlay==="chase")return `<div class="overlay"><div class="story-copy right reveal"><div class="eyebrow">숲길 추격</div><div class="headline">두 발로 서더니<br><span class="red">네 발로 뛰기 시작했다</span></div></div><div class="route"><i></i></div></div>`;
+      if(s.overlay==="car")return `<div class="overlay"><div class="story-copy reveal"><div class="eyebrow">차량 지붕</div><div class="headline">이번에는 바로 위에서<br><span class="red">내 목소리가 들렸다</span></div></div><div class="car-glitch"></div></div>`;
+      if(s.overlay==="reveal")return `<div class="overlay"><div class="reveal-frame"></div><div class="story-copy right reveal"><div class="eyebrow">정체가 드러났다</div><div class="headline">목소리는 입이 아니라<br><span class="red">가슴에서 나왔다</span></div></div><div class="chest-wave">${bars(46)}</div></div>`;
+      if(s.overlay==="aftermath")return `<div class="overlay"><div class="story-copy reveal"><div class="eyebrow">남겨진 흔적</div><div class="headline">그날 밤, 무언가가<br><span class="red">우리 목소리를 배웠다</span></div></div><div class="end-card"><b>다음 이야기</b><span>새벽 숲에서<br>네 목소리를 부르는 것</span></div></div>`;
+      return `<div class="overlay"><div class="outro-word reveal">내 목소리로 지퍼가 열렸다</div><div class="outro-black"></div></div>`}
+    function markup(s){const imgs=s.visuals.map((n,i)=>`<img class="scene-image" data-i="${i}" src="${A+n}.png" alt="">`).join("");return `<section id="scene-${s.id}" class="scene">${imgs}${overlay(s)}<div class="scrim"></div><div class="cast"></div><div class="rain"></div><div class="grain"></div><div class="vignette"></div></section>`}
+    document.getElementById("scene-host").innerHTML=window.HF_SCENES.map(markup).join("");window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true,defaults:{ease:"power2.out"}});
+    window.HF_SCENES.forEach((s,si)=>{const el=document.getElementById(`scene-${s.id}`),imgs=[...el.querySelectorAll(".scene-image")],st=s.start,en=s.end,d=s.duration,slot=d/Math.max(1,imgs.length);tl.set(el,{visibility:"visible",autoAlpha:1},st);
+      imgs.forEach((img,i)=>{const at=st+i*slot,dir=(si+i)%2?1:-1;tl.set(img,{autoAlpha:i?0:1},st);if(i)tl.to(img,{autoAlpha:1,duration:.85},at);tl.fromTo(img,{scale:1.04,xPercent:-2.2*dir,yPercent:(i%2?1:-1),filter:"saturate(.72) contrast(1.16) brightness(.77)"},{scale:1.17,xPercent:2.5*dir,yPercent:(i%2?-1:1),filter:"saturate(.94) contrast(1.08) brightness(.94)",duration:slot+.4,ease:"none"},at);if(i<imgs.length-1)tl.to(img,{autoAlpha:0,duration:.85},at+slot-.85)});
+      el.querySelectorAll(".reveal").forEach((n,i)=>tl.fromTo(n,{autoAlpha:0,y:22},{autoAlpha:1,y:0,duration:.6},st+.15+Math.min(i*.7,Math.max(.2,d-1))));const rain=el.querySelector(".rain"),cast=el.querySelector(".cast");tl.fromTo(rain,{y:-150,x:0},{y:160,x:-35,duration:2.4,ease:"none",repeat:Math.max(1,Math.ceil(d/2.4))},st);tl.to(cast,{xPercent:si%2?14:-14,yPercent:si%3?4:-4,duration:d,ease:"sine.inOut"},st);for(let t=2.2,n=0;t<d-.3;t+=2.7,n++)tl.fromTo(el,{filter:"brightness(1)"},{filter:n%4===0?"brightness(1.13)":"brightness(.94)",duration:.16,yoyo:true,repeat:1},st+t);
+      if(s.overlay==="hook"||s.overlay==="wave"||s.overlay==="reveal")el.querySelectorAll(".sound-wave i,.chest-wave i").forEach((b,i)=>tl.fromTo(b,{scaleY:.18,autoAlpha:.3},{scaleY:1,autoAlpha:1,duration:.17,yoyo:true,repeat:Math.max(12,Math.floor(d/.34))},st+.7+(i%11)*.035));
+      if(s.overlay==="setup"||s.overlay==="station")tl.fromTo(el.querySelector(".station-line"),{scaleX:0},{scaleX:1,duration:Math.min(5,d-1),ease:"none"},st+1);if(s.overlay==="setup")tl.fromTo(el.querySelector(".station-pulse"),{scale:.4,autoAlpha:.9},{scale:4.8,autoAlpha:0,duration:2.2,repeat:Math.max(3,Math.floor(d/2.2))},st+2);
+      if(s.overlay==="position")tl.to(el.querySelector(".dot.outside"),{x:250,y:290,duration:5.2,yoyo:true,repeat:Math.max(3,Math.floor(d/10.4)),ease:"sine.inOut"},st+1).to(el.querySelector(".locator"),{rotation:360,duration:12,repeat:Math.max(1,Math.floor(d/12)),ease:"none"},st);
+      if(s.overlay==="fingers")tl.fromTo(el.querySelector(".finger-ring"),{scale:.72,autoAlpha:.15},{scale:1.08,autoAlpha:.84,duration:2.3,yoyo:true,repeat:Math.max(6,Math.floor(d/4.6))},st+2);if(s.overlay==="tear")tl.fromTo(el.querySelector(".warning-mark"),{scale:.75,rotation:35,autoAlpha:.25},{scale:1.08,rotation:45,autoAlpha:.9,duration:1.1,yoyo:true,repeat:Math.max(10,Math.floor(d/2.2))},st+2).to(el,{x:11,duration:.06,yoyo:true,repeat:8},st+18);
+      if(s.overlay==="chase")tl.to(el.querySelector(".route i"),{width:"100%",duration:Math.max(2,d-2),ease:"none"},st+1).to(el,{x:7,y:-3,duration:.08,yoyo:true,repeat:36},st+4);if(s.overlay==="car")for(let t=2;t<d-1;t+=3.1)tl.fromTo(el.querySelector(".car-glitch"),{autoAlpha:0,y:0},{autoAlpha:.85,y:250,duration:.13,yoyo:true,repeat:2},st+t);if(s.overlay==="reveal")tl.fromTo(el.querySelector(".reveal-frame"),{scale:.96,autoAlpha:.3},{scale:1.03,autoAlpha:.8,duration:3.2,yoyo:true,repeat:Math.max(5,Math.floor(d/6.4))},st+1);
+      if(s.overlay==="aftermath")tl.fromTo(el.querySelector(".end-card"),{autoAlpha:0,x:-22},{autoAlpha:1,x:0,duration:.8},Math.max(st+2,en-18));if(s.overlay==="outro")tl.to(el.querySelector(".outro-black"),{autoAlpha:.22,duration:1.1},st+.6).to(el.querySelector(".outro-black"),{autoAlpha:1,duration:2.6,ease:"power1.in"},en-2.6);if(s.overlay!=="outro")tl.to(el,{autoAlpha:0,duration:.34},en-.34).set(el,{visibility:"hidden"},en);else tl.set(el,{visibility:"hidden"},en)});
+    tl.to({},{duration:.001},DURATION);window.__timelines["youtube-master"]=tl;
+  </script>
+</body>
+</html>

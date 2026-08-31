@@ -1,0 +1,56 @@
+{
+  "status": "passed_two_reviews",
+  "review_passes": [
+    {
+      "pass": 1,
+      "scope": "구성·텍스트·장면·첫 프레임 시각 검수",
+      "result": "pass",
+      "checks": {
+        "longform_contact_sheet_reviewed": true,
+        "shorts_contact_sheet_reviewed": true,
+        "shorts_first_frame_reviewed_after_fix": true,
+        "oversized_or_clipped_text": false,
+        "overlapping_text_or_shapes": false,
+        "runtime_badge_present": false,
+        "mobile_readable_horror_clue": true,
+        "visual_narration_match": true
+      }
+    },
+    {
+      "pass": 2,
+      "scope": "인코딩·싱크·정지·암전·오디오 종료 독립 검수",
+      "result": "pass",
+      "checks": {
+        "longform": {
+          "resolution": "1920x1080",
+          "fps": 60,
+          "duration_seconds": 423.488,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_sample_rate_hz": 48000,
+          "caption_alignment_ratio": 0.9827,
+          "freeze_over_3_seconds": false,
+          "black_frame_over_1_second": false,
+          "initial_audio_clipped": false,
+          "bgm_fade_verified": true
+        },
+        "shorts": {
+          "resolution": "1080x1920",
+          "fps": 60,
+          "duration_seconds": 22.378667,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_sample_rate_hz": 48000,
+          "caption_alignment_ratio": 0.9717,
+          "freeze_over_3_seconds": false,
+          "black_frame_over_1_second": false,
+          "initial_audio_clipped": false,
+          "standalone_script": true,
+          "burned_captions": true,
+          "twist_revealed": false
+        }
+      }
+    }
+  ],
+  "deliverables_ready": true
+}

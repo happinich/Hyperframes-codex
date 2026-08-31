@@ -1,0 +1,108 @@
+{
+  "status": "pacing_review_required",
+  "duration": 419.32,
+  "word_count": 773,
+  "average_wpm": 110.6,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 11,
+  "long_word_gaps": [
+    {
+      "start": 5.26,
+      "end": 6.12,
+      "duration": 0.86,
+      "before": "들렸다.",
+      "after": "“야,"
+    },
+    {
+      "start": 8.84,
+      "end": 9.82,
+      "duration": 0.98,
+      "before": "있어.”",
+      "after": "지난"
+    },
+    {
+      "start": 64.3,
+      "end": 65.16,
+      "duration": 0.86,
+      "before": "않았다.",
+      "after": "민수는"
+    },
+    {
+      "start": 71.54,
+      "end": 72.4,
+      "duration": 0.86,
+      "before": "없었다.",
+      "after": "관리동은"
+    },
+    {
+      "start": 96.48,
+      "end": 97.68,
+      "duration": 1.2,
+      "before": "톡.",
+      "after": "민수가"
+    },
+    {
+      "start": 104.32,
+      "end": 105.14,
+      "duration": 0.82,
+      "before": "있었다.",
+      "after": "그때"
+    },
+    {
+      "start": 118.82,
+      "end": 119.62,
+      "duration": 0.8,
+      "before": "말했다.",
+      "after": "“빨리."
+    },
+    {
+      "start": 126.82,
+      "end": 127.76,
+      "duration": 0.94,
+      "before": "것이다.",
+      "after": "우리는"
+    },
+    {
+      "start": 154.38,
+      "end": 155.44,
+      "duration": 1.06,
+      "before": "났다.",
+      "after": "민수가"
+    },
+    {
+      "start": 177.74,
+      "end": 178.56,
+      "duration": 0.82,
+      "before": "캄캄해졌다.",
+      "after": "밖에서도"
+    },
+    {
+      "start": 198.02,
+      "end": 198.9,
+      "duration": 0.88,
+      "before": "있었다.",
+      "after": "그"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 415.0,
+      "end": 419.32,
+      "word_count": 9,
+      "wpm": 36.0
+    }
+  ],
+  "fast_window_count": 0,
+  "fast_windows": [],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.2.0",
   "strategy_id": "korean_modern_horror_channel_v1",
   "status": "active_default",
   "purpose": "Face-free Korean modern-horror narration channel strategy for discovery, retention, binge viewing, and repeatable production.",
@@ -7,6 +7,19 @@
     "external_channel_analysis": "Treat Gemini/Grok channel snapshots as directional input, not as verified live metrics.",
     "official_guidance_checked_on": "2026-08-27",
     "review_live_channel_metrics_in_youtube_studio": true
+  },
+  "channel_identity": {
+    "name": "어둠 속 이야기",
+    "handle": "@EodumStory",
+    "channel_id": "UC7tNCnVNgmGjOZbeCpCR8eA",
+    "format": "얼굴 없는 한국 현대 일상 괴담 낭독",
+    "content_base": "창작 및 허가된 제보 각색"
+  },
+  "workflow_roles": {
+    "유식": "해외·한국 괴담 조사, 주제 선정, 대본 작성",
+    "마이노": "승인된 대본의 TTS, HyperFrames 화면 구성, MP4 제작",
+    "유튜비": "YouTube 게시 전략, 업로드 자료, 본편·쇼츠 연결",
+    "handoff_rule": "대본 최종 승인 전에는 TTS와 화면 제작 단계로 넘기지 않는다."
   },
   "positioning": {
     "primary_niche": "한국의 일상 공간과 현대 기기에서 시작되는 창작 공포·도시괴담 오디오 드라마",
@@ -24,27 +37,45 @@
       "현대 일상형 공포의 약속을 깨는 무관한 소재 반복"
     ]
   },
+  "horror_mix": {
+    "rotation_target_percent": {
+      "explicit_ghost": 40,
+      "creature_or_unknown_entity": 30,
+      "modern_rule_horror": 20,
+      "psychological_or_mystery_horror": 10
+    },
+    "direct_supernatural_presence_target_percent": 70,
+    "maximum_consecutive_implicit_only_stories": 1,
+    "interpretation": "비율은 장기 편성 목표이며 매 열 편을 기계적으로 맞추는 할당량이 아니다. 귀신·괴물 축에서는 초자연적 존재가 실제로 있음을 이야기 안에서 확인한다.",
+    "project_brief_fields": ["threat_type", "entity_design", "reveal_mode", "reveal_beats"]
+  },
   "format_ladder": {
     "shorts": {
       "role": "discovery",
       "duration_seconds_range": [15, 40],
       "weekly_target_range": [4, 7],
-      "source": "approved long-form top moment, spike candidate, or climax setup",
-      "ending": "절정 직전 또는 독립적인 경고 문장 뒤 본편 관련 동영상으로 연결",
+      "source": "승인된 본편의 핵심 위협을 별도 대본으로 재구성한 절정 직전 구간",
+      "script_rule": "첫 1초 훅과 빠른 위협 상승은 포함하되 본편의 정체·반전·결말은 공개하지 않는다.",
+      "ending": "결정적 정보가 드러나기 직전 완전한 문장으로 끊고 본편 관련 동영상으로 연결",
       "related_video_required_after_upload": true,
       "do_not_rely_on_description_urls": true,
       "composition": "separate 1080x1920 60fps composition; never center-crop the long-form master"
     },
     "flagship_longform": {
       "role": "retention_and_identity",
-      "duration_minutes_range": [15, 22],
-      "stories_per_video_range": [3, 4],
-      "minutes_per_story_range": [4.5, 6.5],
+      "duration_minutes_range": [6, 8],
+      "stories_per_video_range": [1, 1],
+      "minutes_per_story_range": [6, 8],
       "weekly_target": 2,
-      "series_rule": "각 이야기 종료 직후 다음 이야기의 콜드 훅을 넣어 이탈 지점을 줄인다."
+      "series_rule": "한 영상에서 하나의 긴장 사이클을 완결한다. 여러 단편 묶음은 현재 기본 포맷으로 사용하지 않는다."
+    },
+    "anthology": {
+      "status": "paused_until_single_story_data_is_sufficient",
+      "rule": "단편별 유지율 데이터가 충분히 쌓인 뒤 승인된 3~4편을 묶는 2차 포맷으로만 검토한다."
     },
     "compilation": {
       "role": "binge_and_night_listening",
+      "status": "deferred_until_published_library_is_sufficient",
       "duration_minutes_range": [60, 90],
       "release_interval_days_target": 14,
       "source": "previously approved and published stories only",
@@ -65,8 +96,25 @@
       "no_channel_bumper_before_hook": true,
       "must_match_title_and_thumbnail_promise": true
     },
-    "first_anomaly_deadline_seconds": 30,
-    "setup_policy": "인물 소개와 이동 과정은 사건 이해에 필요한 최소 정보만 남긴다.",
+    "first_anomaly_window_seconds": [40, 60],
+    "setup_policy": "콜드 오프닝 직후 주인공이 그 장소에 간 이유와 정상적인 공간·업무 규칙을 구체적으로 앉힌다. 첫 이상 징후는 40~60초 사이에 등장시키되, 그 전 설명은 이후 공포를 이해하는 데 필요한 정보만 남긴다.",
+    "narration_style": {
+      "default_from_next_project": "했다체",
+      "examples": ["문이 열렸다.", "안에는 아무도 없었다."],
+      "avoid": ["짧은 문장마다 습니다체를 반복", "했죠·였어요를 기계적으로 반복", "문어체 설명을 길게 이어 붙이기"],
+      "exception": "이미 승인·녹음된 완료 프로젝트는 기존 말투를 유지한다."
+    },
+    "entity_reveal_arc": {
+      "applies_to": ["explicit_ghost", "creature_or_unknown_entity"],
+      "stages": [
+        "초반에는 소리·흔적·환경 반응으로 존재를 암시한다.",
+        "중반에는 손·실루엣·비정상적인 움직임 같은 일부를 노출한다.",
+        "후반에는 주인공과 직접 상호작용하는 장면으로 존재를 명확히 확인시킨다."
+      ],
+      "full_origin_explanation_required": false,
+      "direct_interaction_required": true,
+      "rule": "존재는 확인시키되 기원과 정체를 모두 설명할 필요는 없다. 같은 귀신 얼굴이나 괴물 전신을 반복해 긴장을 소모하지 않는다."
+    },
     "tension_cycle": [
       "정상적인 일상 규칙 제시",
       "작은 불일치 발견",
@@ -75,12 +123,18 @@
       "결정적 선택",
       "완전한 설명 대신 잔상을 남기는 결말"
     ],
-    "anthology_bridge": "앞 이야기의 마지막 문장이 끝난 뒤 3초 안에 다음 이야기의 구체적 장소·시간·금지 규칙을 제시한다.",
+    "single_story_completion": "한 편 안에서 정상 상태, 불일치, 확인 행동, 위협 확대, 결정적 선택, 잔상 결말을 모두 끝낸다.",
     "truth_label": {
       "allowed": ["fiction", "adapted_submission", "verified_account"],
       "default": "fiction",
       "rule": "검증 근거가 없으면 제목과 썸네일에 실화라고 표시하지 않는다. 각색물은 설명란에 각색 사실을 표시한다."
     }
+  },
+  "caption_policy": {
+    "longform_burned_captions_default": false,
+    "longform_delivery": ["clean_master", "uploadable_srt", "uploadable_vtt"],
+    "youtube_auto_or_uploaded_captions": true,
+    "shorts_burned_captions_required": true
   },
   "sound_design": {
     "required_layers": ["narration", "room_ambience", "event_foley", "approved_bgm"],
@@ -99,10 +153,11 @@
   },
   "visual_direction": {
     "face_free": true,
-    "reference_sheet_required_per_story": ["character", "location", "period", "palette", "lighting", "recurring_object"],
+    "reference_sheet_required_per_story": ["character", "location", "period", "palette", "lighting", "recurring_object", "threat_entity_when_present"],
     "preferred_imagery": [
       "문틈·복도·호출 패널·CCTV 프레임 같은 단서 중심 미장센",
-      "얼굴 대신 실루엣·손·뒷모습·비어 있는 공간",
+      "초반에는 얼굴보다 실루엣·손·뒷모습·비어 있는 공간",
+      "귀신·괴물 축의 중후반에는 일관된 외형의 존재가 환경과 직접 상호작용하는 장면",
       "젖은 야간 도로·형광등·전자 노이즈·국소 적색 경고등"
     ],
     "motion": {
@@ -111,11 +166,12 @@
       "avoid_static_seconds_over": 3,
       "avoid_extended_full_black_seconds_over": 1
     },
-    "avoid": ["귀신 얼굴만 크게 반복", "고어를 핵심 클릭 요소로 사용", "밝기 부족으로 모바일에서 단서가 사라지는 화면"]
+    "entity_visual_rule": "화자의 얼굴 비노출 원칙과 초자연 존재의 화면 등장은 별개다. 귀신·괴물은 등장시킬 수 있으며, 동일한 외형·의복·손상·움직임 규칙을 장면 전체에서 유지한다.",
+    "avoid": ["귀신 얼굴만 크게 반복", "맥락 없이 괴물 전신을 초반부터 노출", "고어를 핵심 클릭 요소로 사용", "밝기 부족으로 모바일에서 단서가 사라지는 화면"]
   },
   "packaging": {
     "title": {
-      "formula": "일상 공간·기기 + 구체적 불일치·시간 + 금지 또는 결과 + 장르 꼬리표",
+      "formula": "장소·직업 + 구체적 불일치·시간 + 금기 또는 결과 + 장르 꼬리표",
       "important_words_first": true,
       "episode_number_at_end": true,
       "accurate_to_video": true,
@@ -132,7 +188,7 @@
     }
   },
   "channel_connections": {
-    "playlists": ["공포괴담 본편", "1시간 몰아듣기", "직업 괴담", "주거 괴담", "현대 기기 괴담"],
+    "playlists": ["공포괴담 본편", "1시간 몰아듣기", "귀신 괴담", "괴물·미확인 존재", "직업 괴담", "주거 괴담", "현대 기기 괴담"],
     "longform_end_screen": {
       "reserve_seconds_range": [15, 20],
       "primary_element": "most relevant next story or public playlist",
@@ -161,5 +217,17 @@
     "longform_metrics": ["impressions", "home_and_suggested_ctr", "30s_intro_retention", "average_view_duration", "top_moments", "spikes", "dips", "end_screen_click_rate"],
     "shorts_metrics": ["shown_in_feed", "stayed_to_watch", "engaged_views", "average_percentage_viewed", "related_video_clicks"],
     "iteration_rule": "조회가 오른 한 편의 소재·제목 구조·길이·오프닝을 3편 이상 같은 축으로 재검증하되 이야기를 복제하지 않는다."
+  },
+  "reference_monitoring": {
+    "frequency": "weekday_morning_new_uploads_only",
+    "catalog_full_scan": false,
+    "transcript_full_scan": false,
+    "watch_channels": ["Mr. Nightmare", "돌비공포라디오", "왓섭! 공포라디오", "괴들남"],
+    "exclude_from_routine_watch": ["Lets Read!"],
+    "record_per_upload": ["title", "premise_in_one_line", "overlap_with_existing_projects"]
+  },
+  "continuity_guard": {
+    "do_not_clone_or_repeat": ["새벽 배달", "새벽 세 시 십칠 분", "사라진 십사 층", "가라앉은 마을", "여섯 번째 손님", "편의점 호출벨", "삼호실 빈소", "노원 묘지터 아파트", "강릉 탁송", "시골 흉가 마을"],
+    "rule": "같은 공간을 다시 쓰더라도 직업, 금기, 반복 오브젝트, 반전 구조 중 최소 세 요소가 달라야 한다."
   }
 }
