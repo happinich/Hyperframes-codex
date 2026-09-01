@@ -1,0 +1,51 @@
+{
+  "status": "passed_two_reviews",
+  "revision": "shorts_v2_paradox_hook",
+  "reviewed_at": "2026-09-02T21:45:00+09:00",
+  "creative_intent": {
+    "format": "standalone_spoiler_free_teaser",
+    "first_second_hook": "안에도 친구, 밖에도 친구",
+    "longform_excerpt": false,
+    "twist_revealed": false,
+    "new_vertical_visual_count": 3
+  },
+  "review_passes": [
+    {
+      "pass": 1,
+      "scope": "최종 렌더 시각·서사 검수",
+      "result": "pass",
+      "checks": {
+        "final_contact_sheet_reviewed": true,
+        "first_frame_hook_visible": true,
+        "caption_safe_area": true,
+        "caption_clipping": false,
+        "text_or_shape_overlap": false,
+        "scene_specific_motion": true,
+        "spoken_text_matches_burned_captions": true,
+        "complete_sentence_cliffhanger": true
+      }
+    },
+    {
+      "pass": 2,
+      "scope": "최종 파일 기술·오디오·싱크 검수",
+      "result": "pass",
+      "checks": {
+        "resolution": "1080x1920",
+        "fps": 60,
+        "duration_seconds": 21.546667,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "audio_sample_rate_hz": 48000,
+        "caption_alignment_ratio": 0.9826,
+        "freeze_over_3_seconds": false,
+        "black_frame_over_1_second": false,
+        "silence_over_0_8_seconds": false,
+        "initial_audio_clipped": false,
+        "initial_audio_start_seconds": 0.0349,
+        "audio_mean_db": -17.7,
+        "audio_peak_db": -4.1
+      }
+    }
+  ],
+  "deliverable": "06_delivery/shorts/2026-016-camping-mimic-shorts.mp4"
+}

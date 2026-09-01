@@ -37,17 +37,20 @@
         "shorts": {
           "resolution": "1080x1920",
           "fps": 60,
-          "duration_seconds": 22.378667,
+          "duration_seconds": 21.546667,
           "video_codec": "h264",
           "audio_codec": "aac",
           "audio_sample_rate_hz": 48000,
-          "caption_alignment_ratio": 0.9717,
+          "caption_alignment_ratio": 0.9826,
           "freeze_over_3_seconds": false,
           "black_frame_over_1_second": false,
           "initial_audio_clipped": false,
           "standalone_script": true,
           "burned_captions": true,
-          "twist_revealed": false
+          "twist_revealed": false,
+          "revision": "shorts_v2_paradox_hook",
+          "first_frame_hook": "안에도 친구, 밖에도 친구",
+          "new_vertical_visuals": 3
         }
       }
     }
