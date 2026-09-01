@@ -1,0 +1,105 @@
+{
+  "status": "ready_for_review",
+  "duration": 436.6,
+  "word_count": 790,
+  "average_wpm": 108.6,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 6,
+  "long_word_gaps": [
+    {
+      "start": 10.1,
+      "end": 10.96,
+      "duration": 0.86,
+      "before": "풀었다.",
+      "after": "물류센터"
+    },
+    {
+      "start": 15.28,
+      "end": 16.2,
+      "duration": 0.92,
+      "before": "것이다.",
+      "after": "공용"
+    },
+    {
+      "start": 111.7,
+      "end": 112.6,
+      "duration": 0.9,
+      "before": "옮겼다.",
+      "after": "왼쪽"
+    },
+    {
+      "start": 124.6,
+      "end": 125.6,
+      "duration": 1.0,
+      "before": "흐려졌다.",
+      "after": "흐려진"
+    },
+    {
+      "start": 158.12,
+      "end": 158.96,
+      "duration": 0.84,
+      "before": "났다.",
+      "after": "옆"
+    },
+    {
+      "start": 289.6,
+      "end": 290.52,
+      "duration": 0.92,
+      "before": "있었다.",
+      "after": "슬리퍼"
+    }
+  ],
+  "slow_window_count": 3,
+  "slow_windows": [
+    {
+      "start": 235.0,
+      "end": 250.0,
+      "word_count": 12,
+      "wpm": 48.0
+    },
+    {
+      "start": 430.0,
+      "end": 436.6,
+      "word_count": 10,
+      "wpm": 40.0
+    },
+    {
+      "start": 435.0,
+      "end": 436.6,
+      "word_count": 3,
+      "wpm": 12.0
+    }
+  ],
+  "fast_window_count": 3,
+  "fast_windows": [
+    {
+      "start": 205.0,
+      "end": 220.0,
+      "word_count": 66,
+      "wpm": 264.0
+    },
+    {
+      "start": 210.0,
+      "end": 225.0,
+      "word_count": 58,
+      "wpm": 232.0
+    },
+    {
+      "start": 215.0,
+      "end": 230.0,
+      "word_count": 49,
+      "wpm": 196.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

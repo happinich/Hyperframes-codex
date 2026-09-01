@@ -1,0 +1,21 @@
+{
+  "status": "approved_after_manual_review",
+  "passes": 2,
+  "pass_1": {
+    "alignment_ratio": 0.935,
+    "duration_seconds": 436.697,
+    "average_wpm": 108.6,
+    "long_silences": 0,
+    "notes": "Pause trim 61.9s. First anomaly 48.7s. Cold open 6.3s. Alignment above 0.92."
+  },
+  "pass_2": {
+    "bgm_candidate": "cand-01",
+    "voice_plus_outro_seconds": 440.697,
+    "voice_master_preserved": true,
+    "gain_db": -18,
+    "outro_seconds": 4,
+    "notes": "Indoor fluorescent drone selected as first recommended candidate. Voice-only master untouched."
+  },
+  "approved": true,
+  "approved_on": "2026-09-02"
+}

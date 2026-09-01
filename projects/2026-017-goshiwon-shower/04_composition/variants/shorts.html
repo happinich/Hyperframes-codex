@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>칸막이 아래 발이 두 켤레 · Shorts</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="shorts-transcript-data.js"></script>
+  <style>
+    @font-face{font-family:AppleSD;src:local("Apple SD Gothic Neo")}
+    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#010305;font-family:AppleSD,Arial,sans-serif}
+    #shorts{position:relative;width:1080px;height:1920px;overflow:hidden;color:#fff;background:#010305}
+    .scene{position:absolute;inset:0;visibility:hidden;opacity:0;overflow:hidden;background:#010305}.scene:first-of-type{visibility:visible;opacity:1}
+    .image{position:absolute;inset:-90px;background-position:center;background-size:cover;filter:saturate(.72) contrast(1.14) brightness(.68);transform:scale(1.08)}
+    .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,2,5,.9),rgba(0,2,5,.08) 28%,rgba(0,2,5,.12) 62%,rgba(0,2,5,.94) 91%)}
+    .vignette{position:absolute;inset:0;box-shadow:inset 0 0 190px 48px rgba(0,0,0,.9)}
+    .drip{position:absolute;inset:-40px;opacity:.2;background:repeating-linear-gradient(180deg,transparent 0 38px,rgba(180,230,220,.22) 39px 41px,transparent 42px 80px)}
+    .headline{position:absolute;z-index:20;left:66px;right:66px;top:108px;font-size:72px;line-height:1.08;font-weight:950;letter-spacing:-.05em;text-shadow:0 7px 30px #000}
+    .headline em{font-style:normal;color:#ff334f}
+    .kicker{position:absolute;z-index:20;left:70px;top:64px;font-size:25px;font-weight:900;letter-spacing:.22em;color:#79ddd4}
+    .clue{position:absolute;z-index:16;padding:13px 23px;border:2px solid rgba(255,255,255,.72);border-radius:999px;background:rgba(2,6,9,.76);font-size:29px;font-weight:900}
+    .mine{left:92px;top:1180px}.other{right:92px;top:780px;border-color:#ff5a70;color:#ff8798}
+    .quote{position:absolute;z-index:18;left:80px;right:80px;top:620px;padding:36px 40px;border-left:8px solid #ff334f;background:rgba(1,4,7,.8);font-size:52px;line-height:1.25;font-weight:900;letter-spacing:-.04em}
+    .caption-wrap{position:absolute;z-index:30;left:58px;right:58px;bottom:215px;min-height:154px;display:flex;align-items:center;justify-content:center;text-align:center}
+    .caption{max-width:950px;font-size:46px;line-height:1.32;font-weight:900;letter-spacing:-.035em;color:#fff;-webkit-text-stroke:5px #000;paint-order:stroke fill;text-shadow:0 5px 13px #000}
+    .progress{position:absolute;z-index:32;left:66px;right:66px;bottom:150px;height:7px;background:rgba(255,255,255,.16);border-radius:8px;overflow:hidden}.progress i{display:block;width:0;height:100%;background:#ff334f;box-shadow:0 0 18px #ff334f}
+  </style>
+</head>
+<body>
+  <div id="shorts" data-composition-id="shorts-master" data-start="0" data-width="1080" data-height="1920" data-duration="15.935">
+    <audio id="shorts-audio" data-start="0" data-duration="15.935" data-track-index="0" src="assets/audio/shorts-summary.wav" data-volume="1"></audio>
+    <div class="scene s1"><div class="image" style="background-image:url('assets/visuals/shorts-stall-lock.png')"></div><div class="shade"></div><div class="drip"></div><div class="vignette"></div></div>
+    <div class="scene s2"><div class="image" style="background-image:url('assets/visuals/shorts-two-feet.png')"></div><div class="shade"></div><div class="vignette"></div><div class="clue mine">내 발</div><div class="clue other">다른 발</div></div>
+    <div class="scene s3"><div class="image" style="background-image:url('assets/visuals/shorts-two-feet.png')"></div><div class="shade"></div><div class="vignette"></div><div class="quote">같은 방향을 보고 있었다</div></div>
+    <div class="scene s4"><div class="image" style="background-image:url('assets/visuals/shorts-slippers.png')"></div><div class="shade"></div><div class="vignette"></div></div>
+    <div class="kicker">GOSHIWON HORROR</div>
+    <div class="headline">칸막이 아래<br><em>발이 두 켤레</em></div>
+    <div class="caption-wrap"><div class="caption"></div></div>
+    <div class="progress"><i></i></div>
+  </div>
+  <script>
+    const duration=15.935;
+    const scenes=[[".s1",0,4.22,"문을 잠갔다"],[".s2",4.22,9.64,"발이 두 켤레"],[".s3",9.64,13.26,"같은 방향"],[".s4",13.26,duration,"나만 들어가 있었다"]];
+    const tl=gsap.timeline({paused:true,defaults:{ease:"power2.out"}});window.__timelines=window.__timelines||{};window.__timelines["shorts-master"]=tl;
+    scenes.forEach(([selector,start,end,title],index)=>{const scene=document.querySelector(selector),image=scene.querySelector(".image"),drip=scene.querySelector(".drip");tl.set(scene,{visibility:"visible",autoAlpha:1},start).set(".headline",{innerHTML:index===0?"칸막이 아래<br><em>발이 두 켤레</em>":title.includes("발")? "칸막이 아래<br><em>"+title+"</em>":title},start);if(index)tl.fromTo(".headline",{autoAlpha:0,y:22},{autoAlpha:1,y:0,duration:.28},start);tl.fromTo(image,{scale:1.07,x:index%2?-22:18,filter:`saturate(.62) contrast(1.2) brightness(${.62+index*.04})`},{scale:1.16,x:index%2?16:-16,filter:`saturate(.9) contrast(1.08) brightness(${.78+index*.03})`,duration:end-start,ease:"none"},start);if(drip)tl.fromTo(drip,{y:-80},{y:220,duration:1.6,repeat:Math.ceil((end-start)/1.6),ease:"none"},start);if(index<scenes.length-1)tl.to(scene,{autoAlpha:0,duration:.18},end-.16).set(scene,{visibility:"hidden"},end)});
+    tl.fromTo(".mine",{scale:.78,autoAlpha:0},{scale:1,autoAlpha:1,duration:.32},4.4).fromTo(".other",{scale:.78,autoAlpha:0},{scale:1,autoAlpha:1,duration:.32},6.1);
+    tl.fromTo(".quote",{x:-70,autoAlpha:0},{x:0,autoAlpha:1,duration:.34},10.4);
+    tl.fromTo(".progress i",{width:"0%"},{width:"100%",duration,ease:"none"},0);
+    (window.HF_CAPTIONS?.cues||[]).forEach(cue=>{tl.set(".caption",{innerText:cue.text,autoAlpha:1},cue.start);tl.set(".caption",{autoAlpha:0},Math.min(duration,cue.end+.02))});
+  </script>
+</body>
+</html>

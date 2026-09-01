@@ -1,0 +1,16 @@
+{
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_cinematic",
+  "youtube": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 440.747
+  },
+  "shorts": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration": 15.935
+  }
+}
