@@ -49,7 +49,7 @@
 - Cold-open line:
 - Normal-world setup: 장소에 간 이유와 정상적인 공간·업무 규칙
 - First anomaly window: 40~60초
-- Narration style: 했다체
+- Narration style: 사람이 직접 경험을 들려주는 존댓말 구술형 이야기체. 종결을 자연스럽게 섞고 했다·였다 단문을 연속하지 않음.
 - Long-form burned captions: 기본 없음, 별도 승인 시에만 생성
 - Shorts cliffhanger candidate: 정체·반전·결말 공개 전 중단 지점
 - Related long-form video for Shorts:

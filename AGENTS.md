@@ -82,9 +82,12 @@ silently carry a previous project's style or BGM into a new project.
 - For this horror channel, make one complete 6-8 minute story per long-form
   video. Keep multi-story anthologies paused until single-story retention data
   is sufficient, and build compilations only from approved published stories.
-- Write new horror narration in natural Korean `했다체` by default. Vary sentence
-  length and avoid repeating short `습니다` endings. Preserve the voice and style
-  of already approved or completed projects.
+- Write new horror narration as natural spoken Korean storytelling, as if a
+  person were recounting an experience directly to the listener. Mix endings
+  such as `~했어요`, `~였죠`, `~거든요`, `~더라고요`, and occasional
+  `~했습니다` according to emotion and pacing. Do not chain clipped
+  `했다/였다` sentences or repeat one ending mechanically. Preserve the voice
+  and style of already approved or completed projects.
 - Do not insert explainer phrases such as "지금 화면을 보시면" into immersive
   horror narration.
 - Record whether the story is fiction, an adapted submission, or a verified

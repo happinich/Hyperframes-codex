@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.5.0",
+  "schema_version": "1.6.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -158,12 +158,28 @@
       },
       "maximum_consecutive_implicit_only_stories": 1,
       "opening": "Lead with the most disturbing line for 5-10 seconds, establish why the narrator is there and what normal looks like, then introduce the first anomaly between 40 and 60 seconds.",
-      "narration_style": "Use Korean haetda-che by default from the next project; vary sentence lengths and avoid repeating short seumnida endings.",
+      "narration_style": "Use natural polite spoken Korean storytelling, as if a person were recounting an experience directly to the listener. Mix endings such as ~했어요, ~였죠, ~거든요, ~더라고요, and occasional ~했습니다 according to emotion and pacing. Avoid chains of clipped 했다/였다 sentences and any mechanically repeated ending.",
       "explicit_entity_rule": "For ghost or creature stories, confirm that the entity exists through direct interaction by the late story. Reveal it as trace, partial form, then clear interaction without repeatedly showing a full face or explaining its complete origin.",
       "anthology_default": false,
       "ending": "Leave a concrete residual rule, sound, time, object, or viewer-directed implication instead of explaining everything.",
       "truth_label_required": true,
-      "default_truth_label": "fiction"
+      "default_truth_label": "fiction",
+      "voice_casting_review": {
+        "required_with_script_review": true,
+        "recommendation_options": ["male", "female"],
+        "evaluate": [
+          "protagonist identity and point of view",
+          "narrator distance and emotional intensity",
+          "contrast between narration and entity dialogue",
+          "pace and escalation required by the script"
+        ],
+        "include": [
+          "primary recommendation with reason",
+          "secondary option with tradeoff",
+          "whether the narrator gender must match the protagonist"
+        ],
+        "selection_requires_separate_approval": true
+      }
     },
     "scene_plan": {
       "one_scene_one_claim": true,
