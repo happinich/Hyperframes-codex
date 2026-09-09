@@ -1,0 +1,104 @@
+[
+  {
+    "filename": "segments/part-01.html",
+    "startFrame": 0,
+    "endFrame": 554,
+    "duration": 9.233333333333333
+  },
+  {
+    "filename": "segments/part-02.html",
+    "startFrame": 554,
+    "endFrame": 2966,
+    "duration": 40.2
+  },
+  {
+    "filename": "segments/part-03.html",
+    "startFrame": 2966,
+    "endFrame": 6561,
+    "duration": 59.916666666666664
+  },
+  {
+    "filename": "segments/part-04.html",
+    "startFrame": 6561,
+    "endFrame": 8785,
+    "duration": 37.06666666666667
+  },
+  {
+    "filename": "segments/part-05.html",
+    "startFrame": 8785,
+    "endFrame": 10885,
+    "duration": 35
+  },
+  {
+    "filename": "segments/part-06.html",
+    "startFrame": 10885,
+    "endFrame": 13839,
+    "duration": 49.233333333333334
+  },
+  {
+    "filename": "segments/part-07.html",
+    "startFrame": 13839,
+    "endFrame": 15401,
+    "duration": 26.033333333333335
+  },
+  {
+    "filename": "segments/part-08.html",
+    "startFrame": 15401,
+    "endFrame": 16816,
+    "duration": 23.583333333333332
+  },
+  {
+    "filename": "segments/part-09.html",
+    "startFrame": 16816,
+    "endFrame": 19604,
+    "duration": 46.46666666666667
+  },
+  {
+    "filename": "segments/part-10.html",
+    "startFrame": 19604,
+    "endFrame": 20907,
+    "duration": 21.716666666666665
+  },
+  {
+    "filename": "segments/part-11.html",
+    "startFrame": 20907,
+    "endFrame": 22639,
+    "duration": 28.866666666666667
+  },
+  {
+    "filename": "segments/part-12.html",
+    "startFrame": 22639,
+    "endFrame": 23599,
+    "duration": 16
+  },
+  {
+    "filename": "segments/part-13.html",
+    "startFrame": 23599,
+    "endFrame": 24177,
+    "duration": 9.633333333333333
+  },
+  {
+    "filename": "segments/part-14.html",
+    "startFrame": 24177,
+    "endFrame": 25473,
+    "duration": 21.6
+  },
+  {
+    "filename": "segments/part-15.html",
+    "startFrame": 25473,
+    "endFrame": 26032,
+    "duration": 9.316666666666666
+  },
+  {
+    "filename": "segments/part-16.html",
+    "startFrame": 26032,
+    "endFrame": 27601,
+    "duration": 26.15
+  },
+  {
+    "filename": "segments/part-17.html",
+    "startFrame": 27601,
+    "endFrame": 28507,
+    "duration": 15.1
+  }
+]

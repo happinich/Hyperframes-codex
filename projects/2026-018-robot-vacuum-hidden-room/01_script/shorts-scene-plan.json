@@ -1,0 +1,102 @@
+{
+  "duration": 20.820708,
+  "fps": 60,
+  "voice_multiplier": 1.07,
+  "spoiler_free": true,
+  "shots": [
+    {
+      "id": "short-0",
+      "start": 0,
+      "visual": "short-wall",
+      "overlay": "hook",
+      "end": 2.8
+    },
+    {
+      "id": "short-1",
+      "start": 2.8,
+      "visual": "debris",
+      "overlay": "none",
+      "end": 5.66
+    },
+    {
+      "id": "short-2",
+      "start": 5.66,
+      "visual": "closed",
+      "overlay": "warning",
+      "end": 9.02
+    },
+    {
+      "id": "short-3",
+      "start": 9.02,
+      "visual": "short-wall",
+      "overlay": "none",
+      "end": 11.88
+    },
+    {
+      "id": "short-4",
+      "start": 11.88,
+      "visual": "short-camera",
+      "overlay": "none",
+      "end": 13.540000000000001
+    },
+    {
+      "id": "short-5",
+      "start": 13.540000000000001,
+      "visual": "short-camera",
+      "overlay": "connecting",
+      "end": 20.820708
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 1.84,
+      "text": "로봇청소기가 우리 집에 없는 방을"
+    },
+    {
+      "start": 1.84,
+      "end": 2.42,
+      "text": "청소했어요."
+    },
+    {
+      "start": 2.9,
+      "end": 5.02,
+      "text": "솔에는 처음 보는 꽃무늬 벽지가 감겨"
+    },
+    {
+      "start": 5.02,
+      "end": 5.4,
+      "text": "있었죠."
+    },
+    {
+      "start": 5.76,
+      "end": 8.3,
+      "text": "관리인은 카메라를 절대 켜지 말라고"
+    },
+    {
+      "start": 8.3,
+      "end": 8.56,
+      "text": "했습니다."
+    },
+    {
+      "start": 9.12,
+      "end": 11.56,
+      "text": "그런데 청소기가 벽 속에 끼어 버렸어요."
+    },
+    {
+      "start": 11.98,
+      "end": 13.22,
+      "text": "정지 버튼도 안 먹혔죠."
+    },
+    {
+      "start": 13.64,
+      "end": 16.3,
+      "text": "저는 뭐에 걸렸는지 보려고, 그 카메라를"
+    },
+    {
+      "start": 16.3,
+      "end": 16.7,
+      "text": "켰습니다."
+    }
+  ]
+}

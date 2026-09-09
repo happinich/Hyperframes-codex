@@ -1,0 +1,841 @@
+{
+  "project_id": "2026-018-robot-vacuum-hidden-room",
+  "title": "로봇청소기 지도에 우리 집에 없는 방이 생겼다",
+  "master_format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "shorts_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "aspect_ratio": "9:16"
+  },
+  "horror_direction": {
+    "threat_type": "explicit_ghost",
+    "entity_design": "Grey pajamas, dry plaster skin, faded floral wallpaper attached to face, flattened sideways body, long fingers.",
+    "reveal_mode": "trace_to_camera_to_direct",
+    "reveal_beats": [
+      "debris",
+      "camera silhouette",
+      "hand contact",
+      "wall emergence"
+    ]
+  },
+  "style": {
+    "face_visible": false,
+    "caption_delivery": "external_srt_upload",
+    "production_profile_id": "horror_cinematic_story_v1",
+    "production_profile_label": "호러 시네마틱 스토리형",
+    "visual_style_id": "horror_cinematic",
+    "visual_style_label": "호러 시네마틱",
+    "visual_tone": "한국의 익숙한 야간 공간이 서서히 낯설어지고, 중후반에는 귀신이나 괴물의 실재가 확인되는 몰입형 공포 오디오 드라마",
+    "background": "어두운 병원 복도, 원룸 현관, 산길, 젖은 도로, CCTV 화면처럼 단서와 초자연 존재의 윤곽이 읽히는 저조도 실사·생성 이미지",
+    "palette": "#020407, #071318, #10252a, #e8edf0, #ff334f",
+    "layout_language": "풀블리드 시네마틱 이미지, 단서 클로즈업, CCTV·호출 패널·휴대전화 프레임, 짧은 경고 타이포를 이야기 감정선에 맞춰 교차한다.",
+    "motion_rule": "정지 이미지도 1~3초마다 줌, 패닝, 초점, 조명, 스캔, 그림자 중 하나가 변하고 3초 이상 완전 정지를 금지한다. 느린 패닝과 깊은 줌, 초점 이동, 형광등 점멸, 안개·그림자·스캔라인, 결정적 순간의 짧은 적막과 붉은 신호 펄스",
+    "captioned_renderer": "scripts/burn_story_captions.mjs",
+    "captioned_output_suffix": "-captioned-story",
+    "notes": "사용자가 승인한 스타일을 유지하되 장면별 정보 구조는 다양하게 만든다."
+  },
+  "timing_policy": {
+    "unit": "seconds",
+    "planning_precision": "0.1s",
+    "alignment_source": "mlx-community/whisper-large-v3-turbo word timings after ElevenLabs generation",
+    "caption_rule": "caption_text는 narration_text와 동일하게 유지한다. MP4에는 번인하지 않고 SRT/VTT로 별도 납품한다."
+  },
+  "script_rewrite_rules": {
+    "name": "하이퍼프레임스 롱폼 성공 팁",
+    "profile_mode": "cold_open_modern_horror_single_story",
+    "opening_hook": "첫 5~10초에 가장 위험하거나 이상한 대사 한 줄을 선제시한 뒤 장소와 정상 규칙을 앉히고, 40~60초 사이에 첫 이상 징후에 진입한다.",
+    "narration": "화면을 설명하는 메타 멘트 없이, 사람이 겪은 일을 청자에게 들려주듯 자연스러운 존댓말 구술형 이야기체로 쓴다. ~했어요, ~였죠, ~거든요, ~더라고요와 필요한 ~했습니다를 감정과 호흡에 따라 섞고, 했다·였다 단문을 연속하지 않는다. 귀신·괴물 축에서는 흔적, 부분 노출, 직접 상호작용 순으로 존재를 확인시키며 한 영상에서 6~8분 공포 한 편을 완결한다.",
+    "sound": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+    "explainer_visual_cues": "설명형 프로필에서만 '지금 화면에 나오는 이 부분을 보시면...' 같은 시각 자료 안내 멘트를 사용한다.",
+    "horror_meta_cue_policy": "공포 프로필에서는 화면을 직접 지시하는 메타 멘트를 사용하지 않는다."
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "type": "hook",
+      "start_seconds": 0,
+      "end_seconds": 9.23,
+      "duration_seconds": 9.23,
+      "narration_text": "로봇청소기가 거실 벽 속으로 사라졌습니다.\n\n앱에는 “새 방을 청소 중입니다”라고 떠 있었어요.\n\n그 벽 뒤는 아파트 외벽이었는데 말이죠.",
+      "caption_text": "로봇청소기가 거실 벽 속으로 사라졌습니다.\n\n앱에는 “새 방을 청소 중입니다”라고 떠 있었어요.\n\n그 벽 뒤는 아파트 외벽이었는데 말이죠.",
+      "purpose": "로봇청소기가 거실",
+      "visual": "wall",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 0,
+          "action": "hook",
+          "spoken_trigger": "로봇청소기가 거실"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 0,
+      "word_count": 18,
+      "speech_start": 0,
+      "speech_end": 9.32
+    },
+    {
+      "id": "S02",
+      "type": "none",
+      "start_seconds": 9.23,
+      "end_seconds": 49.43,
+      "duration_seconds": 40.2,
+      "narration_text": "지난겨울에 있었던 일입니다.\n\n저는 오래된 아파트의 복도 끝집으로 이사했어요. 집세가 쌌고 혼자 살기에는 충분했죠.\n\n집은 거실과 방 두 개, 주방이 전부였어요. 벽지는 전부 무늬 없는 흰색이었고요.\n\n거실 창문 쪽 벽 너머에는 아무것도 없었습니다. 칠 층 아래 주차장까지 곧게 떨어지는 외벽뿐이었거든요.\n\n로봇청소기는 전 세입자가 두고 간 물건이었어요.\n\n집주인은 충전도 안 되는 고장품이라면서, 필요 없으면 그냥 버리라고 했습니다. 그런데 배터리만 바꿔 보니까 멀쩡하게 돌아가더라고요.\n\n앱에 연결하니 지도와 실시간 카메라가 잘 나왔어요. 닷새 동안은 아무 문제도 없었죠.",
+      "caption_text": "지난겨울에 있었던 일입니다.\n\n저는 오래된 아파트의 복도 끝집으로 이사했어요. 집세가 쌌고 혼자 살기에는 충분했죠.\n\n집은 거실과 방 두 개, 주방이 전부였어요. 벽지는 전부 무늬 없는 흰색이었고요.\n\n거실 창문 쪽 벽 너머에는 아무것도 없었습니다. 칠 층 아래 주차장까지 곧게 떨어지는 외벽뿐이었거든요.\n\n로봇청소기는 전 세입자가 두고 간 물건이었어요.\n\n집주인은 충전도 안 되는 고장품이라면서, 필요 없으면 그냥 버리라고 했습니다. 그런데 배터리만 바꿔 보니까 멀쩡하게 돌아가더라고요.\n\n앱에 연결하니 지도와 실시간 카메라가 잘 나왔어요. 닷새 동안은 아무 문제도 없었죠.",
+      "purpose": "지난겨울에",
+      "visual": "room",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 9.23,
+          "action": "camera refocus: room",
+          "spoken_trigger": "지난겨울에"
+        },
+        {
+          "time": 18.040000000000003,
+          "action": "normal-map",
+          "spoken_trigger": "집은 거실과"
+        },
+        {
+          "time": 30.96,
+          "action": "camera refocus: room",
+          "spoken_trigger": "로봇청소기는"
+        },
+        {
+          "time": 43.660000000000004,
+          "action": "normal-map",
+          "spoken_trigger": "앱에 연결하니"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 18,
+      "word_count": 74,
+      "speech_start": 9.58,
+      "speech_end": 49.3
+    },
+    {
+      "id": "S03",
+      "type": "map",
+      "start_seconds": 49.43,
+      "end_seconds": 109.35000000000001,
+      "duration_seconds": 59.92000000000001,
+      "narration_text": "이상한 알림이 온 건 여섯째 날, 새벽 두 시 십삼 분이었어요.\n\n“새로운 공간을 발견했습니다.”\n\n잠에서 깨서 앱을 열어 봤더니, 거실 오른쪽에 가느다란 방 하나가 붙어 있더라고요. 청소 경로는 거실 벽을 그대로 통과해서 그 안으로 이어져 있었고요.\n\n처음에는 그냥 지도 오류라고 생각했죠.\n\n그런데 로봇청소기가 거실 한가운데가 아니라, 바로 그 벽 앞에 멈춰 있었습니다. 앞 범퍼는 벽에 닿아 있었고 바퀴는 계속 앞으로 가려는 것처럼 헛돌고 있었어요.\n\n기계를 들어 올리자 바닥으로 회백색 가루가 떨어졌습니다.\n\n먼지인 줄 알고 손으로 문질러 봤는데, 축축하게 뭉치더라고요. 젖은 석고가루 같았어요.\n\n그때까지만 해도 오래된 집이라 그런가 보다 했죠. 그런데 회전 솔에 감긴 걸 보고는 좀 이상했어요. 우리 집 어디에도 없는 낡은 꽃무늬 벽지 조각이었거든요.\n\n저는 청소기를 깨끗이 닦고 저장된 지도도 완전히 삭제했어요. 낮에 집 전체를 다시 돌려 보니 지도는 정상으로 돌아왔습니다.",
+      "caption_text": "이상한 알림이 온 건 여섯째 날, 새벽 두 시 십삼 분이었어요.\n\n“새로운 공간을 발견했습니다.”\n\n잠에서 깨서 앱을 열어 봤더니, 거실 오른쪽에 가느다란 방 하나가 붙어 있더라고요. 청소 경로는 거실 벽을 그대로 통과해서 그 안으로 이어져 있었고요.\n\n처음에는 그냥 지도 오류라고 생각했죠.\n\n그런데 로봇청소기가 거실 한가운데가 아니라, 바로 그 벽 앞에 멈춰 있었습니다. 앞 범퍼는 벽에 닿아 있었고 바퀴는 계속 앞으로 가려는 것처럼 헛돌고 있었어요.\n\n기계를 들어 올리자 바닥으로 회백색 가루가 떨어졌습니다.\n\n먼지인 줄 알고 손으로 문질러 봤는데, 축축하게 뭉치더라고요. 젖은 석고가루 같았어요.\n\n그때까지만 해도 오래된 집이라 그런가 보다 했죠. 그런데 회전 솔에 감긴 걸 보고는 좀 이상했어요. 우리 집 어디에도 없는 낡은 꽃무늬 벽지 조각이었거든요.\n\n저는 청소기를 깨끗이 닦고 저장된 지도도 완전히 삭제했어요. 낮에 집 전체를 다시 돌려 보니 지도는 정상으로 돌아왔습니다.",
+      "purpose": "이상한 알림이",
+      "visual": "room",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 49.43,
+          "action": "notice",
+          "spoken_trigger": "이상한 알림이"
+        },
+        {
+          "time": 55.93,
+          "action": "extra-map",
+          "spoken_trigger": "잠에서 깨서"
+        },
+        {
+          "time": 68.72,
+          "action": "camera refocus: room",
+          "spoken_trigger": "그런데 로봇청소기가"
+        },
+        {
+          "time": 79.64,
+          "action": "camera refocus: debris",
+          "spoken_trigger": "기계를 들어"
+        },
+        {
+          "time": 89.64,
+          "action": "camera refocus: debris",
+          "spoken_trigger": "그때까지만"
+        },
+        {
+          "time": 100.32000000000001,
+          "action": "normal-map",
+          "spoken_trigger": "저는 청소기를"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 92,
+      "word_count": 122,
+      "speech_start": 49.78,
+      "speech_end": 109.08
+    },
+    {
+      "id": "S04",
+      "type": "map",
+      "start_seconds": 109.35000000000001,
+      "end_seconds": 146.41,
+      "duration_seconds": 37.05999999999999,
+      "narration_text": "그런데 다음 날 새벽, 똑같은 시각에 알림이 또 울렸어요.\n\n이번에는 새 방이 전날보다 조금 더 넓어져 있었습니다. 게다가 방 이름까지 붙어 있었죠.\n\n“안쪽 방.”\n\n저는 그런 이름을 입력한 적이 없었어요.\n\n고객센터에 기록을 보내고 전화를 걸었습니다. 상담원은 한참 동안 말이 없더니, 청소기가 그 공간 안에서 칠 분 넘게 움직인 것으로 저장돼 있다고 하더라고요.\n\n청소 면적과 이동 거리까지 남아 있었어요. 물론 그 기록도 잘못됐을 수 있죠. 그래도 화면만 보면 정말 그 안을 돌아다닌 것 같더라고요.\n\n상담원은 기기를 초기화하지 말고, 일단 전원을 분리해 두라고 했어요.",
+      "caption_text": "그런데 다음 날 새벽, 똑같은 시각에 알림이 또 울렸어요.\n\n이번에는 새 방이 전날보다 조금 더 넓어져 있었습니다. 게다가 방 이름까지 붙어 있었죠.\n\n“안쪽 방.”\n\n저는 그런 이름을 입력한 적이 없었어요.\n\n고객센터에 기록을 보내고 전화를 걸었습니다. 상담원은 한참 동안 말이 없더니, 청소기가 그 공간 안에서 칠 분 넘게 움직인 것으로 저장돼 있다고 하더라고요.\n\n청소 면적과 이동 거리까지 남아 있었어요. 물론 그 기록도 잘못됐을 수 있죠. 그래도 화면만 보면 정말 그 안을 돌아다닌 것 같더라고요.\n\n상담원은 기기를 초기화하지 말고, 일단 전원을 분리해 두라고 했어요.",
+      "purpose": "그런데 다음 날 새벽",
+      "visual": "room",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 109.35000000000001,
+          "action": "notice",
+          "spoken_trigger": "그런데 다음 날 새벽"
+        },
+        {
+          "time": 113.62,
+          "action": "extra-map",
+          "spoken_trigger": "이번에는"
+        },
+        {
+          "time": 119.44,
+          "action": "named-map",
+          "spoken_trigger": "“안쪽 방.”"
+        },
+        {
+          "time": 122.94,
+          "action": "history",
+          "spoken_trigger": "고객센터에"
+        },
+        {
+          "time": 141.92,
+          "action": "camera refocus: room",
+          "spoken_trigger": "상담원은 기기를"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 214,
+      "word_count": 82,
+      "speech_start": 109.7,
+      "speech_end": 146.46
+    },
+    {
+      "id": "S05",
+      "type": "none",
+      "start_seconds": 146.41,
+      "end_seconds": 181.41,
+      "duration_seconds": 35,
+      "narration_text": "그래서 충전기 플러그를 뽑고 청소기 전원도 껐어요. 그날 밤에는 둘 다 현관 수납장에 넣고 문까지 잠갔습니다.\n\n새벽 두 시 십삼 분이 되자, 수납장 안에서 둥근 센서가 돌아가는 소리가 들렸어요.\n\n분명 전원을 꺼뒀는데 말이죠.\n\n잠긴 문 안쪽에서 바퀴가 바닥을 긁기 시작했습니다. 그런데 거의 동시에, 거실 벽 아래에서도 똑같은 소리가 한 번 더 들리더라고요.\n\n짧게 돌고, 멈췄다가, 다시 짧게 도는 소리였어요.\n\n마치 벽 안에도 똑같은 청소기 한 대가 들어 있는 것 같았습니다.",
+      "caption_text": "그래서 충전기 플러그를 뽑고 청소기 전원도 껐어요. 그날 밤에는 둘 다 현관 수납장에 넣고 문까지 잠갔습니다.\n\n새벽 두 시 십삼 분이 되자, 수납장 안에서 둥근 센서가 돌아가는 소리가 들렸어요.\n\n분명 전원을 꺼뒀는데 말이죠.\n\n잠긴 문 안쪽에서 바퀴가 바닥을 긁기 시작했습니다. 그런데 거의 동시에, 거실 벽 아래에서도 똑같은 소리가 한 번 더 들리더라고요.\n\n짧게 돌고, 멈췄다가, 다시 짧게 도는 소리였어요.\n\n마치 벽 안에도 똑같은 청소기 한 대가 들어 있는 것 같았습니다.",
+      "purpose": "그래서 충전기",
+      "visual": "cabinet",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 146.41,
+          "action": "camera refocus: cabinet",
+          "spoken_trigger": "그래서 충전기"
+        },
+        {
+          "time": 153.22,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "문까지"
+        },
+        {
+          "time": 154.52,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "새벽 두 시"
+        },
+        {
+          "time": 162.86,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "잠긴 문"
+        },
+        {
+          "time": 168.44,
+          "action": "camera refocus: room",
+          "spoken_trigger": "거실 벽 아래"
+        },
+        {
+          "time": 177.34,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "마치 벽"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 296,
+      "word_count": 70,
+      "speech_start": 146.76,
+      "speech_end": 181.76
+    },
+    {
+      "id": "S06",
+      "type": "blueprint",
+      "start_seconds": 181.41,
+      "end_seconds": 230.65,
+      "duration_seconds": 49.24000000000001,
+      "narration_text": "다음 날 저는 관리사무소에 내려가 오래된 평면도를 찾아봤어요.\n\n현재 도면에는 거실 뒤가 분명 외벽으로 표시돼 있었습니다. 그런데 누렇게 바랜 초기 도면은 달랐어요.\n\n바로 그 자리에 폭이 좁은 수납실 하나가 그려져 있더라고요. 출입문 위치도 로봇청소기가 멈추던 벽과 정확히 겹쳤습니다.\n\n그 방 위에는 빨간 연필로 커다란 엑스 표시가 그어져 있었어요.\n\n관리인은 도면을 보자마자 서류를 접었습니다. 그리고 제가 보여 준 로봇청소기 사진을 한참 바라보더니 이렇게 물었어요.\n\n“그 기계, 아직도 그 집에 있었어요?”\n\n무슨 뜻이냐고 물었지만 그는 대답하지 않았습니다.\n\n대신 오늘 밤은 다른 곳에서 자라고 했어요. 그리고 무슨 일이 있어도 청소기의 카메라는 켜지 말라고 했죠.",
+      "caption_text": "다음 날 저는 관리사무소에 내려가 오래된 평면도를 찾아봤어요.\n\n현재 도면에는 거실 뒤가 분명 외벽으로 표시돼 있었습니다. 그런데 누렇게 바랜 초기 도면은 달랐어요.\n\n바로 그 자리에 폭이 좁은 수납실 하나가 그려져 있더라고요. 출입문 위치도 로봇청소기가 멈추던 벽과 정확히 겹쳤습니다.\n\n그 방 위에는 빨간 연필로 커다란 엑스 표시가 그어져 있었어요.\n\n관리인은 도면을 보자마자 서류를 접었습니다. 그리고 제가 보여 준 로봇청소기 사진을 한참 바라보더니 이렇게 물었어요.\n\n“그 기계, 아직도 그 집에 있었어요?”\n\n무슨 뜻이냐고 물었지만 그는 대답하지 않았습니다.\n\n대신 오늘 밤은 다른 곳에서 자라고 했어요. 그리고 무슨 일이 있어도 청소기의 카메라는 켜지 말라고 했죠.",
+      "purpose": "다음 날 저는 관리사무소",
+      "visual": "room",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 181.41,
+          "action": "blueprint-now",
+          "spoken_trigger": "다음 날 저는 관리사무소"
+        },
+        {
+          "time": 191.18,
+          "action": "blueprint-old",
+          "spoken_trigger": "그런데 누렇게"
+        },
+        {
+          "time": 203.2,
+          "action": "blueprint-cross",
+          "spoken_trigger": "그 방 위에는"
+        },
+        {
+          "time": 207.9,
+          "action": "camera refocus: room",
+          "spoken_trigger": "관리인은 도면"
+        },
+        {
+          "time": 216.52,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "“그 기계"
+        },
+        {
+          "time": 226.1,
+          "action": "warning",
+          "spoken_trigger": "그리고 무슨 일이"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 366,
+      "word_count": 91,
+      "speech_start": 181.76,
+      "speech_end": 230.5
+    },
+    {
+      "id": "S07",
+      "type": "none",
+      "start_seconds": 230.65,
+      "end_seconds": 256.69,
+      "duration_seconds": 26.039999999999992,
+      "narration_text": "저도 친구 집에서 자기로 했어요. 다만 다음 날 집주인이 온다길래, 그 전에 움직인 흔적을 남겨 두고 싶었습니다. 말로만 하면 고장 난 청소기 때문에 소란을 피운다고 할 것 같았거든요.\n\n벽 앞에 밀가루를 얇게 뿌린 건 그 때문이었어요. 청소기는 다음 날 수리점에 가져가려고 수납장에서 꺼내 현관 쪽에 놓았고요.\n\n친구가 퇴근하고 데리러 오기를 기다리는데, 청소기에서 불빛이 켜졌습니다.",
+      "caption_text": "저도 친구 집에서 자기로 했어요. 다만 다음 날 집주인이 온다길래, 그 전에 움직인 흔적을 남겨 두고 싶었습니다. 말로만 하면 고장 난 청소기 때문에 소란을 피운다고 할 것 같았거든요.\n\n벽 앞에 밀가루를 얇게 뿌린 건 그 때문이었어요. 청소기는 다음 날 수리점에 가져가려고 수납장에서 꺼내 현관 쪽에 놓았고요.\n\n친구가 퇴근하고 데리러 오기를 기다리는데, 청소기에서 불빛이 켜졌습니다.",
+      "purpose": "저도 친구 집",
+      "visual": "room",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 230.65,
+          "action": "camera refocus: room",
+          "spoken_trigger": "저도 친구 집"
+        },
+        {
+          "time": 243.58,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "벽 앞에"
+        },
+        {
+          "time": 248.88,
+          "action": "camera refocus: closed",
+          "spoken_trigger": "수납장에서"
+        },
+        {
+          "time": 251.84,
+          "action": "camera refocus: room",
+          "spoken_trigger": "친구가"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 457,
+      "word_count": 54,
+      "speech_start": 231,
+      "speech_end": 256.68
+    },
+    {
+      "id": "S08",
+      "type": "none",
+      "start_seconds": 256.69,
+      "end_seconds": 280.27,
+      "duration_seconds": 23.579999999999984,
+      "narration_text": "새벽 두 시 십삼 분.\n\n시계를 보고서야 그 시간이 된 걸 알았어요. 저는 휴대전화를 들어 녹화를 눌렀습니다.\n\n센서가 한 바퀴 돌더니 밀가루 선 위로 바퀴 자국이 하나씩 생기기 시작했습니다.\n\n그런데 청소기는 아직 현관 쪽에서 움직이지 않고 있었어요.\n\n자국은 청소기 쪽에서 벽으로 가는 게 아니었습니다.\n\n벽 쪽에서 거실 안으로 찍히고 있었어요.",
+      "caption_text": "새벽 두 시 십삼 분.\n\n시계를 보고서야 그 시간이 된 걸 알았어요. 저는 휴대전화를 들어 녹화를 눌렀습니다.\n\n센서가 한 바퀴 돌더니 밀가루 선 위로 바퀴 자국이 하나씩 생기기 시작했습니다.\n\n그런데 청소기는 아직 현관 쪽에서 움직이지 않고 있었어요.\n\n자국은 청소기 쪽에서 벽으로 가는 게 아니었습니다.\n\n벽 쪽에서 거실 안으로 찍히고 있었어요.",
+      "purpose": "새벽 두 시 십삼 분.",
+      "visual": "tracks",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 256.69,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "새벽 두 시 십삼 분."
+        },
+        {
+          "time": 264.64,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "센서가"
+        },
+        {
+          "time": 269.79999999999995,
+          "action": "camera refocus: room",
+          "spoken_trigger": "그런데 청소기는"
+        },
+        {
+          "time": 274.28,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "자국은"
+        },
+        {
+          "time": 277.79999999999995,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "벽 쪽에서"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 511,
+      "word_count": 50,
+      "speech_start": 257.04,
+      "speech_end": 280.14
+    },
+    {
+      "id": "S09",
+      "type": "none",
+      "start_seconds": 280.27,
+      "end_seconds": 326.72999999999996,
+      "duration_seconds": 46.45999999999998,
+      "narration_text": "제가 보고 있는 게 뭔지 이해하기도 전에 청소기가 벽 쪽으로 움직였어요. 저는 반사적으로 따라가 뒤쪽을 붙잡았습니다. 일단 멈춰야 한다는 생각뿐이었죠.\n\n그런데 앞 범퍼가 닿자 흰 벽지가 천처럼 안으로 꺼졌어요. 종이가 찢어진 자리에서 낡은 꽃무늬가 드러났습니다. 솔에 감겨 있던 조각과 같은 무늬였어요.\n\n기계 앞부분이 벽 안으로 들어가 버렸습니다. 당겨도 빠지지 않아서, 한 손으로 붙잡은 채 다른 손의 휴대전화로 앱을 열었어요. 정지 버튼부터 눌렀는데 반응이 없더라고요.\n\n지도에는 청소기 표시가 벽 안쪽에 걸쳐 있었어요. 화면 아래에 실시간 카메라 버튼이 보였습니다.\n\n뭐에 걸렸는지만 보자는 생각으로 눌렀어요. 관리인의 경고는 연결 화면이 뜨고 나서야 떠올랐죠.",
+      "caption_text": "제가 보고 있는 게 뭔지 이해하기도 전에 청소기가 벽 쪽으로 움직였어요. 저는 반사적으로 따라가 뒤쪽을 붙잡았습니다. 일단 멈춰야 한다는 생각뿐이었죠.\n\n그런데 앞 범퍼가 닿자 흰 벽지가 천처럼 안으로 꺼졌어요. 종이가 찢어진 자리에서 낡은 꽃무늬가 드러났습니다. 솔에 감겨 있던 조각과 같은 무늬였어요.\n\n기계 앞부분이 벽 안으로 들어가 버렸습니다. 당겨도 빠지지 않아서, 한 손으로 붙잡은 채 다른 손의 휴대전화로 앱을 열었어요. 정지 버튼부터 눌렀는데 반응이 없더라고요.\n\n지도에는 청소기 표시가 벽 안쪽에 걸쳐 있었어요. 화면 아래에 실시간 카메라 버튼이 보였습니다.\n\n뭐에 걸렸는지만 보자는 생각으로 눌렀어요. 관리인의 경고는 연결 화면이 뜨고 나서야 떠올랐죠.",
+      "purpose": "제가 보고 있는 게",
+      "visual": "tracks",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 280.27,
+          "action": "camera refocus: tracks",
+          "spoken_trigger": "제가 보고 있는 게"
+        },
+        {
+          "time": 290.79999999999995,
+          "action": "camera refocus: wall",
+          "spoken_trigger": "그런데 앞 범퍼가"
+        },
+        {
+          "time": 302.58,
+          "action": "camera refocus: wall",
+          "spoken_trigger": "기계 앞부분이"
+        },
+        {
+          "time": 314.23999999999995,
+          "action": "stuck-map",
+          "spoken_trigger": "지도에는"
+        },
+        {
+          "time": 320.03999999999996,
+          "action": "connecting",
+          "spoken_trigger": "뭐에 걸렸는지만"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 561,
+      "word_count": 89,
+      "speech_start": 280.62,
+      "speech_end": 326.78
+    },
+    {
+      "id": "S10",
+      "type": "camera",
+      "start_seconds": 326.72999999999996,
+      "end_seconds": 348.45,
+      "duration_seconds": 21.720000000000027,
+      "narration_text": "카메라는 바닥 높이에서 좁은 방을 비추고 있었습니다. 양쪽 벽에는 그 꽃무늬가 붙어 있었어요.\n\n처음엔 한쪽 벽지가 떨어져 흔들리는 줄 알았습니다. 그런데 거기서 손가락이 펴지더라고요.\n\n사람 하나가 벽에 눌린 것처럼 납작하게 접혀 있었어요. 그게 몸을 옆으로 밀면서 카메라 쪽으로 다가왔습니다.\n\n저는 청소기에서 손을 떼려 했어요.",
+      "caption_text": "카메라는 바닥 높이에서 좁은 방을 비추고 있었습니다. 양쪽 벽에는 그 꽃무늬가 붙어 있었어요.\n\n처음엔 한쪽 벽지가 떨어져 흔들리는 줄 알았습니다. 그런데 거기서 손가락이 펴지더라고요.\n\n사람 하나가 벽에 눌린 것처럼 납작하게 접혀 있었어요. 그게 몸을 옆으로 밀면서 카메라 쪽으로 다가왔습니다.\n\n저는 청소기에서 손을 떼려 했어요.",
+      "purpose": "카메라는 바닥",
+      "visual": "passage",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 326.72999999999996,
+          "action": "camera",
+          "spoken_trigger": "카메라는 바닥"
+        },
+        {
+          "time": 336.61999999999995,
+          "action": "camera",
+          "spoken_trigger": "그런데 거기서"
+        },
+        {
+          "time": 339.41999999999996,
+          "action": "camera",
+          "spoken_trigger": "사람 하나가"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 650,
+      "word_count": 44,
+      "speech_start": 327.08,
+      "speech_end": 348.8
+    },
+    {
+      "id": "S11",
+      "type": "none",
+      "start_seconds": 348.45,
+      "end_seconds": 377.31,
+      "duration_seconds": 28.860000000000014,
+      "narration_text": "그런데 화면 속 손이 렌즈를 덮는 순간, 벽 틈에서 회백색 손이 튀어나와 제 손목을 움켜쥐었습니다.\n\n손가락 관절은 사람 것이라고 보기 어려울 만큼 길었어요. 깨진 손톱 사이에는 굳은 시멘트가 박혀 있었고요.\n\n저는 손목을 비틀어서 간신히 빠져나왔습니다.\n\n그러자 로봇청소기에서 평소에 듣던 안내 음성이 흘러나왔어요.\n\n“충전기로 돌아갑니다.”\n\n그런데 문장 끝부분부터 목소리가 낮고 젖은 소리로 변했습니다.\n\n“안쪽 방으로 돌아갑니다.”",
+      "caption_text": "그런데 화면 속 손이 렌즈를 덮는 순간, 벽 틈에서 회백색 손이 튀어나와 제 손목을 움켜쥐었습니다.\n\n손가락 관절은 사람 것이라고 보기 어려울 만큼 길었어요. 깨진 손톱 사이에는 굳은 시멘트가 박혀 있었고요.\n\n저는 손목을 비틀어서 간신히 빠져나왔습니다.\n\n그러자 로봇청소기에서 평소에 듣던 안내 음성이 흘러나왔어요.\n\n“충전기로 돌아갑니다.”\n\n그런데 문장 끝부분부터 목소리가 낮고 젖은 소리로 변했습니다.\n\n“안쪽 방으로 돌아갑니다.”",
+      "purpose": "그런데 화면 속 손",
+      "visual": "hand",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 348.45,
+          "action": "camera refocus: hand",
+          "spoken_trigger": "그런데 화면 속 손"
+        },
+        {
+          "time": 355.9,
+          "action": "camera refocus: hand",
+          "spoken_trigger": "손가락 관절은"
+        },
+        {
+          "time": 363.05999999999995,
+          "action": "camera refocus: wall",
+          "spoken_trigger": "저는 손목을"
+        },
+        {
+          "time": 366.05999999999995,
+          "action": "camera refocus: wall",
+          "spoken_trigger": "그러자 로봇청소기에서"
+        },
+        {
+          "time": 375.91999999999996,
+          "action": "returning",
+          "spoken_trigger": "“안쪽 방으로"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 694,
+      "word_count": 55,
+      "speech_start": 348.8,
+      "speech_end": 377.66
+    },
+    {
+      "id": "S12",
+      "type": "none",
+      "start_seconds": 377.31,
+      "end_seconds": 393.31,
+      "duration_seconds": 16,
+      "narration_text": "그 말이 끝나자 벽지가 크게 찢어졌어요.\n\n회색 잠옷을 입은 몸이 종이처럼 접힌 상태로 틈 사이에서 천천히 펴지기 시작했습니다.\n\n얼굴에는 낡은 꽃무늬 벽지가 들러붙어 있었어요. 그 아래에서 입 모양만 아주 느리게 벌어지더라고요.",
+      "caption_text": "그 말이 끝나자 벽지가 크게 찢어졌어요.\n\n회색 잠옷을 입은 몸이 종이처럼 접힌 상태로 틈 사이에서 천천히 펴지기 시작했습니다.\n\n얼굴에는 낡은 꽃무늬 벽지가 들러붙어 있었어요. 그 아래에서 입 모양만 아주 느리게 벌어지더라고요.",
+      "purpose": "그 말이 끝나자",
+      "visual": "entity",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 377.31,
+          "action": "camera refocus: entity",
+          "spoken_trigger": "그 말이 끝나자"
+        },
+        {
+          "time": 386.85999999999996,
+          "action": "camera refocus: entity",
+          "spoken_trigger": "얼굴에는"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 749,
+      "word_count": 31,
+      "speech_start": 377.66,
+      "speech_end": 393.08
+    },
+    {
+      "id": "S13",
+      "type": "none",
+      "start_seconds": 393.31,
+      "end_seconds": 402.95,
+      "duration_seconds": 9.639999999999986,
+      "narration_text": "저는 현관문을 열고 맨발로 계단을 뛰어 내려갔습니다.\n\n등 뒤에서는 청소기 바퀴가 도는 소리와, 손톱으로 벽을 긁는 소리가 끝까지 따라왔어요.",
+      "caption_text": "저는 현관문을 열고 맨발로 계단을 뛰어 내려갔습니다.\n\n등 뒤에서는 청소기 바퀴가 도는 소리와, 손톱으로 벽을 긁는 소리가 끝까지 따라왔어요.",
+      "purpose": "저는 현관문",
+      "visual": "stairs",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 393.31,
+          "action": "camera refocus: stairs",
+          "spoken_trigger": "저는 현관문"
+        },
+        {
+          "time": 397.2,
+          "action": "camera refocus: stairs",
+          "spoken_trigger": "등 뒤에서는"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 780,
+      "word_count": 19,
+      "speech_start": 393.66,
+      "speech_end": 402.8
+    },
+    {
+      "id": "S14",
+      "type": "none",
+      "start_seconds": 402.95,
+      "end_seconds": 424.54999999999995,
+      "duration_seconds": 21.599999999999966,
+      "narration_text": "다음 날 집주인과 수리 기사가 거실 벽을 뜯었습니다.\n\n그런데 벽지 뒤에는 두꺼운 콘크리트 외벽만 있었어요. 숨겨진 방도, 출입문도 없었습니다.\n\n대신 콘크리트 한가운데에 로봇청소기 바퀴 폭과 똑같은 두 줄의 홈이 파여 있었어요. 그 홈은 벽 안쪽으로 깊게 이어져 있더라고요.\n\n청소기는 끝내 발견되지 않았습니다.",
+      "caption_text": "다음 날 집주인과 수리 기사가 거실 벽을 뜯었습니다.\n\n그런데 벽지 뒤에는 두꺼운 콘크리트 외벽만 있었어요. 숨겨진 방도, 출입문도 없었습니다.\n\n대신 콘크리트 한가운데에 로봇청소기 바퀴 폭과 똑같은 두 줄의 홈이 파여 있었어요. 그 홈은 벽 안쪽으로 깊게 이어져 있더라고요.\n\n청소기는 끝내 발견되지 않았습니다.",
+      "purpose": "다음 날 집주인",
+      "visual": "evidence",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 402.95,
+          "action": "camera refocus: evidence",
+          "spoken_trigger": "다음 날 집주인"
+        },
+        {
+          "time": 413.58,
+          "action": "camera refocus: evidence",
+          "spoken_trigger": "대신 콘크리트"
+        },
+        {
+          "time": 422.09999999999997,
+          "action": "camera refocus: evidence",
+          "spoken_trigger": "청소기는"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 799,
+      "word_count": 42,
+      "speech_start": 403.3,
+      "speech_end": 424.32
+    },
+    {
+      "id": "S15",
+      "type": "none",
+      "start_seconds": 424.54999999999995,
+      "end_seconds": 433.87,
+      "duration_seconds": 9.32000000000005,
+      "narration_text": "저는 친구 집에 며칠 머물다가 다른 동네의 작은 오피스텔로 옮겼어요. 청소기 앱도 지우고 계정도 탈퇴했습니다.\n\n이제 끝났다고 생각했죠.",
+      "caption_text": "저는 친구 집에 며칠 머물다가 다른 동네의 작은 오피스텔로 옮겼어요. 청소기 앱도 지우고 계정도 탈퇴했습니다.\n\n이제 끝났다고 생각했죠.",
+      "purpose": "저는 친구 집에",
+      "visual": "bedroom",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 424.54999999999995,
+          "action": "camera refocus: bedroom",
+          "spoken_trigger": "저는 친구 집에"
+        },
+        {
+          "time": 432.23999999999995,
+          "action": "camera refocus: bedroom",
+          "spoken_trigger": "이제 끝났다고"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 841,
+      "word_count": 18,
+      "speech_start": 424.9,
+      "speech_end": 434.22
+    },
+    {
+      "id": "S16",
+      "type": "map",
+      "start_seconds": 433.87,
+      "end_seconds": 460.01,
+      "duration_seconds": 26.139999999999986,
+      "narration_text": "그런데 일주일 뒤, 새벽 두 시 십삼 분에 휴대전화가 진동했습니다.\n\n분명히 삭제한 청소기 앱의 알림이었어요.\n\n“새로운 공간을 발견했습니다.”\n\n알림을 누르자 지도 화면이 열렸어요. 앱을 다시 설치하라는 말도 없이요.\n\n지금 제가 살고 있는 오피스텔의 구조였어요.\n\n침대 옆 벽 너머로 좁고 긴 안쪽 방이 붙어 있었습니다. 그리고 그 방 안에서 사람 모양 점 하나가 천천히 벽 쪽으로 다가오고 있었어요.",
+      "caption_text": "그런데 일주일 뒤, 새벽 두 시 십삼 분에 휴대전화가 진동했습니다.\n\n분명히 삭제한 청소기 앱의 알림이었어요.\n\n“새로운 공간을 발견했습니다.”\n\n알림을 누르자 지도 화면이 열렸어요. 앱을 다시 설치하라는 말도 없이요.\n\n지금 제가 살고 있는 오피스텔의 구조였어요.\n\n침대 옆 벽 너머로 좁고 긴 안쪽 방이 붙어 있었습니다. 그리고 그 방 안에서 사람 모양 점 하나가 천천히 벽 쪽으로 다가오고 있었어요.",
+      "purpose": "그런데 일주일 뒤",
+      "visual": "bedroom",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 433.87,
+          "action": "camera refocus: bedroom",
+          "spoken_trigger": "그런데 일주일 뒤"
+        },
+        {
+          "time": 438.91999999999996,
+          "action": "notice",
+          "spoken_trigger": "분명히 삭제한"
+        },
+        {
+          "time": 443.67999999999995,
+          "action": "bed-map",
+          "spoken_trigger": "알림을 누르자"
+        },
+        {
+          "time": 451.84,
+          "action": "bed-map",
+          "spoken_trigger": "침대 옆 벽"
+        },
+        {
+          "time": 455.34,
+          "action": "entity-map",
+          "spoken_trigger": "그리고 그 방 안에서"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 859,
+      "word_count": 57,
+      "speech_start": 434.22,
+      "speech_end": 460.36
+    },
+    {
+      "id": "S17",
+      "type": "ending",
+      "start_seconds": 460.01,
+      "end_seconds": 475.100104,
+      "duration_seconds": 15.090103999999997,
+      "narration_text": "잠시 뒤, 침대 옆 벽 안에서 둥근 센서가 회전하는 소리가 들렸습니다.\n\n앱 지도 위의 점은 그대로 벽을 통과했어요.\n\n그리고 제가 누워 있던 침대 위에서 멈췄습니다.",
+      "caption_text": "잠시 뒤, 침대 옆 벽 안에서 둥근 센서가 회전하는 소리가 들렸습니다.\n\n앱 지도 위의 점은 그대로 벽을 통과했어요.\n\n그리고 제가 누워 있던 침대 위에서 멈췄습니다.",
+      "purpose": "잠시 뒤, 침대",
+      "visual": "bedroom",
+      "motion": "Narration-timed camera move, focus and local light modulation every 2.5 seconds",
+      "motion_beats": [
+        {
+          "time": 460.01,
+          "action": "entity-map",
+          "spoken_trigger": "잠시 뒤, 침대"
+        },
+        {
+          "time": 465.35999999999996,
+          "action": "cross-map",
+          "spoken_trigger": "앱 지도"
+        },
+        {
+          "time": 468.11999999999995,
+          "action": "on-bed",
+          "spoken_trigger": "그리고 제가"
+        }
+      ],
+      "audio": {
+        "ambience": "quiet apartment room tone",
+        "foley": [],
+        "bgm": "autonomous selection authorized",
+        "intentional_silences": []
+      },
+      "transition_out": "crossfade",
+      "shorts_adaptation": "standalone teaser",
+      "word_offset": 916,
+      "word_count": 25,
+      "speech_start": 460.36,
+      "speech_end": 470.98
+    }
+  ],
+  "duration_seconds": 475.100104,
+  "timing_source": "final trimmed voice / mlx-community/whisper-large-v3-turbo",
+  "voice_duration_seconds": 471.100104,
+  "outro_seconds": 4
+}

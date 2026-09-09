@@ -1,0 +1,14 @@
+{
+  "project_id": "2026-018-robot-vacuum-hidden-room",
+  "status": "complete",
+  "content_nature": "fiction",
+  "production_profile": "horror_cinematic_story_v1",
+  "visual_style": "horror_cinematic",
+  "script_sha256": "46c7e79fd0a9b5a2f15807cfad7e2ceac1712f9936089c35c13fd7049166df09",
+  "voice": {"name": "Bin - Measured and Serious", "id": "jB1Cifc2UQbq1gR3wnb0", "model": "eleven_v3"},
+  "youtube": {"path": "youtube/2026-018-robot-vacuum-hidden-room-youtube.mp4", "width": 1920, "height": 1080, "fps": 60, "duration": 475.116667, "frames": 28507, "bytes": 179894730, "burned_captions": false, "captions": ["../03_sync/captions.srt", "../03_sync/captions.vtt"]},
+  "shorts": {"path": "shorts/2026-018-robot-vacuum-hidden-room-shorts.mp4", "width": 1080, "height": 1920, "fps": 60, "duration": 20.842667, "bytes": 19593780, "separate_script_and_composition": true, "burned_captions": true, "voice_speed_multiplier": 1.07, "captions": ["../03_sync/shorts-captions.srt", "../03_sync/shorts-captions.vtt"]},
+  "review": {"source_and_timing": "passed", "encoded_media_and_frames": "passed", "full_human_listening": false, "freeze_intervals_over_3_seconds": 0, "black_intervals_over_1_second": 0},
+  "publishing": {"youtube": "../07_publish/youtube/youtube-publish.html", "shorts": "../07_publish/shorts/shorts-publish.html", "thumbnails": ["../07_publish/youtube/thumbnail-a.jpg", "../07_publish/youtube/thumbnail-b.jpg"], "uploaded": false, "scheduled": false},
+  "git_policy": "Commit project source, generated visual assets, captions and publishing documents. Audio and video masters remain local under the repository ignore rules."
+}

@@ -1,0 +1,96 @@
+{
+  "seed": 18,
+  "voice_unchanged": true,
+  "bgm_candidate": "cand-01",
+  "selection_basis": "Lower measured mean and peak than cand-02, supporting restrained mechanical tension. User delegated choice.",
+  "ambience": "procedural 60Hz room tone and soft air",
+  "events": [
+    {
+      "start": 49.73,
+      "kind": "notification",
+      "duration": 0.55,
+      "peak_gain": 0.008
+    },
+    {
+      "start": 109.65,
+      "kind": "notification",
+      "duration": 0.55,
+      "peak_gain": 0.008
+    },
+    {
+      "start": 147.01,
+      "kind": "motor",
+      "duration": 2.0,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 257.29,
+      "kind": "motor",
+      "duration": 2.0,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 348.7,
+      "kind": "scratch",
+      "duration": 0.8,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 377.71,
+      "kind": "scratch",
+      "duration": 1.1,
+      "peak_gain": 0.012
+    },
+    {
+      "start": 393.61,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 394.05,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 394.49,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 394.93,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 395.37,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 395.81,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.017
+    },
+    {
+      "start": 434.17,
+      "kind": "notification",
+      "duration": 0.55,
+      "peak_gain": 0.008
+    },
+    {
+      "start": 460.61,
+      "kind": "motor",
+      "duration": 2.0,
+      "peak_gain": 0.007
+    }
+  ],
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3
+}

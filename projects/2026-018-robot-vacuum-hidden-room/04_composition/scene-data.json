@@ -1,0 +1,541 @@
+{
+  "duration": 475.100104,
+  "shots": [
+    {
+      "start": 0,
+      "visual": "wall",
+      "overlay": "hook",
+      "trigger": "로봇청소기가 거실",
+      "end": 9.23,
+      "id": "shot-0"
+    },
+    {
+      "start": 9.23,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "지난겨울에",
+      "end": 18.040000000000003,
+      "id": "shot-1"
+    },
+    {
+      "start": 18.040000000000003,
+      "visual": "room",
+      "overlay": "normal-map",
+      "trigger": "집은 거실과",
+      "end": 30.96,
+      "id": "shot-2"
+    },
+    {
+      "start": 30.96,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "로봇청소기는",
+      "end": 43.660000000000004,
+      "id": "shot-3"
+    },
+    {
+      "start": 43.660000000000004,
+      "visual": "room",
+      "overlay": "normal-map",
+      "trigger": "앱에 연결하니",
+      "end": 49.43,
+      "id": "shot-4"
+    },
+    {
+      "start": 49.43,
+      "visual": "room",
+      "overlay": "notice",
+      "trigger": "이상한 알림이",
+      "end": 55.93,
+      "id": "shot-5"
+    },
+    {
+      "start": 55.93,
+      "visual": "room",
+      "overlay": "extra-map",
+      "trigger": "잠에서 깨서",
+      "end": 68.72,
+      "id": "shot-6"
+    },
+    {
+      "start": 68.72,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "그런데 로봇청소기가",
+      "end": 79.64,
+      "id": "shot-7"
+    },
+    {
+      "start": 79.64,
+      "visual": "debris",
+      "overlay": "none",
+      "trigger": "기계를 들어",
+      "end": 89.64,
+      "id": "shot-8"
+    },
+    {
+      "start": 89.64,
+      "visual": "debris",
+      "overlay": "none",
+      "trigger": "그때까지만",
+      "end": 100.32000000000001,
+      "id": "shot-9"
+    },
+    {
+      "start": 100.32000000000001,
+      "visual": "room",
+      "overlay": "normal-map",
+      "trigger": "저는 청소기를",
+      "end": 109.35000000000001,
+      "id": "shot-10"
+    },
+    {
+      "start": 109.35000000000001,
+      "visual": "room",
+      "overlay": "notice",
+      "trigger": "그런데 다음 날 새벽",
+      "end": 113.62,
+      "id": "shot-11"
+    },
+    {
+      "start": 113.62,
+      "visual": "room",
+      "overlay": "extra-map",
+      "trigger": "이번에는",
+      "end": 119.44,
+      "id": "shot-12"
+    },
+    {
+      "start": 119.44,
+      "visual": "room",
+      "overlay": "named-map",
+      "trigger": "“안쪽 방.”",
+      "end": 122.94,
+      "id": "shot-13"
+    },
+    {
+      "start": 122.94,
+      "visual": "room",
+      "overlay": "history",
+      "trigger": "고객센터에",
+      "end": 141.92,
+      "id": "shot-14"
+    },
+    {
+      "start": 141.92,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "상담원은 기기를",
+      "end": 146.41,
+      "id": "shot-15"
+    },
+    {
+      "start": 146.41,
+      "visual": "cabinet",
+      "overlay": "none",
+      "trigger": "그래서 충전기",
+      "end": 153.22,
+      "id": "shot-16"
+    },
+    {
+      "start": 153.22,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "문까지",
+      "end": 154.52,
+      "id": "shot-17"
+    },
+    {
+      "start": 154.52,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "새벽 두 시",
+      "end": 162.86,
+      "id": "shot-18"
+    },
+    {
+      "start": 162.86,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "잠긴 문",
+      "end": 168.44,
+      "id": "shot-19"
+    },
+    {
+      "start": 168.44,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "거실 벽 아래",
+      "end": 177.34,
+      "id": "shot-20"
+    },
+    {
+      "start": 177.34,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "마치 벽",
+      "end": 181.41,
+      "id": "shot-21"
+    },
+    {
+      "start": 181.41,
+      "visual": "room",
+      "overlay": "blueprint-now",
+      "trigger": "다음 날 저는 관리사무소",
+      "end": 191.18,
+      "id": "shot-22"
+    },
+    {
+      "start": 191.18,
+      "visual": "room",
+      "overlay": "blueprint-old",
+      "trigger": "그런데 누렇게",
+      "end": 203.2,
+      "id": "shot-23"
+    },
+    {
+      "start": 203.2,
+      "visual": "room",
+      "overlay": "blueprint-cross",
+      "trigger": "그 방 위에는",
+      "end": 207.9,
+      "id": "shot-24"
+    },
+    {
+      "start": 207.9,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "관리인은 도면",
+      "end": 216.52,
+      "id": "shot-25"
+    },
+    {
+      "start": 216.52,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "“그 기계",
+      "end": 226.1,
+      "id": "shot-26"
+    },
+    {
+      "start": 226.1,
+      "visual": "closed",
+      "overlay": "warning",
+      "trigger": "그리고 무슨 일이",
+      "end": 230.65,
+      "id": "shot-27"
+    },
+    {
+      "start": 230.65,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "저도 친구 집",
+      "end": 243.58,
+      "id": "shot-28"
+    },
+    {
+      "start": 243.58,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "벽 앞에",
+      "end": 248.88,
+      "id": "shot-29"
+    },
+    {
+      "start": 248.88,
+      "visual": "closed",
+      "overlay": "none",
+      "trigger": "수납장에서",
+      "end": 251.84,
+      "id": "shot-30"
+    },
+    {
+      "start": 251.84,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "친구가",
+      "end": 256.69,
+      "id": "shot-31"
+    },
+    {
+      "start": 256.69,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "새벽 두 시 십삼 분.",
+      "end": 264.64,
+      "id": "shot-32"
+    },
+    {
+      "start": 264.64,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "센서가",
+      "end": 269.79999999999995,
+      "id": "shot-33"
+    },
+    {
+      "start": 269.79999999999995,
+      "visual": "room",
+      "overlay": "none",
+      "trigger": "그런데 청소기는",
+      "end": 274.28,
+      "id": "shot-34"
+    },
+    {
+      "start": 274.28,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "자국은",
+      "end": 277.79999999999995,
+      "id": "shot-35"
+    },
+    {
+      "start": 277.79999999999995,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "벽 쪽에서",
+      "end": 280.27,
+      "id": "shot-36"
+    },
+    {
+      "start": 280.27,
+      "visual": "tracks",
+      "overlay": "none",
+      "trigger": "제가 보고 있는 게",
+      "end": 290.79999999999995,
+      "id": "shot-37"
+    },
+    {
+      "start": 290.79999999999995,
+      "visual": "wall",
+      "overlay": "none",
+      "trigger": "그런데 앞 범퍼가",
+      "end": 302.58,
+      "id": "shot-38"
+    },
+    {
+      "start": 302.58,
+      "visual": "wall",
+      "overlay": "none",
+      "trigger": "기계 앞부분이",
+      "end": 314.23999999999995,
+      "id": "shot-39"
+    },
+    {
+      "start": 314.23999999999995,
+      "visual": "wall",
+      "overlay": "stuck-map",
+      "trigger": "지도에는",
+      "end": 320.03999999999996,
+      "id": "shot-40"
+    },
+    {
+      "start": 320.03999999999996,
+      "visual": "wall",
+      "overlay": "connecting",
+      "trigger": "뭐에 걸렸는지만",
+      "end": 326.72999999999996,
+      "id": "shot-41"
+    },
+    {
+      "start": 326.72999999999996,
+      "visual": "passage",
+      "overlay": "camera",
+      "trigger": "카메라는 바닥",
+      "end": 336.61999999999995,
+      "id": "shot-42"
+    },
+    {
+      "start": 336.61999999999995,
+      "visual": "entity",
+      "overlay": "camera",
+      "trigger": "그런데 거기서",
+      "end": 339.41999999999996,
+      "id": "shot-43"
+    },
+    {
+      "start": 339.41999999999996,
+      "visual": "entity",
+      "overlay": "camera",
+      "trigger": "사람 하나가",
+      "end": 348.45,
+      "id": "shot-44"
+    },
+    {
+      "start": 348.45,
+      "visual": "hand",
+      "overlay": "none",
+      "trigger": "그런데 화면 속 손",
+      "end": 355.9,
+      "id": "shot-45"
+    },
+    {
+      "start": 355.9,
+      "visual": "hand",
+      "overlay": "none",
+      "trigger": "손가락 관절은",
+      "end": 363.05999999999995,
+      "id": "shot-46"
+    },
+    {
+      "start": 363.05999999999995,
+      "visual": "wall",
+      "overlay": "none",
+      "trigger": "저는 손목을",
+      "end": 366.05999999999995,
+      "id": "shot-47"
+    },
+    {
+      "start": 366.05999999999995,
+      "visual": "wall",
+      "overlay": "none",
+      "trigger": "그러자 로봇청소기에서",
+      "end": 375.91999999999996,
+      "id": "shot-48"
+    },
+    {
+      "start": 375.91999999999996,
+      "visual": "wall",
+      "overlay": "returning",
+      "trigger": "“안쪽 방으로",
+      "end": 377.31,
+      "id": "shot-49"
+    },
+    {
+      "start": 377.31,
+      "visual": "entity",
+      "overlay": "none",
+      "trigger": "그 말이 끝나자",
+      "end": 386.85999999999996,
+      "id": "shot-50"
+    },
+    {
+      "start": 386.85999999999996,
+      "visual": "entity",
+      "overlay": "none",
+      "trigger": "얼굴에는",
+      "end": 393.31,
+      "id": "shot-51"
+    },
+    {
+      "start": 393.31,
+      "visual": "stairs",
+      "overlay": "none",
+      "trigger": "저는 현관문",
+      "end": 397.2,
+      "id": "shot-52"
+    },
+    {
+      "start": 397.2,
+      "visual": "stairs",
+      "overlay": "none",
+      "trigger": "등 뒤에서는",
+      "end": 402.95,
+      "id": "shot-53"
+    },
+    {
+      "start": 402.95,
+      "visual": "evidence",
+      "overlay": "none",
+      "trigger": "다음 날 집주인",
+      "end": 413.58,
+      "id": "shot-54"
+    },
+    {
+      "start": 413.58,
+      "visual": "evidence",
+      "overlay": "none",
+      "trigger": "대신 콘크리트",
+      "end": 422.09999999999997,
+      "id": "shot-55"
+    },
+    {
+      "start": 422.09999999999997,
+      "visual": "evidence",
+      "overlay": "none",
+      "trigger": "청소기는",
+      "end": 424.54999999999995,
+      "id": "shot-56"
+    },
+    {
+      "start": 424.54999999999995,
+      "visual": "bedroom",
+      "overlay": "none",
+      "trigger": "저는 친구 집에",
+      "end": 432.23999999999995,
+      "id": "shot-57"
+    },
+    {
+      "start": 432.23999999999995,
+      "visual": "bedroom",
+      "overlay": "none",
+      "trigger": "이제 끝났다고",
+      "end": 433.87,
+      "id": "shot-58"
+    },
+    {
+      "start": 433.87,
+      "visual": "bedroom",
+      "overlay": "none",
+      "trigger": "그런데 일주일 뒤",
+      "end": 438.91999999999996,
+      "id": "shot-59"
+    },
+    {
+      "start": 438.91999999999996,
+      "visual": "bedroom",
+      "overlay": "notice",
+      "trigger": "분명히 삭제한",
+      "end": 443.67999999999995,
+      "id": "shot-60"
+    },
+    {
+      "start": 443.67999999999995,
+      "visual": "bedroom",
+      "overlay": "bed-map",
+      "trigger": "알림을 누르자",
+      "end": 451.84,
+      "id": "shot-61"
+    },
+    {
+      "start": 451.84,
+      "visual": "bedroom",
+      "overlay": "bed-map",
+      "trigger": "침대 옆 벽",
+      "end": 455.34,
+      "id": "shot-62"
+    },
+    {
+      "start": 455.34,
+      "visual": "bedroom",
+      "overlay": "entity-map",
+      "trigger": "그리고 그 방 안에서",
+      "end": 460.01,
+      "id": "shot-63"
+    },
+    {
+      "start": 460.01,
+      "visual": "bedroom",
+      "overlay": "entity-map",
+      "trigger": "잠시 뒤, 침대",
+      "end": 465.35999999999996,
+      "id": "shot-64"
+    },
+    {
+      "start": 465.35999999999996,
+      "visual": "bedroom",
+      "overlay": "cross-map",
+      "trigger": "앱 지도",
+      "end": 468.11999999999995,
+      "id": "shot-65"
+    },
+    {
+      "start": 468.11999999999995,
+      "visual": "bedroom",
+      "overlay": "on-bed",
+      "trigger": "그리고 제가",
+      "end": 475.100104,
+      "id": "shot-66"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+objc[28577]: Class GNotificationCenterDelegate is implemented in both /Users/happinich/Documents/Hyperframes-codex/node_modules/@img/sharp-libvips-darwin-arm64/lib/libvips-cpp.8.17.3.dylib (0x11ec5d978) and /Users/happinich/node_modules/canvas/build/Release/libgio-2.0.0.dylib (0x1031684c8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+
+◆  Rendering 04_composition/part-04.html → /Users/happinich/Documents/Hyperframes-codex/projects/2026-018-robot-vacuum-hidden-room/06_delivery/youtube/parts/part-04.mp4
+   60fps · standard · 2 workers
+   GPU: browser GPU (auto-detect)
+
+[?25l│
+◇  Browser: cache
+[?25h  Trying the experimental parallel drawElement capture path for this install (disabled automatically if it ever needs to fall back; opt out anytime: HF_DE_PARALLEL_ROUTER=false)
+[INFO] [Render] Pipeline started {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","platform":"darwin","arch":"arm64","nodeVersion":"v22.22.0","fps":{"num":60,"den":1},"format":"mp4","quality":"standard","browserGpuMode":"auto","forceScreenshot":false,"protocolTimeout":300000,"browserTimeout":120000,"pageNavigationTimeout":60000,"playerReadyTimeout":45000}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"pipeline","status":"checkpoint","elapsedMs":2,"message":"started","format":"mp4","quality":"standard","browserGpuMode":"auto","forceScreenshot":false,"protocolTimeoutMs":300000,"pageNavigationTimeoutMs":60000,"playerReadyTimeoutMs":45000,"requestedWorkers":2}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"compile","status":"start","elapsedMs":3,"needsAlpha":false}
+  █░░░░░░░░░░░░░░░░░░░░░░░░  5%  Compiling composition
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[INFO] Compiled composition metadata {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","entryFile":"part-04.html","staticDuration":37.06666666666667,"width":1920,"height":1080,"videoCount":0,"audioCount":0,"renderModeHints":{"recommendScreenshot":false,"reasons":[]}}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"compile","status":"end","elapsedMs":592,"durationMs":589,"needsAlpha":false}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"compile","status":"checkpoint","elapsedMs":594,"message":"composition metadata resolved","width":1920,"height":1080,"videoCount":0,"audioCount":0,"imageCount":5,"deviceScaleFactor":1,"forceScreenshot":false,"compositionHash":"5d6f42fcbf98bce0"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"browser_probe","status":"start","elapsedMs":594,"forceScreenshot":false,"stagePhase":"calibrating"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"browser_probe","status":"end","elapsedMs":596,"durationMs":1,"forceScreenshot":false,"stagePhase":"calibrating"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"browser_probe","status":"checkpoint","elapsedMs":596,"message":"duration resolved","durationSeconds":37.06666666666667,"totalFrames":2224,"compositionHash":"5d6f42fcbf98bce0","beginFrameStalled":false}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"video_extract","status":"start","elapsedMs":596,"videoCount":0}
+  ██░░░░░░░░░░░░░░░░░░░░░░░  10%  Extracting video frames
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"video_extract","status":"end","elapsedMs":659,"durationMs":63,"videoCount":0}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"video_extract","status":"checkpoint","elapsedMs":660,"message":"frames resolved","videoCount":0,"extractedVideoCount":0,"totalFramesExtracted":0,"maxFramesPerVideo":0,"avgFramesPerExtractedVideo":null,"vfrPreflightCount":null,"vfrPreflightMs":null,"cacheHits":null,"cacheMisses":null,"minVideoFrameCoverageRatio":null,"authoredTimedClipCount":6}
+[INFO] [Render] No HDR sources detected — rendering SDR {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"hdr_detection","status":"checkpoint","elapsedMs":660,"message":"resolved","requestedHdrMode":"auto","effectiveHdr":"sdr","nativeHdrVideoCount":0,"nativeHdrImageCount":0}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"audio_process","status":"start","elapsedMs":660,"audioCount":0}
+  █████░░░░░░░░░░░░░░░░░░░░  20%  Processing audio tracks
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"audio_process","status":"end","elapsedMs":660,"durationMs":0,"audioCount":0}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"file_server","status":"start","elapsedMs":660,"reused":false}
+  ██████░░░░░░░░░░░░░░░░░░░  25%  Starting frame capture
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"file_server","status":"end","elapsedMs":664,"durationMs":4}
+[hyperframes] browserGpuMode auto → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)")
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"capture_calibration","status":"checkpoint","elapsedMs":1856,"message":"skipped","requestedWorkers":2,"totalFrames":2224,"htmlInCanvasDetected":false,"lowMemoryMode":false,"deInversionEligible":false,"deParallelRouterEligible":false}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"worker_resolution","status":"checkpoint","elapsedMs":1857,"message":"resolved","workerCount":2}
+[INFO] streaming-encode gate {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","enabled":false,"configFlag":true,"outputFormat":"mp4","workerCount":2,"durationSeconds":37.06666666666667,"maxDurationSeconds":240}
+[INFO] [Render] Fast capture: default-on drawElement disabled for this render — parallel capture has no runtime self-verification. Set PRODUCER_EXPERIMENTAL_FAST_CAPTURE=true to override. {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"capture_strategy","status":"checkpoint","elapsedMs":1857,"message":"resolved","workerCount":2,"forceScreenshot":false,"captureBeyondViewport":null,"useStreamingEncode":false,"useLayeredComposite":false,"usePageSideCompositing":false,"hasHdrContent":false,"hasShaderTransitions":false,"isPngSequence":false}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"capture_disk","status":"start","elapsedMs":1857,"stagePhase":"capturing","needsAlpha":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":0,"captureMode":"beginframe","captureOperation":"beginFrame"}
+[BrowserManager] Browser launched (HeadlessChrome/152.0.7928.2, screenshot, gl=--use-gl=angle --use-angle=metal, headlessShell=true, platform=darwin)
+[initSession:screenshot] page.goto start (1ms)
+[initSession:screenshot] page.goto start (0ms)
+[HyperFrames] render runtime fps [object Object]
+[HyperFrames] render runtime fps [object Object]
+[initSession:screenshot] page.goto complete (246ms)
+[initSession:screenshot] page.goto complete (246ms)
+[initSession:screenshot] GSAP proxy flush complete (309ms)
+[initSession:screenshot] GSAP proxy flush complete (311ms)
+[initSession:screenshot] pollHfReady complete (310ms)
+[initSession:screenshot] pollHfReady complete (311ms)
+[initSession:screenshot] pollSubCompositionTimelines complete (ready) (312ms)
+[initSession:screenshot] applyVideoMetadataHints complete (312ms)
+[initSession:screenshot] pollSubCompositionTimelines complete (ready) (312ms)
+[initSession:screenshot] applyVideoMetadataHints complete (312ms)
+[initSession:screenshot] media + fonts + tailwind ready (314ms)
+[initSession:screenshot] media + fonts + tailwind ready (315ms)
+[initSession:screenshot] static-frame dedup: disabled (eligible) (319ms)
+[initSession:screenshot] static-frame dedup: disabled (eligible) (318ms)
+  ██████░░░░░░░░░░░░░░░░░░░  26%  Capturing frame 30/2224 (2 workers)
+  ██████░░░░░░░░░░░░░░░░░░░  26%  Capturing frame 60/2224 (2 workers)
+  ██████░░░░░░░░░░░░░░░░░░░  27%  Capturing frame 90/2224 (2 workers)
+  ██████░░░░░░░░░░░░░░░░░░░  27%  Capturing frame 120/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  28%  Capturing frame 150/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  29%  Capturing frame 180/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  29%  Capturing frame 210/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  30%  Capturing frame 240/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  30%  Capturing frame 270/2224 (2 workers)
+  ███████░░░░░░░░░░░░░░░░░░  31%  Capturing frame 300/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  32%  Capturing frame 330/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  32%  Capturing frame 360/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  33%  Capturing frame 390/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  33%  Capturing frame 420/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  34%  Capturing frame 450/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  35%  Capturing frame 480/2224 (2 workers)
+  ████████░░░░░░░░░░░░░░░░░  35%  Capturing frame 510/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  36%  Capturing frame 540/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  37%  Capturing frame 570/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  37%  Capturing frame 600/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  38%  Capturing frame 630/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  38%  Capturing frame 660/2224 (2 workers)
+  █████████░░░░░░░░░░░░░░░░  39%  Capturing frame 690/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  40%  Capturing frame 720/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  40%  Capturing frame 750/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  41%  Capturing frame 780/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  41%  Capturing frame 810/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  42%  Capturing frame 840/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  43%  Capturing frame 870/2224 (2 workers)
+  ██████████░░░░░░░░░░░░░░░  43%  Capturing frame 900/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  44%  Capturing frame 930/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  44%  Capturing frame 960/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  45%  Capturing frame 990/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  46%  Capturing frame 1020/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  46%  Capturing frame 1050/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  47%  Capturing frame 1080/2224 (2 workers)
+  ███████████░░░░░░░░░░░░░░  47%  Capturing frame 1110/2224 (2 workers)
+  ████████████░░░░░░░░░░░░░  48%  Capturing frame 1140/2224 (2 workers)
+  ████████████░░░░░░░░░░░░░  49%  Capturing frame 1170/2224 (2 workers)
+  ████████████░░░░░░░░░░░░░  49%  Capturing frame 1200/2224 (2 workers)
+  ████████████░░░░░░░░░░░░░  50%  Capturing frame 1230/2224 (2 workers)
+  ████████████░░░░░░░░░░░░░  50%  Capturing frame 1260/2224 (2 workers)
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"capture_disk","status":"checkpoint","elapsedMs":31859,"message":"stage still running","stagePhase":"capturing","needsAlpha":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":1278,"captureMode":"beginframe","captureOperation":"beginFrame","heartbeatIndex":1,"stageElapsedMs":30002}
+  ████████████░░░░░░░░░░░░░  51%  Capturing frame 1290/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  52%  Capturing frame 1320/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  52%  Capturing frame 1350/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  53%  Capturing frame 1380/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  54%  Capturing frame 1410/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  54%  Capturing frame 1440/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  55%  Capturing frame 1470/2224 (2 workers)
+  █████████████░░░░░░░░░░░░  55%  Capturing frame 1500/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  56%  Capturing frame 1530/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  57%  Capturing frame 1560/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  57%  Capturing frame 1590/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  58%  Capturing frame 1620/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  58%  Capturing frame 1650/2224 (2 workers)
+  ██████████████░░░░░░░░░░░  59%  Capturing frame 1680/2224 (2 workers)
+  ███████████████░░░░░░░░░░  60%  Capturing frame 1710/2224 (2 workers)
+  ███████████████░░░░░░░░░░  60%  Capturing frame 1740/2224 (2 workers)
+  ███████████████░░░░░░░░░░  61%  Capturing frame 1770/2224 (2 workers)
+  ███████████████░░░░░░░░░░  61%  Capturing frame 1800/2224 (2 workers)
+  ███████████████░░░░░░░░░░  62%  Capturing frame 1830/2224 (2 workers)
+  ███████████████░░░░░░░░░░  63%  Capturing frame 1860/2224 (2 workers)
+  ███████████████░░░░░░░░░░  63%  Capturing frame 1890/2224 (2 workers)
+  ████████████████░░░░░░░░░  64%  Capturing frame 1920/2224 (2 workers)
+  ████████████████░░░░░░░░░  64%  Capturing frame 1950/2224 (2 workers)
+  ████████████████░░░░░░░░░  65%  Capturing frame 1980/2224 (2 workers)
+  ████████████████░░░░░░░░░  66%  Capturing frame 2010/2224 (2 workers)
+  ████████████████░░░░░░░░░  66%  Capturing frame 2040/2224 (2 workers)
+  ████████████████░░░░░░░░░  67%  Capturing frame 2070/2224 (2 workers)
+  ████████████████░░░░░░░░░  67%  Capturing frame 2100/2224 (2 workers)
+  █████████████████░░░░░░░░  68%  Capturing frame 2130/2224 (2 workers)
+  █████████████████░░░░░░░░  69%  Capturing frame 2160/2224 (2 workers)
+  █████████████████░░░░░░░░  69%  Capturing frame 2190/2224 (2 workers)
+  █████████████████░░░░░░░░  70%  Capturing frame 2220/2224 (2 workers)
+  █████████████████░░░░░░░░  70%  Capturing frame 2224/2224 (2 workers)
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"capture_disk","status":"end","elapsedMs":51902,"durationMs":50045,"stagePhase":"capturing","needsAlpha":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":2224,"captureMode":"beginframe","captureOperation":"encode"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"encode","status":"start","elapsedMs":51902,"stagePhase":"capturing","hasAudio":false,"isPngSequence":false,"isGif":false,"chunkedEncode":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":2224,"captureMode":"beginframe","captureOperation":"encode"}
+  ██████████████████░░░░░░░  75%  Encoding video
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"encode","status":"end","elapsedMs":60819,"durationMs":8917,"stagePhase":"capturing","hasAudio":false,"isPngSequence":false,"isGif":false,"chunkedEncode":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":2224,"captureMode":"beginframe","captureOperation":"encode"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"assemble","status":"start","elapsedMs":60819,"stagePhase":"capturing","hasAudio":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":2224,"captureMode":"beginframe","captureOperation":"encode"}
+  ██████████████████████░░░  90%  Assembling final video
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"assemble","status":"end","elapsedMs":60856,"durationMs":37,"stagePhase":"capturing","hasAudio":false,"workerCount":2,"forceScreenshot":false,"totalFrames":2224,"framesCompleted":2224,"captureMode":"beginframe","captureOperation":"encode"}
+[INFO] [Render:trace] {"renderJobId":"ebe2a2f1-b754-42cf-8cc4-db674713e866","phase":"pipeline","status":"checkpoint","elapsedMs":60866,"message":"artifact validated","totalElapsedMs":60856}
+  █████████████████████████  100%  Render complete
+
+◇  /Users/happinich/Documents/Hyperframes-codex/projects/2026-018-robot-vacuum-hidden-room/06_delivery/youtube/parts/part-04.mp4
+   7.4 MB · 37.1s video · rendered in 1m 1.0s

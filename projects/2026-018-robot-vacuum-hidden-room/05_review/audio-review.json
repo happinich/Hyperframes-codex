@@ -1,0 +1,29 @@
+{
+  "status": "passed_signal_and_transcript_review",
+  "voice_name": "Bin - Measured and Serious",
+  "voice_id": "jB1Cifc2UQbq1gR3wnb0",
+  "model": "eleven_v3",
+  "narration_unchanged": true,
+  "voice_duration_seconds": 471.100104,
+  "mixed_duration_seconds": 475.1,
+  "excess_silence_removed_seconds": 89.620,
+  "long_silence_count_after_trim": 0,
+  "long_word_gap_count_after_trim": 0,
+  "alignment_character_ratio": 0.99,
+  "shorts_alignment_character_ratio": 0.9505,
+  "independent_weak_span_review": "audio-span-review.json",
+  "weak_span_findings": [
+    "새벽 두 시 십삼 분은 짧은 구간 재인식에서 2시 13분으로 확인되었다. 한글 원문은 유지했다.",
+    "칠 층은 7층으로, 엑스 표시는 X표시로 재인식되었다. 발음 누락으로 단정하지 않았다.",
+    "장문 인식에서 빠진 그리고, 뭐에 등의 구절은 짧은 구간 재인식에 포함되었다.",
+    "마지막 두 slow window는 15초 미만의 잔여창이다. 마지막 완전한 문장은 유지했다."
+  ],
+  "mixed_mean_db": -18.5,
+  "mixed_peak_db": -3.3,
+  "bgm_candidate": "cand-01",
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "outro_fade_seconds": 3,
+  "shorts_voice_speed": 1.07,
+  "review_method": "Whisper full alignment, independent short-span recognition, silence and level analysis; this is not a claim of human full-length listening."
+}

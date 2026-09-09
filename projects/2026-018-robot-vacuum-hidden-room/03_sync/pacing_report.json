@@ -1,0 +1,86 @@
+{
+  "status": "ready_for_review",
+  "duration": 470.98,
+  "word_count": 941,
+  "average_wpm": 119.9,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 0,
+  "long_word_gaps": [],
+  "slow_window_count": 2,
+  "slow_windows": [
+    {
+      "start": 465.0,
+      "end": 470.98,
+      "word_count": 14,
+      "wpm": 56.0
+    },
+    {
+      "start": 470.0,
+      "end": 470.98,
+      "word_count": 2,
+      "wpm": 8.0
+    }
+  ],
+  "fast_window_count": 8,
+  "fast_windows": [
+    {
+      "start": 50.0,
+      "end": 65.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 70.0,
+      "end": 85.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 120.0,
+      "end": 135.0,
+      "word_count": 35,
+      "wpm": 140.0
+    },
+    {
+      "start": 125.0,
+      "end": 140.0,
+      "word_count": 35,
+      "wpm": 140.0
+    },
+    {
+      "start": 130.0,
+      "end": 145.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 445.0,
+      "end": 460.0,
+      "word_count": 36,
+      "wpm": 144.0
+    },
+    {
+      "start": 450.0,
+      "end": 465.0,
+      "word_count": 37,
+      "wpm": 148.0
+    },
+    {
+      "start": 455.0,
+      "end": 470.0,
+      "word_count": 36,
+      "wpm": 144.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}
