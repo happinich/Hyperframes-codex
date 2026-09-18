@@ -1,0 +1,140 @@
+[
+  {
+    "filename": "segments/part-01.html",
+    "startFrame": 0,
+    "endFrame": 328,
+    "duration": 5.466666666666667
+  },
+  {
+    "filename": "segments/part-02.html",
+    "startFrame": 328,
+    "endFrame": 1901,
+    "duration": 26.216666666666665
+  },
+  {
+    "filename": "segments/part-03.html",
+    "startFrame": 1901,
+    "endFrame": 3335,
+    "duration": 23.9
+  },
+  {
+    "filename": "segments/part-04.html",
+    "startFrame": 3335,
+    "endFrame": 5027,
+    "duration": 28.2
+  },
+  {
+    "filename": "segments/part-05.html",
+    "startFrame": 5027,
+    "endFrame": 6603,
+    "duration": 26.266666666666666
+  },
+  {
+    "filename": "segments/part-06.html",
+    "startFrame": 6603,
+    "endFrame": 8348,
+    "duration": 29.083333333333332
+  },
+  {
+    "filename": "segments/part-07.html",
+    "startFrame": 8348,
+    "endFrame": 10031,
+    "duration": 28.05
+  },
+  {
+    "filename": "segments/part-08.html",
+    "startFrame": 10031,
+    "endFrame": 11710,
+    "duration": 27.983333333333334
+  },
+  {
+    "filename": "segments/part-09.html",
+    "startFrame": 11710,
+    "endFrame": 13646,
+    "duration": 32.266666666666666
+  },
+  {
+    "filename": "segments/part-10.html",
+    "startFrame": 13646,
+    "endFrame": 15305,
+    "duration": 27.65
+  },
+  {
+    "filename": "segments/part-11.html",
+    "startFrame": 15305,
+    "endFrame": 17093,
+    "duration": 29.8
+  },
+  {
+    "filename": "segments/part-12.html",
+    "startFrame": 17093,
+    "endFrame": 18920,
+    "duration": 30.45
+  },
+  {
+    "filename": "segments/part-13.html",
+    "startFrame": 18920,
+    "endFrame": 20799,
+    "duration": 31.316666666666666
+  },
+  {
+    "filename": "segments/part-14.html",
+    "startFrame": 20799,
+    "endFrame": 22459,
+    "duration": 27.666666666666668
+  },
+  {
+    "filename": "segments/part-15.html",
+    "startFrame": 22459,
+    "endFrame": 24422,
+    "duration": 32.71666666666667
+  },
+  {
+    "filename": "segments/part-16.html",
+    "startFrame": 24422,
+    "endFrame": 26171,
+    "duration": 29.15
+  },
+  {
+    "filename": "segments/part-17.html",
+    "startFrame": 26171,
+    "endFrame": 28009,
+    "duration": 30.633333333333333
+  },
+  {
+    "filename": "segments/part-18.html",
+    "startFrame": 28009,
+    "endFrame": 29673,
+    "duration": 27.733333333333334
+  },
+  {
+    "filename": "segments/part-19.html",
+    "startFrame": 29673,
+    "endFrame": 31539,
+    "duration": 31.1
+  },
+  {
+    "filename": "segments/part-20.html",
+    "startFrame": 31539,
+    "endFrame": 33484,
+    "duration": 32.416666666666664
+  },
+  {
+    "filename": "segments/part-21.html",
+    "startFrame": 33484,
+    "endFrame": 35205,
+    "duration": 28.683333333333334
+  },
+  {
+    "filename": "segments/part-22.html",
+    "startFrame": 35205,
+    "endFrame": 36905,
+    "duration": 28.333333333333332
+  },
+  {
+    "filename": "segments/part-23.html",
+    "startFrame": 36905,
+    "endFrame": 39128,
+    "duration": 37.05
+  }
+]

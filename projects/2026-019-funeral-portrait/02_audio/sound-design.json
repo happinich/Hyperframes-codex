@@ -1,0 +1,210 @@
+{
+  "seed": 19,
+  "voice_unchanged_during_mixing": true,
+  "bgm_candidate": "cand-01",
+  "selection_basis": "User delegated atmospheric selection; final choice subject to measured mix review.",
+  "ambience": "procedural fluorescent room hum and soft air",
+  "events": [
+    {
+      "start": 40.93,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 41.73,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 42.53,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 110.45,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 111.25,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 112.05,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 180.97,
+      "kind": "scratch",
+      "duration": 0.6,
+      "peak_gain": 0.009
+    },
+    {
+      "start": 248.01,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 248.81,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 249.61,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 255.49,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 256.29,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 257.09,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 285.09,
+      "kind": "scratch",
+      "duration": 0.6,
+      "peak_gain": 0.009
+    },
+    {
+      "start": 391.79,
+      "kind": "scratch",
+      "duration": 0.6,
+      "peak_gain": 0.009
+    },
+    {
+      "start": 407.23,
+      "kind": "scratch",
+      "duration": 0.6,
+      "peak_gain": 0.009
+    },
+    {
+      "start": 420.55,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 420.98,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 421.41,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 421.84,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 422.27,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 422.7,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 491.21,
+      "kind": "scratch",
+      "duration": 0.6,
+      "peak_gain": 0.009
+    },
+    {
+      "start": 525.95,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 526.38,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 526.81,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 527.24,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 527.67,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 528.1,
+      "kind": "step",
+      "duration": 0.22,
+      "peak_gain": 0.014
+    },
+    {
+      "start": 615.19,
+      "kind": "notification",
+      "duration": 0.45,
+      "peak_gain": 0.006
+    },
+    {
+      "start": 638.29,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 639.09,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    },
+    {
+      "start": 639.89,
+      "kind": "step",
+      "duration": 0.15,
+      "peak_gain": 0.007
+    }
+  ],
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3
+}

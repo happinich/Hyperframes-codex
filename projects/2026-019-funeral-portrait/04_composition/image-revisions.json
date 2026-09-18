@@ -1,0 +1,85 @@
+{
+  "reason": "Visual inspection corrections: remove unrequested ghosts in empty shots, clarify portrait frame boundaries, correct door-gap closeup. Built-in image_gen. Original discarded generated outputs remain in Codex image storage.",
+  "jobs": [
+    {
+      "name": "shot-02",
+      "prompt": "EMPTY exterior of a modest fictional Korean funeral hall at night. Establishing architectural shot, wet asphalt, warm lit windows. Absolutely NO people, NO woman, NO ghost, NO silhouette anywhere. No text."
+    },
+    {
+      "name": "shot-03",
+      "prompt": "Still life grey work jacket folded on an empty bench, blue janitorial cart and mop in cleaner storeroom. NO people, NO ghost, NO human figures in doors or reflections."
+    },
+    {
+      "name": "shot-07",
+      "prompt": "EMPTY funeral altar, sparse white flowers, single black framed memorial portrait of middle aged Korean woman in burgundy blazer and pearl brooch seated on upholstered grey chair. Person exists ONLY as printed flat portrait inside small frame. Absolutely no actual people, no apparition, no cleaner anywhere in room."
+    },
+    {
+      "name": "shot-12",
+      "prompt": "Extreme close-up of a BLACK PICTURE FRAME containing a surreal printed PHOTOGRAPH: middle-aged Korean woman burgundy blazer pearl brooch seated on grey upholstered chair with BLUE JANITORIAL CART HANDLE visible behind her shoulder against plain grey studio backdrop. Whole image looks like a photo inside frame. No living person outside frame. Cart handle is in photograph, not reflection. No text."
+    },
+    {
+      "name": "shot-13",
+      "prompt": "Close-up of male grey workwear HAND holding phone during a call, room background defocused and EMPTY, no person, no ghost, no face or head, only hand and phone."
+    },
+    {
+      "name": "shot-16",
+      "prompt": "Macro photograph of BACK of black picture frame flat on tile floor. Rough brown cardboard backing, bent metal retaining tab, several dark hairs emerging from gap. Background completely defocused. NO person, woman, face, ghost or portrait anywhere."
+    },
+    {
+      "name": "shot-18",
+      "prompt": "Close-up strictly from shoulders to waist: burgundy blazer with SMALL PEARL BROOCH, pale hand at throat, face OUTSIDE crop above frame. Eerie funeral staircase softly blurred behind. No gore."
+    },
+    {
+      "name": "shot-22",
+      "prompt": "Extreme floor-level macro close-up FIVE PALE TOES pressed flat under a closed wooden door with gap only TWO CENTIMETERS HIGH. Foot compressed by supernatural effect. Door remains fully closed. Only toe tips visible. NO HEAD, NO FACE, NO HAND, no person elsewhere, no gore. Wet beige tile."
+    },
+    {
+      "name": "shot-28",
+      "prompt": "A black framed PHOTOGRAPH fills most of frame, photographed lying on tiled floor. WITHIN THE PHOTOGRAPH: empty grey upholstered chair and grey-uniform male cleaner standing BEHIND chair cropped at neck, extended left arm. Grey studio background. No woman anywhere, no second portrait, no figure outside photograph. Clear physical frame edges around pictured chair and man."
+    },
+    {
+      "name": "shot-30",
+      "prompt": "Close-up grey-workwear man's hand gripping dining table edge, bending knee partially visible below. Empty dim Korean funeral dining room beyond. NO woman, NO ghost, no face."
+    },
+    {
+      "name": "shot-35",
+      "prompt": "Two workers from behind rushing down a deserted concrete fire stairway, grey cleaner with torn left jacket shoulder and older supervisor in dark jacket. Both faces hidden. ONLY TWO PEOPLE. No woman or ghost, no figure waiting in stairs."
+    },
+    {
+      "name": "shot-36",
+      "prompt": "Close-up male forearm on office desk with five elongated dark finger pressure marks, NO blood, NO injury. Another person's gloved hands examining. Frame only hands and forearm, NO FACES, no woman, no ghost anywhere. Warm fluorescent office."
+    },
+    {
+      "name": "shot-37",
+      "prompt": "Close-up EMPTY office desk with paper checklist, pen, phone and folded white cloth. No legible writing. NO person, no ghost, no figure in background."
+    },
+    {
+      "name": "shot-38",
+      "prompt": "Close-up hand holding smartphone with generic unanswered call interface, no legible names. Blurred EMPTY management office behind. No other person, no ghost, no woman anywhere."
+    },
+    {
+      "name": "shot-45",
+      "prompt": "Empty funeral reception room in pale morning light. On tiled floor a black framed portrait is COMPLETELY HIDDEN beneath white tablecloth. Blue cart nearby. NO people, no woman, no ghost, no person printed in visible background."
+    },
+    {
+      "name": "shot-46",
+      "prompt": "Inside ordinary modest Korean apartment, warm table lamp. Close-up hand holding phone, entrance in background EMPTY. NO woman, NO ghost, NO extra human figure, no face. Quiet normal room before final threat."
+    },
+    {
+      "name": "short-photo",
+      "prompt": "VERTICAL 9:16 film still, black framed memorial photograph centered middle of tall frame. Within portrait fictional middle aged Korean woman burgundy blazer pearl brooch seated against grey background, blue cleaning cart handle behind shoulder. Empty dim funeral altar. Leave top quarter dark empty and lower quarter empty for caption overlay. NO living person or ghost outside the frame, no text."
+    },
+    {
+      "name": "short-door",
+      "prompt": "VERTICAL 9:16 film still, floor-level view of closed beige door, wet bare footprints stop immediately in front of it, faint burgundy cloth glimpsed only through textured glass at top far background. NO visible face, no revealed ghost identity, no text. Leave top and bottom space for lettering overlay."
+    },
+    {
+      "name": "thumbnail-a",
+      "prompt": "YouTube horror thumbnail 16:9. On RIGHT large tilted black memorial photo frame with unsettling fictional Korean middle-aged woman burgundy blazer pearl brooch; pale fingers reaching OVER edge of frame. On LEFT giant perfectly legible Korean text ONLY: '사진을 덮어' in bold ivory letters with thick dark outline, last word red. One focal clue, dramatic teal and red lighting, mobile readability, no gore, no extra text."
+    },
+    {
+      "name": "thumbnail-b",
+      "prompt": "YouTube horror thumbnail 16:9. RIGHT wet empty grey work jacket hanging on dark door handle, one cuff inflated into invisible hand shape pointing at viewer, creepy cinematic light. LEFT massive bold Korean text ONLY: '문밖은 누구' ivory and warning red, black outline. Clear readable 5 syllables, no extra words, no logos. Photoreal material, no face, no gore."
+    }
+  ]
+}

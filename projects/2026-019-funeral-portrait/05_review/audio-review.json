@@ -1,0 +1,20 @@
+{
+  "status": "pass_with_documented_review_limits",
+  "review_pass_1": "Full-source Whisper large-v3-turbo alignment after pause trimming and pitch-preserving pacing correction",
+  "review_pass_2": "Independent ASR of opening, first anomaly, contact, portrait reveal, recovery and final dialogue; silence/gap and rendered Short volume analysis",
+  "main_alignment_ratio": 0.9895,
+  "main_voice_seconds": 648.120271,
+  "main_target_with_outro_seconds": 652.120271,
+  "main_long_silences": 0,
+  "main_long_word_gaps": 0,
+  "main_average_words_per_minute": 126,
+  "shorts_head_padding_seconds": 0.12,
+  "shorts_voice_multiplier": 1.07,
+  "bgm_candidate": "cand-01",
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3,
+  "original_recordings_preserved": true,
+  "human_full_length_listening_claim": false,
+  "limitations": "ASR can confuse homophones and cannot establish perfect pronunciation, expressive delivery or every auditory artifact. Visual inspection and automated audio checks are recorded separately."
+}

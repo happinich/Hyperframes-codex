@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "content_nature": "fiction",
+  "profile": "horror_cinematic_story_v1",
+  "style": "horror_cinematic",
+  "delegated_approval": true,
+  "main_duration": 652.133333,
+  "shorts_duration": 21.930667,
+  "fps": 60,
+  "main_images": 48,
+  "shorts_portrait_images": 2,
+  "thumbnails": 2,
+  "files": [
+    "06_delivery/youtube/2026-019-funeral-portrait-youtube.mp4",
+    "06_delivery/shorts/2026-019-funeral-portrait-shorts.mp4",
+    "03_sync/captions.srt",
+    "03_sync/captions.vtt",
+    "03_sync/shorts-captions.srt",
+    "03_sync/shorts-captions.vtt",
+    "07_publish/youtube/thumbnail-a.jpg",
+    "07_publish/youtube/thumbnail-b.jpg",
+    "07_publish/youtube/youtube-publish.html",
+    "07_publish/shorts/shorts-publish.html"
+  ],
+  "upload_executed": false,
+  "verification": {
+    "script": "two review passes, two continuity edits",
+    "audio": "full ASR alignment, independent excerpt ASR, silence/gap/volume analysis; not a human full-length listening claim",
+    "visual": "source shot contact sheets and encoded-frame inspection; technical freeze/black detection",
+    "publishing": "copy controls, fallback, links and mobile layout"
+  }
+}

@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const P=path.dirname(new URL(import.meta.url).pathname);
+const read=n=>JSON.parse(fs.readFileSync(path.join(P,n),'utf8'));
+const main=read('05_review/youtube-media-check.json'),short=read('05_review/shorts-media-check.json');
+if(Number(main.metadata.format.duration)<630||Number(main.metadata.format.duration)>660)throw Error('Main duration outside requested range');
+const layout=read('05_review/layout-check.json'),publish=read('05_review/publish-check.json');
+if([main,short,layout,...publish].some(x=>x.status!=='pass'))throw Error('A delivery check failed');
+const sync=read('03_sync/sync_report.json'),ssync=read('03_sync/shorts-sync_report.json');
+if(sync.matched_character_ratio<.92||ssync.matched_character_ratio<.92)throw Error('Alignment below threshold');
+const pace=read('03_sync/pacing_report.json');
+if(pace.long_silence_count||pace.long_word_gap_count)throw Error('Unresolved pacing issues');
+const narration=fs.readFileSync(path.join(P,'01_script/narration.txt'),'utf8');
+if(/\d/.test(narration))throw Error('Unexpanded spoken number');
+const norm=t=>t.replace(/\s+/g,' ').trim();
+for(const prefix of ['', 'shorts-']){const words=read('03_sync/'+prefix+'captions.words.json').words;const t=fs.readFileSync(path.join(P,'01_script/'+prefix+'narration.txt'),'utf8');if(norm(words.map(w=>w.text).join(' '))!==norm(t))throw Error('Caption surface mismatch');}
+const files=[`06_delivery/youtube/${path.basename(P)}-youtube.mp4`,`06_delivery/shorts/${path.basename(P)}-shorts.mp4`,'03_sync/captions.srt','03_sync/captions.vtt','03_sync/shorts-captions.srt','03_sync/shorts-captions.vtt','07_publish/youtube/thumbnail-a.jpg','07_publish/youtube/thumbnail-b.jpg','07_publish/youtube/youtube-publish.html','07_publish/shorts/shorts-publish.html'];
+for(const f of files)if(!fs.statSync(path.join(P,f)).size)throw Error('Empty '+f);
+const result={status:'complete',content_nature:'fiction',profile:'horror_cinematic_story_v1',style:'horror_cinematic',delegated_approval:true,main_duration:Number(main.metadata.format.duration),shorts_duration:Number(short.metadata.format.duration),fps:60,main_images:48,shorts_portrait_images:2,thumbnails:2,files,upload_executed:false,verification:{script:'two review passes, two continuity edits',audio:'full ASR alignment, independent excerpt ASR, silence/gap/volume analysis; not a human full-length listening claim',visual:'source shot contact sheets and encoded-frame inspection; technical freeze/black detection',publishing:'copy controls, fallback, links and mobile layout'}};
+fs.writeFileSync(path.join(P,'06_delivery/delivery.json'),JSON.stringify(result,null,2)+'\n');
+console.log(result);

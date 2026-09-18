@@ -1,0 +1,35 @@
+{
+  "provider": "elevenlabs",
+  "endpoint": "POST /v1/text-to-speech/:voice_id",
+  "script_source": "../01_script/narration.txt",
+  "tts_script_source": "../01_script/tts-narration.txt",
+  "target_audio": "inbox/2026-019-funeral-portrait-narration.mp3",
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY",
+    "do_not_commit_api_key": true
+  },
+  "request": {
+    "voice_id": "jB1Cifc2UQbq1gR3wnb0",
+    "model_id": "eleven_v3",
+    "language_code": "ko",
+    "apply_text_normalization": "on",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.15,
+      "use_speaker_boost": true
+    }
+  },
+  "notes": [
+    "ElevenLabs V3는 긴 원고를 1,000~1,300자 안팎의 문장 단위 청크로 나누어 순차 생성한 뒤 병합한다.",
+    "복제 목소리의 억양 변화를 살리기 위해 stability 0.50, style 0.15, speaker boost를 기본값으로 사용한다.",
+    "BGM이 지정되면 최종 목소리 파일 생성 직후 BGM을 루프하고, 목소리 종료 후 4초 여운을 남기며 마지막 3초에 페이드아웃한다.",
+    "화면 자막은 narration.txt의 승인 원문을 유지하고 API에는 숫자를 한글 발음으로 푼 tts-narration.txt를 전달한다.",
+    "음성 생성 전에 scripts/prepare_tts_script.py를 실행하고 숫자가 남아 있으면 생성을 중단한다.",
+    "생성 후 scripts/ingest_audio.py, scripts/align_captions.py, scripts/analyze_audio_pacing.py로 정규화, MLX Whisper turbo 싱크, 속도 흔들림 검사를 진행한다."
+  ],
+  "bgm": {
+    "source": "bgm/candidates/cand-01.mp3"
+  }
+}

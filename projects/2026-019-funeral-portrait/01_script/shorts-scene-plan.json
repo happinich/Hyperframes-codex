@@ -1,0 +1,91 @@
+{
+  "duration": 21.912146,
+  "fps": 60,
+  "voice_multiplier": 1.07,
+  "spoiler_free": true,
+  "shots": [
+    {
+      "id": "short-0",
+      "start": 0,
+      "visual": "short-photo",
+      "end": 2.83
+    },
+    {
+      "id": "short-1",
+      "start": 2.83,
+      "visual": "short-photo",
+      "end": 6.609999999999999
+    },
+    {
+      "id": "short-2",
+      "start": 6.609999999999999,
+      "visual": "short-door",
+      "end": 9.53
+    },
+    {
+      "id": "short-3",
+      "start": 9.53,
+      "visual": "short-door",
+      "end": 13.59
+    },
+    {
+      "id": "short-4",
+      "start": 13.59,
+      "visual": "short-door",
+      "end": 16.450000000000003
+    },
+    {
+      "id": "short-5",
+      "start": 16.450000000000003,
+      "visual": "short-door",
+      "end": 21.912146
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.22,
+      "text": "영정사진 속에 제 청소 카트가 찍혀"
+    },
+    {
+      "start": 2.22,
+      "end": 2.66,
+      "text": "있었어요."
+    },
+    {
+      "start": 2.98,
+      "end": 4.2,
+      "text": "유리 반사가 아니었습니다."
+    },
+    {
+      "start": 4.6,
+      "end": 6.36,
+      "text": "액자를 기울여도 그대로였거든요."
+    },
+    {
+      "start": 6.76,
+      "end": 9.3,
+      "text": "반장님은 사진을 당장 엎어 놓으라고 했죠."
+    },
+    {
+      "start": 9.68,
+      "end": 12.84,
+      "text": "사진을 뒤집는 순간, 복도에서 젖은 발소리가"
+    },
+    {
+      "start": 12.84,
+      "end": 13.42,
+      "text": "멈췄습니다."
+    },
+    {
+      "start": 13.74,
+      "end": 16.6,
+      "text": "그리고 문 바로 밖에서 여자가 물었어요."
+    },
+    {
+      "start": 16.6,
+      "end": 17.8,
+      "text": "왜 엎어 놨어요."
+    }
+  ]
+}
