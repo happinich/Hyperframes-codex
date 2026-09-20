@@ -1,0 +1,20 @@
+{
+  "style_id": "horror_cinematic",
+  "length_ms": 60000,
+  "output_format": "mp3_44100_128",
+  "content_hint": "Empty Korean self service car wash at night; eerie fluorescent hum, sparse water drops, muted metallic resonances, a woman clinging upside down to steel beams. Minimal restrained suspense underneath spoken Korean narration. No vocals, no drums, no sudden stingers, no loud jumps.",
+  "candidates": [
+    {
+      "id": "cand-01",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. 병원 복도의 형광등 험과 호출기 잔향을 얇게 Empty Korean self service car wash at night; eerie fluorescent hum, sparse water drops, muted metallic resonances, a woman clinging upside down to steel beams. Minimal restrained suspense underneath spoken Korean narration. No vocals, no drums, no sudden stingers, no loud jumps.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-01.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-01.mp3"
+    },
+    {
+      "id": "cand-02",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. 젖은 야간 도로와 차량 내부 저역 공명을 중심으로 Empty Korean self service car wash at night; eerie fluorescent hum, sparse water drops, muted metallic resonances, a woman clinging upside down to steel beams. Minimal restrained suspense underneath spoken Korean narration. No vocals, no drums, no sudden stingers, no loud jumps.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-02.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-02.mp3"
+    }
+  ]
+}

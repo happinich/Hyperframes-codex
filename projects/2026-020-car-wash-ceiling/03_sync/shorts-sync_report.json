@@ -1,0 +1,13 @@
+{
+  "status": "ready_for_review",
+  "whisper_backend": "mlx-whisper",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "subtitle_delivery_mode": "burned_short_captions_and_external_srt_vtt",
+  "subtitle_text_source": "01_script/shorts-narration.txt",
+  "spoken_text_source": "01_script/shorts-tts-narration.txt",
+  "matched_character_ratio": 1,
+  "caption_surface_match_ratio": 1,
+  "spoken_match_ratio": 1,
+  "required_ratio": 0.92,
+  "note": "Independent Shorts narration; words drive both burned captions and external SRT/VTT. Main audio and captions are not reused."
+}

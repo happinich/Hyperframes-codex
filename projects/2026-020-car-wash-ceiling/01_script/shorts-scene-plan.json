@@ -1,0 +1,86 @@
+{
+  "duration": 23.448229,
+  "fps": 60,
+  "voice_multiplier": 1.07,
+  "spoiler_free": true,
+  "shots": [
+    {
+      "id": "short-0",
+      "start": 0,
+      "visual": "short-new-01",
+      "end": 2.37
+    },
+    {
+      "id": "short-1",
+      "start": 2.37,
+      "visual": "short-new-02",
+      "end": 4.97
+    },
+    {
+      "id": "short-2",
+      "start": 4.97,
+      "visual": "short-new-03",
+      "end": 8.49
+    },
+    {
+      "id": "short-3",
+      "start": 8.49,
+      "visual": "short-new-04",
+      "end": 10.67
+    },
+    {
+      "id": "short-4",
+      "start": 10.67,
+      "visual": "short-new-05",
+      "end": 13.83
+    },
+    {
+      "id": "short-5",
+      "start": 13.83,
+      "visual": "short-new-06",
+      "end": 23.448229
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.18,
+      "text": "세차장 천장에서 머리카락이 내려왔어요."
+    },
+    {
+      "start": 2.52,
+      "end": 4.7,
+      "text": "잡았더니 누가 위에서 당기더라고요."
+    },
+    {
+      "start": 5.12,
+      "end": 8.28,
+      "text": "차에 숨었는데 지붕이 천천히 찌그러졌습니다."
+    },
+    {
+      "start": 8.64,
+      "end": 10.54,
+      "text": "앞유리 위로 젖은 손이 내려왔어요."
+    },
+    {
+      "start": 10.82,
+      "end": 13.68,
+      "text": "그런데 숨소리는 빈 조수석에서 났어요."
+    },
+    {
+      "start": 13.98,
+      "end": 15.3,
+      "text": "관리인이 소리쳤습니다."
+    },
+    {
+      "start": 15.6,
+      "end": 16.5,
+      "text": "고개 들지 마요."
+    },
+    {
+      "start": 16.7,
+      "end": 19.42,
+      "text": "저 여자, 눈 마주치면 떨어져요."
+    }
+  ]
+}

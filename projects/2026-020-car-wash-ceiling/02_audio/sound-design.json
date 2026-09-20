@@ -1,0 +1,113 @@
+{
+  "voice_unchanged_during_mixing": true,
+  "bgm_candidate": "cand-02",
+  "selection_basis": "Delegated selection; cand-02 has a lower measured peak (-3.1 dB) and less peak-to-mean spread than cand-01 (-0.5 dB peak), to avoid sudden accents. Automated signal assessment, not a claim of human listening.",
+  "ambience": "quiet procedural fluorescent hum and air",
+  "events": [
+    {
+      "start": 36.13,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 37.43,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 38.73,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 50.17,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 51.47,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 52.77,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 84.59,
+      "kind": "scratch",
+      "duration": 0.65,
+      "gain": 0.008
+    },
+    {
+      "start": 223.09,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 224.39,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 225.69,
+      "kind": "drop",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 235.01,
+      "kind": "metal",
+      "duration": 0.9,
+      "gain": 0.01
+    },
+    {
+      "start": 271.19,
+      "kind": "metal",
+      "duration": 0.9,
+      "gain": 0.01
+    },
+    {
+      "start": 303.41,
+      "kind": "scratch",
+      "duration": 0.65,
+      "gain": 0.008
+    },
+    {
+      "start": 444.83,
+      "kind": "scratch",
+      "duration": 0.65,
+      "gain": 0.008
+    },
+    {
+      "start": 454.47,
+      "kind": "metal",
+      "duration": 0.9,
+      "gain": 0.01
+    },
+    {
+      "start": 480.51,
+      "kind": "scratch",
+      "duration": 0.65,
+      "gain": 0.008
+    },
+    {
+      "start": 644.01,
+      "kind": "metal",
+      "duration": 0.9,
+      "gain": 0.01
+    }
+  ],
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3
+}

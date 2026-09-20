@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "main_asset_count": 48,
+  "fresh_portrait_assets": [
+    {
+      "name": "short-new-01.png",
+      "sha256": "c95ca78209d67ab3d72883a0796a723c515381c82efe4fce4a79e82a5375ab5a",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-122f1477-223d-44bc-8c61-28679307e85f.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "short-new-02.png",
+      "sha256": "0139b51092bfcae1bd1463825ee95aa8b69c041885c20ff2056676086697126e",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-52b9e13b-1f81-409f-8a26-07c88ea0aa2a.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "short-new-03.png",
+      "sha256": "a26aa8346d0bc91ccf73cfaaa271e8788e7504ce651b7571ecfcfae1e14ab0bc",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-5ca96889-9404-4783-839e-cea9719fc8f1.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "short-new-04.png",
+      "sha256": "ebdda9e51f1ab0a17951c8ae13303b213947572a56129e677efdbee8c1f80ef9",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-dd0343dc-0b4a-4b97-9642-a80aabe1fffd.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "short-new-05.png",
+      "sha256": "ec4aaf0b04d7dbd8d387e0d4090d94668be4e037cc2c014b565315e64496748a",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a237ddfe-c1dc-486a-8926-bd34a9062f18.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "name": "short-new-06.png",
+      "sha256": "2a4b91ddd012a34be6855cd33f5e729c580cef85c4f2701b4f660b4cfc67a02a",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-2eda60fb-149d-4b68-8e6b-b6111b489a23.png",
+      "reference_images": [],
+      "width": 941,
+      "height": 1672
+    }
+  ],
+  "no_longform_frame_extraction": true,
+  "no_longform_reference_images": true,
+  "separate_narration": true,
+  "scope": "provenance manifest, asset paths and exact-file hash disjointness; visual framing also reviewed separately"
+}

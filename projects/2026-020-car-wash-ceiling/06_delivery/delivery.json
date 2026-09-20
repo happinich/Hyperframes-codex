@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "project_id": "2026-020-car-wash-ceiling",
+  "title": "세차장 천장의 여자",
+  "content_nature": "fiction",
+  "production_profile": "horror_cinematic_story_v1",
+  "visual_style": "horror_cinematic",
+  "longform_duration_seconds": 657.895354,
+  "shorts_duration_seconds": 23.448229,
+  "fps": 60,
+  "longform_unique_images": 48,
+  "shorts_fresh_images": 6,
+  "uploaded": false,
+  "artifacts": [
+    "06_delivery/youtube/2026-020-car-wash-ceiling-youtube.mp4",
+    "06_delivery/shorts/2026-020-car-wash-ceiling-shorts.mp4",
+    "03_sync/captions.srt",
+    "03_sync/captions.vtt",
+    "03_sync/shorts-captions.srt",
+    "03_sync/shorts-captions.vtt",
+    "07_publish/youtube/thumbnail-a.jpg",
+    "07_publish/youtube/thumbnail-b.jpg",
+    "07_publish/youtube/youtube-publish.html",
+    "07_publish/shorts/shorts-publish.html"
+  ],
+  "review_scope": "automated ASR and audio signal checks; source composition and encoded-frame visual inspection; no claim of human full-length listening"
+}

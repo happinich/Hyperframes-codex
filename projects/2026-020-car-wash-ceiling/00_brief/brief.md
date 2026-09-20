@@ -36,7 +36,7 @@
 
 ## 톤과 시각 방향
 
-냉백색 형광등과 붉은 후미등, 빛이 닿는 경계에 버티는 손. 사용자 별도 질문 답변으로 Bin 남성과 추천 호러 시네마틱을 승인받았다. 대본 추가 검수·보강은 위임받아 완료했다. 음성 생성 후 검수하며 BGM은 아직 선정하지 않았다.
+냉백색 형광등과 붉은 후미등, 빛이 닿는 경계에 버티는 손. 사용자 별도 질문 답변으로 Bin 남성과 추천 호러 시네마틱을 승인받았다. 이후 전체 검수와 진행을 위임받았다. 음성은 ASR/신호 검사로 검토하고 BGM cand-02를 선정했다. 본편의 생성 이미지 48장과 별개로 쇼츠 전용 이미지 6장을 새로 생성한다.
 
 ## 작품 성격과 연결
 
@@ -48,10 +48,10 @@
 - Series or playlist: 직업 괴담
 - Cold-open line: 고개 들지 마요. 저 여자, 눈 마주치면 떨어져요.
 - Normal-world setup: 장소에 간 이유와 정상적인 공간·업무 규칙
-- First anomaly window: 40~60초
+- First anomaly window: 기획 40~60초, 실제 첫 물자국 장면 약 36초. 승인 음성의 자연스러운 호흡을 유지하며 불필요한 정적을 추가하지 않는다.
 - Narration style: 사람이 직접 경험을 들려주는 존댓말 구술형 이야기체. 종결을 자연스럽게 섞고 했다·였다 단문을 연속하지 않음.
 - Long-form burned captions: 기본 없음, 별도 승인 시에만 생성
-- Shorts cliffhanger candidate: 앞유리의 손과 눈맞춤 경고. 별도 원고 승인 대기.
+- Shorts cliffhanger: 앞유리의 손, 빈 조수석 숨소리, 눈맞춤 경고. 검수·진행은 사용자 위임. 탈출 방법과 마지막 반전은 공개하지 않는다.
 - Related long-form video for Shorts: 2026-020-car-wash-ceiling 본편, 게시 URL 아직 없음
 - Long-form end-screen target: 직업 괴담 재생목록 또는 2026-019 장례식장 편. 실제 공개 대상 확인 후 설정.
 - Submission permission or source notes: 직접 창작. 실제 인물·시설·사건을 지칭하지 않는다.

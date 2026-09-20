@@ -1,0 +1,348 @@
+{
+  "duration": 657.895354,
+  "shots": [
+    {
+      "id": "s01-shot-01",
+      "visual": "shot-01",
+      "start": 0,
+      "trigger": "경고 선공개",
+      "end": 3.25
+    },
+    {
+      "id": "s01-shot-02",
+      "visual": "shot-02",
+      "start": 3.25,
+      "trigger": "전화기에서",
+      "end": 8.35
+    },
+    {
+      "id": "s02-shot-03",
+      "visual": "shot-03",
+      "start": 8.35,
+      "trigger": "마감과 첫 물소리",
+      "end": 27.49
+    },
+    {
+      "id": "s02-shot-04",
+      "visual": "shot-04",
+      "start": 27.49,
+      "trigger": "친구가 빌려준",
+      "end": 31.990000000000002
+    },
+    {
+      "id": "s02-shot-05",
+      "visual": "shot-05",
+      "start": 31.990000000000002,
+      "trigger": "마지막 손님이",
+      "end": 35.93
+    },
+    {
+      "id": "s02-shot-06",
+      "visual": "shot-06",
+      "start": 35.93,
+      "trigger": "그런데 아무도",
+      "end": 40.37
+    },
+    {
+      "id": "s03-shot-07",
+      "visual": "shot-07",
+      "start": 40.37,
+      "trigger": "물의 출처",
+      "end": 49.97
+    },
+    {
+      "id": "s03-shot-08",
+      "visual": "shot-08",
+      "start": 49.97,
+      "trigger": "떨어지는 물은",
+      "end": 68.47
+    },
+    {
+      "id": "s04-shot-09",
+      "visual": "shot-09",
+      "start": 68.47,
+      "trigger": "당겨지는 머리카락",
+      "end": 84.29
+    },
+    {
+      "id": "s04-shot-10",
+      "visual": "shot-10",
+      "start": 84.29,
+      "trigger": "그제야 손을",
+      "end": 93.99
+    },
+    {
+      "id": "s05-shot-11",
+      "visual": "shot-11",
+      "start": 93.99,
+      "trigger": "카메라 확인",
+      "end": 110.87
+    },
+    {
+      "id": "s05-shot-12",
+      "visual": "shot-12",
+      "start": 110.87,
+      "trigger": "모니터에는",
+      "end": 121.63
+    },
+    {
+      "id": "s06-shot-13",
+      "visual": "shot-13",
+      "start": 121.63,
+      "trigger": "첫 신체 노출",
+      "end": 133.85
+    },
+    {
+      "id": "s06-shot-14",
+      "visual": "shot-14",
+      "start": 133.85,
+      "trigger": "저는 사무실 유리창을",
+      "end": 148.99
+    },
+    {
+      "id": "s07-shot-15",
+      "visual": "shot-15",
+      "start": 148.99,
+      "trigger": "관리인에게 연락",
+      "end": 168.61
+    },
+    {
+      "id": "s07-shot-16",
+      "visual": "shot-16",
+      "start": 168.61,
+      "trigger": "사무실 안이라고",
+      "end": 176.63
+    },
+    {
+      "id": "s08-shot-17",
+      "visual": "shot-17",
+      "start": 176.63,
+      "trigger": "조명 경고",
+      "end": 185.29
+    },
+    {
+      "id": "s08-shot-18",
+      "visual": "shot-18",
+      "start": 185.29,
+      "trigger": "저는 그 말을",
+      "end": 204.27
+    },
+    {
+      "id": "s09-shot-19",
+      "visual": "shot-19",
+      "start": 204.27,
+      "trigger": "사무실 접근",
+      "end": 222.89
+    },
+    {
+      "id": "s09-shot-20",
+      "visual": "shot-20",
+      "start": 222.89,
+      "trigger": "문 밑으로",
+      "end": 234.61
+    },
+    {
+      "id": "s10-shot-21",
+      "visual": "shot-21",
+      "start": 234.61,
+      "trigger": "천장 침입",
+      "end": 246.13
+    },
+    {
+      "id": "s10-shot-22",
+      "visual": "shot-22",
+      "start": 246.13,
+      "trigger": "관리인 아저씨가 옆문이",
+      "end": 261.81
+    },
+    {
+      "id": "s11-shot-23",
+      "visual": "shot-23",
+      "start": 261.81,
+      "trigger": "차량 피신",
+      "end": 270.79
+    },
+    {
+      "id": "s11-shot-24",
+      "visual": "shot-24",
+      "start": 270.79,
+      "trigger": "잠금 버튼을",
+      "end": 292.47
+    },
+    {
+      "id": "s12-shot-25",
+      "visual": "shot-25",
+      "start": 292.47,
+      "trigger": "앞유리의 여자",
+      "end": 303.11
+    },
+    {
+      "id": "s12-shot-26",
+      "visual": "shot-26",
+      "start": 303.11,
+      "trigger": "앞유리 맨",
+      "end": 323.53
+    },
+    {
+      "id": "s13-shot-27",
+      "visual": "shot-27",
+      "start": 323.53,
+      "trigger": "차 안의 숨결",
+      "end": 341.33
+    },
+    {
+      "id": "s13-shot-28",
+      "visual": "shot-28",
+      "start": 341.33,
+      "trigger": "앞유리의 손은",
+      "end": 354.07
+    },
+    {
+      "id": "s14-shot-29",
+      "visual": "shot-29",
+      "start": 354.07,
+      "trigger": "탈출 시작",
+      "end": 379.27
+    },
+    {
+      "id": "s14-shot-30",
+      "visual": "shot-30",
+      "start": 379.27,
+      "trigger": "그런데 바로",
+      "end": 387.09
+    },
+    {
+      "id": "s15-shot-31",
+      "visual": "shot-31",
+      "start": 387.09,
+      "trigger": "출구 차단",
+      "end": 409.25
+    },
+    {
+      "id": "s15-shot-32",
+      "visual": "shot-32",
+      "start": 409.25,
+      "trigger": "저는 그보다",
+      "end": 415.53
+    },
+    {
+      "id": "s16-shot-33",
+      "visual": "shot-33",
+      "start": 415.53,
+      "trigger": "작업등의 한계",
+      "end": 424.99
+    },
+    {
+      "id": "s16-shot-34",
+      "visual": "shot-34",
+      "start": 424.99,
+      "trigger": "아저씨가 손잡이",
+      "end": 444.53
+    },
+    {
+      "id": "s17-shot-35",
+      "visual": "shot-35",
+      "start": 444.53,
+      "trigger": "창문 공격",
+      "end": 454.07
+    },
+    {
+      "id": "s17-shot-36",
+      "visual": "shot-36",
+      "start": 454.07,
+      "trigger": "젖은 손가락",
+      "end": 473.35
+    },
+    {
+      "id": "s18-shot-37",
+      "visual": "shot-37",
+      "start": 473.35,
+      "trigger": "관리인 위기",
+      "end": 480.21
+    },
+    {
+      "id": "s18-shot-38",
+      "visual": "shot-38",
+      "start": 480.21,
+      "trigger": "작업등은",
+      "end": 502.89
+    },
+    {
+      "id": "s19-shot-39",
+      "visual": "shot-39",
+      "start": 502.89,
+      "trigger": "손전등 회수",
+      "end": 524.33
+    },
+    {
+      "id": "s19-shot-40",
+      "visual": "shot-40",
+      "start": 524.33,
+      "trigger": "저는 차를 다시",
+      "end": 531.33
+    },
+    {
+      "id": "s20-shot-41",
+      "visual": "shot-41",
+      "start": 531.33,
+      "trigger": "간신히 구조",
+      "end": 544.75
+    },
+    {
+      "id": "s20-shot-42",
+      "visual": "shot-42",
+      "start": 544.75,
+      "trigger": "작업등과",
+      "end": 550.37
+    },
+    {
+      "id": "s20-shot-43",
+      "visual": "shot-43",
+      "start": 550.37,
+      "trigger": "그 모습에",
+      "end": 558.45
+    },
+    {
+      "id": "s20-shot-44",
+      "visual": "shot-44",
+      "start": 558.45,
+      "trigger": "아저씨가 차를",
+      "end": 563.03
+    },
+    {
+      "id": "s21-shot-45",
+      "visual": "shot-45",
+      "start": 563.03,
+      "trigger": "탈출 뒤 증거",
+      "end": 570.83
+    },
+    {
+      "id": "s21-shot-46",
+      "visual": "shot-46",
+      "start": 570.83,
+      "trigger": "아저씨 손목에는",
+      "end": 593.01
+    },
+    {
+      "id": "s22-shot-47",
+      "visual": "shot-47",
+      "start": 593.01,
+      "trigger": "남은 흔적",
+      "end": 620.65
+    },
+    {
+      "id": "s23-shot-47",
+      "visual": "shot-47",
+      "start": 620.65,
+      "trigger": "수리점의 재출현",
+      "end": 643.61
+    },
+    {
+      "id": "s23-shot-48",
+      "visual": "shot-48",
+      "start": 643.61,
+      "trigger": "실내등 덮개가",
+      "end": 657.895354
+    }
+  ]
+}

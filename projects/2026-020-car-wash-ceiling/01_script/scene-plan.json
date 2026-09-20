@@ -1,13 +1,13 @@
 {
   "project_id": "2026-020-car-wash-ceiling",
-  "status": "script_review_delegated_and_completed",
+  "status": "complete_after_delegated_review",
   "content_nature": "fiction",
   "production_profile": "horror_cinematic_story_v1",
   "visual_style": "horror_cinematic",
   "visual_style_status": "explicitly_approved",
   "voice_status": "Bin_explicitly_approved",
-  "bgm_status": "not_selected",
-  "timing_source": "estimated_word_weighted_not_audio_aligned",
+  "bgm_status": "cand-02_selected_under_delegated_review",
+  "timing_source": "mlx-community/whisper-large-v3-turbo aligned to final voice",
   "target_total_seconds": 646,
   "narration_seconds_estimate": 642,
   "bgm_outro_seconds": 4,
@@ -20,8 +20,8 @@
       "id": "s01",
       "type": "horror_story",
       "start_seconds": 0,
-      "end_seconds": 9,
-      "duration_seconds": 9,
+      "end_seconds": 8.35,
+      "duration_seconds": 8.35,
       "estimated_words": 18,
       "target_wpm": 120,
       "purpose": "경고 선공개",
@@ -36,33 +36,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 0,
+          "action": "reveal shot-1",
+          "spoken_trigger": "경고 선공개"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 4.5,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 3.25,
+          "action": "reveal shot-2",
+          "spoken_trigger": "전화기에서"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "경고 선공개",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 0,
+      "word_count": 18,
+      "speech_start": 0,
+      "speech_end": 8.22
     },
     {
       "id": "s02",
       "type": "horror_story",
-      "start_seconds": 9,
-      "end_seconds": 44.374,
-      "duration_seconds": 35.374,
+      "start_seconds": 8.35,
+      "end_seconds": 40.37,
+      "duration_seconds": 32.019999999999996,
       "estimated_words": 76,
       "target_wpm": 128.9,
       "purpose": "마감과 첫 물소리",
@@ -80,33 +82,45 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 8.35,
+          "action": "reveal shot-3",
+          "spoken_trigger": "마감과 첫 물소리"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
+          "time": 27.49,
+          "action": "reveal shot-4",
+          "spoken_trigger": "친구가 빌려준"
         },
         {
-          "offset_seconds": 17.687,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 31.990000000000002,
+          "action": "reveal shot-5",
+          "spoken_trigger": "마지막 손님이"
+        },
+        {
+          "time": 35.93,
+          "action": "reveal shot-6",
+          "spoken_trigger": "그런데 아무도"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "마감과 첫 물소리",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 18,
+      "word_count": 76,
+      "speech_start": 8.6,
+      "speech_end": 40.18
     },
     {
       "id": "s03",
       "type": "horror_story",
-      "start_seconds": 44.374,
-      "end_seconds": 69.973,
-      "duration_seconds": 25.599,
+      "start_seconds": 40.37,
+      "end_seconds": 68.47,
+      "duration_seconds": 28.1,
       "estimated_words": 55,
       "target_wpm": 128.9,
       "purpose": "물의 출처",
@@ -121,33 +135,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 40.37,
+          "action": "reveal shot-7",
+          "spoken_trigger": "물의 출처"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 12.8,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 49.97,
+          "action": "reveal shot-8",
+          "spoken_trigger": "떨어지는 물은"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "물의 출처",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 94,
+      "word_count": 55,
+      "speech_start": 40.62,
+      "speech_end": 68.26
     },
     {
       "id": "s04",
       "type": "horror_story",
-      "start_seconds": 69.973,
-      "end_seconds": 96.503,
-      "duration_seconds": 26.53,
+      "start_seconds": 68.47,
+      "end_seconds": 93.99,
+      "duration_seconds": 25.519999999999996,
       "estimated_words": 57,
       "target_wpm": 128.9,
       "purpose": "당겨지는 머리카락",
@@ -162,33 +178,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 68.47,
+          "action": "reveal shot-9",
+          "spoken_trigger": "당겨지는 머리카락"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.265,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 84.29,
+          "action": "reveal shot-10",
+          "spoken_trigger": "그제야 손을"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "당겨지는 머리카락",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 149,
+      "word_count": 57,
+      "speech_start": 68.72,
+      "speech_end": 93.88
     },
     {
       "id": "s05",
       "type": "horror_story",
-      "start_seconds": 96.503,
-      "end_seconds": 123.964,
-      "duration_seconds": 27.461,
+      "start_seconds": 93.99,
+      "end_seconds": 121.63,
+      "duration_seconds": 27.64,
       "estimated_words": 59,
       "target_wpm": 128.9,
       "purpose": "카메라 확인",
@@ -203,33 +221,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 93.99,
+          "action": "reveal shot-11",
+          "spoken_trigger": "카메라 확인"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.731,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 110.87,
+          "action": "reveal shot-12",
+          "spoken_trigger": "모니터에는"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "카메라 확인",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 206,
+      "word_count": 59,
+      "speech_start": 94.24,
+      "speech_end": 121.42
     },
     {
       "id": "s06",
       "type": "horror_story",
-      "start_seconds": 123.964,
-      "end_seconds": 150.494,
-      "duration_seconds": 26.53,
+      "start_seconds": 121.63,
+      "end_seconds": 148.99,
+      "duration_seconds": 27.360000000000014,
       "estimated_words": 57,
       "target_wpm": 128.9,
       "purpose": "첫 신체 노출",
@@ -244,33 +264,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 121.63,
+          "action": "reveal shot-13",
+          "spoken_trigger": "첫 신체 노출"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.265,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 133.85,
+          "action": "reveal shot-14",
+          "spoken_trigger": "저는 사무실 유리창을"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "첫 신체 노출",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 265,
+      "word_count": 57,
+      "speech_start": 121.88,
+      "speech_end": 148.76
     },
     {
       "id": "s07",
       "type": "horror_story",
-      "start_seconds": 150.494,
-      "end_seconds": 179.351,
-      "duration_seconds": 28.857,
+      "start_seconds": 148.99,
+      "end_seconds": 176.63,
+      "duration_seconds": 27.639999999999986,
       "estimated_words": 62,
       "target_wpm": 128.9,
       "purpose": "관리인에게 연락",
@@ -285,33 +307,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 148.99,
+          "action": "reveal shot-15",
+          "spoken_trigger": "관리인에게 연락"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.429,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 168.61,
+          "action": "reveal shot-16",
+          "spoken_trigger": "사무실 안이라고"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "관리인에게 연락",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 322,
+      "word_count": 62,
+      "speech_start": 149.24,
+      "speech_end": 176.38
     },
     {
       "id": "s08",
       "type": "horror_story",
-      "start_seconds": 179.351,
-      "end_seconds": 209.605,
-      "duration_seconds": 30.254,
+      "start_seconds": 176.63,
+      "end_seconds": 204.27,
+      "duration_seconds": 27.640000000000015,
       "estimated_words": 65,
       "target_wpm": 128.9,
       "purpose": "조명 경고",
@@ -326,33 +350,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 176.63,
+          "action": "reveal shot-17",
+          "spoken_trigger": "조명 경고"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 15.127,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 185.29,
+          "action": "reveal shot-18",
+          "spoken_trigger": "저는 그 말을"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "조명 경고",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 384,
+      "word_count": 65,
+      "speech_start": 176.88,
+      "speech_end": 204.3
     },
     {
       "id": "s09",
       "type": "horror_story",
-      "start_seconds": 209.605,
-      "end_seconds": 240.324,
-      "duration_seconds": 30.719,
+      "start_seconds": 204.27,
+      "end_seconds": 234.61,
+      "duration_seconds": 30.340000000000003,
       "estimated_words": 66,
       "target_wpm": 128.9,
       "purpose": "사무실 접근",
@@ -367,33 +393,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 204.27,
+          "action": "reveal shot-19",
+          "spoken_trigger": "사무실 접근"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 15.36,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 222.89,
+          "action": "reveal shot-20",
+          "spoken_trigger": "문 밑으로"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "사무실 접근",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 449,
+      "word_count": 66,
+      "speech_start": 204.52,
+      "speech_end": 234.6
     },
     {
       "id": "s10",
       "type": "horror_story",
-      "start_seconds": 240.324,
-      "end_seconds": 268.716,
-      "duration_seconds": 28.392,
+      "start_seconds": 234.61,
+      "end_seconds": 261.81,
+      "duration_seconds": 27.19999999999999,
       "estimated_words": 61,
       "target_wpm": 128.9,
       "purpose": "천장 침입",
@@ -408,33 +436,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 234.61,
+          "action": "reveal shot-21",
+          "spoken_trigger": "천장 침입"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.196,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 246.13,
+          "action": "reveal shot-22",
+          "spoken_trigger": "관리인 아저씨가 옆문이"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "천장 침입",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 515,
+      "word_count": 61,
+      "speech_start": 234.86,
+      "speech_end": 261.7
     },
     {
       "id": "s11",
       "type": "horror_story",
-      "start_seconds": 268.716,
-      "end_seconds": 296.177,
-      "duration_seconds": 27.461,
+      "start_seconds": 261.81,
+      "end_seconds": 292.47,
+      "duration_seconds": 30.660000000000025,
       "estimated_words": 59,
       "target_wpm": 128.9,
       "purpose": "차량 피신",
@@ -449,33 +479,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 261.81,
+          "action": "reveal shot-23",
+          "spoken_trigger": "차량 피신"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.731,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 270.79,
+          "action": "reveal shot-24",
+          "spoken_trigger": "잠금 버튼을"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "차량 피신",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "별도 티저 재구성 후보"
+      "shorts_adaptation": "별도 티저 재구성 후보",
+      "word_offset": 576,
+      "word_count": 59,
+      "speech_start": 262.06,
+      "speech_end": 292.46
     },
     {
       "id": "s12",
       "type": "horror_story",
-      "start_seconds": 296.177,
-      "end_seconds": 323.638,
-      "duration_seconds": 27.461,
+      "start_seconds": 292.47,
+      "end_seconds": 323.53,
+      "duration_seconds": 31.059999999999945,
       "estimated_words": 59,
       "target_wpm": 128.9,
       "purpose": "앞유리의 여자",
@@ -490,33 +522,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 292.47,
+          "action": "reveal shot-25",
+          "spoken_trigger": "앞유리의 여자"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.731,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 303.11,
+          "action": "reveal shot-26",
+          "spoken_trigger": "앞유리 맨"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "앞유리의 여자",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "별도 티저 재구성 후보"
+      "shorts_adaptation": "별도 티저 재구성 후보",
+      "word_offset": 635,
+      "word_count": 59,
+      "speech_start": 292.72,
+      "speech_end": 323.52
     },
     {
       "id": "s13",
       "type": "horror_story",
-      "start_seconds": 323.638,
-      "end_seconds": 352.03,
-      "duration_seconds": 28.392,
+      "start_seconds": 323.53,
+      "end_seconds": 354.07,
+      "duration_seconds": 30.54000000000002,
       "estimated_words": 61,
       "target_wpm": 128.9,
       "purpose": "차 안의 숨결",
@@ -531,33 +565,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 323.53,
+          "action": "reveal shot-27",
+          "spoken_trigger": "차 안의 숨결"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.196,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 341.33,
+          "action": "reveal shot-28",
+          "spoken_trigger": "앞유리의 손은"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "차 안의 숨결",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "별도 티저 재구성 후보"
+      "shorts_adaptation": "별도 티저 재구성 후보",
+      "word_offset": 694,
+      "word_count": 61,
+      "speech_start": 323.78,
+      "speech_end": 354.08
     },
     {
       "id": "s14",
       "type": "horror_story",
-      "start_seconds": 352.03,
-      "end_seconds": 382.749,
-      "duration_seconds": 30.719,
+      "start_seconds": 354.07,
+      "end_seconds": 387.09,
+      "duration_seconds": 33.01999999999998,
       "estimated_words": 66,
       "target_wpm": 128.9,
       "purpose": "탈출 시작",
@@ -572,33 +608,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 354.07,
+          "action": "reveal shot-29",
+          "spoken_trigger": "탈출 시작"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 15.36,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 379.27,
+          "action": "reveal shot-30",
+          "spoken_trigger": "그런데 바로"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "탈출 시작",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 755,
+      "word_count": 66,
+      "speech_start": 354.32,
+      "speech_end": 386.88
     },
     {
       "id": "s15",
       "type": "horror_story",
-      "start_seconds": 382.749,
-      "end_seconds": 411.141,
-      "duration_seconds": 28.392,
+      "start_seconds": 387.09,
+      "end_seconds": 415.53,
+      "duration_seconds": 28.439999999999998,
       "estimated_words": 61,
       "target_wpm": 128.9,
       "purpose": "출구 차단",
@@ -613,33 +651,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 387.09,
+          "action": "reveal shot-31",
+          "spoken_trigger": "출구 차단"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.196,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 409.25,
+          "action": "reveal shot-32",
+          "spoken_trigger": "저는 그보다"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "출구 차단",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 821,
+      "word_count": 61,
+      "speech_start": 387.34,
+      "speech_end": 415.34
     },
     {
       "id": "s16",
       "type": "horror_story",
-      "start_seconds": 411.141,
-      "end_seconds": 437.206,
-      "duration_seconds": 26.065,
+      "start_seconds": 415.53,
+      "end_seconds": 444.53,
+      "duration_seconds": 29,
       "estimated_words": 56,
       "target_wpm": 128.9,
       "purpose": "작업등의 한계",
@@ -654,33 +694,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 415.53,
+          "action": "reveal shot-33",
+          "spoken_trigger": "작업등의 한계"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.032,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 424.99,
+          "action": "reveal shot-34",
+          "spoken_trigger": "아저씨가 손잡이"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "작업등의 한계",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 882,
+      "word_count": 56,
+      "speech_start": 415.78,
+      "speech_end": 444.32
     },
     {
       "id": "s17",
       "type": "horror_story",
-      "start_seconds": 437.206,
-      "end_seconds": 464.201,
-      "duration_seconds": 26.996,
+      "start_seconds": 444.53,
+      "end_seconds": 473.35,
+      "duration_seconds": 28.82000000000005,
       "estimated_words": 58,
       "target_wpm": 128.9,
       "purpose": "창문 공격",
@@ -695,33 +737,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 444.53,
+          "action": "reveal shot-35",
+          "spoken_trigger": "창문 공격"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 13.498,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 454.07,
+          "action": "reveal shot-36",
+          "spoken_trigger": "젖은 손가락"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "창문 공격",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 938,
+      "word_count": 58,
+      "speech_start": 444.78,
+      "speech_end": 473.16
     },
     {
       "id": "s18",
       "type": "horror_story",
-      "start_seconds": 464.201,
-      "end_seconds": 492.593,
-      "duration_seconds": 28.392,
+      "start_seconds": 473.35,
+      "end_seconds": 502.89,
+      "duration_seconds": 29.539999999999964,
       "estimated_words": 61,
       "target_wpm": 128.9,
       "purpose": "관리인 위기",
@@ -736,33 +780,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 473.35,
+          "action": "reveal shot-37",
+          "spoken_trigger": "관리인 위기"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.196,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 480.21,
+          "action": "reveal shot-38",
+          "spoken_trigger": "작업등은"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "관리인 위기",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 996,
+      "word_count": 61,
+      "speech_start": 473.6,
+      "speech_end": 502.68
     },
     {
       "id": "s19",
       "type": "horror_story",
-      "start_seconds": 492.593,
-      "end_seconds": 520.985,
-      "duration_seconds": 28.392,
+      "start_seconds": 502.89,
+      "end_seconds": 531.33,
+      "duration_seconds": 28.440000000000055,
       "estimated_words": 61,
       "target_wpm": 128.9,
       "purpose": "손전등 회수",
@@ -777,33 +823,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 502.89,
+          "action": "reveal shot-39",
+          "spoken_trigger": "손전등 회수"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.196,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 524.33,
+          "action": "reveal shot-40",
+          "spoken_trigger": "저는 차를 다시"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "손전등 회수",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 1057,
+      "word_count": 61,
+      "speech_start": 503.14,
+      "speech_end": 531.12
     },
     {
       "id": "s20",
       "type": "horror_story",
-      "start_seconds": 520.985,
-      "end_seconds": 549.843,
-      "duration_seconds": 28.857,
+      "start_seconds": 531.33,
+      "end_seconds": 563.03,
+      "duration_seconds": 31.699999999999932,
       "estimated_words": 62,
       "target_wpm": 128.9,
       "purpose": "간신히 구조",
@@ -818,33 +866,45 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 531.33,
+          "action": "reveal shot-41",
+          "spoken_trigger": "간신히 구조"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
+          "time": 544.75,
+          "action": "reveal shot-42",
+          "spoken_trigger": "작업등과"
         },
         {
-          "offset_seconds": 14.429,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 550.37,
+          "action": "reveal shot-43",
+          "spoken_trigger": "그 모습에"
+        },
+        {
+          "time": 558.45,
+          "action": "reveal shot-44",
+          "spoken_trigger": "아저씨가 차를"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "간신히 구조",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 1118,
+      "word_count": 62,
+      "speech_start": 531.58,
+      "speech_end": 562.98
     },
     {
       "id": "s21",
       "type": "horror_story",
-      "start_seconds": 549.843,
-      "end_seconds": 579.165,
-      "duration_seconds": 29.323,
+      "start_seconds": 563.03,
+      "end_seconds": 593.01,
+      "duration_seconds": 29.980000000000018,
       "estimated_words": 63,
       "target_wpm": 128.9,
       "purpose": "탈출 뒤 증거",
@@ -859,33 +919,35 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 563.03,
+          "action": "reveal shot-45",
+          "spoken_trigger": "탈출 뒤 증거"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 14.661,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 570.83,
+          "action": "reveal shot-46",
+          "spoken_trigger": "아저씨 손목에는"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "탈출 뒤 증거",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 1180,
+      "word_count": 63,
+      "speech_start": 563.28,
+      "speech_end": 592.98
     },
     {
       "id": "s22",
       "type": "horror_story",
-      "start_seconds": 579.165,
-      "end_seconds": 609.419,
-      "duration_seconds": 30.254,
+      "start_seconds": 593.01,
+      "end_seconds": 620.65,
+      "duration_seconds": 27.639999999999986,
       "estimated_words": 65,
       "target_wpm": 128.9,
       "purpose": "남은 흔적",
@@ -900,33 +962,30 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
-        },
-        {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 15.127,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 593.01,
+          "action": "reveal shot-47",
+          "spoken_trigger": "남은 흔적"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "남은 흔적",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 1243,
+      "word_count": 65,
+      "speech_start": 593.26,
+      "speech_end": 620.44
     },
     {
       "id": "s23",
       "type": "horror_story",
-      "start_seconds": 609.419,
-      "end_seconds": 642,
-      "duration_seconds": 32.581,
+      "start_seconds": 620.65,
+      "end_seconds": 657.895354,
+      "duration_seconds": 37.24535400000002,
       "estimated_words": 70,
       "target_wpm": 128.9,
       "purpose": "수리점의 재출현",
@@ -941,26 +1000,36 @@
       "motion": "단서에 맞춰 느린 팬/줌과 초점 이동. 2.4초 간격의 미세 조명/가림 변화. 귀신 전체를 조기 노출하지 않는다.",
       "motion_beats": [
         {
-          "offset_seconds": 0,
-          "action": "장소/단서 설정"
+          "time": 620.65,
+          "action": "reveal shot-47",
+          "spoken_trigger": "수리점의 재출현"
         },
         {
-          "offset_seconds": 2.4,
-          "action": "단서 쪽 초점 또는 빛 이동"
-        },
-        {
-          "offset_seconds": 16.29,
-          "action": "두 번째 독립 시점으로 전환"
+          "time": 643.61,
+          "action": "reveal shot-48",
+          "spoken_trigger": "실내등 덮개가"
         }
       ],
       "audio": {
-        "narration": "Bin 추천, 승인 대기",
+        "narration": "Bin 명시 승인, 생성 및 위임 자동 검수 완료",
         "ambience": "잔잔한 야외 전기/도로 소음",
         "foley": "수리점의 재출현",
-        "bgm": "음성 검수 후 후보 승인"
+        "bgm": "cand-02 위임 선정, -18dB 믹싱"
       },
       "transition_out": "대사 단어 타이밍에 맞춰 컷. 단서 선행 최대 0.35초",
-      "shorts_adaptation": "본편 전용"
+      "shorts_adaptation": "본편 전용",
+      "word_offset": 1308,
+      "word_count": 70,
+      "speech_start": 620.9,
+      "speech_end": 653.76
     }
-  ]
+  ],
+  "duration_seconds": 657.895354,
+  "voice_duration_seconds": 653.895354,
+  "outro_seconds": 4,
+  "master_format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  }
 }

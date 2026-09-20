@@ -59,7 +59,8 @@
       "ending": "결정적 정보가 드러나기 직전 완전한 문장으로 끊고 본편 관련 동영상으로 연결",
       "related_video_required_after_upload": true,
       "do_not_rely_on_description_urls": true,
-      "composition": "separate 1080x1920 60fps composition; never center-crop the long-form master"
+      "composition": "separate 1080x1920 60fps composition with newly generated portrait visuals; never extract, crop, or reuse long-form frames or images",
+      "fresh_visual_assets_required": true
     },
     "flagship_longform": {
       "role": "retention_and_identity",

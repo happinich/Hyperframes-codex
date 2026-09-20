@@ -1,0 +1,286 @@
+{
+  "generator": "built-in image_gen",
+  "shorts_policy": "all six freshly generated portrait assets; no longform frame extraction or image reuse",
+  "prompts": [
+    {
+      "id": "shot-01",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Inside a dark blue sedan, a pale wet female hand pressing from OUTSIDE the top of windshield, fingers spread, faded pink sleeve; windshield rim visible. Cold-open clue only. No face."
+    },
+    {
+      "id": "shot-02",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Driver point of view down at illuminated dashboard; clenched male hands in charcoal work sleeves on wheel, no face. At top edge only wet black hair touches outside wiper."
+    },
+    {
+      "id": "shot-03",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Wide establishing view of three self-service car wash bays under one continuous steel roof over a shared exit lane. Small glass office on left, dark blue sedan nose toward exit in middle bay. No ghost or hair."
+    },
+    {
+      "id": "shot-04",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: A compact inspection flashlight resting beside the driver seat in a dark blue sedan, male gloved hand placing it there. Normal mundane start, no ghost."
+    },
+    {
+      "id": "shot-05",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Last customer car driving away beyond a roofed car wash forecourt onto dark suburban road, viewed behind hanging wash hoses. No people or ghost."
+    },
+    {
+      "id": "shot-06",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Empty end wash bay with dry concrete, one tiny wet circular drip mark near floor drain. Cool white fixtures. No ghost, no hair, no person."
+    },
+    {
+      "id": "shot-07",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Close low view of tightly shut brass water valve and a correctly hanging wash hose, dry concrete beyond. No supernatural body visible."
+    },
+    {
+      "id": "shot-08",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Floor drain and small circular water drops in otherwise dry concrete. A male hand holds phone with indistinct muted screen off to side, no readable text, no ghost."
+    },
+    {
+      "id": "shot-09",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Macro on floor squeegee rubber blade catching a long strand of black wet hair, charcoal work glove reaching to lift it. No body."
+    },
+    {
+      "id": "shot-10",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Side-on gloved hand releasing taut black hair stretching vertically upward beyond frame; hair tip lifting clear of dry concrete, ominous negative space. No ghost body."
+    },
+    {
+      "id": "shot-11",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Motionless vinyl pennants at open car wash entrance, desolate dry still night, empty roofed lanes beyond. No ghost."
+    },
+    {
+      "id": "shot-12",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Realistic office security monitor showing empty wash bay with a narrow hanging shadow on floor; no ghost body in monitor, plausible CCTV framing. No readable labels."
+    },
+    {
+      "id": "shot-13",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Close-up white dome CCTV mounted to steel column, pale wet female fingers curling over its lens from above, sleeve faded pink, no face or extra hands."
+    },
+    {
+      "id": "shot-14",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Through office glass an isolated bare pale female foot grips the underside of overhead steel beam, sole pressing upward, dark-gray trouser ankle; rest of figure concealed in shadows. Anatomically coherent."
+    },
+    {
+      "id": "shot-15",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Office desk with mobile telephone held by charcoal-sleeved male hand, printed maintenance contact slip blurred under desk glass, no legible text, ordinary objects."
+    },
+    {
+      "id": "shot-16",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Low crouched view from office floor toward locked glass door, cold white light outside, empty lower doorway; no face, no ghost yet."
+    },
+    {
+      "id": "shot-17",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: End wash bay overhead lighting: one long fluorescent fixture dark, adjacent fixture lit, heavy shadow above steel cross member. Do not show entity."
+    },
+    {
+      "id": "shot-18",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Close-up male hand turning office deadbolt; behind glass a completely empty upper dark area, unease from darkness, no ghost."
+    },
+    {
+      "id": "shot-19",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Long wet black hair hanging outside office door glass, tracked toward the edge of a desk as if following hidden occupant; only hair, no face."
+    },
+    {
+      "id": "shot-20",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Black watery line creeping under closed office door toward work shoes, shadow on low ceiling matching hidden crouching person; no visible full figure."
+    },
+    {
+      "id": "shot-21",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Suspended office ceiling tile lifted slightly, exactly one pale wet hand pushing fingertips through the narrow gap, dark fingernails, faded pink sleeve barely visible, no gore."
+    },
+    {
+      "id": "shot-22",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Low view through open office side door to nearby driver door of dark blue sedan in center wash bay, clear short escape distance, no additional figures."
+    },
+    {
+      "id": "shot-23",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Rear view of a charcoal work-jacket adult man crouching into dark blue sedan driver seat, no face, office side door behind, blue-white light."
+    },
+    {
+      "id": "shot-24",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Interior looking upward: sedan fabric headliner denting downward above driver, plastic dome lamp tilted under pressure. No visible ghost, no face."
+    },
+    {
+      "id": "shot-25",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Looking through sedan windshield toward white compact SUV reversing into covered car wash lane, rear lights toward viewer, no people outside, no ghost body."
+    },
+    {
+      "id": "shot-26",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Wet pale female palm with exactly five fingers against OUTSIDE upper windshield, faded pink sleeve and long wet black hair falling over wiper, no face; viewed from seated driver."
+    },
+    {
+      "id": "shot-27",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Inside passenger window fog shaped like two lips, one bead of condensation running on INTERIOR surface; empty passenger seat visible, no person. Night car wash reflections outside."
+    },
+    {
+      "id": "shot-28",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Wide cabin view from rear seat: empty front passenger seat, wet hand outside windshield top, male driver only shoulders and hands, no face, unnerving empty-space composition."
+    },
+    {
+      "id": "shot-29",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Low interior windshield view following red rear lights of white SUV heading forward toward exit, blue sedan steering wheel bottom, bright exit narrow. No entity visible."
+    },
+    {
+      "id": "shot-30",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Roofed exit lane fluorescent light goes dark while a faded pink sleeve and long hair hangs from roof beam far ahead between cars. No face."
+    },
+    {
+      "id": "shot-31",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Two bare female heels pressed to underside of exit steel beam, dark-gray trouser legs bent unnaturally backward but coherent joints. Only lower legs, no face."
+    },
+    {
+      "id": "shot-32",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Interior sedan dashboard foreground and narrow road toward white SUV, a female silhouette clings flat to roof underside above exit, faded pink top, charcoal trousers, wet hanging hair hides head."
+    },
+    {
+      "id": "shot-33",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Side mirror of blue sedan reflecting three bays descending into darkness, no ghost in mirror, red tail lights and cold fluorescent fragment."
+    },
+    {
+      "id": "shot-34",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: White SUV pulled to RIGHT side of shared exit lane leaving a clear LEFT lane; driver arm holds rectangular work lamp upward through slightly open window, male face hidden. Pale hand approaching beam light above."
+    },
+    {
+      "id": "shot-35",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Extreme close-up wet female palm dragging along outside passenger glass of dark blue sedan, faded pink sleeve, thin black water streak. Exactly five fingers."
+    },
+    {
+      "id": "shot-36",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Single pale fingertip prying rubber seal at upper passenger window from outside, small narrow gap and wet black strand caught inside. No gore, physically plausible rubber deformation."
+    },
+    {
+      "id": "shot-37",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Wide exterior: blue sedan has passed SUV using left lane and is outside roof; white SUV still near roof edge. Dry open forecourt foreground, readable car positions, no people outside."
+    },
+    {
+      "id": "shot-38",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: White SUV driver arm pulled outward through barely open window by pale female hand with pink sleeve reaching down from roof. Driver face obscured inside, other arm not visible. No injury or gore."
+    },
+    {
+      "id": "shot-39",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Inside blue sedan a work-gloved male hand reaches for the small inspection flashlight beside driver seat, empty passenger seat, no ghost shown."
+    },
+    {
+      "id": "shot-40",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Blue sedan angled on UNROOFED forecourt facing roof-edge white SUV, viewed from driver side rear, room to turn safely, no sedan under roof."
+    },
+    {
+      "id": "shot-41",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Driver viewpoint: hands shield flashlight reflection at windshield and aim narrow beam at pale hand gripping SUV driver arm. Focus on light path, no faces."
+    },
+    {
+      "id": "shot-42",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Woman clinging upside down beneath steel beam, faded wet pink top and dark gray trousers, long black hair completely covers face. Her back bends first as arms haul body up, unsettling realistic motion, no extra limbs."
+    },
+    {
+      "id": "shot-43",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: As flashlight beam slips aside, one pale female hand reaches along beam TOWARD blue sedan outside roof; strong dark-versus-light boundary, sleeve pink, no face."
+    },
+    {
+      "id": "shot-44",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: White SUV escaping roof edge while flashlight lights hanging hair just inside shadow, blue sedan safely outside. Final moments before road departure."
+    },
+    {
+      "id": "shot-45",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Two cars parked on shoulder of lit suburban road at night, blue sedan and white SUV, ordinary streetlights; nobody identifiable, roofed wash far away."
+    },
+    {
+      "id": "shot-46",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Close-up middle-aged male wrist with gray finger-shaped pressure marks, no blood, work jacket sleeve, seen under vehicle dome light, no faces."
+    },
+    {
+      "id": "shot-47",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: Daylight inspection of blue sedan roof with a long shallow pressure dent and thin scratches; warped passenger rubber seal also readable, no ghost."
+    },
+    {
+      "id": "shot-48",
+      "purpose": "longform",
+      "prompt": "Use case: photorealistic-natural. ONE full-frame cinematic 16:9 movie still, not collage. Fictional modern Korean horror. Same three-bay steel-roof car wash, glass office left, dark blue compact sedan and white SUV only when specified. Cool white fluorescent and restrained red tail-light palette, dry night unless specified daylight. Authentic materials, mobile-readable shadows, natural perspective. No text, no logo, no watermark. Narrator face never visible. Entity only when specified, wet long black hair hiding face, faded pink long-sleeve top, dark gray trousers, bare feet. No gratuitous gore, no arbitrary figures. Scene: In a daylight workshop, empty sedan passenger seat beneath damp headliner; a single pale fingernail emerges through slightly opening dome lamp housing. Mechanic gloved hand and taut black hair at passenger window edge, no faces. Reserve right third quiet for endscreen."
+    },
+    {
+      "id": "short-new-01",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Extreme low upward view inside empty wash bay: long wet black hair descending toward lens from dark overhead beam, cool fluorescent tubes form towering vertical lines. No ghost face, no body."
+    },
+    {
+      "id": "short-new-02",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Tight vertical shot of gloved fingers releasing one taut wet hair; the strand rises vertically toward distant steel roof. New viewpoint, not matching any widescreen frame."
+    },
+    {
+      "id": "short-new-03",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Vertical from driver lap toward cabin roof: the blue sedan ceiling pressing down, dome lamp bending, red dashboard at bottom, no visible face or entity."
+    },
+    {
+      "id": "short-new-04",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Vertical passenger-side angle across windshield: one pale hand in faded pink sleeve clamped to exterior top corner, long hair over glass; keep bottom third clean for captions."
+    },
+    {
+      "id": "short-new-05",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Extreme vertical macro of empty passenger window with fresh lip-shaped condensation forming INSIDE glass, seat edge low frame; no person visible, no ending reveal."
+    },
+    {
+      "id": "short-new-06",
+      "purpose": "shorts_original",
+      "prompt": "Use case: photorealistic-natural. Create a NEW original 9:16 portrait horror movie image for a standalone teaser, not a crop, not an edit of another image. Korean self-service car wash, cold white fluorescence and dark blue sedan. Natural credible materials and geometry. No text/logos/watermark, no gore. Upper-middle main clue, bottom third readable for captions. Vertical driver POV focused on trembling fingers holding phone low, windshield top swallowed by wet hair outside, narrow cool light; no face, no text. Threat unresolved."
+    },
+    {
+      "id": "thumbnail-a",
+      "purpose": "thumbnail",
+      "prompt": "Create a polished provocative Korean horror YouTube thumbnail, 16:9 1280x720 style. Right side extreme closeup of pale wet female hand gripping outside TOP of windshield of dark blue car, long black hair hanging down, one cold fluorescent line, red accent. NO face or gore. Left side bold huge Korean text exactly \"고개 들지 마\" in white with one red accent word, highly readable on phone, restrained four-color cinematic contrast. No other text, no logos, no watermark."
+    },
+    {
+      "id": "thumbnail-b",
+      "purpose": "thumbnail",
+      "prompt": "Create a distinct provocative Korean horror YouTube thumbnail, 16:9 1280x720 style. From empty car passenger seat, pale lips-shaped fog on INTERIOR glass with black wet hair outside upper corner, cold fluorescent night reflections, ominous physical clue, no person face, no gore. Left side huge bold Korean headline exactly \"차 안에 누구\" in white with red accent, black navy background. Single decisive clue, simple high contrast mobile readable, no other writing or logos."
+    }
+  ]
+}

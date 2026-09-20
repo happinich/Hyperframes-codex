@@ -1,0 +1,235 @@
+{
+  "duration": 19.42,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.16,
+      "text": "세차장 천장에서 머리카락이 내려왔어요. 잡았더니"
+    },
+    {
+      "start": 3.16,
+      "end": 5.96,
+      "text": "누가 위에서 당기더라고요. 차에 숨었는데"
+    },
+    {
+      "start": 5.96,
+      "end": 9.42,
+      "text": "지붕이 천천히 찌그러졌습니다. 앞유리 위로"
+    },
+    {
+      "start": 9.42,
+      "end": 12.68,
+      "text": "젖은 손이 내려왔어요. 그런데 숨소리는 빈"
+    },
+    {
+      "start": 12.68,
+      "end": 16.0,
+      "text": "조수석에서 났어요. 관리인이 소리쳤습니다. 고개"
+    },
+    {
+      "start": 16.0,
+      "end": 19.42,
+      "text": "들지 마요. 저 여자, 눈 마주치면 떨어져요."
+    }
+  ],
+  "words": [
+    {
+      "text": "세차장",
+      "start": 0.0,
+      "end": 0.56,
+      "matched": true
+    },
+    {
+      "text": "천장에서",
+      "start": 0.56,
+      "end": 1.12,
+      "matched": true
+    },
+    {
+      "text": "머리카락이",
+      "start": 1.12,
+      "end": 1.68,
+      "matched": true
+    },
+    {
+      "text": "내려왔어요.",
+      "start": 1.68,
+      "end": 2.18,
+      "matched": true
+    },
+    {
+      "text": "잡았더니",
+      "start": 2.52,
+      "end": 3.16,
+      "matched": true
+    },
+    {
+      "text": "누가",
+      "start": 3.16,
+      "end": 3.72,
+      "matched": true
+    },
+    {
+      "text": "위에서",
+      "start": 3.72,
+      "end": 4.12,
+      "matched": true
+    },
+    {
+      "text": "당기더라고요.",
+      "start": 4.12,
+      "end": 4.7,
+      "matched": true
+    },
+    {
+      "text": "차에",
+      "start": 5.12,
+      "end": 5.52,
+      "matched": true
+    },
+    {
+      "text": "숨었는데",
+      "start": 5.52,
+      "end": 5.96,
+      "matched": true
+    },
+    {
+      "text": "지붕이",
+      "start": 5.96,
+      "end": 7.02,
+      "matched": true
+    },
+    {
+      "text": "천천히",
+      "start": 7.02,
+      "end": 7.56,
+      "matched": true
+    },
+    {
+      "text": "찌그러졌습니다.",
+      "start": 7.56,
+      "end": 8.28,
+      "matched": true
+    },
+    {
+      "text": "앞유리",
+      "start": 8.64,
+      "end": 9.18,
+      "matched": true
+    },
+    {
+      "text": "위로",
+      "start": 9.18,
+      "end": 9.42,
+      "matched": true
+    },
+    {
+      "text": "젖은",
+      "start": 9.42,
+      "end": 9.76,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 9.76,
+      "end": 10.0,
+      "matched": true
+    },
+    {
+      "text": "내려왔어요.",
+      "start": 10.0,
+      "end": 10.54,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 10.82,
+      "end": 11.26,
+      "matched": true
+    },
+    {
+      "text": "숨소리는",
+      "start": 11.26,
+      "end": 12.32,
+      "matched": true
+    },
+    {
+      "text": "빈",
+      "start": 12.32,
+      "end": 12.68,
+      "matched": true
+    },
+    {
+      "text": "조수석에서",
+      "start": 12.68,
+      "end": 13.28,
+      "matched": true
+    },
+    {
+      "text": "났어요.",
+      "start": 13.28,
+      "end": 13.68,
+      "matched": true
+    },
+    {
+      "text": "관리인이",
+      "start": 13.98,
+      "end": 14.56,
+      "matched": true
+    },
+    {
+      "text": "소리쳤습니다.",
+      "start": 14.56,
+      "end": 15.3,
+      "matched": true
+    },
+    {
+      "text": "고개",
+      "start": 15.6,
+      "end": 16.0,
+      "matched": true
+    },
+    {
+      "text": "들지",
+      "start": 16.0,
+      "end": 16.24,
+      "matched": true
+    },
+    {
+      "text": "마요.",
+      "start": 16.24,
+      "end": 16.5,
+      "matched": true
+    },
+    {
+      "text": "저",
+      "start": 16.7,
+      "end": 17.36,
+      "matched": true
+    },
+    {
+      "text": "여자,",
+      "start": 17.36,
+      "end": 17.64,
+      "matched": true
+    },
+    {
+      "text": "눈",
+      "start": 17.92,
+      "end": 18.4,
+      "matched": true
+    },
+    {
+      "text": "마주치면",
+      "start": 18.4,
+      "end": 18.96,
+      "matched": true
+    },
+    {
+      "text": "떨어져요.",
+      "start": 18.96,
+      "end": 19.42,
+      "matched": true
+    }
+  ]
+}

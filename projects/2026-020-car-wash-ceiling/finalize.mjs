@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+const P=path.dirname(new URL(import.meta.url).pathname),id=path.basename(P);
+const read=p=>JSON.parse(fs.readFileSync(path.join(P,p)));
+for(const name of ['youtube-media-check','shorts-media-check','layout-check','shorts-originality-check'])if(read(`05_review/${name}.json`).status!=='pass')throw Error(name+' failed');
+if(read('05_review/publish-check.json').some(x=>x.status!=='pass'))throw Error('Publishing QA failed');
+if(read('03_sync/sync_report.json').matched_character_ratio<.92||read('03_sync/shorts-sync_report.json').matched_character_ratio<.92)throw Error('Alignment gate');
+const plan=read('01_script/scene-plan.json'),short=read('01_script/shorts-scene-plan.json');
+if(plan.duration_seconds<630||plan.duration_seconds>660||short.duration<15||short.duration>40)throw Error('Duration gate');
+const required=[`06_delivery/youtube/${id}-youtube.mp4`,`06_delivery/shorts/${id}-shorts.mp4`,'03_sync/captions.srt','03_sync/captions.vtt','03_sync/shorts-captions.srt','03_sync/shorts-captions.vtt','07_publish/youtube/thumbnail-a.jpg','07_publish/youtube/thumbnail-b.jpg','07_publish/youtube/youtube-publish.html','07_publish/shorts/shorts-publish.html'];
+for(const name of required)if(!fs.statSync(path.join(P,name)).size)throw Error('Missing '+name);
+const narration=fs.readFileSync(path.join(P,'01_script/narration.txt'),'utf8').trim();
+if(read('03_sync/captions.words.json').words.map(w=>w.text).join(' ')!==narration.replace(/\s+/g,' '))throw Error('Caption text differs');
+const shortNarration=fs.readFileSync(path.join(P,'01_script/shorts-narration.txt'),'utf8').trim();
+if(read('03_sync/shorts-captions.words.json').words.map(w=>w.text).join(' ')!==shortNarration.replace(/\s+/g,' '))throw Error('Short caption text differs');
+plan.status='complete_after_delegated_review';plan.bgm_status='cand-02_selected_under_delegated_review';
+for(const scene of plan.scenes){scene.audio.narration='Bin 명시 승인, 생성 및 위임 자동 검수 완료';scene.audio.bgm='cand-02 위임 선정, -18dB 믹싱';}
+fs.writeFileSync(path.join(P,'01_script/scene-plan.json'),JSON.stringify(plan,null,2)+'\n');
+const report={status:'complete',project_id:id,title:'세차장 천장의 여자',content_nature:'fiction',production_profile:'horror_cinematic_story_v1',visual_style:'horror_cinematic',longform_duration_seconds:plan.duration_seconds,shorts_duration_seconds:short.duration,fps:60,longform_unique_images:48,shorts_fresh_images:6,uploaded:false,artifacts:required,review_scope:'automated ASR and audio signal checks; source composition and encoded-frame visual inspection; no claim of human full-length listening'};
+fs.writeFileSync(path.join(P,'06_delivery/delivery.json'),JSON.stringify(report,null,2)+'\n');
+console.log(report);

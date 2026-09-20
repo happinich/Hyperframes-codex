@@ -148,6 +148,9 @@ silently carry a previous project's style or BGM into a new project.
 - New Shorts projects default to `1080x1920`, 9:16, 60fps.
 - Recompose Shorts for the vertical canvas; never satisfy this requirement with
   a simple center crop of the 16:9 master.
+- Generate fresh portrait visual assets for each Short. Do not reuse long-form
+  images, extract long-form frames, or crop the master. Keep generation provenance
+  and verify that Shorts asset paths and hashes differ from the long-form assets.
 - Generate Shorts narration from a separately approved script. For Eleven V3,
   keep the normal generation settings and apply a pitch-preserving 1.05-1.10x
   postprocess only after generation; use 1.07x by default and review it by ear.
