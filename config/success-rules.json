@@ -319,6 +319,18 @@
       "target_discovered_duration_source": "audio_or_last_scene_end"
     }
   },
+  "image_review_rules": {
+    "required": true,
+    "scope": ["longform", "shorts", "thumbnails"],
+    "minimum_visual_review_passes": 2,
+    "passes": ["inspect each full-resolution image after generation", "reinspect every selected image against narration and adjacent scenes before rendering"],
+    "checks": ["anatomy and hands", "object geometry and physical contact", "character and entity continuity", "vehicle and spatial orientation", "narration match and reveal timing", "unintended faces or text", "mobile clue readability and crop safety"],
+    "distinguish_intentional_horror_from_generation_errors": true,
+    "failed_or_uncertain_asset_action": "Exclude from render; regenerate with a corrected prompt and repeat both visual review passes. Do not waive unresolved defects after a fixed retry count.",
+    "record_path": "05_review/image-review.md",
+    "record_fields": ["asset_id", "file_or_hash", "pass_1_result", "pass_2_result", "defects", "regeneration_history", "final_decision"],
+    "automated_checks_do_not_replace_visual_inspection": true
+  },
   "render_rules": {
     "commands": [
       "npm run hf:lint -- <project>/04_composition",

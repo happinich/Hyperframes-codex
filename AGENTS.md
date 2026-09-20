@@ -141,6 +141,19 @@ silently carry a previous project's style or BGM into a new project.
 - Animate tables, charts, routes, connectors, and comparisons instead of showing
   them as motionless illustrations.
 - Use only local, licensed, generated, or otherwise permitted visual assets.
+- Apply `config/success-rules.json` image_review_rules to every long-form,
+  Shorts, and thumbnail image. Inspect each full-resolution image after generation,
+  then inspect it again against narration and adjacent scenes before rendering.
+- Check anatomy, hands, object geometry, physical contact, character/entity
+  continuity, vehicle direction, spatial layout, reveal timing, unintended faces
+  or text, and mobile readability. Distinguish intentional supernatural design
+  from accidental generation defects. Contact sheets and automated checks alone
+  do not replace individual visual inspection.
+- Exclude flawed or uncertain images, regenerate with corrected prompts, and
+  repeat both checks on each replacement. Never accept an unresolved defect just
+  because a retry limit was reached. Record asset identity, both review results,
+  defects, replacements, and final decisions in `05_review/image-review.md`.
+  Render only approved images and inspect their crops and motion again in output.
 
 ## Frame Rate And Delivery
 
