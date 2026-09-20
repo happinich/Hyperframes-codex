@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>세차장 천장의 여자 · 음성 검토</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0d151a;color:#eef3f5;font-family:system-ui,sans-serif;line-height:1.8}main{max-width:850px;margin:48px auto;padding:24px}h1{line-height:1.35}section{background:#19242b;border:1px solid #384952;border-radius:16px;padding:24px;margin:24px 0}audio{width:100%}a{color:#8be1e2}button{padding:10px 15px;margin:5px;border-radius:8px;border:1px solid #48616b;background:#243942;color:#fff;cursor:pointer}.label{color:#a6bdc7;font-size:14px}li{margin:8px 0}
+</style>
+<main>
+<p class="label">창작 공포 · Bin 남성 · 보강 대본</p>
+<h1>세차장 천장의 여자</h1>
+<p>음성 검토본입니다. BGM과 영상은 아직 적용하지 않았습니다.</p>
+<section><h2>전체 음성 · 약 10분 54초</h2>
+<audio id="voice" controls preload="metadata" src="narration-review.mp3"></audio>
+<p>긴 문장 사이 무음 보정 후, 음높이를 유지하는 1.10배 속도 보정을 적용했습니다. 원본은 별도로 보존했습니다.</p>
+<button data-time="0">처음 듣기</button><button data-time="280">중반 듣기</button><button data-time="595">결말 듣기</button>
+</section>
+<section><h2>이번 대본 보강</h2><ul>
+<li>숨어도 정확히 머리 위를 따라오는 추적.</li>
+<li>유리 밖의 손과 동시에, 빈 조수석 안쪽에서 생기는 숨결.</li>
+<li>빛을 비춰도 버티는 위협과 간신히 빠져나오는 구조.</li>
+<li>수리점 실내등 틈에서 다시 나오는 손톱으로 끝나는 결말.</li>
+</ul><a href="../01_script/대본-전체검토.md">수정 대본 전체 보기</a></section>
+<p class="label">자동 정렬·무음 검수는 전체 청취를 대체하지 않습니다. 발음, 청취 피로, 말의 자연스러움을 확인하는 단계입니다. 음성 확인 후 BGM 후보 선택과 영상 제작으로 진행합니다.</p>
+</main>
+<script>document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{const a=document.getElementById('voice');a.currentTime=Number(b.dataset.time);a.play().catch(()=>{});}));</script>
+</html>

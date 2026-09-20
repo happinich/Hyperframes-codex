@@ -20,17 +20,17 @@ const visuals = [
   ['천장 침입', '들린 천장판과 손가락', '측문과 가까운 세단 운전석'],
   ['차량 피신', '낮게 달리는 주인공과 열린 운전석', '찌그러지는 차량 내장재와 실내등'],
   ['앞유리의 여자', '흰 SUV와 붉은 후미등', '분홍 소매의 손과 와이퍼까지 내려온 머리카락'],
-  ['시선 유혹', '계기판 아래로 내린 시선', '얼굴을 가린 머리카락 뒤 불분명한 윤곽'],
+  ['차 안의 숨결', '조수석 유리 안쪽의 입술 모양 김과 물기', '밖에 붙은 손과 빈 조수석의 대비'],
   ['탈출 시작', '후미등을 따라 구르는 차량 바퀴', '앞유리에서 떨어지는 손과 꺼지는 진입로 조명'],
   ['출구 차단', '두 차량 사이 천장에 붙은 발', '반대로 접히는 무릎 일부와 분홍 옷자락'],
-  ['작업등', '뒤쪽 칸부터 어두워지는 사이드미러', '작업등 빛을 피하는 발과 열린 통로'],
+  ['작업등의 한계', '뒤쪽 칸부터 어두워지는 사이드미러', '빛 속으로 내려오는 손과 오른쪽으로 비켜선 SUV'],
   ['창문 공격', '유리에 미끄러지는 손바닥', '몰딩을 벌리는 손가락과 앞으로 튀는 차'],
   ['관리인 위기', '지붕 밖 세단과 안쪽 흰 SUV 위치', '창문으로 당겨지는 관리인의 팔'],
   ['손전등 회수', '운전석 옆 손전등과 앞유리 물자국', '지붕 바깥에서 방향을 바꾸는 세단'],
-  ['빛으로 구조', '유리 반사를 가리며 비추는 두 손', '철골을 잡고 거꾸로 접혀 올라가는 여자'],
+  ['간신히 구조', '유리 반사를 가리며 비추는 두 손', '빛이 비끼자 주인공 쪽 철골을 다시 잡는 여자'],
   ['탈출 뒤 증거', '공도 옆 두 차량', '잿빛 손가락 자국이 남은 관리인 손목'],
   ['남은 흔적', '낮에 드러난 지붕의 긴 자국', '밖으로 뒤집힌 창문 몰딩'],
-  ['수리점의 잔상', '몰딩에서 끝없이 나오는 머리카락', '빈 조수석 위 내장재에 번지는 젖은 자국'],
+  ['수리점의 재출현', '머리카락에 끌려가는 정비사의 장갑', '젖은 실내등 틈으로 나오는 손톱'],
 ];
 if (paragraphs.length !== visuals.length || /\d/.test(narration)) throw Error('Paragraph or numeral mismatch');
 const words = s => s.split(/\s+/).length;
@@ -58,9 +58,9 @@ const scenes = paragraphs.map((text, i) => {
   start = end;
   return scene;
 });
-const plan = {project_id: '2026-020-car-wash-ceiling', status: 'draft_awaiting_script_approval', content_nature: 'fiction', production_profile: 'horror_cinematic_story_v1', visual_style: 'horror_cinematic', visual_style_status: 'proposed_not_approved', voice_status: 'proposed_not_approved', timing_source: 'estimated_word_weighted_not_audio_aligned', target_total_seconds: 646, narration_seconds_estimate: 642, bgm_outro_seconds: 4, width: 1920, height: 1080, fps: 60, image_count: 48, scenes};
+const plan = {project_id: '2026-020-car-wash-ceiling', status: 'script_review_delegated_and_completed', content_nature: 'fiction', production_profile: 'horror_cinematic_story_v1', visual_style: 'horror_cinematic', visual_style_status: 'explicitly_approved', voice_status: 'Bin_explicitly_approved', bgm_status: 'not_selected', timing_source: 'estimated_word_weighted_not_audio_aligned', target_total_seconds: 646, narration_seconds_estimate: 642, bgm_outro_seconds: 4, width: 1920, height: 1080, fps: 60, image_count: 48, scenes};
 fs.writeFileSync(path.join(dir, 'scene-plan.json'), JSON.stringify(plan, null, 2) + '\n');
 const clock = seconds => `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
 fs.writeFileSync(path.join(dir, 'scene-plan.md'), '# 초 단위 장면 계획\n\n모든 시간은 녹음 전 추정입니다. 목표 10분 46초이며 실제 음성으로 다시 정렬합니다.\n\n| 예상 구간 | 사건 | 이미지 |\n| --- | --- | --- |\n' + scenes.map(s => `| ${clock(s.start_seconds)}–${clock(s.end_seconds)} | ${s.purpose} | ${s.visual.join(' / ')} |`).join('\n') + '\n\n공간 소개 네 장, 나머지 단락 두 장씩 총 48장. 마지막 18초 오른쪽 엔드스크린 영역 확보. 물소리는 도입 약 40~50초 지점에 배치하며 실제 음성에서 재확인한다.\n');
-fs.writeFileSync(path.join(dir, '대본-전체검토.md'), '# 세차장 천장의 여자\n\n창작 공포 · 약 10분 30초~11분 목표 · 전체 대본 검토본\n\n추천 보이스: Bin 남성. 음성은 아직 생성하지 않았습니다.\n\n## 본편 전체 대본\n\n' + narration + '\n\n## 쇼츠 별도 대본 · 승인 대기\n\n' + fs.readFileSync(path.join(dir, 'shorts-narration.txt'), 'utf8') + '\n\n## 제작 방향 · 별도 승인 대기\n\n호러 시네마틱: 차가운 형광등, 붉은 후미등, 젖은 철골과 유리. 본편 이미지 48장 계획, 60fps. 실제 길이는 녹음 후 확정합니다.\n');
+fs.writeFileSync(path.join(dir, '대본-전체검토.md'), '# 세차장 천장의 여자\n\n창작 공포 · 약 10분 30초~11분 목표 · 추가 검수 반영본\n\n사용자 위임에 따라 대본을 보강·검수했습니다. Bin 남성과 추천 화면 스타일은 별도로 승인되었습니다. 제작 진행 상태는 프로젝트 05_review 기록을 참고하세요.\n\n## 본편 전체 대본\n\n' + narration + '\n\n## 쇼츠 별도 대본 · 승인 대기\n\n' + fs.readFileSync(path.join(dir, 'shorts-narration.txt'), 'utf8') + '\n\n## 승인된 제작 방향\n\n호러 시네마틱: 차가운 형광등, 붉은 후미등, 젖은 철골과 유리. 본편 이미지 48장 계획, 60fps. 실제 길이는 녹음 후 확정합니다. BGM은 음성 검수 후 별도로 선택합니다.\n');
 console.log(JSON.stringify({paragraphs: paragraphs.length, words: words(narration), plannedVoiceSeconds: targetVoice, impliedWpm: words(narration) / targetVoice * 60, images: scenes.reduce((n,s)=>n+s.image_count,0)}));

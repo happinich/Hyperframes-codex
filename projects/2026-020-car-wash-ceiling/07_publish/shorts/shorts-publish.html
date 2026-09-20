@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shorts 게시 도우미 · 세차장 천장의 여자</title>
+  <style>
+    :root{--bg:#080a10;--card:#121722;--line:#30394b;--text:#f6f8fc;--muted:#a9b2c1;--red:#ff2858;--teal:#56d8ce}*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#05070c,#111827);color:var(--text);font-family:Arial,"Apple SD Gothic Neo",sans-serif;line-height:1.65}main{max-width:960px;margin:auto;padding:38px 22px 80px}.hero,section{padding:28px;border:1px solid var(--line);border-radius:20px;background:rgba(18,23,34,.95)}section{margin-top:22px}h1{margin:4px 0 8px;font-size:34px}h2{margin:0 0 14px}.label{color:var(--teal);font-size:13px;font-weight:900;letter-spacing:.15em}.copy{white-space:pre-wrap;margin-top:12px;padding:17px;border:1px solid #364155;border-radius:12px;background:#080b12}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}button,a{border:0;border-radius:10px;padding:11px 15px;background:var(--red);color:#fff;font-weight:800;text-decoration:none;cursor:pointer}.secondary{background:#263247}.notice{border-left:4px solid var(--red);padding:14px 16px;background:#180c13}.toast{position:fixed;right:22px;bottom:22px;padding:12px 17px;border-radius:9px;background:var(--teal);color:#041312;font-weight:900;opacity:0;transition:.2s}.toast.show{opacity:1}
+  </style>
+</head>
+<body><main>
+  <div class="hero"><div class="label">YOUTUBE SHORTS KIT</div><h1>세차장 천장의 여자</h1><p>세로 영상과 자막을 열고 게시 문구를 한 번에 복사합니다.</p><div class="actions"><button onclick="copyAll()">전체 복사</button><a href="../../06_delivery/shorts/2026-020-car-wash-ceiling-shorts.mp4">쇼츠 영상 열기</a><a href="../../06_delivery/shorts/2026-020-car-wash-ceiling-shorts-ko.srt">SRT 열기</a><a href="../../06_delivery/shorts/2026-020-car-wash-ceiling-shorts-ko.vtt">VTT 열기</a></div></div>
+  <section><h2>제목</h2><button class="secondary" onclick="copyText('title')">복사</button><div id="title" class="copy">{{SHORTS_TITLE}} #shorts</div></section>
+  <section><h2>설명</h2><button class="secondary" onclick="copyText('description')">복사</button><div id="description" class="copy">{{SHORTS_DESCRIPTION}}
+
+{{CONTENT_NATURE_NOTICE}}
+
+#공포이야기 #무서운이야기 #괴담 #shorts</div></section>
+  <section><h2>고정 댓글</h2><button class="secondary" onclick="copyText('pinned')">복사</button><div id="pinned" class="copy">{{SHORTS_PINNED_COMMENT}}</div></section>
+  <section><h2>본편 연결</h2><p class="notice">YouTube Studio의 <strong>관련 동영상</strong>에서 반드시 아래 본편을 지정합니다.</p><div id="related" class="copy">{{RELATED_LONGFORM_TITLE}}</div></section>
+  <section><h2>추천 게시 시간</h2><div id="time" class="copy">{{RECOMMENDED_PUBLISH_TIME_KST}}</div></section>
+</main><div id="toast" class="toast">복사했습니다</div><script>const ids=['title','description','pinned','related','time'];async function write(v){try{await navigator.clipboard.writeText(v)}catch(e){const a=document.createElement('textarea');a.value=v;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1200)}function copyText(id){write(document.getElementById(id).textContent.trim())}function copyAll(){write(ids.map(id=>`[${id}]\n${document.getElementById(id).textContent.trim()}`).join('\n\n'))}</script></body>
+</html>

@@ -1,0 +1,1605 @@
+{
+  "status": "pacing_review_required",
+  "duration": 884.4,
+  "word_count": 1378,
+  "average_wpm": 93.5,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 208,
+  "long_silences": [
+    {
+      "start": 3.605,
+      "end": 5.317,
+      "duration": 1.712
+    },
+    {
+      "start": 10.341,
+      "end": 11.735,
+      "duration": 1.394
+    },
+    {
+      "start": 15.469,
+      "end": 16.793,
+      "duration": 1.324
+    },
+    {
+      "start": 20.406,
+      "end": 21.949,
+      "duration": 1.543
+    },
+    {
+      "start": 25.811,
+      "end": 27.801,
+      "duration": 1.99
+    },
+    {
+      "start": 34.118,
+      "end": 35.575,
+      "duration": 1.457
+    },
+    {
+      "start": 37.595,
+      "end": 38.793,
+      "duration": 1.198
+    },
+    {
+      "start": 42.989,
+      "end": 44.529,
+      "duration": 1.54
+    },
+    {
+      "start": 48.226,
+      "end": 49.555,
+      "duration": 1.329
+    },
+    {
+      "start": 54.322,
+      "end": 55.898,
+      "duration": 1.576
+    },
+    {
+      "start": 58.58,
+      "end": 59.916,
+      "duration": 1.336
+    },
+    {
+      "start": 63.392,
+      "end": 64.937,
+      "duration": 1.545
+    },
+    {
+      "start": 68.016,
+      "end": 69.481,
+      "duration": 1.465
+    },
+    {
+      "start": 75.787,
+      "end": 77.487,
+      "duration": 1.7
+    },
+    {
+      "start": 80.235,
+      "end": 81.461,
+      "duration": 1.227
+    },
+    {
+      "start": 83.211,
+      "end": 84.442,
+      "duration": 1.231
+    },
+    {
+      "start": 89.315,
+      "end": 90.73,
+      "duration": 1.415
+    },
+    {
+      "start": 93.262,
+      "end": 94.481,
+      "duration": 1.219
+    },
+    {
+      "start": 96.729,
+      "end": 98.021,
+      "duration": 1.292
+    },
+    {
+      "start": 102.048,
+      "end": 103.335,
+      "duration": 1.287
+    },
+    {
+      "start": 105.049,
+      "end": 106.312,
+      "duration": 1.263
+    },
+    {
+      "start": 107.381,
+      "end": 108.549,
+      "duration": 1.168
+    },
+    {
+      "start": 110.399,
+      "end": 111.462,
+      "duration": 1.063
+    },
+    {
+      "start": 115.604,
+      "end": 116.939,
+      "duration": 1.334
+    },
+    {
+      "start": 118.11,
+      "end": 119.269,
+      "duration": 1.158
+    },
+    {
+      "start": 123.062,
+      "end": 124.089,
+      "duration": 1.027
+    },
+    {
+      "start": 125.493,
+      "end": 126.777,
+      "duration": 1.284
+    },
+    {
+      "start": 128.867,
+      "end": 129.998,
+      "duration": 1.131
+    },
+    {
+      "start": 131.68,
+      "end": 132.819,
+      "duration": 1.139
+    },
+    {
+      "start": 136.0,
+      "end": 137.259,
+      "duration": 1.258
+    },
+    {
+      "start": 141.99,
+      "end": 143.236,
+      "duration": 1.246
+    },
+    {
+      "start": 147.021,
+      "end": 148.153,
+      "duration": 1.132
+    },
+    {
+      "start": 151.049,
+      "end": 152.254,
+      "duration": 1.205
+    },
+    {
+      "start": 154.403,
+      "end": 155.524,
+      "duration": 1.121
+    },
+    {
+      "start": 159.84,
+      "end": 161.135,
+      "duration": 1.295
+    },
+    {
+      "start": 165.103,
+      "end": 166.313,
+      "duration": 1.209
+    },
+    {
+      "start": 169.07,
+      "end": 170.21,
+      "duration": 1.14
+    },
+    {
+      "start": 173.874,
+      "end": 175.07,
+      "duration": 1.196
+    },
+    {
+      "start": 176.34,
+      "end": 177.287,
+      "duration": 0.947
+    },
+    {
+      "start": 181.259,
+      "end": 182.755,
+      "duration": 1.497
+    },
+    {
+      "start": 185.097,
+      "end": 186.52,
+      "duration": 1.423
+    },
+    {
+      "start": 188.63,
+      "end": 189.544,
+      "duration": 0.914
+    },
+    {
+      "start": 192.992,
+      "end": 194.551,
+      "duration": 1.559
+    },
+    {
+      "start": 197.842,
+      "end": 199.037,
+      "duration": 1.195
+    },
+    {
+      "start": 202.246,
+      "end": 203.686,
+      "duration": 1.44
+    },
+    {
+      "start": 208.017,
+      "end": 208.968,
+      "duration": 0.951
+    },
+    {
+      "start": 213.534,
+      "end": 214.711,
+      "duration": 1.177
+    },
+    {
+      "start": 217.651,
+      "end": 218.957,
+      "duration": 1.306
+    },
+    {
+      "start": 223.06,
+      "end": 224.22,
+      "duration": 1.16
+    },
+    {
+      "start": 225.796,
+      "end": 226.67,
+      "duration": 0.873
+    },
+    {
+      "start": 228.339,
+      "end": 229.414,
+      "duration": 1.075
+    },
+    {
+      "start": 238.217,
+      "end": 239.594,
+      "duration": 1.378
+    },
+    {
+      "start": 242.799,
+      "end": 243.799,
+      "duration": 1.0
+    },
+    {
+      "start": 246.855,
+      "end": 247.827,
+      "duration": 0.972
+    },
+    {
+      "start": 249.98,
+      "end": 250.871,
+      "duration": 0.891
+    },
+    {
+      "start": 253.675,
+      "end": 254.963,
+      "duration": 1.288
+    },
+    {
+      "start": 256.374,
+      "end": 257.486,
+      "duration": 1.111
+    },
+    {
+      "start": 259.433,
+      "end": 260.296,
+      "duration": 0.863
+    },
+    {
+      "start": 262.046,
+      "end": 262.934,
+      "duration": 0.889
+    },
+    {
+      "start": 264.528,
+      "end": 265.593,
+      "duration": 1.065
+    },
+    {
+      "start": 271.558,
+      "end": 272.732,
+      "duration": 1.173
+    },
+    {
+      "start": 275.423,
+      "end": 276.474,
+      "duration": 1.05
+    },
+    {
+      "start": 281.541,
+      "end": 282.604,
+      "duration": 1.063
+    },
+    {
+      "start": 284.285,
+      "end": 285.141,
+      "duration": 0.855
+    },
+    {
+      "start": 286.918,
+      "end": 287.884,
+      "duration": 0.966
+    },
+    {
+      "start": 289.324,
+      "end": 290.386,
+      "duration": 1.063
+    },
+    {
+      "start": 293.977,
+      "end": 295.031,
+      "duration": 1.054
+    },
+    {
+      "start": 296.668,
+      "end": 297.653,
+      "duration": 0.985
+    },
+    {
+      "start": 299.788,
+      "end": 300.888,
+      "duration": 1.1
+    },
+    {
+      "start": 302.831,
+      "end": 303.916,
+      "duration": 1.085
+    },
+    {
+      "start": 305.256,
+      "end": 306.215,
+      "duration": 0.959
+    },
+    {
+      "start": 309.044,
+      "end": 309.914,
+      "duration": 0.871
+    },
+    {
+      "start": 314.793,
+      "end": 315.895,
+      "duration": 1.102
+    },
+    {
+      "start": 317.817,
+      "end": 318.729,
+      "duration": 0.912
+    },
+    {
+      "start": 321.063,
+      "end": 322.113,
+      "duration": 1.05
+    },
+    {
+      "start": 323.983,
+      "end": 325.029,
+      "duration": 1.046
+    },
+    {
+      "start": 328.141,
+      "end": 329.24,
+      "duration": 1.099
+    },
+    {
+      "start": 330.509,
+      "end": 331.672,
+      "duration": 1.163
+    },
+    {
+      "start": 334.134,
+      "end": 335.05,
+      "duration": 0.916
+    },
+    {
+      "start": 340.426,
+      "end": 341.623,
+      "duration": 1.196
+    },
+    {
+      "start": 342.925,
+      "end": 343.88,
+      "duration": 0.955
+    },
+    {
+      "start": 346.531,
+      "end": 347.512,
+      "duration": 0.981
+    },
+    {
+      "start": 353.852,
+      "end": 354.767,
+      "duration": 0.915
+    },
+    {
+      "start": 356.991,
+      "end": 358.544,
+      "duration": 1.553
+    },
+    {
+      "start": 362.324,
+      "end": 363.754,
+      "duration": 1.43
+    },
+    {
+      "start": 367.38,
+      "end": 368.741,
+      "duration": 1.361
+    },
+    {
+      "start": 373.63,
+      "end": 375.119,
+      "duration": 1.489
+    },
+    {
+      "start": 377.964,
+      "end": 379.381,
+      "duration": 1.417
+    },
+    {
+      "start": 382.047,
+      "end": 383.237,
+      "duration": 1.19
+    },
+    {
+      "start": 386.785,
+      "end": 388.13,
+      "duration": 1.345
+    },
+    {
+      "start": 391.865,
+      "end": 393.327,
+      "duration": 1.462
+    },
+    {
+      "start": 395.88,
+      "end": 397.107,
+      "duration": 1.227
+    },
+    {
+      "start": 401.179,
+      "end": 402.434,
+      "duration": 1.254
+    },
+    {
+      "start": 405.94,
+      "end": 407.138,
+      "duration": 1.197
+    },
+    {
+      "start": 409.231,
+      "end": 410.452,
+      "duration": 1.221
+    },
+    {
+      "start": 412.648,
+      "end": 413.856,
+      "duration": 1.208
+    },
+    {
+      "start": 416.519,
+      "end": 417.793,
+      "duration": 1.274
+    },
+    {
+      "start": 420.46,
+      "end": 421.733,
+      "duration": 1.274
+    },
+    {
+      "start": 424.785,
+      "end": 426.08,
+      "duration": 1.295
+    },
+    {
+      "start": 429.064,
+      "end": 430.196,
+      "duration": 1.132
+    },
+    {
+      "start": 433.963,
+      "end": 435.392,
+      "duration": 1.429
+    },
+    {
+      "start": 437.497,
+      "end": 438.639,
+      "duration": 1.142
+    },
+    {
+      "start": 441.438,
+      "end": 442.741,
+      "duration": 1.303
+    },
+    {
+      "start": 446.72,
+      "end": 447.954,
+      "duration": 1.234
+    },
+    {
+      "start": 449.94,
+      "end": 450.944,
+      "duration": 1.004
+    },
+    {
+      "start": 453.044,
+      "end": 454.252,
+      "duration": 1.208
+    },
+    {
+      "start": 458.027,
+      "end": 459.192,
+      "duration": 1.165
+    },
+    {
+      "start": 461.226,
+      "end": 462.418,
+      "duration": 1.193
+    },
+    {
+      "start": 464.65,
+      "end": 466.209,
+      "duration": 1.559
+    },
+    {
+      "start": 468.38,
+      "end": 469.508,
+      "duration": 1.128
+    },
+    {
+      "start": 473.52,
+      "end": 474.702,
+      "duration": 1.183
+    },
+    {
+      "start": 476.184,
+      "end": 477.417,
+      "duration": 1.233
+    },
+    {
+      "start": 480.128,
+      "end": 481.333,
+      "duration": 1.204
+    },
+    {
+      "start": 486.974,
+      "end": 488.253,
+      "duration": 1.279
+    },
+    {
+      "start": 491.0,
+      "end": 492.208,
+      "duration": 1.208
+    },
+    {
+      "start": 495.617,
+      "end": 496.796,
+      "duration": 1.179
+    },
+    {
+      "start": 500.905,
+      "end": 502.091,
+      "duration": 1.186
+    },
+    {
+      "start": 505.492,
+      "end": 506.628,
+      "duration": 1.136
+    },
+    {
+      "start": 508.956,
+      "end": 509.961,
+      "duration": 1.005
+    },
+    {
+      "start": 512.543,
+      "end": 513.76,
+      "duration": 1.217
+    },
+    {
+      "start": 518.9,
+      "end": 520.147,
+      "duration": 1.247
+    },
+    {
+      "start": 522.044,
+      "end": 523.153,
+      "duration": 1.109
+    },
+    {
+      "start": 525.062,
+      "end": 526.193,
+      "duration": 1.131
+    },
+    {
+      "start": 529.401,
+      "end": 530.574,
+      "duration": 1.173
+    },
+    {
+      "start": 533.708,
+      "end": 534.771,
+      "duration": 1.063
+    },
+    {
+      "start": 536.244,
+      "end": 537.428,
+      "duration": 1.184
+    },
+    {
+      "start": 543.418,
+      "end": 544.735,
+      "duration": 1.317
+    },
+    {
+      "start": 545.71,
+      "end": 546.734,
+      "duration": 1.025
+    },
+    {
+      "start": 549.194,
+      "end": 550.613,
+      "duration": 1.419
+    },
+    {
+      "start": 553.023,
+      "end": 554.437,
+      "duration": 1.414
+    },
+    {
+      "start": 555.266,
+      "end": 556.645,
+      "duration": 1.379
+    },
+    {
+      "start": 557.29,
+      "end": 558.181,
+      "duration": 0.89
+    },
+    {
+      "start": 559.173,
+      "end": 561.041,
+      "duration": 1.868
+    },
+    {
+      "start": 563.777,
+      "end": 565.025,
+      "duration": 1.248
+    },
+    {
+      "start": 568.22,
+      "end": 569.83,
+      "duration": 1.61
+    },
+    {
+      "start": 573.005,
+      "end": 574.448,
+      "duration": 1.443
+    },
+    {
+      "start": 578.729,
+      "end": 580.573,
+      "duration": 1.844
+    },
+    {
+      "start": 583.977,
+      "end": 585.131,
+      "duration": 1.154
+    },
+    {
+      "start": 587.154,
+      "end": 588.39,
+      "duration": 1.236
+    },
+    {
+      "start": 590.558,
+      "end": 592.145,
+      "duration": 1.588
+    },
+    {
+      "start": 594.693,
+      "end": 596.159,
+      "duration": 1.466
+    },
+    {
+      "start": 597.294,
+      "end": 598.893,
+      "duration": 1.599
+    },
+    {
+      "start": 601.998,
+      "end": 603.49,
+      "duration": 1.492
+    },
+    {
+      "start": 605.277,
+      "end": 606.937,
+      "duration": 1.66
+    },
+    {
+      "start": 610.6,
+      "end": 611.763,
+      "duration": 1.163
+    },
+    {
+      "start": 615.357,
+      "end": 616.881,
+      "duration": 1.523
+    },
+    {
+      "start": 620.305,
+      "end": 621.625,
+      "duration": 1.32
+    },
+    {
+      "start": 624.187,
+      "end": 625.489,
+      "duration": 1.302
+    },
+    {
+      "start": 628.463,
+      "end": 629.81,
+      "duration": 1.347
+    },
+    {
+      "start": 635.005,
+      "end": 636.166,
+      "duration": 1.161
+    },
+    {
+      "start": 638.407,
+      "end": 639.58,
+      "duration": 1.173
+    },
+    {
+      "start": 641.655,
+      "end": 643.107,
+      "duration": 1.452
+    },
+    {
+      "start": 644.881,
+      "end": 646.242,
+      "duration": 1.361
+    },
+    {
+      "start": 648.513,
+      "end": 649.876,
+      "duration": 1.363
+    },
+    {
+      "start": 652.003,
+      "end": 653.299,
+      "duration": 1.296
+    },
+    {
+      "start": 659.035,
+      "end": 660.282,
+      "duration": 1.246
+    },
+    {
+      "start": 663.264,
+      "end": 664.511,
+      "duration": 1.247
+    },
+    {
+      "start": 667.402,
+      "end": 668.674,
+      "duration": 1.272
+    },
+    {
+      "start": 671.368,
+      "end": 672.661,
+      "duration": 1.292
+    },
+    {
+      "start": 674.701,
+      "end": 676.19,
+      "duration": 1.488
+    },
+    {
+      "start": 677.654,
+      "end": 678.853,
+      "duration": 1.199
+    },
+    {
+      "start": 682.873,
+      "end": 684.164,
+      "duration": 1.291
+    },
+    {
+      "start": 687.768,
+      "end": 689.011,
+      "duration": 1.243
+    },
+    {
+      "start": 692.671,
+      "end": 693.841,
+      "duration": 1.17
+    },
+    {
+      "start": 696.683,
+      "end": 697.967,
+      "duration": 1.284
+    },
+    {
+      "start": 699.648,
+      "end": 700.947,
+      "duration": 1.299
+    },
+    {
+      "start": 704.937,
+      "end": 706.0,
+      "duration": 1.063
+    },
+    {
+      "start": 708.883,
+      "end": 710.002,
+      "duration": 1.12
+    },
+    {
+      "start": 711.949,
+      "end": 713.204,
+      "duration": 1.255
+    },
+    {
+      "start": 715.202,
+      "end": 716.29,
+      "duration": 1.088
+    },
+    {
+      "start": 720.876,
+      "end": 722.205,
+      "duration": 1.328
+    },
+    {
+      "start": 724.242,
+      "end": 725.361,
+      "duration": 1.119
+    },
+    {
+      "start": 731.565,
+      "end": 732.618,
+      "duration": 1.053
+    },
+    {
+      "start": 735.039,
+      "end": 736.195,
+      "duration": 1.156
+    },
+    {
+      "start": 738.495,
+      "end": 739.73,
+      "duration": 1.235
+    },
+    {
+      "start": 744.169,
+      "end": 745.552,
+      "duration": 1.383
+    },
+    {
+      "start": 746.671,
+      "end": 747.874,
+      "duration": 1.204
+    },
+    {
+      "start": 751.106,
+      "end": 752.525,
+      "duration": 1.419
+    },
+    {
+      "start": 754.73,
+      "end": 755.972,
+      "duration": 1.242
+    },
+    {
+      "start": 757.969,
+      "end": 759.169,
+      "duration": 1.2
+    },
+    {
+      "start": 763.75,
+      "end": 765.166,
+      "duration": 1.416
+    },
+    {
+      "start": 769.046,
+      "end": 770.338,
+      "duration": 1.292
+    },
+    {
+      "start": 774.174,
+      "end": 775.633,
+      "duration": 1.46
+    },
+    {
+      "start": 778.655,
+      "end": 779.871,
+      "duration": 1.216
+    },
+    {
+      "start": 784.131,
+      "end": 785.585,
+      "duration": 1.453
+    },
+    {
+      "start": 787.323,
+      "end": 788.294,
+      "duration": 0.971
+    },
+    {
+      "start": 790.172,
+      "end": 791.453,
+      "duration": 1.281
+    },
+    {
+      "start": 799.536,
+      "end": 800.753,
+      "duration": 1.217
+    },
+    {
+      "start": 803.697,
+      "end": 804.88,
+      "duration": 1.182
+    },
+    {
+      "start": 807.321,
+      "end": 808.421,
+      "duration": 1.099
+    },
+    {
+      "start": 810.585,
+      "end": 811.716,
+      "duration": 1.132
+    },
+    {
+      "start": 817.891,
+      "end": 819.019,
+      "duration": 1.128
+    },
+    {
+      "start": 820.411,
+      "end": 821.595,
+      "duration": 1.185
+    },
+    {
+      "start": 825.142,
+      "end": 826.513,
+      "duration": 1.371
+    },
+    {
+      "start": 831.498,
+      "end": 832.63,
+      "duration": 1.132
+    },
+    {
+      "start": 835.701,
+      "end": 836.835,
+      "duration": 1.134
+    },
+    {
+      "start": 839.756,
+      "end": 840.908,
+      "duration": 1.152
+    },
+    {
+      "start": 843.053,
+      "end": 844.083,
+      "duration": 1.03
+    },
+    {
+      "start": 847.565,
+      "end": 848.672,
+      "duration": 1.107
+    },
+    {
+      "start": 850.665,
+      "end": 851.674,
+      "duration": 1.009
+    },
+    {
+      "start": 853.471,
+      "end": 854.546,
+      "duration": 1.075
+    },
+    {
+      "start": 857.749,
+      "end": 858.792,
+      "duration": 1.043
+    },
+    {
+      "start": 861.38,
+      "end": 862.45,
+      "duration": 1.071
+    },
+    {
+      "start": 865.153,
+      "end": 866.431,
+      "duration": 1.279
+    },
+    {
+      "start": 870.174,
+      "end": 871.375,
+      "duration": 1.201
+    },
+    {
+      "start": 873.509,
+      "end": 874.657,
+      "duration": 1.148
+    },
+    {
+      "start": 876.727,
+      "end": 877.813,
+      "duration": 1.087
+    },
+    {
+      "start": 879.805,
+      "end": 880.836,
+      "duration": 1.031
+    }
+  ],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 76,
+  "long_word_gaps": [
+    {
+      "start": 3.62,
+      "end": 5.04,
+      "duration": 1.42,
+      "before": "떨어져요.”",
+      "after": "전화기에서"
+    },
+    {
+      "start": 10.3,
+      "end": 11.68,
+      "duration": 1.38,
+      "before": "벌어졌어요.",
+      "after": "그날"
+    },
+    {
+      "start": 15.42,
+      "end": 16.76,
+      "duration": 1.34,
+      "before": "있었어요.",
+      "after": "친구"
+    },
+    {
+      "start": 20.3,
+      "end": 21.9,
+      "duration": 1.6,
+      "before": "했거든요.",
+      "after": "낮에"
+    },
+    {
+      "start": 25.78,
+      "end": 27.08,
+      "duration": 1.3,
+      "before": "처음이었죠.",
+      "after": "큰"
+    },
+    {
+      "start": 42.92,
+      "end": 43.94,
+      "duration": 1.02,
+      "before": "놨죠.",
+      "after": "마지막"
+    },
+    {
+      "start": 48.06,
+      "end": 49.3,
+      "duration": 1.24,
+      "before": "들었습니다.",
+      "after": "그런데"
+    },
+    {
+      "start": 105.02,
+      "end": 106.34,
+      "duration": 1.32,
+      "before": "나왔어요.",
+      "after": "머리카락이었습니다."
+    },
+    {
+      "start": 150.94,
+      "end": 151.92,
+      "duration": 0.98,
+      "before": "같았거든요.",
+      "after": "모니터에는"
+    },
+    {
+      "start": 165.04,
+      "end": 165.88,
+      "duration": 0.84,
+      "before": "그림자였어요.",
+      "after": "그때"
+    },
+    {
+      "start": 173.74,
+      "end": 174.78,
+      "duration": 1.04,
+      "before": "감쌌습니다.",
+      "after": "화면이"
+    },
+    {
+      "start": 176.18,
+      "end": 177.28,
+      "duration": 1.1,
+      "before": "변했어요.",
+      "after": "전원이"
+    },
+    {
+      "start": 181.12,
+      "end": 182.66,
+      "duration": 1.54,
+      "before": "있었거든요.",
+      "after": "저는"
+    },
+    {
+      "start": 185.02,
+      "end": 186.46,
+      "duration": 1.44,
+      "before": "봤어요.",
+      "after": "기둥"
+    },
+    {
+      "start": 188.52,
+      "end": 189.6,
+      "duration": 1.08,
+      "before": "그대로였는데,",
+      "after": "그"
+    },
+    {
+      "start": 192.9,
+      "end": 194.24,
+      "duration": 1.34,
+      "before": "있었습니다.",
+      "after": "발바닥이"
+    },
+    {
+      "start": 222.92,
+      "end": 223.74,
+      "duration": 0.82,
+      "before": "했어요.",
+      "after": "그분이"
+    },
+    {
+      "start": 228.14,
+      "end": 229.06,
+      "duration": 0.92,
+      "before": "물었습니다.",
+      "after": "사무실"
+    },
+    {
+      "start": 238.18,
+      "end": 239.1,
+      "duration": 0.92,
+      "before": "했죠.",
+      "after": "세차"
+    },
+    {
+      "start": 246.76,
+      "end": 247.62,
+      "duration": 0.86,
+      "before": "있었습니다.",
+      "after": "아까도"
+    },
+    {
+      "start": 253.64,
+      "end": 254.88,
+      "duration": 1.24,
+      "before": "잠갔어요.",
+      "after": "관리인"
+    },
+    {
+      "start": 256.16,
+      "end": 257.12,
+      "duration": 0.96,
+      "before": "말했습니다.",
+      "after": "“나"
+    },
+    {
+      "start": 259.32,
+      "end": 260.24,
+      "duration": 0.92,
+      "before": "있어요.",
+      "after": "불"
+    },
+    {
+      "start": 261.94,
+      "end": 262.88,
+      "duration": 0.94,
+      "before": "옮깁니다.",
+      "after": "지금"
+    },
+    {
+      "start": 267.06,
+      "end": 267.92,
+      "duration": 0.86,
+      "before": "했어요.",
+      "after": "그러자"
+    },
+    {
+      "start": 356.96,
+      "end": 358.02,
+      "duration": 1.06,
+      "before": "아래에는요.",
+      "after": "저는"
+    },
+    {
+      "start": 362.32,
+      "end": 363.62,
+      "duration": 1.3,
+      "before": "들어갔습니다.",
+      "after": "잠금"
+    },
+    {
+      "start": 367.36,
+      "end": 368.52,
+      "duration": 1.16,
+      "before": "들어왔어요.",
+      "after": "쿵"
+    },
+    {
+      "start": 373.38,
+      "end": 374.72,
+      "duration": 1.34,
+      "before": "소리였습니다.",
+      "after": "실내등"
+    },
+    {
+      "start": 377.9,
+      "end": 379.16,
+      "duration": 1.26,
+      "before": "내려왔어요.",
+      "after": "저는"
+    },
+    {
+      "start": 381.96,
+      "end": 383.16,
+      "duration": 1.2,
+      "before": "봤습니다.",
+      "after": "진입로"
+    },
+    {
+      "start": 420.34,
+      "end": 421.44,
+      "duration": 1.1,
+      "before": "내려왔습니다.",
+      "after": "저는"
+    },
+    {
+      "start": 424.68,
+      "end": 425.84,
+      "duration": 1.16,
+      "before": "했어요.",
+      "after": "그때"
+    },
+    {
+      "start": 428.96,
+      "end": 429.8,
+      "duration": 0.84,
+      "before": "소리쳤습니다.",
+      "after": "“고개"
+    },
+    {
+      "start": 433.96,
+      "end": 435.14,
+      "duration": 1.18,
+      "before": "떨어져요.”",
+      "after": "저는"
+    },
+    {
+      "start": 437.24,
+      "end": 438.54,
+      "duration": 1.3,
+      "before": "붙였습니다.",
+      "after": "젖은"
+    },
+    {
+      "start": 464.56,
+      "end": 465.82,
+      "duration": 1.26,
+      "before": "없었어요.",
+      "after": "전화기에서"
+    },
+    {
+      "start": 479.98,
+      "end": 480.92,
+      "duration": 0.94,
+      "before": "말고.”",
+      "after": "후진으로"
+    },
+    {
+      "start": 486.72,
+      "end": 487.8,
+      "duration": 1.08,
+      "before": "움직였습니다.",
+      "after": "빨간"
+    },
+    {
+      "start": 490.94,
+      "end": 491.88,
+      "duration": 0.94,
+      "before": "있었어요.",
+      "after": "저는"
+    },
+    {
+      "start": 495.52,
+      "end": 496.62,
+      "duration": 1.1,
+      "before": "굴렸습니다.",
+      "after": "바퀴가"
+    },
+    {
+      "start": 500.86,
+      "end": 502.02,
+      "duration": 1.16,
+      "before": "미끄러졌어요.",
+      "after": "앞유리에"
+    },
+    {
+      "start": 559.08,
+      "end": 560.46,
+      "duration": 1.38,
+      "before": "돼요.”",
+      "after": "뒤쪽에서도"
+    },
+    {
+      "start": 578.66,
+      "end": 579.84,
+      "duration": 1.18,
+      "before": "비췄습니다.",
+      "after": "여자의"
+    },
+    {
+      "start": 590.52,
+      "end": 591.6,
+      "duration": 1.08,
+      "before": "내려왔어요.",
+      "after": "아저씨가"
+    },
+    {
+      "start": 605.3,
+      "end": 606.38,
+      "duration": 1.08,
+      "before": "움직였어요.",
+      "after": "조수석"
+    },
+    {
+      "start": 610.5,
+      "end": 611.38,
+      "duration": 0.88,
+      "before": "났습니다.",
+      "after": "손바닥이"
+    },
+    {
+      "start": 648.4,
+      "end": 649.84,
+      "duration": 1.44,
+      "before": "봤습니다.",
+      "after": "아저씨는"
+    },
+    {
+      "start": 651.94,
+      "end": 653.24,
+      "duration": 1.3,
+      "before": "있었어요.",
+      "after": "작업등은"
+    },
+    {
+      "start": 658.92,
+      "end": 660.02,
+      "duration": 1.1,
+      "before": "있었습니다.",
+      "after": "아저씨의"
+    },
+    {
+      "start": 663.2,
+      "end": 664.46,
+      "duration": 1.26,
+      "before": "있었어요.",
+      "after": "차"
+    },
+    {
+      "start": 667.3,
+      "end": 668.66,
+      "duration": 1.36,
+      "before": "않았습니다.",
+      "after": "전화기에서는"
+    },
+    {
+      "start": 674.6,
+      "end": 675.98,
+      "duration": 1.38,
+      "before": "눌렀습니다.",
+      "after": "여자는"
+    },
+    {
+      "start": 677.6,
+      "end": 678.68,
+      "duration": 1.08,
+      "before": "않았어요.",
+      "after": "손을"
+    },
+    {
+      "start": 682.76,
+      "end": 683.8,
+      "duration": 1.04,
+      "before": "들어갔습니다.",
+      "after": "그때"
+    },
+    {
+      "start": 687.68,
+      "end": 688.68,
+      "duration": 1.0,
+      "before": "보였습니다.",
+      "after": "물을"
+    },
+    {
+      "start": 692.62,
+      "end": 693.78,
+      "duration": 1.16,
+      "before": "생각났어요.",
+      "after": "마감할"
+    },
+    {
+      "start": 696.62,
+      "end": 697.54,
+      "duration": 0.92,
+      "before": "거였죠.",
+      "after": "저는"
+    },
+    {
+      "start": 699.54,
+      "end": 700.64,
+      "duration": 1.1,
+      "before": "않았습니다.",
+      "after": "차"
+    },
+    {
+      "start": 708.8,
+      "end": 709.64,
+      "duration": 0.84,
+      "before": "않았어요.",
+      "after": "제"
+    },
+    {
+      "start": 711.84,
+      "end": 712.8,
+      "duration": 0.96,
+      "before": "있었습니다.",
+      "after": "저는"
+    },
+    {
+      "start": 715.12,
+      "end": 716.26,
+      "duration": 1.14,
+      "before": "돌렸습니다.",
+      "after": "지붕"
+    },
+    {
+      "start": 720.84,
+      "end": 722.18,
+      "duration": 1.34,
+      "before": "맞췄어요.",
+      "after": "손전등을"
+    },
+    {
+      "start": 724.14,
+      "end": 725.1,
+      "duration": 0.96,
+      "before": "들었어요.",
+      "after": "유리에"
+    },
+    {
+      "start": 731.5,
+      "end": 732.34,
+      "duration": 0.84,
+      "before": "느슨해졌어요.",
+      "after": "아저씨가"
+    },
+    {
+      "start": 734.94,
+      "end": 736.24,
+      "duration": 1.3,
+      "before": "올렸습니다.",
+      "after": "손바닥이"
+    },
+    {
+      "start": 744.08,
+      "end": 745.52,
+      "duration": 1.44,
+      "before": "접혔습니다.",
+      "after": "등이"
+    },
+    {
+      "start": 746.64,
+      "end": 747.44,
+      "duration": 0.8,
+      "before": "꺾였어요.",
+      "after": "그"
+    },
+    {
+      "start": 751.02,
+      "end": 752.08,
+      "duration": 1.06,
+      "before": "비껴갔습니다.",
+      "after": "여자가"
+    },
+    {
+      "start": 754.64,
+      "end": 755.58,
+      "duration": 0.94,
+      "before": "잡았어요.",
+      "after": "저는"
+    },
+    {
+      "start": 757.8,
+      "end": 758.78,
+      "duration": 0.98,
+      "before": "들었습니다.",
+      "after": "아저씨가"
+    },
+    {
+      "start": 789.98,
+      "end": 790.96,
+      "duration": 0.98,
+      "before": "했습니다.",
+      "after": "작년"
+    },
+    {
+      "start": 803.72,
+      "end": 804.72,
+      "duration": 1.0,
+      "before": "않는다고요.",
+      "after": "친구에게는"
+    },
+    {
+      "start": 853.42,
+      "end": 854.44,
+      "duration": 1.02,
+      "before": "팽팽해졌어요.",
+      "after": "그분의"
+    },
+    {
+      "start": 857.64,
+      "end": 858.44,
+      "duration": 0.8,
+      "before": "끌려갔습니다.",
+      "after": "손을"
+    },
+    {
+      "start": 865.04,
+      "end": 866.39,
+      "duration": 1.35,
+      "before": "있어요?”",
+      "after": "비어"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 880.0,
+      "end": 884.4,
+      "word_count": 7,
+      "wpm": 28.0
+    }
+  ],
+  "fast_window_count": 0,
+  "fast_windows": [],
+  "recommendations": [
+    "Regenerate affected sections or trim long silences before rendering.",
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering."
+  ]
+}
