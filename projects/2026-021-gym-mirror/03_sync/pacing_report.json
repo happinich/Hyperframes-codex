@@ -1,0 +1,268 @@
+{
+  "status": "pacing_review_required",
+  "duration": 622.62,
+  "word_count": 1022,
+  "average_wpm": 98.5,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 33,
+  "long_word_gaps": [
+    {
+      "start": 9.9,
+      "end": 10.92,
+      "duration": 1.02,
+      "before": "겁니다.",
+      "after": "그날은"
+    },
+    {
+      "start": 14.62,
+      "end": 15.56,
+      "duration": 0.94,
+      "before": "첫날이었어요.",
+      "after": "지하에"
+    },
+    {
+      "start": 21.06,
+      "end": 22.04,
+      "duration": 0.98,
+      "before": "있었죠.",
+      "after": "자정이"
+    },
+    {
+      "start": 57.04,
+      "end": 57.96,
+      "duration": 0.92,
+      "before": "들렸습니다.",
+      "after": "저는"
+    },
+    {
+      "start": 60.52,
+      "end": 61.34,
+      "duration": 0.82,
+      "before": "봤습니다.",
+      "after": "제"
+    },
+    {
+      "start": 68.24,
+      "end": 69.16,
+      "duration": 0.92,
+      "before": "있었습니다.",
+      "after": "그"
+    },
+    {
+      "start": 74.6,
+      "end": 75.6,
+      "duration": 1.0,
+      "before": "접혔어요.",
+      "after": "한"
+    },
+    {
+      "start": 139.96,
+      "end": 140.86,
+      "duration": 0.9,
+      "before": "뿌예졌습니다.",
+      "after": "김이"
+    },
+    {
+      "start": 144.4,
+      "end": 145.32,
+      "duration": 0.92,
+      "before": "자국이었죠.",
+      "after": "제"
+    },
+    {
+      "start": 149.62,
+      "end": 150.74,
+      "duration": 1.12,
+      "before": "없었습니다.",
+      "after": "피부는"
+    },
+    {
+      "start": 154.12,
+      "end": 155.18,
+      "duration": 1.06,
+      "before": "빛났어요.",
+      "after": "손바닥이"
+    },
+    {
+      "start": 159.08,
+      "end": 160.04,
+      "duration": 0.96,
+      "before": "미끄러졌습니다.",
+      "after": "제가"
+    },
+    {
+      "start": 196.14,
+      "end": 196.96,
+      "duration": 0.82,
+      "before": "있었어요.",
+      "after": "저는"
+    },
+    {
+      "start": 200.32,
+      "end": 201.16,
+      "duration": 0.84,
+      "before": "전화했습니다.",
+      "after": "전화를"
+    },
+    {
+      "start": 216.68,
+      "end": 217.68,
+      "duration": 1.0,
+      "before": "끊으세요.”",
+      "after": "왜"
+    },
+    {
+      "start": 238.52,
+      "end": 239.7,
+      "duration": 1.18,
+      "before": "했어요.",
+      "after": "저는"
+    },
+    {
+      "start": 289.56,
+      "end": 290.44,
+      "duration": 0.88,
+      "before": "달렸어요.",
+      "after": "그"
+    },
+    {
+      "start": 335.12,
+      "end": 336.0,
+      "duration": 0.88,
+      "before": "있었죠.",
+      "after": "출입구"
+    },
+    {
+      "start": 340.98,
+      "end": 342.0,
+      "duration": 1.02,
+      "before": "않았어요.",
+      "after": "한"
+    },
+    {
+      "start": 353.4,
+      "end": 354.24,
+      "duration": 0.84,
+      "before": "개였습니다.",
+      "after": "제"
+    },
+    {
+      "start": 370.96,
+      "end": 371.88,
+      "duration": 0.92,
+      "before": "소리쳤습니다.",
+      "after": "“게이트"
+    },
+    {
+      "start": 416.9,
+      "end": 417.72,
+      "duration": 0.82,
+      "before": "늦게요.",
+      "after": "앱의"
+    },
+    {
+      "start": 422.78,
+      "end": 423.64,
+      "duration": 0.86,
+      "before": "잡아당겼습니다.",
+      "after": "안에는"
+    },
+    {
+      "start": 452.86,
+      "end": 454.0,
+      "duration": 1.14,
+      "before": "왔어요.",
+      "after": "그것의"
+    },
+    {
+      "start": 464.3,
+      "end": 465.36,
+      "duration": 1.06,
+      "before": "분사했습니다.",
+      "after": "흰"
+    },
+    {
+      "start": 468.22,
+      "end": 469.1,
+      "duration": 0.88,
+      "before": "달라붙었어요.",
+      "after": "눈구멍과"
+    },
+    {
+      "start": 478.04,
+      "end": 478.96,
+      "duration": 0.92,
+      "before": "없었습니다.",
+      "after": "대신"
+    },
+    {
+      "start": 483.34,
+      "end": 484.16,
+      "duration": 0.82,
+      "before": "있었어요.",
+      "after": "그것이"
+    },
+    {
+      "start": 488.76,
+      "end": 489.6,
+      "duration": 0.84,
+      "before": "내렸습니다.",
+      "after": "헬스장"
+    },
+    {
+      "start": 493.1,
+      "end": 493.94,
+      "duration": 0.84,
+      "before": "났어요.",
+      "after": "앱의"
+    },
+    {
+      "start": 496.92,
+      "end": 497.78,
+      "duration": 0.86,
+      "before": "멎었습니다.",
+      "after": "형체의"
+    },
+    {
+      "start": 509.0,
+      "end": 509.92,
+      "duration": 0.92,
+      "before": "끊겼습니다.",
+      "after": "그것은"
+    },
+    {
+      "start": 564.86,
+      "end": 565.7,
+      "duration": 0.84,
+      "before": "했습니다.",
+      "after": "작년에도"
+    }
+  ],
+  "slow_window_count": 2,
+  "slow_windows": [
+    {
+      "start": 615.0,
+      "end": 622.62,
+      "word_count": 11,
+      "wpm": 44.0
+    },
+    {
+      "start": 620.0,
+      "end": 622.62,
+      "word_count": 3,
+      "wpm": 12.0
+    }
+  ],
+  "fast_window_count": 0,
+  "fast_windows": [],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering."
+  ]
+}

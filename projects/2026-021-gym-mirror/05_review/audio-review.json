@@ -1,0 +1,12 @@
+{
+  "status": "approved_after_manual_review",
+  "voice": "Esther dJlwSfdSqMaQjm3NSl3B",
+  "sample": "11.8s cold-open plus 영 점 영 칠 and 사백 미터. Whisper recovered both numbers. Female conversational Seoul speech matches the script.",
+  "alignment_ratio": 0.9838,
+  "duration_seconds": 622.854,
+  "first_anomaly_seconds": 51.24,
+  "long_silences": 0,
+  "word_gaps": "0.82-1.18s at sentence boundaries only",
+  "bgm": "cand-01",
+  "passes": 2
+}

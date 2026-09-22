@@ -1,0 +1,32 @@
+{
+  "style_id": "horror_cinematic",
+  "length_ms": 40000,
+  "output_format": "mp3_44100_128",
+  "content_hint": "Unmanned basement gym at night. Cold fluorescent hum, distant treadmill belt, low dread drone, no vocals, no drums, no jump scares. Mirror horror, claustrophobic.",
+  "candidates": [
+    {
+      "id": "cand-01",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. 병원 복도의 형광등 험과 호출기 잔향을 얇게 Unmanned basement gym at night. Cold fluorescent hum, distant treadmill belt, low dread drone, no vocals, no drums, no jump scares. Mirror horror, claustrophobic.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-01.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-01.mp3"
+    },
+    {
+      "id": "cand-02",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. 젖은 야간 도로와 차량 내부 저역 공명을 중심으로 Unmanned basement gym at night. Cold fluorescent hum, distant treadmill belt, low dread drone, no vocals, no drums, no jump scares. Mirror horror, claustrophobic.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-02.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-02.mp3"
+    },
+    {
+      "id": "cand-03",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. CCTV 전자 노이즈와 드문 금속 마찰음을 추가 Unmanned basement gym at night. Cold fluorescent hum, distant treadmill belt, low dread drone, no vocals, no drums, no jump scares. Mirror horror, claustrophobic.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-03.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-03.mp3"
+    },
+    {
+      "id": "cand-04",
+      "prompt": "한국의 늦은 밤 실내 공간을 연상시키는 낮은 서브 드론, 멀리서 울리는 금속 공명, 형광등 험과 희미한 공기음. 느리고 절제된 심리 공포. 보컬 없음, 규칙적인 드럼 없음, 갑작스러운 큰 점프스케어 없음, 내레이션 대역을 비움. 거의 정적인 드론과 긴 적막 여백을 중심으로 Unmanned basement gym at night. Cold fluorescent hum, distant treadmill belt, low dread drone, no vocals, no drums, no jump scares. Mirror horror, claustrophobic.",
+      "bgm_href": "../02_audio/bgm/candidates/cand-04.mp3",
+      "preview_href": "../02_audio/bgm/previews/mix-04.mp3"
+    }
+  ]
+}

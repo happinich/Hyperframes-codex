@@ -1,0 +1,11 @@
+{
+  "production_profile_id": "horror_cinematic_story_v1",
+  "production_profile_label": "호러 시네마틱 스토리형",
+  "visual_style_id": "horror_cinematic",
+  "visual_style_label": "호러 시네마틱",
+  "script_mode": "cold_open_modern_horror_single_story",
+  "sound_rule": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+  "clean_master_suffix": "",
+  "captioned_output_default_enabled": false,
+  "captioned_output_suffix": "-captioned-story"
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>무인 헬스장 거울은 내가 멈춘 뒤에도 달렸다</title>
+  <style>
+    @font-face{font-family:AppleSD;src:local("Apple SD Gothic Neo")}
+    :root{--black:#020407;--ink:#e8edf0;--red:#ff334f}
+    *{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:var(--black);color:var(--ink);font-family:AppleSD,Arial,sans-serif}
+    #master,.scene,.scene-image,.scrim,.grain,.scan,.cast,.overlay{position:absolute;inset:0}
+    #master{width:1920px;height:1080px;overflow:hidden;background:#020407}
+    .scene{visibility:hidden;opacity:0;overflow:hidden}
+    .scene-image{width:100%;height:100%;object-fit:cover;opacity:0}
+    .scrim{background:linear-gradient(90deg,rgba(1,3,5,.78),rgba(1,3,5,.12) 46%,rgba(1,3,5,.4)),linear-gradient(180deg,rgba(0,0,0,.18),transparent 50%,rgba(0,0,0,.62));z-index:2}
+    .cast{z-index:3;inset:-12%;background:radial-gradient(circle at 72% 42%,rgba(40,120,110,.12),transparent 26%)}
+    .grain{z-index:8;opacity:.14;background-image:repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.03) 3px 4px)}
+    .scan{z-index:7;top:-160px;height:140px;background:linear-gradient(180deg,transparent,rgba(160,230,220,.08),transparent);opacity:0}
+    .overlay{z-index:5}.glass{background:rgba(3,10,13,.64);border:1px solid rgba(215,240,236,.18);border-radius:16px}
+    .eyebrow{font-size:20px;font-weight:900;letter-spacing:.18em;color:#8bd8cb;margin-bottom:14px}
+    .headline{font-size:54px;line-height:1.16;font-weight:900;letter-spacing:-.04em;word-break:keep-all}.red{color:var(--red)}
+    .copy{position:absolute;left:100px;top:180px;width:900px;padding:32px 36px}
+    .meter{position:absolute;right:120px;top:220px;width:420px;padding:28px;text-align:right}
+    .meter b{display:block;font-size:92px;letter-spacing:-.04em}
+    .rule{position:absolute;left:110px;bottom:120px;width:780px;padding:22px 28px;font-size:30px;font-weight:800;line-height:1.4}
+  </style>
+</head>
+<body>
+  <main id="master" data-composition-id="youtube-master" data-width="1920" data-height="1080" data-start="0" data-duration="209.067">
+    <audio id="voice" data-start="0" data-duration="209.067" data-track-index="0" src="assets/audio/voice-p2.wav" data-volume="1"></audio>
+    <div id="scene-host"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="scene-data.js"></script>
+  <script>
+    (function(){
+      const OFFSET=209.067;
+      const LIM=209.067;
+      window.HF_SCENES=window.HF_SCENES.map(s=>({...s,start:s.start-OFFSET,end:s.end-OFFSET})).filter(s=>s.end>0&&s.start<LIM).map(s=>{const a=Math.max(0,s.start),b=Math.min(LIM,s.end);return {...s,start:a,end:b,duration:b-a}});
+    })();
+  </script>
+  <script>
+    const DURATION=209.067,A="assets/visuals/";
+    function overlay(s){
+      if(s.overlay==="hook")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">무인 헬스장</div><div class="headline reveal">거울 속 저는<br><span class="red">아직 달리고 있었어요</span></div></div></div>`;
+      if(s.overlay==="setup")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">야간 마감</div><div class="headline reveal">러닝머신 세 대.<br>정면은 거울.</div></div><div class="rule glass reveal">거울이 늦게 멈추면 닦지 말 것.<br>큰 조명은 그대로 둘 것.</div></div>`;
+      if(s.overlay==="anomaly")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">첫 이상</div><div class="headline reveal">벨트가 멈춘 뒤에도<br><span class="red">운동화 소리가 한 번 더</span></div></div></div>`;
+      if(s.overlay==="hand")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">유리 안쪽</div><div class="headline reveal">손톱 없는 손이<br><span class="red">안쪽에서 밀고 있어요</span></div></div></div>`;
+      if(s.overlay==="distance")return `<div class="overlay"><div class="meter glass reveal"><div class="eyebrow">거리</div><b class="red">0.23</b><span>킬로미터</span></div><div class="copy glass"><div class="headline reveal">사백 미터 전에<br>전원을 끊으세요</div></div></div>`;
+      if(s.overlay==="stairs")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">비상계단</div><div class="headline reveal">한 번에 한 명만<br><span class="red">통과할 수 있습니다</span></div></div></div>`;
+      if(s.overlay==="breaker")return `<div class="overlay"><div class="meter glass reveal"><div class="eyebrow">거리</div><b class="red">0.39</b><span>여기서 멈춤</span></div><div class="copy glass"><div class="headline reveal">빨간 차단기를<br>내렸습니다</div></div></div>`;
+      if(s.overlay==="aftermath")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">다음 날</div><div class="headline reveal">가운데 러닝머신은<br><span class="red">폐기됐습니다</span></div></div></div>`;
+      if(s.overlay==="ending")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">오늘 아침</div><div class="headline reveal">집 거울이<br><span class="red">안쪽부터 뿌예졌어요</span></div></div></div>`;
+      if(s.overlay==="punch")return `<div class="overlay"><div class="copy glass"><div class="eyebrow reveal">집 거울</div><div class="headline reveal">이번에는<br><span class="red">늦지 않았습니다</span></div></div></div>`;
+      return `<div class="overlay"><div class="copy glass"><div class="headline">다음 이야기<br>세차장 천장의 여자</div></div></div>`;
+    }
+    function markup(s){return `<section id="scene-${s.id}" class="scene">${s.visuals.map((n,i)=>`<img class="scene-image" data-i="${i}" src="${A+n}.png" alt="">`).join("")}${overlay(s)}<div class="scrim"></div><div class="cast"></div><div class="grain"></div><div class="scan"></div></section>`}
+    document.getElementById("scene-host").innerHTML=window.HF_SCENES.map(markup).join("");
+    window.__timelines=window.__timelines||{};
+    const tl=gsap.timeline({paused:true,defaults:{ease:"power2.out"}});
+    window.HF_SCENES.forEach((s,si)=>{
+      const el=document.getElementById(`scene-${s.id}`),imgs=[...el.querySelectorAll(".scene-image")],st=s.start,en=s.end,d=Math.max(0.4,s.duration),slot=d/Math.max(1,imgs.length);
+      tl.set(el,{visibility:"visible",autoAlpha:1},st);
+      imgs.forEach((img,i)=>{const at=st+i*slot,dir=(si+i)%2?1:-1;tl.set(img,{autoAlpha:i?0:1},st);if(i)tl.to(img,{autoAlpha:1,duration:.6},at);tl.fromTo(img,{scale:1.04,xPercent:-1.6*dir,filter:"saturate(.72) contrast(1.12) brightness(.72)"},{scale:1.14,xPercent:1.8*dir,filter:"saturate(.9) contrast(1.05) brightness(.92)",duration:slot+.2,ease:"none"},at);if(i<imgs.length-1)tl.to(img,{autoAlpha:0,duration:.55},at+slot-.55)});
+      el.querySelectorAll(".reveal").forEach((n,i)=>tl.fromTo(n,{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.5},st+.15+i*.4));
+      const scan=el.querySelector(".scan");
+      for(let t=1.4;t<d-0.4;t+=2.6)tl.fromTo(scan,{autoAlpha:0,y:0},{autoAlpha:.45,y:1200,duration:.9,ease:"none"},st+t);
+      if(s.overlay!=="outro")tl.to(el,{autoAlpha:0,duration:.3},en-.3).set(el,{visibility:"hidden"},en);else tl.set(el,{visibility:"hidden"},en);
+    });
+    tl.to({},{duration:.001},DURATION);window.__timelines["youtube-master"]=tl;
+  </script>
+</body>
+</html>
