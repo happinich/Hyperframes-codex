@@ -36,7 +36,8 @@
   "shorts_status": "verified",
   "shorts_existing_footage_extraction": false,
   "project_complete": true,
-  "github_final_push": false,
+  "github_final_push": true,
+  "github_content_commit": "d740dd47e0005edd99a70f052dc197045802d376",
   "shorts_duration_seconds": 26.583333,
   "shorts_width": 1080,
   "shorts_height": 1920,
@@ -45,6 +46,6 @@
   "shorts_visuals": 6,
   "shorts_voice_multiplier": 1.07,
   "shorts_caption_delivery": "burned_white_black_outline_and_external_srt_vtt",
-  "git_note": "Completion snapshot before authorized Git push; confirm remote branch separately.",
+  "git_note": "Content commit d740dd4 confirmed on origin/main. Scripts, approved images, captions and publishing helpers pushed. Generated MP4 and audio remain local under gitignore.",
   "subjective_listening_review": "Not claimed. Technical speech verification passed; playback available in helper."
 }

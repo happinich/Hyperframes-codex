@@ -20,6 +20,6 @@
 
 - [x] 독립 쇼츠 원고 별도 제작 승인.
 - [x] 신규 세로 이미지 6장 두 차례 검수, 새 Bin 음성 및 1.07배 후처리, 26.6초 1080x1920 60fps 쇼츠·번인 자막·SRT/VTT·게시 패키지 검수. 음성은 기술 검사이며 사람의 청취를 주장하지 않음.
-- [ ] 전체 요청 완료 후 관련 파일만 Git 커밋·origin 푸시. 기존 무관한 삭제나 변경은 건드리지 않음.
+- [x] 전체 요청 완료 후 관련 파일만 Git 커밋·origin 푸시. 콘텐츠 커밋 d740dd4 원격 main 확인. 기존 무관한 삭제나 변경은 건드리지 않음. MP4·음성은 gitignore에 따라 로컬 보관.
 
-본편과 독립 쇼츠 제작은 완료했습니다. 이 기록 저장 시점에는 Git 푸시 전이며 원격 확인은 별도로 진행합니다. 본편 검수 보고서는 media/layout/motion/sync/publish JSON과 image-review.md를 참조합니다.
+본편과 독립 쇼츠 제작 및 콘텐츠 Git 푸시를 완료했습니다. 본편 검수 보고서는 media/layout/motion/sync/publish JSON과 image-review.md를 참조합니다.
