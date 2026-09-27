@@ -1,0 +1,205 @@
+{
+  "status": "automated_review_pass",
+  "review_scope": "ASR alignment, approved-text preservation, waveform silence, timing and container checks; not full human listening",
+  "voice_id": "jB1Cifc2UQbq1gR3wnb0",
+  "model_id": "eleven_v3",
+  "chunk_characters": [
+    1052,
+    1063,
+    1048,
+    1068,
+    1045
+  ],
+  "original_duration_seconds": 844.486531,
+  "voice_duration_seconds": 654.890271,
+  "planned_bgm_outro_seconds": 4,
+  "planned_total_seconds": 658.890271,
+  "pitch_preserving_speed_multiplier": 1.05,
+  "matched_character_ratio": 0.989,
+  "caption_word_count": 1320,
+  "source_word_count": 1320,
+  "first_anomaly_seconds": 46.26,
+  "first_anomaly_in_target_window": true,
+  "pacing": {
+    "status": "ready_for_review",
+    "duration": 654.8,
+    "word_count": 1320,
+    "average_wpm": 121,
+    "window_seconds": 15,
+    "step_seconds": 5,
+    "slow_wpm_threshold": 58,
+    "fast_wpm_threshold": 135,
+    "long_silence_threshold_seconds": 0.8,
+    "long_silence_count": 0,
+    "long_silences": [],
+    "long_word_gap_threshold_seconds": 0.8,
+    "long_word_gap_count": 2,
+    "long_word_gaps": [
+      {
+        "start": 441.4,
+        "end": 442.28,
+        "duration": 0.88,
+        "before": "있었습니다.",
+        "after": "친구가"
+      },
+      {
+        "start": 559.56,
+        "end": 560.4,
+        "duration": 0.84,
+        "before": "있었습니다.",
+        "after": "출동한"
+      }
+    ],
+    "slow_window_count": 1,
+    "slow_windows": [
+      {
+        "start": 650,
+        "end": 654.8,
+        "word_count": 11,
+        "wpm": 44
+      }
+    ],
+    "fast_window_count": 5,
+    "fast_windows": [
+      {
+        "start": 225,
+        "end": 240,
+        "word_count": 34,
+        "wpm": 136
+      },
+      {
+        "start": 250,
+        "end": 265,
+        "word_count": 36,
+        "wpm": 144
+      },
+      {
+        "start": 255,
+        "end": 270,
+        "word_count": 34,
+        "wpm": 136
+      },
+      {
+        "start": 315,
+        "end": 330,
+        "word_count": 34,
+        "wpm": 136
+      },
+      {
+        "start": 585,
+        "end": 600,
+        "word_count": 34,
+        "wpm": 136
+      }
+    ],
+    "recommendations": [
+      "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+      "Review fast windows for rushed pronunciation before accepting."
+    ]
+  },
+  "reviewed_word_gaps": [
+    {
+      "start": 441.4,
+      "end": 442.28,
+      "duration": 0.88,
+      "before": "있었습니다.",
+      "after": "친구가",
+      "scene_boundary": true,
+      "decision": "retain source; ASR boundary gap is not a detected waveform silence"
+    },
+    {
+      "start": 559.56,
+      "end": 560.4,
+      "duration": 0.84,
+      "before": "있었습니다.",
+      "after": "출동한",
+      "scene_boundary": true,
+      "decision": "retain source; ASR boundary gap is not a detected waveform silence"
+    }
+  ],
+  "reviewed_slow_windows": [
+    {
+      "start": 650,
+      "end": 654.8,
+      "word_count": 11,
+      "wpm": 44,
+      "actual_span_wpm": 137.5,
+      "decision": "tail-window denominator artifact"
+    }
+  ],
+  "audio_media": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "48000",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "duration_ts": 31434733,
+        "duration": "654.890271",
+        "bit_rate": "1536000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/02_audio/working/voice.wav",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "duration": "654.890271",
+      "size": "125739010",
+      "bit_rate": "1536000",
+      "probe_score": 99,
+      "tags": {
+        "encoder": "Lavf62.12.102"
+      }
+    }
+  },
+  "full_human_listening_claimed": false,
+  "pronunciation_listening_checks": [
+    {
+      "start": 248,
+      "text": "낮은 턱",
+      "reason": "ASR variation; cannot determine whether pronunciation or recognition error"
+    },
+    {
+      "start": 323,
+      "text": "내려놨어요",
+      "reason": "ASR variation; cannot determine whether pronunciation or recognition error"
+    }
+  ],
+  "final_voice_approved": true,
+  "bgm_approved": true,
+  "render_approved": true
+}

@@ -1,0 +1,369 @@
+{
+  "duration": 658.890271,
+  "shots": [
+    {
+      "id": "s01-shot-01",
+      "visual": "shot-01",
+      "start": 0,
+      "trigger": "장화 안의 손 콜드 훅",
+      "end": 2.27
+    },
+    {
+      "id": "s01-shot-02",
+      "visual": "shot-02",
+      "start": 2.27,
+      "trigger": "그런데",
+      "end": 7.03
+    },
+    {
+      "id": "s02-shot-03",
+      "visual": "shot-03",
+      "start": 7.03,
+      "trigger": "약속과 좌대 정상 동선",
+      "end": 24.63
+    },
+    {
+      "id": "s02-shot-04",
+      "visual": "shot-04",
+      "start": 24.63,
+      "trigger": "난간 안쪽에는",
+      "end": 38.19
+    },
+    {
+      "id": "s02-shot-05",
+      "visual": "shot-05",
+      "start": 38.19,
+      "trigger": "흙 묻은 장화를",
+      "end": 46.01
+    },
+    {
+      "id": "s03-shot-06",
+      "visual": "shot-06",
+      "start": 46.01,
+      "trigger": "옆으로 움직이는 찌",
+      "end": 56.03
+    },
+    {
+      "id": "s03-shot-07",
+      "visual": "shot-07",
+      "start": 56.03,
+      "trigger": "그런데 그쪽",
+      "end": 73.17
+    },
+    {
+      "id": "s04-shot-08",
+      "visual": "shot-08",
+      "start": 73.17,
+      "trigger": "되감는 만큼 당기는 줄",
+      "end": 90.95
+    },
+    {
+      "id": "s04-shot-09",
+      "visual": "shot-09",
+      "start": 90.95,
+      "trigger": "그러자 물 위로",
+      "end": 109.47
+    },
+    {
+      "id": "s05-shot-10",
+      "visual": "shot-10",
+      "start": 109.47,
+      "trigger": "젖은 장화",
+      "end": 115.93
+    },
+    {
+      "id": "s05-shot-11",
+      "visual": "shot-11",
+      "start": 115.93,
+      "trigger": "그런데 안쪽이",
+      "end": 135.33
+    },
+    {
+      "id": "s06-shot-12",
+      "visual": "shot-12",
+      "start": 135.33,
+      "trigger": "좌대 아래 머리카락",
+      "end": 145.91
+    },
+    {
+      "id": "s06-shot-13",
+      "visual": "shot-13",
+      "start": 145.91,
+      "trigger": "머리카락이었어요",
+      "end": 166.33
+    },
+    {
+      "id": "s07-shot-14",
+      "visual": "shot-14",
+      "start": 166.33,
+      "trigger": "줄을 잡은 손",
+      "end": 176.49
+    },
+    {
+      "id": "s07-shot-15",
+      "visual": "shot-15",
+      "start": 176.49,
+      "trigger": "그러자 그 손이",
+      "end": 179.87
+    },
+    {
+      "id": "s08-shot-16",
+      "visual": "shot-16",
+      "start": 179.87,
+      "trigger": "도움 요청과 기다림",
+      "end": 183.83
+    },
+    {
+      "id": "s08-shot-17",
+      "visual": "shot-17",
+      "start": 183.83,
+      "trigger": "친구에게 전화를",
+      "end": 204.61
+    },
+    {
+      "id": "s09-shot-18",
+      "visual": "shot-18",
+      "start": 204.61,
+      "trigger": "사라진 장화와 손바닥 흔적",
+      "end": 212.95
+    },
+    {
+      "id": "s09-shot-19",
+      "visual": "shot-19",
+      "start": 212.95,
+      "trigger": "문 옆에서",
+      "end": 232.97
+    },
+    {
+      "id": "s10-shot-20",
+      "visual": "shot-20",
+      "start": 232.97,
+      "trigger": "물 위로 걸어오는 장화",
+      "end": 244.51
+    },
+    {
+      "id": "s10-shot-21",
+      "visual": "shot-21",
+      "start": 244.51,
+      "trigger": "두 짝이",
+      "end": 256.93
+    },
+    {
+      "id": "s11-shot-24",
+      "visual": "shot-24",
+      "start": 256.93,
+      "trigger": "손으로 장화를 신은 여자",
+      "end": 259.35
+    },
+    {
+      "id": "s11-shot-23",
+      "visual": "shot-23",
+      "start": 259.35,
+      "trigger": "여자는 회색",
+      "end": 270.81
+    },
+    {
+      "id": "s11-shot-22",
+      "visual": "shot-22",
+      "start": 270.81,
+      "trigger": "그제야",
+      "end": 278.65
+    },
+    {
+      "id": "s12-shot-25",
+      "visual": "shot-25",
+      "start": 278.65,
+      "trigger": "방 안의 통화와 문 밖 질문",
+      "end": 302.79
+    },
+    {
+      "id": "s12-shot-26",
+      "visual": "shot-26",
+      "start": 302.79,
+      "trigger": "그때 문 밖에서",
+      "end": 322.63
+    },
+    {
+      "id": "s13-shot-27",
+      "visual": "shot-27",
+      "start": 322.63,
+      "trigger": "문 아래 물과 손가락",
+      "end": 333.87
+    },
+    {
+      "id": "s13-shot-28",
+      "visual": "shot-28",
+      "start": 333.87,
+      "trigger": "그 틈에서",
+      "end": 337.79
+    },
+    {
+      "id": "s14-shot-29",
+      "visual": "shot-29",
+      "start": 337.79,
+      "trigger": "뒷문을 막은 장화",
+      "end": 354.71
+    },
+    {
+      "id": "s14-shot-30",
+      "visual": "shot-30",
+      "start": 354.71,
+      "trigger": "틈 사이로",
+      "end": 371.99
+    },
+    {
+      "id": "s15-shot-31",
+      "visual": "shot-31",
+      "start": 371.99,
+      "trigger": "점퍼를 벗어 던진 탈출",
+      "end": 378.19
+    },
+    {
+      "id": "s15-shot-32",
+      "visual": "shot-32",
+      "start": 378.19,
+      "trigger": "다리 위에는",
+      "end": 391.39
+    },
+    {
+      "id": "s16-shot-33",
+      "visual": "shot-33",
+      "start": 391.39,
+      "trigger": "넘어진 화자와 다가오는 존재",
+      "end": 398.25
+    },
+    {
+      "id": "s16-shot-34",
+      "visual": "shot-34",
+      "start": 398.25,
+      "trigger": "발을 빼려는데",
+      "end": 415.85
+    },
+    {
+      "id": "s17-shot-35",
+      "visual": "shot-35",
+      "start": 415.85,
+      "trigger": "신발끈을 잡은 손",
+      "end": 428.83
+    },
+    {
+      "id": "s17-shot-36",
+      "visual": "shot-36",
+      "start": 428.83,
+      "trigger": "하지만 니트 아래로",
+      "end": 442.03
+    },
+    {
+      "id": "s18-shot-37",
+      "visual": "shot-37",
+      "start": 442.03,
+      "trigger": "친구 도착과 발목 붙잡힘",
+      "end": 447.09
+    },
+    {
+      "id": "s18-shot-38",
+      "visual": "shot-38",
+      "start": 447.09,
+      "trigger": "저는 운동화에서",
+      "end": 457.49
+    },
+    {
+      "id": "s18-shot-39",
+      "visual": "shot-39",
+      "start": 457.49,
+      "trigger": "그때 여자가",
+      "end": 467.23
+    },
+    {
+      "id": "s19-shot-40",
+      "visual": "shot-40",
+      "start": 467.23,
+      "trigger": "뜰채로 손을 벌리는 구조",
+      "end": 474.67
+    },
+    {
+      "id": "s19-shot-41",
+      "visual": "shot-41",
+      "start": 474.67,
+      "trigger": "친구가 옆에 세워 둔",
+      "end": 494.31
+    },
+    {
+      "id": "s20-shot-42",
+      "visual": "shot-42",
+      "start": 494.31,
+      "trigger": "육지 탈출과 사라지는 몸",
+      "end": 519.23
+    },
+    {
+      "id": "s20-shot-43",
+      "visual": "shot-43",
+      "start": 519.23,
+      "trigger": "물이 한 번",
+      "end": 527.99
+    },
+    {
+      "id": "s21-shot-44",
+      "visual": "shot-44",
+      "start": 527.99,
+      "trigger": "차로 이동과 남겨진 장화",
+      "end": 553.13
+    },
+    {
+      "id": "s21-shot-45",
+      "visual": "shot-45",
+      "start": 553.13,
+      "trigger": "그런데 손전등을",
+      "end": 560.15
+    },
+    {
+      "id": "s22-shot-46",
+      "visual": "shot-46",
+      "start": 560.15,
+      "trigger": "현장 확인과 분실물",
+      "end": 573.67
+    },
+    {
+      "id": "s22-shot-47",
+      "visual": "shot-47",
+      "start": 573.67,
+      "trigger": "좌대에 다시",
+      "end": 587.57
+    },
+    {
+      "id": "s23-shot-48",
+      "visual": "shot-48",
+      "start": 587.57,
+      "trigger": "장화 안쪽 손톱 흔적",
+      "end": 607.79
+    },
+    {
+      "id": "s23-shot-49",
+      "visual": "shot-49",
+      "start": 607.79,
+      "trigger": "고무 안쪽에",
+      "end": 614.57
+    },
+    {
+      "id": "s24-shot-50",
+      "visual": "shot-50",
+      "start": 614.57,
+      "trigger": "다리 아래의 실제 이동 경로",
+      "end": 627.69
+    },
+    {
+      "id": "s24-shot-51",
+      "visual": "shot-51",
+      "start": 627.69,
+      "trigger": "회색 옷자락 하나가",
+      "end": 641.53
+    },
+    {
+      "id": "s24-shot-52",
+      "visual": "shot-52",
+      "start": 641.53,
+      "trigger": "머리카락은 아래로",
+      "end": 658.890271
+    }
+  ]
+}

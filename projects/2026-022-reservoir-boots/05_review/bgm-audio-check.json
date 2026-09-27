@@ -1,0 +1,33 @@
+{
+  "status": "decoded_three_candidates",
+  "scope": "ffprobe duration/streams and ffmpeg volumedetect; not subjective listening",
+  "recommended": "cand-03",
+  "recommendation_basis": "Lowest measured mean and peak levels at the same configured -18 dB gain",
+  "candidates": [
+    {
+      "id": "cand-01",
+      "duration": 60.029375,
+      "sample_rate": 44100,
+      "channels": 2,
+      "mean_db": -14.4,
+      "peak_db": -1.5
+    },
+    {
+      "id": "cand-02",
+      "duration": 60.081625,
+      "sample_rate": 44100,
+      "channels": 2,
+      "mean_db": -14.2,
+      "peak_db": -1.4
+    },
+    {
+      "id": "cand-03",
+      "duration": 60.029375,
+      "sample_rate": 44100,
+      "channels": 2,
+      "mean_db": -19.1,
+      "peak_db": -6.1
+    }
+  ],
+  "approved": false
+}

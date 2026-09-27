@@ -1,0 +1,28 @@
+[
+  {
+    "id": "thumbnail-a",
+    "purpose": "thumbnail",
+    "file": "04_composition/assets/visuals/thumbnail-a.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-9a392f21-1c40-402d-af9e-1d07b31795a2.png",
+    "prompt": "Use case: ads-marketing. Generate ONE dramatic photorealistic 16:9 YouTube horror thumbnail for original Korean reservoir night-fishing ghost fiction. Composition right two-thirds: a wet dark green rubber boot with small square blue tape on its side, held in impossible upright movement above moonlit water; a pale woman's forearm in gray knitted sleeve goes DOWN into its opening instead of a leg, soaked long black hair hangs far behind with face entirely hidden. No legs, no extra arms, no gore. Close tight decisive boot-and-arm clue, chilly electric blue water contrast warm distant cabin light. LEFT one-third dark readable negative area with HUGE crisp Korean headline exactly '발이 아니었다' in two lines, warm ivory and one red accent. Four to eight Korean syllables, no other text/logo. High contrast mobile readable, realistic object anatomy, no ending/underbridge reveal.",
+    "reference_images": [],
+    "pass1": "pass: individually inspected full-resolution; readable correct Korean text and coherent boot geometry",
+    "pass2": "pass: original narration/clue continuity reviewed, no final reveal, mobile readable",
+    "sha256": "3c38fcba68c32de969d734cb50cb13b0aca8474901bf7a7d47c3525a287248b6",
+    "render_approved": true,
+    "replacements": []
+  },
+  {
+    "id": "thumbnail-b",
+    "purpose": "thumbnail",
+    "file": "04_composition/assets/visuals/thumbnail-b.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-9380d38f-6c79-4508-a34e-9b549c26d27b.png",
+    "prompt": "Use case: ads-marketing. ONE new photorealistic 16:9 YouTube Korean ghost-story thumbnail, title complements picture. Midnight reservoir, camera almost at water surface looking towards warm small wooden floating fishing cabin. RIGHT side two EMPTY dark-green rubber boots, one with small square blue tape, walk upright across water toward viewer: open tops visibly EMPTY, no person, leg, feet, arms or ghost shown. Strong water contact/ripple and tilted next step make impossible movement obvious. Cold cyan moonlight rim on boots, warm distant light, high contrast readable on phone. LEFT big exact Korean two-line text '장화가' '걸어왔다', white top/red lower, total seven Hangul syllables. No other text, logo, gore. Tight decisive boots occupy much of right, dramatic but physically coherent material geometry, do not reveal ending.",
+    "reference_images": [],
+    "pass1": "pass: individually inspected full-resolution; readable correct Korean text and coherent boot geometry",
+    "pass2": "pass: original narration/clue continuity reviewed, no final reveal, mobile readable",
+    "sha256": "463102936844bc96c175f60ae2519f1f64159b607fb4e4c0ff68b0b591a3d4e1",
+    "render_approved": true,
+    "replacements": []
+  }
+]

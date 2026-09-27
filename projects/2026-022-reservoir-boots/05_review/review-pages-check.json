@@ -1,0 +1,51 @@
+[
+  {
+    "page": "voice-review",
+    "status": "pass",
+    "errors": [],
+    "media": [
+      {
+        "source": "narration-review.mp3",
+        "duration": 654.890271,
+        "error": null
+      }
+    ]
+  },
+  {
+    "page": "bgm-selection",
+    "status": "pass",
+    "errors": [],
+    "media": [
+      {
+        "source": "../02_audio/bgm/previews/mix-01.mp3",
+        "duration": 30,
+        "error": null
+      },
+      {
+        "source": "../02_audio/bgm/candidates/cand-01.mp3",
+        "duration": null,
+        "error": null
+      },
+      {
+        "source": "../02_audio/bgm/previews/mix-02.mp3",
+        "duration": 30,
+        "error": null
+      },
+      {
+        "source": "../02_audio/bgm/candidates/cand-02.mp3",
+        "duration": null,
+        "error": null
+      },
+      {
+        "source": "../02_audio/bgm/previews/mix-03.mp3",
+        "duration": 30,
+        "error": null
+      },
+      {
+        "source": "../02_audio/bgm/candidates/cand-03.mp3",
+        "duration": null,
+        "error": null
+      }
+    ]
+  }
+]

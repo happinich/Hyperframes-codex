@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "failures": [],
+  "results": [
+    {
+      "format": "youtube",
+      "blocks": 10,
+      "copy_all": true,
+      "copy_blocks": true,
+      "clipboard_fallback": true,
+      "local_links_exist": true,
+      "mobile_overflow": false
+    },
+    {
+      "format": "shorts",
+      "blocks": 7,
+      "copy_all": true,
+      "copy_blocks": true,
+      "clipboard_fallback": true,
+      "local_links_exist": true,
+      "mobile_overflow": false
+    }
+  ]
+}

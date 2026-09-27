@@ -1,0 +1,372 @@
+{
+  "status": "pass",
+  "approved_caption_words": 1320,
+  "caption_exact_text_match": true,
+  "asr_alignment_ratio": 0.989,
+  "checked_visual_cues": [
+    {
+      "scene": "s01",
+      "phrase": "paragraph opening",
+      "visual": 0,
+      "spoken": 0,
+      "lead_seconds": 0
+    },
+    {
+      "scene": "s01",
+      "phrase": "그런데",
+      "visual": 2.27,
+      "spoken": 2.52,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s02",
+      "phrase": "paragraph opening",
+      "visual": 7.03,
+      "spoken": 7.28,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s02",
+      "phrase": "난간 안쪽에는",
+      "visual": 24.63,
+      "spoken": 24.88,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s02",
+      "phrase": "흙 묻은 장화를",
+      "visual": 38.19,
+      "spoken": 38.44,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s03",
+      "phrase": "paragraph opening",
+      "visual": 46.01,
+      "spoken": 46.26,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s03",
+      "phrase": "그런데 그쪽",
+      "visual": 56.03,
+      "spoken": 56.28,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s04",
+      "phrase": "paragraph opening",
+      "visual": 73.17,
+      "spoken": 73.42,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s04",
+      "phrase": "그러자 물 위로",
+      "visual": 90.95,
+      "spoken": 91.2,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s05",
+      "phrase": "벗어 둔 장화 하나가",
+      "visual": 109.47,
+      "spoken": 109.72,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s05",
+      "phrase": "그런데 안쪽이",
+      "visual": 115.93,
+      "spoken": 116.18,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s06",
+      "phrase": "바닥 틈 사이를",
+      "visual": 135.33,
+      "spoken": 135.58,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s06",
+      "phrase": "머리카락이었어요",
+      "visual": 145.91,
+      "spoken": 146.16,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s07",
+      "phrase": "검은 머리카락 옆으로",
+      "visual": 166.33,
+      "spoken": 166.58,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s07",
+      "phrase": "그러자 그 손이",
+      "visual": 176.49,
+      "spoken": 176.74,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s08",
+      "phrase": "paragraph opening",
+      "visual": 179.87,
+      "spoken": 180.12,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s08",
+      "phrase": "친구에게 전화를",
+      "visual": 183.83,
+      "spoken": 184.08,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s09",
+      "phrase": "paragraph opening",
+      "visual": 204.61,
+      "spoken": 204.86,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s09",
+      "phrase": "문 옆에서",
+      "visual": 212.95,
+      "spoken": 213.2,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s10",
+      "phrase": "난간 아래에 장화가",
+      "visual": 232.97,
+      "spoken": 233.22,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s10",
+      "phrase": "두 짝이",
+      "visual": 244.51,
+      "spoken": 244.76,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s11",
+      "phrase": "그 위로 몸이",
+      "visual": 256.93,
+      "spoken": 257.18,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s11",
+      "phrase": "여자는 회색",
+      "visual": 259.35,
+      "spoken": 259.6,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s11",
+      "phrase": "그제야",
+      "visual": 270.81,
+      "spoken": 271.06,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s12",
+      "phrase": "paragraph opening",
+      "visual": 278.65,
+      "spoken": 278.9,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s12",
+      "phrase": "그때 문 밖에서",
+      "visual": 302.79,
+      "spoken": 303.04,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s13",
+      "phrase": "방문 아래로 물이",
+      "visual": 322.63,
+      "spoken": 322.88,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s13",
+      "phrase": "그 틈에서",
+      "visual": 333.87,
+      "spoken": 334.12,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s14",
+      "phrase": "paragraph opening",
+      "visual": 337.79,
+      "spoken": 338.04,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s14",
+      "phrase": "틈 사이로",
+      "visual": 354.71,
+      "spoken": 354.96,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s15",
+      "phrase": "점퍼를 잡고",
+      "visual": 371.99,
+      "spoken": 372.24,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s15",
+      "phrase": "다리 위에는",
+      "visual": 378.19,
+      "spoken": 378.44,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s16",
+      "phrase": "저는 다리 중간에서",
+      "visual": 391.39,
+      "spoken": 391.64,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s16",
+      "phrase": "발을 빼려는데",
+      "visual": 398.25,
+      "spoken": 398.5,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s17",
+      "phrase": "여자가 제 운동화 끈을",
+      "visual": 415.85,
+      "spoken": 416.1,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s17",
+      "phrase": "하지만 니트 아래로",
+      "visual": 428.83,
+      "spoken": 429.08,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s18",
+      "phrase": "친구가 제 이름을",
+      "visual": 442.03,
+      "spoken": 442.28,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s18",
+      "phrase": "저는 운동화에서",
+      "visual": 447.09,
+      "spoken": 447.34,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s18",
+      "phrase": "그때 여자가",
+      "visual": 457.49,
+      "spoken": 457.74,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s19",
+      "phrase": "paragraph opening",
+      "visual": 467.23,
+      "spoken": 467.48,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s19",
+      "phrase": "친구가 옆에 세워 둔",
+      "visual": 474.67,
+      "spoken": 474.92,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s20",
+      "phrase": "paragraph opening",
+      "visual": 494.31,
+      "spoken": 494.56,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s20",
+      "phrase": "물이 한 번",
+      "visual": 519.23,
+      "spoken": 519.48,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s21",
+      "phrase": "paragraph opening",
+      "visual": 527.99,
+      "spoken": 528.24,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s21",
+      "phrase": "그런데 손전등을",
+      "visual": 553.13,
+      "spoken": 553.38,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s22",
+      "phrase": "paragraph opening",
+      "visual": 560.15,
+      "spoken": 560.4,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s22",
+      "phrase": "좌대에 다시",
+      "visual": 573.67,
+      "spoken": 573.92,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s23",
+      "phrase": "paragraph opening",
+      "visual": 587.57,
+      "spoken": 587.82,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s23",
+      "phrase": "고무 안쪽에",
+      "visual": 607.79,
+      "spoken": 608.04,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s24",
+      "phrase": "paragraph opening",
+      "visual": 614.57,
+      "spoken": 614.82,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s24",
+      "phrase": "회색 옷자락 하나가",
+      "visual": 627.69,
+      "spoken": 627.94,
+      "lead_seconds": 0.25
+    },
+    {
+      "scene": "s24",
+      "phrase": "머리카락은 아래로",
+      "visual": 641.53,
+      "spoken": 641.78,
+      "lead_seconds": 0.25
+    }
+  ]
+}

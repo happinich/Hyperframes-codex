@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import sharp from 'sharp';
+const P=path.dirname(new URL(import.meta.url).pathname),id=path.basename(P);
+const read=f=>JSON.parse(fs.readFileSync(path.join(P,f)));
+const checks=['youtube-media-check','layout-main-check','motion-check','sync-check','publish-check'];
+for(const c of checks)if(read('05_review/'+c+'.json').status!=='pass')throw Error('Failed '+c);
+const required=[`06_delivery/youtube/${id}-youtube.mp4`,'03_sync/captions.srt','03_sync/captions.vtt','07_publish/youtube/thumbnail-a.jpg','07_publish/youtube/thumbnail-b.jpg','07_publish/youtube/youtube-publish.html','07_publish/youtube/youtube-publish.md'];
+for(const f of required)if(!fs.existsSync(path.join(P,f)))throw Error('Missing '+f);
+for(const k of ['a','b']){const m=await sharp(path.join(P,`07_publish/youtube/thumbnail-${k}.jpg`)).metadata();if(m.width!==1280||m.height!==720)throw Error('Thumbnail dimensions');}
+const hash=createHash('sha256');for await(const b of fs.createReadStream(path.join(P,required[0])))hash.update(b);
+const state=read('00_brief/production-state.json');
+Object.assign(state,{status:'longform_verified_short_script_approval_pending',longform_rendered:true,longform_verified:true,longform_publishing_package_finished:true,shorts_script_approved:false,shorts_rendered:false,publishing_package_finished:false,github_final_push:false,note:'Verified long-form master and publishing helper delivered. Independent Short is awaiting its separate script approval; no Short TTS/render or full-project completion is claimed.'});
+fs.writeFileSync(path.join(P,'00_brief/production-state.json'),JSON.stringify(state,null,2)+'\n');
+const audio=read('05_review/audio-review.json');audio.render_approved=true;
+fs.writeFileSync(path.join(P,'05_review/audio-review.json'),JSON.stringify(audio,null,2)+'\n');
+const media=read('05_review/youtube-media-check.json');
+const metadata={project_id:id,production_profile:'horror_cinematic_story_v1',visual_style:'horror_cinematic',content_nature:'fiction',main_status:'verified',duration_seconds:658.890271,width:1920,height:1080,fps:60,caption_delivery:'external_srt_vtt_only',longform_images:52,voice:'Bin jB1Cifc2UQbq1gR3wnb0',voice_approval:'user confirmed voice review',bgm_candidate:'cand-03',bgm_approval:'user approved recommendation',bgm_outro_seconds:4,assets:required,master_sha256:hash.digest('hex'),media_audio_max_db:media.audio_max_db,shorts_status:'separate_script_approval_pending',shorts_existing_footage_extraction:false,project_complete:false,github_final_push:false};
+fs.writeFileSync(path.join(P,'06_delivery/delivery-metadata.json'),JSON.stringify(metadata,null,2)+'\n');
+fs.writeFileSync(path.join(P,'05_review/checklist.md'),`# 검수 결과: 저수지의 장화\n\n## 본편 통과\n\n- [x] 사용자 대본·추천 화면·Bin 음성·cand-03 승인 기록 확인.\n- [x] 승인 대본 1,320단어와 자막 표면 동일, Whisper turbo 정렬 일치율 0.989.\n- [x] 숫자 없는 구술형 원고, 승인 후 변경 없음.\n- [x] 본편 52장과 썸네일 2장 개별 원본 확인 및 원고·인접 컷 대조 2회 검수. 결함 컷은 교체.\n- [x] 본편 52개 큐의 실제 음성 타이밍, 승인 이미지 해시, 씬 연결, 카메라 움직임 및 마지막 18초 안전 영역 검사 통과.\n- [x] 1920x1080, 60fps, H.264/AAC. 영상·음성 길이 오차 0.01초.\n- [x] 전편 디코딩, 3초 초과 정지, 1초 초과 검정 프레임, 오디오 클리핑 검사 통과.\n- [x] 초기·중간·후반·단서·전환·엔딩의 인코딩 결과 시각 확인.\n- [x] 승인 목소리 마스터 보존, 별도 앰비언스·효과음, BGM 4초 여운과 마지막 3초 페이드.\n- [x] 본편 번인 자막 없음, 외부 SRT/VTT 전달.\n- [x] 사용자 길이 요청에 따라 10분 59초의 단일 창작 공포. 첫 이상 징후 46.26초. 실화 표기 없음.\n- [x] 썸네일 1280x720 두 가지, 메인 제목 및 대안 다섯 가지, 타임스탬프·태그·SNS·고정 댓글·실험 게시 시간.\n- [x] HTML 전체/항목 복사, 클립보드 폴백, 모바일 레이아웃, 로컬 링크 검수.\n\n## 남은 승인 및 작업\n\n- [ ] 독립 쇼츠 원고 별도 승인.\n- [ ] 승인 후 신규 세로 이미지 6장, 새 음성 및 1.07배 후처리, 1080x1920 60fps 쇼츠·자막·게시 패키지 검수.\n- [ ] 전체 요청 완료 후 관련 파일만 Git 커밋·origin 푸시. 기존 무관한 삭제나 변경은 건드리지 않음.\n\n쇼츠와 전체 프로젝트 완료·Git 푸시는 아직 주장하지 않습니다. 본편 검수 보고서는 media/layout/motion/sync/publish JSON과 image-review.md를 참조합니다.\n`);
+console.log('Main delivery verified; independent Short approval is still pending.');

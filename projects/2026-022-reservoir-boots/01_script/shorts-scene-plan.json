@@ -1,0 +1,81 @@
+{
+  "duration": 26.576125,
+  "fps": 60,
+  "voice_multiplier": 1.07,
+  "spoiler_free": true,
+  "shots": [
+    {
+      "id": "short-0",
+      "start": 0,
+      "visual": "short-new-01",
+      "end": 2.5300000000000002
+    },
+    {
+      "id": "short-1",
+      "start": 2.5300000000000002,
+      "visual": "short-new-02",
+      "end": 6.35
+    },
+    {
+      "id": "short-2",
+      "start": 6.35,
+      "visual": "short-new-03",
+      "end": 11.67
+    },
+    {
+      "id": "short-3",
+      "start": 11.67,
+      "visual": "short-new-04",
+      "end": 15.33
+    },
+    {
+      "id": "short-4",
+      "start": 15.33,
+      "visual": "short-new-05",
+      "end": 19.91
+    },
+    {
+      "id": "short-5",
+      "start": 19.91,
+      "visual": "short-new-06",
+      "end": 26.576125
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.24,
+      "text": "제 장화가 물 위를 걸어오고 있었어요."
+    },
+    {
+      "start": 2.68,
+      "end": 6.06,
+      "text": "밤낚시를 하다가, 방 앞에 벗어 둔 장화가 사라졌습니다."
+    },
+    {
+      "start": 6.5,
+      "end": 9.06,
+      "text": "문에서 난간까지 젖은 자국이 이어졌어요."
+    },
+    {
+      "start": 9.5,
+      "end": 11.44,
+      "text": "발자국이 아니라 손바닥 자국이었죠."
+    },
+    {
+      "start": 11.82,
+      "end": 15.06,
+      "text": "그때 물에서 고무 밑창 부딪히는 소리가 났어요."
+    },
+    {
+      "start": 15.48,
+      "end": 18.58,
+      "text": "두 장화가 번갈아 움직이며 제 쪽으로 다가왔습니다."
+    },
+    {
+      "start": 19.02,
+      "end": 22.54,
+      "text": "문을 닫으려는 순간, 장화 하나가 난간 위로 올라왔어요."
+    }
+  ]
+}

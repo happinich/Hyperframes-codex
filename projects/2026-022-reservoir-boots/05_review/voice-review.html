@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>저수지의 장화 · 음성 검토</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#08161e;color:#eef6fa;font-family:system-ui,sans-serif;line-height:1.8}main{max-width:960px;margin:30px auto;padding:24px}h1{font-size:clamp(25px,5vw,38px);line-height:1.4}section{background:#14252e;border:1px solid #38525d;border-radius:18px;padding:24px;margin:24px 0}audio{width:100%}a{color:#92def5}button{padding:12px 16px;margin:6px 6px 6px 0;border-radius:9px;border:1px solid #476577;background:#233d4b;color:#fff;cursor:pointer}img{width:100%;height:auto;border-radius:14px}.label{color:#a7c5d5;font-size:14px}li{margin:8px 0}button:focus-visible,a:focus-visible{outline:3px solid #f1c977}p{overflow-wrap:anywhere}
+</style>
+</head>
+<body><main>
+<p class="label">창작 공포 · Bin 남성 · ElevenLabs V3 · 신규 프로젝트 022</p>
+<h1>밤낚시 중, 물속 여자가<br>제 장화를 신고 올라왔어요</h1>
+<p>승인 원고의 전체 음성입니다. BGM 선택 및 영상 제작 전 검토 단계입니다.</p>
+<section><h2>전체 음성</h2>
+<audio id="voice" controls preload="metadata" src="narration-review.mp3"></audio>
+<p id="length">파일 정보를 불러오면 실제 길이가 표시됩니다.</p>
+<button type="button" data-time="0">처음 듣기</button><button type="button" data-time="240">존재가 올라오는 구간</button><button type="button" data-time="450">구조 구간</button><button type="button" data-time="605">결말 듣기</button>
+<p>발음 추가 확인: 자동 인식에서 다른 표기로 잡힌 두 문구입니다. 음성 자체가 틀렸다고 단정하지 않고 청감 확인 대상으로 남겼습니다.</p>
+<button type="button" data-time="248">“낮은 턱” 확인</button><button type="button" data-time="323">“내려놨어요” 확인</button>
+<p class="label">다섯 문장 단위 청크 순차 생성. 원본 MP3/WAV를 보존한 채 0.8초 이상 무음만 0.55초로 정리하고 음높이를 보존하는 1.05배 속도 보정을 적용했습니다. 문장·원고를 생략하지 않았습니다.</p>
+</section>
+<section><h2>시각 방향 · 장소 참고</h2>
+<img src="../04_composition/assets/references/location-approved.png" alt="푸른 야간 수면, 육지에서 좌대로 이어진 나무 다리, 따뜻한 전구의 작은 방">
+<p>푸른 수면과 따뜻한 좌대 전구의 대비입니다. 두 차례 검수한 장소·조명 참고용이며, 본편 장면 이미지나 완성 영상은 아닙니다.</p>
+</section>
+<section><h2>다음 단계</h2>
+<p><a href="bgm-selection.html">새로 생성한 BGM 후보 비교하기</a></p>
+<p><a href="../01_script/대본-전체검토.md">승인 대본 전체 보기</a> · <a href="../03_sync/captions.srt">실제 음성에 정렬한 SRT</a> · <a href="../03_sync/captions.vtt">VTT</a></p>
+<p class="label">Whisper는 음성의 시간만 정렬합니다. 자막 문구는 승인된 narration.txt를 유지합니다. 자동 ASR/신호 검수 결과를 사람의 전체 청취나 완벽한 발음 보장으로 표기하지 않습니다.</p>
+</section>
+</main><script>
+const a=document.getElementById('voice');
+a.addEventListener('loadedmetadata',()=>{const s=Math.round(a.duration);document.getElementById('length').textContent=`실제 음성 길이: ${Math.floor(s/60)}분 ${String(s%60).padStart(2,'0')}초 · BGM 여운은 선택 후 4초 추가`;});
+document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{a.currentTime=Number(b.dataset.time);a.play().catch(()=>{});}));
+</script></body></html>

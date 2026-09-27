@@ -1,0 +1,41 @@
+{
+  "narration_source": "separate Bin V3 generation",
+  "voice_multiplier": 1.07,
+  "bgm": "cand-03",
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3,
+  "ambience": "new procedural water",
+  "events": [
+    {
+      "at": 13.6,
+      "kind": "rubber",
+      "gain": 0.007,
+      "seconds": 0.35
+    },
+    {
+      "at": 14.2,
+      "kind": "rubber",
+      "gain": 0.007,
+      "seconds": 0.35
+    },
+    {
+      "at": 16.1,
+      "kind": "rubber",
+      "gain": 0.007,
+      "seconds": 0.35
+    },
+    {
+      "at": 16.7,
+      "kind": "rubber",
+      "gain": 0.007,
+      "seconds": 0.35
+    },
+    {
+      "at": 20.1,
+      "kind": "rubber",
+      "gain": 0.007,
+      "seconds": 0.35
+    }
+  ]
+}

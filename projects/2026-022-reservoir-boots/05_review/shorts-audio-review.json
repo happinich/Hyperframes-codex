@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "review_method": "approved-source versus ASR, waveform silence and onset, pacing-window inspection; not a claim of human listening",
+  "voice_generated_separately": true,
+  "voice_multiplier": 1.07,
+  "pitch_preserved": true,
+  "head_silence_seconds": 0.12,
+  "head_fade_seconds": 0.006,
+  "duration_seconds": 22.576125,
+  "alignment": 0.9924,
+  "long_silences": 0,
+  "long_word_gaps": 0,
+  "trailing_slow_window": "false positive: denominator uses full 15s window for a 2.54s tail",
+  "actual_tail_wpm": 118.1,
+  "first_and_last_sentence_present": true,
+  "asr_note": "Whisper recognized 손바닥 as 선바닥 once. Approved caption remains 손바닥; isolated ASR substitution alone is not a proven TTS pronunciation defect. Subjective voice quality should be checked during playback."
+}

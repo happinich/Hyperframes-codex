@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "shot-01",
+    "scene": "s01",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-01.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-004d4202-a45a-43b4-ad0c-15aafee9d3d0.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Cold-open close-up: two green boots on a wet platform lip. Pale adult wrists in gray knitted sleeves enter the boot openings from ABOVE. Hands are hidden INSIDE boots, not feet. Blue tape on the left boot. Crop out face and the rest of the body. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-approved.png"
+    ],
+    "pass1": "pass: wet platform planks, arm-angle boot openings, small left blue tape, no face",
+    "pass2": "pass: cold-open boots contain gray-sleeved arms, not legs; platform matches later reveal",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-80490eda-2c94-4e55-884e-056a9f7a0bb7.png",
+        "reason": "incorrect shore location and inconsistent tape size"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "07ed66affae96510f95c8351ddcb43489f1f8bdebc628cdd8197799d4b05e2cb"
+  },
+  {
+    "id": "shot-02",
+    "scene": "s01",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-02.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-b23d77de-5a13-4289-922c-07788ec00300.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Cold-open side close-up of one green rubber boot supporting a gray-sleeved pale forearm emerging from its top opening. A wet black lock of hair hangs at frame edge. Readable unnatural arm-in-boot contact, no legs or face. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-approved.png"
+    ],
+    "pass1": "pass: gray forearm in opaque left boot, wet hair partial, platform not shore",
+    "pass2": "pass: single arm-in-boot close-up continues hook without face",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-cd9f6dd8-72d2-48f6-8eb8-b2edfaa92106.png",
+        "reason": "incorrect shore location and inconsistent tape size"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "a7f25c62a0f227fab1379bc83f7db164722b283bdb1d6bf24e7b5e54944c7f4f"
+  },
+  {
+    "id": "shot-03",
+    "scene": "s02",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-03.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-3ad46713-48f2-4b70-80d1-13eccebd19ef.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Establishing land view: single narrow wooden bridge to the floating platform and attached warm wooden cabin. Long landing net leaning on land railing. Distant platform unlit. No people or ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-approved.png"
+    ],
+    "pass1": "pass after correction: unlit distant platform, cleared amber window, intact bridge and props",
+    "pass2": "pass: normal geography established; land-side net, empty dark neighbor",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-47c1af0f-5665-46ab-8d14-e4de0f8ddb1a.png",
+        "reason": "Preserve all architecture but make near cabin window uniformly opaque glowing amber, no dark shapes."
+      }
+    ],
+    "render_approved": true,
+    "sha256": "889e599417dfed8bfb4a2a0d52e1d84f2559cb5194f58312877496cba22ae6db"
+  },
+  {
+    "id": "shot-04",
+    "scene": "s02",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-04.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-491abd8b-2604-4576-9a96-adc123f38717.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Normal setup inside the platform railing: fishing chair, single fishing rod, cabin warm light, blue water. A man seen only from behind in dark jacket and trousers sets down a bag. No ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-approved.png"
+    ],
+    "pass1": "pass after correction: unlit distant platform, cleared amber window, intact bridge and props",
+    "pass2": "pass: rear-view arrival before boot removal; warm clear window",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-e0e42e96-243e-417b-9164-c03de6d0f4e1.png",
+        "reason": "Preserve man and platform. Remove ALL BLUE TAPE from the boots the man wears, since this distant arrival shot need not establish tape yet. Make near cabin window uniformly frosted warm amber, absolutely no dark shapes or silhouette."
+      }
+    ],
+    "render_approved": true,
+    "sha256": "8bc5ed0e0e529c428e969e24f2be27b37782e25c457c84b81d13bcbf08051b03"
+  },
+  {
+    "id": "shot-05",
+    "scene": "s02",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-05.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-57884c73-8566-472b-9d25-cd6262191ce0.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Normal prop insert: pair of muddy green rubber boots with small blue tape on LEFT opening beside cabin door, one pair of plain dark sneakers nearby, dark jacket zipper in foreground. No body in boots, no paranormal detail. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-approved.png"
+    ],
+    "pass1": "pass after correction: unlit distant platform, cleared amber window, intact bridge and props",
+    "pass2": "pass: empty green pair and waiting sneakers before footwear switch, no entity",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-365f38cf-aa28-4086-9bcc-b5c877d4c9aa.png",
+        "reason": "Make distant platform completely UNLIT, remove its orange window glow and its orange water reflection. Keep near cabin lit but make its glass uniformly frosted warm amber, no dark shapes. Keep empty boots and sneakers, one small blue tape square on only one boot."
+      }
+    ],
+    "render_approved": true,
+    "sha256": "68ec35b77aafb49191b1b1757b4e63c00032dcfe39807fce40a35a91454321c2"
+  },
+  {
+    "id": "shot-06",
+    "scene": "s03",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-06.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-dd27a754-7685-4495-a822-f4c86dc2d46d.png",
+    "prompt": "Generate one photorealistic cinematic 16:9 landscape film still. Tight overhead oblique closeup of a single slim RED fishing float pulled sideways by a taut nearly invisible fishing line on midnight-blue Korean reservoir water. The red float is large enough to read on mobile. Small realistic ripples, chilly moonlight, a few warm amber reflections from an offscreen cabin. Frame contains WATER ONLY: no shore, cabin, window, building, person, head, ghost, hands, boots, silhouette, text, numbers or logo. Early story anomaly, not yet a creature reveal. Sharp float, softly receding dark water but readable texture.",
+    "reference_images": [],
+    "pass1": "pass: red float, taut line and water only; no premature silhouette",
+    "pass2": "pass: early fishing-float clue with only water/line, no architecture or premature entity",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-06242229-8e8b-4937-b217-3d8b82067bc5.png",
+        "reason": "unintended silhouette-like window patch"
+      },
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ceb96cee-7fb0-4cbc-a3aa-21504fc0155d.png",
+        "reason": "window edit remained silhouette-like; replaced architecture entirely with water-only clue"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "2dea2ae7a203fc046ddfe97837ced507b76c207ad9508b98b726f66752b36f18"
+  },
+  {
+    "id": "shot-07",
+    "scene": "s03",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-07.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-b91a2770-e3dc-493e-b50b-4c0013ac7d47.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. View from occupied platform across still blue water at a distant EMPTY, UNLIT platform. Red float near water foreground. Empty chair silhouettes only, no person. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-clear-window.png"
+    ],
+    "pass1": "pass: empty unlit neighbor and occupied platform separation",
+    "pass2": "pass: distant unlit neighbor, near empty boot pair, no entity; orange safety buoy not fishing float",
+    "render_approved": true,
+    "sha256": "7536c1502820d54d118ef8e7677b4168c27ac6aa289127d077869ebfa3033214"
+  },
+  {
+    "id": "shot-08",
+    "scene": "s04",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-08.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7f04793e-836f-402e-b724-93fa10d144cf.png",
+    "prompt": "Edit ONLY warm cabin window: clear ALL dark shapes or silhouettes behind the glass, make each pane uniformly translucent amber-lit frosted glass, no plant, person, head, face or shadow. Preserve fishing water clue, rod, people hands if present, cabin wood and everything else.",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-08-rejected-second-review.png"
+    ],
+    "pass1": "pass after second-review correction: uniformly amber window, hands and fishing line intact",
+    "pass2": "pass: hands grip coherent rod and reel; clear empty cabin window; no early reveal",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7795b520-7c09-414a-a2cf-f794908c7fab.png",
+        "reason": "unintended silhouette-like window patch"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "ba227b83c033f6e65b433a6c405f904aae05a09f95e7701f28557b0f72ceccf3"
+  },
+  {
+    "id": "shot-09",
+    "scene": "s04",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-09.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-bc4c6d52-2c7c-41a0-acaa-85f20483eda1.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close blue water with a few small round bubbles rising beside the floating wooden deck. Fishing line slack above. No body, no face, no drowning victim. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-clear-window.png"
+    ],
+    "pass1": "pass after correction: bubbles and slack line, no footwear or person",
+    "pass2": "pass: water bubbles at slack line precede boot anomaly",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-143b2e38-e831-44b9-8f50-938934879063.png",
+        "reason": "removed boots incorrectly worn"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "3ac9229f0c2f5b6fd185aab9ba9baa84e25edafa6f58d8853ef39fdbf271904e"
+  },
+  {
+    "id": "shot-10",
+    "scene": "s05",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-10.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7e13a836-c654-4e5c-9eac-1e594d887768.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Cabin doorway at night: one muddy green boot tipped sideways, its pair upright, little blue tape on the left boot. Warm porch light and wet droplets only, no ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [
+      "location-clear-window.png"
+    ],
+    "pass1": "pass: tipped empty boot and pair at warm doorway, no entity",
+    "pass2": "pass: tipped muddy empty boot at original doorway",
+    "render_approved": true,
+    "sha256": "78459994b55f8e73e59104459499f09c8ec30f9433cbd39a49740164cdc19159"
+  },
+  {
+    "id": "shot-11",
+    "scene": "s05",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-11.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-5bdb47cd-c933-4806-a9ce-057c220ded91.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close-up looking into empty green boot opening, water droplets along inside rubber, dark interior but visibly empty, blue tape on rim. No hand or foot. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: empty wet rubber interior and blue rim tape",
+    "pass2": "pass: wet boot interior clear, no hidden extra limb",
+    "render_approved": true,
+    "sha256": "c34100cda4d05814fa79183d2fd57292d2bf634b4f9e76578e8e3d2267cb912b"
+  },
+  {
+    "id": "shot-12",
+    "scene": "s06",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-12.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f43c62ef-c283-42cd-b1f7-40de05944e14.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. First-person flashlight beam through a narrow gap between wooden deck planks into water, black floating strands barely discernible under boards. No fingers or face. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: flashlight hair through plank gap, no figure",
+    "pass2": "pass: hair visible through timber gap only, not full entity",
+    "render_approved": true,
+    "sha256": "ee2d71b4fdad025f8d879949cc25775af328480ad10441c251d55dfaa804a692"
+  },
+  {
+    "id": "shot-13",
+    "scene": "s06",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-13.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-dce8b98b-cdaa-4ab3-85c5-26a666129f6c.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Partial clue close-up: long wet black hair spreads in flashlight-lit water directly beneath wooden platform. No visible head, facial features or full body. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: black hair partial under platform, no face",
+    "pass2": "pass: flowing black hair under deck continues partial clue, no face",
+    "render_approved": true,
+    "sha256": "af03aef49f0a7102eccd0e1c57983a8edcd6240ccc422cfeefa7b8301d971454"
+  },
+  {
+    "id": "shot-14",
+    "scene": "s07",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-14.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-2d5ebbd3-40be-4e79-ac1d-77837004e049.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. One anatomically normal pale adult hand emerging just above blue water, five fingers curled around thin fishing line. Wrist below water, not attached to visible body, no extra digits. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: plausible closed hand around line, water contact",
+    "pass2": "pass: pale closed hand grips fishing line in water",
+    "render_approved": true,
+    "sha256": "fd148787ea47829d0d6bc53b761a3327201d1f8e0bc3127a0cbf2d32721ec23a"
+  },
+  {
+    "id": "shot-15",
+    "scene": "s07",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-15.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-9aa44e2f-fba6-4c7b-b203-4344ef5eed42.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Wider frightened first-person view at railing: loose rod angled toward water, the pale hand recedes under surface and disappears in ripples. No visible face or whole ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass after correction: water-only retreating hand and rod, no changed cabin geography",
+    "pass2": "pass: hand recedes below surface, narrator rod grip natural",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a9e17b01-1f4c-4655-8d7a-679d9919c1e3.png",
+        "reason": "unrelated cabin or bridge geometry"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "f5fc58205dad4109fad3be1716232acb4f746fb608f9e4833d162ee83b1be618"
+  },
+  {
+    "id": "shot-16",
+    "scene": "s08",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-16.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ce1f1b05-c738-4fdb-9d90-defb0b71c5b6.png",
+    "prompt": "Edit ONLY lower-right corner: REMOVE landing-net hoop and mesh beside spare fishing rods, replace with plain cabin wooden wall/floor. Preserve caller in sneakers, rods, warm cabin, front platform and reservoir view. No other changes.",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-16-rejected-second-review.png"
+    ],
+    "pass1": "pass after second-review correction: indoor net removed, caller and sneakers intact",
+    "pass2": "pass: phone call, sneakers and emptied indoor net position consistent",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-2b5e743d-e9ea-482d-961d-441eb9a2f448.png",
+        "reason": "unrelated cabin or bridge geometry"
+      },
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ef036b43-db7b-42bb-b17f-6f50b8da2d77.png",
+        "reason": "land-side net duplicated indoors"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "d75c0629aeee107d99f6b956f1f042e6abd6ed1fcd4bcad91746c03eecbe551f"
+  },
+  {
+    "id": "shot-17",
+    "scene": "s08",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-17.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-adbb1f52-7b01-4312-b9cd-0370e108b1ba.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close insert of a normal male hand holding phone beside cabin doorway, red fishing float visible in distant water, blue/amber contrast. No digits, text or logos on screen. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: natural phone grip, blank screen, warm threshold",
+    "pass2": "pass: blank phone and five-digit grip, no typography or early ghost",
+    "render_approved": true,
+    "sha256": "dd3c9452ece4476dde6310745b3123db7fa4bece8e68bdb6a8e5144c21ae7f9b"
+  },
+  {
+    "id": "shot-18",
+    "scene": "s09",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-18.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-75c10521-25f2-41fd-88ff-6c745b632900.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Empty patch beside the cabin door where green boots had stood, damp wood, no boots, narrator dark sneaker visible at lower edge. No ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: empty boot spot with dark sneaker visible",
+    "pass2": "pass: empty boot location and dark sneaker, compatible with disappearance",
+    "render_approved": true,
+    "sha256": "d61c5799ffc66fc0bddf0fbb182b3f699371888b93834b71b6745a0e5c16f35f"
+  },
+  {
+    "id": "shot-19",
+    "scene": "s09",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-19.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-37cb9cc2-2a4c-4dab-80b3-faf96018c26a.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close deck clue: alternating normal five-digit wet palm prints from cabin door toward railing. Correct left/right hands, not footprints, no actual hands or bodies. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces. TIGHT MACRO of ONLY wet wooden boards with two pairs of wet handprints. Mirrored left and right palm/thumb shapes, each five digits. NO cabin, NO boots, NO person, NO footwear anywhere in frame.",
+    "reference_images": [],
+    "pass1": "pass after correction: four alternating five-digit wet palm prints, no boots or feet",
+    "pass2": "pass: alternating five-digit wet palmprints after boots disappear; no premature ghost",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-064b744d-40ca-4b8f-95f3-660d46347888.png",
+        "reason": "boots remained after their disappearance"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "ef3cf255bb1abc710035ac1ed4128f8ca3c0e7bfdfc4c381cc5272847064deaf"
+  },
+  {
+    "id": "shot-20",
+    "scene": "s10",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-20.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-8ae0661e-3867-4553-81d7-908a8182e1dc.png",
+    "prompt": "Edit ONLY the background: replace the entire cabin and its stilts with unobstructed midnight reservoir water and a distant dark treeline. Preserve the TWO EMPTY dark green boots, their single small blue tape patch, tilt and water contact. No new people or architecture.",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-20-rejected-v2.png"
+    ],
+    "pass1": "pass after corrections: empty boot tops over water, no legs or changed cabin",
+    "pass2": "pass: empty boot tops on water, no legs; mystery retained",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f8cb4f72-059e-434b-9c5e-8630cc1e8e1b.png",
+        "reason": "visible trouser legs spoiled hidden entity"
+      },
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ca8ed117-6e72-45e5-8952-90e0a54ad10d.png",
+        "reason": "background changed cabin geography"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "3054bb9ed8f80957b80d1e0b41d8623d0f78eb86c3fb1929cfa4d31bd4438831"
+  },
+  {
+    "id": "shot-21",
+    "scene": "s10",
+    "purpose": "longform",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-21.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-6898e6e7-2606-4ddf-a32f-df8a7e71a4fd.png",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Approaching green boot pair in dark water beside platform edge, tiny wet gray knitted sleeve fabric just visible BETWEEN boot openings, no face or lower body. Boots oriented toward platform. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "reference_images": [],
+    "pass1": "pass: empty boot openings, wet gray fabric partial, no legs or face",
+    "pass2": "pass: gray knit trace between boots precedes wrists",
+    "render_approved": true,
+    "sha256": "df9e067fe5a8e30135e8ed879236cdace4dcb8894e8f519ba0a253b4beb81b1c"
+  },
+  {
+    "id": "shot-22",
+    "scene": "s11",
+    "purpose": "longform",
+    "detail": "Low platform-level view: one green boot catches on a low wooden lip, gray-sleeved pale wrist entering its opening. Other boot still at water edge. Ghost body out of frame.",
+    "prompt": "Edit this cinematic frame into a TIGHT CLOSE-UP showing ONLY one pale gray-sleeved forearm entering the dark green boot that catches the low wooden lip, other boot blurred near water. CROP OUT ALL head, hair, shoulders and torso so the first clue is only wrist-in-boot. Replace the large blue band with ONE small square blue tape patch on left boot only. Night water and wet planks, no text.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-22.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-5bc00f84-bec0-4bb9-bd25-d6ccbe338860.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-22-rejected-v2.png"
+    ],
+    "pass1": "pass after correction: only wrists in boots and low plank lip, no premature body",
+    "pass2": "pass: two gray wrists inserted into boot tops; no premature torso",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0d99db40-eac5-44a6-9025-ff12f8dc1868.png",
+        "reason": "premature body reveal and oversized tape"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "f4a4ca8f06029dda52b91ddfcc9e7a6963adb2d7b19e4324f34ba9f1038b0d94"
+  },
+  {
+    "id": "shot-23",
+    "scene": "s11",
+    "purpose": "longform",
+    "detail": "Adult female ghost in wet gray knit leaning low over two green boots, arms supporting body with wrists entering boot openings. Long wet black hair hides face entirely. Trailing wet garment obscures lower body; no visible legs, no blood or cut surfaces.",
+    "prompt": "Edit ONLY the blue tape on the boot: remove the broad blue wraparound band and replace with ONE small square blue tape patch on the front of that boot. Preserve ghost arms entering boots, wet gray knit, concealed face, wet plank platform, water, all other details.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-23.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-77d1205b-f14d-4ba0-a40d-635e5a606407.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-23-rejected-v2.png"
+    ],
+    "pass1": "pass after correction: two arms support gray-knit torso in boots, face hidden, small tape",
+    "pass2": "pass: low gray-knit woman, hidden face and lower body, matching boots",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-c59e29fb-09b6-4823-8a27-6b621e0dbfec.png",
+        "reason": "oversized wraparound tape"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "12ba272610bc5791cbac6d2aa6c7d269b722abf85154affd759712db1349da54"
+  },
+  {
+    "id": "shot-24",
+    "scene": "s11",
+    "purpose": "longform",
+    "detail": "Closer side angle of the same gray-knit, wet-haired female entity hauling upper torso onto wood using her two arms inside green boots. One blue tape tab on left boot. No face, no extra arms, no exposed lower body.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Closer side angle of the same gray-knit, wet-haired female entity hauling upper torso onto wood using her two arms inside green boots. One blue tape tab on left boot. No face, no extra arms, no exposed lower body. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-24.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-6f01dda5-c1db-406d-9544-a3f0122635cd.png",
+    "reference_images": [],
+    "pass1": "pass: side view of matching gray-knit entity arms in boots, no lower-body gore",
+    "pass2": "pass: side view: forearms support boot movement from water; no extra legs",
+    "render_approved": true,
+    "sha256": "9a04bf2f138227ee0cea91ac59c6f8ebc009871185ac0314043cb2a56db20fc0"
+  },
+  {
+    "id": "shot-25",
+    "scene": "s12",
+    "purpose": "longform",
+    "detail": "Warm cramped cabin interior: dark-clothed male from behind closes front wooden door with simple brass latch. Cot to the side, phone in one hand. No ghost inside.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Warm cramped cabin interior: dark-clothed male from behind closes front wooden door with simple brass latch. Cot to the side, phone in one hand. No ghost inside. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-25.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-6d33eb5a-cca8-4165-a0de-a5b664c1d6d4.png",
+    "reference_images": [],
+    "pass1": "pass: back-view narrator locks solid wooden door, phone and cot consistent, no ghost inside",
+    "pass2": "pass: latch, phone and male rear view match locking narration",
+    "render_approved": true,
+    "sha256": "22e63cb638220364f46accc4fa66d17a8173617e95c13553e866d82a88452bbd"
+  },
+  {
+    "id": "shot-26",
+    "scene": "s12",
+    "purpose": "longform",
+    "detail": "Inside cabin close-up of closed wooden front door and latched lock, dark green boot-shaped shadow outside lower door gap, phone with dim screen on cot side. No face, no text.",
+    "prompt": "Edit this frame: fully CLOSE the wooden door down to its threshold, remove the visible boot outside. Keep narrator's phone on cot and warm lamp. This is the listening-at-closed-door moment; no ghost, no feet, no boot, no unnatural large gap.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-26.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-623df354-105d-47ec-b4cf-7300707e9fef.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-26-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: sealed door, phone on cot, no early blocking boot",
+    "pass2": "pass: closed door, phone on cot, no boot prematurely indoors",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-d591fc9a-a8c8-4ce0-b74a-ffd87438a9da.png",
+        "reason": "unrequested boot appeared before relevant action"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "926bad19bf305817b65dd617303617f08449cfaa07dbc075f660955c42bb8b04"
+  },
+  {
+    "id": "shot-27",
+    "scene": "s13",
+    "purpose": "longform",
+    "detail": "Close floor-level warm cabin shot: water seeps under closed front door, wet rubber sole barely visible outside threshold. No exposed finger yet, no impossible floor penetration.",
+    "prompt": "Edit ONLY the boot visible beyond the lower door gap: REMOVE it entirely. Show just blue exterior wet wood and water trickling beneath the door into the warm cabin. No footwear, limbs or entity.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-27.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-945edf23-1b45-4ec3-b0a1-fac0a787d870.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-27-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: water seeps under door, no unrequested boot",
+    "pass2": "pass: water only under door before finger appears",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-065ac157-470f-42c3-b933-2593fa53e859.png",
+        "reason": "unrequested boot appeared before relevant action"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "736ab69025c37d3a3a072c45d624c9accf77f68cb2ea3b56353de0abef7488a0"
+  },
+  {
+    "id": "shot-28",
+    "scene": "s13",
+    "purpose": "longform",
+    "detail": "Extreme floor-level shot: one pale slender adult finger reaches horizontally THROUGH a real small gap under wooden door into water on cabin floor. Finger attached to concealed hand outside, not growing from wood.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Extreme floor-level shot: one pale slender adult finger reaches horizontally THROUGH a real small gap under wooden door into water on cabin floor. Finger attached to concealed hand outside, not growing from wood. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-28.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-31476330-85b3-4d09-9af7-9049e4ed7870.png",
+    "reference_images": [],
+    "pass1": "pass: single finger extends beneath wood, wet surface, isolated boot outside",
+    "pass2": "pass: one bare finger below door, matching boot outside",
+    "render_approved": true,
+    "sha256": "70920c3d234447a440dd5b60ff2cc656885ee723e73af68196a56667f2d357fa"
+  },
+  {
+    "id": "shot-29",
+    "scene": "s14",
+    "purpose": "longform",
+    "detail": "Over-shoulder view of dark-clothed man inside cabin toward a small BACK door opening directly onto narrow wooden bridge. Warm room and cold blue outside. No readable text, face hidden.",
+    "prompt": "Edit the view THROUGH the rear door: the narrow wooden bridge MUST lead to solid dry rocky LAND with a dark forest edge at the far end, NOT another water platform or cabin. Remove far-end floating platform/cabin entirely. REMOVE landing net from cabin interior; the story's single landing net is on land. Keep man rear view, room and bridge perspective.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-29.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-d7caf5ed-542d-4c4a-b527-4f68c9f373e4.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-29-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: rear bridge leads to rocky land; indoor net removed",
+    "pass2": "pass: rear door bridge leads to rocky land; no net duplicated indoors",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a4b6c0da-a59e-4507-81e2-957f33420d3a.png",
+        "reason": "rear bridge led to another platform; net prematurely in cabin"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "fa772d9994dc3f6cebd2905b12ab8f5046bc75926be10fc8c6699382992cbbe4"
+  },
+  {
+    "id": "shot-30",
+    "scene": "s14",
+    "purpose": "longform",
+    "detail": "Close view through partly open back door: a single green boot physically blocking the door outside on bridge, gray sleeve above it partly cropped. Door hinges and bridge direction coherent.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close view through partly open back door: a single green boot physically blocking the door outside on bridge, gray sleeve above it partly cropped. Door hinges and bridge direction coherent. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-30.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-6fb49b52-d022-42b0-a6c5-fb688a8fc0e0.png",
+    "reference_images": [],
+    "pass1": "pass: single green boot blocks rear threshold, gray sleeve/hair partial",
+    "pass2": "pass: single forearm-supported boot blocks doorway; gray knit/hair match",
+    "render_approved": true,
+    "sha256": "6d481a044fb58921901ba34b19219ba2e943672016878301aac4b52169fe089e"
+  },
+  {
+    "id": "shot-31",
+    "scene": "s15",
+    "purpose": "longform",
+    "detail": "Escape insert: dark jacket zipper unzipped and normal adult hand pulling bare arm out of sleeve; a pale gray-sleeved hand holds the EMPTY jacket edge behind. Crop away heads, torsos anatomically coherent, no copied jackets.",
+    "prompt": "Replace composition with tight chest-level CLOSE-UP: male narrator's two hands unzipping and escaping his dark jacket sleeve. One pale hand in gray knit grips only the jacket fabric at the right frame edge. No head, body, boot, legs or full ghost visible. Wet warm cabin threshold blurred background. Anatomically correct total THREE visible hands belonging to two people, no extra arms.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-31.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-1993a093-f1f5-4da1-b35a-cdad379dcdf8.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-31-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: close zipper escape and gray-knit hand gripping jacket, no standing entity",
+    "pass2": "pass: two narrator hands and one pale gripping hand; zipper/cloth contact coherent",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-d0adae75-c616-4251-a6a7-6378a13f1ed0.png",
+        "reason": "standing entity with boots on feet, not arm movement"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "57125348a0e68d0848883b1f5b7ccb6e83eb9b586a450ae36d5d376daa3d731e"
+  },
+  {
+    "id": "shot-32",
+    "scene": "s15",
+    "purpose": "longform",
+    "detail": "Narrator seen from rear running landward along wet narrow bridge, now in dark shirt WITHOUT jacket, dark trousers and sneakers. Empty dark jacket caught behind near cabin, no face.",
+    "prompt": "Edit image remove BOTH green boots beside cabin entirely and remove small white star symbol bottom right. Preserve rear view running man in dark shirt and dark sneakers, abandoned jacket on rail, cabin, wooden bridge to land. No additional people or objects.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-32.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-3149c157-065d-4328-9c30-abf1212ec029.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-32-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: dark-shirt man runs toward land; no prematurely abandoned boots",
+    "pass2": "pass: shirt-only escape, jacket left on rail, correct landward route",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-390c029c-5ba2-4977-9e25-2616b3c7a204.png",
+        "reason": "boots abandoned prematurely and unwanted mark"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "db5e9405a1f6d9c91a0cfdb81bbe0e9527978d4a15bd0c36309a0d2708b3e873"
+  },
+  {
+    "id": "shot-33",
+    "scene": "s16",
+    "purpose": "longform",
+    "detail": "First-person fallen view on wet bridge: two normal male palms bracing wood, one plain sneaker stuck in gap between boards at side, no gore, no extra limbs.",
+    "prompt": "Edit image remove entire standing female figure in background, replace with unobstructed empty wet wooden bridge and cabin. Preserve first-person male hands and ONE dark sneaker wedged at broken wet plank seam. His hands wear dark SHIRT sleeves, NOT puffy jacket. No ghost body or boots yet; only the fall and trapped sneaker.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-33.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f128de80-f9c2-43c3-bd97-418d3e954548.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-33-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: first-person fall, single trapped dark sneaker, no standing ghost",
+    "pass2": "pass: fallen POV sneaker wedged in plank gap, normal hands",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-8c8b5bac-26db-461c-80cd-6d953ccb9d42.png",
+        "reason": "standing figure contradicted ghost arm movement"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "d8d7386eb5dc29a8ea2ea4c202291b0cfdf2f9f8e21e0b5cea95b77136bc17b2"
+  },
+  {
+    "id": "shot-34",
+    "scene": "s16",
+    "purpose": "longform",
+    "detail": "Low shot along bridge: approaching green boots with pale wrists in openings and gray-sleeved entity bent low; wet black hair near narrator hand at lower frame. Hair hides face, lower body clothed/cropped.",
+    "prompt": "Edit the blue tape on the green boot: replace broad blue band with ONE SMALL SQUARE blue tape patch. Preserve arm-in-boot geometry, wet gray knit, long black hair, water, wood and narrator. ",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-34.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-918da924-cfa4-4b65-b11e-1dc6091b256e.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-34-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: low arm-boot entity approaches trapped sneaker, small tape",
+    "pass2": "pass: matching low gray-knit entity arms in boots approaching trapped sneaker",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0b1e5d59-93b9-475a-a4e8-2885788fe91b.png",
+        "reason": "oversized tape wrap"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "921cc4bfb3ecdae1a96c587be92499990ef0e61b6b964ca888331797ba365877"
+  },
+  {
+    "id": "shot-35",
+    "scene": "s17",
+    "purpose": "longform",
+    "detail": "Clue close-up: one gray-sleeved pale hand OUTSIDE boot grips a sneaker lace on wet wood, other green boot beside frame supports entity. Five fingers with natural contact, no extra fingers or severed wrists.",
+    "prompt": "Edit the blue tape on the green boot: replace broad blue band with ONE SMALL SQUARE blue tape patch. Preserve arm-in-boot geometry, wet gray knit, long black hair, water, wood and narrator. ",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-35.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-11856bbd-932d-476c-bee9-52048e32581e.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-35-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: gray-knit hand grips sneaker lace, five-digit grip, intact boot",
+    "pass2": "pass: pale hand grips sneaker lace, coherent fingers and left boot tape",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-975c1ff8-08a0-4292-b646-f64f3de8d96a.png",
+        "reason": "oversized tape wrap"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "7b9589b21060944f7d01cba47e8820c82c71808c10e623309c5dca5c6773ce5e"
+  },
+  {
+    "id": "shot-36",
+    "scene": "s17",
+    "purpose": "longform",
+    "detail": "Side view of same wet gray-knit ghost supporting her upper body on arms inside green boots beside discarded jacket, trailing soaked gray fabric lies flat concealing lower body. No knees/feet visible, no blood, no face.",
+    "prompt": "Edit add narrator's abandoned dark jacket spread flat on wet planks under the ghost's trailing gray-knit hem, partly visible in lower left foreground. She has DRAGGED that jacket along, as the narration says. Keep small square tape and arms in rubber boots, no legs or gore. Preserve all other details.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-36.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-4e550f95-0e7b-4bb1-a1d0-75c9fb164ed9.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-36-rejected-v2.png"
+    ],
+    "pass1": "pass after narration recheck: dragged jacket under wet knit restored; concealed lower body",
+    "pass2": "pass: discarded jacket dragged under gray hem matches narration; lower body hidden",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0372f0c0-6ef1-4172-9559-e72779b23e8b.png",
+        "reason": "oversized tape and duplicated abandoned jacket"
+      },
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-b4233c59-f6ee-49b9-84fa-6ec0d7fca59a.png",
+        "reason": "scene narration explicitly says entity dragged jacket along"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "a9d95fef11187d460bed9f138d2854ab6bb4e4ac4210fefd4edbcc343ce94487"
+  },
+  {
+    "id": "shot-37",
+    "scene": "s18",
+    "purpose": "longform",
+    "detail": "Landward end of narrow bridge at night: adult male friend seen from behind at shore with handheld flashlight pointed toward narrator, narrator crawling toward land in dark shirt. No face, no ghost close-up.",
+    "prompt": "Edit BOTH dark green objects on crawling woman's forearms: they MUST be simple knee-high rubber BOOTS with intact solid rounded boot toes and soles touching wood, not gloves or hands. REMOVE all finger-like protrusions from them. One small square blue tape on LEFT boot only, NO bands. Preserve gray knit, concealed face, low crawling pose, man and friend rescue positions.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-37.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f766f150-86c4-447a-9347-b65471dc12ae.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-37-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: friend on land, prone dark-shirt narrator, crawling arm-boot ghost",
+    "pass2": "pass: friend arrives land side, prone narrator and boot-supported entity align",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-fdb46a97-739d-4ca6-8431-19d2fe75f1eb.png",
+        "reason": "glove-like finger protrusions instead of rubber boots"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "7537bc1bcbb8b39251df1cc398c9c74d89db2d889aa6cddcc029bddc5bf6167b"
+  },
+  {
+    "id": "shot-38",
+    "scene": "s18",
+    "purpose": "longform",
+    "detail": "Close narrator lower legs: one bare foot freed from an abandoned sneaker on wet bridge, other foot still in dark sneaker. Hands bracing boards. No injury or duplicate shoes.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close narrator lower legs: one bare foot freed from an abandoned sneaker on wet bridge, other foot still in dark sneaker. Hands bracing boards. No injury or duplicate shoes. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces. Tight physical-clue composition on wet narrow timber bridge beside dark reservoir, NO cabin panorama. Narrator wears dark shirt NOT jacket. One foot bare only AFTER sneaker removal; the other dark sneaker stays on. Ghost arms in intact green rubber BOOTS, not gloves, ONE small blue square patch, no bands. Gray-knit sleeve hand grip normal five fingers, no extra limbs, no gore.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-38.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a4a276dd-3282-4f1f-ba1d-da4254b91cd6.png",
+    "reference_images": [],
+    "pass1": "pass: one bare foot and other sneaker, abandoned sneaker separate, normal toes",
+    "pass2": "pass: one bare foot, one worn sneaker and discarded other shoe; fingers/toes coherent",
+    "render_approved": true,
+    "sha256": "81068af445c4a8ce740ebd9ea331ad080cd8030f92634915900ebd0391ed39da"
+  },
+  {
+    "id": "shot-39",
+    "scene": "s18",
+    "purpose": "longform",
+    "detail": "Close physical threat: green boot opening is pressed against narrator bare ankle; pale ghost hand INSIDE the boot grips ankle from opening, gray sleeve nearby. Intact rubber with a clear opening, no solid-object penetration, no gore.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Close physical threat: green boot opening is pressed against narrator bare ankle; pale ghost hand INSIDE the boot grips ankle from opening, gray sleeve nearby. Intact rubber with a clear opening, no solid-object penetration, no gore. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces. Tight physical-clue composition on wet narrow timber bridge beside dark reservoir, NO cabin panorama. Narrator wears dark shirt NOT jacket. One foot bare only AFTER sneaker removal; the other dark sneaker stays on. Ghost arms in intact green rubber BOOTS, not gloves, ONE small blue square patch, no bands. Gray-knit sleeve hand grip normal five fingers, no extra limbs, no gore.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-39.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-05c77ebb-00fa-43a1-bb25-5708c10c5144.png",
+    "reference_images": [],
+    "pass1": "pass: ankle at flexible boot opening with pale internal grip, no pierced skin",
+    "pass2": "pass: intentional ghost boot rim around ankle and hand grip, no accidental extra leg",
+    "render_approved": true,
+    "sha256": "29a4aaa7ff4aeead81bbfa5af24b683ace25c5d2a76e1e29ece5a0cb513e138e"
+  },
+  {
+    "id": "shot-40",
+    "scene": "s19",
+    "purpose": "longform",
+    "detail": "Rescue wide from land: friend pulls narrator arms landward, long landing-net handle reaches between green boot opening and bare lower leg at bridge edge. Faces hidden; normal adults, no extra bodies.",
+    "prompt": "Replace with close shore rescue view: friend in dark outdoor jacket on rocky LAND, both hands pulling male narrator's two dark-SHIRT forearms toward land. Narrator lies prone on wet bridge ending at shore. Show only the two adult men's arms and cropped torsos, NO faces, NO ghost, NO legs or boots in frame. A single long aluminum landing-net handle lies along land-side railing ready for use, not inside flesh. Blue reservoir and wet boards behind. Normal anatomy and physical pulling contact.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-40.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f1d872f8-27de-4384-a8a1-04e9600cf84c.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-40-rejected-v2.png"
+    ],
+    "pass1": "pass after correction: friend pulls narrator forearms toward rocky land, net ready",
+    "pass2": "pass: friend grips narrator forearms, single net pole ready on shore",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-c5bf39ed-ec0f-4742-a11b-b38090d9ffe0.png",
+        "reason": "friend mistakenly pulled ghost arm rather than narrator"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "a640c1f6873e8b2a36120a8b4405026c70e9f96449d6f8370749edd7b4c11490"
+  },
+  {
+    "id": "shot-41",
+    "scene": "s19",
+    "purpose": "longform",
+    "detail": "Rescue contact detail: landing-net pole inserted into clear gap BETWEEN flexible green boot rim and intact bare ankle, pale five-fingered hand grasps pole from boot opening. Wooden/rubber/skin contact plausible, no pierced flesh.",
+    "prompt": "Edit ONLY the long wooden pole and the thinner twig-like pole into ONE single straight silver aluminum landing-net handle inserted in the gap at boot opening, with woman's five normal fingers grasping it and friend's two hands holding upper end. No secondary stick. Preserve bare ankle, flexible boot rim, intact skin, wet wood and ghost knit.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-41.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-41108fd5-0cb6-4792-aec6-0e2e7b4d579a.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-41-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: single aluminum handle between flexible rim and ankle, hand grip",
+    "pass2": "pass: single pole inserted beside ankle, pale hand grips pole, friend holds top; no skin penetration",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-6924691f-5d44-4631-851d-b08743298af9.png",
+        "reason": "duplicate sticks and handle material mismatch"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "3275493906f49877094a705a154501e1a47892a9f179ce7e85ef9aa8743a5337"
+  },
+  {
+    "id": "shot-42",
+    "scene": "s20",
+    "purpose": "longform",
+    "detail": "Narrator and friend safely on shore seen from back, narrator dark shirt one barefoot and one sneaker, still looking at bridge. Dark jacket and green boot pair far at bridge end. No repeated person or face.",
+    "prompt": "Edit foreground people: both are adult MEN with short black hair, seen only from behind. Narrator wears plain dark LONG-SLEEVED SHIRT, no jacket, ONE bare foot and one dark sneaker. Friend wears dark outdoor jacket and normal shoes. REMOVE green boots on rocks entirely because empty boots remain on BRIDGE later. Keep land and dark water, but crop background cabin to slight blur, no ghost or faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-42.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-29aa07b4-7bc2-49de-b9fc-958688727b6f.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-42-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: two short-haired men, bare-foot continuity, no boots on shore",
+    "pass2": "pass: shore aftermath, one bare narrator foot, friend dark jacket, no returned boots",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-215860f2-7467-4896-a6fa-0ed895cc9adc.png",
+        "reason": "friend hair/wardrobe continuity and boots on land"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "7639f8d7f6bcc3ad9967cf2ff25d43bb4f5c1f7732c062c2836db3edb3446a18"
+  },
+  {
+    "id": "shot-43",
+    "scene": "s20",
+    "purpose": "longform",
+    "detail": "Water splashes beside bridge as ghost disappears out of sight. Two EMPTY green boots remain upright on wooden bridge, landing-net handle slides toward water. No visible woman or detached body parts.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Water splashes beside bridge as ghost disappears out of sight. Two EMPTY green boots remain upright on wooden bridge, landing-net handle slides toward water. No visible woman or detached body parts. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-43.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-c32172ba-9e79-4438-92ae-a76e0f174b04.png",
+    "reference_images": [],
+    "pass1": "pass: splash, empty boots on bridge, net slides waterward",
+    "pass2": "pass: splash after disappearance, empty boots remain on bridge; net in water",
+    "render_approved": true,
+    "sha256": "166d6e6db7487ff512d8cd2889135047fc32ecd113b85eb8a2406a1d42ab8a5d"
+  },
+  {
+    "id": "shot-44",
+    "scene": "s21",
+    "purpose": "longform",
+    "detail": "Two adult men walking toward parked plain dark car on land, seen from rear, narrator has one bare foot and one sneaker, no jacket. Reservoir and cabin in background, no ghost near car.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Two adult men walking toward parked plain dark car on land, seen from rear, narrator has one bare foot and one sneaker, no jacket. Reservoir and cabin in background, no ghost near car. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-44.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-829902fa-e5f4-468b-bb1d-29961e27bb81.png",
+    "reference_images": [],
+    "pass1": "pass: dark-shirt narrator one bare foot walks to car with short-haired friend",
+    "pass2": "pass: two men leave for car, one bare foot and shirt-only narrator maintained",
+    "render_approved": true,
+    "sha256": "fb93d87dc69cb8591787ec50190441cfbba412978095bc18aa921c7849cfd704"
+  },
+  {
+    "id": "shot-45",
+    "scene": "s21",
+    "purpose": "longform",
+    "detail": "View from plain car side window toward distant wooden bridge: flashlight glow on two empty green boots standing side by side, cabin warm lamp behind them. No ghost at car, no text.",
+    "prompt": "Edit ONLY the little blue wraparound band on the distant LEFT green boot: replace with one small square blue tape patch. Keep car window, empty boot pair on bridge, warm cabin and all other details.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-45.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7c76c69c-ed11-4305-8dbe-f42bd5787657.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-45-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: empty boot pair viewed through car window, small square tape",
+    "pass2": "pass: boots still on bridge seen from car, square left tape",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-60fe6c71-2083-46ef-957e-d417f514b4f5.png",
+        "reason": "tape band instead of square"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "e64e54e2b590dff495636e976621706e8e27ea71ba2e2db59fcb6ffcd653a67b"
+  },
+  {
+    "id": "shot-46",
+    "scene": "s22",
+    "purpose": "longform",
+    "detail": "Reservoir entrance at night with two anonymous responders seen from back and two men waiting by plain car. No police emblems, readable signs or faces. Quiet credible Korean rural setting.",
+    "prompt": "Edit REMOVE the two foreground men observing beside car entirely. Keep just two rescuers walking on the wooden bridge toward the floating cabin, dark blue reservoir, shore and car edge. No extra foreground persons or ghost. Rescuers' waterproof boots are ordinary black, remove any blue tape from them.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-46.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-76b6e85f-8448-401b-bd8c-1009bbfe555c.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-46-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: responders traverse to floating cabin, ordinary boots no tape",
+    "pass2": "pass: responders approach floating barrel-supported platform on sole bridge",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-e1b87885-8e8d-4af2-801a-f795d1bca97d.png",
+        "reason": "narrator wardrobe drift in unnecessary foreground figures"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "451b60a9037ec65bdcd500107497f2013832dda8ad31d85ec89ed85deafb98e0"
+  },
+  {
+    "id": "shot-47",
+    "scene": "s22",
+    "purpose": "longform",
+    "detail": "Recovered scene insert: dim mobile phone on warm cabin cot, through open doorway a rod lies partly in water; long landing net caught BELOW bridge visible at window edge. No ghost, no readable screen.",
+    "prompt": "Edit REMOVE pair of green boots beside cot completely. Replace window view with only dark blue reservoir water, no concrete road bridge or net in window. Replace outside open door view with immediate wet wooden platform railing over blue water, NO long bridge or another platform. Keep PHONE on cot, warm lamp, open door and empty room.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-47.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-3a86b426-2a43-4fba-a9cc-61bb144a465d.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-47-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: phone on cot, empty warm room, reservoir outside",
+    "pass2": "pass: phone remains on cot, no boots returned inside; deck water visible",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a02ac0dc-69c6-446e-b4c9-416ac8c66847.png",
+        "reason": "boots incorrectly returned indoors and concrete bridge invented"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "14655bd10fa017d5508014cd32a2f0c910b48ed109e454fdec979e63c95eb237"
+  },
+  {
+    "id": "shot-48",
+    "scene": "s23",
+    "purpose": "longform",
+    "detail": "Next morning natural daylight: two muddy green rubber boots side by side on wooden bridge, blue tape clearly on LEFT opening. No hand, no body, no ghost.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Next morning natural daylight: two muddy green rubber boots side by side on wooden bridge, blue tape clearly on LEFT opening. No hand, no body, no ghost. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-48.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-fee16fca-c311-4397-81c4-136650a0d45d.png",
+    "reference_images": [],
+    "pass1": "pass: morning empty boots on bridge, square left tape, normal rubber geometry",
+    "pass2": "pass: daylight empty boot pair, blue square on left and matching floating cabin",
+    "render_approved": true,
+    "sha256": "e1c3a990acb9dd6cd82c7c826aae17702b7880265b224d34d3125957ba9015c9"
+  },
+  {
+    "id": "shot-49",
+    "scene": "s23",
+    "purpose": "longform",
+    "detail": "Daylight macro inside green boot opening: exactly FIVE distinct shallow nail scratch grooves on inside rubber surface, blue tape on near rim. No nails, fingers, gore or lettering.",
+    "prompt": "Generate ONE NEW photorealistic cinematic 16:9 LANDSCAPE frame for an original fictional Korean reservoir horror story. Use supplied reference only for environment lighting/geometry, NOT as a fixed camera shot. Daylight macro inside green boot opening: exactly FIVE distinct shallow nail scratch grooves on inside rubber surface, blue tape on near rim. No nails, fingers, gore or lettering. Continuity: midnight blue water, warm tungsten wooden cabin, one narrow land-to-platform wooden bridge, plain dark green rubber boots with blue tape on LEFT when boots visible. Adult narrator dark clothes, faces never visible. If entity present: adult woman gray knitted top, long soaked black hair entirely covering face. Readable shadow details on mobile, natural object geometry, no text, numbers, logos, collage, captions, gore or gratuitous injuries. Recompose the camera for this specific detail. No extra limbs or accidental faces.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-49.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-95fab8cd-ebea-4cfe-9561-e1a457bb02dd.png",
+    "reference_images": [],
+    "pass1": "pass: five scratch grooves inside left boot, empty intact rubber",
+    "pass2": "pass: five scratches inside rubber rim readable, no gore",
+    "render_approved": true,
+    "sha256": "49d644e347552bfb79b4834208c09208085b6c57886ac567e070dcbeb2473e10"
+  },
+  {
+    "id": "shot-50",
+    "scene": "s24",
+    "purpose": "longform",
+    "detail": "Photo taken from shore immediately after rescue: warm cabin, single wooden bridge receding into dark blue reservoir, two empty green boots at far bridge end. Subtle wet gray cloth beneath far bridge, no phone frame or text.",
+    "prompt": "Edit remove ENTIRE woman under bridge: replace her with dark reservoir water and timber supports, no hair, hands, clothes or silhouette. The NIGHT PHOTO first reveals ONLY two EMPTY green boots on top of wet wood bridge. Blue tape must be one small square patch on left boot, not band. Remove background cabin on shore; distant dark treeline and water only. Preserve natural night flashlit photograph appearance. No text or phone UI.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-50.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-35ddd59f-376b-4a8e-b95d-8c49ca3a753b.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-50-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: rescue-photo boot clue only, no early entity reveal",
+    "pass2": "pass: rescue photo begins with boots above empty dark underbridge, no premature entity",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-eb614da2-cf3c-421f-a3f4-cad41891320e.png",
+        "reason": "premature complete final reveal instead of staged photographic clue"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "3882b9972e1fe9a73ce7c9699c26b8a28612ce5acf9dd653faa24315948ae1d7"
+  },
+  {
+    "id": "shot-51",
+    "scene": "s24",
+    "purpose": "longform",
+    "detail": "Same nighttime shore photograph closer to UNDERSIDE of wooden bridge: wet gray knitted cloth clings underneath structure, black wet hair hangs downward, pale hands partly visible grasping wood toward land. No noose, no hanging by neck, no face.",
+    "prompt": "Edit entire supernatural subject into a SMALL PARTIAL CLUE: show ONLY a strip of dripping gray knitted fabric caught beneath wooden bridge beam, no head, no hair, NO hands, NO body or person visible. Tight macro view under wet timber beam over dark blue water. Remove cabin background, leaving water. This is intermediate zoom into photo before revealing the entity.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-51.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-86f5ea1d-cc05-4b96-803a-5ca5b3561b94.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-51-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: isolated dripping gray knit under beam, intermediate clue",
+    "pass2": "pass: gray knit trace only before full photo reveal, no face/head",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ef49babb-bcdc-48e6-a7bd-fcbdb10cd4f1.png",
+        "reason": "premature complete final reveal instead of staged photographic clue"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "6dcdfdf020441c43bdf67dab29abf01e1241b33e80bea41df556f17d35208ee0"
+  },
+  {
+    "id": "shot-52",
+    "scene": "s24",
+    "purpose": "longform",
+    "detail": "Final reveal low shore view: adult wet-haired female ghost clinging to UNDERSIDE bridge with two normal pale hands, gray wet knit upper body below boards, crawling LANDWARD. No boots worn, no face, no rope, no blood. Entity on left half, right half dark readable water for end screen.",
+    "prompt": "Edit ONLY background and boot tape: REMOVE the lit cabin sitting on rocky land in far background, replace with distant dark forest and reservoir water. Preserve woman gripping underside of bridge with exactly two bare hands, gray wet knit, concealed face, empty boots atop bridge. Replace broad blue band on left boot with ONE small square blue tape patch. No other changes.",
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-52.png",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-afdbdd30-6625-44cf-b79d-fe7cb523a273.png",
+    "reference_images": [
+      "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/shot-52-rejected-v1.png"
+    ],
+    "pass1": "pass after correction: two bare hands grip underside, matching wet-knit ghost, empty boots above; no relocated cabin",
+    "pass2": "pass: final matching entity bare hands gripping beam, no boots on arms; end-screen right clue-safe",
+    "replacements": [
+      {
+        "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0165a249-9847-46dc-8869-f27ae9eaade5.png",
+        "reason": "cabin relocated on shore and tape band"
+      }
+    ],
+    "render_approved": true,
+    "sha256": "c79c2d6b52712d7b805513a1a75a104f05f96c111a28d8d0a9afe41aca67ddba"
+  },
+  {
+    "id": "short-new-01",
+    "prompt": "Use case: photorealistic-natural. Asset: freshly generated independent portrait 9:16 frame for a Korean fictional horror YouTube Short, NOT a crop or remake of any supplied image. Contemporary rural Korean reservoir at night, cold blue water and a warm tungsten lamp from a small wooden floating fishing cabin with a narrow railed wooden bridge toward land. Cinematic realistic textures, mist, mobile-readable focal clue, restrained suspense, no gore. Recurring object: a matching pair of ordinary dark forest-green knee-high rubber fishing boots, left boot has one SMALL SQUARE blue tape patch on the outer shaft; right boot has no tape. NOT a blue band. No words, text, branding, watermark, faces, ghost, limbs in boots, visible people, no explicit entity reveal. Frame 9:16 vertical, keep all important clues in middle 60% of image, leave bottom 25% subdued for subtitles. Low waterline shot: two upright empty green boots independently balanced on dark rippling water, one slightly in front of the other, as if taking alternating steps toward the camera. Top rims visibly EMPTY and hollow, no feet or body inside, no unnatural fusion. Restrained small wakes, distant amber cabin out of focus high behind. Emphasize impossible walking empty boots, not a monster.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-258c404e-1851-4e42-af75-18bf9edb6c15.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-01.png",
+    "sha256": "11fa2452a349c131d41477221e0e77783c706ab7d92bee8bb9df158f9d79cecc",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "물 위의 빈 장화 두 짝, 왼쪽 작은 파란 패치, 인체·정체 노출 없음. 도입 훅과 일치."
+  },
+  {
+    "id": "short-new-02",
+    "prompt": "Use case: photorealistic-natural. Asset: freshly generated independent portrait 9:16 frame for a Korean fictional horror YouTube Short, NOT a crop or remake of any supplied image. Contemporary rural Korean reservoir at night, cold blue water and a warm tungsten lamp from a small wooden floating fishing cabin with a narrow railed wooden bridge toward land. Cinematic realistic textures, mist, mobile-readable focal clue, restrained suspense, no gore. Recurring object: a matching pair of ordinary dark forest-green knee-high rubber fishing boots, left boot has one SMALL SQUARE blue tape patch on the outer shaft; right boot has no tape. NOT a blue band. No words, text, branding, watermark, faces, ghost, limbs in boots, visible people, no explicit entity reveal. Frame 9:16 vertical, keep all important clues in middle 60% of image, leave bottom 25% subdued for subtitles. View from the open warm cabin doorway looking down at weathered wooden deck: the spot beside door where boots were left is conspicuously empty; two subtle damp sole-sized outlines where they stood, a small fishing rod rack and reservoir railing beyond. No boots anywhere in frame, no people, no footprints leading out yet. Readable ordinary location geometry.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-c22a9909-762a-4289-9823-78986c543e99.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-02.png",
+    "sha256": "57575237c9465e65f2f24d1a8f4dd0adce428d11e76d590f8b391633d55817a8",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "따뜻한 출입문 앞 빈 장화 자리. 장화가 사라진 단계와 일치, 인체·귀신 없음."
+  },
+  {
+    "id": "short-new-03",
+    "prompt": "Use case: photorealistic-natural. Generate a completely NEW independent 9:16 vertical cinematic photograph for a Korean reservoir horror teaser. Close downward view ONLY of wet dark wooden deck planks outside a floating fishing cabin. A narrow warm amber light stripe from the door at top right crosses the cold blue deck. Three or four very clear wet HUMAN PALM PRINTS form a trail toward a railing at the bottom edge: each has one palm and exactly five normal finger traces; flat moisture traces, not actual hands. Main nearest palm print in middle frame. Reservoir water beyond the low wooden railing is softly out of focus. Mobile-readable, atmospheric but not black. IMPORTANT ABSOLUTE EXCLUSION: no boots, no shoes, no footwear anywhere, no fishing gear, no human bodies, no ghost, no faces, no footprints, no text, no logos. The boots have vanished and are NOT present in this shot. Keep bottom 25 percent mostly plain planks for subtitle overlay.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ffc4052c-9c22-4348-ab3b-944689baa1b9.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-03.png",
+    "sha256": "cf4f37a66cf54796cd172df6fbfe1a7708d7b4a4c94a8d065284e1b9c4759b01",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "다섯 손가락의 젖은 손바닥 흔적. 장화 없음. 발자국과 구별되며 인접 컷과 전개 일치."
+  },
+  {
+    "id": "short-new-04",
+    "prompt": "Use case: photorealistic-natural. Asset: freshly generated independent portrait 9:16 frame for a Korean fictional horror YouTube Short, NOT a crop or remake of any supplied image. Contemporary rural Korean reservoir at night, cold blue water and a warm tungsten lamp from a small wooden floating fishing cabin with a narrow railed wooden bridge toward land. Cinematic realistic textures, mist, mobile-readable focal clue, restrained suspense, no gore. Recurring object: a matching pair of ordinary dark forest-green knee-high rubber fishing boots, left boot has one SMALL SQUARE blue tape patch on the outer shaft; right boot has no tape. NOT a blue band. No words, text, branding, watermark, faces, ghost, limbs in boots, visible people, no explicit entity reveal. Frame 9:16 vertical, keep all important clues in middle 60% of image, leave bottom 25% subdued for subtitles. Waterline close-up in dark blue reservoir: ONE dark-green rubber boot toe with a clearly defined ordinary lugged outsole emerging just above the water, restrained concentric ripples suggesting a rubber sole knocking; rear boot indistinct distant shape. No detached sole, no foot, no hand or body, no ghost. Hollow boot opening partially visible, coherent geometry.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-3168a34a-affb-4f21-a522-c40755e478df.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-04.png",
+    "sha256": "6aa03343c73335bc279080a504ec0a3a28ff2773af02f39b8251fe6b36a7be99",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "수면 위 고무 밑창과 물결이 선명함. 장화 형태 정상, 내부 인체 없음."
+  },
+  {
+    "id": "short-new-05",
+    "prompt": "Use case: photorealistic-natural. Asset: freshly generated independent portrait 9:16 frame for a Korean fictional horror YouTube Short, NOT a crop or remake of any supplied image. Contemporary rural Korean reservoir at night, cold blue water and a warm tungsten lamp from a small wooden floating fishing cabin with a narrow railed wooden bridge toward land. Cinematic realistic textures, mist, mobile-readable focal clue, restrained suspense, no gore. Recurring object: a matching pair of ordinary dark forest-green knee-high rubber fishing boots, left boot has one SMALL SQUARE blue tape patch on the outer shaft; right boot has no tape. NOT a blue band. No words, text, branding, watermark, faces, ghost, limbs in boots, visible people, no explicit entity reveal. Frame 9:16 vertical, keep all important clues in middle 60% of image, leave bottom 25% subdued for subtitles. Wider low viewpoint from the wooden deck down to the water: two EMPTY dark-green knee boots advancing in staggered positions toward the deck, one lifted slightly out of the water with tiny splash, the other touching water. Open hollow rims visibly empty, left small square blue tape, no legs or hands inside. Rail post on edge establishes distance; no monster or human.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-987e1514-4b02-4c31-b4c2-c2804970389a.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-05.png",
+    "sha256": "bde042d2ec6b2f6d72014f88040ad5fc286f1d8df4e26f285d359b7020f452d9",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "번갈아 다가오는 빈 장화 두 짝과 좌대 난간. 근접 위협의 단계 유지."
+  },
+  {
+    "id": "short-new-06",
+    "prompt": "Use case: photorealistic-natural. Asset: freshly generated independent portrait 9:16 frame for a Korean fictional horror YouTube Short, NOT a crop or remake of any supplied image. Contemporary rural Korean reservoir at night, cold blue water and a warm tungsten lamp from a small wooden floating fishing cabin with a narrow railed wooden bridge toward land. Cinematic realistic textures, mist, mobile-readable focal clue, restrained suspense, no gore. Recurring object: a matching pair of ordinary dark forest-green knee-high rubber fishing boots, left boot has one SMALL SQUARE blue tape patch on the outer shaft; right boot has no tape. NOT a blue band. No words, text, branding, watermark, faces, ghost, limbs in boots, visible people, no explicit entity reveal. Frame 9:16 vertical, keep all important clues in middle 60% of image, leave bottom 25% subdued for subtitles. Close suspenseful view of the outer wooden railing on the fishing cabin deck: ONE empty green boot rests upright on the flat top of the rail, small square blue patch on outer side. Second boot remains lower and farther away on dark water, out of focus. Both hollow rims empty. Cabin door edge warm glow to left, quiet mist blue background. Show ONLY arrival of the boot at railing; NO body, hands, gray clothing or identity reveal.",
+    "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f49520a8-0345-4e53-a9dc-d39aa4311c8b.png",
+    "purpose": "shorts_original",
+    "reference_images": [],
+    "file": "/Users/happinich/Documents/Hyperframes-codex/projects/2026-022-reservoir-boots/04_composition/assets/visuals/short-new-06.png",
+    "sha256": "3eb86f2a933a4a7398464957573d5894bb2fbe3bd0ddd7395f70e1eb044d55d8",
+    "render_approved": true,
+    "pass_1": "pass",
+    "pass_2": "pass",
+    "review_note": "난간 위 한 짝과 물 위 다른 한 짝. 정체·회색 니트·손·결말을 공개하지 않음."
+  }
+]

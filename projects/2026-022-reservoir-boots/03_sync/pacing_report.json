@@ -1,0 +1,77 @@
+{
+  "status": "ready_for_review",
+  "duration": 654.8,
+  "word_count": 1320,
+  "average_wpm": 121.0,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 2,
+  "long_word_gaps": [
+    {
+      "start": 441.4,
+      "end": 442.28,
+      "duration": 0.88,
+      "before": "있었습니다.",
+      "after": "친구가"
+    },
+    {
+      "start": 559.56,
+      "end": 560.4,
+      "duration": 0.84,
+      "before": "있었습니다.",
+      "after": "출동한"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 650.0,
+      "end": 654.8,
+      "word_count": 11,
+      "wpm": 44.0
+    }
+  ],
+  "fast_window_count": 5,
+  "fast_windows": [
+    {
+      "start": 225.0,
+      "end": 240.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 250.0,
+      "end": 265.0,
+      "word_count": 36,
+      "wpm": 144.0
+    },
+    {
+      "start": 255.0,
+      "end": 270.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 315.0,
+      "end": 330.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 585.0,
+      "end": 600.0,
+      "word_count": 34,
+      "wpm": 136.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

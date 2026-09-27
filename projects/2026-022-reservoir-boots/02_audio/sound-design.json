@@ -1,0 +1,149 @@
+{
+  "voice_unchanged_during_mixing": true,
+  "bgm_candidate": "cand-03",
+  "selection_basis": "User approved recommended cand-03",
+  "ambience": "quiet procedural reservoir water and wind; no indoor mechanical hum",
+  "events": [
+    {
+      "start": 91.2,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    },
+    {
+      "start": 109.72,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.007
+    },
+    {
+      "start": 110.52,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 146.16,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    },
+    {
+      "start": 176.74,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    },
+    {
+      "start": 233.22,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.007
+    },
+    {
+      "start": 234.02,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 244.76,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.007
+    },
+    {
+      "start": 245.56,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 257.18,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    },
+    {
+      "start": 278.9,
+      "kind": "wood",
+      "duration": 0.4,
+      "gain": 0.008
+    },
+    {
+      "start": 322.88,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    },
+    {
+      "start": 354.96,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.007
+    },
+    {
+      "start": 355.76,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 372.24,
+      "kind": "cloth",
+      "duration": 0.6,
+      "gain": 0.006
+    },
+    {
+      "start": 378.44,
+      "kind": "wood",
+      "duration": 0.4,
+      "gain": 0.008
+    },
+    {
+      "start": 391.64,
+      "kind": "wood",
+      "duration": 0.4,
+      "gain": 0.008
+    },
+    {
+      "start": 398.5,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.007
+    },
+    {
+      "start": 399.3,
+      "kind": "rubber",
+      "duration": 0.4,
+      "gain": 0.005
+    },
+    {
+      "start": 416.1,
+      "kind": "cloth",
+      "duration": 0.6,
+      "gain": 0.006
+    },
+    {
+      "start": 429.08,
+      "kind": "cloth",
+      "duration": 0.6,
+      "gain": 0.006
+    },
+    {
+      "start": 474.92,
+      "kind": "wood",
+      "duration": 0.4,
+      "gain": 0.008
+    },
+    {
+      "start": 519.48,
+      "kind": "water",
+      "duration": 0.8,
+      "gain": 0.008
+    }
+  ],
+  "bgm_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3
+}
