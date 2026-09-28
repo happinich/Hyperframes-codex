@@ -1,0 +1,57 @@
+{
+  "shorts": [
+    {
+      "id": "short-new-01",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-da174f5c-3fbc-4958-a86e-0af2a689e73e.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16 1080x1920 composition. Korean neighborhood public library exterior after midnight, CLOSE vertical view of a metal book-return flap under dim warm wall light, walkway completely empty, dark blue night, no people, no entity, no text, no logos. A single believable visual question: why did the flap move when nobody came? Rich readable shadows, high contrast mobile framing. Do not reuse any long-form frame or create collage.",
+      "replacements": []
+    },
+    {
+      "id": "short-new-02",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ae7af4b7-1725-4173-8289-0b66cd47e6d1.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16. Inside Korean library book-return sorting room at night. An ordinary rectangular metal receiving tray contains ONE mysterious upright COVERLESS gray accordion-folded paper book; the book is alone, shadow rises behind it, warm overhead light and cool corridor glow. No hands, no people, no text, no extra books in tray. Tight centered mobile-readable composition, 50mm.",
+      "replacements": []
+    },
+    {
+      "id": "short-new-03",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-53738585-9818-4ce1-830f-9e9157c582d1.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16. Korean library sorting room at night: low camera sees the same single coverless gray folded-paper accordion book standing AGAIN inside metal receiving tray while floor immediately beside tray is empty. Blue book cart and doorway are only soft background cues. Camera angle and composition entirely new, not a crop. No person, hand, text, logos or another mysterious book. Strong dramatic downward light and readable shadows.",
+      "replacements": []
+    },
+    {
+      "id": "short-new-04",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-14dcf5f2-d755-4ab4-befc-f246547a97a2.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16. Floor-level CLOSE view in cold teal library corridor outside a CLOSED metal fire door, a thin deep-RED FABRIC bookmark ribbon snakes from narrow bottom door gap toward viewer. Door visibly shut, room beyond not shown, no people, no book, no text. Ribbon's motion implied by slight curl and diagonal leading line, clear mobile composition, controlled eerie cinematic lighting.",
+      "replacements": []
+    },
+    {
+      "id": "short-new-05",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-469dccd7-e19b-458e-9e0f-18b47b94ec7b.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16. Face-free Korean woman library worker seen from BEHIND, charcoal cardigan and dark trousers, bracing herself in cold teal empty corridor as she PULLS a heavy steel fire door CLOSED behind her. A glimpse of warm sorting room through the narrowing door but no monster visible. Blue book cart parked to one side, coherent hands/arms, believable geometry, visual urgency, no text or faces.",
+      "replacements": []
+    },
+    {
+      "id": "short-new-06",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-d1be0600-867e-4810-adeb-b0ac79289fef.png",
+      "prompt": "ONE new photorealistic cinematic horror still for a YouTube Short, PORTRAIT 9:16. Floor-level view of the CLOSED library fire door in cold teal corridor. Beneath the door, several thin white-gray PAPER STRIPS curl and fold upward into the FIRST SUGGESTION of five fingers, not yet full creature or identity. Small low cold light makes folds clearly readable on mobile; red ribbon remnant may lie distant but not needed. No people, no text, no full reveal. Tense spoiler-free cliffhanger.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-94a046da-e955-42e9-a765-7d14cb77994a.png",
+          "reason": "wooden door broke steel-door continuity"
+        }
+      ]
+    }
+  ],
+  "thumbnails": [
+    {
+      "id": "thumbnail-a",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f16e5428-2b71-468d-bd42-7bdb2228ef11.png",
+      "prompt": "Create a striking horror YouTube thumbnail BACKGROUND, 16:9 wide landscape, NO TEXT, NO LETTERING, no logos, no split-screen, no graphic labels. Right two-thirds: extreme close-up of an anatomically coherent HAND MADE ONLY OF FOLDED GRAY PAPER PAGES emerging beneath a heavy dark blue metal library return door and reaching toward the ankle of a normal dark sneaker at bottom right. Warm amber light glances off the paper, cold teal corridor behind, unmistakable high-stakes physical contact, cinematic photorealism, spooky but readable at tiny mobile size. LEFT ONE-THIRD deliberately simple deep-blue near-black negative space reserved for later Korean headline overlay. Focus decisive visual clue, strong contrast and depth."
+    },
+    {
+      "id": "thumbnail-b",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-5de9b16a-1aa8-4ab3-bfb0-44e0b01454e1.png",
+      "prompt": "Create a striking horror YouTube thumbnail BACKGROUND, 16:9 wide landscape, NO TEXT, NO LETTERING, no logos, no split-screen, no graphic labels. Right two-thirds: one mysterious COVERLESS accordion-fold gray book stands upright in a metal library return tray while a single deep-RED FABRIC bookmark ribbon hangs from it and disappears under a CLOSED steel fire door in the background. An impossible continuity clue, not a full creature reveal. Library workroom is warm amber, beyond door cold teal, cinematic photorealism. LEFT ONE-THIRD deliberately simple dark negative space reserved for later Korean headline overlay, and large clean shapes for tiny mobile size."
+    }
+  ]
+}

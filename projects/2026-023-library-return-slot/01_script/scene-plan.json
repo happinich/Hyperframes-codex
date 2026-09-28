@@ -1,0 +1,886 @@
+{
+  "project_id": "2026-023-library-return-slot",
+  "title": "심야 도서관 반납함에서 나온 손",
+  "status": "timed_to_approved_voice",
+  "content_nature": "fiction",
+  "production_profile_recommendation": "horror_cinematic_story_v1",
+  "visual_style_recommendation": "horror_cinematic",
+  "target_wpm": 130,
+  "scene_visual_lead_seconds": 0.35,
+  "duration_seconds": 477.227,
+  "narration_duration_estimate_seconds": 443.54,
+  "outro_estimate_seconds": 4,
+  "timing_source": "mlx-community/whisper-large-v3-turbo aligned to final paced voice; visuals lead cues by 0.35s",
+  "master_format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "shorts_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "cold_open",
+      "start_seconds": 0,
+      "end_seconds": 6.65,
+      "duration_seconds": 6.65,
+      "estimated_words": 14,
+      "target_wpm": 130,
+      "purpose": "손의 물리적 위협을 선제시",
+      "narration_text": "반납함에서 나온 종이 손이 제 발목을 붙잡았어요. 손가락을 펼칠 때마다 책장 넘기는 소리가 났습니다.",
+      "caption_text": "반납함에서 나온 종이 손이 제 발목을 붙잡았어요. 손가락을 펼칠 때마다 책장 넘기는 소리가 났습니다.",
+      "visual": "콜드 오픈: 반납함 철문 아래로 접히는 종이 손과 화자의 발목. 발과 손의 접촉은 암부에서도 읽히게.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 0,
+          "action": "reveal approved image 1",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 2.9099999999999997,
+          "action": "reveal approved image 2",
+          "spoken_trigger": "손가락을 펼칠"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 0,
+      "word_count": 14,
+      "speech_start": 0,
+      "speech_end": 6.28
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "start_seconds": 6.65,
+      "end_seconds": 31.029999999999998,
+      "duration_seconds": 24.379999999999995,
+      "estimated_words": 51,
+      "target_wpm": 130,
+      "purpose": "정상 업무 확립",
+      "narration_text": "그날 밤 저는 동네 도서관에서 반납된 책을 정리하고 있었어요. 낮에는 자료실에서 일하지만, 월말에는 밀린 반납 도서를 야간에 분류할 때가 있거든요. 사람 없는 도서관은 생각보다 시끄럽습니다. 냉난방기 소리, 바퀴 달린 카트가 바닥 틈을 넘는 소리, 바깥 반납함의 철문이 닫히는 소리가 번갈아 들려요. 그래도 안쪽 작업실의 불을 모두 켜 두면 무서울 이유는 없었습니다.",
+      "caption_text": "그날 밤 저는 동네 도서관에서 반납된 책을 정리하고 있었어요. 낮에는 자료실에서 일하지만, 월말에는 밀린 반납 도서를 야간에 분류할 때가 있거든요. 사람 없는 도서관은 생각보다 시끄럽습니다. 냉난방기 소리, 바퀴 달린 카트가 바닥 틈을 넘는 소리, 바깥 반납함의 철문이 닫히는 소리가 번갈아 들려요. 그래도 안쪽 작업실의 불을 모두 켜 두면 무서울 이유는 없었습니다.",
+      "visual": "야간 도서관 정경. 책 정리 업무와 파란 카트, 비어 있는 열람실. 화자 얼굴은 프레임 밖.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 6.65,
+          "action": "reveal approved image 3",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 16.33,
+          "action": "reveal approved image 4",
+          "spoken_trigger": "사람 없는 도서관은"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 14,
+      "word_count": 51,
+      "speech_start": 7,
+      "speech_end": 30.76
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "start_seconds": 31.029999999999998,
+      "end_seconds": 60.23,
+      "duration_seconds": 29.2,
+      "estimated_words": 59,
+      "target_wpm": 130,
+      "purpose": "공간 구조와 도구 확립",
+      "narration_text": "바깥 반납함은 벽을 관통해서 작업실의 받침 상자로 이어져 있었어요. 이용자가 책을 밀어 넣으면 짧은 금속 경사판을 타고 상자에 떨어지는 구조였죠. 저는 책을 꺼내 상태를 확인하고, 파란 카트에 쌓았습니다. 카트 손잡이의 도구통에는 포장 끈을 자를 작은 가위도 꽂혀 있었어요. 그날 제가 처리한 마지막 책은 얇은 여행 안내서였어요. 그걸 카트 맨 위에 올리고 반납함을 한 번 더 들여다봤습니다. 안에는 아무것도 없었어요.",
+      "caption_text": "바깥 반납함은 벽을 관통해서 작업실의 받침 상자로 이어져 있었어요. 이용자가 책을 밀어 넣으면 짧은 금속 경사판을 타고 상자에 떨어지는 구조였죠. 저는 책을 꺼내 상태를 확인하고, 파란 카트에 쌓았습니다. 카트 손잡이의 도구통에는 포장 끈을 자를 작은 가위도 꽂혀 있었어요. 그날 제가 처리한 마지막 책은 얇은 여행 안내서였어요. 그걸 카트 맨 위에 올리고 반납함을 한 번 더 들여다봤습니다. 안에는 아무것도 없었어요.",
+      "visual": "외부 철문-경사판-내부 받침 상자 지리 확립. 파란 카트 도구통의 작은 가위.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 31.029999999999998,
+          "action": "reveal approved image 5",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 53.35,
+          "action": "reveal approved image 6",
+          "spoken_trigger": "그걸 카트"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "cart wheel",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 65,
+      "word_count": 59,
+      "speech_start": 31.38,
+      "speech_end": 59.84
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "start_seconds": 60.23,
+      "end_seconds": 78.25,
+      "duration_seconds": 18.020000000000003,
+      "estimated_words": 31,
+      "target_wpm": 130,
+      "purpose": "첫 이상 징후",
+      "narration_text": "그때 철문이 닫히는 소리가 났습니다. 바깥에 사람이 왔나 싶어 모니터를 봤어요. 도서관 앞길과 반납함 입구가 화면에 잡혀 있었는데, 아무도 없더라고요. 바람이 문을 흔들었겠지 생각했습니다. 실제로 그 철문은 오래돼서 가끔 혼자 달칵거렸거든요.",
+      "caption_text": "그때 철문이 닫히는 소리가 났습니다. 바깥에 사람이 왔나 싶어 모니터를 봤어요. 도서관 앞길과 반납함 입구가 화면에 잡혀 있었는데, 아무도 없더라고요. 바람이 문을 흔들었겠지 생각했습니다. 실제로 그 철문은 오래돼서 가끔 혼자 달칵거렸거든요.",
+      "visual": "빈 CCTV 화면과 흔들리는 반납함 철문. 화면 글자·시각 숫자 없음.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 60.23,
+          "action": "reveal approved image 7",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 64.53,
+          "action": "reveal approved image 8",
+          "spoken_trigger": "모니터를 봤어요"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "fire door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 124,
+      "word_count": 31,
+      "speech_start": 60.58,
+      "speech_end": 77.8
+    },
+    {
+      "id": "s05",
+      "type": "story",
+      "start_seconds": 78.25,
+      "end_seconds": 104.91000000000001,
+      "duration_seconds": 26.66000000000001,
+      "estimated_words": 55,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "그런데 받침 상자 안에서 책장이 넘어갔어요. 한 장, 다시 한 장. 저는 상자를 책상 위로 당겼습니다. 방금 비워 둔 바닥에 표지가 없는 책 한 권이 세워져 있었어요. 어디서 떨어졌다면 소리가 났어야 하는데, 책이 들어오는 소리는 듣지 못했습니다. 더 이상한 건 책등이 없었다는 겁니다. 여러 장의 종이를 접어 붙인 것처럼 한쪽 모서리가 얇은 주름으로 이어져 있었어요.",
+      "caption_text": "그런데 받침 상자 안에서 책장이 넘어갔어요. 한 장, 다시 한 장. 저는 상자를 책상 위로 당겼습니다. 방금 비워 둔 바닥에 표지가 없는 책 한 권이 세워져 있었어요. 어디서 떨어졌다면 소리가 났어야 하는데, 책이 들어오는 소리는 듣지 못했습니다. 더 이상한 건 책등이 없었다는 겁니다. 여러 장의 종이를 접어 붙인 것처럼 한쪽 모서리가 얇은 주름으로 이어져 있었어요.",
+      "visual": "비어 있던 받침 상자 안에 세워진 표지 없는 책. 책등 대신 접힌 주름.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 78.25,
+          "action": "reveal approved image 9",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 96.41000000000001,
+          "action": "reveal approved image 10",
+          "spoken_trigger": "더 이상한 건"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 155,
+      "word_count": 55,
+      "speech_start": 78.6,
+      "speech_end": 104.76
+    },
+    {
+      "id": "s06",
+      "type": "story",
+      "start_seconds": 104.91000000000001,
+      "end_seconds": 123.47,
+      "duration_seconds": 18.559999999999988,
+      "estimated_words": 36,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "저는 그걸 집어 들지 않고 카트 옆에 밀어 두었습니다. 분실물일 수도 있으니까 아침 담당자에게 보여 주려고요. 손을 떼자 책이 아주 조금 벌어졌습니다. 종이가 습기를 먹어서 펴지는 것처럼 보였어요. 하지만 작업실은 건조했고, 다른 책에는 그런 자국이 없었습니다.",
+      "caption_text": "저는 그걸 집어 들지 않고 카트 옆에 밀어 두었습니다. 분실물일 수도 있으니까 아침 담당자에게 보여 주려고요. 손을 떼자 책이 아주 조금 벌어졌습니다. 종이가 습기를 먹어서 펴지는 것처럼 보였어요. 하지만 작업실은 건조했고, 다른 책에는 그런 자국이 없었습니다.",
+      "visual": "책을 밀어 놓자 페이지 모서리가 조금씩 벌어지는 접사.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 104.91000000000001,
+          "action": "reveal approved image 11",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 112.65,
+          "action": "reveal approved image 12",
+          "spoken_trigger": "손을 떼자"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 210,
+      "word_count": 36,
+      "speech_start": 105.26,
+      "speech_end": 123.08
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "start_seconds": 123.47,
+      "end_seconds": 147.33,
+      "duration_seconds": 23.860000000000014,
+      "estimated_words": 47,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "카트를 밀어 자료실로 나가려는데 뒤에서 또 책장 소리가 들렸어요. 이번에는 빠르게, 누가 엄지로 끝을 훑는 것처럼요. 돌아보니 표지 없는 책이 다시 받침 상자 안에 있었습니다. 제가 분명 바닥으로 밀어 두었는데 말이에요. 책 모서리에 걸린 붉은 천 조각만 상자 밖으로 길게 늘어져 있었어요. 처음 봤을 때는 없던 책갈피였습니다.",
+      "caption_text": "카트를 밀어 자료실로 나가려는데 뒤에서 또 책장 소리가 들렸어요. 이번에는 빠르게, 누가 엄지로 끝을 훑는 것처럼요. 돌아보니 표지 없는 책이 다시 받침 상자 안에 있었습니다. 제가 분명 바닥으로 밀어 두었는데 말이에요. 책 모서리에 걸린 붉은 천 조각만 상자 밖으로 길게 늘어져 있었어요. 처음 봤을 때는 없던 책갈피였습니다.",
+      "visual": "책이 다시 받침 상자 안에 있고 붉은 천 책갈피가 처음 나타남.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 123.47,
+          "action": "reveal approved image 13",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 139.43,
+          "action": "reveal approved image 14",
+          "spoken_trigger": "책 모서리에"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "cart wheel",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 246,
+      "word_count": 47,
+      "speech_start": 123.82,
+      "speech_end": 146.72
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "start_seconds": 147.33,
+      "end_seconds": 162.47,
+      "duration_seconds": 15.139999999999986,
+      "estimated_words": 33,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "저는 작업실 문을 열어 두고 경비실에 전화했습니다. 영상에는 사람이 없는데 책이 들어왔다고 하자, 경비 아저씨가 바로 올라오겠다고 했어요. 그 말을 듣고 나니 조금 진정됐습니다. 이상한 물건이어도 둘이서 보면 설명할 수 있을 거라고 생각했죠.",
+      "caption_text": "저는 작업실 문을 열어 두고 경비실에 전화했습니다. 영상에는 사람이 없는데 책이 들어왔다고 하자, 경비 아저씨가 바로 올라오겠다고 했어요. 그 말을 듣고 나니 조금 진정됐습니다. 이상한 물건이어도 둘이서 보면 설명할 수 있을 거라고 생각했죠.",
+      "visual": "경비실 전화, 열린 작업실 문, 문밖 복도와 카트.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 147.33,
+          "action": "reveal approved image 15",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 155.61,
+          "action": "reveal approved image 16",
+          "spoken_trigger": "그 말을 듣고"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "fire door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 293,
+      "word_count": 33,
+      "speech_start": 147.68,
+      "speech_end": 162.16
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "start_seconds": 162.47,
+      "end_seconds": 186.93,
+      "duration_seconds": 24.460000000000008,
+      "estimated_words": 48,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "통화를 끊는 순간, 받침 상자가 안쪽에서 한 번 들썩였습니다. 저는 전화기를 들고 문 쪽으로 물러났어요. 상자 앞면이 천천히 앞으로 밀리더니, 빈틈에서 길쭉한 종이 끝이 나왔습니다. 처음에는 접힌 영수증인 줄 알았어요. 끝이 하나, 둘, 셋으로 나뉘면서 손가락 모양이 됐습니다. 손바닥이 이어 나오자 분명해졌어요. 종이를 여러 겹 접어 만든 손이었습니다.",
+      "caption_text": "통화를 끊는 순간, 받침 상자가 안쪽에서 한 번 들썩였습니다. 저는 전화기를 들고 문 쪽으로 물러났어요. 상자 앞면이 천천히 앞으로 밀리더니, 빈틈에서 길쭉한 종이 끝이 나왔습니다. 처음에는 접힌 영수증인 줄 알았어요. 끝이 하나, 둘, 셋으로 나뉘면서 손가락 모양이 됐습니다. 손바닥이 이어 나오자 분명해졌어요. 종이를 여러 겹 접어 만든 손이었습니다.",
+      "visual": "받침 상자가 들썩이고 종이 끝이 손가락 다섯 개로 접히는 단계별 접사.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 162.47,
+          "action": "reveal approved image 17",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 177.69,
+          "action": "reveal approved image 18",
+          "spoken_trigger": "끝이 하나"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 326,
+      "word_count": 48,
+      "speech_start": 162.82,
+      "speech_end": 186.92
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "start_seconds": 186.93,
+      "end_seconds": 209.99,
+      "duration_seconds": 23.060000000000002,
+      "estimated_words": 50,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "손이 상자 바닥을 짚었습니다. 종이끼리 눌리는 바스락 소리가 제 발소리보다 크게 들렸어요. 저는 카트 손잡이를 잡고 문 밖으로 나가 작업실 방화문을 닫았습니다. 문 가운데 작은 유리창으로 상자가 보였어요. 손이 다시 책 속으로 접혀 들어가면, 아까 본 건 잘못 본 거라고 말할 수 있었을 겁니다. 그런데 손은 책을 떠나 바닥에 내려왔어요.",
+      "caption_text": "손이 상자 바닥을 짚었습니다. 종이끼리 눌리는 바스락 소리가 제 발소리보다 크게 들렸어요. 저는 카트 손잡이를 잡고 문 밖으로 나가 작업실 방화문을 닫았습니다. 문 가운데 작은 유리창으로 상자가 보였어요. 손이 다시 책 속으로 접혀 들어가면, 아까 본 건 잘못 본 거라고 말할 수 있었을 겁니다. 그런데 손은 책을 떠나 바닥에 내려왔어요.",
+      "visual": "화자가 파란 카트를 복도로 끌고 나가 방화문을 닫음. 작은 유리창 뒤 손이 책을 떠남.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 193.63,
+          "action": "reveal approved image 19",
+          "spoken_trigger": "저는 카트 손잡이를"
+        },
+        {
+          "time": 198.19,
+          "action": "reveal approved image 20",
+          "spoken_trigger": "문 가운데"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 374,
+      "word_count": 50,
+      "speech_start": 187.28,
+      "speech_end": 209.64
+    },
+    {
+      "id": "s11",
+      "type": "story",
+      "start_seconds": 209.99,
+      "end_seconds": 232.35,
+      "duration_seconds": 22.359999999999985,
+      "estimated_words": 45,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "손이 문을 연 건 아니었습니다. 손가락 끝에서 얇은 종이가 계속 풀려 나왔어요. 종이는 문 아래 틈으로 들어왔고, 복도 바닥에서 다시 접히기 시작했습니다. 납작한 종이 다섯 장이 손가락 마디가 됐어요. 손바닥까지 만들어지자, 그것이 제 쪽으로 기어왔습니다. 문을 사이에 두면 안전할 줄 알았는데, 틈만 있으면 충분했던 거예요.",
+      "caption_text": "손이 문을 연 건 아니었습니다. 손가락 끝에서 얇은 종이가 계속 풀려 나왔어요. 종이는 문 아래 틈으로 들어왔고, 복도 바닥에서 다시 접히기 시작했습니다. 납작한 종이 다섯 장이 손가락 마디가 됐어요. 손바닥까지 만들어지자, 그것이 제 쪽으로 기어왔습니다. 문을 사이에 두면 안전할 줄 알았는데, 틈만 있으면 충분했던 거예요.",
+      "visual": "종이 손가락이 방화문 밑을 통과해 복도 바닥에서 다시 세워짐.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 209.99,
+          "action": "reveal approved image 21",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 220.63,
+          "action": "reveal approved image 22",
+          "spoken_trigger": "납작한 종이"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "cart wheel",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 424,
+      "word_count": 45,
+      "speech_start": 210.34,
+      "speech_end": 231.98
+    },
+    {
+      "id": "s12",
+      "type": "story",
+      "start_seconds": 232.35,
+      "end_seconds": 257.03,
+      "duration_seconds": 24.67999999999998,
+      "estimated_words": 53,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "저는 카트를 잡아끌어 그 손 위로 밀었습니다. 바퀴가 종이를 밟자 마른 종이가 구겨지는 소리가 났어요. 손은 잠깐 멈췄지만, 바퀴 양옆으로 접힌 손가락이 다시 나왔습니다. 종이를 떼어 내려고 카트 손잡이를 놓는 순간 붉은 천이 제 손목에 감겼어요. 아까 책 모서리에 걸려 있던 책갈피였습니다. 천 끝은 닫힌 문 아래 틈을 지나 작업실 안으로 이어져 있었어요.",
+      "caption_text": "저는 카트를 잡아끌어 그 손 위로 밀었습니다. 바퀴가 종이를 밟자 마른 종이가 구겨지는 소리가 났어요. 손은 잠깐 멈췄지만, 바퀴 양옆으로 접힌 손가락이 다시 나왔습니다. 종이를 떼어 내려고 카트 손잡이를 놓는 순간 붉은 천이 제 손목에 감겼어요. 아까 책 모서리에 걸려 있던 책갈피였습니다. 천 끝은 닫힌 문 아래 틈을 지나 작업실 안으로 이어져 있었어요.",
+      "visual": "카트 바퀴가 접힌 손 위를 지나가고 손가락이 바퀴 양옆으로 다시 나옴. 붉은 천이 손목에 감김.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 232.35,
+          "action": "reveal approved image 23",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 243.73000000000002,
+          "action": "reveal approved image 24",
+          "spoken_trigger": "종이를 떼어"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "fire door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 469,
+      "word_count": 53,
+      "speech_start": 232.7,
+      "speech_end": 256.66
+    },
+    {
+      "id": "s13",
+      "type": "story",
+      "start_seconds": 257.03,
+      "end_seconds": 284.42999999999995,
+      "duration_seconds": 27.399999999999977,
+      "estimated_words": 54,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "천을 잡아당기면 풀릴 줄 알았습니다. 반대로 제 팔이 문 쪽으로 끌려갔어요. 손목을 잡아당기는 힘은 사람 것처럼 무거웠습니다. 유리창 너머 작업실 안에, 바닥에 엎드린 형체가 보였어요. 등과 어깨가 빈 책장을 포개 놓은 것처럼 층층이 접혀 있었습니다. 팔은 길었고, 마디가 꺾일 때마다 종이가 한 장씩 뒤집혔어요. 얼굴이 있어야 할 자리에는 닫힌 책 표지처럼 평평한 면만 있었습니다.",
+      "caption_text": "천을 잡아당기면 풀릴 줄 알았습니다. 반대로 제 팔이 문 쪽으로 끌려갔어요. 손목을 잡아당기는 힘은 사람 것처럼 무거웠습니다. 유리창 너머 작업실 안에, 바닥에 엎드린 형체가 보였어요. 등과 어깨가 빈 책장을 포개 놓은 것처럼 층층이 접혀 있었습니다. 팔은 길었고, 마디가 꺾일 때마다 종이가 한 장씩 뒤집혔어요. 얼굴이 있어야 할 자리에는 닫힌 책 표지처럼 평평한 면만 있었습니다.",
+      "visual": "방화문 유리 너머 종이 주름으로 된 몸통과 긴 팔, 닫힌 표지 같은 얼굴의 부분 윤곽.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 265.51,
+          "action": "reveal approved image 25",
+          "spoken_trigger": "유리창 너머"
+        },
+        {
+          "time": 279.59,
+          "action": "reveal approved image 26",
+          "spoken_trigger": "얼굴이 있어야"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 522,
+      "word_count": 54,
+      "speech_start": 257.38,
+      "speech_end": 284.08
+    },
+    {
+      "id": "s14",
+      "type": "story",
+      "start_seconds": 284.42999999999995,
+      "end_seconds": 310.27,
+      "duration_seconds": 25.840000000000032,
+      "estimated_words": 49,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "형체가 일어나자 머리 높이가 유리창보다 위로 올라갔습니다. 방금까지는 종이로 만든 손 정도라고 생각했는데, 몸 전체가 거기 있었어요. 문 아래에서 제 손목을 붙든 것은 그 몸에서 풀려 나온 종이의 끝이었습니다. 붉은 천이 팽팽해지자 방화문 손잡이가 안쪽에서 움직였어요. 손잡이를 잡고 있는 손이 따로 있었습니다. 반납함에서 나온 것이 하나의 손만은 아니었던 거죠.",
+      "caption_text": "형체가 일어나자 머리 높이가 유리창보다 위로 올라갔습니다. 방금까지는 종이로 만든 손 정도라고 생각했는데, 몸 전체가 거기 있었어요. 문 아래에서 제 손목을 붙든 것은 그 몸에서 풀려 나온 종이의 끝이었습니다. 붉은 천이 팽팽해지자 방화문 손잡이가 안쪽에서 움직였어요. 손잡이를 잡고 있는 손이 따로 있었습니다. 반납함에서 나온 것이 하나의 손만은 아니었던 거죠.",
+      "visual": "문 아래 손과 안쪽 문손잡이 손이 분리되어 움직임. 붉은 천 당김.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 284.42999999999995,
+          "action": "reveal approved image 27",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 299.54999999999995,
+          "action": "reveal approved image 28",
+          "spoken_trigger": "붉은 천이"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 576,
+      "word_count": 49,
+      "speech_start": 284.78,
+      "speech_end": 309.9
+    },
+    {
+      "id": "s15",
+      "type": "story",
+      "start_seconds": 310.27,
+      "end_seconds": 335.27,
+      "duration_seconds": 25,
+      "estimated_words": 56,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "복도 끝의 비상문은 멀지 않았어요. 그런데 붉은 천을 풀지 못하면 갈 수 없었습니다. 저는 카트에 꽂혀 있던 책 분류용 가위를 꺼냈습니다. 천에 가위를 대자 안쪽의 형체가 멈췄어요. 종이가 한꺼번에 뒤집히는 소리가 문 너머에서 났습니다. 그때 문 아래로 나온 손이 카트 바퀴를 놓고 제 발목을 잡았어요. 차가운 손가락이 아니라, 마른 종이 수십 장의 모서리가 피부를 조이는 느낌이었습니다.",
+      "caption_text": "복도 끝의 비상문은 멀지 않았어요. 그런데 붉은 천을 풀지 못하면 갈 수 없었습니다. 저는 카트에 꽂혀 있던 책 분류용 가위를 꺼냈습니다. 천에 가위를 대자 안쪽의 형체가 멈췄어요. 종이가 한꺼번에 뒤집히는 소리가 문 너머에서 났습니다. 그때 문 아래로 나온 손이 카트 바퀴를 놓고 제 발목을 잡았어요. 차가운 손가락이 아니라, 마른 종이 수십 장의 모서리가 피부를 조이는 느낌이었습니다.",
+      "visual": "카트 도구통에서 초반에 본 가위를 꺼냄. 종이 손이 발목을 직접 잡음.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 317.57,
+          "action": "reveal approved image 29",
+          "spoken_trigger": "가위를 꺼냈습니다"
+        },
+        {
+          "time": 325.28999999999996,
+          "action": "reveal approved image 30",
+          "spoken_trigger": "그때 문 아래로"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "cart wheel",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 625,
+      "word_count": 56,
+      "speech_start": 310.62,
+      "speech_end": 335.62
+    },
+    {
+      "id": "s16",
+      "type": "story",
+      "start_seconds": 335.27,
+      "end_seconds": 352.27,
+      "duration_seconds": 17,
+      "estimated_words": 35,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "저는 천을 한 번에 잘랐습니다. 손목을 당기던 힘이 풀렸어요. 하지만 발목을 잡은 종이 손은 남아 있었습니다. 가위 끝으로 손가락 사이를 벌리고 발을 빼자, 얇은 종이들이 운동화 옆에 들러붙었어요. 저는 그걸 떼지 못한 채 비상문까지 뛰었습니다.",
+      "caption_text": "저는 천을 한 번에 잘랐습니다. 손목을 당기던 힘이 풀렸어요. 하지만 발목을 잡은 종이 손은 남아 있었습니다. 가위 끝으로 손가락 사이를 벌리고 발을 빼자, 얇은 종이들이 운동화 옆에 들러붙었어요. 저는 그걸 떼지 못한 채 비상문까지 뛰었습니다.",
+      "visual": "붉은 책갈피를 자르고 발을 빼는 물리적 동작. 운동화 옆에 종이 조각 남음.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 335.27,
+          "action": "reveal approved image 31",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 342.71,
+          "action": "reveal approved image 32",
+          "spoken_trigger": "가위 끝으로"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "fire door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 681,
+      "word_count": 35,
+      "speech_start": 335.62,
+      "speech_end": 352.08
+    },
+    {
+      "id": "s17",
+      "type": "story",
+      "start_seconds": 352.27,
+      "end_seconds": 375.71999999999997,
+      "duration_seconds": 23.44999999999999,
+      "estimated_words": 48,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "비상문을 밀어 계단으로 들어간 바로 뒤, 방화문이 열리는 소리가 났어요. 복도에서 무거운 발소리는 들리지 않았습니다. 대신 책을 빨리 넘길 때 나는 바스락거림이 바닥을 쓸며 따라왔어요. 아래층으로 내려가는 동안 계단 모서리마다 하얀 종이 끝이 먼저 나타났습니다. 제가 층계를 돌 때마다 그 종이는 난간 사이로 접혀 내려와 제 앞을 가로막았어요.",
+      "caption_text": "비상문을 밀어 계단으로 들어간 바로 뒤, 방화문이 열리는 소리가 났어요. 복도에서 무거운 발소리는 들리지 않았습니다. 대신 책을 빨리 넘길 때 나는 바스락거림이 바닥을 쓸며 따라왔어요. 아래층으로 내려가는 동안 계단 모서리마다 하얀 종이 끝이 먼저 나타났습니다. 제가 층계를 돌 때마다 그 종이는 난간 사이로 접혀 내려와 제 앞을 가로막았어요.",
+      "visual": "비상계단의 코너를 종이 조각이 먼저 돌아 내려와 길을 막음.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 352.27,
+          "action": "reveal approved image 33",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 364.90999999999997,
+          "action": "reveal approved image 34",
+          "spoken_trigger": "아래층으로 내려가는"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 716,
+      "word_count": 48,
+      "speech_start": 352.62,
+      "speech_end": 375.36
+    },
+    {
+      "id": "s18",
+      "type": "story",
+      "start_seconds": 375.71999999999997,
+      "end_seconds": 394.53,
+      "duration_seconds": 18.810000000000002,
+      "estimated_words": 40,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "아래층 방화문 앞에서 경비 아저씨와 마주쳤습니다. 제가 말을 꺼내기도 전에 그는 제 운동화를 봤어요. 신발 옆에 붙어 있던 종이 조각이 제 걸음을 따라 한 장씩 접히고 있었거든요. 경비 아저씨가 제 팔을 잡아당겼습니다. 저는 신발을 벗어 계단에 남기고 아래층 문으로 나왔어요.",
+      "caption_text": "아래층 방화문 앞에서 경비 아저씨와 마주쳤습니다. 제가 말을 꺼내기도 전에 그는 제 운동화를 봤어요. 신발 옆에 붙어 있던 종이 조각이 제 걸음을 따라 한 장씩 접히고 있었거든요. 경비 아저씨가 제 팔을 잡아당겼습니다. 저는 신발을 벗어 계단에 남기고 아래층 문으로 나왔어요.",
+      "visual": "아래층 경비와 화자가 만남. 운동화에 붙은 종이 접힘이 보임.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 375.71999999999997,
+          "action": "reveal approved image 35",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 382.90999999999997,
+          "action": "reveal approved image 36",
+          "spoken_trigger": "신발 옆에"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 764,
+      "word_count": 40,
+      "speech_start": 376.07,
+      "speech_end": 394.18
+    },
+    {
+      "id": "s19",
+      "type": "story",
+      "start_seconds": 394.53,
+      "end_seconds": 416.95,
+      "duration_seconds": 22.420000000000016,
+      "estimated_words": 47,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "문이 닫히기 직전, 벗어 둔 운동화 한 짝이 바닥에서 방향을 바꿨습니다. 안에는 발이 없었습니다. 하얀 종이가 신발 안쪽부터 부풀어 올라 발등 모양을 만들고 있었어요. 문이 닫히자 종이가 문틈에 끼었습니다. 경비 아저씨는 제가 손잡이를 잡는 동안 벽의 비상문 걸쇠를 끝까지 밀어 넣었어요. 둘 다 아무 말도 못 했습니다.",
+      "caption_text": "문이 닫히기 직전, 벗어 둔 운동화 한 짝이 바닥에서 방향을 바꿨습니다. 안에는 발이 없었습니다. 하얀 종이가 신발 안쪽부터 부풀어 올라 발등 모양을 만들고 있었어요. 문이 닫히자 종이가 문틈에 끼었습니다. 경비 아저씨는 제가 손잡이를 잡는 동안 벽의 비상문 걸쇠를 끝까지 밀어 넣었어요. 둘 다 아무 말도 못 했습니다.",
+      "visual": "벗어 둔 운동화 속에서 종이가 발등 형태로 부풀고 비상문 틈에 끼임.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 394.53,
+          "action": "reveal approved image 37",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 406.03,
+          "action": "reveal approved image 38",
+          "spoken_trigger": "문이 닫히자"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "cart wheel",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 804,
+      "word_count": 47,
+      "speech_start": 394.88,
+      "speech_end": 417.3
+    },
+    {
+      "id": "s20",
+      "type": "story",
+      "start_seconds": 416.95,
+      "end_seconds": 436.27,
+      "duration_seconds": 19.319999999999993,
+      "estimated_words": 38,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "아침에 직원들이 작업실을 확인했을 때 반납함 받침 상자는 비어 있었다고 해요. 바닥의 종이 조각도, 표지 없는 책도 없었습니다. 방화문 아래에 붉은 천 한 조각만 걸려 있었어요. 제가 잘라 낸 책갈피의 나머지 부분인지, 처음부터 다른 조각이었는지는 알 수 없었습니다.",
+      "caption_text": "아침에 직원들이 작업실을 확인했을 때 반납함 받침 상자는 비어 있었다고 해요. 바닥의 종이 조각도, 표지 없는 책도 없었습니다. 방화문 아래에 붉은 천 한 조각만 걸려 있었어요. 제가 잘라 낸 책갈피의 나머지 부분인지, 처음부터 다른 조각이었는지는 알 수 없었습니다.",
+      "visual": "아침 빈 받침 상자와 방화문 아래 붉은 천 조각. 실제 존재의 잔흔.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 416.95,
+          "action": "reveal approved image 39",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 426.25,
+          "action": "reveal approved image 40",
+          "spoken_trigger": "방화문 아래에"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "fire door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 851,
+      "word_count": 38,
+      "speech_start": 417.3,
+      "speech_end": 436.14
+    },
+    {
+      "id": "s21",
+      "type": "story",
+      "start_seconds": 436.27,
+      "end_seconds": 452.37,
+      "duration_seconds": 16.100000000000023,
+      "estimated_words": 32,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "저는 그 뒤로 야간 근무를 그만뒀습니다. 낮에 도서관 앞을 지나갈 때도 반납함은 보지 않아요. 얼마 전에는 정문에 임시 안내문이 붙어 있었습니다. 반납함 내부 점검 중. 책은 안내 데스크로 직접 가져와 달라는 내용이었죠.",
+      "caption_text": "저는 그 뒤로 야간 근무를 그만뒀습니다. 낮에 도서관 앞을 지나갈 때도 반납함은 보지 않아요. 얼마 전에는 정문에 임시 안내문이 붙어 있었습니다. 반납함 내부 점검 중. 책은 안내 데스크로 직접 가져와 달라는 내용이었죠.",
+      "visual": "낮 정문 임시 반납함 점검 안내. 글자는 후반 합성으로만 필요한 경우 사용.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 436.27,
+          "action": "reveal approved image 41",
+          "spoken_trigger": "scene entry"
+        },
+        {
+          "time": 443.25,
+          "action": "reveal approved image 42",
+          "spoken_trigger": "얼마 전에는"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "paper rustle",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "sound or motivated cut",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 889,
+      "word_count": 32,
+      "speech_start": 436.62,
+      "speech_end": 452.04
+    },
+    {
+      "id": "s22",
+      "type": "residual_ending",
+      "start_seconds": 452.37,
+      "end_seconds": 477.227,
+      "duration_seconds": 24.85699999999997,
+      "estimated_words": 40,
+      "target_wpm": 130,
+      "purpose": "위협 단계와 행동을 전진",
+      "narration_text": "그날 집으로 돌아와 코트를 벗는데, 주머니 안에서 바스락 소리가 났어요. 손을 넣지 않고 코트를 바닥에 내려놓았습니다. 천 안쪽에서 무언가 한 장, 또 한 장, 천천히 넘어갔어요. 책은 도서관에 두고 왔습니다. 하지만 그 소리는 제가 방화문을 닫기 전에 들었던 것과 같았어요.",
+      "caption_text": "그날 집으로 돌아와 코트를 벗는데, 주머니 안에서 바스락 소리가 났어요. 손을 넣지 않고 코트를 바닥에 내려놓았습니다. 천 안쪽에서 무언가 한 장, 또 한 장, 천천히 넘어갔어요. 책은 도서관에 두고 왔습니다. 하지만 그 소리는 제가 방화문을 닫기 전에 들었던 것과 같았어요.",
+      "visual": "집 바닥에 놓인 코트 주머니 내부가 미세하게 들썩임. 책장 소리만, 존재 정체를 재노출하지 않음.",
+      "motion": "장면 단서에 맞춘 지속 패닝·줌·초점·광원 전환",
+      "motion_beats": [
+        {
+          "time": 457.13,
+          "action": "reveal approved image 43",
+          "spoken_trigger": "손을 넣지 않고"
+        },
+        {
+          "time": 459.89,
+          "action": "reveal approved image 44",
+          "spoken_trigger": "천 안쪽에서"
+        }
+      ],
+      "audio": {
+        "narration": "approved text only after approval",
+        "ambience": "quiet library ventilation and hallway",
+        "event_foley": "metal return door",
+        "bgm": "new candidate to be reviewed; not selected"
+      },
+      "transition_out": "hold quiet coat clue",
+      "shorts_adaptation": "standalone teaser, not a raw crop",
+      "intentional_silence_over_0_8_seconds": false,
+      "word_offset": 921,
+      "word_count": 40,
+      "speech_start": 452.72,
+      "speech_end": 473.1
+    }
+  ],
+  "voice_duration_seconds": 473.227063,
+  "outro_seconds": 3.9999369999999885
+}

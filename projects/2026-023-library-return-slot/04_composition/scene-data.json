@@ -1,0 +1,314 @@
+{
+  "duration": 477.227,
+  "voice_duration": 473.227063,
+  "shots": [
+    {
+      "id": "scene-1-image-1",
+      "visual": "shot-01",
+      "start": 0,
+      "scene": "s01",
+      "end": 2.9099999999999997
+    },
+    {
+      "id": "scene-1-image-2",
+      "visual": "shot-02",
+      "start": 2.9099999999999997,
+      "scene": "s01",
+      "end": 6.65
+    },
+    {
+      "id": "scene-2-image-1",
+      "visual": "shot-03",
+      "start": 6.65,
+      "scene": "s02",
+      "end": 16.33
+    },
+    {
+      "id": "scene-2-image-2",
+      "visual": "shot-04",
+      "start": 16.33,
+      "scene": "s02",
+      "end": 31.029999999999998
+    },
+    {
+      "id": "scene-3-image-1",
+      "visual": "shot-05",
+      "start": 31.029999999999998,
+      "scene": "s03",
+      "end": 53.35
+    },
+    {
+      "id": "scene-3-image-2",
+      "visual": "shot-06",
+      "start": 53.35,
+      "scene": "s03",
+      "end": 60.23
+    },
+    {
+      "id": "scene-4-image-1",
+      "visual": "shot-07",
+      "start": 60.23,
+      "scene": "s04",
+      "end": 64.53
+    },
+    {
+      "id": "scene-4-image-2",
+      "visual": "shot-08",
+      "start": 64.53,
+      "scene": "s04",
+      "end": 78.25
+    },
+    {
+      "id": "scene-5-image-1",
+      "visual": "shot-09",
+      "start": 78.25,
+      "scene": "s05",
+      "end": 96.41000000000001
+    },
+    {
+      "id": "scene-5-image-2",
+      "visual": "shot-10",
+      "start": 96.41000000000001,
+      "scene": "s05",
+      "end": 104.91000000000001
+    },
+    {
+      "id": "scene-6-image-1",
+      "visual": "shot-11",
+      "start": 104.91000000000001,
+      "scene": "s06",
+      "end": 112.65
+    },
+    {
+      "id": "scene-6-image-2",
+      "visual": "shot-12",
+      "start": 112.65,
+      "scene": "s06",
+      "end": 123.47
+    },
+    {
+      "id": "scene-7-image-1",
+      "visual": "shot-13",
+      "start": 123.47,
+      "scene": "s07",
+      "end": 139.43
+    },
+    {
+      "id": "scene-7-image-2",
+      "visual": "shot-14",
+      "start": 139.43,
+      "scene": "s07",
+      "end": 147.33
+    },
+    {
+      "id": "scene-8-image-1",
+      "visual": "shot-15",
+      "start": 147.33,
+      "scene": "s08",
+      "end": 155.61
+    },
+    {
+      "id": "scene-8-image-2",
+      "visual": "shot-16",
+      "start": 155.61,
+      "scene": "s08",
+      "end": 162.47
+    },
+    {
+      "id": "scene-9-image-1",
+      "visual": "shot-17",
+      "start": 162.47,
+      "scene": "s09",
+      "end": 177.69
+    },
+    {
+      "id": "scene-9-image-2",
+      "visual": "shot-18",
+      "start": 177.69,
+      "scene": "s09",
+      "end": 193.63
+    },
+    {
+      "id": "scene-10-image-1",
+      "visual": "shot-19",
+      "start": 193.63,
+      "scene": "s10",
+      "end": 198.19
+    },
+    {
+      "id": "scene-10-image-2",
+      "visual": "shot-20",
+      "start": 198.19,
+      "scene": "s10",
+      "end": 209.99
+    },
+    {
+      "id": "scene-11-image-1",
+      "visual": "shot-21",
+      "start": 209.99,
+      "scene": "s11",
+      "end": 220.63
+    },
+    {
+      "id": "scene-11-image-2",
+      "visual": "shot-22",
+      "start": 220.63,
+      "scene": "s11",
+      "end": 232.35
+    },
+    {
+      "id": "scene-12-image-1",
+      "visual": "shot-23",
+      "start": 232.35,
+      "scene": "s12",
+      "end": 243.73000000000002
+    },
+    {
+      "id": "scene-12-image-2",
+      "visual": "shot-24",
+      "start": 243.73000000000002,
+      "scene": "s12",
+      "end": 265.51
+    },
+    {
+      "id": "scene-13-image-1",
+      "visual": "shot-25",
+      "start": 265.51,
+      "scene": "s13",
+      "end": 279.59
+    },
+    {
+      "id": "scene-13-image-2",
+      "visual": "shot-26",
+      "start": 279.59,
+      "scene": "s13",
+      "end": 284.42999999999995
+    },
+    {
+      "id": "scene-14-image-1",
+      "visual": "shot-27",
+      "start": 284.42999999999995,
+      "scene": "s14",
+      "end": 299.54999999999995
+    },
+    {
+      "id": "scene-14-image-2",
+      "visual": "shot-28",
+      "start": 299.54999999999995,
+      "scene": "s14",
+      "end": 317.57
+    },
+    {
+      "id": "scene-15-image-1",
+      "visual": "shot-29",
+      "start": 317.57,
+      "scene": "s15",
+      "end": 325.28999999999996
+    },
+    {
+      "id": "scene-15-image-2",
+      "visual": "shot-30",
+      "start": 325.28999999999996,
+      "scene": "s15",
+      "end": 335.27
+    },
+    {
+      "id": "scene-16-image-1",
+      "visual": "shot-31",
+      "start": 335.27,
+      "scene": "s16",
+      "end": 342.71
+    },
+    {
+      "id": "scene-16-image-2",
+      "visual": "shot-32",
+      "start": 342.71,
+      "scene": "s16",
+      "end": 352.27
+    },
+    {
+      "id": "scene-17-image-1",
+      "visual": "shot-33",
+      "start": 352.27,
+      "scene": "s17",
+      "end": 364.90999999999997
+    },
+    {
+      "id": "scene-17-image-2",
+      "visual": "shot-34",
+      "start": 364.90999999999997,
+      "scene": "s17",
+      "end": 375.71999999999997
+    },
+    {
+      "id": "scene-18-image-1",
+      "visual": "shot-35",
+      "start": 375.71999999999997,
+      "scene": "s18",
+      "end": 382.90999999999997
+    },
+    {
+      "id": "scene-18-image-2",
+      "visual": "shot-36",
+      "start": 382.90999999999997,
+      "scene": "s18",
+      "end": 394.53
+    },
+    {
+      "id": "scene-19-image-1",
+      "visual": "shot-37",
+      "start": 394.53,
+      "scene": "s19",
+      "end": 406.03
+    },
+    {
+      "id": "scene-19-image-2",
+      "visual": "shot-38",
+      "start": 406.03,
+      "scene": "s19",
+      "end": 416.95
+    },
+    {
+      "id": "scene-20-image-1",
+      "visual": "shot-39",
+      "start": 416.95,
+      "scene": "s20",
+      "end": 426.25
+    },
+    {
+      "id": "scene-20-image-2",
+      "visual": "shot-40",
+      "start": 426.25,
+      "scene": "s20",
+      "end": 436.27
+    },
+    {
+      "id": "scene-21-image-1",
+      "visual": "shot-41",
+      "start": 436.27,
+      "scene": "s21",
+      "end": 443.25
+    },
+    {
+      "id": "scene-21-image-2",
+      "visual": "shot-42",
+      "start": 443.25,
+      "scene": "s21",
+      "end": 457.13
+    },
+    {
+      "id": "scene-22-image-1",
+      "visual": "shot-43",
+      "start": 457.13,
+      "scene": "s22",
+      "end": 459.89
+    },
+    {
+      "id": "scene-22-image-2",
+      "visual": "shot-44",
+      "start": 459.89,
+      "scene": "s22",
+      "end": 477.227
+    }
+  ]
+}

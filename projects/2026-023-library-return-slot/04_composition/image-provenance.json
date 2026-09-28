@@ -1,0 +1,371 @@
+{
+  "project": "2026-023-library-return-slot",
+  "model": "image_gen",
+  "shot_count": 44,
+  "shots": [
+    {
+      "id": "shot-01",
+      "asset": "assets/visuals/shot-01.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-736aa813-d58d-430e-8339-73ce143a243c.png",
+      "replacements": []
+    },
+    {
+      "id": "shot-02",
+      "asset": "assets/visuals/shot-02.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-142cd191-af03-49a6-afd6-621601343937.png",
+      "replacements": []
+    },
+    {
+      "id": "shot-03",
+      "asset": "assets/visuals/shot-03.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-755593ed-3c4e-465d-a27c-ce069530e2b5.png",
+      "prompt": "Wide empty public-library night sorting room before anything strange happens. Camera from opposite corner: exterior return chute and receiving tray on one wall, blue wheeled book cart with black tool cup, open dark fire door to cold corridor. The tray may contain ordinary books. No ghost, no figure.",
+      "replacements": []
+    },
+    {
+      "id": "shot-04",
+      "asset": "assets/visuals/shot-04.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-68dd6a0d-187a-4fcf-b5e3-2e542d7505ea.png",
+      "prompt": "Over-shoulder rear view of one adult Korean female library worker in plain charcoal cardigan, dark trousers and dark sneakers quietly sorting returned books on a blue cart. Face entirely out of frame. Keep the metal chute, receiving tray and warm lamps coherent. No paranormal element.",
+      "replacements": []
+    },
+    {
+      "id": "shot-05",
+      "asset": "assets/visuals/shot-05.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-016d3bb7-2917-48d7-83d8-803e697d93cd.png",
+      "prompt": "Close prop insert: blue library book cart handle and a small pair of scissors upright in its black tool cup, ordinary blank-spine books on cart shelves. Warm workroom light. No hands, face, ghost or ominous shadow. Scissors unmistakable for later continuity.",
+      "replacements": []
+    },
+    {
+      "id": "shot-06",
+      "asset": "assets/visuals/shot-06.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-bd3e2fba-4c67-428c-ae87-d546ba201fa7.png",
+      "prompt": "View from inside toward the metal external book return chute and shallow rectangular collection tray now completely EMPTY. The exterior entrance is faintly visible beyond the metal flap, no visitor. Warm work lights, no face or entity yet.",
+      "replacements": []
+    },
+    {
+      "id": "shot-07",
+      "asset": "assets/visuals/shot-07.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ffd2c371-433c-4461-a52d-30d2bf18606a.png",
+      "prompt": "First anomaly: close exterior view of old metal book-return flap just after it has snapped shut, a dark empty pedestrian walkway visible nearby through glass; absolutely NO person or hand. The metal flap seems to have moved by itself. Moody but not too dark.",
+      "replacements": []
+    },
+    {
+      "id": "shot-08",
+      "asset": "assets/visuals/shot-08.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a539499f-746d-40be-976c-2519bd56b747.png",
+      "prompt": "Inside the same sorting room, a small CCTV monitor seen from behind the female worker's shoulder shows empty library frontage and return entrance at night. Monitor image is blank of people; avoid interface text, clock or numbers. Her face is never visible.",
+      "replacements": []
+    },
+    {
+      "id": "shot-09",
+      "asset": "assets/visuals/shot-09.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-481a0bae-dfc5-49de-9a93-00af64d1c011.png",
+      "prompt": "The collection tray that was just empty now holds ONE upright coverless book made from folded gray paper sheets, no conventional spine. The flat metal chute above is still. First reveal should be clear, restrained and plausible within the reference room.",
+      "replacements": []
+    },
+    {
+      "id": "shot-10",
+      "asset": "assets/visuals/shot-10.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-cd5af5b9-f8d2-45bf-b710-2792d67c5b2f.png",
+      "prompt": "Extreme macro of the mysterious coverless book in the metal return tray. Its binding edge is a continuous accordion of thin gray folds, pages slightly shifting; no title, letters or symbols on pages. Shallow depth of field, tactile paper texture.",
+      "replacements": []
+    },
+    {
+      "id": "shot-11",
+      "asset": "assets/visuals/shot-11.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ef416e62-9e8b-4788-bc54-d1dc04d26551.png",
+      "prompt": "A woman's normal hand in a charcoal sweater sleeve gently pushes the mysterious gray coverless book away from the metal return tray to the floor beside the blue cart, WITHOUT picking it up. The book has many accordion folds. First-person diagonal camera, five normal fingers.",
+      "replacements": []
+    },
+    {
+      "id": "shot-12",
+      "asset": "assets/visuals/shot-12.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-d6ec4360-f70e-4627-9836-c2081ba7c2b5.png",
+      "prompt": "Low floor macro beside the blue cart: the gray coverless accordion book begins to open a narrow gap by itself, the surrounding ordinary books remain still. Dust and paper edge under warm lamp, no red ribbon yet, no hand or entity.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-61cb0e61-e4e7-450b-a087-083f79a552c3.png",
+          "reason": "book incorrectly on cart shelf"
+        }
+      ]
+    },
+    {
+      "id": "shot-13",
+      "asset": "assets/visuals/shot-13.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-69ad69c7-3108-44d0-b786-f375874a4575.png",
+      "prompt": "From the open sorting-room doorway, the metal collection tray contains the same gray coverless accordion book again even though the floor beside it is empty. The blue cart remains near the door. The book is upright. No human or supernatural hand shown.",
+      "replacements": []
+    },
+    {
+      "id": "shot-14",
+      "asset": "assets/visuals/shot-14.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-989e71d9-90ad-46d8-9f86-be09c0925566.png",
+      "prompt": "Extreme close-up of a single thin RED FABRIC bookmark ribbon caught on the upper corner of the gray coverless accordion book in the metal receiving tray, long ribbon tail dangling over tray edge. The book itself has blank pages and no printed text. The red ribbon is the first unmistakable new clue.",
+      "replacements": []
+    },
+    {
+      "id": "shot-15",
+      "asset": "assets/visuals/shot-15.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0f5f8395-de12-48ca-80d0-3fc79534260b.png",
+      "prompt": "Female night worker seen from behind near the still-open sorting-room fire door, holding an ordinary phone to call security. Charcoal cardigan, dark trousers, dark sneakers, hair tied low. The gray accordion book and red ribbon remain far back in the return tray, no creature yet.",
+      "replacements": []
+    },
+    {
+      "id": "shot-16",
+      "asset": "assets/visuals/shot-16.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a46370dc-a1a6-4821-9568-24639f2613cf.png",
+      "prompt": "First-person close view of the normal phone in one hand in the warm room; screen emits blue light but has NO READABLE text, numbers or icons. In background the door to cold corridor remains open, blue cart near threshold. No creature yet.",
+      "replacements": []
+    },
+    {
+      "id": "shot-17",
+      "asset": "assets/visuals/shot-17.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-373cccbb-cb72-49ce-8ec6-748f818edf11.png",
+      "prompt": "Metal receiving tray photographed from close low angle as its shallow front panel tilts outward slightly from internal pressure. Gray coverless accordion book inside with the thin red fabric bookmark. At the opening a narrow flat gray paper tip starts protruding; NOT a hand yet.",
+      "replacements": []
+    },
+    {
+      "id": "shot-18",
+      "asset": "assets/visuals/shot-18.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-8d8c92b7-d1c6-47fa-81fa-23103ebd4bb3.png",
+      "prompt": "First partial entity reveal: one anatomically coherent hand made of folded matte gray paper pages extends from the metal receiving tray next to the gray accordion book and red fabric bookmark. Exactly five folded paper fingers; hand is connected by paper folds to book. No human face or full body. Warm amber lamp, teal corridor behind.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7a925810-fcb8-42ab-844e-dbd8b4f1e7a7.png",
+          "reason": "looked like a human-skinned hand rather than folded paper"
+        }
+      ]
+    },
+    {
+      "id": "shot-19",
+      "asset": "assets/visuals/shot-19.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-b22c39d3-e747-4830-9125-62fdaa1096ca.png",
+      "prompt": "The female worker pulls the blue cart THROUGH the sorting-room doorway into the cold teal corridor, seen from behind. Inside the room the metal tray and one distant paper hand remain visible. She reaches for the heavy FIRE DOOR to close it. Ensure the cart is outside with her.",
+      "replacements": []
+    },
+    {
+      "id": "shot-20",
+      "asset": "assets/visuals/shot-20.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-8250e4b6-36ca-4fb7-b537-8ad37d36593b.png",
+      "prompt": "View from the corridor through the small glass window of the now CLOSED fire door: inside the warm sorting room, a folded gray paper hand has left the return tray and lies on the floor near the gray book. The worker is not reflected in window; no full monster yet.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-e5450b98-06eb-4538-8495-ab6eb292f4ed.png",
+          "reason": "worker/cart reappeared inside sorting room and door was open"
+        }
+      ]
+    },
+    {
+      "id": "shot-21",
+      "asset": "assets/visuals/shot-21.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-b8e45796-3eac-4b97-aef0-00abe5dba199.png",
+      "prompt": "Extreme floor-level close-up of the CLOSED fire door between warm sorting room and cold corridor. Thin flat gray paper strips slide UNDER the real bottom gap, before becoming fingers. Blue cart wheel barely at corridor edge. No hand fully formed yet.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-1c2e696e-1edc-496c-bf68-83f009d2bf63.png",
+          "reason": "worker/cart reappeared inside sorting room and door was open"
+        }
+      ]
+    },
+    {
+      "id": "shot-22",
+      "asset": "assets/visuals/shot-22.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-95fe4c20-cbfa-4a8f-b9ec-bec6669d9d8f.png",
+      "prompt": "On the cold teal corridor floor outside the closed fire door, five separate flat gray paper strips fold into one clearly recognizable paper hand, palm only halfway assembled. The red ribbon remains behind door, not touching worker yet. Filmic low angle, no human skin.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-dce9a0a2-fb3c-487f-af86-5197c8241f06.png",
+          "reason": "worker/cart reappeared inside sorting room and door was open"
+        }
+      ]
+    },
+    {
+      "id": "shot-23",
+      "asset": "assets/visuals/shot-23.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-76afe68e-0061-42a4-a02e-17f967c39f5d.png",
+      "prompt": "Low corridor close-up: wheel of the blue book cart is rolling directly over one folded gray PAPER hand on tile, compressing it. Only cart wheel, paper fingers, bottom of dark sneaker and closed door are visible. Physically coherent contact, no face.",
+      "replacements": []
+    },
+    {
+      "id": "shot-24",
+      "asset": "assets/visuals/shot-24.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7f2787e5-3df6-4b47-87ad-138ebad2a382.png",
+      "prompt": "The single thin deep-red fabric bookmark ribbon slides out from the gap below CLOSED fire door and wraps once around the female worker's wrist as she reaches from the blue cart handle. Her normal hand has five fingers. The paper hand remains on floor near cart wheel, separate from ribbon. No face.",
+      "replacements": []
+    },
+    {
+      "id": "shot-25",
+      "asset": "assets/visuals/shot-25.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-9650b1b9-8a39-4dc0-80c7-ecfddaca8139.png",
+      "prompt": "View FROM COLD CORRIDOR through small glass window of completely CLOSED fire door. Inside warm sorting room, reveal the consistent full paper entity crouched on floor, back and shoulders formed by many gray layered folded pages, head still mostly in shadow. NO worker or cart in room. A taut red ribbon passes under door but not as giant beam.",
+      "replacements": []
+    },
+    {
+      "id": "shot-26",
+      "asset": "assets/visuals/shot-26.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-04ccc7a6-1db6-427c-b67f-098215a814ce.png",
+      "prompt": "Medium close through the wire-glass window of the CLOSED library fire door: the same origami-gray-paper entity seen from side inside warm sorting room, one long paper arm across floor, face a flat featureless closed-book-cover plane with no eyes. The watcher remains in corridor offscreen. No second entity, no person.",
+      "replacements": []
+    },
+    {
+      "id": "shot-27",
+      "asset": "assets/visuals/shot-27.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-344887f2-43c1-450a-9ecf-f501a8e3a00d.png",
+      "prompt": "Through CLOSED fire door's wire-glass window, the gray folded-paper entity has risen to a towering height inside warm room, head taller than top of window and partly cropped; layered shoulders and long paper arms read clearly. Corridor empty foreground. Blue cart absent from room.",
+      "replacements": []
+    },
+    {
+      "id": "shot-28",
+      "asset": "assets/visuals/shot-28.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-9bf7b031-638f-4dae-a10f-0581c02dc13e.png",
+      "prompt": "Close on the closed fire door HANDLE from cold corridor side: a separate folded GRAY PAPER hand is visibly pressing the handle on the warm room side through window reflection/angle; handle beginning to move. A taut thin red fabric ribbon exits beneath door toward foreground. No opened door.",
+      "replacements": []
+    },
+    {
+      "id": "shot-29",
+      "asset": "assets/visuals/shot-29.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-bb6dab6a-5fe4-4fcd-a5c1-ac86bf60885b.png",
+      "prompt": "In cold library corridor, woman's normal hand takes small RED-HANDLED SCISSORS from black tool cup on blue rolling book cart and positions blades around the thin red fabric ribbon tightening her opposite wrist. Only hands/forearms, cart and ribbon, no face, exactly two normal hands.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-34932d6f-89b5-4f4b-a589-d26049fd333a.png",
+          "reason": "open door contradicted closed-door scene"
+        },
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-2fda8e7f-d65c-4a03-ad12-e66ae2b72b14.png",
+          "reason": "ribbon incorrectly attached to an ordinary book"
+        },
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0c30ffdd-14e3-46e1-b71d-9f6d7fb7672a.png",
+          "reason": "duplicate scissors in tool cup"
+        }
+      ]
+    },
+    {
+      "id": "shot-30",
+      "asset": "assets/visuals/shot-30.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ae3c3add-9044-4a55-89f6-e508b386c772.png",
+      "prompt": "Floor-level cold teal corridor: one folded gray PAPER hand that emerged under the closed fire door firmly grasps the woman's ankle just above her DARK SNEAKER. Cart wheel is nearby. Red ribbon remains around her wrist out of frame. All paper fingers layered and clearly contact ankle, no skin, no gore.",
+      "replacements": []
+    },
+    {
+      "id": "shot-31",
+      "asset": "assets/visuals/shot-31.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-412b9b79-b55c-4c98-a298-9bc7b88dfd10.png",
+      "prompt": "After the ribbon has been CUT, close floor-level shot of one loose short red fabric ribbon end falling on cold teal corridor tile beside the closed fire door. The woman's dark sneaker pulls away from a gray folded PAPER hand at ankle height. No scissors touching body, no injury.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-0874e14f-cf8b-4807-87f5-d0e0fb4e262b.png",
+          "reason": "entity/door or stair direction/cart continuity incorrect"
+        }
+      ]
+    },
+    {
+      "id": "shot-32",
+      "asset": "assets/visuals/shot-32.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-fece2496-efb5-464a-b584-9830a797eb79.png",
+      "prompt": "Normal woman's dark sneaker pulling free from gray layered paper strips that cling to the sneaker side, blue cart left behind near the still closed door. The woman's lower legs head toward emergency exit at corridor end. No hand gripping ankle now. Motion-ready wide low angle.",
+      "replacements": []
+    },
+    {
+      "id": "shot-33",
+      "asset": "assets/visuals/shot-33.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-f4f03e07-1648-4206-bef2-9ab730f4c011.png",
+      "prompt": "From behind, the female worker pushes open a SECOND dark emergency stairwell door at far end of cold teal corridor and escapes into dim concrete stairs. Behind her, the previous sorting-room door is distant. She has no cart now. No entity full body in this frame.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-1cbe9ea0-d438-44a1-8d0f-aaf53d70e261.png",
+          "reason": "entity/door or stair direction/cart continuity incorrect"
+        }
+      ]
+    },
+    {
+      "id": "shot-34",
+      "asset": "assets/visuals/shot-34.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-de651739-433a-43d8-b8e2-39632cc72c1c.png",
+      "prompt": "Inside cold concrete emergency stairwell, close view of white-gray paper strips folding across the edges of several stair treads and curling through metal handrail gaps ahead of the female worker, who is only a dark rear silhouette lower frame. No creature full body, no impossible rail geometry.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-ca3c4bde-90f8-40cf-81a0-8931339905e7.png",
+          "reason": "entity/door or stair direction/cart continuity incorrect"
+        }
+      ]
+    },
+    {
+      "id": "shot-35",
+      "asset": "assets/visuals/shot-35.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-fd55a65d-3b22-4a1f-9de0-089a37b0f5ed.png",
+      "prompt": "On the lower emergency stairwell landing, older male night security guard seen from BEHIND meets the descending woman in charcoal cardigan. He looks down at the gray folded paper stuck to the side of her DARK SNEAKER. Their faces hidden. No entity body, no cart.",
+      "replacements": []
+    },
+    {
+      "id": "shot-36",
+      "asset": "assets/visuals/shot-36.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-38ec88a9-46f7-4a57-8f1c-c6795e4f1778.png",
+      "prompt": "Close on the woman's two ordinary dark sneakers at lower stairwell landing; one sneaker has gray paper tabs clinging to its side while she starts to slip her foot out of it. Older guard's plain dark shoe nearby. No duplicated feet, no gore, no face.",
+      "replacements": []
+    },
+    {
+      "id": "shot-37",
+      "asset": "assets/visuals/shot-37.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-3151ccc5-21f4-41f8-b671-0532e263c0dc.png",
+      "prompt": "The woman and guard have already exited through a CLOSED stairwell door at the lower landing. On the STAIR SIDE of that door, one ABANDONED EMPTY dark sneaker lies alone; inside the empty sneaker pale gray folded paper begins to inflate into the shape of a foot. No real foot or person inside stairwell.",
+      "replacements": [
+        {
+          "path": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-26abd1d7-4557-48d7-a939-68c8521230ad.png",
+          "reason": "worker still wearing both shoes behind abandoned shoe"
+        }
+      ]
+    },
+    {
+      "id": "shot-38",
+      "asset": "assets/visuals/shot-38.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-5b95560a-b84a-4de0-a83b-0e363b0dcd8f.png",
+      "prompt": "Tight view of the lower landing fire door latch being pushed shut by the older guard's normal hand from the SAFE side. At the bottom gap a thin gray paper strip is trapped as the door closes. No body visible on either side, no extra hands, no text.",
+      "replacements": []
+    },
+    {
+      "id": "shot-39",
+      "asset": "assets/visuals/shot-39.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-7ff3e924-de21-4e8e-9f40-743338601c29.png",
+      "prompt": "Early MORNING inside the same library book-return sorting room as reference. Warm ceiling lamps now off or pale daylight, metal chute and receiving tray completely EMPTY of the mysterious gray book and paper strips, blue cart no longer in this room. Ordinary background books elsewhere okay. No people, no entity.",
+      "replacements": []
+    },
+    {
+      "id": "shot-40",
+      "asset": "assets/visuals/shot-40.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-92185c51-ce42-40db-9036-f3f4e4712fbc.png",
+      "prompt": "Close under the same fire door at morning after staff checked: only ONE SMALL torn deep-red FABRIC bookmark scrap remains trapped beneath closed dark metal door at the threshold. Gray paper and creature are entirely absent. Soft morning light, quiet aftermath.",
+      "replacements": []
+    },
+    {
+      "id": "shot-41",
+      "asset": "assets/visuals/shot-41.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-a31763d8-d14a-481c-ac1f-211a8de018d1.png",
+      "prompt": "Daytime exterior of an ordinary Korean neighborhood public library seen from sidewalk. Adult female former worker in charcoal coat walks past at distance, face turned away from camera, deliberately NOT looking toward the closed metal book-return slot set into outside wall. Trees and daylight, no entity, no readable signage.",
+      "replacements": []
+    },
+    {
+      "id": "shot-42",
+      "asset": "assets/visuals/shot-42.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-514d271a-401f-4433-bd5a-04112f082f71.png",
+      "prompt": "Close daytime exterior of that public library's exterior metal book-return flap sealed for maintenance, one simple taped paper notice next to it with its text completely BLURRED/UNREADABLE. No person, no ghost, no actual text, numbers or logos. Show the flap is temporarily unused.",
+      "replacements": []
+    },
+    {
+      "id": "shot-43",
+      "asset": "assets/visuals/shot-43.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-83e23c58-aaea-469b-a0ee-e9261b8817b4.png",
+      "prompt": "Create one photorealistic cinematic horror FILM STILL, landscape 16:9, no text, no split-screen, no captions. Consistent story: Korean public-library woman narrator, late twenties, face never visible, dark charcoal overcoat, ordinary modest Korean apartment at evening. She has just returned home and laid the dark coat flat on a warm wooden floor without touching its pockets. Medium-wide overhead oblique view: coat lies alone, one pocket subtly bulges, no visible creature, no papers outside yet. A lamp makes one warm pool of light; surrounding apartment dims into blue-green shadow. Composition has clear spatial logic and no extra garments or human body. Controlled believable photographic realism, eerie stillness, 35mm lens, rich but readable shadows.",
+      "replacements": []
+    },
+    {
+      "id": "shot-44",
+      "asset": "assets/visuals/shot-44.png",
+      "source": "/Users/happinich/.codex/generated_images/019e5d7c-2716-7063-87c6-0843d16d874a/exec-211750a2-0ed5-43cb-8aa8-5232e1695cfb.png",
+      "prompt": "Create one photorealistic cinematic horror FILM STILL, landscape 16:9, no text, no split-screen, no captions. Continuation of the same Korean apartment and same dark charcoal overcoat laid flat on wooden floor at night. Tight low-angle close-up of ONE coat pocket: its fabric slightly distended from within by the unmistakable angular edges of several thin paper pages, as if unseen pages are turning inside. A single pale folded PAPER corner just begins to emerge from the seam, no hand, no face, no book, no extra clothing. Warm lamp illumination catches the paper edge, surrounding blue-green shadow remains visibly readable. Photographic, anatomically and physically coherent, unsettling cliffhanger, 50mm macro lens.",
+      "replacements": []
+    }
+  ]
+}

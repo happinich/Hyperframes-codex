@@ -1,0 +1,13 @@
+{
+  "status": "approved_after_manual_review",
+  "voice": "ElevenLabs eleven_v3, Esther Korean female",
+  "source_preserved": "02_audio/working/voice-original.wav",
+  "final_voice": "02_audio/working/voice.wav",
+  "paced_duration_seconds": 473.227,
+  "mixed_duration_seconds": 477.227,
+  "alignment_ratio": 0.992,
+  "pacing_report_review": "One truncated end window, six moderately fast windows (136-144 WPM), ten 0.8-0.96s word gaps at natural sentence boundaries, zero detected long silences. Approved from timing and waveform diagnostics; no claim of subjective listening test.",
+  "bgm_candidate": "cand-03",
+  "bgm_reason": "Subtle CCTV texture and distant metallic room tone support the library setting without obscuring speech.",
+  "mix": "BGM -18 dB under narration, four-second outro at -14 dB, three-second final fade."
+}

@@ -1,0 +1,65 @@
+{
+  "format": "youtube",
+  "voice_source_preserved": "02_audio/working/voice.wav",
+  "bgm_source_preserved": "02_audio/working/voice-bgm.wav",
+  "ambience": "02_audio/working/youtube-library-ambience.wav",
+  "foley": "02_audio/working/youtube-event-foley.wav",
+  "events": [
+    {
+      "at_seconds": 60.58,
+      "kind": "metal",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 78.6,
+      "kind": "paper",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 123.82,
+      "kind": "paper",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 162.82,
+      "kind": "paper",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 210.34,
+      "kind": "paper",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 232.7,
+      "kind": "step",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 317.92,
+      "kind": "metal",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 335.62,
+      "kind": "paper",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 352.62,
+      "kind": "step",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 394.88,
+      "kind": "step",
+      "gain": 0.006
+    },
+    {
+      "at_seconds": 457.48,
+      "kind": "paper",
+      "gain": 0.006
+    }
+  ],
+  "note": "Procedural foley deliberately quiet beneath narration; no TTS regenerated."
+}

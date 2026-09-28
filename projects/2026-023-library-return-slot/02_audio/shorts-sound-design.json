@@ -1,0 +1,40 @@
+{
+  "format": "shorts",
+  "voice_source_preserved": "04_composition/assets/audio/shorts-voice.wav",
+  "bgm_source_preserved": "02_audio/working/shorts-bgm.wav",
+  "ambience": "02_audio/working/shorts-library-ambience.wav",
+  "foley": "02_audio/working/shorts-event-foley.wav",
+  "events": [
+    {
+      "at_seconds": 0.25,
+      "kind": "metal",
+      "gain": 0.004
+    },
+    {
+      "at_seconds": 4.9,
+      "kind": "paper",
+      "gain": 0.004
+    },
+    {
+      "at_seconds": 9.34,
+      "kind": "paper",
+      "gain": 0.004
+    },
+    {
+      "at_seconds": 12.46,
+      "kind": "paper",
+      "gain": 0.004
+    },
+    {
+      "at_seconds": 17.0,
+      "kind": "metal",
+      "gain": 0.004
+    },
+    {
+      "at_seconds": 19.82,
+      "kind": "paper",
+      "gain": 0.004
+    }
+  ],
+  "note": "Procedural foley deliberately quiet beneath narration; no TTS regenerated."
+}
