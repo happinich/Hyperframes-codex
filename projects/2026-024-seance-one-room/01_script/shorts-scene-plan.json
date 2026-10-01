@@ -1,0 +1,116 @@
+{
+  "duration_seconds": 21.494583,
+  "voice_speed_multiplier": 1.07,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60
+  },
+  "shots": [
+    {
+      "id": "short-1",
+      "visual": "short-01",
+      "start": 0,
+      "narration": "우리 셋이 눈을 감고 숫자를 셌어요.",
+      "end": 2.87
+    },
+    {
+      "id": "short-2",
+      "visual": "short-01",
+      "start": 2.87,
+      "narration": "하나. 둘. 셋.",
+      "end": 5.21
+    },
+    {
+      "id": "short-3",
+      "visual": "short-02",
+      "start": 5.21,
+      "narration": "그런데 제 귀 바로 옆에서 누가 말했어요.",
+      "end": 8.969999999999999
+    },
+    {
+      "id": "short-4",
+      "visual": "short-02",
+      "start": 8.969999999999999,
+      "narration": "넷.",
+      "end": 10.01
+    },
+    {
+      "id": "short-5",
+      "visual": "short-03",
+      "start": 10.01,
+      "narration": "눈을 뜨면 따라온다는 말이 생각났지만, 손목을 잡은 그 차가운 손은 준호의 손이 아니었어요.",
+      "end": 17.130000000000003
+    },
+    {
+      "id": "short-6",
+      "visual": "short-04",
+      "start": 17.130000000000003,
+      "narration": "그날 밤부터, 우리 집 도어락은 매일 네 번씩 눌렸습니다.",
+      "end": 21.494583
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 2.32,
+      "text": "우리 셋이 눈을 감고 숫자를 셌어요."
+    },
+    {
+      "start": 3.02,
+      "end": 3.22,
+      "text": "하나."
+    },
+    {
+      "start": 3.58,
+      "end": 4.14,
+      "text": "둘."
+    },
+    {
+      "start": 4.68,
+      "end": 4.88,
+      "text": "셋."
+    },
+    {
+      "start": 5.36,
+      "end": 7.84,
+      "text": "그런데 제 귀 바로 옆에서 누가"
+    },
+    {
+      "start": 7.84,
+      "end": 8.4,
+      "text": "말했어요."
+    },
+    {
+      "start": 9.12,
+      "end": 9.52,
+      "text": "넷."
+    },
+    {
+      "start": 10.16,
+      "end": 11.86,
+      "text": "눈을 뜨면 따라온다는 말이"
+    },
+    {
+      "start": 11.86,
+      "end": 14.4,
+      "text": "생각났지만, 손목을 잡은 그 차가운"
+    },
+    {
+      "start": 14.4,
+      "end": 16.3,
+      "text": "손은 준호의 손이 아니었어요."
+    },
+    {
+      "start": 17.28,
+      "end": 19.84,
+      "text": "그날 밤부터, 우리 집 도어락은 매일"
+    },
+    {
+      "start": 19.84,
+      "end": 21.28,
+      "text": "네 번씩 눌렸습니다."
+    }
+  ],
+  "spoiler_free": true
+}

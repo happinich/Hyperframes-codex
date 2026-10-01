@@ -1,0 +1,1899 @@
+{
+  "project_id": "2026-024-seance-one-room",
+  "title": "강령술 원룸: 넷째 목소리",
+  "master_format": {
+    "aspect_ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "shorts_format": {
+    "aspect_ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60
+  },
+  "horror_direction": {
+    "threat_type": "explicit_ghost",
+    "entity_design": "카메라 화면에서 먼저 보이는 차갑고 검은 네 손가락의 손. 손목을 누르는 실제 접촉과 네 줄의 자국으로 동일 존재를 확인한다.",
+    "reveal_mode": "trace_to_partial_to_direct",
+    "reveal_beats": [
+      "넷째 목소리와 여분 수저",
+      "손목의 네 줄과 이불 자국",
+      "카메라 속 네 손가락",
+      "화자 손목에 직접 접촉"
+    ]
+  },
+  "style": {
+    "face_visible": false,
+    "caption_delivery": "external_srt_upload",
+    "production_profile_id": "horror_cinematic_story_v1",
+    "production_profile_label": "호러 시네마틱 스토리형",
+    "visual_style_id": "horror_cinematic",
+    "visual_style_label": "호러 시네마틱",
+    "visual_tone": "한국의 익숙한 야간 공간이 서서히 낯설어지고, 중후반에는 귀신이나 괴물의 실재가 확인되는 몰입형 공포 오디오 드라마",
+    "background": "어두운 병원 복도, 원룸 현관, 산길, 젖은 도로, CCTV 화면처럼 단서와 초자연 존재의 윤곽이 읽히는 저조도 실사·생성 이미지",
+    "palette": "#020407, #071318, #10252a, #e8edf0, #ff334f",
+    "layout_language": "풀블리드 시네마틱 이미지, 단서 클로즈업, CCTV·호출 패널·휴대전화 프레임, 짧은 경고 타이포를 이야기 감정선에 맞춰 교차한다.",
+    "motion_rule": "정지 이미지도 1~3초마다 줌, 패닝, 초점, 조명, 스캔, 그림자 중 하나가 변하고 3초 이상 완전 정지를 금지한다. 느린 패닝과 깊은 줌, 초점 이동, 형광등 점멸, 안개·그림자·스캔라인, 결정적 순간의 짧은 적막과 붉은 신호 펄스",
+    "captioned_renderer": "scripts/burn_story_captions.mjs",
+    "captioned_output_suffix": "-captioned-story",
+    "notes": "사용자가 승인한 스타일을 유지하되 장면별 정보 구조는 다양하게 만든다."
+  },
+  "timing_policy": {
+    "unit": "seconds",
+    "planning_precision": "0.1s",
+    "alignment_source": "mlx-community/whisper-large-v3-turbo word timings after ElevenLabs generation",
+    "caption_rule": "caption_text는 narration_text와 동일하게 유지한다. MP4에는 번인하지 않고 SRT/VTT로 별도 납품한다."
+  },
+  "script_rewrite_rules": {
+    "name": "하이퍼프레임스 롱폼 성공 팁",
+    "profile_mode": "cold_open_modern_horror_single_story",
+    "opening_hook": "첫 5~10초에 가장 위험하거나 이상한 대사 한 줄을 선제시한 뒤 장소와 정상 규칙을 앉히고, 40~60초 사이에 첫 이상 징후에 진입한다.",
+    "narration": "화면을 설명하는 메타 멘트 없이, 사람이 겪은 일을 청자에게 들려주듯 자연스러운 존댓말 구술형 이야기체로 쓴다. ~했어요, ~였죠, ~거든요, ~더라고요와 필요한 ~했습니다를 감정과 호흡에 따라 섞고, 했다·였다 단문을 연속하지 않는다. 귀신·괴물 축에서는 흔적, 부분 노출, 직접 상호작용 순으로 존재를 확인시키며 한 영상에서 6~8분 공포 한 편을 완결한다.",
+    "sound": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+    "explainer_visual_cues": "설명형 프로필에서만 '지금 화면에 나오는 이 부분을 보시면...' 같은 시각 자료 안내 멘트를 사용한다.",
+    "horror_meta_cue_policy": "공포 프로필에서는 화면을 직접 지시하는 메타 멘트를 사용하지 않는다."
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "cold_open",
+      "start_seconds": 0,
+      "end_seconds": 9.29,
+      "duration_seconds": 9.29,
+      "estimated_words": 17,
+      "target_wpm": 130,
+      "purpose": "하나, 둘, 셋… 넷",
+      "narration_text": "하나. 둘. 셋.\n\n우리는 분명 셋이었어요. 그런데 제 오른쪽 귀 바로 옆에서, 누군가 아주 작게 말했습니다.\n\n넷.",
+      "caption_text": "하나. 둘. 셋.\n\n우리는 분명 셋이었어요. 그런데 제 오른쪽 귀 바로 옆에서, 누군가 아주 작게 말했습니다.\n\n넷.",
+      "visual": "어두운 원룸 바닥 세 자리, 빈 네 번째 공간으로 초점 이동. 마지막 `넷`에서 빈 공간만 미세하게 눌림.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 0,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 2.4,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 4.8,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 7.2,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "세 사람의 숨, 네 번째 목소리는 같은 음장 안에서 더 가까이. 실존 인원 네 명을 일찍 보여주지 않음."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 0,
+      "speech_end": 9.08,
+      "word_offset": 0,
+      "word_count": 17
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "start_seconds": 9.29,
+      "end_seconds": 31.93,
+      "duration_seconds": 22.64,
+      "estimated_words": 51,
+      "target_wpm": 130,
+      "purpose": "금요일, 대학 동기 셋",
+      "narration_text": "그날은 금요일이었어요. 대학 동기 은채와 준호가 제 원룸에 놀러 왔죠. 셋 다 과제를 끝낸 날이라 그냥 밥 먹고 영화나 한 편 보기로 했어요. 은채는 늘 창가에 앉았고, 준호는 현관 가까운 자리를 골랐습니다. 제 방은 침대와 작은 책상만 놓아도 바닥이 거의 안 보였거든요. 셋이 둘러앉아 떡볶이를 먹으려면 책상을 벽에 바짝 밀어야 했어요.",
+      "caption_text": "그날은 금요일이었어요. 대학 동기 은채와 준호가 제 원룸에 놀러 왔죠. 셋 다 과제를 끝낸 날이라 그냥 밥 먹고 영화나 한 편 보기로 했어요. 은채는 늘 창가에 앉았고, 준호는 현관 가까운 자리를 골랐습니다. 제 방은 침대와 작은 책상만 놓아도 바닥이 거의 안 보였거든요. 셋이 둘러앉아 떡볶이를 먹으려면 책상을 벽에 바짝 밀어야 했어요.",
+      "visual": "좁은 원룸의 문-싱크대-침대 지리 확립. 책상 밀기, 세 사람은 얼굴 없이 손·뒷모습.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 9.29,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 11.69,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 14.09,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 16.49,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 18.89,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 21.29,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 23.69,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 26.09,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 28.49,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 30.89,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "실내 냉장고 저음, 배달 포장 소리."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 9.64,
+      "speech_end": 31.74,
+      "word_offset": 17,
+      "word_count": 51
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "start_seconds": 31.93,
+      "end_seconds": 43.53,
+      "duration_seconds": 11.6,
+      "estimated_words": 25,
+      "target_wpm": 130,
+      "purpose": "서 있을 사람을 놓칠 수 없는 방",
+      "narration_text": "현관문을 열면 싱크대가 바로 보이고, 그 옆이 침대였습니다. 누가 서 있으면 모를 수가 없는 방이었죠. 그래서 그날 밤 제가 본 것들을 아직도 설명할 수가 없어요.",
+      "caption_text": "현관문을 열면 싱크대가 바로 보이고, 그 옆이 침대였습니다. 누가 서 있으면 모를 수가 없는 방이었죠. 그래서 그날 밤 제가 본 것들을 아직도 설명할 수가 없어요.",
+      "visual": "현관에서 침대까지 한 번의 느린 이동, 마지막에 텅 빈 문턱을 보여줌.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 31.93,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 34.33,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 36.73,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 39.13,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 41.53,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "뒤늦게 공간을 보여 주는 이유가 있는 정적, 0.8초 초과 무음 없음."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 32.28,
+      "speech_end": 43.24,
+      "word_offset": 68,
+      "word_count": 25
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "start_seconds": 43.53,
+      "end_seconds": 59.11,
+      "duration_seconds": 15.58,
+      "estimated_words": 31,
+      "target_wpm": 130,
+      "purpose": "수저 네 벌",
+      "narration_text": "배달 봉투를 열다가 제가 웃었습니다. 젓가락과 숟가락이 네 벌 들어 있었거든요. 주문할 때는 분명 세 개를 눌렀어요. 은채가 영수증을 확인했는데, 거기에도 수저 네 개라고 찍혀 있더라고요. 제가 잘못 눌렀나 보다 했죠.",
+      "caption_text": "배달 봉투를 열다가 제가 웃었습니다. 젓가락과 숟가락이 네 벌 들어 있었거든요. 주문할 때는 분명 세 개를 눌렀어요. 은채가 영수증을 확인했는데, 거기에도 수저 네 개라고 찍혀 있더라고요. 제가 잘못 눌렀나 보다 했죠.",
+      "visual": "포장지의 네 수저를 하나씩 드러냄. 주문 영수증은 생성 문자 대신 후반 그래픽으로 간결하게.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 43.53,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 45.93,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 48.33,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 50.73,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 53.13,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 55.53,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 57.93,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "첫 실질 이상 징후, 종이 비닐 소리. 실제 도착 물품의 수량과 재등장 수량 일치."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 43.88,
+      "speech_end": 58.82,
+      "word_offset": 93,
+      "word_count": 31
+    },
+    {
+      "id": "s05",
+      "type": "story",
+      "start_seconds": 59.11,
+      "end_seconds": 71.51,
+      "duration_seconds": 12.4,
+      "estimated_words": 27,
+      "target_wpm": 130,
+      "purpose": "신발장 위 수저, 농담",
+      "narration_text": "준호가 남는 수저를 현관 신발장 위에 올려놓았어요.\n\n“손님 한 명 더 오면 주자.”\n\n그때는 아무 뜻 없는 농담이었습니다. 떡볶이를 먹고도 그 수저는 포장지에 싸인 채 그대로 있었어요.",
+      "caption_text": "준호가 남는 수저를 현관 신발장 위에 올려놓았어요.\n\n“손님 한 명 더 오면 주자.”\n\n그때는 아무 뜻 없는 농담이었습니다. 떡볶이를 먹고도 그 수저는 포장지에 싸인 채 그대로 있었어요.",
+      "visual": "남는 한 벌을 현관 신발장에 올리고 나머지 세 벌은 식탁에. 카메라가 남는 한 벌에 2초 더 머무름.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 59.11,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 61.51,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 63.91,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 66.31,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 68.71,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 71.11,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "준호의 대사는 가볍게. 수저 위치 연속성 필수."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 59.46,
+      "speech_end": 71.18,
+      "word_offset": 124,
+      "word_count": 27
+    },
+    {
+      "id": "s06",
+      "type": "story",
+      "start_seconds": 71.51,
+      "end_seconds": 85.05,
+      "duration_seconds": 13.54,
+      "estimated_words": 30,
+      "target_wpm": 130,
+      "purpose": "자정, 손님 세기",
+      "narration_text": "자정이 조금 넘자 준호가 휴대폰을 내밀었습니다. 커뮤니티에서 봤다는 놀이였어요. 제목은 ‘손님 세기’. 은채는 그런 걸 왜 하냐며 싫어했지만, 준호가 계속 졸랐죠.\n\n“귀신 부르는 거 아니야. 사람이 몇 명인지 세는 거야.”",
+      "caption_text": "자정이 조금 넘자 준호가 휴대폰을 내밀었습니다. 커뮤니티에서 봤다는 놀이였어요. 제목은 ‘손님 세기’. 은채는 그런 걸 왜 하냐며 싫어했지만, 준호가 계속 졸랐죠.\n\n“귀신 부르는 거 아니야. 사람이 몇 명인지 세는 거야.”",
+      "visual": "준호 휴대폰의 제목만 큰 글자로 후반 합성. 은채의 망설임은 손 제스처로.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 71.51,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 73.91,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 76.31,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 78.71,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 81.11,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 83.51,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "휴대폰 진동, 대사는 과장된 괴담 낭독처럼 연기하지 않음."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 71.86,
+      "speech_end": 85.4,
+      "word_offset": 151,
+      "word_count": 30
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "start_seconds": 85.05,
+      "end_seconds": 101.05,
+      "duration_seconds": 16,
+      "estimated_words": 37,
+      "target_wpm": 130,
+      "purpose": "셋이 원으로 앉는 규칙",
+      "narration_text": "설명에는 방 안의 불을 끄고 셋이 원으로 앉으라고 돼 있었어요. 서로 손을 잡고 눈을 감은 채, 차례로 숫자를 세는 거죠. 누가 시작했는지 헷갈리지 않도록 첫 번째 사람만 작은 손전등을 무릎 앞에 놓으라고 했어요. 불빛은 켜지 않은 채로요.",
+      "caption_text": "설명에는 방 안의 불을 끄고 셋이 원으로 앉으라고 돼 있었어요. 서로 손을 잡고 눈을 감은 채, 차례로 숫자를 세는 거죠. 누가 시작했는지 헷갈리지 않도록 첫 번째 사람만 작은 손전등을 무릎 앞에 놓으라고 했어요. 불빛은 켜지 않은 채로요.",
+      "visual": "원룸 바닥 상단 구도. 손전등이 시작점 앞에 놓이고, 세 명의 손이 연결됨. 화면에 상세 의식 설명 카드는 넣지 않음.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 85.05,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 87.45,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 89.85,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 92.25,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 94.65,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 97.05,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 99.45,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "실제 의식 안내 콘텐츠처럼 보이지 않게 허구의 장면으로 처리."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 85.4,
+      "speech_end": 101.4,
+      "word_offset": 181,
+      "word_count": 37
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "start_seconds": 101.05,
+      "end_seconds": 116.31,
+      "duration_seconds": 15.26,
+      "estimated_words": 28,
+      "target_wpm": 130,
+      "purpose": "넷이 들리면 눈을 뜨지 마",
+      "narration_text": "하나, 둘, 셋. 다시 하나, 둘, 셋. 그러다 아무도 말하지 않은 넷이 들리면 손님이 온 거라고 했습니다. 그때도 눈은 뜨지 말아야 한대요. 누군가 ‘끝났어’라고 말하고 손을 놓을 때까지요.",
+      "caption_text": "하나, 둘, 셋. 다시 하나, 둘, 셋. 그러다 아무도 말하지 않은 넷이 들리면 손님이 온 거라고 했습니다. 그때도 눈은 뜨지 말아야 한대요. 누군가 ‘끝났어’라고 말하고 손을 놓을 때까지요.",
+      "visual": "세 손 위치를 짧게 교차, 불꺼진 손전등과 스위치. 불빛은 편의점 간판에서만 들어옴.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 101.05,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 103.45,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 105.85,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 108.25,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 110.65,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 113.05,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 115.45,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "규칙을 읽는 준호의 목소리에 작은 불안."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 101.4,
+      "speech_end": 116.36,
+      "word_offset": 218,
+      "word_count": 28
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "start_seconds": 116.31,
+      "end_seconds": 134.37,
+      "duration_seconds": 18.06,
+      "estimated_words": 37,
+      "target_wpm": 130,
+      "purpose": "원룸의 소리",
+      "narration_text": "저는 장난인 줄 알았어요. 특히 준호가 유난히 진지하게 규칙을 읽는 게 웃겼거든요. 하지만 은채가 불을 끄자 방이 생각보다 어두워졌습니다. 블라인드 틈으로 편의점 간판의 흰빛만 조금 들어왔어요. 냉장고가 웅웅거리고, 현관 쪽에서는 도어락 액정이 꺼질 때 짧은 소리가 났죠.",
+      "caption_text": "저는 장난인 줄 알았어요. 특히 준호가 유난히 진지하게 규칙을 읽는 게 웃겼거든요. 하지만 은채가 불을 끄자 방이 생각보다 어두워졌습니다. 블라인드 틈으로 편의점 간판의 흰빛만 조금 들어왔어요. 냉장고가 웅웅거리고, 현관 쪽에서는 도어락 액정이 꺼질 때 짧은 소리가 났죠.",
+      "visual": "냉장고 모터, 간판 빛, 꺼지는 도어락 화면을 번갈아 보여줌. 조도는 모바일에서 손의 윤곽이 보이게.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 116.31,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 118.71,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 121.11,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 123.51,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 125.91,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 128.31,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 130.71,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 133.11,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "냉장고 저음과 도어락 소리 분리."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 116.66,
+      "speech_end": 134.14,
+      "word_offset": 246,
+      "word_count": 37
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "start_seconds": 134.37,
+      "end_seconds": 167.97,
+      "duration_seconds": 33.6,
+      "estimated_words": 68,
+      "target_wpm": 130,
+      "purpose": "처음의 웃음, 길어지는 침묵",
+      "narration_text": "저는 은채와 준호 사이에 앉았습니다. 왼손은 은채가, 오른손은 준호가 잡았어요. 준호가 말했죠. 집주인이니까 네가 먼저 세.\n\n하나. 둘. 셋.\n\n처음 몇 번은 웃음이 나왔어요. 은채가 둘을 말할 때마다 조금씩 목소리를 바꿨거든요. 그러다 어느 순간부터 준호가 셋을 말하고 나면, 다음 제 차례까지 침묵이 길어졌습니다. 저는 매번 바로 하나를 말했는데, 제가 모르는 틈이 하나 생긴 것 같았어요.\n\n열 바퀴쯤 돌았을까요. 준호가 셋을 말했습니다. 그다음에는 아무도 숨을 쉬지 않는 것처럼 조용했어요.",
+      "caption_text": "저는 은채와 준호 사이에 앉았습니다. 왼손은 은채가, 오른손은 준호가 잡았어요. 준호가 말했죠. 집주인이니까 네가 먼저 세.\n\n하나. 둘. 셋.\n\n처음 몇 번은 웃음이 나왔어요. 은채가 둘을 말할 때마다 조금씩 목소리를 바꿨거든요. 그러다 어느 순간부터 준호가 셋을 말하고 나면, 다음 제 차례까지 침묵이 길어졌습니다. 저는 매번 바로 하나를 말했는데, 제가 모르는 틈이 하나 생긴 것 같았어요.\n\n열 바퀴쯤 돌았을까요. 준호가 셋을 말했습니다. 그다음에는 아무도 숨을 쉬지 않는 것처럼 조용했어요.",
+      "visual": "세 손의 간격과 그림자 각도가 조금씩 어긋남. 화면은 2초 주기로 손·빈 바닥·손전등 컷 전환.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 134.37,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 136.77,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 139.17,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 141.57,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 143.97,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 146.37,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 148.77,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 151.17,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 153.57,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 155.97,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 158.37,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 160.77,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 163.17,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 165.57,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "서서히 웃음이 멎는다. `넷` 직전 0.9초 **의도적 적막**, 음성 QA에서 확인."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": "0.9초 의도적 적막"
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 134.72,
+      "speech_end": 167.62,
+      "word_offset": 283,
+      "word_count": 68
+    },
+    {
+      "id": "s11",
+      "type": "story",
+      "start_seconds": 167.97,
+      "end_seconds": 178.47,
+      "duration_seconds": 10.5,
+      "estimated_words": 21,
+      "target_wpm": 130,
+      "purpose": "오른쪽 귀의 넷째 목소리",
+      "narration_text": "넷.\n\n제 오른쪽에서 났습니다. 준호는 제 손을 잡고 있었지만, 목소리는 준호보다 훨씬 가까웠어요. 귀와 어깨 사이, 사람이 들어갈 수도 없는 틈에서요.",
+      "caption_text": "넷.\n\n제 오른쪽에서 났습니다. 준호는 제 손을 잡고 있었지만, 목소리는 준호보다 훨씬 가까웠어요. 귀와 어깨 사이, 사람이 들어갈 수도 없는 틈에서요.",
+      "visual": "얼굴 없는 화자의 어깨 뒤 빈 틈, 어깨에 닿는 그림자. 카메라는 귀 바로 뒤까지 접근하지 않고 빈 공간을 유지.",
+      "entity_reveal_stage": "trace",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 167.97,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 170.37,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 172.77,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 175.17,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 177.57,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "넷째 목소리 위치는 오른쪽, 준호와 구별."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 168.32,
+      "speech_end": 178.28,
+      "word_offset": 351,
+      "word_count": 21
+    },
+    {
+      "id": "s12",
+      "type": "story",
+      "start_seconds": 178.47,
+      "end_seconds": 207.45,
+      "duration_seconds": 28.98,
+      "estimated_words": 60,
+      "target_wpm": 130,
+      "purpose": "신발장 포장지, 손목 접촉",
+      "narration_text": "은채가 제 손을 세게 조였습니다. 저는 준호가 장난치는 거라 생각하고 고개를 돌렸어요. 눈은 감은 채였는데, 현관 쪽 바닥에서 뭔가 바스락거리는 소리가 들렸습니다. 포장지에 싼 수저가 누군가의 발에 밟힐 때 나는 소리처럼요.\n\n그리고 제 오른쪽 손목을 누가 잡았습니다. 준호의 손은 여전히 제 손바닥에 있었어요. 이건 그보다 조금 위, 맥박이 뛰는 자리를 정확히 누르고 있었습니다. 손가락 끝이 차가웠고, 손톱이 하나씩 피부에 닿았어요.",
+      "caption_text": "은채가 제 손을 세게 조였습니다. 저는 준호가 장난치는 거라 생각하고 고개를 돌렸어요. 눈은 감은 채였는데, 현관 쪽 바닥에서 뭔가 바스락거리는 소리가 들렸습니다. 포장지에 싼 수저가 누군가의 발에 밟힐 때 나는 소리처럼요.\n\n그리고 제 오른쪽 손목을 누가 잡았습니다. 준호의 손은 여전히 제 손바닥에 있었어요. 이건 그보다 조금 위, 맥박이 뛰는 자리를 정확히 누르고 있었습니다. 손가락 끝이 차가웠고, 손톱이 하나씩 피부에 닿았어요.",
+      "visual": "현관 바닥 포장지 흔들림 → 화자의 손목 가까이 다른 압박 흔적. 존재 전체는 아직 노출하지 않음.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 178.47,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 180.87,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 183.27,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 185.67,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 188.07,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 190.47,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 192.87,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 195.27,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 197.67,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 200.07,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 202.47,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 204.87,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 207.27,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "바스락, 손톱 마찰은 낮게. 같은 순간 준호의 손이 여전히 손바닥에 있는지 확인."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 178.82,
+      "speech_end": 207.36,
+      "word_offset": 372,
+      "word_count": 60
+    },
+    {
+      "id": "s13",
+      "type": "story",
+      "start_seconds": 207.45,
+      "end_seconds": 228.37,
+      "duration_seconds": 20.92,
+      "estimated_words": 40,
+      "target_wpm": 130,
+      "purpose": "눈을 뜬 뒤, `떴네`",
+      "narration_text": "저는 눈을 떴습니다.\n\n희미한 간판 불빛 아래 은채와 준호는 둘 다 눈을 감고 있었어요. 제 손목에는 아무것도 없었습니다. 그런데 차가운 압박은 사라지지 않았어요. 무서워서 팔을 빼려는데 준호가 눈도 뜨지 않고 말했습니다.\n\n“떴네.”\n\n놀란 목소리가 아니었어요. 오래 기다리던 사람이 확인하듯 말했죠.",
+      "caption_text": "저는 눈을 떴습니다.\n\n희미한 간판 불빛 아래 은채와 준호는 둘 다 눈을 감고 있었어요. 제 손목에는 아무것도 없었습니다. 그런데 차가운 압박은 사라지지 않았어요. 무서워서 팔을 빼려는데 준호가 눈도 뜨지 않고 말했습니다.\n\n“떴네.”\n\n놀란 목소리가 아니었어요. 오래 기다리던 사람이 확인하듯 말했죠.",
+      "visual": "열린 눈의 주관 시점. 은채·준호는 눈 감은 뒷모습, 손목을 누르는 빈 자리. 준호의 입가도 얼굴 노출 없이.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 207.45,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 209.85,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 212.25,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 214.65,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 217.05,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 219.45,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 221.85,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 224.25,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 226.65,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "준호 대사는 놀람 아닌 안도. 훅에서 약속한 장면 회수."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 207.8,
+      "speech_end": 228.54,
+      "word_offset": 432,
+      "word_count": 40
+    },
+    {
+      "id": "s14",
+      "type": "story",
+      "start_seconds": 228.37,
+      "end_seconds": 247.17,
+      "duration_seconds": 18.8,
+      "estimated_words": 34,
+      "target_wpm": 130,
+      "purpose": "마무리, 두 사람이 떠남",
+      "narration_text": "준호가 낮게 ‘끝났어’라고 했고, 우리는 손을 놓았습니다. 불을 켜자 형광등이 두 번 깜빡였어요. 은채는 억지로 웃으며 이제 그만하자고 했습니다. 준호도 막차가 끊긴다며 은채와 함께 나갔죠. 문이 닫힌 뒤에도 저는 한동안 신발장 앞에서 움직이지 못했어요.",
+      "caption_text": "준호가 낮게 ‘끝났어’라고 했고, 우리는 손을 놓았습니다. 불을 켜자 형광등이 두 번 깜빡였어요. 은채는 억지로 웃으며 이제 그만하자고 했습니다. 준호도 막차가 끊긴다며 은채와 함께 나갔죠. 문이 닫힌 뒤에도 저는 한동안 신발장 앞에서 움직이지 못했어요.",
+      "visual": "형광등 두 번 점멸, 현관문 잠김, 신발장 위 남은 포장지만 드러남.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 228.37,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 230.77,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 233.17,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 235.57,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 237.97,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 240.37,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 242.77,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 245.17,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "문 잠김 뒤 방의 소음이 비정상적으로 줄어듦."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 228.72,
+      "speech_end": 247.02,
+      "word_offset": 472,
+      "word_count": 34
+    },
+    {
+      "id": "s15",
+      "type": "story",
+      "start_seconds": 247.17,
+      "end_seconds": 272.01,
+      "duration_seconds": 24.84,
+      "estimated_words": 51,
+      "target_wpm": 130,
+      "purpose": "수저 실종, 손목 네 줄",
+      "narration_text": "남는 수저가 없었습니다. 포장지는 신발장 위에 그대로였는데, 수저만 빠져 있었어요. 저는 바닥을 뒤져 보다가 찢어진 포장지를 쓰레기봉투에 넣었습니다. 혹시 준호가 들고 갔겠죠. 그렇게 생각해야 잠을 잘 수 있을 것 같았어요.\n\n세수를 하다가 손목을 봤습니다. 안쪽에 얇은 붉은 줄 네 개가 나란히 나 있었어요. 긁힌 자국이라기보다, 누가 오래 붙잡고 있던 자리 같았습니다.",
+      "caption_text": "남는 수저가 없었습니다. 포장지는 신발장 위에 그대로였는데, 수저만 빠져 있었어요. 저는 바닥을 뒤져 보다가 찢어진 포장지를 쓰레기봉투에 넣었습니다. 혹시 준호가 들고 갔겠죠. 그렇게 생각해야 잠을 잘 수 있을 것 같았어요.\n\n세수를 하다가 손목을 봤습니다. 안쪽에 얇은 붉은 줄 네 개가 나란히 나 있었어요. 긁힌 자국이라기보다, 누가 오래 붙잡고 있던 자리 같았습니다.",
+      "visual": "비어 있는 포장지와 쓰레기봉투, 세면대에서 드러나는 네 상처.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 247.17,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 249.57,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 251.97,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 254.37,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 256.77,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 259.17,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 261.57,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 263.97,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 266.37,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 268.77,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 271.17,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "물건이 포장지에서 빠진 것임을 명확히. 손가락 수/상처 수 네 개 일치."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 247.52,
+      "speech_end": 271.62,
+      "word_offset": 506,
+      "word_count": 51
+    },
+    {
+      "id": "s16",
+      "type": "story",
+      "start_seconds": 272.01,
+      "end_seconds": 299.53,
+      "duration_seconds": 27.52,
+      "estimated_words": 54,
+      "target_wpm": 130,
+      "purpose": "도어락 네 번, 돌아온 수저",
+      "narration_text": "그날부터 새벽이면 현관 밖에서 도어락을 누르는 소리가 났어요. 삑. 삑. 삑. 삑. 우리 집 비밀번호는 여섯 자리인데, 소리는 언제나 네 번에서 멈췄습니다. 도어뷰를 보면 복도는 비어 있었고요.\n\n다음 날 아침에는 신발장 앞에 포장지 없는 수저 한 벌이 가지런히 놓여 있었습니다. 밤에 분명 쓰레기봉투까지 뒤져 봤는데, 찾지 못했던 수저였어요. 저는 사진을 찍어 은채와 준호에게 보냈습니다.",
+      "caption_text": "그날부터 새벽이면 현관 밖에서 도어락을 누르는 소리가 났어요. 삑. 삑. 삑. 삑. 우리 집 비밀번호는 여섯 자리인데, 소리는 언제나 네 번에서 멈췄습니다. 도어뷰를 보면 복도는 비어 있었고요.\n\n다음 날 아침에는 신발장 앞에 포장지 없는 수저 한 벌이 가지런히 놓여 있었습니다. 밤에 분명 쓰레기봉투까지 뒤져 봤는데, 찾지 못했던 수저였어요. 저는 사진을 찍어 은채와 준호에게 보냈습니다.",
+      "visual": "복도 카메라의 빈 화면 → 번호 패드 네 점멸 → 아침 신발장 앞 수저 한 벌.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 272.01,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 274.41,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 276.81,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 279.21,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 281.61,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 284.01,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 286.41,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 288.81,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 291.21,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 293.61,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 296.01,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 298.41,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "비밀번호 여섯 자리와 네 번의 소리 차이를 귀로 느끼게."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 272.36,
+      "speech_end": 299.4,
+      "word_offset": 557,
+      "word_count": 54
+    },
+    {
+      "id": "s17",
+      "type": "story",
+      "start_seconds": 299.53,
+      "end_seconds": 317.83,
+      "duration_seconds": 18.3,
+      "estimated_words": 36,
+      "target_wpm": 130,
+      "purpose": "안 읽음 숫자 삼과 일",
+      "narration_text": "우리 셋뿐인 단톡방이었어요. 그런데 제가 보낸 사진 옆에 안 읽음 숫자 삼이 떴습니다. 보통은 저를 뺀 둘이 안 읽으면 이가 떠야 하잖아요. 은채가 먼저 답장을 보내고, 준호가 짧게 웃는 이모티콘을 보냈습니다. 숫자는 일이 됐어요. 사라지지 않았습니다.",
+      "caption_text": "우리 셋뿐인 단톡방이었어요. 그런데 제가 보낸 사진 옆에 안 읽음 숫자 삼이 떴습니다. 보통은 저를 뺀 둘이 안 읽으면 이가 떠야 하잖아요. 은채가 먼저 답장을 보내고, 준호가 짧게 웃는 이모티콘을 보냈습니다. 숫자는 일이 됐어요. 사라지지 않았습니다.",
+      "visual": "단톡방 인원 세 명을 후반 그래픽으로 표시. `3`이 둘의 확인 뒤에도 `1`로 남음.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 299.53,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 301.93,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 304.33,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 306.73,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 309.13,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 311.53,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 313.93,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 316.33,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "실제 앱 화면 복제 대신 허구 UI. 숫자 오타·가독성 검수."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 299.88,
+      "speech_end": 317.94,
+      "word_offset": 611,
+      "word_count": 36
+    },
+    {
+      "id": "s18",
+      "type": "story",
+      "start_seconds": 317.83,
+      "end_seconds": 335.23,
+      "duration_seconds": 17.4,
+      "estimated_words": 37,
+      "target_wpm": 130,
+      "purpose": "편의점 직원의 질문",
+      "narration_text": "처음에는 앱 오류라고 생각했죠. 그런데 편의점에서 컵라면을 계산할 때, 직원이 제 뒤를 보고 물었어요.\n\n“같이 오신 분 것도 계산하세요?”\n\n돌아봤지만 통로에는 아무도 없었습니다. 직원도 곧 아무 말 없이 제 물건만 찍었어요. 저는 그날 처음으로 집에 돌아가기 싫었습니다.",
+      "caption_text": "처음에는 앱 오류라고 생각했죠. 그런데 편의점에서 컵라면을 계산할 때, 직원이 제 뒤를 보고 물었어요.\n\n“같이 오신 분 것도 계산하세요?”\n\n돌아봤지만 통로에는 아무도 없었습니다. 직원도 곧 아무 말 없이 제 물건만 찍었어요. 저는 그날 처음으로 집에 돌아가기 싫었습니다.",
+      "visual": "편의점 계산대 후면, 직원 시선이 화자 뒤를 따라감. 뒤쪽 통로는 비어 있음.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 317.83,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 320.23,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 322.63,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 325.03,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 327.43,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 329.83,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 332.23,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 334.63,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "직원 대사는 평범하게, 과도한 점프스케어 금지."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 318.18,
+      "speech_end": 334.86,
+      "word_offset": 647,
+      "word_count": 37
+    },
+    {
+      "id": "s19",
+      "type": "story",
+      "start_seconds": 335.23,
+      "end_seconds": 349.71,
+      "duration_seconds": 14.48,
+      "estimated_words": 31,
+      "target_wpm": 130,
+      "purpose": "밤의 이불 자국",
+      "narration_text": "잠이 들려는 순간마다 오른손 손등이 아래로 눌렸어요. 손을 이불 안에 넣어도 같은 자리에 차가운 무게가 얹혔습니다. 어느 밤에는 이불 끝에 사람 손가락처럼 긴 자국 네 개가 생겼다가, 제가 일어나자 천천히 펴졌어요.",
+      "caption_text": "잠이 들려는 순간마다 오른손 손등이 아래로 눌렸어요. 손을 이불 안에 넣어도 같은 자리에 차가운 무게가 얹혔습니다. 어느 밤에는 이불 끝에 사람 손가락처럼 긴 자국 네 개가 생겼다가, 제가 일어나자 천천히 펴졌어요.",
+      "visual": "손등 눌림과 이불의 네 긴 자국. 이미지 속 손가락 개수와 피부 접촉의 물리성 확인.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 335.23,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 337.63,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 340.03,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 342.43,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 344.83,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 347.23,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "옷감 마찰, 침대 매트리스 압력."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 335.58,
+      "speech_end": 349.62,
+      "word_offset": 684,
+      "word_count": 31
+    },
+    {
+      "id": "s20",
+      "type": "story",
+      "start_seconds": 349.71,
+      "end_seconds": 372.89,
+      "duration_seconds": 23.18,
+      "estimated_words": 47,
+      "target_wpm": 130,
+      "purpose": "은채의 전화, 작년의 준호",
+      "narration_text": "일주일쯤 지나 은채에게 전화가 왔습니다. 은채는 다짜고짜 준호가 작년에도 그 놀이를 했다고 했어요. 자기 자취방에서, 다른 친구들과요. 그때 눈을 뜬 사람이 준호였답니다. 그 뒤로는 아무도 자기 집에 들이지 않았대요.\n\n저는 그제야 생각났습니다. 이번에 제 원룸에서 모이자고 먼저 말한 사람이 준호였어요. 손님 세기라는 글도, 은채가 아니라 준호가 가져왔고요.",
+      "caption_text": "일주일쯤 지나 은채에게 전화가 왔습니다. 은채는 다짜고짜 준호가 작년에도 그 놀이를 했다고 했어요. 자기 자취방에서, 다른 친구들과요. 그때 눈을 뜬 사람이 준호였답니다. 그 뒤로는 아무도 자기 집에 들이지 않았대요.\n\n저는 그제야 생각났습니다. 이번에 제 원룸에서 모이자고 먼저 말한 사람이 준호였어요. 손님 세기라는 글도, 은채가 아니라 준호가 가져왔고요.",
+      "visual": "통화 화면과 과거 원룸의 색이 다른 짧은 플래시. 준호 얼굴·과거 피해자 정체는 보여주지 않음.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 349.71,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 352.11,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 354.51,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 356.91,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 359.31,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 361.71,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 364.11,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 366.51,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 368.91,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 371.31,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "전화 음질과 회상 공간감을 분리."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 350.06,
+      "speech_end": 373.24,
+      "word_offset": 715,
+      "word_count": 47
+    },
+    {
+      "id": "s21",
+      "type": "story",
+      "start_seconds": 372.89,
+      "end_seconds": 401.27,
+      "duration_seconds": 28.38,
+      "estimated_words": 57,
+      "target_wpm": 130,
+      "purpose": "준호의 사과와 전가",
+      "narration_text": "준호에게 전화를 걸었습니다. 한참 만에 받더니 첫마디가 이거였어요.\n\n“미안.”\n\n준호는 지난 일 년 동안 새벽마다 그 네 번의 소리를 들었다고 했습니다. 누군가 새로 눈을 뜨면 그 사람에게 넘어간다는 것도 알고 있었대요. 제가 겁이 많으니 분명 먼저 뜰 거라고 생각했고요.\n\n“어떻게 하면 없어지는데?”\n\n준호가 잠깐 입을 다물었습니다.\n\n“다른 사람을 부르면 돼. 나처럼.”\n\n전화가 끊겼어요. 다시 걸었지만 받지 않았습니다.",
+      "caption_text": "준호에게 전화를 걸었습니다. 한참 만에 받더니 첫마디가 이거였어요.\n\n“미안.”\n\n준호는 지난 일 년 동안 새벽마다 그 네 번의 소리를 들었다고 했습니다. 누군가 새로 눈을 뜨면 그 사람에게 넘어간다는 것도 알고 있었대요. 제가 겁이 많으니 분명 먼저 뜰 거라고 생각했고요.\n\n“어떻게 하면 없어지는데?”\n\n준호가 잠깐 입을 다물었습니다.\n\n“다른 사람을 부르면 돼. 나처럼.”\n\n전화가 끊겼어요. 다시 걸었지만 받지 않았습니다.",
+      "visual": "전화 수신 파형, 당시 원룸 출입문을 고른 준호의 손, 화면은 화자 손목으로 복귀.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 372.89,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 375.29,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 377.69,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 380.09,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 382.49,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 384.89,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 387.29,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 389.69,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 392.09,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 394.49,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 396.89,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 399.29,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "`다른 사람을 부르면 돼` 전 0.9초 **의도적 적막**, 이야기 반전."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": "0.9초 의도적 적막"
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 373.24,
+      "speech_end": 400.92,
+      "word_offset": 762,
+      "word_count": 57
+    },
+    {
+      "id": "s22",
+      "type": "story",
+      "start_seconds": 401.27,
+      "end_seconds": 415.35,
+      "duration_seconds": 14.08,
+      "estimated_words": 32,
+      "target_wpm": 130,
+      "purpose": "연락처에서 멈춘 손가락",
+      "narration_text": "그날 밤 저는 형광등을 켜고 침대에 앉아 연락처를 내려봤습니다. 혼자 사는 사람. 겁이 많은 사람. 친구 이름 위에서 손가락이 멈췄어요. 준호가 무슨 마음으로 제게 그 글을 보여 줬는지, 그제야 알 것 같았습니다.",
+      "caption_text": "그날 밤 저는 형광등을 켜고 침대에 앉아 연락처를 내려봤습니다. 혼자 사는 사람. 겁이 많은 사람. 친구 이름 위에서 손가락이 멈췄어요. 준호가 무슨 마음으로 제게 그 글을 보여 줬는지, 그제야 알 것 같았습니다.",
+      "visual": "잠든 방의 켜진 형광등, 휴대폰 연락처는 실제 이름 노출 없이 손끝과 스크롤만.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 401.27,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 403.67,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 406.07,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 408.47,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 410.87,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 413.27,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "화자가 배신을 반복할지 갈등하는 장면."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 401.62,
+      "speech_end": 414.88,
+      "word_offset": 819,
+      "word_count": 32
+    },
+    {
+      "id": "s23",
+      "type": "story",
+      "start_seconds": 415.35,
+      "end_seconds": 436.09,
+      "duration_seconds": 20.74,
+      "estimated_words": 45,
+      "target_wpm": 130,
+      "purpose": "카메라 속 천장 손",
+      "narration_text": "문득 방바닥에 놓인 휴대폰 화면이 켜졌습니다. 카메라 앱이 열려 있었어요. 화면이 위를 향한 채 바닥에 놓여 있어서, 전면 카메라에는 천장이 보였습니다. 화면 속 천장 모서리에 검은 손가락 네 개가 걸려 있었어요. 실제 천장을 올려다보니 아무것도 없었습니다. 다시 화면을 보자 그 손이 조금 더 내려와 있었죠.",
+      "caption_text": "문득 방바닥에 놓인 휴대폰 화면이 켜졌습니다. 카메라 앱이 열려 있었어요. 화면이 위를 향한 채 바닥에 놓여 있어서, 전면 카메라에는 천장이 보였습니다. 화면 속 천장 모서리에 검은 손가락 네 개가 걸려 있었어요. 실제 천장을 올려다보니 아무것도 없었습니다. 다시 화면을 보자 그 손이 조금 더 내려와 있었죠.",
+      "visual": "화면 위를 향한 전면 카메라에서만 손가락 네 개가 보임. 실제 천장은 비어 있음. 손은 검은 선이 아닌 일관된 신체·표면으로 설정.",
+      "entity_reveal_stage": "partial",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 415.35,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 417.75,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 420.15,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 422.55,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 424.95,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 427.35,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 429.75,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 432.15,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 434.55,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "화면/실제 천장 구도 일치, 손가락 개수·위치 2차 개별 이미지 검수."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 415.7,
+      "speech_end": 436.06,
+      "word_offset": 851,
+      "word_count": 45
+    },
+    {
+      "id": "s24",
+      "type": "story",
+      "start_seconds": 436.09,
+      "end_seconds": 450.17,
+      "duration_seconds": 14.08,
+      "estimated_words": 30,
+      "target_wpm": 130,
+      "purpose": "화면 속 손, 실제 손목 접촉",
+      "narration_text": "저는 휴대폰을 집어 들었습니다. 화면 속 손이 카메라 쪽으로 뻗어 왔어요. 그 순간 제 진짜 손목에도 손톱이 박혔습니다. 네 줄의 상처가 다시 벌어졌죠. 제가 놓친 휴대폰은 침대 밑으로 미끄러져 들어갔습니다.",
+      "caption_text": "저는 휴대폰을 집어 들었습니다. 화면 속 손이 카메라 쪽으로 뻗어 왔어요. 그 순간 제 진짜 손목에도 손톱이 박혔습니다. 네 줄의 상처가 다시 벌어졌죠. 제가 놓친 휴대폰은 침대 밑으로 미끄러져 들어갔습니다.",
+      "visual": "카메라 손이 렌즈를 향하고 실제 손목에 네 줄이 다시 벌어짐. 휴대폰은 침대 밑으로 미끄러짐.",
+      "entity_reveal_stage": "direct",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 436.09,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 438.49,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 440.89,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 443.29,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 445.69,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 448.09,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "직접 상호작용으로 초자연 존재 확인. 접촉 방향과 폰 이동 동선 검수."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 436.44,
+      "speech_end": 450,
+      "word_offset": 896,
+      "word_count": 30
+    },
+    {
+      "id": "s25",
+      "type": "end_screen",
+      "start_seconds": 450.17,
+      "end_seconds": 473.071,
+      "duration_seconds": 22.90100000000001,
+      "estimated_words": 36,
+      "target_wpm": 130,
+      "purpose": "다섯 번째 도어락 소리, 마지막 질문",
+      "narration_text": "현관에서 소리가 났어요. 삑. 삑. 삑. 삑.\n\n이번에는 다섯 번째 소리도 들렸습니다. 삑.\n\n제가 숨을 멈춘 채 문을 보는데, 오른쪽 귀 바로 옆에서 목소리가 났어요. 그날 원룸에서 들었던, 그 작은 목소리였습니다.\n\n“다음에는, 몇 명 부를 거야?”",
+      "caption_text": "현관에서 소리가 났어요. 삑. 삑. 삑. 삑.\n\n이번에는 다섯 번째 소리도 들렸습니다. 삑.\n\n제가 숨을 멈춘 채 문을 보는데, 오른쪽 귀 바로 옆에서 목소리가 났어요. 그날 원룸에서 들었던, 그 작은 목소리였습니다.\n\n“다음에는, 몇 명 부를 거야?”",
+      "visual": "번호 패드의 네 점멸 뒤 다섯 번째. 마지막에는 빈 어깨 옆 공간만 남김. 엔드스크린 안전 영역 시작.",
+      "entity_reveal_stage": "direct",
+      "motion": "장면 단서에 맞춰 1~3초마다 팬·줌·초점·조명 전환",
+      "motion_beats": [
+        {
+          "time": 450.17,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 452.57,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 454.97,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 457.37,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 459.77,
+          "action": "slow camera push toward the clue",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 462.17,
+          "action": "focus shift across the room geometry",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 464.57,
+          "action": "restrained light or shadow change",
+          "spoken_trigger": "scene progression"
+        },
+        {
+          "time": 466.97,
+          "action": "lateral pan to next object",
+          "spoken_trigger": "scene progression"
+        }
+      ],
+      "audio": {
+        "narration": "approved text",
+        "ambience": "quiet apartment room tone",
+        "foley": [
+          "마지막 질문 뒤 4초 BGM 여운과 3초 페이드, 이후 관련 영상 엔드스크린 안전 영역."
+        ],
+        "bgm": "cand-01 selected after delegated review; -18 dB under voice, 4 s outro at -14 dB",
+        "intentional_silence": null
+      },
+      "transition_out": "motivated cut or sound bridge",
+      "shorts_adaptation": "separately approved teaser; no long-form frames reused",
+      "speech_start": 450.52,
+      "speech_end": 468.9,
+      "word_offset": 926,
+      "word_count": 36,
+      "end_screen_safe_start_seconds": 455.071
+    }
+  ],
+  "status": "timed_to_reviewed_voice_and_selected_bgm",
+  "content_nature": "fiction",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_cinematic",
+  "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+  "estimated_duration_seconds": 444,
+  "timing_source": "mlx-community/whisper-large-v3-turbo word timings on pitch-preserved paced voice; visual lead 0.35s",
+  "duration_seconds": 473.071,
+  "voice_duration_seconds": 469.071063,
+  "voice_processing": "Original Eleven V3 voice preserved. Trim pauses over 0.5 s to retain 0.25 s; pitch-preserved tempo 1.15x through 82.36 s and 1.28x thereafter. Objective ASR, pacing, level and silence review passed; subjective listening unavailable.",
+  "scene_visual_lead_seconds": 0.35,
+  "outro_seconds": 3.9999370000000454,
+  "sound_design": "Generated room ambience and event foley are retained as separate source stems and mixed after applying the selected BGM."
+}

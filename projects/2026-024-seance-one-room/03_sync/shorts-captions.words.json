@@ -1,0 +1,276 @@
+{
+  "duration": 21.28,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.22,
+      "text": "우리 셋이 눈을 감고 숫자를 셌어요. 하나."
+    },
+    {
+      "start": 3.58,
+      "end": 6.92,
+      "text": "둘. 셋. 그런데 제 귀"
+    },
+    {
+      "start": 6.92,
+      "end": 9.52,
+      "text": "바로 옆에서 누가 말했어요. 넷."
+    },
+    {
+      "start": 10.16,
+      "end": 13.42,
+      "text": "눈을 뜨면 따라온다는 말이 생각났지만, 손목을"
+    },
+    {
+      "start": 13.42,
+      "end": 16.3,
+      "text": "잡은 그 차가운 손은 준호의 손이 아니었어요."
+    },
+    {
+      "start": 17.28,
+      "end": 20.56,
+      "text": "그날 밤부터, 우리 집 도어락은 매일 네 번씩"
+    },
+    {
+      "start": 20.56,
+      "end": 21.28,
+      "text": "눌렸습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "우리",
+      "start": 0.0,
+      "end": 0.3,
+      "matched": true
+    },
+    {
+      "text": "셋이",
+      "start": 0.3,
+      "end": 0.62,
+      "matched": true
+    },
+    {
+      "text": "눈을",
+      "start": 0.62,
+      "end": 0.88,
+      "matched": true
+    },
+    {
+      "text": "감고",
+      "start": 0.88,
+      "end": 1.26,
+      "matched": true
+    },
+    {
+      "text": "숫자를",
+      "start": 1.26,
+      "end": 1.72,
+      "matched": true
+    },
+    {
+      "text": "셌어요.",
+      "start": 1.72,
+      "end": 2.32,
+      "matched": true
+    },
+    {
+      "text": "하나.",
+      "start": 3.02,
+      "end": 3.22,
+      "matched": true
+    },
+    {
+      "text": "둘.",
+      "start": 3.58,
+      "end": 4.14,
+      "matched": true
+    },
+    {
+      "text": "셋.",
+      "start": 4.68,
+      "end": 4.88,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 5.36,
+      "end": 6.1,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 6.1,
+      "end": 6.72,
+      "matched": true
+    },
+    {
+      "text": "귀",
+      "start": 6.72,
+      "end": 6.92,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 6.92,
+      "end": 7.2,
+      "matched": true
+    },
+    {
+      "text": "옆에서",
+      "start": 7.2,
+      "end": 7.64,
+      "matched": true
+    },
+    {
+      "text": "누가",
+      "start": 7.64,
+      "end": 7.84,
+      "matched": true
+    },
+    {
+      "text": "말했어요.",
+      "start": 7.84,
+      "end": 8.4,
+      "matched": true
+    },
+    {
+      "text": "넷.",
+      "start": 9.12,
+      "end": 9.52,
+      "matched": true
+    },
+    {
+      "text": "눈을",
+      "start": 10.16,
+      "end": 10.86,
+      "matched": true
+    },
+    {
+      "text": "뜨면",
+      "start": 10.86,
+      "end": 11.08,
+      "matched": true
+    },
+    {
+      "text": "따라온다는",
+      "start": 11.08,
+      "end": 11.58,
+      "matched": true
+    },
+    {
+      "text": "말이",
+      "start": 11.58,
+      "end": 11.86,
+      "matched": true
+    },
+    {
+      "text": "생각났지만,",
+      "start": 11.86,
+      "end": 12.58,
+      "matched": true
+    },
+    {
+      "text": "손목을",
+      "start": 12.58,
+      "end": 13.42,
+      "matched": true
+    },
+    {
+      "text": "잡은",
+      "start": 13.42,
+      "end": 13.7,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 13.7,
+      "end": 13.86,
+      "matched": true
+    },
+    {
+      "text": "차가운",
+      "start": 13.86,
+      "end": 14.4,
+      "matched": true
+    },
+    {
+      "text": "손은",
+      "start": 14.4,
+      "end": 14.84,
+      "matched": true
+    },
+    {
+      "text": "준호의",
+      "start": 14.84,
+      "end": 15.38,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 15.38,
+      "end": 15.64,
+      "matched": true
+    },
+    {
+      "text": "아니었어요.",
+      "start": 15.64,
+      "end": 16.3,
+      "matched": true
+    },
+    {
+      "text": "그날",
+      "start": 17.28,
+      "end": 17.52,
+      "matched": true
+    },
+    {
+      "text": "밤부터,",
+      "start": 17.52,
+      "end": 18.0,
+      "matched": true
+    },
+    {
+      "text": "우리",
+      "start": 18.0,
+      "end": 18.6,
+      "matched": true
+    },
+    {
+      "text": "집",
+      "start": 18.6,
+      "end": 18.74,
+      "matched": true
+    },
+    {
+      "text": "도어락은",
+      "start": 18.74,
+      "end": 19.38,
+      "matched": true
+    },
+    {
+      "text": "매일",
+      "start": 19.38,
+      "end": 19.84,
+      "matched": true
+    },
+    {
+      "text": "네",
+      "start": 19.84,
+      "end": 19.96,
+      "matched": false
+    },
+    {
+      "text": "번씩",
+      "start": 19.84,
+      "end": 20.56,
+      "matched": true
+    },
+    {
+      "text": "눌렸습니다.",
+      "start": 20.56,
+      "end": 21.28,
+      "matched": true
+    }
+  ]
+}

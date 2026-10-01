@@ -1,0 +1,13 @@
+{
+  "status": "ready_for_review",
+  "whisper_backend": "mlx-whisper",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "subtitle_delivery_mode": "burned_short_captions_and_external_srt_vtt",
+  "subtitle_text_source": "01_script/shorts-narration.txt",
+  "spoken_text_source": "01_script/shorts-tts-narration.txt",
+  "matched_character_ratio": 1.0,
+  "caption_surface_match_ratio": 0.9894,
+  "spoken_match_ratio": 1.0,
+  "required_ratio": 0.92,
+  "note": "Independent Eleven V3 Short voice; pitch-preserved 1.07x postprocess and 0.1 s head pad. No long-form audio or image reuse."
+}
