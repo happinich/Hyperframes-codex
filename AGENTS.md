@@ -31,6 +31,9 @@ Before planning or editing a video project, read:
 7. `docs/HORROR_CHANNEL_STRATEGY.ko.md`
 8. The latest relevant project that uses the same production profile
 
+For a new horror story, also read `docs/HORROR_VISUAL_STYLES.ko.md` and
+`config/visual-styles.json`'s `horror_story_selection` before recommending a style.
+
 Treat the JSON configuration as the source of truth for numeric settings. Keep
 the documentation and templates in sync when a shared rule changes.
 
@@ -142,6 +145,17 @@ silently carry a previous project's style or BGM into a new project.
 - Keep the production face-free unless the user explicitly requests otherwise.
 - Use `horror_cinematic_story_v1` as the preferred profile for new projects in
   this channel, but still obtain visual-style approval.
+- For each new horror story, consider the nine catalogued image styles (eight
+  nonphotographic styles plus the existing photographic style). Recommend one
+  primary option and one or two alternatives based on premise, setting, threat,
+  period, decisive clues, and emotional arc. Explain brightness, palette, texture,
+  motion, and mobile clue readability. Consider recent approved styles for
+  variety without imposing a rotation. There is no fixed preferred image style.
+- Record the recommendation, alternatives, selection reason, and the user's
+  story-specific approval or explicit selection delegation in the brief.
+  Approval of the catalog itself is not approval of a style for a new story.
+- Keep the approved visual language consistent across that story's long-form,
+  freshly generated Shorts images, and thumbnails.
 - Preserve `minimal_dark_tech_v1` for future explainer projects.
 - Preserve `classic_rich_motion_v1` for the existing bright/editorial, finance,
   collage, map, table, and hub-diagram grammar.

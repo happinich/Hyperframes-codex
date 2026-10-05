@@ -1,7 +1,36 @@
 {
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "selection_required_before_composition": true,
   "default_style": null,
+  "horror_story_selection": {
+    "catalog_style_ids": [
+      "horror_painterly",
+      "horror_ink_charcoal",
+      "horror_rough_2d",
+      "horror_shadow_theatre",
+      "horror_puppet_stopmotion",
+      "horror_retro_3d",
+      "horror_paper_stage",
+      "horror_pixel",
+      "horror_cinematic"
+    ],
+    "guide": "docs/HORROR_VISUAL_STYLES.ko.md",
+    "fixed_preferred_style_id": null,
+    "recommendation": "새 이야기마다 소재·장소·위협 형태·시대·핵심 단서·감정선을 검토해 우선 추천 1개와 대안 1~2개를 제시한다.",
+    "presentation_fields": [
+      "story_fit",
+      "brightness",
+      "palette",
+      "texture",
+      "motion",
+      "clue_readability",
+      "recent_story_variety"
+    ],
+    "selection": "사용자의 해당 이야기 스타일 선택 또는 명시적인 선택 위임을 적용하고 브리프에 기록한다. 목록 정리 승인을 특정 스타일 승인으로 간주하지 않는다.",
+    "variety": "최근 이야기의 승인 스타일을 확인해 다양성을 고려하되 순서대로 기계적으로 돌리거나 맞지 않는 스타일을 강제하지 않는다.",
+    "consistency": "한 작품의 본편·쇼츠·썸네일은 승인된 시각 언어를 공유한다. 쇼츠 이미지는 별도로 새로 생성한다.",
+    "darkness": "배경 디테일과 채도를 절제하되 모바일에서 결정적 단서는 읽혀야 한다."
+  },
   "styles": {
     "horror_cinematic": {
       "label_ko": "호러 시네마틱",
@@ -92,6 +121,190 @@
       "motion": "색온도 변화, 배경 밝기 전환, 장면별 시각 언어 교체",
       "best_for": ["5분 이상 롱폼", "문제 해결", "성장 서사", "반전 구조"],
       "avoid": "기준 없는 무작위 스타일 혼합. 프로젝트 전체의 폰트와 핵심 강조색은 통일한다."
+    },
+    "horror_painterly": {
+      "label_ko": "어두운 회화풍",
+      "mood": "거친 붓질과 일부 사라지는 윤곽으로 만드는 음침한 공포 삽화",
+      "background": "과슈·유화의 무광 색면과 선택적인 국소 조명",
+      "palette": [
+        "#081215",
+        "#173438",
+        "#45362c",
+        "#b5b0a1",
+        "#81282e"
+      ],
+      "motion": "느린 팬과 접근, 분리한 색면의 시차, 국소 불빛과 그림자 변화",
+      "best_for": [
+        "귀신 괴담",
+        "괴물·미확인 존재",
+        "숲·시골 괴담"
+      ],
+      "avoid": "사진 같은 미세 질감, 번쩍이는 CGI, 붓질로 결정적 접촉이나 단서를 가림",
+      "texture": "거친 과슈·유화",
+      "brightness": "낮음; 결정적 단서에만 국소 조명",
+      "image_prompt_cues": "nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting",
+      "preview_path": "experiments/2026-10-05-horror-illustration-style/style-comparison.png"
+    },
+    "horror_ink_charcoal": {
+      "label_ko": "먹·목탄풍",
+      "mood": "번지는 검은 면과 지워진 자국으로 표현하는 악몽 같은 공포",
+      "background": "회색 종이 위 먹과 목탄, 흑백 명암과 최소한의 포인트 색",
+      "palette": [
+        "#090909",
+        "#292b2c",
+        "#6d706f",
+        "#c2c0b7",
+        "#753038"
+      ],
+      "motion": "먹 번짐, 지운 자국의 변화, 그림자 확장과 느린 접근",
+      "best_for": [
+        "원혼·귀신",
+        "악몽",
+        "심리·미스터리 공포"
+      ],
+      "avoid": "검은 덩어리로 단서를 가림, 색 구분이 핵심인 장면을 무리하게 흑백화",
+      "texture": "번지는 먹·문지른 목탄",
+      "brightness": "낮음; 밝은 종이 면으로 윤곽 확보",
+      "image_prompt_cues": "nonphotographic ink and charcoal horror drawing, smudged charcoal, irregular black masses, visible paper grain",
+      "preview_path": "experiments/2026-10-05-horror-illustration-style/style-comparison.png"
+    },
+    "horror_rough_2d": {
+      "label_ko": "거친 2D 애니메이션풍",
+      "mood": "손으로 칠한 배경과 단순한 명암으로 유지하는 몰입형 공포",
+      "background": "불규칙한 외곽선과 평면 명암 블록의 어두운 수작업 배경",
+      "palette": [
+        "#08121a",
+        "#20353c",
+        "#555146",
+        "#c3baa6",
+        "#922f3b"
+      ],
+      "motion": "배경층 시차, 그림자와 불빛 변화, 절제한 카메라 이동",
+      "best_for": [
+        "도시괴담",
+        "야간 직업괴담",
+        "장소 이동이 많은 이야기"
+      ],
+      "avoid": "매끈한 웹툰, 귀여운 캐릭터, 유광 3D 질감",
+      "texture": "손으로 칠한 배경과 거친 외곽선",
+      "brightness": "낮음; 큰 명암 블록으로 구조 구분",
+      "image_prompt_cues": "rough hand-painted 2D horror animation background, uneven outlines, simplified shadow blocks, matte painted texture",
+      "preview_path": "experiments/2026-10-05-horror-illustration-style/style-comparison.png"
+    },
+    "horror_shadow_theatre": {
+      "label_ko": "그림자극",
+      "mood": "사람 없는 곳의 실루엣과 역광으로 표현하는 불길한 공포",
+      "background": "검은 평면 실루엣과 탁한 호박색 배경, 읽히는 문틈과 그림자",
+      "palette": [
+        "#030303",
+        "#17120e",
+        "#554024",
+        "#9f783f",
+        "#c3a26c"
+      ],
+      "motion": "실루엣 이동과 비정상적인 늘어남, 역광 점멸, 최소한의 층간 시차",
+      "best_for": [
+        "그림자 귀신",
+        "문틈·실루엣 괴담",
+        "민담"
+      ],
+      "avoid": "표면이 사실적인 복도, 그림자만으로 물체 접촉을 모호하게 표현",
+      "texture": "평면 검은 종이 실루엣",
+      "brightness": "어두운 전경과 제한된 역광",
+      "image_prompt_cues": "flat cut black silhouette shadow theatre, amber paper backlight, bold planar shapes, no realistic materials",
+      "preview_path": "experiments/2026-10-05-horror-style-gallery/01-shadow-theatre.png"
+    },
+    "horror_puppet_stopmotion": {
+      "label_ko": "인형극·스톱모션풍",
+      "mood": "낡은 작은 모형과 촉각적인 재질에서 오는 기묘한 공포",
+      "background": "천·나무·점토로 만든 듯한 미니어처 공간과 어두운 국소 조명",
+      "palette": [
+        "#100e0b",
+        "#363424",
+        "#5d4f39",
+        "#9b8c69",
+        "#6d2929"
+      ],
+      "motion": "작은 세트의 느린 접근, 그림자 변화, 장면에 필요한 제한적 포즈 전환",
+      "best_for": [
+        "인형·장난감 괴담",
+        "어린 시절 기억",
+        "기묘한 집·공간"
+      ],
+      "avoid": "귀여운 장난감 광고, 실사 공간으로 회귀, 재질 표현을 신체 결함과 혼동",
+      "texture": "낡은 천·거친 나무·손자국 있는 점토",
+      "brightness": "낮음; 모형의 결정적 형태에는 작은 조명",
+      "image_prompt_cues": "handcrafted horror miniature set, worn cloth, rough wood, fingerprinted clay, stop-motion puppet aesthetic",
+      "preview_path": "experiments/2026-10-05-horror-style-gallery/02-puppet-stopmotion.png"
+    },
+    "horror_retro_3d": {
+      "label_ko": "초기 3D 공포게임풍",
+      "mood": "각진 공간과 거친 그래픽으로 표현하는 낯선 야간 공포",
+      "background": "낮은 폴리곤 공간, 거친 저해상도 텍스처, 국소 광원과 짙은 안개",
+      "palette": [
+        "#090d0b",
+        "#283027",
+        "#4b4736",
+        "#86774e",
+        "#6d2d2c"
+      ],
+      "motion": "각진 공간의 절제된 카메라 이동, 조명 변화와 거리별 안개",
+      "best_for": [
+        "규칙괴담",
+        "엘리베이터·미로",
+        "현대 기기·게임 괴담"
+      ],
+      "avoid": "매끈한 최신 게임 CGI, 실제 사진 재질, 움직임 중 공간 배치가 바뀜",
+      "texture": "거친 저해상도 텍스처·단순 폴리곤",
+      "brightness": "낮음; 길과 문틈은 구별 가능",
+      "image_prompt_cues": "early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette",
+      "preview_path": "experiments/2026-10-05-horror-style-gallery/03-retro-3d-game.png"
+    },
+    "horror_paper_stage": {
+      "label_ko": "종이 무대·컷아웃풍",
+      "mood": "접힌 종이와 겹쳐진 무대에서 느껴지는 어두운 동화 같은 공포",
+      "background": "두꺼운 종이층, 접힌 문틀, 보이는 절단면과 깊은 무대 그림자",
+      "palette": [
+        "#0d181b",
+        "#30474c",
+        "#6c7167",
+        "#b9b3a1",
+        "#642d35"
+      ],
+      "motion": "종이층 사이의 시차, 컷아웃 그림자 이동, 무대 조명 변화",
+      "best_for": [
+        "어두운 동화·민담",
+        "의식·금기 괴담",
+        "기묘한 공간"
+      ],
+      "avoid": "밝은 해설용 종이 콜라주, 사진에 종이 질감만 입힘, 층 구조가 일관되지 않음",
+      "texture": "겹친 카드지·접힘·절단면",
+      "brightness": "낮음~중간; 종이층의 윤곽을 읽을 작은 조명",
+      "image_prompt_cues": "layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting",
+      "preview_path": "experiments/2026-10-05-horror-style-gallery/04-paper-stage.png"
+    },
+    "horror_pixel": {
+      "label_ko": "픽셀아트 공포풍",
+      "mood": "거친 픽셀과 빈 부분을 통해 상상하게 하는 공포",
+      "background": "큰 픽셀, 계단 모양 윤곽, 제한된 어두운 색감과 국소 단서",
+      "palette": [
+        "#070d13",
+        "#14212c",
+        "#304353",
+        "#697269",
+        "#ad884c"
+      ],
+      "motion": "픽셀 정렬 이동, 단계적인 빛 변화와 작은 환경 애니메이션",
+      "best_for": [
+        "현대 기기·게임 괴담",
+        "고립된 야간 공간",
+        "규칙괴담"
+      ],
+      "avoid": "지나친 흐림과 보간, 작은 문자·단서가 픽셀에 묻힘, 매끈한 3D 질감",
+      "texture": "거친 픽셀·디더링·계단 윤곽",
+      "brightness": "낮음; 단서는 높은 명암 대비",
+      "image_prompt_cues": "coarse horror pixel art, stepped pixel edges, restrained palette, visible square pixels, dark atmosphere",
+      "preview_path": "experiments/2026-10-05-horror-style-gallery/05-pixel-horror.png"
     }
   }
 }
