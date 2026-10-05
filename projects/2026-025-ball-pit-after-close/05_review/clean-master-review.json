@@ -1,0 +1,17 @@
+{
+  "status": "passed_visual_and_objective_checks",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "duration": "468.783333",
+  "audio_duration": "468.774000",
+  "video_duration": "468.783333",
+  "peak_db": -3.4,
+  "freeze_over_3": false,
+  "black_over_1": false,
+  "subjective_audio": "not_listened; unavailable",
+  "sha256": "48972086a99c67ee2b380fab1dca1a0478f6a421290fcd74c132b3534f8b5f5f",
+  "final_revision": "phone placement cut corrected to 330.39s; final exported frames at 326.45/331.45s inspected; delivery verification rerun"
+}

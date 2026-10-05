@@ -1,0 +1,990 @@
+{
+  "duration": 468.774,
+  "voice_duration": 464.7745,
+  "shots": [
+    {
+      "id": "s01-0",
+      "scene": "s01",
+      "visual": "shot-01",
+      "crop": 0,
+      "start": 0,
+      "end": 3.1750000000000003
+    },
+    {
+      "id": "s01-1",
+      "scene": "s01",
+      "visual": "shot-01",
+      "crop": 1,
+      "start": 3.1750000000000003,
+      "end": 6.3500000000000005
+    },
+    {
+      "id": "s02-0",
+      "scene": "s02",
+      "visual": "shot-02",
+      "crop": 0,
+      "start": 6.3500000000000005,
+      "end": 9.75
+    },
+    {
+      "id": "s02-1",
+      "scene": "s02",
+      "visual": "shot-02",
+      "crop": 1,
+      "start": 9.75,
+      "end": 13.149999999999999
+    },
+    {
+      "id": "s02-2",
+      "scene": "s02",
+      "visual": "shot-03",
+      "crop": 2,
+      "start": 13.149999999999999,
+      "end": 16.55
+    },
+    {
+      "id": "s02-3",
+      "scene": "s02",
+      "visual": "shot-04",
+      "crop": 0,
+      "start": 16.55,
+      "end": 19.95
+    },
+    {
+      "id": "s03-0",
+      "scene": "s03",
+      "visual": "shot-03",
+      "crop": 0,
+      "start": 19.95,
+      "end": 23.48
+    },
+    {
+      "id": "s03-1",
+      "scene": "s03",
+      "visual": "shot-03",
+      "crop": 1,
+      "start": 23.48,
+      "end": 27.009999999999998
+    },
+    {
+      "id": "s03-2",
+      "scene": "s03",
+      "visual": "shot-03",
+      "crop": 2,
+      "start": 27.009999999999998,
+      "end": 30.54
+    },
+    {
+      "id": "s03-3",
+      "scene": "s03",
+      "visual": "shot-03",
+      "crop": 0,
+      "start": 30.54,
+      "end": 34.07
+    },
+    {
+      "id": "s04-0",
+      "scene": "s04",
+      "visual": "shot-04",
+      "crop": 0,
+      "start": 34.07,
+      "end": 37.625
+    },
+    {
+      "id": "s04-1",
+      "scene": "s04",
+      "visual": "shot-04",
+      "crop": 1,
+      "start": 37.625,
+      "end": 41.18
+    },
+    {
+      "id": "s04-2",
+      "scene": "s04",
+      "visual": "shot-04",
+      "crop": 2,
+      "start": 41.18,
+      "end": 44.735
+    },
+    {
+      "id": "s04-3",
+      "scene": "s04",
+      "visual": "shot-04",
+      "crop": 0,
+      "start": 44.735,
+      "end": 48.29
+    },
+    {
+      "id": "s05-0",
+      "scene": "s05",
+      "visual": "shot-05",
+      "crop": 0,
+      "start": 48.29,
+      "end": 51.775
+    },
+    {
+      "id": "s05-1",
+      "scene": "s05",
+      "visual": "shot-05",
+      "crop": 1,
+      "start": 51.775,
+      "end": 55.26
+    },
+    {
+      "id": "s05-2",
+      "scene": "s05",
+      "visual": "shot-05",
+      "crop": 2,
+      "start": 55.26,
+      "end": 58.745
+    },
+    {
+      "id": "s05-3",
+      "scene": "s05",
+      "visual": "shot-05",
+      "crop": 0,
+      "start": 58.745,
+      "end": 62.23
+    },
+    {
+      "id": "s06-0",
+      "scene": "s06",
+      "visual": "shot-06",
+      "crop": 0,
+      "start": 62.23,
+      "end": 66.46
+    },
+    {
+      "id": "s06-1",
+      "scene": "s06",
+      "visual": "shot-06",
+      "crop": 1,
+      "start": 66.46,
+      "end": 70.69
+    },
+    {
+      "id": "s06-2",
+      "scene": "s06",
+      "visual": "shot-05",
+      "crop": 2,
+      "start": 70.69,
+      "end": 74.92
+    },
+    {
+      "id": "s06-3",
+      "scene": "s06",
+      "visual": "shot-05",
+      "crop": 0,
+      "start": 74.92,
+      "end": 79.15
+    },
+    {
+      "id": "s07-0",
+      "scene": "s07",
+      "visual": "shot-07",
+      "crop": 0,
+      "start": 79.15,
+      "end": 82.65
+    },
+    {
+      "id": "s07-1",
+      "scene": "s07",
+      "visual": "shot-07",
+      "crop": 1,
+      "start": 82.65,
+      "end": 86.15
+    },
+    {
+      "id": "s07-2",
+      "scene": "s07",
+      "visual": "shot-07",
+      "crop": 2,
+      "start": 86.15,
+      "end": 89.65
+    },
+    {
+      "id": "s07-3",
+      "scene": "s07",
+      "visual": "shot-07",
+      "crop": 0,
+      "start": 89.65,
+      "end": 93.15
+    },
+    {
+      "id": "s08-0",
+      "scene": "s08",
+      "visual": "shot-08",
+      "crop": 0,
+      "start": 93.15,
+      "end": 97.055
+    },
+    {
+      "id": "s08-1",
+      "scene": "s08",
+      "visual": "shot-08",
+      "crop": 1,
+      "start": 97.055,
+      "end": 100.96000000000001
+    },
+    {
+      "id": "s08-2",
+      "scene": "s08",
+      "visual": "shot-08",
+      "crop": 2,
+      "start": 100.96000000000001,
+      "end": 104.86500000000001
+    },
+    {
+      "id": "s08-3",
+      "scene": "s08",
+      "visual": "shot-08",
+      "crop": 0,
+      "start": 104.86500000000001,
+      "end": 108.77000000000001
+    },
+    {
+      "id": "s09-0",
+      "scene": "s09",
+      "visual": "shot-09",
+      "crop": 0,
+      "start": 108.77000000000001,
+      "end": 112.155
+    },
+    {
+      "id": "s09-1",
+      "scene": "s09",
+      "visual": "shot-09",
+      "crop": 1,
+      "start": 112.155,
+      "end": 115.54
+    },
+    {
+      "id": "s09-2",
+      "scene": "s09",
+      "visual": "shot-09",
+      "crop": 2,
+      "start": 115.54,
+      "end": 118.92500000000001
+    },
+    {
+      "id": "s09-3",
+      "scene": "s09",
+      "visual": "shot-09",
+      "crop": 0,
+      "start": 118.92500000000001,
+      "end": 122.31
+    },
+    {
+      "id": "s10-0",
+      "scene": "s10",
+      "visual": "shot-10",
+      "crop": 0,
+      "start": 122.31,
+      "end": 125.76
+    },
+    {
+      "id": "s10-1",
+      "scene": "s10",
+      "visual": "shot-10",
+      "crop": 1,
+      "start": 125.76,
+      "end": 129.21
+    },
+    {
+      "id": "s10-2",
+      "scene": "s10",
+      "visual": "shot-10",
+      "crop": 2,
+      "start": 129.21,
+      "end": 132.66000000000003
+    },
+    {
+      "id": "s10-3",
+      "scene": "s10",
+      "visual": "shot-10",
+      "crop": 0,
+      "start": 132.66000000000003,
+      "end": 136.11
+    },
+    {
+      "id": "s11-0",
+      "scene": "s11",
+      "visual": "shot-11",
+      "crop": 0,
+      "start": 136.11,
+      "end": 139.88500000000002
+    },
+    {
+      "id": "s11-1",
+      "scene": "s11",
+      "visual": "shot-11",
+      "crop": 1,
+      "start": 139.88500000000002,
+      "end": 143.66000000000003
+    },
+    {
+      "id": "s11-2",
+      "scene": "s11",
+      "visual": "shot-11",
+      "crop": 2,
+      "start": 143.66000000000003,
+      "end": 147.435
+    },
+    {
+      "id": "s11-3",
+      "scene": "s11",
+      "visual": "shot-11",
+      "crop": 0,
+      "start": 147.435,
+      "end": 151.21
+    },
+    {
+      "id": "s12-0",
+      "scene": "s12",
+      "visual": "shot-12",
+      "crop": 0,
+      "start": 151.21,
+      "end": 155.255
+    },
+    {
+      "id": "s12-1",
+      "scene": "s12",
+      "visual": "shot-12",
+      "crop": 1,
+      "start": 155.255,
+      "end": 159.3
+    },
+    {
+      "id": "s12-2",
+      "scene": "s12",
+      "visual": "shot-12",
+      "crop": 2,
+      "start": 159.3,
+      "end": 163.34500000000003
+    },
+    {
+      "id": "s12-3",
+      "scene": "s12",
+      "visual": "shot-12",
+      "crop": 0,
+      "start": 163.34500000000003,
+      "end": 167.39000000000001
+    },
+    {
+      "id": "s13-0",
+      "scene": "s13",
+      "visual": "shot-13",
+      "crop": 0,
+      "start": 167.39000000000001,
+      "end": 171.43
+    },
+    {
+      "id": "s13-1",
+      "scene": "s13",
+      "visual": "shot-13",
+      "crop": 1,
+      "start": 171.43,
+      "end": 175.47000000000003
+    },
+    {
+      "id": "s13-2",
+      "scene": "s13",
+      "visual": "shot-07",
+      "crop": 2,
+      "start": 175.47000000000003,
+      "end": 179.51000000000002
+    },
+    {
+      "id": "s13-3",
+      "scene": "s13",
+      "visual": "shot-07",
+      "crop": 0,
+      "start": 179.51000000000002,
+      "end": 183.55
+    },
+    {
+      "id": "s14-0",
+      "scene": "s14",
+      "visual": "shot-14",
+      "crop": 0,
+      "start": 183.55,
+      "end": 187.155
+    },
+    {
+      "id": "s14-1",
+      "scene": "s14",
+      "visual": "shot-14",
+      "crop": 1,
+      "start": 187.155,
+      "end": 190.76
+    },
+    {
+      "id": "s14-2",
+      "scene": "s14",
+      "visual": "shot-14",
+      "crop": 2,
+      "start": 190.76,
+      "end": 194.365
+    },
+    {
+      "id": "s14-3",
+      "scene": "s14",
+      "visual": "shot-14",
+      "crop": 0,
+      "start": 194.365,
+      "end": 197.97
+    },
+    {
+      "id": "s15-0",
+      "scene": "s15",
+      "visual": "shot-15",
+      "crop": 0,
+      "start": 197.97,
+      "end": 202.12
+    },
+    {
+      "id": "s15-1",
+      "scene": "s15",
+      "visual": "shot-15",
+      "crop": 1,
+      "start": 202.12,
+      "end": 206.26999999999998
+    },
+    {
+      "id": "s15-2",
+      "scene": "s15",
+      "visual": "shot-15",
+      "crop": 2,
+      "start": 206.26999999999998,
+      "end": 210.42
+    },
+    {
+      "id": "s15-3",
+      "scene": "s15",
+      "visual": "shot-15",
+      "crop": 0,
+      "start": 210.42,
+      "end": 214.57
+    },
+    {
+      "id": "s16-0",
+      "scene": "s16",
+      "visual": "shot-16",
+      "crop": 0,
+      "start": 214.57,
+      "end": 218.01999999999998
+    },
+    {
+      "id": "s16-1",
+      "scene": "s16",
+      "visual": "shot-16",
+      "crop": 1,
+      "start": 218.01999999999998,
+      "end": 221.47
+    },
+    {
+      "id": "s16-2",
+      "scene": "s16",
+      "visual": "shot-16",
+      "crop": 2,
+      "start": 221.47,
+      "end": 224.92000000000002
+    },
+    {
+      "id": "s16-3",
+      "scene": "s16",
+      "visual": "shot-16",
+      "crop": 0,
+      "start": 224.92000000000002,
+      "end": 228.37
+    },
+    {
+      "id": "s17-0",
+      "scene": "s17",
+      "visual": "shot-17",
+      "crop": 0,
+      "start": 228.37,
+      "end": 232.335
+    },
+    {
+      "id": "s17-1",
+      "scene": "s17",
+      "visual": "shot-17",
+      "crop": 1,
+      "start": 232.335,
+      "end": 236.3
+    },
+    {
+      "id": "s17-2",
+      "scene": "s17",
+      "visual": "shot-17",
+      "crop": 2,
+      "start": 236.3,
+      "end": 240.26500000000001
+    },
+    {
+      "id": "s17-3",
+      "scene": "s17",
+      "visual": "shot-17",
+      "crop": 0,
+      "start": 240.26500000000001,
+      "end": 244.23000000000002
+    },
+    {
+      "id": "s18-0",
+      "scene": "s18",
+      "visual": "shot-18",
+      "crop": 0,
+      "start": 244.23000000000002,
+      "end": 247.925
+    },
+    {
+      "id": "s18-1",
+      "scene": "s18",
+      "visual": "shot-18",
+      "crop": 1,
+      "start": 247.925,
+      "end": 251.62
+    },
+    {
+      "id": "s18-2",
+      "scene": "s18",
+      "visual": "shot-18",
+      "crop": 2,
+      "start": 251.62,
+      "end": 255.315
+    },
+    {
+      "id": "s18-3",
+      "scene": "s18",
+      "visual": "shot-18",
+      "crop": 0,
+      "start": 255.315,
+      "end": 259.01
+    },
+    {
+      "id": "s19-0",
+      "scene": "s19",
+      "visual": "shot-19",
+      "crop": 0,
+      "start": 259.01,
+      "end": 262.46
+    },
+    {
+      "id": "s19-1",
+      "scene": "s19",
+      "visual": "shot-19",
+      "crop": 1,
+      "start": 262.46,
+      "end": 265.90999999999997
+    },
+    {
+      "id": "s19-2",
+      "scene": "s19",
+      "visual": "shot-19",
+      "crop": 2,
+      "start": 265.90999999999997,
+      "end": 269.36
+    },
+    {
+      "id": "s19-3",
+      "scene": "s19",
+      "visual": "shot-19",
+      "crop": 0,
+      "start": 269.36,
+      "end": 272.81
+    },
+    {
+      "id": "s20-0",
+      "scene": "s20",
+      "visual": "shot-20",
+      "crop": 0,
+      "start": 272.81,
+      "end": 276.83
+    },
+    {
+      "id": "s20-1",
+      "scene": "s20",
+      "visual": "shot-20",
+      "crop": 1,
+      "start": 276.83,
+      "end": 280.85
+    },
+    {
+      "id": "s20-2",
+      "scene": "s20",
+      "visual": "shot-20",
+      "crop": 2,
+      "start": 280.85,
+      "end": 284.87
+    },
+    {
+      "id": "s20-3",
+      "scene": "s20",
+      "visual": "shot-20",
+      "crop": 0,
+      "start": 284.87,
+      "end": 288.89
+    },
+    {
+      "id": "s21-0",
+      "scene": "s21",
+      "visual": "shot-21",
+      "crop": 0,
+      "start": 288.89,
+      "end": 292.445
+    },
+    {
+      "id": "s21-1",
+      "scene": "s21",
+      "visual": "shot-21",
+      "crop": 1,
+      "start": 292.445,
+      "end": 296
+    },
+    {
+      "id": "s21-2",
+      "scene": "s21",
+      "visual": "shot-21",
+      "crop": 2,
+      "start": 296,
+      "end": 299.55499999999995
+    },
+    {
+      "id": "s21-3",
+      "scene": "s21",
+      "visual": "shot-21",
+      "crop": 0,
+      "start": 299.55499999999995,
+      "end": 303.10999999999996
+    },
+    {
+      "id": "s22-0",
+      "scene": "s22",
+      "visual": "shot-22",
+      "crop": 0,
+      "start": 303.10999999999996,
+      "end": 306.94499999999994
+    },
+    {
+      "id": "s22-1",
+      "scene": "s22",
+      "visual": "shot-22",
+      "crop": 1,
+      "start": 306.94499999999994,
+      "end": 310.78
+    },
+    {
+      "id": "s22-2",
+      "scene": "s22",
+      "visual": "shot-22",
+      "crop": 2,
+      "start": 310.78,
+      "end": 314.615
+    },
+    {
+      "id": "s22-3",
+      "scene": "s22",
+      "visual": "shot-22",
+      "crop": 0,
+      "start": 314.615,
+      "end": 318.45
+    },
+    {
+      "id": "s23-0",
+      "scene": "s23",
+      "visual": "shot-22",
+      "crop": 0,
+      "start": 318.45,
+      "end": 322.43
+    },
+    {
+      "id": "s23-1",
+      "scene": "s23",
+      "visual": "shot-22",
+      "crop": 1,
+      "start": 322.43,
+      "end": 326.40999999999997
+    },
+    {
+      "id": "s23-2",
+      "scene": "s23",
+      "visual": "shot-22",
+      "crop": 2,
+      "start": 326.40999999999997,
+      "end": 330.39
+    },
+    {
+      "id": "s23-3",
+      "scene": "s23",
+      "visual": "shot-23",
+      "crop": 0,
+      "start": 330.39,
+      "end": 334.66999999999996
+    },
+    {
+      "id": "s24-0",
+      "scene": "s24",
+      "visual": "shot-24",
+      "crop": 0,
+      "start": 334.66999999999996,
+      "end": 338.54499999999996
+    },
+    {
+      "id": "s24-1",
+      "scene": "s24",
+      "visual": "shot-24",
+      "crop": 1,
+      "start": 338.54499999999996,
+      "end": 342.41999999999996
+    },
+    {
+      "id": "s24-2",
+      "scene": "s24",
+      "visual": "shot-24",
+      "crop": 2,
+      "start": 342.41999999999996,
+      "end": 346.29499999999996
+    },
+    {
+      "id": "s24-3",
+      "scene": "s24",
+      "visual": "shot-24",
+      "crop": 0,
+      "start": 346.29499999999996,
+      "end": 350.16999999999996
+    },
+    {
+      "id": "s25-0",
+      "scene": "s25",
+      "visual": "shot-25",
+      "crop": 0,
+      "start": 350.16999999999996,
+      "end": 354.42999999999995
+    },
+    {
+      "id": "s25-1",
+      "scene": "s25",
+      "visual": "shot-25",
+      "crop": 1,
+      "start": 354.42999999999995,
+      "end": 358.68999999999994
+    },
+    {
+      "id": "s25-2",
+      "scene": "s25",
+      "visual": "shot-25",
+      "crop": 2,
+      "start": 358.68999999999994,
+      "end": 362.95
+    },
+    {
+      "id": "s25-3",
+      "scene": "s25",
+      "visual": "shot-25",
+      "crop": 0,
+      "start": 362.95,
+      "end": 367.21
+    },
+    {
+      "id": "s26-0",
+      "scene": "s26",
+      "visual": "shot-26",
+      "crop": 0,
+      "start": 367.21,
+      "end": 370.955
+    },
+    {
+      "id": "s26-1",
+      "scene": "s26",
+      "visual": "shot-26",
+      "crop": 1,
+      "start": 370.955,
+      "end": 374.7
+    },
+    {
+      "id": "s26-2",
+      "scene": "s26",
+      "visual": "shot-26",
+      "crop": 2,
+      "start": 374.7,
+      "end": 378.445
+    },
+    {
+      "id": "s26-3",
+      "scene": "s26",
+      "visual": "shot-26",
+      "crop": 0,
+      "start": 378.445,
+      "end": 382.19
+    },
+    {
+      "id": "s27-0",
+      "scene": "s27",
+      "visual": "shot-27",
+      "crop": 0,
+      "start": 382.19,
+      "end": 386.58
+    },
+    {
+      "id": "s27-1",
+      "scene": "s27",
+      "visual": "shot-27",
+      "crop": 1,
+      "start": 386.58,
+      "end": 390.97
+    },
+    {
+      "id": "s27-2",
+      "scene": "s27",
+      "visual": "shot-27",
+      "crop": 2,
+      "start": 390.97,
+      "end": 395.36
+    },
+    {
+      "id": "s27-3",
+      "scene": "s27",
+      "visual": "shot-27",
+      "crop": 0,
+      "start": 395.36,
+      "end": 399.75
+    },
+    {
+      "id": "s28-0",
+      "scene": "s28",
+      "visual": "shot-28",
+      "crop": 0,
+      "start": 399.75,
+      "end": 404.2
+    },
+    {
+      "id": "s28-1",
+      "scene": "s28",
+      "visual": "shot-28",
+      "crop": 1,
+      "start": 404.2,
+      "end": 408.65
+    },
+    {
+      "id": "s28-2",
+      "scene": "s28",
+      "visual": "shot-28",
+      "crop": 2,
+      "start": 408.65,
+      "end": 413.09999999999997
+    },
+    {
+      "id": "s28-3",
+      "scene": "s28",
+      "visual": "shot-28",
+      "crop": 0,
+      "start": 413.09999999999997,
+      "end": 417.54999999999995
+    },
+    {
+      "id": "s29-0",
+      "scene": "s29",
+      "visual": "shot-29",
+      "crop": 0,
+      "start": 417.54999999999995,
+      "end": 421.38
+    },
+    {
+      "id": "s29-1",
+      "scene": "s29",
+      "visual": "shot-29",
+      "crop": 1,
+      "start": 421.38,
+      "end": 425.21
+    },
+    {
+      "id": "s29-2",
+      "scene": "s29",
+      "visual": "shot-29",
+      "crop": 2,
+      "start": 425.21,
+      "end": 429.03999999999996
+    },
+    {
+      "id": "s29-3",
+      "scene": "s29",
+      "visual": "shot-29",
+      "crop": 0,
+      "start": 429.03999999999996,
+      "end": 432.87
+    },
+    {
+      "id": "s30-0",
+      "scene": "s30",
+      "visual": "shot-30",
+      "crop": 0,
+      "start": 432.87,
+      "end": 436.8
+    },
+    {
+      "id": "s30-1",
+      "scene": "s30",
+      "visual": "shot-30",
+      "crop": 1,
+      "start": 436.8,
+      "end": 440.73
+    },
+    {
+      "id": "s30-2",
+      "scene": "s30",
+      "visual": "shot-30",
+      "crop": 2,
+      "start": 440.73,
+      "end": 444.65999999999997
+    },
+    {
+      "id": "s30-3",
+      "scene": "s30",
+      "visual": "shot-30",
+      "crop": 0,
+      "start": 444.65999999999997,
+      "end": 448.59
+    },
+    {
+      "id": "s31-0",
+      "scene": "s31",
+      "visual": "shot-31",
+      "crop": 0,
+      "start": 448.59,
+      "end": 452.6268
+    },
+    {
+      "id": "s31-1",
+      "scene": "s31",
+      "visual": "shot-31",
+      "crop": 1,
+      "start": 452.6268,
+      "end": 456.6636
+    },
+    {
+      "id": "s31-2",
+      "scene": "s31",
+      "visual": "shot-31",
+      "crop": 2,
+      "start": 456.6636,
+      "end": 460.7004
+    },
+    {
+      "id": "s31-3",
+      "scene": "s31",
+      "visual": "shot-31",
+      "crop": 0,
+      "start": 460.7004,
+      "end": 464.7372
+    },
+    {
+      "id": "s31-4",
+      "scene": "s31",
+      "visual": "shot-31",
+      "crop": 1,
+      "start": 464.7372,
+      "end": 468.774
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "local_deliverables_complete_visual_and_objective_review_passed",
+  "public_upload_performed": false,
+  "subjective_audio_listening": "unavailable_not_performed",
+  "main_duration_seconds": 468.783333,
+  "shorts_duration_seconds": 22.3,
+  "image_assets_twice_reviewed": 37,
+  "final_phone_placement_transition_seconds": 330.39,
+  "final_delivery_sha256": {
+    "youtube": "48972086a99c67ee2b380fab1dca1a0478f6a421290fcd74c132b3534f8b5f5f",
+    "shorts": "a0ab0048278f856c0c7b7a92900e512f26a4b0ee2537365f648c1e2c6107d5b1"
+  }
+}

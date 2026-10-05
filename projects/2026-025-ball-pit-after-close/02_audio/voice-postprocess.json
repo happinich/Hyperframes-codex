@@ -1,0 +1,12 @@
+{
+  "main": {
+    "multiplier": 1.1,
+    "method": "ffmpeg atempo pitch preserving",
+    "original": "working/voice-v4-original.wav"
+  },
+  "shorts": {
+    "multiplier": 1.07,
+    "method": "ffmpeg atempo then loudness normalization",
+    "original": "working/shorts-v4-original.mp3"
+  }
+}

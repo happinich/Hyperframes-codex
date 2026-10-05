@@ -1,0 +1,188 @@
+[
+  {
+    "filename": "segments/part-01.html",
+    "startFrame": 0,
+    "endFrame": 381,
+    "duration": 6.35
+  },
+  {
+    "filename": "segments/part-02.html",
+    "startFrame": 381,
+    "endFrame": 1197,
+    "duration": 13.6
+  },
+  {
+    "filename": "segments/part-03.html",
+    "startFrame": 1197,
+    "endFrame": 2044,
+    "duration": 14.116666666666667
+  },
+  {
+    "filename": "segments/part-04.html",
+    "startFrame": 2044,
+    "endFrame": 2897,
+    "duration": 14.216666666666667
+  },
+  {
+    "filename": "segments/part-05.html",
+    "startFrame": 2897,
+    "endFrame": 3734,
+    "duration": 13.95
+  },
+  {
+    "filename": "segments/part-06.html",
+    "startFrame": 3734,
+    "endFrame": 4749,
+    "duration": 16.916666666666668
+  },
+  {
+    "filename": "segments/part-07.html",
+    "startFrame": 4749,
+    "endFrame": 5589,
+    "duration": 14
+  },
+  {
+    "filename": "segments/part-08.html",
+    "startFrame": 5589,
+    "endFrame": 6526,
+    "duration": 15.616666666666667
+  },
+  {
+    "filename": "segments/part-09.html",
+    "startFrame": 6526,
+    "endFrame": 7339,
+    "duration": 13.55
+  },
+  {
+    "filename": "segments/part-10.html",
+    "startFrame": 7339,
+    "endFrame": 8167,
+    "duration": 13.8
+  },
+  {
+    "filename": "segments/part-11.html",
+    "startFrame": 8167,
+    "endFrame": 9073,
+    "duration": 15.1
+  },
+  {
+    "filename": "segments/part-12.html",
+    "startFrame": 9073,
+    "endFrame": 10043,
+    "duration": 16.166666666666668
+  },
+  {
+    "filename": "segments/part-13.html",
+    "startFrame": 10043,
+    "endFrame": 11013,
+    "duration": 16.166666666666668
+  },
+  {
+    "filename": "segments/part-14.html",
+    "startFrame": 11013,
+    "endFrame": 11878,
+    "duration": 14.416666666666666
+  },
+  {
+    "filename": "segments/part-15.html",
+    "startFrame": 11878,
+    "endFrame": 12874,
+    "duration": 16.6
+  },
+  {
+    "filename": "segments/part-16.html",
+    "startFrame": 12874,
+    "endFrame": 13702,
+    "duration": 13.8
+  },
+  {
+    "filename": "segments/part-17.html",
+    "startFrame": 13702,
+    "endFrame": 14654,
+    "duration": 15.866666666666667
+  },
+  {
+    "filename": "segments/part-18.html",
+    "startFrame": 14654,
+    "endFrame": 15541,
+    "duration": 14.783333333333333
+  },
+  {
+    "filename": "segments/part-19.html",
+    "startFrame": 15541,
+    "endFrame": 16369,
+    "duration": 13.8
+  },
+  {
+    "filename": "segments/part-20.html",
+    "startFrame": 16369,
+    "endFrame": 17333,
+    "duration": 16.066666666666666
+  },
+  {
+    "filename": "segments/part-21.html",
+    "startFrame": 17333,
+    "endFrame": 18187,
+    "duration": 14.233333333333333
+  },
+  {
+    "filename": "segments/part-22.html",
+    "startFrame": 18187,
+    "endFrame": 19107,
+    "duration": 15.333333333333334
+  },
+  {
+    "filename": "segments/part-23.html",
+    "startFrame": 19107,
+    "endFrame": 20080,
+    "duration": 16.216666666666665
+  },
+  {
+    "filename": "segments/part-24.html",
+    "startFrame": 20080,
+    "endFrame": 21010,
+    "duration": 15.5
+  },
+  {
+    "filename": "segments/part-25.html",
+    "startFrame": 21010,
+    "endFrame": 22033,
+    "duration": 17.05
+  },
+  {
+    "filename": "segments/part-26.html",
+    "startFrame": 22033,
+    "endFrame": 22931,
+    "duration": 14.966666666666667
+  },
+  {
+    "filename": "segments/part-27.html",
+    "startFrame": 22931,
+    "endFrame": 23985,
+    "duration": 17.566666666666666
+  },
+  {
+    "filename": "segments/part-28.html",
+    "startFrame": 23985,
+    "endFrame": 25053,
+    "duration": 17.8
+  },
+  {
+    "filename": "segments/part-29.html",
+    "startFrame": 25053,
+    "endFrame": 25972,
+    "duration": 15.316666666666666
+  },
+  {
+    "filename": "segments/part-30.html",
+    "startFrame": 25972,
+    "endFrame": 26915,
+    "duration": 15.716666666666667
+  },
+  {
+    "filename": "segments/part-31.html",
+    "startFrame": 26915,
+    "endFrame": 28127,
+    "duration": 20.2
+  }
+]

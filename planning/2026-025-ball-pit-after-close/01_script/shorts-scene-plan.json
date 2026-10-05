@@ -1,0 +1,57 @@
+{
+  "project_id": "2026-025-ball-pit-after-close",
+  "status": "draft_awaiting_separate_shorts_script_approval",
+  "voice_model": "eleven_v4",
+  "timing_source": "estimated_only",
+  "estimated_seconds_after_speedup": 18.116,
+  "voice_speed_multiplier": 1.07,
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60
+  },
+  "fresh_portrait_assets_required": true,
+  "longform_asset_reuse": false,
+  "scenes": [
+    {
+      "id": "short-01",
+      "start_seconds": 0,
+      "end_seconds": 2.157,
+      "narration_text": "아무도 없는 볼풀에서 공이 날아왔어요.",
+      "caption_text": "아무도 없는 볼풀에서 공이 날아왔어요.",
+      "visual": "빨간 공의 수직 움직임과 텅 빈 볼풀. 새 세로 자산.",
+      "motion": "단서를 중앙 모바일 안전 영역에 두고 1~3초마다 팬·초점·압력 변화",
+      "audio": "V4 별도 생성 후 피치 유지 1.07배. 시작과 마지막 문장 청취 검수."
+    },
+    {
+      "id": "short-02",
+      "start_seconds": 2.157,
+      "end_seconds": 8.196,
+      "narration_text": "키즈카페 마감을 끝내고, 빨간 공 하나를 안쪽으로 던졌거든요. 그런데 그 공이 제 발앞으로 돌아왔습니다.",
+      "caption_text": "키즈카페 마감을 끝내고, 빨간 공 하나를 안쪽으로 던졌거든요. 그런데 그 공이 제 발앞으로 돌아왔습니다.",
+      "visual": "입구에서 안쪽 볼풀로 공을 던진 뒤 같은 공이 발앞으로 돌아옴. 검은 선 연속성.",
+      "motion": "단서를 중앙 모바일 안전 영역에 두고 1~3초마다 팬·초점·압력 변화",
+      "audio": "V4 별도 생성 후 피치 유지 1.07배. 시작과 마지막 문장 청취 검수."
+    },
+    {
+      "id": "short-03",
+      "start_seconds": 8.196,
+      "end_seconds": 11.215,
+      "narration_text": "밀대로 공을 전부 걷어 봤어요. 아이는 없었어요.",
+      "caption_text": "밀대로 공을 전부 걷어 봤어요. 아이는 없었어요.",
+      "visual": "밀대로 공을 걷어 파란 매트가 드러남. 실제 아이 없음.",
+      "motion": "단서를 중앙 모바일 안전 영역에 두고 1~3초마다 팬·초점·압력 변화",
+      "audio": "V4 별도 생성 후 피치 유지 1.07배. 시작과 마지막 문장 청취 검수."
+    },
+    {
+      "id": "short-04",
+      "start_seconds": 11.215,
+      "end_seconds": 18.116,
+      "narration_text": "그때 파란 바닥 매트가 안쪽에서 부풀었습니다. 제가 한 걸음 물러나자, 공들 아래에서도 똑같은 길이의 마찰음이 났어요.",
+      "caption_text": "그때 파란 바닥 매트가 안쪽에서 부풀었습니다. 제가 한 걸음 물러나자, 공들 아래에서도 똑같은 길이의 마찰음이 났어요.",
+      "visual": "매트의 압력과 뒤로 끄는 성인 운동화. 존재의 표면·정체·탈출·철거 후 결말 미노출.",
+      "motion": "단서를 중앙 모바일 안전 영역에 두고 1~3초마다 팬·초점·압력 변화",
+      "audio": "V4 별도 생성 후 피치 유지 1.07배. 시작과 마지막 문장 청취 검수."
+    }
+  ]
+}

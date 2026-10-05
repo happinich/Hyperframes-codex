@@ -1,0 +1,354 @@
+[
+  {
+    "id": "shot-01",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-01.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Close low shot of one white elastic tube tightly wrapped around one metal table leg, table sliding toward foreground. Crop so only a small body fragment is visible and ball pit is soft background. No entire creature reveal. Strong contact compression and cast shadows. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-02",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-02.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Quiet believable study desk in small apartment at dusk: open study notebook with faint unreadable writing, pencil, plain work keys, cleaning cloth. Adult gray hoodie sleeve and one anatomically correct hand resting on notebook edge, face and body out of frame. No cafe or monster needed. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-03",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-03.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Wide establishing view from the entrance matching location reference. Empty cafe, left ball pit and right slide, tables central, staff room front right door OPEN, shoe cubbies at entrance. No creature. REPLACEMENT: Camera is a standing eye-level camera at 1.6m height. NO HUMAN BEING, body parts, hands, feet, shoes, limbs or narrator anywhere in frame. Empty architecture only. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-04",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-04.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: First-person close shot of a single red plastic ball with ONE short straight black pen dash, on cafe beige tile near white-gray lace-up sneaker toe. Mop leans nearby, vacuum switched off farther back. No faces, no entity. This same ball and sneaker recur throughout. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT: absolutely no seated person or arms/hands. Camera on tripod, not narrator POV. For 04 only ONE white-gray sneaker TOE clipped at lower right is permitted, with a single red marked ball beside it; cleaning mop MUST be FLAT rectangular mop with rigid shaft, NOT string/rope mop. For 07 absolutely NO human body parts or shoes in frame; marked red ball small on floor."
+  },
+  {
+    "id": "shot-05",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-05.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Low angle behind the heel of a white-gray lace-up sneaker, red plastic ball with one short straight black pen dash has just touched heel. Blue padded pit blurred behind LEFT. The ball is a real sphere not fused to shoe. No creature. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-06",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-06.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Single marked red ball just dropping outward across the light-blue padded front edge of the ball pit. Multicolor balls remain inside. Freeze action with ball clear in air, floor visible below, no hands or entity. Same pit and lighting. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT: tight framing on front pit edge with airborne red marked ball centered prominently. No people, shoes, legs, arms or body anywhere. Camera at PIT EDGE, not at entrance."
+  },
+  {
+    "id": "shot-07",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-07.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: View across empty cafe toward left blue ball pit and right yellow slide. Open entrance is behind camera. Empty, normal shadows only, a single red ball on foreground tile. No child or figure hiding, no creature. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT: absolutely no seated person or arms/hands. Camera on tripod, not narrator POV. For 04 only ONE white-gray sneaker TOE clipped at lower right is permitted, with a single red marked ball beside it; cleaning mop MUST be FLAT rectangular mop with rigid shaft, NOT string/rope mop. For 07 absolutely NO human body parts or shoes in frame; marked red ball small on floor."
+  },
+  {
+    "id": "shot-08",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-08.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Overhead oblique close shot inside same blue pit: multicolor balls pushed into sides by long flat mop head entering from bottom-right offscreen. Exposed flat blue mat at center absolutely empty, no child or creature. Physically correct mop handle connects directly to head. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-09",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-09.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Anatomically correct adult hand in gray hoodie sleeve holds plain black smartphone near entrance. Phone call screen dark with one small generic icon and no letters/numbers. Open exit and shoe shelves behind. No face, no creature, no second phone or extra hands. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT single change: phone screen is an OUTGOING call in progress, only ONE red hang-up circle near bottom plus generic plain avatar. NO green accept button, no incoming-call interface, no text/numbers. Preserve hand anatomy and location."
+  },
+  {
+    "id": "shot-10",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-10.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Same ball pit closer: marked red sphere in midair above front padded edge heading toward camera; several yellow balls displaced to sides reveal a flat patch of blue mat. No visible creature yet. Red sphere has single short black dash. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-11",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-11.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Close shot exposed blue rubber mat between colorful balls, exactly TWO low rounded pressure mounds bulge upward beneath mat. Mat remains continuous and opaque, no knees, legs, eyes, creature skin or child visible. All balls remain spheres. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-12",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-12.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Extreme close shot: ONLY a broad flattened rounded ivory membrane tip slides out from under blue mat and dents the light blue padded pit edge. Smooth paddle-like end with no fingers, nails, human hand, eyes, head, folds or cloth. Body still hidden. Show physically plausible surface contact. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT: pit padded walls fully INTACT, absolutely no hole or tunnel or ripped wall. Blue floor mat clearly visible INSIDE pit, not outside. Shoot from INSIDE pit edge, facing the inward top surface of front rim. For 12 show ONLY a SMALL flattened ivory paddle tip about 15cm wide lying OVER the TOP of padded rim with a shallow indentation, hidden trailing part behind balls. For 15 opaque blue mat covers the whole long flattened body, only a slender flattened white edge and a small rounded inflated front visible between balls. No large exposed arc or body crossing whole cafe floor."
+  },
+  {
+    "id": "shot-13",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-13.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/visuals/shot-04.png",
+      "04_composition/assets/visuals/shot-08.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. One wide16:9 realistic cinematic image at floor level in same mint-walled closing cafe as reference1, blue pit at backLEFT, yellow slide backRIGHT, frontRIGHTopenstaffdoor, white tables in middle, beige tiled floor, readableteal/amberlighting. ONE dropped FLAT RECTANGULAR FLOOR MOP in foreground on floor, same mop as references2and3: thin rigid blue-gray rectangular plastic cleaning head35x12cm with short THIN white pad flush under it, hinged metal shaft connected at CENTER. NO ROPE MOP, NO long cotton strands, NO tassels/fringe, NO round cloth head. Shaft diagonal along floor pointing toward cameraLEFT. Absolutely NO human parts, NO legs, NO shoes, NO hands in frame. The narrator is entirely outside camera view. Camera shows EMPTY blue pit edge with normal balls, NO entity or child, no face/head/body/hands, no letters/digits/logos/gore. No hands holding mop; it has been dropped. Preserve geometry and pad object identity with supplied mop references."
+  },
+  {
+    "id": "shot-14",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-14.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: View near open staff-room doorway looking past a large ordinary rigid charcoal gray rectangular plastic ball-storage bin with open rectangular rim and multicolor balls inside, table in midground and pit far back left. Bin at threshold, door remains open, no creature foreground yet. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. The ball storage container MUST be a large rigid RECTANGULAR open-top plastic STORAGE BOX about 55x40x45cm, NOT cylindrical or a round garbage bucket. Four straight walls and rounded rectangular rim. REPLACEMENT: same doorway and ball contents, change round container into rectangular storage box."
+  },
+  {
+    "id": "shot-15",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-15.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. One wide 16:9 cinematic photograph, TOP-DOWN close view of blue ball-pit FLOOR, not the cafe or walls. Primary request: colorful plastic balls pushed aside reveal a smooth white flattened rubber HOSE PROP lying along the seam between TWO opaque blue mat panels. One mat edge partly overlaps the long hose body, the other side also partly covered by mat. Visible 40cm of a continuous flattened hose about 12cm wide. Front portion slightly thicker like air filling a flat rubber hose; simple smooth surface, no anatomical details, no human or animal parts, no head, eyes, mouth, fingers, joints, scales or cloth. Blue mat covers most of white body. Padded pit walls fully out of frame, no tube over rim. Photographic tangible blue rubber, plastic spheres and white hose materials, muted teal fluorescent light, no text/logo/people. Input image 1 location is ONLY blue mat and ball color reference. Input image 2 entity is ONLY white smooth material texture reference, do NOT copy the giant tube scale or room-wide creature pose."
+  },
+  {
+    "id": "shot-16",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-16.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Low view toward right yellow slide where three ordinary balls lie after being tossed. Partial ivory tube bends toward those balls from left edge; rest of body extends toward ball pit outside left frame. No branching, head or limbs. Tables between camera and front entrance not obstructing slide geography. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-17",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-17.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Dramatic medium-low shot one white table has shifted toward camera, its metal leg tightly wrapped by continuous ivory tube from left ball pit; table edge near adult gray-hoodie waist/thigh at bottom edge, head excluded. Rounded tubular smooth unsegmented body, no face, mouth or limbs. Correct four legs, no tube passing through furniture. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-18",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-18.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Critical direct-contact close shot: one anatomically correct adult bare hand with five natural fingers on table edge, gray hoodie cuff. Rounded white flattened tube tip lightly sticks to BACK of hand near knuckles, without encircling wrist or forming fingers. Tip connects to thick tube coming from behind table. No gore, no cuts, no merge of hand and tube, both contact surfaces distinct. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-19",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-19.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png",
+      "04_composition/assets/visuals/shot-18.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Adult bare hand in gray sleeve pulling away, back of hand has small shiny thin WHITE tacky residue thread stretching toward tube tip off RIGHT edge. Open staff-room doorway and same ball bin blurred behind. Face-free, no additional hands, intact skin no blood. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT anatomy continuity: LAST input image is the EXACT previously contacted HAND reference. Keep SAME LEFT HAND, dorsal side facing camera, thumb on viewer RIGHT relative to upright fingers. Do NOT switch to right hand. Arm enters lower LEFT, fingers point diagonally up-right, thumb visible right. Five natural fingers. White residue thread touches middle of hand back, not fingers."
+  },
+  {
+    "id": "shot-20",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-20.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Wide cafe view: single enormous ivory elastic tubular body rises in a bowed continuous unsegmented arc from blue pit to near fluorescent ceiling, extending down toward white table. No human figure, no branching, no head, face, limbs, folds or cloth. Ceiling reflection subtly distorted. Yellow slide right stays fixed. Smooth body thickness expands naturally, no pipe joints. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. REPLACEMENT: camera frames ONLY the UPPER arch of tube touching ceiling and fluorescent fixtures. The lower half of body, whole floor, table legs, box and tube tip are entirely below/outside frame. No tabletop in image. Do not show or change whether it grips table. One continuous ivory curve spanning ceiling, no head, limbs, branches or joints."
+  },
+  {
+    "id": "shot-21",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-21.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Close low underside angle: rounded white tube front pressed to metal table leg using shallow hollow underside, slight compressed suction-like recess, no mouth or teeth. One table leg lifting several centimeters from beige floor, remaining body bends toward crushed blue pit edge. No detached limbs, object penetration or extra table legs. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-22",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-22.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/ball-box.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. New wide 16:9 photograph of same cafe open STAFF-ROOM THRESHOLD, left blue pit and right yellow slide in distant background. Last reference is exact rectangular dark gray rigid ball-storage BOX identity. The rectangular open-top box stands UPRIGHT FLAT on the threshold, contains colorful plastic balls. ONE adult hand in gray cotton hoodie cuff rests on its rim, five anatomically natural fingers. No balls spilled yet, no box tilt, no giant creature in foreground. No face or head. Scene shows PLACING the box before deciding what to do, not emptying it. Open wooden staff-room door, no staff-room window, physically correct box and threshold. No text/logo/watermark."
+  },
+  {
+    "id": "shot-23",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-23.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/ball-box.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Top-down close photograph of one plain black smartphone lying FACE UP in multicolor balls INSIDE same charcoal-gray rectangular plastic storage bin. Dark screen with simple phone call icon only, no readable names/numbers. It is placed not held; no hands. Yellow slide blurred right background. No creature in bin yet. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. The ball storage container MUST be a large rigid RECTANGULAR open-top plastic STORAGE BOX about 55x40x45cm, NOT cylindrical or a round garbage bucket. Four straight walls and rounded rectangular rim. Last reference image is ONLY the rectangular ball-storage BOX identity reference. Keep same box shape/color/proportions, not a round bucket."
+  },
+  {
+    "id": "shot-24",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-24.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png",
+      "04_composition/assets/references/ball-box.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts.  Input image 2 is ENTITY FORM reference ONLY. Same single smooth ivory elastic tube, mildly tacky, no head/face/eyes/mouth/human limbs/fingers/scales/joints/segments/cloth/folds/branches. Follow this shot's reveal stage; never import the whole reference creature into a partial-reveal scene. Primary request: Ground-level wide shot toward right yellow slide: single continuous ivory tube wraps around SAME large gray bin, compressing its rim, balls spill on floor. Black phone partly visible inside bin. White table leg on left has been released with tube no longer around it. No people or head/faces. Creature body continues back to left pit, no branching. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. The ball storage container MUST be a large rigid RECTANGULAR open-top plastic STORAGE BOX about 55x40x45cm, NOT cylindrical or a round garbage bucket. Four straight walls and rounded rectangular rim. Last reference image is ONLY the rectangular ball-storage BOX identity reference. Keep same box shape/color/proportions, not a round bucket. REPLACEMENT spatial layout: BOX is pushed all the way toward the YELLOW SLIDE at BACK RIGHT, several meters BEHIND the central tables. Creature wraps box NEXT TO SLIDE. Not by front staff-room door. Wide view from entrance so foreground floor and front staff threshold stay EMPTY and passable. No box or ivory body in immediate foreground. Phone visible inside box, balls spilled at SLIDE base, front TABLE leg clearly free. Keep LEFT pit source of continuous body."
+  },
+  {
+    "id": "shot-25",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-25.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: POV at bottom of a modest Korean commercial staircase: gray self-closing metal exit door almost shut behind camera-right, stairs ascend to second floor upper right. Night street ahead with bright generic pharmacy cross light, no readable signage or people. No ball or creature outdoors. Both white-gray sneaker toes can appear at bottom edge, never missing a shoe. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-26",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-26.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Outside on normal night street near warm-lit convenience storefront, adult gray-hoodie hand holds a borrowed DIFFERENT light beige phone, screen dark. Original BLACK phone is not present. Pharmacy green cross blurred in background, street cars no logos, no face or person recognizable. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "shot-27",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-27.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/ball-box.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Morning aftermath inside SAME cafe: blue pit wall crushed inward, one metal table leg bent at bottom, large charcoal-gray rectangular plastic bin rim visibly puckered, yellow slide unchanged RIGHT. Blue mat partly lifted exposes only plain concrete underneath, no hole, tunnel, creature or blood. Real mundane damage. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. The ball storage container MUST be a large rigid RECTANGULAR open-top plastic STORAGE BOX about 55x40x45cm, NOT cylindrical or a round garbage bucket. Four straight walls and rounded rectangular rim. Last reference image is ONLY the rectangular ball-storage BOX identity reference. Keep same box shape/color/proportions, not a round bucket."
+  },
+  {
+    "id": "shot-28",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-28.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/ball-box.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Close morning still life: same damaged charcoal-gray bin, black phone with cracked screen lying among balls inside it. Adult gray-hoodie hand held apart foreground shows faint white residue on back, no blood or wounds. No new phone, no face or creature. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. The ball storage container MUST be a large rigid RECTANGULAR open-top plastic STORAGE BOX about 55x40x45cm, NOT cylindrical or a round garbage bucket. Four straight walls and rounded rectangular rim. Last reference image is ONLY the rectangular ball-storage BOX identity reference. Keep same box shape/color/proportions, not a round bucket. Narrator hand MUST be same LEFT hand as earlier contact, back of hand shown, thumb to viewer RIGHT relative to fingers. Do not switch handedness. CRITICAL: camera is a TIGHT tabletop closeup, background OUT OF FOCUS neutral wall ONLY. Absolutely NO ball pit, slide, table legs or wide cafe in frame: these were damaged already. Cracked black phone remains INSIDE charcoal rectangular box, left sticky dorsal hand at lower left, same five-finger orientation as reference 3."
+  },
+  {
+    "id": "shot-29",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-29.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: High CCTV-style view of same cafe a week later AFTER blue pit, mats and balls removed, yellow slide and tables also moved clear of cleaning area. Beige bare floor, exactly one marked red ball near left wall. Cleaner seen from rear cropped at shoulder, dark work trousers, broom. No face. No overlaid timestamp or letters, image itself will be shown in a composed video frame. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. CRITICAL anatomy and framing: camera HIGH near ceiling looking steeply DOWN at bare floor. Cleaner appears ONLY at very TOP EDGE OF IMAGE, naturally cropped by the image border at WAIST: legs, shoes and one broom-hand visible, entire torso/head OUTSIDE frame above border. NEVER show a headless torso standing in the middle of the picture. Single marked red ball by left wall is focal clue. No furniture in cleaning area."
+  },
+  {
+    "id": "shot-30",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-30.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: High surveillance-style view of emptied cafe AFTER pit removal: marked red ball lies just OUTSIDE ordinary open black trash can and behind rear-view cleaner with broom walking toward front entrance. Single ball only, no ghost/monster. Same pale mint walls, beige floor, no blue mat or other balls. No text/time digits, no face. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. CRITICAL: this surveillance camera is at BACK of room near ceiling looking steeply DOWN TOWARD front entrance, reverse camera from reference. Only cleaner's lower legs, intact shoes seen from behind and broom are visible at TOP image edge, upper body naturally outside image. Cleaner walking toward TOP edge/entrance, red marked ball follows BEHIND shoes in center foreground. Black round ordinary trash can on FLOOR, never atop bench. No tables/slide in view, only empty floor and wall. No human head or face. Avoid changing spatial direction."
+  },
+  {
+    "id": "shot-31",
+    "kind": "longform",
+    "path": "04_composition/assets/visuals/shot-31.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: fictional Korean horror film scene. Generate ONE cinematic wide 16:9 photograph, not a collage, with crisp mobile-readable focal clue. Input image 1 is location continuity reference; preserve believable cafe architecture, pale mint walls, beige tile, left blue ball pit, right yellow slide, gray-legged white tables, open front-right staff room. Muted teal fluorescent light with soft amber entrance spill, midtones legible, photographic natural detail. Never show children, identifiable human faces, human head, gore, writing, numbers, logos or watermarks. When a human is explicitly required by Primary request, show only specified body part with anatomically correct five-finger hands, gray cotton hoodie cuff, dark trousers and white-gray lace-up sneakers. Otherwise no people or body parts. Primary request: Final unsettling daylight POV from front entrance office corner looking toward open doorway and empty hallway. One adult anatomically correct hand in gray hoodie sleeve holds plain kraft pay envelope foreground lower LEFT, still. Small tablet on desk turned dark paused gray picture no readable text. No red ball visible in real corridor, no creature or faces. Keep right upper half visually quiet for YouTube end-screen overlay. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "short-01",
+    "kind": "shorts",
+    "path": "04_composition/assets/shorts/short-01.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: independently generated NEW portrait photograph for 9:16 horror Short, 1080x1920 or larger. Reference is LOCATION DESIGN ONLY, do not crop or reproduce reference framing. Compose a completely NEW vertical camera angle. Same mint-walled closed kids cafe, blue pit LEFT, yellow slide RIGHT, teal fluorescent light, beige floor. Keep main clue centered in middle 60% with top 15% and lower 25% quiet for separately rendered captions. No child or face, no readable text/logo/watermark. Muted cinematic but legible lighting. Primary request: LOW portrait view: red sphere with one short black pen dash hovering just OUTSIDE light blue ball pit rim near foreground. Empty pit behind, no child, no entity or white skin. Strong first-frame clue. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "short-02",
+    "kind": "shorts",
+    "path": "04_composition/assets/shorts/short-02.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: independently generated NEW portrait photograph for 9:16 horror Short, 1080x1920 or larger. Reference is LOCATION DESIGN ONLY, do not crop or reproduce reference framing. Compose a completely NEW vertical camera angle. Same mint-walled closed kids cafe, blue pit LEFT, yellow slide RIGHT, teal fluorescent light, beige floor. Keep main clue centered in middle 60% with top 15% and lower 25% quiet for separately rendered captions. No child or face, no readable text/logo/watermark. Muted cinematic but legible lighting. Primary request: First-person portrait close-up of marked red plastic ball touching toe of white-gray sneaker on tile, left ball pit rises in background. No visible hands, human face or creature. Red sphere separate from shoe. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  },
+  {
+    "id": "short-03",
+    "kind": "shorts",
+    "path": "04_composition/assets/shorts/short-03.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: independently generated NEW portrait photograph for 9:16 horror Short, 1080x1920 or larger. Reference is LOCATION DESIGN ONLY, do not crop or reproduce reference framing. Compose a completely NEW vertical camera angle. Same mint-walled closed kids cafe, blue pit LEFT, yellow slide RIGHT, teal fluorescent light, beige floor. Keep main clue centered in middle 60% with top 15% and lower 25% quiet for separately rendered captions. No child or face, no readable text/logo/watermark. Muted cinematic but legible lighting. Primary request: Portrait elevated view inside blue pit: long mop from lower right has pushed multicolor balls to sides exposing FLAT EMPTY blue mat. No child, no body, no eyes, no white membrane. Mop correctly attached to its head. Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. CRITICAL object continuity: mop is a FLAT RECTANGULAR cleaning pad 35cm wide with hinged rigid metal shaft attached at center, NOT a rope/string mop. No dangling cotton ropes. Empty exposed blue floor surrounded by swept balls; no hands or human, no body beneath mat revealed."
+  },
+  {
+    "id": "short-04",
+    "kind": "shorts",
+    "path": "04_composition/assets/shorts/short-04.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: photorealistic-natural. ONE NEW independently generated portrait9:16 cinematic photograph. Camera just ABOVE blue BALL PIT looking steeply DOWN INSIDE it. Blue padded pit WALL must clearly border left, right and BACK of image, bottom rim at lower foreground optional. Two low rounded pressure BULGES lift opaque blue MAT on floor INSIDE pit, contained within all padded walls; swept plastic balls pushed to back and bothsides, empty central area. NEVER bulges on exterior room floor! No exterior beige floor foreground; alllower2/3 frame shows INTERIORbluepitfloor. Above backrim same mintwall/window, rightyellow slide softlyvisible. Matte bluecontinuouspadding, no hole, skin, whitebody, people, shoes, faces, text, numbers, logo, gore. Teal readablelighting. Clues center55%, top15% and bottom25% quiet for captions. Location reference design only, do notcropoldpicture."
+  },
+  {
+    "id": "thumbnail-a",
+    "kind": "thumbnail",
+    "path": "07_publish/youtube/thumbnail-a.png",
+    "references": [
+      "04_composition/assets/references/location.png"
+    ],
+    "prompt": "Use case: ads-marketing. Asset type: final YouTube thumbnail, ONE 16:9 image exactly 1280x720 if possible. Korean cinematic horror photograph, teal fluorescent background, high contrast mobile-readable decisive clue with substantial visual scale. Typography very large thick simple Korean lettering as specified; no extra text/numbers/logo/watermark. One focal clue only. Input references: location continuity, and if included entity form only. Primary request: One marked red plastic ball in foreground at blue padded pit edge, ominous tiny flattening of blue mat behind, no monster skin. Typography top-left in bright off-white Korean, exactly \"누가 던졌지\" (five syllables). Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts. CRITICAL: exactly ONE short clear black pen DASH on front-facing red plastic sphere, no scratches mistaken for mark. Typography exactly '누가 던졌지' in thick bright off-white five Korean syllables with all strokes correct."
+  },
+  {
+    "id": "thumbnail-b",
+    "kind": "thumbnail",
+    "path": "07_publish/youtube/thumbnail-b.png",
+    "references": [
+      "04_composition/assets/references/location.png",
+      "04_composition/assets/references/entity.png"
+    ],
+    "prompt": "Use case: ads-marketing. Asset type: final YouTube thumbnail, ONE 16:9 image exactly 1280x720 if possible. Korean cinematic horror photograph, teal fluorescent background, high contrast mobile-readable decisive clue with substantial visual scale. Typography very large thick simple Korean lettering as specified; no extra text/numbers/logo/watermark. One focal clue only. Input references: location continuity, and if included entity form only. Primary request: Tight view a smooth ivory tube fragment gripping one gray metal table leg, left blue ball pit blurred behind. No full monster, human face or gore. Typography left side in warm white Korean, exactly \"아이 아니야\" (five syllables). Only include human body parts when explicitly requested by the Primary request; otherwise no people or body parts."
+  }
+]

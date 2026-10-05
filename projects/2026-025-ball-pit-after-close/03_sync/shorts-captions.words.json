@@ -1,0 +1,294 @@
+{
+  "duration": 22.02,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.34,
+      "text": "아무도 없는 볼풀에서 공이 날아왔어요. 키즈카페"
+    },
+    {
+      "start": 3.34,
+      "end": 5.92,
+      "text": "마감을 끝내고, 빨간 공 하나를 안쪽으로"
+    },
+    {
+      "start": 5.92,
+      "end": 9.0,
+      "text": "던졌거든요. 그런데 그 공이 제 발앞으로"
+    },
+    {
+      "start": 9.0,
+      "end": 12.12,
+      "text": "돌아왔습니다. 밀대로 공을 전부 걷어 봤어요."
+    },
+    {
+      "start": 12.68,
+      "end": 15.8,
+      "text": "아이는 없었어요. 그때 파란 바닥 매트가"
+    },
+    {
+      "start": 15.8,
+      "end": 18.9,
+      "text": "안쪽에서 부풀었습니다. 제가 한 걸음 물러나자,"
+    },
+    {
+      "start": 18.9,
+      "end": 22.02,
+      "text": "공들 아래에서도 똑같은 길이의 마찰음이 났어요."
+    }
+  ],
+  "words": [
+    {
+      "text": "아무도",
+      "start": 0.0,
+      "end": 0.38,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 0.38,
+      "end": 0.58,
+      "matched": true
+    },
+    {
+      "text": "볼풀에서",
+      "start": 0.58,
+      "end": 1.2,
+      "matched": true
+    },
+    {
+      "text": "공이",
+      "start": 1.2,
+      "end": 1.64,
+      "matched": true
+    },
+    {
+      "text": "날아왔어요.",
+      "start": 1.64,
+      "end": 2.28,
+      "matched": true
+    },
+    {
+      "text": "키즈카페",
+      "start": 2.64,
+      "end": 3.34,
+      "matched": true
+    },
+    {
+      "text": "마감을",
+      "start": 3.34,
+      "end": 3.72,
+      "matched": true
+    },
+    {
+      "text": "끝내고,",
+      "start": 3.72,
+      "end": 4.3,
+      "matched": true
+    },
+    {
+      "text": "빨간",
+      "start": 4.3,
+      "end": 4.88,
+      "matched": true
+    },
+    {
+      "text": "공",
+      "start": 4.88,
+      "end": 4.98,
+      "matched": true
+    },
+    {
+      "text": "하나를",
+      "start": 4.98,
+      "end": 5.4,
+      "matched": true
+    },
+    {
+      "text": "안쪽으로",
+      "start": 5.4,
+      "end": 5.92,
+      "matched": true
+    },
+    {
+      "text": "던졌거든요.",
+      "start": 5.92,
+      "end": 6.58,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 7.26,
+      "end": 7.5,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 7.5,
+      "end": 7.9,
+      "matched": true
+    },
+    {
+      "text": "공이",
+      "start": 7.9,
+      "end": 8.3,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 8.3,
+      "end": 8.54,
+      "matched": true
+    },
+    {
+      "text": "발앞으로",
+      "start": 8.54,
+      "end": 9.0,
+      "matched": true
+    },
+    {
+      "text": "돌아왔습니다.",
+      "start": 9.0,
+      "end": 9.72,
+      "matched": true
+    },
+    {
+      "text": "밀대로",
+      "start": 10.36,
+      "end": 10.74,
+      "matched": true
+    },
+    {
+      "text": "공을",
+      "start": 10.74,
+      "end": 11.1,
+      "matched": true
+    },
+    {
+      "text": "전부",
+      "start": 11.1,
+      "end": 11.46,
+      "matched": true
+    },
+    {
+      "text": "걷어",
+      "start": 11.46,
+      "end": 12.12,
+      "matched": true
+    },
+    {
+      "text": "봤어요.",
+      "start": 11.46,
+      "end": 12.12,
+      "matched": true
+    },
+    {
+      "text": "아이는",
+      "start": 12.68,
+      "end": 12.88,
+      "matched": true
+    },
+    {
+      "text": "없었어요.",
+      "start": 12.88,
+      "end": 13.46,
+      "matched": true
+    },
+    {
+      "text": "그때",
+      "start": 14.08,
+      "end": 14.34,
+      "matched": true
+    },
+    {
+      "text": "파란",
+      "start": 14.34,
+      "end": 15.06,
+      "matched": true
+    },
+    {
+      "text": "바닥",
+      "start": 15.06,
+      "end": 15.34,
+      "matched": true
+    },
+    {
+      "text": "매트가",
+      "start": 15.34,
+      "end": 15.8,
+      "matched": true
+    },
+    {
+      "text": "안쪽에서",
+      "start": 15.8,
+      "end": 16.4,
+      "matched": true
+    },
+    {
+      "text": "부풀었습니다.",
+      "start": 16.4,
+      "end": 17.04,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 17.66,
+      "end": 17.92,
+      "matched": true
+    },
+    {
+      "text": "한",
+      "start": 17.92,
+      "end": 18.12,
+      "matched": true
+    },
+    {
+      "text": "걸음",
+      "start": 18.12,
+      "end": 18.38,
+      "matched": true
+    },
+    {
+      "text": "물러나자,",
+      "start": 18.38,
+      "end": 18.9,
+      "matched": true
+    },
+    {
+      "text": "공들",
+      "start": 18.9,
+      "end": 19.54,
+      "matched": true
+    },
+    {
+      "text": "아래에서도",
+      "start": 19.54,
+      "end": 20.12,
+      "matched": true
+    },
+    {
+      "text": "똑같은",
+      "start": 20.12,
+      "end": 20.76,
+      "matched": true
+    },
+    {
+      "text": "길이의",
+      "start": 20.76,
+      "end": 21.1,
+      "matched": true
+    },
+    {
+      "text": "마찰음이",
+      "start": 21.1,
+      "end": 21.64,
+      "matched": true
+    },
+    {
+      "text": "났어요.",
+      "start": 21.64,
+      "end": 22.02,
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "ready_for_review",
+  "whisper_backend": "mlx-whisper",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "subtitle_delivery_mode": "burned_and_external_srt_vtt",
+  "subtitle_text_source": "01_script/shorts-narration.txt",
+  "spoken_text_source": "01_script/shorts-narration.txt",
+  "matched_character_ratio": 1.0,
+  "caption_surface_match_ratio": 1.0,
+  "spoken_match_ratio": 1.0,
+  "required_ratio": 0.92,
+  "note": "독립 쇼츠 원고/별도 TTS/새 세로 구성."
+}

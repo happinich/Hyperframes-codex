@@ -1,0 +1,126 @@
+{
+  "original_generated_stems": true,
+  "events": [
+    {
+      "start": 52.16,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 62.58,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 123.54,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 311.28,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 445.24,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 179.52,
+      "duration": 0.55,
+      "kind": "short_surface_scrape"
+    },
+    {
+      "start": 231.92,
+      "duration": 0.55,
+      "kind": "short_surface_scrape"
+    },
+    {
+      "start": 257.82,
+      "duration": 0.55,
+      "kind": "short_surface_scrape"
+    },
+    {
+      "start": 289.24,
+      "duration": 0.55,
+      "kind": "short_surface_scrape"
+    },
+    {
+      "start": 335.02,
+      "duration": 0.55,
+      "kind": "short_surface_scrape"
+    },
+    {
+      "start": 457.06,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 458.6,
+      "duration": 0.17,
+      "kind": "hollow_plastic_ball"
+    },
+    {
+      "start": 325.2,
+      "duration": 0.7,
+      "kind": "phone_pocket_vibration"
+    },
+    {
+      "start": 331.04,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 333.34,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 335.64,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 337.94,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 340.24,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 342.54,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 344.84,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 347.14,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    },
+    {
+      "start": 349.44,
+      "duration": 0.75,
+      "kind": "phone_bin_vibration"
+    }
+  ],
+  "narration_unchanged": true,
+  "duration": 468.774,
+  "shorts_duration": 22.284417,
+  "ambience": "room-ambience.wav",
+  "foley": "event-foley.wav",
+  "mix": "voice-bgm-soundscape.wav",
+  "street_ambience": "street-ambience.wav",
+  "street_interval": [
+    350.16999999999996,
+    382.19
+  ]
+}

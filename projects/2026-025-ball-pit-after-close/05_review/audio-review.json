@@ -1,0 +1,71 @@
+{
+  "main": {
+    "duration_seconds": 464.7745,
+    "mean_volume_db": -21.4,
+    "max_volume_db": -3.6,
+    "silence_durations": [],
+    "alignment": {
+      "status": "ready_for_review",
+      "whisper_backend": "mlx-whisper",
+      "whisper_model": "mlx-community/whisper-large-v3-turbo",
+      "subtitle_delivery_mode": "external_srt_upload",
+      "subtitle_text_source": "01_script/narration.txt",
+      "spoken_text_source": "01_script/tts-narration.txt",
+      "matched_character_ratio": 0.9961,
+      "caption_surface_match_ratio": 0.995,
+      "spoken_match_ratio": 0.9961,
+      "required_ratio": 0.92,
+      "note": "Captions are delivered as external SRT/VTT files. The rendered MP4 does not burn captions into the image."
+    }
+  },
+  "shorts": {
+    "duration_seconds": 22.284417,
+    "mean_volume_db": -19.5,
+    "max_volume_db": -4.5,
+    "silence_durations": [],
+    "alignment": {
+      "status": "ready_for_review",
+      "whisper_backend": "mlx-whisper",
+      "whisper_model": "mlx-community/whisper-large-v3-turbo",
+      "subtitle_delivery_mode": "burned_and_external_srt_vtt",
+      "subtitle_text_source": "01_script/shorts-narration.txt",
+      "spoken_text_source": "01_script/shorts-narration.txt",
+      "matched_character_ratio": 1.0,
+      "caption_surface_match_ratio": 1.0,
+      "spoken_match_ratio": 1.0,
+      "required_ratio": 0.92,
+      "note": "독립 쇼츠 원고의 업로드 자막과 세로 번인 자막을 함께 전달한다."
+    }
+  },
+  "first_anomaly_spoken_seconds": 48.64,
+  "cold_open_seconds": 6.7,
+  "review_pass_1": "Original V4 source ASR coverage, word completeness, silence/gap analysis; speed correction identified.",
+  "review_pass_2": "Processed voice independently re-aligned; all 951 authored words preserved; coverage and no >0.8 second gaps confirmed; clipping and first/last word timing checked.",
+  "subjective_listening": "Not performed: this environment provides no audio listening capability. No claim of ear-based pronunciation/emotion or music review.",
+  "unmatched_main_words": [
+    {
+      "text": "이",
+      "start": 21.06,
+      "end": 21.18,
+      "matched": false
+    },
+    {
+      "text": "제가",
+      "start": 170.24,
+      "end": 171.12,
+      "matched": false
+    },
+    {
+      "text": "일",
+      "start": 350.52,
+      "end": 351.12,
+      "matched": false
+    },
+    {
+      "text": "이",
+      "start": 377.4,
+      "end": 377.94,
+      "matched": false
+    }
+  ]
+}

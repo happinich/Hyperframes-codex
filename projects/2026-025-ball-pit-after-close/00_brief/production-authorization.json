@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-05",
+  "verbatim_user_instruction": "진행해줘. 이전에 하던데로 검수는 너가 2번씩 해서 문제 없으면 끝까지 진행.",
+  "main_script_sha256": "ce3ed33a2ac1699704a0fb13d1281c2d85d2ede16594ea02176e7ab175c5d1be",
+  "shorts_script_sha256": "8c594529cae037ca677f986f27c643e19976abd6d7ae3fbf7dec79107a9726b4",
+  "scripts": "approved_by_proceed_instruction_after_complete_draft_presentation",
+  "visual_style": {
+    "id": "horror_cinematic",
+    "selection": "recommended_option_selected_under_explicit_delegation"
+  },
+  "bgm": {
+    "selection": "new_candidates_twice_reviewed_by_agent_under_user_delegation",
+    "candidate": "cand-03",
+    "explicit_candidate_click": false
+  },
+  "review_required_passes": 2,
+  "publishing": "prepare_package_only_no_public_upload_requested"
+}

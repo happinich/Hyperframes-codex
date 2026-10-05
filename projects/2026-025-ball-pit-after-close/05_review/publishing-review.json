@@ -1,0 +1,27 @@
+{
+  "reports": [
+    {
+      "format": "youtube",
+      "copy_buttons": 10,
+      "copy_all": true,
+      "local_links": 8,
+      "media": {
+        "duration": 468.783333,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "format": "shorts",
+      "copy_buttons": 6,
+      "copy_all": true,
+      "local_links": 4,
+      "media": {
+        "duration": 22.3,
+        "width": 1080,
+        "height": 1920
+      }
+    }
+  ],
+  "errors": []
+}
