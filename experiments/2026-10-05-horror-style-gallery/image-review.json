@@ -1,0 +1,69 @@
+{
+  "purpose": "향후 이야기용 스타일 비교 시안. 선택이나 기본값 변경 없음.",
+  "generator": "builtin image_gen",
+  "common_scene": "밤의 빈 아파트 복도, 닫힌 문, 문 아래의 희미한 빛, 인물이 보이지 않는 비정상적인 바닥 그림자",
+  "review_method": "각 최종 이미지를 원본 해상도로 개별 확인한 뒤 공통 장면 및 스타일 표현과 대조하여 다시 개별 확인함.",
+  "assets": [
+    {
+      "file": "01-shadow-theatre.png",
+      "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-2f05e9e3-3cc4-462d-9b7d-1d4f15586911.png",
+      "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-f6c49b25-c0f2-49e3-88ea-11b3418d35a9.png",
+      "first_review": "pass",
+      "second_review": "pass",
+      "decision": "approved as style comparison preview",
+      "notes": "검은 종이 실루엣과 호박색 역광. 최초 시안은 실제 복도 같은 표면이 남아 제외하고 평면 실루엣으로 수정했다.",
+      "replacement": {
+        "reason": "실사 같은 복도 질감; 그림자극의 평면 표현 부족",
+        "rechecked": true
+      }
+    },
+    {
+      "file": "02-puppet-stopmotion.png",
+      "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-133488a8-05c7-4c44-b546-440c03ce45ce.png",
+      "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-133488a8-05c7-4c44-b546-440c03ce45ce.png",
+      "first_review": "pass",
+      "second_review": "pass",
+      "decision": "approved as style comparison preview",
+      "notes": "천, 나무, 점토로 만든 듯한 작은 세트. 정지 이미지의 스톱모션풍 질감을 보여주며 실제 애니메이션은 아니다.",
+      "replacement": null
+    },
+    {
+      "file": "03-retro-3d-game.png",
+      "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-c510c6f6-009d-4865-bcbf-81ecd4c38241.png",
+      "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-c510c6f6-009d-4865-bcbf-81ecd4c38241.png",
+      "first_review": "pass",
+      "second_review": "pass",
+      "decision": "approved as style comparison preview",
+      "notes": "각진 공간과 거친 저해상도 질감. 픽셀아트와 구별되는 초기 3D 게임 공간 표현.",
+      "replacement": null
+    },
+    {
+      "file": "04-paper-stage.png",
+      "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-c6adefcc-4c4f-4455-a545-9adeb2992ab7.png",
+      "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-ac0a6ae2-6cc3-42ae-8c2a-e4cde24e7194.png",
+      "first_review": "pass",
+      "second_review": "pass",
+      "decision": "approved as style comparison preview",
+      "notes": "접힌 두꺼운 종이, 겹쳐진 가장자리, 종이 문고리. 최초 시안은 실사 복도에 가까워 제외하고 종이 구조가 드러나도록 수정했다.",
+      "replacement": {
+        "reason": "종이 재질 표현 부족; 실사 복도에 가까운 구조",
+        "rechecked": true
+      }
+    },
+    {
+      "file": "05-pixel-horror.png",
+      "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-b7e6603c-8f0b-44fc-bd1c-45e0544f53f7.png",
+      "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-b7e6603c-8f0b-44fc-bd1c-45e0544f53f7.png",
+      "first_review": "pass",
+      "second_review": "pass",
+      "decision": "approved as style comparison preview",
+      "notes": "계단 모양 윤곽과 큰 픽셀, 제한된 색감. 엄밀한 논리 해상도나 색상 수를 인증한 픽셀 파일은 아니다.",
+      "replacement": null
+    }
+  ],
+  "limits": [
+    "생성된 정지 이미지이며 영상 모션 검수는 적용하지 않음.",
+    "스타일 재질을 비교하기 위한 시안으로 문 개수, 배치, 밝기는 완전히 동일하지 않음.",
+    "검은 그림자의 비정상적인 팔과 윤곽은 의도한 초자연적 표현임."
+  ]
+}
