@@ -12,3 +12,10 @@ def test_spoken_coverage_treats_digits_as_korean_spoken_forms():
     ]
 
     assert character_coverage(script, raw_words) == 1.0
+
+
+def test_v4_performance_tags_are_excluded_from_spoken_alignment():
+    assert character_coverage(
+        "[quiet, measured narration] 문이 열렸어요. [whispering] 뒤에 있었죠.",
+        [{"text": "문이 열렸어요."}, {"text": "뒤에 있었죠."}],
+    ) == 1.0

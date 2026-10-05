@@ -5,11 +5,15 @@
 ## ElevenLabs 지시
 
 - Voice:
-- API model: `eleven_v3`
+- API model: `eleven_v4`
 - Language code: `ko`
 - Output format: `mp3_44100_128`
 - Pace:
 - Emotion:
+- V4 performance direction: `request.performance_direction`에 괄호 없는 한 줄 지시. 필요한 구간 태그는 발음용 TTS 파일에만 기록.
+- V4 settings: Stability 0.50, Similarity 0.75. Style·Speed·Speaker Boost·SSML 사용 안 함.
+- Delivery: 자연스러운 한국어 구술체와 문맥으로 감정선을 만들고, 핵심 대사에만 절제된 낭독 태그 사용.
+- Voice-only review: 의도하지 않은 효과음·배경음·태그 낭독 여부 확인.
 - Pronunciation notes:
 - Required user inputs: `ELEVENLABS_API_KEY`, `voice_id`, 필요 시 `voice_settings`.
 
@@ -19,7 +23,7 @@
 
 1. 초반 3초 후킹: 영상 시작 부분의 지루한 인사말이나 일반론은 삭제한다. 첫 문장은 시청자의 호기심을 자극하는 날카로운 질문형 문장, 핵심 수치, 또는 반전 사실로 시작한다.
 2. 시각 자료 힌트 주입: 하이퍼프레임스에서 자막, 이미지, 그래프를 타이밍에 맞춰 띄우기 좋도록 문맥 중간에 "지금 화면에 나오는 이 부분을 보시면...", "이 수치가 의미하는 것은..." 같은 시각적 안내 멘트를 자연스럽게 삽입한다.
-3. 구어체 텐션 극대화: 일레븐랩스 V3의 억양이 살아나도록 문장 끝을 완전한 대화체로 바꾼다. 예: "~아시죠?", "~거든요". 호흡이 늘어지지 않도록 문장은 짧고 타이트하게 쪼갠다.
+3. 구어체 텐션 극대화: 일레븐랩스 V4의 억양이 살아나도록 문장 끝을 완전한 대화체로 바꾼다. 예: "~아시죠?", "~거든요". 호흡이 늘어지지 않도록 문장은 짧고 타이트하게 쪼갠다.
 
 프로필 전용 규칙:
 

@@ -8,6 +8,7 @@
     "hf:lint": "hyperframes lint"
   },
   "dependencies": {
-    "hyperframes": "0.7.63"
+    "canvas": "3.2.3",
+    "hyperframes": "0.8.126"
   }
 }

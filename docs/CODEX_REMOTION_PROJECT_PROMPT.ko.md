@@ -250,14 +250,15 @@ ID: `classic_rich_motion_v1`
 
 ElevenLabs:
 
-- 모델 ID: `eleven_v3`
+- 신규 모델 ID: `eleven_v4`; 기존 프로젝트는 명시된 모델 유지
 - voice ID는 환경 변수 또는 프로젝트 요청 JSON에서 받음
 - API 키는 `ELEVENLABS_API_KEY` 환경 변수로만 받음
 - language code: `ko`
 - stability: 0.50
 - similarity_boost: 0.75
-- style: 0.15
-- use_speaker_boost: true
+- V4는 Stability·Similarity만 사용. Style·Speed·Speaker Boost·SSML은 전달하지 않음
+- 승인 대본·자막과 발음용 원고를 분리하고 감정 태그는 발음용 원고에만 드물게 사용
+- 조용한 한국어 구술체에서 감정을 단계적으로 높이고 생성 배경음 혼입 검수
 - 공백 포함 약 1,000~1,300자 단위로 문장 기반 청크 분할
 - 마침표, 물음표, 느낌표, 줄바꿈 우선
 - 문장 중간 분할 금지

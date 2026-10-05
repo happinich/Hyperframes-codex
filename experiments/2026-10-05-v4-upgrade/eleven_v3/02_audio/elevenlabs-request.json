@@ -1,0 +1,22 @@
+{
+  "script_source": "../01_script/narration.txt",
+  "tts_script_source": "../01_script/tts-narration.txt",
+  "target_audio": "inbox/narration.mp3",
+  "request": {
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v3",
+    "language_code": "ko",
+    "output_format": "mp3_44100_128",
+    "apply_text_normalization": "on",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.15,
+      "use_speaker_boost": true
+    },
+    "context_stitching": false
+  },
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY"
+  }
+}

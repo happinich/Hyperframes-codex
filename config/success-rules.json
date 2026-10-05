@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.6.0",
+  "schema_version": "1.7.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -38,7 +38,7 @@
         "separate_script_approval_required": true,
         "separate_tts_generation_required": true,
         "voice_speed": {
-          "method": "quality-preserving postprocess after eleven_v3 generation",
+          "method": "quality-preserving postprocess after eleven_v4 generation",
           "default_multiplier": 1.07,
           "allowed_multiplier_range": [1.05, 1.1],
           "avoid_above": 1.1,
@@ -207,7 +207,7 @@
   },
   "audio_rules": {
     "elevenlabs": {
-      "model_id": "eleven_v3",
+      "model_id": "eleven_v4",
       "apply_text_normalization": "on",
       "text_sources": {
         "display_and_captions": "01_script/narration.txt",
@@ -217,9 +217,7 @@
       },
       "voice_settings": {
         "stability": 0.5,
-        "similarity_boost": 0.75,
-        "style": 0.15,
-        "use_speaker_boost": true
+        "similarity_boost": 0.75
       },
       "chunking": {
         "enabled": true,
@@ -228,7 +226,19 @@
         "split_on": [".", "?", "!", "\n", "다.", "요."],
         "avoid_sentence_mid_cut": true
       },
-      "merge_chunks_sequentially": true
+      "merge_chunks_sequentially": true,
+      "context_stitching": true,
+      "api_character_limit": 10000,
+      "performance": {
+        "direction_field": "request.performance_direction",
+        "inline_tags_source": "01_script/tts-narration.txt",
+        "approved_narration_contains_audio_tags": false,
+        "supported_voice_settings": ["stability", "similarity_boost"],
+        "ssml_supported": false,
+        "narration_style": "Natural spoken Korean with restrained tension, conversational cadence, and gradual emotional escalation; use sparse performance tags only in the TTS input.",
+        "sound_effects_in_narration": false,
+        "review_model_generated_background_audio": true
+      }
     },
     "bgm": {
       "enabled": true,

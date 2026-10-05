@@ -16,6 +16,7 @@ import urllib.request
 from pathlib import Path
 
 from dotenv import load_dotenv
+from korean_tts_normalization import normalize_korean_tts_text
 
 from audio_mixing import (
     DEFAULT_BGM_FADE_OUT_SECONDS,
@@ -26,15 +27,13 @@ from audio_mixing import (
     mix_bgm_with_voice,
 )
 
-DEFAULT_MODEL_ID = "eleven_v3"
-DEFAULT_VOICE_SETTINGS = {
-    "stability": 0.50,
-    "similarity_boost": 0.75,
-    "style": 0.15,
-    "use_speaker_boost": True,
-}
-DEFAULT_MIN_CHARS = 1000
-DEFAULT_MAX_CHARS = 1300
+ELEVENLABS_RULES = json.loads(
+    (Path(__file__).resolve().parents[1] / "config" / "success-rules.json").read_text(encoding="utf-8")
+)["audio_rules"]["elevenlabs"]
+DEFAULT_MODEL_ID = ELEVENLABS_RULES["model_id"]
+DEFAULT_VOICE_SETTINGS = ELEVENLABS_RULES["voice_settings"]
+DEFAULT_MIN_CHARS = ELEVENLABS_RULES["chunking"]["target_chars_min"]
+DEFAULT_MAX_CHARS = ELEVENLABS_RULES["chunking"]["target_chars_max"]
 
 
 def load_json(path: Path) -> dict:
@@ -80,7 +79,7 @@ def split_text_chunks(text: str, min_chars: int = DEFAULT_MIN_CHARS, max_chars: 
         current = ""
         for candidate in units:
             # Sentence units should remain natural prose inside a chunk. Sending
-            # every sentence on a new line makes V3 add an exaggerated pause.
+            # every sentence on a new line can exaggerate the pauses.
             separator = " " if current else ""
             proposed = f"{current}{separator}{candidate}" if current else candidate
             if current and len(proposed) > limit:
@@ -114,6 +113,51 @@ def split_text_chunks(text: str, min_chars: int = DEFAULT_MIN_CHARS, max_chars: 
     return balanced
 
 
+def build_audio_payload(
+    text: str,
+    request_config: dict,
+    *,
+    request_history: list[str] | None = None,
+    previous_text: str | None = None,
+    next_text: str | None = None,
+) -> dict[str, object]:
+    model_id = request_config.get("model_id", DEFAULT_MODEL_ID)
+    settings = dict(request_config.get("voice_settings", DEFAULT_VOICE_SETTINGS))
+    is_v4 = model_id in {"eleven_v4", "eleven_v4_turbo"}
+    if is_v4:
+        # V4 exposes Stability and Similarity; Style, Speed and Speaker Boost
+        # from an older project must not leak into its request.
+        settings = {key: value for key, value in settings.items() if key in {"stability", "similarity_boost"}}
+        if re.search(r"<\s*/?\s*(?:speak|break|prosody|phoneme)\b", text, flags=re.I):
+            raise ValueError("Eleven V4 does not support SSML; use audio tags in the TTS source")
+    direction = request_config.get("performance_direction", "").strip()
+    if direction:
+        if "[" in direction or "]" in direction or "\n" in direction:
+            raise ValueError("performance_direction must be one plain direction without brackets")
+        text = f"[{direction}] {text}"
+    payload: dict[str, object] = {"text": text, "model_id": model_id, "voice_settings": settings}
+    if request_config.get("language_code"):
+        payload["language_code"] = request_config["language_code"]
+    if request_config.get("apply_text_normalization") in {"auto", "on", "off"}:
+        payload["apply_text_normalization"] = request_config["apply_text_normalization"]
+    if request_config.get("context_stitching", is_v4):
+        if request_history:
+            payload["previous_request_ids"] = request_history[-3:]
+        elif previous_text:
+            payload["previous_text"] = previous_text
+        if next_text:
+            payload["next_text"] = next_text
+    return payload
+
+
+def validate_v4_spoken_source(approved: str, tts: str) -> None:
+    """Performance tags may direct delivery but may not change approved words."""
+    spoken = re.sub(r"\[[^\]\n]+\]", "", tts)
+    expected = normalize_korean_tts_text(approved)
+    if " ".join(spoken.split()) != " ".join(expected.split()):
+        raise ValueError("V4 TTS source changed approved words; only pronunciation normalization and audio tags are allowed")
+
+
 def request_audio_bytes(
     *,
     url: str,
@@ -122,16 +166,14 @@ def request_audio_bytes(
     request_config: dict,
     chunk_number: int,
     chunk_count: int,
+    request_history: list[str] | None = None,
+    previous_text: str | None = None,
+    next_text: str | None = None,
 ) -> bytes:
-    payload: dict[str, object] = {
-        "text": text,
-        "model_id": request_config.get("model_id", DEFAULT_MODEL_ID),
-        "voice_settings": request_config.get("voice_settings", DEFAULT_VOICE_SETTINGS),
-    }
-    if request_config.get("language_code"):
-        payload["language_code"] = request_config["language_code"]
-    if request_config.get("apply_text_normalization") in {"auto", "on", "off"}:
-        payload["apply_text_normalization"] = request_config["apply_text_normalization"]
+    payload = build_audio_payload(
+        text, request_config, request_history=request_history,
+        previous_text=previous_text, next_text=next_text,
+    )
 
     request = urllib.request.Request(
         url,
@@ -146,7 +188,11 @@ def request_audio_bytes(
 
     try:
         with urllib.request.urlopen(request, timeout=180) as response:
-            return response.read()
+            audio = response.read()
+            request_id = response.headers.get("request-id") or response.headers.get("xi-request-id")
+            if request_history is not None and request_id:
+                request_history.append(request_id)
+            return audio
     except urllib.error.HTTPError as error:
         body = error.read().decode("utf-8", errors="replace")
         print(f"ElevenLabs request failed on chunk {chunk_number}/{chunk_count}: HTTP {error.code}", file=sys.stderr)
@@ -295,6 +341,11 @@ def main() -> int:
             "TTS narration still contains digits. Run scripts/prepare_tts_script.py "
             "and review tts-normalization-report.json before generating audio"
         )
+    if request_config.get("model_id", DEFAULT_MODEL_ID) in {"eleven_v4", "eleven_v4_turbo"}:
+        try:
+            validate_v4_spoken_source(script_source.read_text(encoding="utf-8"), text)
+        except ValueError as error:
+            parser.error(str(error))
 
     target_audio = (config_path.parent / config.get("target_audio", f"inbox/{project.name}-narration.mp3")).resolve()
     if target_audio.exists() and not args.replace:
@@ -314,6 +365,7 @@ def main() -> int:
     try:
         with tempfile.TemporaryDirectory(prefix="elevenlabs-parts-") as temp_dir:
             part_paths: list[Path] = []
+            request_history: list[str] = []
             voice_only_audio = Path(temp_dir) / f"{target_audio.stem}-voice-only{target_audio.suffix}"
             for index, chunk in enumerate(chunks, start=1):
                 print(f"  chunk {index}/{len(chunks)}: {len(chunk)} chars")
@@ -324,6 +376,9 @@ def main() -> int:
                     request_config=request_config,
                     chunk_number=index,
                     chunk_count=len(chunks),
+                    request_history=request_history,
+                    previous_text=chunks[index - 2] if index > 1 else None,
+                    next_text=chunks[index] if index < len(chunks) else None,
                 )
                 part_path = Path(temp_dir) / f"part-{index:03d}.mp3"
                 part_path.write_bytes(audio)
@@ -372,9 +427,9 @@ def main() -> int:
             return pacing.returncode
     else:
         print("Next:")
-        print(f"  python3 scripts/ingest_audio.py {project} {target_audio} --replace")
-        print(f"  python3 scripts/align_captions.py {project} --language {args.language}")
-        print(f"  python3 scripts/analyze_audio_pacing.py {project} --language {args.language}")
+        print(f"  {sys.executable} scripts/ingest_audio.py {project} {target_audio} --replace")
+        print(f"  {sys.executable} scripts/align_captions.py {project} --language {args.language}")
+        print(f"  {sys.executable} scripts/analyze_audio_pacing.py {project} --language {args.language}")
     return 0
 
 

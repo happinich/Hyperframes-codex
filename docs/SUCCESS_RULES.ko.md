@@ -43,7 +43,7 @@
 새 공포 대본은 사람이 경험을 직접 들려주는 **존댓말 구술형 이야기체**로 씁니다.
 `~했어요`, `~였죠`, `~거든요`, `~더라고요`, 필요한 `~했습니다`를 감정과
 호흡에 따라 섞습니다. `했다·였다` 단문이나 한 가지 종결을 기계적으로 반복하지
-않고, 일레븐랩스 V3가 억양을 살릴 수 있게 문장 길이도 자연스럽게 바꿉니다.
+않고, 일레븐랩스 V4가 억양을 살릴 수 있게 문장 길이도 자연스럽게 바꿉니다.
 이미 승인·녹음된 완료 프로젝트의 말투는 유지합니다.
 
 공포 본편은 한 영상에 6~8분 이야기 한 편을 완결합니다. 3~4편 묶음은 현재 보류하며, 개별 단편의 유지율 데이터와 게시 라이브러리가 충분히 쌓인 뒤 2차 포맷으로 검토합니다. 자세한 구조는 [`HORROR_CHANNEL_STRATEGY.ko.md`](HORROR_CHANNEL_STRATEGY.ko.md)를 따릅니다.
@@ -66,16 +66,16 @@
 
 ## ElevenLabs 오디오 규칙
 
-기본 모델은 `eleven_v3`를 사용한다.
+새 프로젝트의 기본 모델은 `eleven_v4`를 사용한다. 기존 프로젝트에 기록된 모델은 재현 시 유지한다. V4는 Stability와 Similarity 두 설정만 지원하며 Style·Speed·Speaker Boost·SSML을 보내지 않는다.
+
+감정은 자연스러운 존댓말 구술형 문장과 문맥으로 먼저 만든다. 필요한 구간에만 낭독 태그를 쓰고, 태그는 `tts-narration.txt` 또는 `request.performance_direction`에만 둔다. 승인 원고와 자막은 낭독할 문장만 유지한다. 청크 사이의 흐름은 이전 요청 ID 또는 앞뒤 원문으로 연결하고, 의도하지 않은 효과음·배경음이 포함됐는지 검수한다.
 
 권장 보이스 세팅:
 
 ```json
 {
   "stability": 0.5,
-  "similarity_boost": 0.75,
-  "style": 0.15,
-  "use_speaker_boost": true
+  "similarity_boost": 0.75
 }
 ```
 
@@ -187,7 +187,7 @@ Whisper 모델은 `mlx-community/whisper-large-v3-turbo`를 사용한다.
 
 ```bash
 npm run hf:lint -- <project>/04_composition
-python3 scripts/render_project.py <project> --format youtube --dry-run
+.venv/bin/python scripts/render_project.py <project> --format youtube --dry-run
 ```
 
 렌더 후:
@@ -233,7 +233,7 @@ projects/<project-id>/07_publish/youtube/youtube-publish.md
 
 공포 설명란에는 타임스탬프와 `창작 공포`, `제보 각색`, `검증된 경험담` 중 하나의 작품 성격을 넣습니다. 쇼츠 업로드 후에는 설명란 URL에 의존하지 않고 본편을 `관련 동영상`으로 지정합니다. 롱폼 마지막 15~20초는 관련 영상·재생목록 엔드스크린용으로 비워 둡니다.
 
-모든 새 본편에는 쇼츠 최소 1편을 필수로 만듭니다. 본편 발췌를 기본으로 사용하지 않고 같은 소재를 첫 1초 훅과 압축된 위협 상승이 있는 `15~40초` 무스포 티저로 다시 씁니다. 정체, 반전, 결말이 드러나기 직전 완전한 문장으로 끊습니다. 쇼츠 전용 대본은 별도 승인하고 Eleven V3로 새 음성을 생성합니다. 음성은 자연스러운 범위인 `1.05~1.10배`에서 피치를 유지해 후처리하며 기본값은 `1.07배`입니다. `1080x1920`, `60fps` 별도 세로 컴포지션, 모바일용 번인 자막, 외부 SRT/VTT, `07_publish/shorts/shorts-publish.html`이 모두 존재하고 검수되어야 프로젝트를 완료로 처리합니다.
+모든 새 본편에는 쇼츠 최소 1편을 필수로 만듭니다. 본편 발췌를 기본으로 사용하지 않고 같은 소재를 첫 1초 훅과 압축된 위협 상승이 있는 `15~40초` 무스포 티저로 다시 씁니다. 정체, 반전, 결말이 드러나기 직전 완전한 문장으로 끊습니다. 쇼츠 전용 대본은 별도 승인하고 Eleven V4로 새 음성을 생성합니다. 음성은 자연스러운 범위인 `1.05~1.10배`에서 피치를 유지해 후처리하며 기본값은 `1.07배`입니다. `1080x1920`, `60fps` 별도 세로 컴포지션, 모바일용 번인 자막, 외부 SRT/VTT, `07_publish/shorts/shorts-publish.html`이 모두 존재하고 검수되어야 프로젝트를 완료로 처리합니다.
 
 ## 쇼츠 전용 이미지
 
@@ -276,7 +276,7 @@ projects/<project-id>/07_publish/youtube/youtube-publish.md
 - [ ] `scene-plan.json`을 초 단위로 작성한다.
 - [ ] planned captions를 먼저 만든다.
 - [ ] 숫자를 한글 발음으로 바꾼 `tts-narration.txt`를 만들고 남은 숫자가 없는지 확인한다.
-- [ ] ElevenLabs V3로 음성을 생성한다.
+- [ ] ElevenLabs V4로 음성을 생성한다.
 - [ ] Whisper turbo로 실제 단어 타이밍을 잡는다.
 - [ ] 씬 시작/종료 시간을 실제 음성 기준으로 업데이트한다.
 - [ ] 승인된 비주얼 스타일로 HyperFrames 컴포지션을 만든다.

@@ -1,0 +1,10 @@
+{
+  "production_profile": {
+    "id": "horror_cinematic_story_v1"
+  },
+  "master_format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  }
+}

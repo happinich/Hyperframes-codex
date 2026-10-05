@@ -1,0 +1,8 @@
+{
+  "model": "eleven_v4",
+  "chunk_count": 2,
+  "captured_request_id_count": 2,
+  "next_text_on_first_request": true,
+  "previous_request_ids_on_second_request": true,
+  "output_sha256": "551ffa4f741aaeccc8f0e41c3c4b11e0c37602b6f2102a82697d07e49d3219a1"
+}

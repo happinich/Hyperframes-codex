@@ -1,0 +1,48 @@
+{
+  "eleven_v3": {
+    "audio_duration_seconds": 50.8,
+    "audio_sha256": "27d651d46ab714d74213173e7a3310454136c49b871a28c467aca37dff948c38",
+    "alignment_ratio": 1.0,
+    "average_wpm": 110.5,
+    "long_silence_count": 0,
+    "word_gaps_over_0_8_seconds": [
+      {
+        "start": 9.34,
+        "end": 10.26,
+        "duration": 0.92,
+        "before": "말했습니다.",
+        "after": "넷."
+      },
+      {
+        "start": 31.88,
+        "end": 32.92,
+        "duration": 1.04,
+        "before": "보였거든요.",
+        "after": "셋이"
+      },
+      {
+        "start": 42.14,
+        "end": 43.24,
+        "duration": 1.1,
+        "before": "침대였습니다.",
+        "after": "누가"
+      }
+    ]
+  },
+  "eleven_v4": {
+    "audio_duration_seconds": 48.88,
+    "audio_sha256": "02142ed3045c3a1d02755873fcdf7dd3db40bdd90b611d383df6bfdffc56edae",
+    "alignment_ratio": 1.0,
+    "average_wpm": 115.6,
+    "long_silence_count": 0,
+    "word_gaps_over_0_8_seconds": [
+      {
+        "start": 9.64,
+        "end": 10.56,
+        "duration": 0.92,
+        "before": "말했습니다.",
+        "after": "넷."
+      }
+    ]
+  }
+}

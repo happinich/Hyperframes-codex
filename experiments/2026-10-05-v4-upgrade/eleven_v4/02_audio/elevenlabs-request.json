@@ -1,0 +1,21 @@
+{
+  "script_source": "../01_script/narration.txt",
+  "tts_script_source": "../01_script/tts-narration.txt",
+  "target_audio": "inbox/narration.mp3",
+  "request": {
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v4",
+    "language_code": "ko",
+    "output_format": "mp3_44100_128",
+    "apply_text_normalization": "on",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "context_stitching": true,
+    "performance_direction": "quiet, conversational Korean narration, restrained tension"
+  },
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY"
+  }
+}

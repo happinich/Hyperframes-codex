@@ -10,6 +10,9 @@ commands, project files, generated media, and deliverables. The legacy path
 `/Users/happinich/Documents/Hyperframes-codex` is a symlink to this workspace so
 existing chats and file links continue to resolve.
 
+Use `.venv/bin/python` for project Python commands. The project environment is
+Python 3.14.8; `/usr/bin/python3` is the separate macOS developer-tools interpreter.
+
 This repository is the standalone Hyperframes production workspace. Do not edit,
 sync, or assume a runtime dependency on `/Users/happinich/Documents/Remotion-codex`.
 Remotion-codex is a separate repository that may reuse production ideas, but
@@ -69,7 +72,7 @@ silently carry a previous project's style or BGM into a new project.
   first anomaly between 40 and 60 seconds.
 - For explainer profiles, start within three seconds with a sharp question,
   important number, reversal, or high-stakes claim.
-- Write short, conversational Korean suitable for ElevenLabs V3.
+- Write short, conversational Korean suitable for ElevenLabs V4.
 - Preserve the user's argument and intended energy while checking factual claims.
 - Make `01_script/narration.txt` the approved text source of truth.
 - Keep `caption_text` identical to `narration_text`.
@@ -108,8 +111,16 @@ silently carry a previous project's style or BGM into a new project.
 
 ## Audio And Timing
 
-- Use ElevenLabs model `eleven_v3` and the voice settings in
-  `config/success-rules.json`.
+- Use ElevenLabs model `eleven_v4` for new narration and the voice settings in
+  `config/success-rules.json`. Explicit model settings in existing projects remain
+  authoritative when reviewing or reproducing those projects.
+- V4 uses Stability and Similarity only. Direct emotion and cadence with sparse
+  audio tags in `tts-narration.txt` or `request.performance_direction`; keep
+  `narration.txt` and captions free of performance tags. Do not send Style, Speed,
+  Speaker Boost or SSML. Build restrained spoken Korean with a gradual emotional
+  arc, and review any generated non-speech or background audio before accepting
+  a voice-only master. Connect sequential chunks using prior request IDs or
+  neighboring text.
 - Split long text at sentence boundaries into approximately 1,000-1,300
   characters, generate chunks sequentially, and concatenate them without gaps.
 - Keep API keys only in environment variables. Never place a real key in source,
@@ -170,7 +181,7 @@ silently carry a previous project's style or BGM into a new project.
 - Generate fresh portrait visual assets for each Short. Do not reuse long-form
   images, extract long-form frames, or crop the master. Keep generation provenance
   and verify that Shorts asset paths and hashes differ from the long-form assets.
-- Generate Shorts narration from a separately approved script. For Eleven V3,
+- Generate Shorts narration from a separately approved script. For Eleven V4,
   keep the normal generation settings and apply a pitch-preserving 1.05-1.10x
   postprocess only after generation; use 1.07x by default and review it by ear.
 - Frame rate improves motion smoothness; narration synchronization still depends
@@ -189,14 +200,14 @@ silently carry a previous project's style or BGM into a new project.
 List available profiles and styles:
 
 ```bash
-python3 scripts/new_project.py --list-production-profiles
-python3 scripts/new_project.py --list-visual-styles
+.venv/bin/python scripts/new_project.py --list-production-profiles
+.venv/bin/python scripts/new_project.py --list-visual-styles
 ```
 
 Create an approved project:
 
 ```bash
-python3 scripts/new_project.py <project-id> \
+.venv/bin/python scripts/new_project.py <project-id> \
   --title "<title>" \
   --production-profile <approved-profile-id> \
   --visual-style <approved-style-id>
@@ -205,28 +216,28 @@ python3 scripts/new_project.py <project-id> \
 Process narration and timing:
 
 ```bash
-python3 scripts/create_planned_captions.py <project>
-python3 scripts/generate_elevenlabs_audio.py <project> --replace --postprocess
-python3 scripts/align_captions.py <project> --language ko
-python3 scripts/analyze_audio_pacing.py <project> --language ko
+.venv/bin/python scripts/create_planned_captions.py <project>
+.venv/bin/python scripts/generate_elevenlabs_audio.py <project> --replace --postprocess
+.venv/bin/python scripts/align_captions.py <project> --language ko
+.venv/bin/python scripts/analyze_audio_pacing.py <project> --language ko
 ```
 
 Choose and apply BGM (after the voice review passes):
 
 ```bash
-python3 scripts/generate_bgm_candidates.py <project>
-python3 scripts/apply_bgm.py <project> --candidate cand-02 --dry-run
-python3 scripts/apply_bgm.py <project> --candidate cand-02
+.venv/bin/python scripts/generate_bgm_candidates.py <project>
+.venv/bin/python scripts/apply_bgm.py <project> --candidate cand-02 --dry-run
+.venv/bin/python scripts/apply_bgm.py <project> --candidate cand-02
 ```
 
 Validate and render:
 
 ```bash
 npm run hf:lint -- <project>/04_composition
-python3 scripts/render_project.py <project> --format youtube --dry-run
-python3 scripts/render_project.py <project> --format youtube
-python3 scripts/render_project.py <project> --format shorts --dry-run
-python3 scripts/render_project.py <project> --format shorts
+.venv/bin/python scripts/render_project.py <project> --format youtube --dry-run
+.venv/bin/python scripts/render_project.py <project> --format youtube
+.venv/bin/python scripts/render_project.py <project> --format shorts --dry-run
+.venv/bin/python scripts/render_project.py <project> --format shorts
 ```
 
 Create an explicitly approved optional long-form captioned version:

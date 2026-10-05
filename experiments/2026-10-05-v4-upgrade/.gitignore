@@ -1,0 +1,7 @@
+*.png
+*.log
+**/assets/gsap.min.js
+/caption-smoke/
+/06_delivery/
+/05_review/
+/03_sync/

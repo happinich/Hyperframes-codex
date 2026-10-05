@@ -152,7 +152,7 @@ def main() -> int:
     if silences:
         report["recommendations"].append("Regenerate affected sections or trim long silences before rendering.")
     if slow_windows:
-        report["recommendations"].append("Use eleven_v3 with 1,000-1,300 character sentence chunks and review voice settings before rendering.")
+        report["recommendations"].append("Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering.")
     if fast_windows:
         report["recommendations"].append("Review fast windows for rushed pronunciation before accepting.")
     report["status"] = status_for(report, args.max_long_silences, args.max_gap_count, args.max_slow_windows)

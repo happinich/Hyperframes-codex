@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><link rel="icon" href="data:,"><title>V4 환경 검증</title>
+<style>@font-face{font-family:"Apple SD Gothic Neo";src:local("Apple SD Gothic Neo")}*{box-sizing:border-box}body{margin:0;background:#06141a;color:#f4f7f8;font-family:"Apple SD Gothic Neo",sans-serif}
+#master{position:relative;width:1080px;height:1920px;overflow:hidden;background:radial-gradient(circle at 55% 50%,#1b3e47,#06141a)}
+.copy{position:absolute;left:10%;top:30%;width:80%}h1{font-size:72px;line-height:1.25;margin:0 0 28px}p{font-size:40px;color:#95c9d1}
+.glow{position:absolute;left:12%;top:68%;width:150px;height:150px;border-radius:50%;background:#38d0ad;box-shadow:0 0 65px #38d0ad}
+.bar{position:absolute;left:10%;bottom:12%;height:10px;width:0;background:#ff5467}
+</style></head><body><main id="master" data-composition-id="smoke-master" data-width="1080" data-height="1920" data-fps="60" data-start="0" data-duration="3">
+<div class="copy"><h1>제작 환경 업데이트</h1><p>Eleven V4 · 60fps</p></div><div class="glow"></div><div class="bar"></div>
+<audio id="voice" data-start="0" data-duration="3" data-track-index="0" src="assets/voice.wav" data-volume="1"></audio></main>
+<script src="assets/gsap.min.js"></script><script>window.__timelines=window.__timelines||{};const t=gsap.timeline({paused:true});
+t.fromTo('.glow',{x:0,scale:.8},{x:561.6,scale:1.1,duration:3,ease:'none'},0).to('.bar',{width:'80%',duration:3,ease:'none'},0);window.__timelines['smoke-master']=t;</script></body></html>

@@ -26,6 +26,8 @@ def normalized(text: str) -> str:
 
 
 def character_coverage(script: str, raw_words: list[dict]) -> float:
+    # Audio tags direct the voice but are never spoken words or captions.
+    script = re.sub(r"\[[^\]\n]+\]", "", script)
     script_norm = normalized(normalize_korean_tts_text(script))
     heard_text = " ".join(word["text"] for word in raw_words)
     heard_norm = normalized(normalize_korean_tts_text(heard_text))

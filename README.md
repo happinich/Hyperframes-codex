@@ -2,6 +2,18 @@
 
 얼굴 노출 없는 내레이션 기반 모션 영상을 여러 편 동시에 제작하기 위한 작업 공간입니다. 각 영상은 `projects/<project-id>/` 안에서 독립적으로 관리하고, 공통 도구와 디자인 자산은 최상위에 한 번만 둡니다.
 
+## 실행 환경
+
+Python 3.14.8과 프로젝트 전용 `.venv`를 사용합니다.
+
+```bash
+uv venv --python 3.14.8 .venv
+uv pip sync --python .venv/bin/python --link-mode copy requirements.lock
+npm ci
+```
+
+새 나레이션은 ElevenLabs `eleven_v4`로 생성합니다. 감정 지시는 발음용 TTS 입력에만 두고 승인 원고와 자막은 읽을 문장만 유지합니다.
+
 ## 제작 순서
 
 1. 주제와 목표를 정하면 제가 `01_script/narration.txt`와 초 단위 `scene-plan.json`을 작성합니다.
@@ -12,16 +24,16 @@
 6. 제작 프로필과 화면 스타일 후보를 먼저 제시하고 사용자 승인을 받은 뒤 HyperFrames HTML 컴포지션을 만들어 YouTube 16:9를 우선 렌더합니다. 현재 신규 기본은 공포 채널용 호러 시네마틱 스토리형이며, 설명형 미니멀 다크 테크와 기존 카드·차트 중심 방식은 별도 프로필로 보존합니다. 동일 기획에서 Shorts용 9:16 재구성도 보관합니다.
 
 ```bash
-python3 scripts/new_project.py first-horror \
+.venv/bin/python scripts/new_project.py first-horror \
   --title "새벽 호출벨이 세 번 울리면" \
   --production-profile horror_cinematic_story_v1 \
   --visual-style horror_cinematic
-python3 scripts/create_planned_captions.py projects/first-video
-python3 scripts/ingest_audio.py projects/first-video path/to/recording.m4a
-python3 scripts/import_srt_captions.py projects/first-video path/to/provided-captions.srt
-python3 scripts/align_captions.py projects/first-video
-python3 scripts/render_project.py projects/first-video --format youtube
-python3 scripts/render_project.py projects/first-video --format shorts
+.venv/bin/python scripts/create_planned_captions.py projects/first-video
+.venv/bin/python scripts/ingest_audio.py projects/first-video path/to/recording.m4a
+.venv/bin/python scripts/import_srt_captions.py projects/first-video path/to/provided-captions.srt
+.venv/bin/python scripts/align_captions.py projects/first-video
+.venv/bin/python scripts/render_project.py projects/first-video --format youtube
+.venv/bin/python scripts/render_project.py projects/first-video --format shorts
 ```
 
 `align_captions.py`는 Apple Silicon용 `mlx-whisper`를 사용합니다. 설치 방법과 검수 기준은 [docs/WORKFLOW.ko.md](docs/WORKFLOW.ko.md)를 참고합니다.

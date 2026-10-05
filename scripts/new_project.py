@@ -130,6 +130,19 @@ def main() -> int:
                 content = content.replace(marker, replacement)
             path.write_text(content, encoding="utf-8")
 
+    # Numeric audio settings follow the canonical rules even when a template
+    # was copied before the defaults changed.
+    rules = json.loads((ROOT / "config" / "success-rules.json").read_text(encoding="utf-8"))
+    audio_defaults = rules["audio_rules"]["elevenlabs"]
+    request_path = destination / "02_audio" / "elevenlabs-request.json"
+    audio_config = json.loads(request_path.read_text(encoding="utf-8"))
+    audio_config["request"].update({
+        "model_id": audio_defaults["model_id"],
+        "voice_settings": audio_defaults["voice_settings"],
+        "context_stitching": audio_defaults.get("context_stitching", False),
+    })
+    request_path.write_text(json.dumps(audio_config, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     print(f"Created project: {destination}")
     print(f"Profile:        {selected_profile['label_ko']} ({profile_id})")
     print(f"Visual style:   {selected_style['label_ko']} ({args.visual_style})")
