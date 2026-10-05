@@ -1,0 +1,19 @@
+{
+  "status": "preview_only_not_production_style_approval",
+  "generator": "built_in_image_gen",
+  "initial_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-c07c1649-3541-4883-9cbd-41b84073897b.png",
+  "final_source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-7e31779c-207c-46ed-a042-433d7eb2514a.png",
+  "scene_reference": "projects/2026-025-ball-pit-after-close/04_composition/assets/visuals/shot-03.png",
+  "asset": "style-comparison.png",
+  "sha256": "cf17328646779046cfd2b54de3b2df73d66c27f0d3b1873f46e938d9ab8c8cb1",
+  "review_1": "PASS as style comparison: full-resolution visual inspected, A/B/C distinct, all hand-rendered and darker than original, same pit-left/slide-right/open-door-right/table layout, one marked red clue, no people/creature/extra captions. Original board rejected for overly detailed surface rendering and shiny foreground.",
+  "review_2": "PASS as style comparison: compared final original-size board to source scene and horror narrative constraints again; left pit/right slide/open staff-room door and two tables remain coherent, red-ball mark is readable, no accidental people or revealing entity, no text except intended A/B/C labels. A reduces fine surface detail through broad pigment shapes; B/C trade-offs documented. This does not approve production scenes or change approved completed visuals.",
+  "recommendation": "A: dark painterly illustration",
+  "limitations": [
+    "This board compares atmosphere; individual final production scenes must be newly generated and reviewed twice after style approval.",
+    "B drawing marks can suggest an abandoned place if overdone; keep normal-place architecture intact in production.",
+    "C is darker; inspect each clue on a mobile-sized render before use."
+  ],
+  "completed_project_modified": false,
+  "shared_default_changed": false
+}
