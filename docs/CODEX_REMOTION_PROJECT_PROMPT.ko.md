@@ -7,7 +7,7 @@
 
 현재 다음 소스 프로젝트가 있습니다.
 
-- 기준 프로젝트: /Users/happinich/Documents/Hyperframes-codex
+- 기준 프로젝트: /Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co
 - 새 프로젝트 목표 경로: /Users/happinich/Documents/Remotion-codex
 
 이번 작업의 목적은 기존 Hyperframes 프로젝트에서 확립한 제작 규칙을 Remotion 기반의 독립적인 자동 영상 제작 시스템으로 옮기는 것입니다.

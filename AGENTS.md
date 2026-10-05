@@ -4,6 +4,12 @@
 
 These instructions apply to the entire `Hyperframes-codex` repository.
 
+The canonical local workspace is
+`/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co`. Use this directory for future
+commands, project files, generated media, and deliverables. The legacy path
+`/Users/happinich/Documents/Hyperframes-codex` is a symlink to this workspace so
+existing chats and file links continue to resolve.
+
 This repository is the standalone Hyperframes production workspace. Do not edit,
 sync, or assume a runtime dependency on `/Users/happinich/Documents/Remotion-codex`.
 Remotion-codex is a separate repository that may reuse production ideas, but

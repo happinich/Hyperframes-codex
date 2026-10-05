@@ -108,7 +108,7 @@ python3 scripts/create_planned_captions.py projects/2026-001-ai-workflow
 
 ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. API 키는 `.env`나 로컬 환경 변수로만 사용하고 프로젝트 파일에는 기록하지 않습니다.
 
-로컬 API 키 입력 파일은 저장소 최상단의 `/Users/happinich/Documents/Hyperframes-codex/.env`입니다. `.env.example`을 형식 참고용으로 사용하며, 실제 `.env`는 `.gitignore`에 의해 Git에 포함되지 않습니다. `generate_elevenlabs_audio.py`는 실행 시 이 파일을 자동으로 읽되, 이미 설정된 운영체제 환경 변수가 있으면 그 값을 우선합니다.
+로컬 API 키 입력 파일은 저장소 최상단의 `/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/.env`입니다. `.env.example`을 형식 참고용으로 사용하며, 실제 `.env`는 `.gitignore`에 의해 Git에 포함되지 않습니다. `generate_elevenlabs_audio.py`는 실행 시 이 파일을 자동으로 읽되, 이미 설정된 운영체제 환경 변수가 있으면 그 값을 우선합니다.
 
 | 항목 | 용도 |
 | --- | --- |
