@@ -60,6 +60,13 @@ the documentation and templates in sync when a shared rule changes.
 
 Follow these gates for every new long-form production:
 
+For a new horror story without a user-supplied premise, recommend three distinct
+story candidates by default and wait for the user to choose one before writing
+the complete narration. Include a hook, premise, horror type, suggested visual
+style and editing approach, and one primary recommendation with its reason.
+The candidate count is defined in `config/horror-channel-strategy.json`.
+Topic selection alone does not approve narration, visual style, voice, or BGM.
+
 1. Gather the topic, supplied sources, target duration, audience, and goal.
 2. Research current or unstable claims when necessary.
 3. Write the complete narration and a second-level scene plan.

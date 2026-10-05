@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.5.0",
+  "schema_version": "1.6.0",
   "strategy_id": "korean_modern_horror_channel_v1",
   "status": "active_default",
   "purpose": "Face-free Korean modern-horror narration channel strategy for discovery, retention, binge viewing, and repeatable production.",
@@ -35,6 +35,35 @@
       "공포와 무관한 시사·재테크 영상 혼합",
       "한 채널 안에서 코미디·다큐·점프스케어 톤을 무작위로 교차",
       "현대 일상형 공포의 약속을 깨는 무관한 소재 반복"
+    ]
+  },
+  "topic_selection": {
+    "default_candidate_count": 3,
+    "selected_candidate_count": 1,
+    "selection_by": "user",
+    "workflow": "recommend_candidates_then_user_selects_then_write_complete_narration",
+    "primary_recommendation_count": 1,
+    "candidate_fields": [
+      "working_title",
+      "cold_open_line",
+      "premise",
+      "horror_type",
+      "recommended_visual_style",
+      "editing_direction",
+      "recommendation_reason"
+    ],
+    "diversity_axes": [
+      "setting",
+      "decisive_object",
+      "threat_structure"
+    ],
+    "check_existing_projects_and_latest_reference_report": true,
+    "override": "사용자가 소재 또는 다른 후보 수를 지정하면 해당 요청을 따른다.",
+    "topic_selection_does_not_approve": [
+      "narration",
+      "visual_style",
+      "voice",
+      "bgm"
     ]
   },
   "horror_mix": {
