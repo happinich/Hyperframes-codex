@@ -45,3 +45,6 @@ projects/*/06_delivery/shorts/*
 !projects/*/06_delivery/shorts/.gitkeep
 projects/*/06_delivery/review/*
 projects/*/06_delivery/review_frames/*
+
+# Portable cloud-delivery copies stay local; commit the preparation script/receipt.
+projects/*/07_publish/drive/

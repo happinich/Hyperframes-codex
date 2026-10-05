@@ -1,0 +1,81 @@
+{
+  "project_id": "2026-025-ball-pit-after-close",
+  "destination": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "remote_subfolder_name": "2026-025-ball-pit-after-close",
+  "status": "prepared_not_uploaded",
+  "longform_video_included": false,
+  "files": [
+    {
+      "name": "2026-025-ball-pit-after-close-shorts.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/2026-025-ball-pit-after-close-shorts.mp4",
+      "bytes": 9581246,
+      "sha256": "a0ab0048278f856c0c7b7a92900e512f26a4b0ee2537365f648c1e2c6107d5b1"
+    },
+    {
+      "name": "README.txt",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/README.txt",
+      "bytes": 512,
+      "sha256": "bcbd27660d6baa40ab3d5175fc22a4a2f0e5aefe2dac467df51fcae89a658072"
+    },
+    {
+      "name": "captions.srt",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/captions.srt",
+      "bytes": 14903,
+      "sha256": "7d5499725192419f84668437267653b696453d0696c105f9aa2a640f4cae3548"
+    },
+    {
+      "name": "captions.vtt",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/captions.vtt",
+      "bytes": 14391,
+      "sha256": "6a7e7f1e15887a4a9d66e3e7a0d1f82220245084d98fee0ece4278d5c36cf197"
+    },
+    {
+      "name": "shorts-captions.srt",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/shorts-captions.srt",
+      "bytes": 656,
+      "sha256": "3da8917f7e6b1c738c313a3513da4365bd0ff031d465341f6110e1dd6f585201"
+    },
+    {
+      "name": "shorts-captions.vtt",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/shorts-captions.vtt",
+      "bytes": 650,
+      "sha256": "cbf4dbafc36275dfc33ca12215942029036e5f04ad750ad0b5eb4d9789da65bf"
+    },
+    {
+      "name": "shorts-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/shorts-publish.html",
+      "bytes": 5743,
+      "sha256": "fb1a4c37379defd4361731a5f863fbad452fcdc6bfb06f7335edd23669310b32"
+    },
+    {
+      "name": "shorts-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/shorts-publish.md",
+      "bytes": 1268,
+      "sha256": "008303a72c171c904bae994335ca6f2135a2517c06d2c536ea3983ae0b22496b"
+    },
+    {
+      "name": "thumbnail-a.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/thumbnail-a.png",
+      "bytes": 1086687,
+      "sha256": "ebcf05ac205cd34470842b383df0f8c741edc555fbbf49ee58e03d0c43d6db6d"
+    },
+    {
+      "name": "thumbnail-b.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/thumbnail-b.png",
+      "bytes": 1202043,
+      "sha256": "88f69943cfd4952aeecbc020dad346952ca68d4dfd391174993487ba404e4284"
+    },
+    {
+      "name": "youtube-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/youtube-publish.html",
+      "bytes": 10061,
+      "sha256": "489977b0606523a22b95515006e948b7ee7d205b60c08a4b4e731a3b5b1b46b8"
+    },
+    {
+      "name": "youtube-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-025-ball-pit-after-close/07_publish/drive/2026-025-ball-pit-after-close/youtube-publish.md",
+      "bytes": 3166,
+      "sha256": "b88e0e8ae06d3b84199d02ffdf4f366d90e2f221122f079f4e459f262bb676a6"
+    }
+  ]
+}

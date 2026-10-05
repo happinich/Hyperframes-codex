@@ -361,6 +361,17 @@
     ]
   },
   "publishing_rules": {
+    "google_drive_delivery": {
+      "enabled": true,
+      "folder_id": "1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+      "folder_url": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+      "project_subfolder": true,
+      "upload_after_final_review": true,
+      "include": ["longform_publishing_md_html", "final_thumbnails", "shorts_mp4", "shorts_publishing_md_html", "final_srt_vtt"],
+      "exclude": ["longform_mp4", "source_audio", "working_assets", "credentials"],
+      "verify_uploaded_file_list": true,
+      "record_receipt": "07_publish/drive-upload-receipt.json"
+    },
     "youtube_publish_md_single_file": true,
     "include_copy_buttons": true,
     "description_must_include": ["summary", "timestamps", "content_nature_label", "playlist_or_related_video", "hashtags"],

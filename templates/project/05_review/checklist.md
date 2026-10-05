@@ -42,3 +42,9 @@
 - [ ] Shorts 첫 프레임과 첫 음성이 잘리지 않고 동시에 시작한다.
 - [ ] Shorts 번인 자막과 외부 SRT/VTT의 타이밍·모바일 안전 영역을 검수했다.
 - [ ] `07_publish/shorts/shorts-publish.html`과 본편 관련 동영상 대상이 준비되었다.
+
+## Google Drive 전달
+
+- [ ] `scripts/prepare_drive_delivery.py`로 게시 전략·썸네일·쇼츠·최종 자막 사본을 준비했다.
+- [ ] 지정 Drive의 프로젝트별 폴더에 업로드했다. 롱폼 MP4는 제외했다.
+- [ ] 실제 업로드 완료 표시와 파일 목록을 확인하고 `07_publish/drive-upload-receipt.json`에 기록했다.

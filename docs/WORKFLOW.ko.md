@@ -207,6 +207,12 @@ HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프
 
 공포 영상은 설명란에 `창작 공포`, `제보 각색`, `검증된 경험담` 중 하나의 작품 성격을 표시합니다. `07_publish/shorts/shorts-publish.html`에는 쇼츠 제목, 설명, 해시태그, 고정 댓글, 추천 게시 시간과 연결할 본편을 기록합니다. 쇼츠는 일반 URL 대신 YouTube Studio의 `관련 동영상`으로 본편을 연결하고, 롱폼은 마지막 15~20초를 엔드스크린용으로 비워 둡니다.
 
+## 완료 후 Google Drive 전달
+
+사용자가 지정한 [롱폼 영상 작업 폴더](https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11)에 검수 완료 후 프로젝트 ID별 하위 폴더를 만들어 전달합니다. 대상은 롱폼 게시 전략(MD/HTML), 최종 썸네일 2장, 완성 쇼츠 MP4, 쇼츠 게시 전략(MD/HTML), 최종 SRT/VTT입니다. 롱폼 MP4는 업로드하지 않습니다. 기존 폴더의 다른 파일은 변경하지 않습니다.
+
+`.venv/bin/python scripts/prepare_drive_delivery.py <project>`로 업로드용 사본을 `07_publish/drive/`에 만듭니다. HTML은 내려받은 폴더의 파일을 연결하며 롱폼 플레이어는 제외합니다. 인증된 Google Drive 연결 또는 브라우저의 파일 업로드를 사용하고, 업로드 완료 표시와 최종 파일 목록을 확인해 `07_publish/drive-upload-receipt.json`에 기록합니다. 연결/권한 문제로 업로드하지 못하면 준비 상태와 원인을 보고하고 완료했다고 주장하지 않습니다. 상세 설정은 `config/success-rules.json`의 `publishing_rules.google_drive_delivery`가 기준입니다.
+
 ## 완료 후 GitHub 푸시
 
 사용자의 상시 승인에 따라 요청한 제작 작업이 완전히 끝나고 검수까지 통과하면

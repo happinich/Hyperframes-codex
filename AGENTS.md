@@ -291,6 +291,14 @@ Each finished YouTube project should include:
 Keep publishing assets under `07_publish/`. Do not claim that an artifact exists
 until it has been generated and verified.
 
+After final review, upload the long-form publishing strategy (MD/HTML), final
+thumbnails, Shorts MP4, Shorts publishing strategy (MD/HTML), and final SRT/VTT
+to the Google Drive folder configured in
+`config/success-rules.json` under `publishing_rules.google_drive_delivery`.
+Use a project-ID subfolder, exclude long-form MP4, verify the uploaded file list,
+and record `07_publish/drive-upload-receipt.json`. Prepare portable copies with
+`.venv/bin/python scripts/prepare_drive_delivery.py <project>`.
+
 ## Git And Generated Media
 
 - Respect `.gitignore`; source recordings, local music, preview frames, and render
