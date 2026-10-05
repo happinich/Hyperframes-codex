@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "timezone": "Asia/Seoul",
+  "baseline_report": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
+  "baseline_scope": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
+  "last_scheduled_run_at": null,
+  "reviewed_videos": [
+    {
+      "video_id": "LBTkwwxGfI8",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=LBTkwwxGfI8",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "uuKxKE_PdNA",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=uuKxKE_PdNA",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "FXue__eaQ4s",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=FXue__eaQ4s",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "YSeyM7NUuYA",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=YSeyM7NUuYA",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "71fDB0MkANE",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=71fDB0MkANE",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "C_3gQdUu6d8",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=C_3gQdUu6d8",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "MCzVVTlqoqM",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=MCzVVTlqoqM",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "ZV6lVTvzTjg",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=ZV6lVTvzTjg",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "U-6eBfegBwQ",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=U-6eBfegBwQ",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "JaBuLZiUgXk",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=JaBuLZiUgXk",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "InOPPY7IofY",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=InOPPY7IofY",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    },
+    {
+      "video_id": "YabUQ4YxUbU",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=YabUQ4YxUbU",
+      "checked_on": "2026-10-05",
+      "review_scope": "baseline_visual_samples_only",
+      "report_path": "planning/2026-10-05-horror-reference-editing/analysis.ko.md"
+    }
+  ],
+  "pending_videos": [],
+  "runs": []
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4.0",
+  "schema_version": "1.5.0",
   "strategy_id": "korean_modern_horror_channel_v1",
   "status": "active_default",
   "purpose": "Face-free Korean modern-horror narration channel strategy for discovery, retention, binge viewing, and repeatable production.",
@@ -231,12 +231,62 @@
     "iteration_rule": "조회가 오른 한 편의 소재·제목 구조·길이·오프닝을 3편 이상 같은 축으로 재검증하되 이야기를 복제하지 않는다."
   },
   "reference_monitoring": {
-    "frequency": "weekday_morning_new_uploads_only",
+    "frequency": "weekly_monday_10_00_kst_new_uploads_only",
     "catalog_full_scan": false,
     "transcript_full_scan": false,
-    "watch_channels": ["Mr. Nightmare", "돌비공포라디오", "왓섭! 공포라디오", "괴들남"],
-    "exclude_from_routine_watch": ["Lets Read!"],
-    "record_per_upload": ["title", "premise_in_one_line", "overlap_with_existing_projects"]
+    "watch_channels": [
+      "Mr. Nightmare",
+      "돌비공포라디오",
+      "왓섭! 공포라디오",
+      "괴들남"
+    ],
+    "exclude_from_routine_watch": [
+      "Lets Read!"
+    ],
+    "record_per_upload": [
+      "video_id",
+      "url",
+      "title",
+      "publication_label",
+      "checked_at",
+      "observed_segments",
+      "observation_method",
+      "audio_review_scope",
+      "premise_in_one_line",
+      "editing_findings",
+      "overlap_with_existing_projects",
+      "adaptation_proposal",
+      "limitations",
+      "review_status"
+    ],
+    "timezone": "Asia/Seoul",
+    "schedule_local": {
+      "weekday": "Monday",
+      "hour": 10,
+      "minute": 0
+    },
+    "guide": "docs/HORROR_REFERENCE_MONITORING.ko.md",
+    "channel_urls": {
+      "돌비공포라디오": "https://www.youtube.com/@돌비공포라디오/videos",
+      "왓섭! 공포라디오": "https://www.youtube.com/@왓섭/videos",
+      "괴들남": "https://www.youtube.com/@괴들남/videos",
+      "Mr. Nightmare": "https://www.youtube.com/@MrNightmare/videos"
+    },
+    "max_detailed_reviews_per_channel_per_run": 3,
+    "state_path": "planning/horror-reference-monitoring/state.json",
+    "idea_library_path": "planning/horror-reference-monitoring/ideas.json",
+    "report_path_pattern": "planning/horror-reference-monitoring/YYYY-MM-DD/report.ko.md",
+    "review_passes": [
+      "source_and_observation_accuracy",
+      "story_style_and_mobile_applicability"
+    ],
+    "next_story_rule": "새 이야기 기획 전 최신 보고서와 누적 후보를 확인하고, 적합한 항목의 출처·추천 이유를 브리프와 편집 계획에 기록한다.",
+    "adaptation_policy": "기법은 관찰 근거와 우리 제작 제안을 구분하고 적용 조건·제외 조건·검수 항목을 정리한다. 소재는 발상 축만 활용해 사건 전개·대사·반전은 독립적으로 창작한다.",
+    "pending_videos_rule": "접근 불가 또는 검토량 초과 항목은 완료로 표시하지 않고 다음 회차에 이어서 확인한다.",
+    "preserve_existing_approval_gates": true,
+    "preserve_completed_projects": true,
+    "automation_id": "automation-3",
+    "automation_kind": "heartbeat"
   },
   "continuity_guard": {
     "do_not_clone_or_repeat": ["새벽 배달", "새벽 세 시 십칠 분", "사라진 십사 층", "가라앉은 마을", "여섯 번째 손님", "편의점 호출벨", "삼호실 빈소", "노원 묘지터 아파트", "강릉 탁송", "시골 흉가 마을"],

@@ -35,6 +35,11 @@ For a new horror story, also read `docs/HORROR_VISUAL_STYLES.ko.md` and
 `config/visual-styles.json`'s `horror_story_selection` before recommending a style.
 Read `config/horror-editing-techniques.json` and
 `docs/HORROR_EDITING_TECHNIQUES.ko.md` when choosing story-specific editing.
+Before proposing a new horror premise or editing plan, read
+`docs/HORROR_REFERENCE_MONITORING.ko.md`, the latest report recorded in
+`planning/horror-reference-monitoring/state.json`, and its idea library.
+Use relevant findings with source links and a story-specific reason. Develop
+independent events and endings; preserve the existing approval gates.
 
 Treat the JSON configuration as the source of truth for numeric settings. Keep
 the documentation and templates in sync when a shared rule changes.
