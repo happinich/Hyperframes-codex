@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-05",
+  "timezone": "Asia/Seoul",
+  "method": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
+  "full_watch": false,
+  "audio_listened_or_measured": false,
+  "downloaded_source_media": false,
+  "selection": "Three recent public uploads per channel, excluding large compilations and members-only entries; Mr. Nightmare samples contain three stories each",
+  "publication_date_policy": "Relative labels observed in channel UI; not converted into exact publication dates",
+  "screenshot_policy": "Inspected through browser screenshots; no screenshot files included in this report",
+  "samples": [
+    {"channel":"돌비공포라디오","id":"LBTkwwxGfI8","title_short":"모텔 502호","url":"https://www.youtube.com/watch?v=LBTkwwxGfI8","published_relative":"14시간 전","duration":"35:30","frames":[{"time":"00:12","observation":"어두운 복도와 안내문"},{"time":"17:47","observation":"운전자 근접 화면, 차가운 색감과 하단 자막"},{"time":"28:24","observation":"돌담·문과 그림체 인물, 하단 자막"}]},
+    {"channel":"돌비공포라디오","id":"uuKxKE_PdNA","title_short":"사이비 탈출","url":"https://www.youtube.com/watch?v=uuKxKE_PdNA","published_relative":"2일 전","duration":"47:01","frames":[{"time":"00:13","observation":"복도와 안내문"},{"time":"23:30","observation":"음료 잔을 올린 쟁반, 주변부 어둠과 질감"},{"time":"37:36","observation":"밤길의 그림체 인물, 하단 자막"}]},
+    {"channel":"돌비공포라디오","id":"FXue__eaQ4s","title_short":"악귀를 구원한 남자","url":"https://www.youtube.com/watch?v=FXue__eaQ4s","published_relative":"3일 전","duration":"31:28","frames":[{"time":"00:03","observation":"인터뷰 인물"},{"time":"15:46","observation":"인물 근접 재현, 하단 자막"},{"time":"25:13","observation":"장 안에서 손을 내미는 그림체 존재"}]},
+    {"channel":"왓섭! 공포라디오","id":"YSeyM7NUuYA","title_short":"저승가는 길 — 망우","url":"https://www.youtube.com/watch?v=YSeyM7NUuYA","published_relative":"15시간 전","duration":"26:18","frames":[{"time":"00:14","observation":"진행자·채팅과 어두운 방"},{"time":"13:11","observation":"계단·문과 흐릿한 형상 중첩"},{"time":"21:02","observation":"겹쳐 보이는 후드 형상과 하단 자막"}]},
+    {"channel":"왓섭! 공포라디오","id":"71fDB0MkANE","title_short":"료멘스쿠나","url":"https://www.youtube.com/watch?v=71fDB0MkANE","published_relative":"4일 전","duration":"25:15","frames":[{"time":"00:14","observation":"진행자와 안내문"},{"time":"12:41","observation":"삿갓 인물과 하단 자막"},{"time":"20:14","observation":"청회색 손 그림과 거친 질감"}]},
+    {"channel":"왓섭! 공포라디오","id":"C_3gQdUu6d8","title_short":"거대한 마트의 비밀","url":"https://www.youtube.com/watch?v=C_3gQdUu6d8","published_relative":"5일 전","duration":"21:18","frames":[{"time":"00:03","observation":"진행자·채팅"},{"time":"10:41","observation":"어두운 매대와 상자"},{"time":"17:05","observation":"진행자·채팅, 큰 영문 글자"}]},
+    {"channel":"괴들남 공포이야기","id":"MCzVVTlqoqM","title_short":"서문시장 반찬가게","url":"https://www.youtube.com/watch?v=MCzVVTlqoqM","published_relative":"1일 전","duration":"13:21","frames":[{"time":"00:14","observation":"진행자·브랜드 화면"},{"time":"06:42","observation":"파란 가게 배경, 좌하단 진행자, 큰 하단 자막"},{"time":"10:41","observation":"비슷한 가게 배경과 진행자 배치, 다른 하단 자막"}]},
+    {"channel":"괴들남 공포이야기","id":"ZV6lVTvzTjg","title_short":"산속 석빙고","url":"https://www.youtube.com/watch?v=ZV6lVTvzTjg","published_relative":"4일 전","duration":"16:28","frames":[{"time":"00:14","observation":"진행자와 석조 입구 사진 삽입"},{"time":"08:17","observation":"실제 사진이라고 표시한 석조 입구; 진위는 미검증"},{"time":"13:13","observation":"석조 문 앞 인물 뒷모습"},{"time":"13:21","observation":"삽을 든 손, 행동 재현"}]},
+    {"channel":"괴들남 공포이야기","id":"U-6eBfegBwQ","title_short":"24시 찜질방","url":"https://www.youtube.com/watch?v=U-6eBfegBwQ","published_relative":"12일 전","duration":"17:19","frames":[{"time":"00:03","observation":"안내·홍보 화면"},{"time":"08:42","observation":"소금방 문, 진행자 삽입과 큰 자막"},{"time":"13:54","observation":"돌벽 공간, 진행자 삽입과 큰 자막"}]},
+    {"channel":"Mr. Nightmare","id":"JaBuLZiUgXk","title_short":"Fall Horror Stories","url":"https://www.youtube.com/watch?v=JaBuLZiUgXk","published_relative":"2일 전","duration":"25:06","frames":[{"time":"00:14","observation":"가을 주택가, 필름 긁힘과 주변부 어둠"},{"time":"12:35","observation":"가을 숲길"},{"time":"20:05","observation":"더러운 싱크대, 내레이션 번인 자막 없음"}]},
+    {"channel":"Mr. Nightmare","id":"InOPPY7IofY","title_short":"Home Alone WITH FOOTAGE","url":"https://www.youtube.com/watch?v=InOPPY7IofY","published_relative":"5일 전","duration":"26:29","frames":[{"time":"00:14","observation":"어두운 도시 교차로"},{"time":"16:14","observation":"탁상등, 표면 질감과 그림자"},{"time":"21:21","observation":"집 복도, 내레이션 번인 자막 없음"}]},
+    {"channel":"Mr. Nightmare","id":"YabUQ4YxUbU","title_short":"Apple Picking","url":"https://www.youtube.com/watch?v=YabUQ4YxUbU","published_relative":"10일 전","duration":"23:06","frames":[{"time":"00:03","observation":"과수원 건물과 사과 상자"},{"time":"11:35","observation":"나무의 사과"},{"time":"18:31","observation":"현관문, 비교적 밝은 화면, 내레이션 번인 자막 없음"}]}
+  ]
+}
