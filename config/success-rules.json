@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.7.0",
+  "schema_version": "1.8.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -305,6 +305,10 @@
     "minimum_activity": "No static explanatory screen longer than 3 seconds.",
     "background_motion": ["slow sheen", "moving grid", "subtle orb", "deep zoom", "focus shift", "light flicker", "fog", "scanline", "shadow movement"],
     "horror_visuals": {
+      "editing_technique_catalog": "config/horror-editing-techniques.json",
+      "editing_technique_guide": "docs/HORROR_EDITING_TECHNIQUES.ko.md",
+      "editing_selection": "이야기·단서·긴장 단계·승인 스타일별 주된 기법과 필요한 보조 기법을 선택하고 editing-plan.json 및 씬별 editing에 기록한다. 실제 동작과 시각은 motion_beats·audio·transition_out과 컴포지션에 구현한다.",
+      "editing_review_record": "05_review/editing-review.md",
       "reference_sheet_required": ["character", "location", "period", "palette", "lighting", "recurring_object", "threat_entity_when_present"],
       "preferred": ["clue close-up", "empty corridor", "door gap", "CCTV frame", "phone interface", "rainy night road", "consistent ghost or creature interaction in the mid-to-late reveal"],
       "entity_reveal_stages": ["trace", "partial silhouette or body detail", "clear physical interaction"],

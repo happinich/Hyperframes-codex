@@ -103,6 +103,9 @@ def main() -> int:
         "{{VISUAL_STYLE_PALETTE}}": ", ".join(selected_style["palette"]),
         "{{VISUAL_STYLE_MOTION}}": selected_style["motion"],
         "{{PRODUCTION_PROFILE_ID}}": profile_id,
+        "{{HORROR_EDITING_PLAN_STATUS}}": (
+            "pending_story_selection" if profile_id == "horror_cinematic_story_v1" else "not_applicable"
+        ),
         "{{PRODUCTION_PROFILE_LABEL}}": selected_profile["label_ko"],
         "{{PRODUCTION_PROFILE_DESCRIPTION}}": selected_profile["description"],
         "{{PRODUCTION_PROFILE_LAYOUT}}": selected_profile["layout_language"],

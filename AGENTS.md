@@ -33,6 +33,8 @@ Before planning or editing a video project, read:
 
 For a new horror story, also read `docs/HORROR_VISUAL_STYLES.ko.md` and
 `config/visual-styles.json`'s `horror_story_selection` before recommending a style.
+Read `config/horror-editing-techniques.json` and
+`docs/HORROR_EDITING_TECHNIQUES.ko.md` when choosing story-specific editing.
 
 Treat the JSON configuration as the source of truth for numeric settings. Keep
 the documentation and templates in sync when a shared rule changes.
@@ -156,6 +158,22 @@ silently carry a previous project's style or BGM into a new project.
   Approval of the catalog itself is not approval of a style for a new story.
 - Keep the approved visual language consistent across that story's long-form,
   freshly generated Shorts images, and thumbnails.
+- Select a primary editing technique and necessary supporting techniques for
+  each story from `config/horror-editing-techniques.json`, using its premise,
+  setting, threat, decisive clue, emotional arc, approved visual material, and
+  recent work. Explain the recommendation and exclusions. The user delegates
+  editing choices within the approved script and visual direction; preserve
+  the existing script, visual-style, and BGM approval gates.
+- Record the selection in `01_script/editing-plan.json` and the brief; map
+  technique IDs, clues, tension stages, framing, baseline scene IDs, and reasons
+  into each scene's `editing` field. Implement actual motion, sound, and cuts in
+  `motion_beats`, `audio`, `transition_out`, and the composition. IDs alone are
+  not an implementation. Re-time against final narration and independently
+  choose the Shorts application with fresh portrait assets and no spoilers.
+- Record plan/asset review and rendered-output review with scene IDs and actual
+  output times in `05_review/editing-review.md`. Retain individual image reviews.
+  Do not force every technique onto every scene, impose a rotation, obscure
+  clues, or change approved materials for an effect.
 - Preserve `minimal_dark_tech_v1` for future explainer projects.
 - Preserve `classic_rich_motion_v1` for the existing bright/editorial, finance,
   collage, map, table, and hub-diagram grammar.

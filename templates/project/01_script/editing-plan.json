@@ -1,0 +1,37 @@
+{
+  "project_id": "{{PROJECT_ID}}",
+  "production_profile_id": "{{PRODUCTION_PROFILE_ID}}",
+  "visual_style_id": "{{VISUAL_STYLE_ID}}",
+  "catalog": "config/horror-editing-techniques.json",
+  "status": "{{HORROR_EDITING_PLAN_STATUS}}",
+  "selection_basis": {
+    "premise": "",
+    "setting": "",
+    "threat_type": "",
+    "decisive_clue": "",
+    "emotional_arc": "",
+    "style_material_and_motion": "",
+    "recent_story_variety": ""
+  },
+  "primary_technique_id": null,
+  "support_technique_ids": [],
+  "selection_reason": "",
+  "excluded_techniques": [],
+  "longform": {
+    "scene_plan_path": "01_script/scene-plan.json",
+    "application_summary": "",
+    "applied_scene_ids": []
+  },
+  "shorts": {
+    "scene_plan_path": null,
+    "technique_ids": [],
+    "adaptation_reason": "",
+    "spoiler_check": "pending"
+  },
+  "review": {
+    "record_path": "05_review/editing-review.md",
+    "plan_and_assets": "pending",
+    "rendered_output": "pending"
+  },
+  "note": "선택·장면 매핑을 기록하는 계획이다. 기법 ID만 입력해도 효과가 구현되는 것은 아니다. 공포 프로필 외에는 not_applicable로 둔다."
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0",
+  "applies_to_profile_ids": ["horror_cinematic_story_v1"],
+  "guide": "docs/HORROR_EDITING_TECHNIQUES.ko.md",
+  "reference_analysis": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
+  "evidence_policy": "편집 판단 기준이다. 경쟁 채널의 컷 속도·오디오 측정값이나 성과가 검증된 프리셋이 아니다.",
+  "selection": {
+    "mode": "story_specific_agent_selection",
+    "authorization": "사용자가 추천 편집 기법을 이야기마다 적용하도록 요청함. 승인된 원고·비주얼 범위 안의 편집 선택은 에이전트가 진행한다.",
+    "fixed_technique_ids": [],
+    "evaluate": ["premise", "setting", "threat_type", "decisive_clue", "emotional_arc", "visual_style", "recent_story_variety"],
+    "procedure": [
+      "원고 검토에서 핵심 단서와 긴장 단계를 확인하고 주된 기법과 필요한 보조 기법을 이유와 함께 추천한다.",
+      "비주얼 선택 후 재료·레이어·가독성에 맞게 기법을 확정한다. 이미지 스타일, 원고, BGM의 기존 승인 절차를 따른다.",
+      "이야기에 맞지 않는 기법은 제외하고 이유를 기록한다. 모든 기법을 한 장면에 쌓거나 순서대로 기계적으로 돌리지 않는다.",
+      "씬별 기법 ID, 단서, 구도, 적용 이유와 공개 단계를 기록하고 motion_beats·audio·transition_out에 실제 실행 지시를 작성한다.",
+      "실제 음성 타이밍으로 비트와 전환 시각을 다시 맞춘다.",
+      "쇼츠는 새 세로 자산과 별도 원고에 맞춰 다시 선택하고 스포일러를 확인한다.",
+      "장면 계획·자산 대조 검수 후 렌더된 구도·모션·사운드를 검수하고 장면 ID와 실제 시각을 기록한다."
+    ],
+    "plan_path": "01_script/editing-plan.json",
+    "review_path": "05_review/editing-review.md",
+    "scene_fields": ["technique_ids", "clue", "tension_stage", "shot_scale", "baseline_scene_id", "selection_reason"],
+    "preserve_completed_projects": true,
+    "plan_is_not_render_implementation": true
+  },
+  "numeric_rule_sources": {
+    "meaningful_change_seconds_range": "config/horror-channel-strategy.json#visual_direction.motion.meaningful_change_seconds_range",
+    "full_black_limit_seconds": "config/horror-channel-strategy.json#visual_direction.motion.avoid_extended_full_black_seconds_over",
+    "intentional_silence_seconds_range": "config/success-rules.json#audio_rules.horror_sound_design.intentional_silence_seconds_range",
+    "silence_manual_review_threshold_seconds": "config/success-rules.json#audio_rules.horror_sound_design.manual_review_threshold_seconds",
+    "visual_lead_seconds": "config/success-rules.json#sync_rules.screen_timing.scene_visual_lead_seconds",
+    "image_review_passes": "config/success-rules.json#image_review_rules.minimum_visual_review_passes"
+  },
+  "techniques": {
+    "space_clue_action": {
+      "label_ko": "공간 → 단서 → 행동",
+      "best_for": ["새 장소 소개", "문·장치·물건이 핵심 단서", "귀신·괴물의 직접 접촉"],
+      "stages": ["normal", "anomaly", "escalation", "interaction"],
+      "implementation": "전체 공간으로 위치와 출입구를 앉힌 뒤 핵심 물건을 가까이 보여주고 접촉·반응 장면으로 연결한다.",
+      "avoid": ["접근 컷에서 좌우나 동선이 뒤집힘", "초반에 후반 존재·반전을 공개"],
+      "review": ["공간 방향·거리·물건 위치 일관성", "행동과 접촉의 형태", "내레이션과 공개 시점"]
+    },
+    "clue_directed_motion": {
+      "label_ko": "단서로 향하는 느린 접근",
+      "best_for": ["정상 상태의 불안", "멀리 있는 흔적", "관찰·확인 행동"],
+      "stages": ["normal", "anomaly", "escalation", "aftermath"],
+      "implementation": "단서를 기준으로 확대·패닝 중심을 잡고 초점·빛·그림자의 의미 있는 변화를 계획한다.",
+      "avoid": ["모든 장면에 같은 확대", "단서가 크롭 밖으로 나감", "움직임만 있고 정보는 늘지 않음"],
+      "style_adaptations": {"horror_pixel": "픽셀 격자에 맞춘 이동·단계 확대와 제한된 색 변화로 윤곽을 유지", "horror_shadow_theatre": "사진 초점 흐림 대신 실루엣의 가림·광원·거리 변화 사용"},
+      "review": ["단서의 모바일 가독성", "확대 후 이미지 결함", "의미 있는 화면 변화"]
+    },
+    "foreground_depth": {
+      "label_ko": "전경·배경 분리와 부분 노출",
+      "best_for": ["문틀·커튼·난간 뒤 위협", "공간 깊이", "부분 노출"],
+      "stages": ["anomaly", "escalation", "interaction"],
+      "implementation": "전경과 뒤 공간을 분리해 서로 다른 작은 움직임을 주거나 마스크로 가린 존재를 드러낸다.",
+      "avoid": ["모든 이미지에 억지 패럴랙스", "실루엣·종이 재료를 사실적 3D로 바꿈"],
+      "style_adaptations": {"horror_paper_stage": "카드지 겹침과 절단면을 유지", "horror_shadow_theatre": "평면 실루엣과 광원에 따른 가림을 유지", "horror_puppet_stopmotion": "인형·무대 재질과 작은 단계 움직임을 유지"},
+      "review": ["레이어 가장자리·빈틈·늘어남", "올바른 가림 관계", "존재 외형·크기 연속성"]
+    },
+    "local_darkness_texture": {
+      "label_ko": "단서가 남는 국소 어둠·질감",
+      "best_for": ["선명한 배경 디테일 완화", "야간 공간", "회상·낡은 물건"],
+      "stages": ["normal", "anomaly", "escalation", "interaction", "aftermath"],
+      "implementation": "배경 세부와 채도를 절제하고 주변부 어둠·안개·약한 질감을 사용한다. 단서의 윤곽과 명암은 남긴다.",
+      "avoid": ["전체 흐림", "단서가 안 보이는 암부", "질감으로 생성 결함 은폐"],
+      "style_adaptations": {"horror_painterly": "붓질 질감 우선", "horror_ink_charcoal": "먹 번짐·목탄 질감 우선", "horror_pixel": "픽셀·디더링 우선, 사진 노이즈는 강제하지 않음", "horror_retro_3d": "기존 거친 텍스처 유지, 부드러운 사진 필터는 강제하지 않음"},
+      "review": ["모바일·압축 후 단서 확인", "프레임 간 질감 튐", "스타일의 재료 일관성"]
+    },
+    "return_with_changed_clue": {
+      "label_ko": "같은 구도의 단서 변화",
+      "best_for": ["반복되는 공간·물건", "규칙의 위반", "존재의 흔적", "잔상 결말"],
+      "stages": ["anomaly", "escalation", "aftermath"],
+      "implementation": "기준 장면을 다시 보여주며 손자국·젖은 흔적·그림자 같은 단서만 의도적으로 바꾼다. baseline_scene_id로 기준을 연결한다.",
+      "avoid": ["장소·인물의 우연한 생성 차이를 단서로 사용", "이유 없이 반복", "새 이야기에서 이전 작품 장면 재사용"],
+      "review": ["기준 장면과 차이의 의도", "의도하지 않은 구조 변화", "단서 변화가 보이는 크롭"]
+    },
+    "tension_driven_transition": {
+      "label_ko": "긴장 단계에 맞춘 전환",
+      "best_for": ["시간·장소 이동", "단서 발견", "추격", "직접 접촉"],
+      "stages": ["normal", "anomaly", "escalation", "interaction", "aftermath"],
+      "implementation": "시간·장소 이동에는 적절한 부드러운 전환을, 발견·접촉에는 명확한 컷을 검토한다. 이유는 editing에, 실제 전환은 transition_out에 쓴다.",
+      "avoid": ["고정 컷 간격", "습관적인 플래시·글리치·흔들림", "동선·거리 상실"],
+      "review": ["내레이션의 발견 시점", "전환 중 물체 겹침", "공간 관계와 긴장 리듬"]
+    },
+    "sound_bridge_silence": {
+      "label_ko": "소리 선행과 의도된 적막",
+      "best_for": ["화면 밖 위협", "문고리·발소리·호출음", "공간 이동", "공개 직전"],
+      "stages": ["anomaly", "escalation", "interaction", "aftermath"],
+      "implementation": "다음 공간의 소리·사건 효과음을 컷보다 먼저 시작하거나 공개 직전 짧은 적막을 둔다. audio와 motion_beats에 실제 시점을 기록한다.",
+      "avoid": ["내레이션을 가리는 효과음", "이유 없는 적막", "과도한 점프스케어 음량", "TTS에 효과음 섞기"],
+      "review": ["효과음·적막 직접 청취", "별도 오디오 층", "실제 음성 타이밍", "허용 적막 범위·의도 표시"],
+      "evidence_note": "경쟁 채널 오디오 직접 분석 결과가 아닌 우리 채널 제작 제안"
+    }
+  },
+  "story_patterns": [
+    {"label_ko":"원혼·옛집·기억","primary_candidates":["return_with_changed_clue","local_darkness_texture"],"support_candidates":["clue_directed_motion","foreground_depth","sound_bridge_silence"],"reason":"기억하던 공간과 현재 흔적의 차이가 공포의 중심일 때"},
+    {"label_ko":"추격·직접 위협","primary_candidates":["space_clue_action","tension_driven_transition"],"support_candidates":["foreground_depth","sound_bridge_silence"],"reason":"존재와 주인공의 거리·동선·접촉을 이해시켜야 할 때"},
+    {"label_ko":"규칙·반복 공간","primary_candidates":["return_with_changed_clue"],"support_candidates":["space_clue_action","clue_directed_motion","tension_driven_transition"],"reason":"정상 규칙과 다음 반복의 불일치를 비교해야 할 때"},
+    {"label_ko":"인형·유품·물건","primary_candidates":["space_clue_action","clue_directed_motion"],"support_candidates":["return_with_changed_clue","foreground_depth","local_darkness_texture"],"reason":"작은 물건의 위치·행동·접촉이 단서일 때"},
+    {"label_ko":"기기·CCTV·화면 밖 소리","primary_candidates":["space_clue_action","sound_bridge_silence"],"support_candidates":["return_with_changed_clue","tension_driven_transition"],"reason":"기기 신호와 실제 공간 반응의 관계가 위협일 때"}
+  ]
+}

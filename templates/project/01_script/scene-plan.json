@@ -64,6 +64,14 @@
       "caption_text": "",
       "visual": "",
       "entity_reveal_stage": "none",
+      "editing": {
+        "technique_ids": [],
+        "clue": "",
+        "tension_stage": "",
+        "shot_scale": "",
+        "baseline_scene_id": null,
+        "selection_reason": ""
+      },
       "motion": "",
       "motion_beats": [
         {

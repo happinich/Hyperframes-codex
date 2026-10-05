@@ -4,6 +4,8 @@
 
 설정 원본은 [visual-styles.json](../config/visual-styles.json)의 `horror_story_selection`과 `styles`입니다. 제작 프로필은 `horror_cinematic_story_v1`을 사용하며, 회화·인형·게임 등은 그 프로필 안의 이미지 표현 방식입니다. 표의 추천 소재는 연출 판단 기준이며 성과가 검증된 순위는 아닙니다.
 
+스타일을 선택할 때 [이야기별 편집 기법](HORROR_EDITING_TECHNIQUES.ko.md)도 함께 검토합니다. 소재·단서·긴장 단계에 맞는 주된 기법과 보조 기법을 고르고, 각 스타일의 재료·윤곽·움직임에 맞춰 적용합니다.
+
 ## 스타일 목록
 
 | 번호 | 스타일 | 핵심 표현 | 잘 맞는 이야기 | 스타일 ID |

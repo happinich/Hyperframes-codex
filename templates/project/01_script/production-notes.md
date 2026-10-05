@@ -39,6 +39,13 @@
 
 ## 편집 메모
 
+- 기법 기준: `config/horror-editing-techniques.json` · [이야기별 편집 가이드](../../../docs/HORROR_EDITING_TECHNIQUES.ko.md)
+- 기법 선택·제외 이유: `01_script/editing-plan.json`
+- 주된 기법 / 보조 기법:
+- 적용 장면 ID / 단서 / 긴장 단계:
+- 씬별 실행 지시: `editing`에 선택 이유, `motion_beats`·`audio`·`transition_out`에 실제 시각과 동작을 기록. 음성 생성 후 보정.
+- 쇼츠용 조절과 공개 금지 정보:
+- 계획·자산 검수 / 렌더 검수: `05_review/editing-review.md`
 - 음악 방향:
 - 위협 유형:
 - 존재 디자인 및 움직임 규칙:
