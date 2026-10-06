@@ -8,7 +8,7 @@
 - API model: `eleven_v4`
 - Language code: `ko`
 - Output format: `mp3_44100_128`
-- Pace:
+- Pace: 본편 후처리 {{LONGFORM_VOICE_SPEED_MULTIPLIER}}배. 생성 음성의 자연스러운 속도를 유지하고 목표 길이·WPM을 맞추기 위한 자동 가속은 하지 않는다.
 - Emotion:
 - V4 performance direction: `request.performance_direction`에 괄호 없는 한 줄 지시. 필요한 구간 태그는 발음용 TTS 파일에만 기록.
 - V4 settings: Stability 0.50, Similarity 0.75. Style·Speed·Speaker Boost·SSML 사용 안 함.

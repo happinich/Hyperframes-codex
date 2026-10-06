@@ -206,6 +206,15 @@
     }
   },
   "audio_rules": {
+    "longform_voice_speed": {
+      "default_multiplier": 1.0,
+      "automatic_speedup": false,
+      "preserve_pitch": true,
+      "scope": "new_longform_narration",
+      "preserve_existing_project_settings": true,
+      "user_preference_recorded_on": "2026-10-06",
+      "pacing_review_action": "Review natural delivery and pauses at the original speed; do not accelerate narration to meet a WPM or runtime target."
+    },
     "elevenlabs": {
       "model_id": "eleven_v4",
       "apply_text_normalization": "on",

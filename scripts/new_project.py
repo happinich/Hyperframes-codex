@@ -92,10 +92,13 @@ def main() -> int:
     default_template = TEMPLATE / "04_composition" / "index.html"
     if profile_template.resolve() != default_template.resolve():
         shutil.copyfile(profile_template, destination / "04_composition" / "index.html")
+    rules = json.loads((ROOT / "config" / "success-rules.json").read_text(encoding="utf-8"))
+    voice_speed = rules["audio_rules"]["longform_voice_speed"]
     values = {
         "{{PROJECT_ID}}": args.project_id,
         "{{TITLE}}": args.title,
         "{{CREATED_DATE}}": dt.date.today().isoformat(),
+        "{{LONGFORM_VOICE_SPEED_MULTIPLIER}}": str(voice_speed["default_multiplier"]),
         "{{VISUAL_STYLE_ID}}": args.visual_style,
         "{{VISUAL_STYLE_LABEL}}": selected_style["label_ko"],
         "{{VISUAL_STYLE_MOOD}}": selected_style["mood"],
@@ -135,7 +138,6 @@ def main() -> int:
 
     # Numeric audio settings follow the canonical rules even when a template
     # was copied before the defaults changed.
-    rules = json.loads((ROOT / "config" / "success-rules.json").read_text(encoding="utf-8"))
     audio_defaults = rules["audio_rules"]["elevenlabs"]
     request_path = destination / "02_audio" / "elevenlabs-request.json"
     audio_config = json.loads(request_path.read_text(encoding="utf-8"))
@@ -144,6 +146,11 @@ def main() -> int:
         "voice_settings": audio_defaults["voice_settings"],
         "context_stitching": audio_defaults.get("context_stitching", False),
     })
+    audio_config["postprocess"] = {
+        "voice_speed_multiplier": voice_speed["default_multiplier"],
+        "automatic_speedup": voice_speed["automatic_speedup"],
+        "preserve_pitch": voice_speed["preserve_pitch"],
+    }
     request_path.write_text(json.dumps(audio_config, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Created project: {destination}")

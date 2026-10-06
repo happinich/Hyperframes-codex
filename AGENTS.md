@@ -128,6 +128,12 @@ silently carry a previous project's style or BGM into a new project.
 
 ## Audio And Timing
 
+- New long-form narration defaults to the original 1.00x speed, as requested on
+  2026-10-06. Read `audio_rules.longform_voice_speed` in the canonical JSON and
+  record the multiplier in the new project's request metadata and scene plan.
+  Do not automatically accelerate speech to meet duration or WPM targets.
+  Preserve completed projects and their explicit settings; Shorts follow their
+  separate speed rule below.
 - Use ElevenLabs model `eleven_v4` for new narration and the voice settings in
   `config/success-rules.json`. Explicit model settings in existing projects remain
   authoritative when reviewing or reproducing those projects.

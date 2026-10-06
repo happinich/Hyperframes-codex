@@ -29,6 +29,7 @@
     "fade_out_seconds": 3
   },
   "notes": [
+    "새 본편은 원래 {{LONGFORM_VOICE_SPEED_MULTIPLIER}}배속을 유지한다. 후처리에서 자동 가속하지 않으며 API에는 speed를 보내지 않는다. 배속 기록은 별도 postprocess 메타데이터를 사용한다.",
     "ElevenLabs V4로 한국어 낭독을 생성한다. Stability 0.50과 Similarity 0.75를 사용하며 style, speed, speaker boost와 SSML은 보내지 않는다.",
     "공백 포함 1,000~1,300자 문장 청크를 순차 생성하고 이전 요청 ID 또는 앞뒤 원문으로 흐름을 연결한다.",
     "승인 원고와 자막에는 낭독할 문장만 둔다. 감정·호흡 태그는 tts-narration.txt 또는 request.performance_direction에만 기록한다.",

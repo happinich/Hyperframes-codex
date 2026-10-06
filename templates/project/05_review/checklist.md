@@ -5,6 +5,7 @@
 - [ ] 녹음이 승인된 `narration.txt`와 단어 단위로 동일하다.
 - [ ] `sync_report.json`의 상태가 `ready_for_review`이며 자막을 청취 검수했다.
 - [ ] 숫자, 고유명사, 영문 약어의 표시와 발음이 정확하다.
+- [ ] 새 본편은 원래 1.00배속을 유지하며 요청 설정의 `postprocess.voice_speed_multiplier`와 씬 플랜의 `voice_speed_multiplier`가 일치한다. 목표 길이·WPM을 맞추기 위한 자동 가속은 하지 않았다.
 
 ## 화면
 

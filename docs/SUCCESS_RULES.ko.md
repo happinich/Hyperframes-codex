@@ -70,6 +70,8 @@
 
 새 프로젝트의 기본 모델은 `eleven_v4`를 사용한다. 기존 프로젝트에 기록된 모델은 재현 시 유지한다. V4는 Stability와 Similarity 두 설정만 지원하며 Style·Speed·Speaker Boost·SSML을 보내지 않는다.
 
+새 본편 나레이션은 **1.00배속**을 기본으로 유지한다(2026-10-06 사용자 요청). 수치 원본은 `audio_rules.longform_voice_speed`다. 후처리로 자동 가속하거나 목표 길이·WPM을 맞추려고 배속을 올리지 않는다. 자연스러운 발화와 문장 사이 호흡을 검수하고 최종 음성에서 Whisper 타이밍을 만든다. 새 프로젝트의 요청 파일 `postprocess.voice_speed_multiplier`와 씬 플랜 `voice_speed_multiplier`에 기록한다. 기존 완료 프로젝트의 명시적 설정은 유지하며 쇼츠의 별도 속도 기준은 그대로 따른다.
+
 감정은 자연스러운 존댓말 구술형 문장과 문맥으로 먼저 만든다. 필요한 구간에만 낭독 태그를 쓰고, 태그는 `tts-narration.txt` 또는 `request.performance_direction`에만 둔다. 승인 원고와 자막은 낭독할 문장만 유지한다. 청크 사이의 흐름은 이전 요청 ID 또는 앞뒤 원문으로 연결하고, 의도하지 않은 효과음·배경음이 포함됐는지 검수한다.
 
 권장 보이스 세팅:

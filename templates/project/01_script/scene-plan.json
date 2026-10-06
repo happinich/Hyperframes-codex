@@ -1,6 +1,7 @@
 {
   "project_id": "{{PROJECT_ID}}",
   "title": "{{TITLE}}",
+  "voice_speed_multiplier": {{LONGFORM_VOICE_SPEED_MULTIPLIER}},
   "master_format": {
     "aspect_ratio": "16:9",
     "width": 1920,
