@@ -1,0 +1,49 @@
+{
+  "status": "visual_and_technical_passed_subjective_listening_unavailable",
+  "shorts": [
+    {
+      "id": 1,
+      "reviewed_output_seconds": [
+        0,
+        0.4,
+        10,
+        16,
+        21
+      ],
+      "visual_review": "First/middle/end encoded frames inspected. Portrait safe-area captions and clue readable, no overlap. Complete sentence before longform physical contact/resolution.",
+      "technical_review": "ffprobe resolution/fps/codec/AV; full decode freeze/black checks passed",
+      "fresh_portrait_assets": true
+    },
+    {
+      "id": 2,
+      "reviewed_output_seconds": [
+        0,
+        7,
+        12,
+        18,
+        22.5
+      ],
+      "visual_review": "First/middle/end encoded frames inspected. Portrait safe-area captions and clue readable, no overlap. Complete sentence before longform physical contact/resolution.",
+      "technical_review": "ffprobe resolution/fps/codec/AV; full decode freeze/black checks passed",
+      "fresh_portrait_assets": true
+    },
+    {
+      "id": 3,
+      "reviewed_output_seconds": [
+        0,
+        4,
+        8,
+        14,
+        18
+      ],
+      "visual_review": "First/middle/end encoded frames inspected. Portrait safe-area captions and clue readable, no overlap. Complete sentence before longform physical contact/resolution.",
+      "technical_review": "ffprobe resolution/fps/codec/AV; full decode freeze/black checks passed",
+      "fresh_portrait_assets": true
+    }
+  ],
+  "additional_shorts_02_check": {
+    "time": 15,
+    "frame": "frames/shorts-final/sh2-15.png",
+    "result": "랜턴 발화와 높은 머리 단서 일치. 자막과 단서 겹침 없음."
+  }
+}

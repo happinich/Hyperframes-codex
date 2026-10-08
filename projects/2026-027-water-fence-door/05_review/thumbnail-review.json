@@ -1,0 +1,29 @@
+{
+  "pass_1": "각 원본의 두 차례 이미지 검수 후 텍스트 합성 결과 개별 확인",
+  "finals": [
+    {
+      "file": "07_publish/youtube/thumbnail-a.png",
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "de4c938e65e62cc945edc9adb2774e84f1de07d85c62ad3f2568a02f91e7bab2",
+      "pass_1": "passed",
+      "notes": "4~8음절 문구, 좌측 텍스트/우측 단서 분리, 잘림·중첩 없음",
+      "pass_2": "passed",
+      "mobile_review": "320x180에서 문구와 사다리/문 단서 식별, 겹침·잘림 없음"
+    },
+    {
+      "file": "07_publish/youtube/thumbnail-b.png",
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "d6c23c76a9b0556b2abe1698b43c31d3b3da1563e4e921ec83de943f88c39971",
+      "pass_1": "passed",
+      "notes": "4~8음절 문구, 좌측 텍스트/우측 단서 분리, 잘림·중첩 없음",
+      "pass_2": "passed",
+      "mobile_review": "320x180에서 문구와 사다리/문 단서 식별, 겹침·잘림 없음"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "2026-027-water-fence-door",
+  "request": {
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v4",
+    "language_code": "ko",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "performance_direction": "restrained conversational Korean female storytelling, original pace, natural sentence breathing, gradual tension, voice only"
+  },
+  "postprocess": {
+    "voice_speed_multiplier": 1.0,
+    "automatic_speedup": false,
+    "preserve_pitch": true
+  },
+  "shorts_postprocess": {
+    "voice_speed_multiplier": 1.07,
+    "preserve_pitch": true
+  },
+  "authorization": "approved_user_requested_female_voice_and_end_to_end_eleven_v4_production",
+  "role": "planning_metadata_not_a_TTS_request_to_send"
+}

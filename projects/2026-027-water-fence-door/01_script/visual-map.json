@@ -1,0 +1,544 @@
+{
+  "C01-S01": [
+    [
+      "C01-baseline",
+      null,
+      "tank"
+    ]
+  ],
+  "C01-S02": [
+    [
+      "C01-office",
+      null,
+      "office"
+    ]
+  ],
+  "C01-S03": [
+    [
+      "C01-baseline",
+      null
+    ]
+  ],
+  "C01-S04": [
+    [
+      "C01-baseline",
+      null,
+      "tank"
+    ]
+  ],
+  "C01-S05": [
+    [
+      "C01-baseline",
+      null,
+      "tank"
+    ]
+  ],
+  "C01-S06": [
+    [
+      "C01-baseline",
+      null,
+      "tank"
+    ],
+    [
+      "C01-ladder-wet",
+      "맨 아래",
+      "wetrung"
+    ]
+  ],
+  "C01-S07": [
+    [
+      "C01-hair-low",
+      null
+    ]
+  ],
+  "C01-S08": [
+    [
+      "C01-hair-low",
+      null
+    ]
+  ],
+  "C01-S09": [
+    [
+      "C01-entity-high",
+      null
+    ]
+  ],
+  "C01-S10": [
+    [
+      "C01-door-water",
+      null
+    ]
+  ],
+  "C01-S11": [
+    [
+      "C01-door-water",
+      null
+    ],
+    [
+      "C01-door-contact",
+      "손이 들어왔어요."
+    ]
+  ],
+  "C01-S12": [
+    [
+      "C01-ladder-displaced",
+      null
+    ],
+    [
+      "C01-entity-high",
+      "회색 옷의"
+    ],
+    [
+      "C01-ladder-displaced",
+      "한쪽 팔만"
+    ]
+  ],
+  "C01-S13": [
+    [
+      "C01-door-contact",
+      null
+    ],
+    [
+      "C01-ladder-displaced",
+      "난간 위의"
+    ],
+    [
+      "C01-door-contact",
+      "그때 처음으로"
+    ]
+  ],
+  "C01-S14": [
+    [
+      "C01-human-handle",
+      null,
+      "grip"
+    ]
+  ],
+  "C01-S15": [
+    [
+      "C01-ladder-displaced",
+      null
+    ],
+    [
+      "C01-flashlight-floor",
+      "저수조 안으로"
+    ]
+  ],
+  "C01-S16": [
+    [
+      "C01-stairs-envelope",
+      null,
+      "upperstairs"
+    ],
+    [
+      "C01-stairs-envelope",
+      "봉투를 놓쳤습니다."
+    ]
+  ],
+  "C01-S17": [
+    [
+      "C01-office",
+      null
+    ]
+  ],
+  "C01-S18": [
+    [
+      "C01-office",
+      null,
+      "office"
+    ]
+  ],
+  "C01-S19": [
+    [
+      "C01-office",
+      null,
+      "office"
+    ],
+    [
+      "C01-photo-arm",
+      "작업 사진을",
+      "tank",
+      "photo"
+    ],
+    [
+      "C01-photo-arm",
+      "사진 오른쪽",
+      "wide",
+      "photo"
+    ]
+  ],
+  "C01-S20": [
+    [
+      "C01-photo-arm",
+      null,
+      "wide",
+      "photo"
+    ],
+    [
+      "C01-office",
+      "사진을 다시",
+      "office"
+    ]
+  ],
+  "T01": [
+    [
+      "C01-office",
+      null,
+      "office"
+    ],
+    [
+      "C02-baseline",
+      "__transition_midpoint__"
+    ]
+  ],
+  "C02-S01": [
+    [
+      "C02-baseline",
+      null
+    ]
+  ],
+  "C02-S02": [
+    [
+      "C02-baseline",
+      null
+    ]
+  ],
+  "C02-S03": [
+    [
+      "C02-baseline",
+      null
+    ],
+    [
+      "C02-trunk",
+      "밀폐용기에 담아"
+    ]
+  ],
+  "C02-S04": [
+    [
+      "C02-grass",
+      null
+    ]
+  ],
+  "C02-S05": [
+    [
+      "C02-grass",
+      null
+    ]
+  ],
+  "C02-S06": [
+    [
+      "C02-baseline",
+      null
+    ],
+    [
+      "C02-head-high",
+      "철망 위쪽에"
+    ]
+  ],
+  "C02-S07": [
+    [
+      "C02-head-high",
+      null
+    ],
+    [
+      "C02-fold-partial",
+      "그 머리는"
+    ]
+  ],
+  "C02-S08": [
+    [
+      "C02-fold-partial",
+      null,
+      "creature"
+    ]
+  ],
+  "C02-S09": [
+    [
+      "C02-fold-partial",
+      null,
+      "creature"
+    ]
+  ],
+  "C02-S10": [
+    [
+      "C02-driver-key",
+      null
+    ],
+    [
+      "C02-creature-gap",
+      "울타리 밑의"
+    ]
+  ],
+  "C02-S11": [
+    [
+      "C02-creature-gap",
+      null
+    ]
+  ],
+  "C02-S12": [
+    [
+      "C02-driver-key",
+      null,
+      "cabinfront"
+    ],
+    [
+      "C02-tent-bend",
+      "텐트 한쪽이"
+    ]
+  ],
+  "C02-S13": [
+    [
+      "C02-tent-bend",
+      null,
+      "tent"
+    ],
+    [
+      "C02-mirror-follow",
+      "왼쪽 사이드미러에"
+    ]
+  ],
+  "C02-S14": [
+    [
+      "C02-mirror-follow",
+      null
+    ],
+    [
+      "C02-car-contact",
+      "거울로 보니",
+      "carjoint"
+    ]
+  ],
+  "C02-S15": [
+    [
+      "C02-cabin",
+      null
+    ]
+  ],
+  "C02-S16": [
+    [
+      "C02-cabin",
+      null,
+      "cabin"
+    ]
+  ],
+  "C02-S17": [
+    [
+      "C02-damage",
+      null,
+      "dents"
+    ]
+  ],
+  "C02-S18": [
+    [
+      "C02-damage",
+      null,
+      "dents"
+    ]
+  ],
+  "C02-S19": [
+    [
+      "C02-lantern-return",
+      null
+    ]
+  ],
+  "C02-S20": [
+    [
+      "C02-entry-mark",
+      null,
+      "wide",
+      "photo"
+    ],
+    [
+      "C02-entry-mark",
+      "철망",
+      "entrymark",
+      "photo"
+    ]
+  ],
+  "T02": [
+    [
+      "C02-entry-mark",
+      null,
+      "wide",
+      "photo"
+    ],
+    [
+      "C03-baseline",
+      "__transition_midpoint__"
+    ]
+  ],
+  "C03-S01": [
+    [
+      "C03-baseline",
+      null
+    ]
+  ],
+  "C03-S02": [
+    [
+      "C03-baseline",
+      null
+    ]
+  ],
+  "C03-S03": [
+    [
+      "C03-baseline",
+      null
+    ]
+  ],
+  "C03-S04": [
+    [
+      "C03-baseline",
+      null
+    ],
+    [
+      "C03-knob-slit",
+      "손잡이가 아래로"
+    ]
+  ],
+  "C03-S05": [
+    [
+      "C03-knob-slit",
+      null
+    ],
+    [
+      "C03-baseline",
+      "손잡이가 올라왔어요."
+    ]
+  ],
+  "C03-S06": [
+    [
+      "C03-baseline",
+      null
+    ]
+  ],
+  "C03-S07": [
+    [
+      "C03-baseline",
+      null,
+      "hinges"
+    ]
+  ],
+  "C03-S08": [
+    [
+      "C03-tipped-door",
+      null
+    ]
+  ],
+  "C03-S09": [
+    [
+      "C03-baseline",
+      null
+    ],
+    [
+      "C03-entry-wood",
+      "현관문은 열렸어요.",
+      "entryfloor"
+    ]
+  ],
+  "C03-S10": [
+    [
+      "C03-entry-wood",
+      null
+    ]
+  ],
+  "C03-S11": [
+    [
+      "C03-phone",
+      null
+    ],
+    [
+      "C03-box-under",
+      "상자 하나가"
+    ]
+  ],
+  "C03-S12": [
+    [
+      "C03-box-under",
+      null
+    ],
+    [
+      "C03-foot-box",
+      "흰 양말"
+    ]
+  ],
+  "C03-S13": [
+    [
+      "C03-foot-box",
+      null,
+      "sock"
+    ]
+  ],
+  "C03-S14": [
+    [
+      "C03-foot-box",
+      null,
+      "sock"
+    ],
+    [
+      "C03-umbrella-box",
+      "우산 끝을"
+    ]
+  ],
+  "C03-S15": [
+    [
+      "C03-umbrella-box",
+      null
+    ],
+    [
+      "C03-repeated-corridor",
+      "복도 같은"
+    ]
+  ],
+  "C03-S16": [
+    [
+      "C03-hands-door",
+      null,
+      "tophand"
+    ],
+    [
+      "C03-hands-door",
+      "우산을 놓고"
+    ]
+  ],
+  "C03-S17": [
+    [
+      "C03-hands-door",
+      null
+    ],
+    [
+      "C03-flat-door",
+      "바닥에 떨어졌습니다."
+    ]
+  ],
+  "C03-S18": [
+    [
+      "C03-entry-tile",
+      null
+    ]
+  ],
+  "C03-S19": [
+    [
+      "C03-flat-door",
+      null
+    ]
+  ],
+  "C03-S20": [
+    [
+      "C03-flat-door",
+      null,
+      "wall"
+    ],
+    [
+      "C03-truck-door",
+      "수거 사진이",
+      "wide",
+      "photo"
+    ]
+  ],
+  "C03-S21": [
+    [
+      "C03-phone",
+      null
+    ]
+  ]
+}

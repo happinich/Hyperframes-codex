@@ -1,0 +1,5230 @@
+{
+  "duration": 410.42,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.28,
+      "text": "저수조는 비어 있었어요. 그런데 물이 없는"
+    },
+    {
+      "start": 3.28,
+      "end": 6.1,
+      "text": "바닥에서, 누군가 헤엄치는 소리가 들렸습니다."
+    },
+    {
+      "start": 6.74,
+      "end": 9.58,
+      "text": "작년 가을에 아파트 관리사무소에서 잠깐"
+    },
+    {
+      "start": 9.58,
+      "end": 12.68,
+      "text": "일했어요. 정식 직원은 아니었고, 공사"
+    },
+    {
+      "start": 12.68,
+      "end": 15.36,
+      "text": "안내문을 붙이거나 민원을 정리하는 일이었죠."
+    },
+    {
+      "start": 15.94,
+      "end": 18.5,
+      "text": "그날은 저수조 청소 때문에 오전 내내"
+    },
+    {
+      "start": 18.5,
+      "end": 21.98,
+      "text": "단수였어요. 작업팀이 철수한 뒤, 소장님이"
+    },
+    {
+      "start": 21.98,
+      "end": 24.3,
+      "text": "지하에 놓고 간 서류 봉투를 가져다 달라고"
+    },
+    {
+      "start": 24.3,
+      "end": 27.16,
+      "text": "했습니다. 지하는 처음 가는 곳이었어요."
+    },
+    {
+      "start": 27.16,
+      "end": 30.64,
+      "text": "계단을 내려가면 짧은 복도가 있고, 끝의"
+    },
+    {
+      "start": 30.64,
+      "end": 34.18,
+      "text": "철문이 저수조 점검실로 이어졌죠. 문을 열자"
+    },
+    {
+      "start": 34.18,
+      "end": 37.74,
+      "text": "오른쪽 벽에 작업대가 보였어요. 봉투도 그 위에"
+    },
+    {
+      "start": 37.74,
+      "end": 40.9,
+      "text": "있었고요. 왼쪽은 허리 높이 난간 너머로"
+    },
+    {
+      "start": 40.9,
+      "end": 44.4,
+      "text": "깊게 파인 저수조였습니다. 저는 안으로 내려갈"
+    },
+    {
+      "start": 44.4,
+      "end": 47.34,
+      "text": "일이 없었어요. 봉투만 챙겨서 나오면 됐거든요."
+    },
+    {
+      "start": 47.84,
+      "end": 50.66,
+      "text": "봉투를 집으려는데 물을 젓는 소리가 났어요."
+    },
+    {
+      "start": 51.28,
+      "end": 54.5,
+      "text": "처음에는 청소가 아직 안 끝난 줄 알았죠. 난간"
+    },
+    {
+      "start": 54.5,
+      "end": 56.98,
+      "text": "가까이 가서 휴대전화 불빛을 비췄습니다."
+    },
+    {
+      "start": 57.16,
+      "end": 60.54,
+      "text": "바닥은 드러나 있었어요. 배수구 주변에"
+    },
+    {
+      "start": 60.54,
+      "end": 63.2,
+      "text": "물기만 조금 남아 있고, 작업하는 사람은"
+    },
+    {
+      "start": 63.2,
+      "end": 66.62,
+      "text": "없었습니다. 그런데 불빛을 거두자, 바로"
+    },
+    {
+      "start": 66.62,
+      "end": 69.92,
+      "text": "아래에서 물장구 소리가 다시 났어요. 소장님께"
+    },
+    {
+      "start": 69.92,
+      "end": 72.52,
+      "text": "전화했더니 작업팀은 이미 나갔다고 했어요."
+    },
+    {
+      "start": 73.12,
+      "end": 75.36,
+      "text": "배관에서 나는 소리일 수 있으니 봉투만"
+    },
+    {
+      "start": 75.36,
+      "end": 78.3,
+      "text": "가져오라고 하셨죠. 저도 그 말이 맞겠거니"
+    },
+    {
+      "start": 78.3,
+      "end": 81.44,
+      "text": "했습니다. 돌아서려는데 이번에는 소리가"
+    },
+    {
+      "start": 81.44,
+      "end": 84.98,
+      "text": "가까워졌어요. 물이 없는 바닥을 가로질러, 제가"
+    },
+    {
+      "start": 84.98,
+      "end": 88.18,
+      "text": "서 있는 난간 쪽으로 오는 것 같았습니다. 난간"
+    },
+    {
+      "start": 88.18,
+      "end": 91.06,
+      "text": "바로 아래에는 벽에 고정된 사다리가 있었어요."
+    },
+    {
+      "start": 91.64,
+      "end": 94.7,
+      "text": "아까 불빛을 비췄을 때는 말라 있었는데, 맨"
+    },
+    {
+      "start": 94.7,
+      "end": 97.74,
+      "text": "아래 발판에서 물이 떨어지고 있더라고요. 한"
+    },
+    {
+      "start": 97.74,
+      "end": 100.72,
+      "text": "방울씩이 아니라 누가 젖은 발을 올렸다 뗀"
+    },
+    {
+      "start": 100.72,
+      "end": 103.82,
+      "text": "것처럼요. 저는 작업대의 손전등을 집었습니다."
+    },
+    {
+      "start": 104.26,
+      "end": 107.6,
+      "text": "휴대전화는 재킷 주머니에 넣었고요. 손전등으로"
+    },
+    {
+      "start": 107.6,
+      "end": 110.7,
+      "text": "사다리를 따라 내려갔어요. 아래쪽 세 번째"
+    },
+    {
+      "start": 110.7,
+      "end": 114.1,
+      "text": "발판에 검은 것이 걸려 있었습니다. 처음에는"
+    },
+    {
+      "start": 114.1,
+      "end": 117.54,
+      "text": "걸레라고 생각했어요. 길고 가는 실들이 발판"
+    },
+    {
+      "start": 117.54,
+      "end": 121.02,
+      "text": "아래로 늘어져 있었거든요. 그런데 그게 조금씩"
+    },
+    {
+      "start": 121.02,
+      "end": 123.86,
+      "text": "위로 당겨졌습니다. 머리카락이었어요."
+    },
+    {
+      "start": 124.3,
+      "end": 126.74,
+      "text": "발판 뒤에 가려진 머리에서 흘러내리고"
+    },
+    {
+      "start": 126.74,
+      "end": 129.74,
+      "text": "있었습니다. 그 순간 전화 진동이 울렸어요."
+    },
+    {
+      "start": 130.08,
+      "end": 133.32,
+      "text": "소장님이었죠. 화면을 꺼내는 동안 손전등이"
+    },
+    {
+      "start": 133.32,
+      "end": 136.82,
+      "text": "옆으로 기울었습니다. 소장님은 작업팀이 봉투를"
+    },
+    {
+      "start": 136.82,
+      "end": 139.7,
+      "text": "찾고 있다며 빨리 올라오라고 했어요. 저는"
+    },
+    {
+      "start": 139.7,
+      "end": 141.98,
+      "text": "사다리에 사람이 있는 것 같다고 말했습니다."
+    },
+    {
+      "start": 142.56,
+      "end": 146.04,
+      "text": "잠깐 조용해지더니, 내려가지 말고 바로 나오라고"
+    },
+    {
+      "start": 146.04,
+      "end": 149.32,
+      "text": "하셨어요. 전화를 주머니에 넣고 다시 비췄을"
+    },
+    {
+      "start": 149.32,
+      "end": 152.84,
+      "text": "때, 머리카락은 두 발판 위에 있었습니다. 그"
+    },
+    {
+      "start": 152.84,
+      "end": 156.18,
+      "text": "아래로 회색 옷의 어깨가 보였어요. 천은 몸에"
+    },
+    {
+      "start": 156.18,
+      "end": 159.1,
+      "text": "붙어 있었고, 얼굴은 벽 쪽을 향하고 있었죠."
+    },
+    {
+      "start": 159.64,
+      "end": 162.26,
+      "text": "사다리를 오르는 사람이라면 등이 제 쪽으로"
+    },
+    {
+      "start": 162.26,
+      "end": 165.42,
+      "text": "보여야 하는데, 그 어깨는 바닥과 나란했습니다."
+    },
+    {
+      "start": 165.98,
+      "end": 169.34,
+      "text": "누군가 누운 채 위로 올라오는 것처럼요. 저는"
+    },
+    {
+      "start": 169.34,
+      "end": 172.12,
+      "text": "봉투를 재킷 안쪽에 넣고 철문으로 갔어요."
+    },
+    {
+      "start": 172.74,
+      "end": 175.36,
+      "text": "들어올 때는 문이 작업대 쪽 벽에 붙을 만큼"
+    },
+    {
+      "start": 175.36,
+      "end": 178.46,
+      "text": "열려 있었는데, 어느새 반쯤 닫혀 있었습니다."
+    },
+    {
+      "start": 178.94,
+      "end": 182.2,
+      "text": "문을 당기자 무거운 것이 반대쪽에서 버텼어요."
+    },
+    {
+      "start": 182.76,
+      "end": 185.52,
+      "text": "문 아래로 물이 흘러들어 왔습니다. 제 쪽"
+    },
+    {
+      "start": 185.52,
+      "end": 188.34,
+      "text": "바닥은 아직 말라 있었는데, 복도 쪽에서요."
+    },
+    {
+      "start": 188.84,
+      "end": 191.52,
+      "text": "처음에는 작업자가 밖에 서 있다고 생각했어요."
+    },
+    {
+      "start": 192.0,
+      "end": 195.5,
+      "text": "비켜 달라고 말했죠. 대답은 없었습니다. 대신"
+    },
+    {
+      "start": 195.5,
+      "end": 198.78,
+      "text": "문틈으로 손이 들어왔어요. 손바닥을 보여주는"
+    },
+    {
+      "start": 198.78,
+      "end": 202.04,
+      "text": "모양이 아니라, 손등을 제 쪽으로 향한 채 문"
+    },
+    {
+      "start": 202.04,
+      "end": 205.22,
+      "text": "가장자리를 감싸 쥐었습니다. 손가락 사이에"
+    },
+    {
+      "start": 205.22,
+      "end": 208.52,
+      "text": "검은 머리카락이 끼어 있었어요. 방금 사다리에서"
+    },
+    {
+      "start": 208.52,
+      "end": 211.5,
+      "text": "본 것과 같은 머리카락이었습니다. 뒤에서는"
+    },
+    {
+      "start": 211.5,
+      "end": 214.48,
+      "text": "금속이 긁혔어요. 돌아보니 사다리"
+    },
+    {
+      "start": 214.48,
+      "end": 217.06,
+      "text": "윗부분이 난간보다 높이 솟아 있었습니다."
+    },
+    {
+      "start": 217.06,
+      "end": 220.02,
+      "text": "벽에서 떨어진 사다리가 바닥을 끌며"
+    },
+    {
+      "start": 220.02,
+      "end": 223.36,
+      "text": "제 쪽으로 기울어지고 있었죠. 회색 옷의 몸은"
+    },
+    {
+      "start": 223.36,
+      "end": 226.52,
+      "text": "여전히 가로로 누워 있었어요. 머리는 사다리"
+    },
+    {
+      "start": 226.52,
+      "end": 229.32,
+      "text": "뒤에 가려졌고, 한쪽 팔만 난간 위로"
+    },
+    {
+      "start": 229.32,
+      "end": 232.44,
+      "text": "올라왔습니다. 문을 잡고 있는 손과 똑같은"
+    },
+    {
+      "start": 232.44,
+      "end": 235.2,
+      "text": "손이었어요. 문 안에도 있고, 밖에도"
+    },
+    {
+      "start": 235.2,
+      "end": 237.8,
+      "text": "있었습니다. 제가 어느 쪽을 보고 있는지"
+    },
+    {
+      "start": 237.8,
+      "end": 241.24,
+      "text": "확인하듯, 두 손이 번갈아 움직였어요. 밖의"
+    },
+    {
+      "start": 241.24,
+      "end": 243.82,
+      "text": "손이 문을 밀면 난간 위의 손이 아래로"
+    },
+    {
+      "start": 243.82,
+      "end": 246.74,
+      "text": "사라졌고, 문을 조금 당기면 그 손이 다시"
+    },
+    {
+      "start": 246.74,
+      "end": 250.16,
+      "text": "올라왔습니다. 그때 처음으로 말소리가 났어요."
+    },
+    {
+      "start": 250.16,
+      "end": 253.42,
+      "text": "물에 잠긴 입으로 하는 말처럼, 중간중간"
+    },
+    {
+      "start": 253.42,
+      "end": 256.52,
+      "text": "공기가 끓었습니다. 아직 못 올라갔어."
+    },
+    {
+      "start": 256.68,
+      "end": 259.54,
+      "text": "저는 문손잡이를 두 손으로 잡아당겼어요."
+    },
+    {
+      "start": 260.02,
+      "end": 263.1,
+      "text": "손전등은 겨드랑이에 끼웠고요. 문이 손가락"
+    },
+    {
+      "start": 263.1,
+      "end": 266.7,
+      "text": "너비만큼 벌어졌다가 다시 닫혔습니다. 손잡이가"
+    },
+    {
+      "start": 266.7,
+      "end": 269.76,
+      "text": "아래로 휘는 게 보였어요. 그 손이 제 힘을"
+    },
+    {
+      "start": 269.76,
+      "end": 272.94,
+      "text": "받아내는 동안, 문 밖의 물은 제 신발 밑까지"
+    },
+    {
+      "start": 272.94,
+      "end": 276.3,
+      "text": "넘어왔습니다. 차가웠어요. 바닥을 적시는"
+    },
+    {
+      "start": 276.3,
+      "end": 279.74,
+      "text": "물인데 발목까지 잠긴 느낌이 들었습니다. 등"
+    },
+    {
+      "start": 279.74,
+      "end": 283.22,
+      "text": "뒤에서 사다리가 난간에 부딪쳤어요. 놀라서 팔을"
+    },
+    {
+      "start": 283.22,
+      "end": 286.6,
+      "text": "들었고, 손전등이 떨어졌습니다. 바닥에서 한 번"
+    },
+    {
+      "start": 286.6,
+      "end": 289.82,
+      "text": "튄 뒤 저수조 안으로 굴러갔어요. 불빛이"
+    },
+    {
+      "start": 289.82,
+      "end": 292.58,
+      "text": "사다리 아래를 훑는 순간, 문을 누르던 힘이"
+    },
+    {
+      "start": 292.58,
+      "end": 295.42,
+      "text": "잠깐 풀렸습니다. 밖의 손가락이 문에서"
+    },
+    {
+      "start": 295.42,
+      "end": 298.96,
+      "text": "떨어졌고요. 저는 이유를 생각할 틈도 없이 문을"
+    },
+    {
+      "start": 298.96,
+      "end": 302.1,
+      "text": "열고 복도로 나왔습니다. 계단까지 몇 걸음 안"
+    },
+    {
+      "start": 302.1,
+      "end": 305.58,
+      "text": "됐는데 너무 멀게 느껴졌어요. 뒤에서 철문이"
+    },
+    {
+      "start": 305.58,
+      "end": 309.04,
+      "text": "닫히고, 물장구 소리가 따라왔습니다. 발소리도"
+    },
+    {
+      "start": 309.04,
+      "end": 312.22,
+      "text": "아니고 물을 쏟는 소리도 아니었어요. 누가 제"
+    },
+    {
+      "start": 312.22,
+      "end": 314.94,
+      "text": "바로 뒤에서 팔을 크게 저으며 헤엄치고"
+    },
+    {
+      "start": 314.94,
+      "end": 318.18,
+      "text": "있었습니다. 저는 계단을 올라가면서 봉투를"
+    },
+    {
+      "start": 318.18,
+      "end": 321.6,
+      "text": "놓쳤습니다. 내려가서 주울 생각은 전혀 못"
+    },
+    {
+      "start": 321.08,
+      "end": 324.34,
+      "text": "했어요. 소장님은 제 얼굴을 보자 다른"
+    },
+    {
+      "start": 324.34,
+      "end": 327.48,
+      "text": "직원에게 지하로 같이 가 달라고 했습니다. 저는"
+    },
+    {
+      "start": 327.48,
+      "end": 330.7,
+      "text": "관리사무소에 남았어요. 얼마 뒤 두 분이"
+    },
+    {
+      "start": 330.7,
+      "end": 333.92,
+      "text": "봉투와 손전등을 가져왔죠. 봉투는 계단"
+    },
+    {
+      "start": 333.92,
+      "end": 337.24,
+      "text": "중간에 있었고, 손전등은 저수조 바닥에 떨어져"
+    },
+    {
+      "start": 337.24,
+      "end": 340.16,
+      "text": "있었다고 했어요. 사다리는 원래 자리였고,"
+    },
+    {
+      "start": 340.16,
+      "end": 343.68,
+      "text": "문손잡이도 휘지 않았다고요. 그런데 두 분"
+    },
+    {
+      "start": 343.68,
+      "end": 346.9,
+      "text": "모두 신발 밑이 젖어 있었습니다. 소장님은"
+    },
+    {
+      "start": 346.9,
+      "end": 349.92,
+      "text": "청소하고 남은 물일 거라고 했어요. 제가 무슨"
+    },
+    {
+      "start": 349.92,
+      "end": 353.04,
+      "text": "말을 하든 그 얘기만 반복했습니다. 저는"
+    },
+    {
+      "start": 353.04,
+      "end": 356.52,
+      "text": "그날 이후 지하 심부름을 하지 않았어요. 계약이"
+    },
+    {
+      "start": 356.52,
+      "end": 359.52,
+      "text": "끝날 때까지 관리사무소에서 서류만 정리했습니다."
+    },
+    {
+      "start": 360.18,
+      "end": 363.0,
+      "text": "손전등을 가져다 놓으라는 말도 다른 직원에게"
+    },
+    {
+      "start": 363.0,
+      "end": 366.54,
+      "text": "부탁했고요. 마지막 날, 서류함에서 그날"
+    },
+    {
+      "start": 366.54,
+      "end": 369.7,
+      "text": "작업 사진을 봤어요. 청소가 끝난 저수조"
+    },
+    {
+      "start": 369.7,
+      "end": 372.72,
+      "text": "바닥을 찍은 사진이었습니다. 사다리는 말라"
+    },
+    {
+      "start": 372.72,
+      "end": 376.0,
+      "text": "있었고, 아래에는 아무도 없었죠. 그런데"
+    },
+    {
+      "start": 376.0,
+      "end": 379.42,
+      "text": "사진 오른쪽 끝에 철문이 조금 찍혀 있었습니다."
+    },
+    {
+      "start": 379.7,
+      "end": 382.88,
+      "text": "문은 열려 있었어요. 그 아래, 복도"
+    },
+    {
+      "start": 382.88,
+      "end": 386.2,
+      "text": "쪽에서 회색 옷의 젖은 팔 하나가 문을"
+    },
+    {
+      "start": 386.2,
+      "end": 389.54,
+      "text": "붙들고 있었습니다. 사진 파일의 시간을 두 번"
+    },
+    {
+      "start": 389.54,
+      "end": 392.52,
+      "text": "확인했어요. 제가 지하에 내려가기 한 시간"
+    },
+    {
+      "start": 392.52,
+      "end": 395.78,
+      "text": "전이었습니다. 그때도 문을 잡고 있었던 거예요."
+    },
+    {
+      "start": 395.78,
+      "end": 398.5,
+      "text": "누군가 들어오면 닫을 수 있도록요."
+    },
+    {
+      "start": 398.84,
+      "end": 402.3,
+      "text": "저는 사진을 다시 서류함에 넣었습니다. 그날"
+    },
+    {
+      "start": 402.3,
+      "end": 405.28,
+      "text": "점심에 소장님이 저수조에 물을 다시 채웠다고"
+    },
+    {
+      "start": 405.28,
+      "end": 408.7,
+      "text": "했을 때, 제가 왜 그렇게 오래 대답을 못"
+    },
+    {
+      "start": 407.86,
+      "end": 410.42,
+      "text": "했는지는 끝내 설명하지 않았습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "저수조는",
+      "start": 0.0,
+      "end": 0.62,
+      "matched": true
+    },
+    {
+      "text": "비어",
+      "start": 0.62,
+      "end": 0.98,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 0.98,
+      "end": 1.56,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 1.94,
+      "end": 2.46,
+      "matched": true
+    },
+    {
+      "text": "물이",
+      "start": 2.46,
+      "end": 3.1,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 3.1,
+      "end": 3.28,
+      "matched": true
+    },
+    {
+      "text": "바닥에서,",
+      "start": 3.28,
+      "end": 3.9,
+      "matched": true
+    },
+    {
+      "text": "누군가",
+      "start": 3.9,
+      "end": 4.6,
+      "matched": true
+    },
+    {
+      "text": "헤엄치는",
+      "start": 4.6,
+      "end": 5.12,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 5.12,
+      "end": 5.5,
+      "matched": true
+    },
+    {
+      "text": "들렸습니다.",
+      "start": 5.5,
+      "end": 6.1,
+      "matched": true
+    },
+    {
+      "text": "작년",
+      "start": 6.74,
+      "end": 7.1,
+      "matched": true
+    },
+    {
+      "text": "가을에",
+      "start": 7.1,
+      "end": 7.64,
+      "matched": true
+    },
+    {
+      "text": "아파트",
+      "start": 7.64,
+      "end": 8.14,
+      "matched": true
+    },
+    {
+      "text": "관리사무소에서",
+      "start": 8.14,
+      "end": 9.1,
+      "matched": true
+    },
+    {
+      "text": "잠깐",
+      "start": 9.1,
+      "end": 9.58,
+      "matched": true
+    },
+    {
+      "text": "일했어요.",
+      "start": 9.58,
+      "end": 10.08,
+      "matched": true
+    },
+    {
+      "text": "정식",
+      "start": 10.66,
+      "end": 11.1,
+      "matched": true
+    },
+    {
+      "text": "직원은",
+      "start": 11.1,
+      "end": 11.54,
+      "matched": true
+    },
+    {
+      "text": "아니었고,",
+      "start": 11.54,
+      "end": 12.14,
+      "matched": true
+    },
+    {
+      "text": "공사",
+      "start": 12.14,
+      "end": 12.68,
+      "matched": true
+    },
+    {
+      "text": "안내문을",
+      "start": 12.68,
+      "end": 13.22,
+      "matched": true
+    },
+    {
+      "text": "붙이거나",
+      "start": 13.22,
+      "end": 13.74,
+      "matched": true
+    },
+    {
+      "text": "민원을",
+      "start": 13.74,
+      "end": 14.34,
+      "matched": true
+    },
+    {
+      "text": "정리하는",
+      "start": 14.34,
+      "end": 14.78,
+      "matched": true
+    },
+    {
+      "text": "일이었죠.",
+      "start": 14.78,
+      "end": 15.36,
+      "matched": true
+    },
+    {
+      "text": "그날은",
+      "start": 15.94,
+      "end": 16.38,
+      "matched": true
+    },
+    {
+      "text": "저수조",
+      "start": 16.38,
+      "end": 16.84,
+      "matched": true
+    },
+    {
+      "text": "청소",
+      "start": 16.84,
+      "end": 17.16,
+      "matched": true
+    },
+    {
+      "text": "때문에",
+      "start": 17.16,
+      "end": 17.58,
+      "matched": true
+    },
+    {
+      "text": "오전",
+      "start": 17.58,
+      "end": 18.06,
+      "matched": true
+    },
+    {
+      "text": "내내",
+      "start": 18.06,
+      "end": 18.5,
+      "matched": true
+    },
+    {
+      "text": "단수였어요.",
+      "start": 18.5,
+      "end": 19.32,
+      "matched": true
+    },
+    {
+      "text": "작업팀이",
+      "start": 19.52,
+      "end": 20.42,
+      "matched": true
+    },
+    {
+      "text": "철수한",
+      "start": 20.42,
+      "end": 20.88,
+      "matched": true
+    },
+    {
+      "text": "뒤,",
+      "start": 20.88,
+      "end": 21.06,
+      "matched": true
+    },
+    {
+      "text": "소장님이",
+      "start": 21.06,
+      "end": 21.98,
+      "matched": true
+    },
+    {
+      "text": "지하에",
+      "start": 21.98,
+      "end": 22.42,
+      "matched": true
+    },
+    {
+      "text": "놓고",
+      "start": 22.42,
+      "end": 22.68,
+      "matched": true
+    },
+    {
+      "text": "간",
+      "start": 22.68,
+      "end": 22.84,
+      "matched": true
+    },
+    {
+      "text": "서류",
+      "start": 22.84,
+      "end": 23.58,
+      "matched": true
+    },
+    {
+      "text": "봉투를",
+      "start": 22.84,
+      "end": 23.58,
+      "matched": true
+    },
+    {
+      "text": "가져다",
+      "start": 23.58,
+      "end": 23.94,
+      "matched": true
+    },
+    {
+      "text": "달라고",
+      "start": 23.94,
+      "end": 24.3,
+      "matched": true
+    },
+    {
+      "text": "했습니다.",
+      "start": 24.3,
+      "end": 24.58,
+      "matched": true
+    },
+    {
+      "text": "지하는",
+      "start": 25.28,
+      "end": 25.82,
+      "matched": true
+    },
+    {
+      "text": "처음",
+      "start": 25.82,
+      "end": 26.18,
+      "matched": true
+    },
+    {
+      "text": "가는",
+      "start": 26.18,
+      "end": 26.48,
+      "matched": true
+    },
+    {
+      "text": "곳이었어요.",
+      "start": 26.48,
+      "end": 27.16,
+      "matched": true
+    },
+    {
+      "text": "계단을",
+      "start": 27.16,
+      "end": 28.14,
+      "matched": true
+    },
+    {
+      "text": "내려가면",
+      "start": 28.14,
+      "end": 28.74,
+      "matched": true
+    },
+    {
+      "text": "짧은",
+      "start": 28.74,
+      "end": 29.18,
+      "matched": true
+    },
+    {
+      "text": "복도가",
+      "start": 29.18,
+      "end": 29.62,
+      "matched": true
+    },
+    {
+      "text": "있고,",
+      "start": 29.62,
+      "end": 29.92,
+      "matched": true
+    },
+    {
+      "text": "끝의",
+      "start": 29.92,
+      "end": 30.64,
+      "matched": true
+    },
+    {
+      "text": "철문이",
+      "start": 30.64,
+      "end": 31.14,
+      "matched": true
+    },
+    {
+      "text": "저수조",
+      "start": 31.14,
+      "end": 31.64,
+      "matched": true
+    },
+    {
+      "text": "점검실로",
+      "start": 31.64,
+      "end": 32.3,
+      "matched": true
+    },
+    {
+      "text": "이어졌죠.",
+      "start": 32.3,
+      "end": 32.92,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 33.2,
+      "end": 33.84,
+      "matched": true
+    },
+    {
+      "text": "열자",
+      "start": 33.84,
+      "end": 34.18,
+      "matched": true
+    },
+    {
+      "text": "오른쪽",
+      "start": 34.18,
+      "end": 34.84,
+      "matched": true
+    },
+    {
+      "text": "벽에",
+      "start": 34.84,
+      "end": 35.18,
+      "matched": true
+    },
+    {
+      "text": "작업대가",
+      "start": 35.18,
+      "end": 35.82,
+      "matched": true
+    },
+    {
+      "text": "보였어요.",
+      "start": 35.82,
+      "end": 36.36,
+      "matched": true
+    },
+    {
+      "text": "봉투도",
+      "start": 36.82,
+      "end": 37.3,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 37.3,
+      "end": 37.5,
+      "matched": true
+    },
+    {
+      "text": "위에",
+      "start": 37.5,
+      "end": 37.74,
+      "matched": true
+    },
+    {
+      "text": "있었고요.",
+      "start": 37.74,
+      "end": 38.2,
+      "matched": true
+    },
+    {
+      "text": "왼쪽은",
+      "start": 38.82,
+      "end": 39.46,
+      "matched": true
+    },
+    {
+      "text": "허리",
+      "start": 39.46,
+      "end": 40.06,
+      "matched": true
+    },
+    {
+      "text": "높이",
+      "start": 39.46,
+      "end": 40.06,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 40.06,
+      "end": 40.44,
+      "matched": true
+    },
+    {
+      "text": "너머로",
+      "start": 40.44,
+      "end": 40.9,
+      "matched": true
+    },
+    {
+      "text": "깊게",
+      "start": 40.9,
+      "end": 41.42,
+      "matched": true
+    },
+    {
+      "text": "파인",
+      "start": 41.42,
+      "end": 41.76,
+      "matched": true
+    },
+    {
+      "text": "저수조였습니다.",
+      "start": 41.76,
+      "end": 42.44,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 43.22,
+      "end": 43.52,
+      "matched": true
+    },
+    {
+      "text": "안으로",
+      "start": 43.52,
+      "end": 43.96,
+      "matched": true
+    },
+    {
+      "text": "내려갈",
+      "start": 43.96,
+      "end": 44.4,
+      "matched": true
+    },
+    {
+      "text": "일이",
+      "start": 44.4,
+      "end": 44.58,
+      "matched": true
+    },
+    {
+      "text": "없었어요.",
+      "start": 44.58,
+      "end": 45.14,
+      "matched": true
+    },
+    {
+      "text": "봉투만",
+      "start": 45.46,
+      "end": 46.06,
+      "matched": true
+    },
+    {
+      "text": "챙겨서",
+      "start": 46.06,
+      "end": 46.44,
+      "matched": true
+    },
+    {
+      "text": "나오면",
+      "start": 46.44,
+      "end": 46.82,
+      "matched": true
+    },
+    {
+      "text": "됐거든요.",
+      "start": 46.82,
+      "end": 47.34,
+      "matched": true
+    },
+    {
+      "text": "봉투를",
+      "start": 47.84,
+      "end": 48.32,
+      "matched": true
+    },
+    {
+      "text": "집으려는데",
+      "start": 48.32,
+      "end": 48.96,
+      "matched": true
+    },
+    {
+      "text": "물을",
+      "start": 48.96,
+      "end": 49.66,
+      "matched": true
+    },
+    {
+      "text": "젓는",
+      "start": 49.66,
+      "end": 49.9,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 49.9,
+      "end": 50.22,
+      "matched": true
+    },
+    {
+      "text": "났어요.",
+      "start": 50.22,
+      "end": 50.66,
+      "matched": true
+    },
+    {
+      "text": "처음에는",
+      "start": 51.28,
+      "end": 51.8,
+      "matched": true
+    },
+    {
+      "text": "청소가",
+      "start": 51.8,
+      "end": 52.34,
+      "matched": true
+    },
+    {
+      "text": "아직",
+      "start": 52.34,
+      "end": 52.54,
+      "matched": true
+    },
+    {
+      "text": "안",
+      "start": 52.54,
+      "end": 52.72,
+      "matched": true
+    },
+    {
+      "text": "끝난",
+      "start": 52.72,
+      "end": 53.0,
+      "matched": true
+    },
+    {
+      "text": "줄",
+      "start": 53.0,
+      "end": 53.12,
+      "matched": true
+    },
+    {
+      "text": "알았죠.",
+      "start": 53.12,
+      "end": 53.6,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 54.12,
+      "end": 54.5,
+      "matched": true
+    },
+    {
+      "text": "가까이",
+      "start": 54.5,
+      "end": 54.94,
+      "matched": true
+    },
+    {
+      "text": "가서",
+      "start": 54.94,
+      "end": 55.2,
+      "matched": true
+    },
+    {
+      "text": "휴대전화",
+      "start": 55.2,
+      "end": 55.84,
+      "matched": true
+    },
+    {
+      "text": "불빛을",
+      "start": 55.84,
+      "end": 56.36,
+      "matched": true
+    },
+    {
+      "text": "비췄습니다.",
+      "start": 56.36,
+      "end": 56.98,
+      "matched": true
+    },
+    {
+      "text": "바닥은",
+      "start": 57.16,
+      "end": 58.12,
+      "matched": true
+    },
+    {
+      "text": "드러나",
+      "start": 58.12,
+      "end": 58.58,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 58.58,
+      "end": 59.12,
+      "matched": true
+    },
+    {
+      "text": "배수구",
+      "start": 59.56,
+      "end": 60.06,
+      "matched": true
+    },
+    {
+      "text": "주변에",
+      "start": 60.06,
+      "end": 60.54,
+      "matched": true
+    },
+    {
+      "text": "물기만",
+      "start": 60.54,
+      "end": 61.08,
+      "matched": true
+    },
+    {
+      "text": "조금",
+      "start": 61.08,
+      "end": 61.34,
+      "matched": true
+    },
+    {
+      "text": "남아",
+      "start": 61.34,
+      "end": 61.98,
+      "matched": true
+    },
+    {
+      "text": "있고,",
+      "start": 61.34,
+      "end": 61.98,
+      "matched": true
+    },
+    {
+      "text": "작업하는",
+      "start": 61.98,
+      "end": 62.8,
+      "matched": true
+    },
+    {
+      "text": "사람은",
+      "start": 62.8,
+      "end": 63.2,
+      "matched": true
+    },
+    {
+      "text": "없었습니다.",
+      "start": 63.2,
+      "end": 63.68,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 64.42,
+      "end": 64.78,
+      "matched": true
+    },
+    {
+      "text": "불빛을",
+      "start": 64.78,
+      "end": 65.56,
+      "matched": true
+    },
+    {
+      "text": "거두자,",
+      "start": 65.56,
+      "end": 66.0,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 66.0,
+      "end": 66.62,
+      "matched": true
+    },
+    {
+      "text": "아래에서",
+      "start": 66.62,
+      "end": 67.14,
+      "matched": true
+    },
+    {
+      "text": "물장구",
+      "start": 67.14,
+      "end": 67.74,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 67.74,
+      "end": 68.06,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 68.06,
+      "end": 68.34,
+      "matched": true
+    },
+    {
+      "text": "났어요.",
+      "start": 68.34,
+      "end": 68.78,
+      "matched": true
+    },
+    {
+      "text": "소장님께",
+      "start": 69.36,
+      "end": 69.92,
+      "matched": true
+    },
+    {
+      "text": "전화했더니",
+      "start": 69.92,
+      "end": 70.6,
+      "matched": true
+    },
+    {
+      "text": "작업팀은",
+      "start": 70.6,
+      "end": 71.38,
+      "matched": true
+    },
+    {
+      "text": "이미",
+      "start": 71.38,
+      "end": 71.6,
+      "matched": true
+    },
+    {
+      "text": "나갔다고",
+      "start": 71.6,
+      "end": 72.14,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 72.14,
+      "end": 72.52,
+      "matched": true
+    },
+    {
+      "text": "배관에서",
+      "start": 73.12,
+      "end": 73.64,
+      "matched": true
+    },
+    {
+      "text": "나는",
+      "start": 73.64,
+      "end": 73.82,
+      "matched": true
+    },
+    {
+      "text": "소리일",
+      "start": 73.82,
+      "end": 74.24,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 74.24,
+      "end": 74.36,
+      "matched": true
+    },
+    {
+      "text": "있으니",
+      "start": 74.36,
+      "end": 74.78,
+      "matched": true
+    },
+    {
+      "text": "봉투만",
+      "start": 74.78,
+      "end": 75.36,
+      "matched": true
+    },
+    {
+      "text": "가져오라고",
+      "start": 75.36,
+      "end": 75.94,
+      "matched": true
+    },
+    {
+      "text": "하셨죠.",
+      "start": 75.94,
+      "end": 76.4,
+      "matched": true
+    },
+    {
+      "text": "저도",
+      "start": 76.92,
+      "end": 77.16,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 77.16,
+      "end": 77.44,
+      "matched": true
+    },
+    {
+      "text": "말이",
+      "start": 77.44,
+      "end": 77.64,
+      "matched": true
+    },
+    {
+      "text": "맞겠거니",
+      "start": 77.64,
+      "end": 78.3,
+      "matched": true
+    },
+    {
+      "text": "했습니다.",
+      "start": 78.3,
+      "end": 78.68,
+      "matched": true
+    },
+    {
+      "text": "돌아서려는데",
+      "start": 79.46,
+      "end": 80.18,
+      "matched": true
+    },
+    {
+      "text": "이번에는",
+      "start": 80.18,
+      "end": 81.02,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 81.02,
+      "end": 81.44,
+      "matched": true
+    },
+    {
+      "text": "가까워졌어요.",
+      "start": 81.44,
+      "end": 82.32,
+      "matched": true
+    },
+    {
+      "text": "물이",
+      "start": 82.32,
+      "end": 83.2,
+      "matched": true
+    },
+    {
+      "text": "없는",
+      "start": 83.2,
+      "end": 83.38,
+      "matched": true
+    },
+    {
+      "text": "바닥을",
+      "start": 83.38,
+      "end": 83.88,
+      "matched": true
+    },
+    {
+      "text": "가로질러,",
+      "start": 83.88,
+      "end": 84.46,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 84.46,
+      "end": 84.98,
+      "matched": true
+    },
+    {
+      "text": "서",
+      "start": 84.98,
+      "end": 85.18,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 85.18,
+      "end": 85.4,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 85.4,
+      "end": 85.86,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 85.86,
+      "end": 86.24,
+      "matched": true
+    },
+    {
+      "text": "오는",
+      "start": 86.24,
+      "end": 86.46,
+      "matched": true
+    },
+    {
+      "text": "것",
+      "start": 86.46,
+      "end": 86.58,
+      "matched": true
+    },
+    {
+      "text": "같았습니다.",
+      "start": 86.58,
+      "end": 87.1,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 87.48,
+      "end": 88.18,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 88.18,
+      "end": 88.46,
+      "matched": true
+    },
+    {
+      "text": "아래에는",
+      "start": 88.46,
+      "end": 89.06,
+      "matched": true
+    },
+    {
+      "text": "벽에",
+      "start": 89.06,
+      "end": 89.56,
+      "matched": true
+    },
+    {
+      "text": "고정된",
+      "start": 89.56,
+      "end": 90.06,
+      "matched": true
+    },
+    {
+      "text": "사다리가",
+      "start": 90.06,
+      "end": 90.52,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 90.52,
+      "end": 91.06,
+      "matched": true
+    },
+    {
+      "text": "아까",
+      "start": 91.64,
+      "end": 91.86,
+      "matched": true
+    },
+    {
+      "text": "불빛을",
+      "start": 91.86,
+      "end": 92.4,
+      "matched": true
+    },
+    {
+      "text": "비췄을",
+      "start": 92.4,
+      "end": 92.9,
+      "matched": true
+    },
+    {
+      "text": "때는",
+      "start": 92.9,
+      "end": 93.1,
+      "matched": true
+    },
+    {
+      "text": "말라",
+      "start": 93.1,
+      "end": 93.48,
+      "matched": true
+    },
+    {
+      "text": "있었는데,",
+      "start": 93.48,
+      "end": 94.0,
+      "matched": true
+    },
+    {
+      "text": "맨",
+      "start": 94.0,
+      "end": 94.7,
+      "matched": true
+    },
+    {
+      "text": "아래",
+      "start": 94.7,
+      "end": 94.94,
+      "matched": true
+    },
+    {
+      "text": "발판에서",
+      "start": 94.94,
+      "end": 95.56,
+      "matched": true
+    },
+    {
+      "text": "물이",
+      "start": 95.56,
+      "end": 96.0,
+      "matched": true
+    },
+    {
+      "text": "떨어지고",
+      "start": 96.0,
+      "end": 96.46,
+      "matched": true
+    },
+    {
+      "text": "있더라고요.",
+      "start": 96.46,
+      "end": 96.9,
+      "matched": true
+    },
+    {
+      "text": "한",
+      "start": 97.58,
+      "end": 97.74,
+      "matched": true
+    },
+    {
+      "text": "방울씩이",
+      "start": 97.74,
+      "end": 98.36,
+      "matched": true
+    },
+    {
+      "text": "아니라",
+      "start": 98.36,
+      "end": 98.6,
+      "matched": true
+    },
+    {
+      "text": "누가",
+      "start": 98.6,
+      "end": 99.2,
+      "matched": true
+    },
+    {
+      "text": "젖은",
+      "start": 99.2,
+      "end": 99.7,
+      "matched": true
+    },
+    {
+      "text": "발을",
+      "start": 99.7,
+      "end": 99.96,
+      "matched": true
+    },
+    {
+      "text": "올렸다",
+      "start": 99.96,
+      "end": 100.48,
+      "matched": true
+    },
+    {
+      "text": "뗀",
+      "start": 100.48,
+      "end": 100.72,
+      "matched": true
+    },
+    {
+      "text": "것처럼요.",
+      "start": 100.72,
+      "end": 101.3,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 101.66,
+      "end": 101.98,
+      "matched": true
+    },
+    {
+      "text": "작업대의",
+      "start": 101.98,
+      "end": 102.68,
+      "matched": true
+    },
+    {
+      "text": "손전등을",
+      "start": 102.68,
+      "end": 103.3,
+      "matched": true
+    },
+    {
+      "text": "집었습니다.",
+      "start": 103.3,
+      "end": 103.82,
+      "matched": true
+    },
+    {
+      "text": "휴대전화는",
+      "start": 104.26,
+      "end": 105.08,
+      "matched": true
+    },
+    {
+      "text": "재킷",
+      "start": 105.08,
+      "end": 105.48,
+      "matched": true
+    },
+    {
+      "text": "주머니에",
+      "start": 105.48,
+      "end": 105.92,
+      "matched": true
+    },
+    {
+      "text": "넣었고요.",
+      "start": 105.92,
+      "end": 106.38,
+      "matched": true
+    },
+    {
+      "text": "손전등으로",
+      "start": 106.9,
+      "end": 107.6,
+      "matched": true
+    },
+    {
+      "text": "사다리를",
+      "start": 107.6,
+      "end": 108.18,
+      "matched": true
+    },
+    {
+      "text": "따라",
+      "start": 108.18,
+      "end": 108.44,
+      "matched": true
+    },
+    {
+      "text": "내려갔어요.",
+      "start": 108.44,
+      "end": 109.14,
+      "matched": true
+    },
+    {
+      "text": "아래쪽",
+      "start": 109.14,
+      "end": 110.22,
+      "matched": true
+    },
+    {
+      "text": "세",
+      "start": 110.22,
+      "end": 110.4,
+      "matched": true
+    },
+    {
+      "text": "번째",
+      "start": 110.4,
+      "end": 110.7,
+      "matched": true
+    },
+    {
+      "text": "발판에",
+      "start": 110.7,
+      "end": 111.32,
+      "matched": true
+    },
+    {
+      "text": "검은",
+      "start": 111.32,
+      "end": 111.86,
+      "matched": true
+    },
+    {
+      "text": "것이",
+      "start": 111.86,
+      "end": 112.08,
+      "matched": true
+    },
+    {
+      "text": "걸려",
+      "start": 112.08,
+      "end": 112.42,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 112.42,
+      "end": 112.94,
+      "matched": true
+    },
+    {
+      "text": "처음에는",
+      "start": 113.26,
+      "end": 114.1,
+      "matched": true
+    },
+    {
+      "text": "걸레라고",
+      "start": 114.1,
+      "end": 114.7,
+      "matched": true
+    },
+    {
+      "text": "생각했어요.",
+      "start": 114.7,
+      "end": 115.36,
+      "matched": true
+    },
+    {
+      "text": "길고",
+      "start": 115.98,
+      "end": 116.36,
+      "matched": true
+    },
+    {
+      "text": "가는",
+      "start": 116.36,
+      "end": 116.58,
+      "matched": true
+    },
+    {
+      "text": "실들이",
+      "start": 116.58,
+      "end": 117.06,
+      "matched": true
+    },
+    {
+      "text": "발판",
+      "start": 117.06,
+      "end": 117.54,
+      "matched": true
+    },
+    {
+      "text": "아래로",
+      "start": 117.54,
+      "end": 117.92,
+      "matched": true
+    },
+    {
+      "text": "늘어져",
+      "start": 117.92,
+      "end": 118.3,
+      "matched": true
+    },
+    {
+      "text": "있었거든요.",
+      "start": 118.3,
+      "end": 118.86,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 119.5,
+      "end": 119.82,
+      "matched": true
+    },
+    {
+      "text": "그게",
+      "start": 119.82,
+      "end": 120.32,
+      "matched": true
+    },
+    {
+      "text": "조금씩",
+      "start": 120.32,
+      "end": 121.02,
+      "matched": true
+    },
+    {
+      "text": "위로",
+      "start": 121.02,
+      "end": 121.4,
+      "matched": true
+    },
+    {
+      "text": "당겨졌습니다.",
+      "start": 121.4,
+      "end": 122.28,
+      "matched": true
+    },
+    {
+      "text": "머리카락이었어요.",
+      "start": 122.86,
+      "end": 123.86,
+      "matched": true
+    },
+    {
+      "text": "발판",
+      "start": 124.3,
+      "end": 124.84,
+      "matched": true
+    },
+    {
+      "text": "뒤에",
+      "start": 124.84,
+      "end": 125.06,
+      "matched": true
+    },
+    {
+      "text": "가려진",
+      "start": 125.06,
+      "end": 125.56,
+      "matched": true
+    },
+    {
+      "text": "머리에서",
+      "start": 125.56,
+      "end": 126.06,
+      "matched": true
+    },
+    {
+      "text": "흘러내리고",
+      "start": 126.06,
+      "end": 126.74,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 126.74,
+      "end": 127.24,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 127.8,
+      "end": 128.0,
+      "matched": true
+    },
+    {
+      "text": "순간",
+      "start": 128.0,
+      "end": 128.32,
+      "matched": true
+    },
+    {
+      "text": "전화",
+      "start": 128.32,
+      "end": 129.2,
+      "matched": true
+    },
+    {
+      "text": "진동이",
+      "start": 128.32,
+      "end": 129.2,
+      "matched": true
+    },
+    {
+      "text": "울렸어요.",
+      "start": 129.2,
+      "end": 129.74,
+      "matched": true
+    },
+    {
+      "text": "소장님이었죠.",
+      "start": 130.08,
+      "end": 130.94,
+      "matched": true
+    },
+    {
+      "text": "화면을",
+      "start": 131.18,
+      "end": 131.86,
+      "matched": true
+    },
+    {
+      "text": "꺼내는",
+      "start": 131.86,
+      "end": 132.24,
+      "matched": true
+    },
+    {
+      "text": "동안",
+      "start": 132.24,
+      "end": 132.5,
+      "matched": true
+    },
+    {
+      "text": "손전등이",
+      "start": 132.5,
+      "end": 133.32,
+      "matched": true
+    },
+    {
+      "text": "옆으로",
+      "start": 133.32,
+      "end": 133.7,
+      "matched": true
+    },
+    {
+      "text": "기울었습니다.",
+      "start": 133.7,
+      "end": 134.3,
+      "matched": true
+    },
+    {
+      "text": "소장님은",
+      "start": 134.92,
+      "end": 135.7,
+      "matched": true
+    },
+    {
+      "text": "작업팀이",
+      "start": 135.7,
+      "end": 136.36,
+      "matched": true
+    },
+    {
+      "text": "봉투를",
+      "start": 136.36,
+      "end": 136.82,
+      "matched": true
+    },
+    {
+      "text": "찾고",
+      "start": 136.82,
+      "end": 137.1,
+      "matched": true
+    },
+    {
+      "text": "있다며",
+      "start": 137.1,
+      "end": 137.52,
+      "matched": true
+    },
+    {
+      "text": "빨리",
+      "start": 137.52,
+      "end": 137.88,
+      "matched": true
+    },
+    {
+      "text": "올라오라고",
+      "start": 137.88,
+      "end": 138.52,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 138.52,
+      "end": 138.82,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 139.14,
+      "end": 139.7,
+      "matched": true
+    },
+    {
+      "text": "사다리에",
+      "start": 139.7,
+      "end": 140.38,
+      "matched": true
+    },
+    {
+      "text": "사람이",
+      "start": 140.38,
+      "end": 140.76,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 140.76,
+      "end": 140.98,
+      "matched": true
+    },
+    {
+      "text": "것",
+      "start": 140.98,
+      "end": 141.14,
+      "matched": true
+    },
+    {
+      "text": "같다고",
+      "start": 141.14,
+      "end": 141.5,
+      "matched": true
+    },
+    {
+      "text": "말했습니다.",
+      "start": 141.5,
+      "end": 141.98,
+      "matched": true
+    },
+    {
+      "text": "잠깐",
+      "start": 142.56,
+      "end": 143.04,
+      "matched": true
+    },
+    {
+      "text": "조용해지더니,",
+      "start": 143.04,
+      "end": 143.9,
+      "matched": true
+    },
+    {
+      "text": "내려가지",
+      "start": 143.9,
+      "end": 144.8,
+      "matched": true
+    },
+    {
+      "text": "말고",
+      "start": 144.8,
+      "end": 145.1,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 145.1,
+      "end": 145.56,
+      "matched": true
+    },
+    {
+      "text": "나오라고",
+      "start": 145.56,
+      "end": 146.04,
+      "matched": true
+    },
+    {
+      "text": "하셨어요.",
+      "start": 146.04,
+      "end": 146.5,
+      "matched": true
+    },
+    {
+      "text": "전화를",
+      "start": 147.0,
+      "end": 147.52,
+      "matched": true
+    },
+    {
+      "text": "주머니에",
+      "start": 147.52,
+      "end": 148.04,
+      "matched": true
+    },
+    {
+      "text": "넣고",
+      "start": 148.04,
+      "end": 148.34,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 148.34,
+      "end": 148.76,
+      "matched": true
+    },
+    {
+      "text": "비췄을",
+      "start": 148.76,
+      "end": 149.32,
+      "matched": true
+    },
+    {
+      "text": "때,",
+      "start": 149.32,
+      "end": 149.48,
+      "matched": true
+    },
+    {
+      "text": "머리카락은",
+      "start": 149.48,
+      "end": 150.64,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 150.64,
+      "end": 150.88,
+      "matched": true
+    },
+    {
+      "text": "발판",
+      "start": 150.88,
+      "end": 151.34,
+      "matched": true
+    },
+    {
+      "text": "위에",
+      "start": 151.34,
+      "end": 151.52,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 151.52,
+      "end": 152.08,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 152.66,
+      "end": 152.84,
+      "matched": true
+    },
+    {
+      "text": "아래로",
+      "start": 152.84,
+      "end": 153.3,
+      "matched": true
+    },
+    {
+      "text": "회색",
+      "start": 153.3,
+      "end": 153.78,
+      "matched": true
+    },
+    {
+      "text": "옷의",
+      "start": 153.78,
+      "end": 154.0,
+      "matched": true
+    },
+    {
+      "text": "어깨가",
+      "start": 154.0,
+      "end": 154.44,
+      "matched": true
+    },
+    {
+      "text": "보였어요.",
+      "start": 154.44,
+      "end": 155.0,
+      "matched": true
+    },
+    {
+      "text": "천은",
+      "start": 155.56,
+      "end": 155.86,
+      "matched": true
+    },
+    {
+      "text": "몸에",
+      "start": 155.86,
+      "end": 156.18,
+      "matched": true
+    },
+    {
+      "text": "붙어",
+      "start": 156.18,
+      "end": 157.0,
+      "matched": true
+    },
+    {
+      "text": "있었고,",
+      "start": 156.18,
+      "end": 157.0,
+      "matched": true
+    },
+    {
+      "text": "얼굴은",
+      "start": 157.0,
+      "end": 157.78,
+      "matched": true
+    },
+    {
+      "text": "벽",
+      "start": 157.78,
+      "end": 158.08,
+      "matched": true
+    },
+    {
+      "text": "쪽을",
+      "start": 158.08,
+      "end": 158.34,
+      "matched": true
+    },
+    {
+      "text": "향하고",
+      "start": 158.34,
+      "end": 158.66,
+      "matched": true
+    },
+    {
+      "text": "있었죠.",
+      "start": 158.66,
+      "end": 159.1,
+      "matched": true
+    },
+    {
+      "text": "사다리를",
+      "start": 159.64,
+      "end": 160.16,
+      "matched": true
+    },
+    {
+      "text": "오르는",
+      "start": 160.16,
+      "end": 160.52,
+      "matched": true
+    },
+    {
+      "text": "사람이라면",
+      "start": 160.52,
+      "end": 161.24,
+      "matched": true
+    },
+    {
+      "text": "등이",
+      "start": 161.24,
+      "end": 161.7,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 161.7,
+      "end": 161.88,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 161.88,
+      "end": 162.26,
+      "matched": true
+    },
+    {
+      "text": "보여야",
+      "start": 162.26,
+      "end": 162.62,
+      "matched": true
+    },
+    {
+      "text": "하는데,",
+      "start": 162.62,
+      "end": 162.94,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 162.94,
+      "end": 163.62,
+      "matched": true
+    },
+    {
+      "text": "어깨는",
+      "start": 163.62,
+      "end": 164.12,
+      "matched": true
+    },
+    {
+      "text": "바닥과",
+      "start": 164.12,
+      "end": 164.66,
+      "matched": true
+    },
+    {
+      "text": "나란했습니다.",
+      "start": 164.94,
+      "end": 165.42,
+      "matched": true
+    },
+    {
+      "text": "누군가",
+      "start": 165.98,
+      "end": 166.5,
+      "matched": true
+    },
+    {
+      "text": "누운",
+      "start": 166.5,
+      "end": 166.94,
+      "matched": true
+    },
+    {
+      "text": "채",
+      "start": 166.94,
+      "end": 167.12,
+      "matched": true
+    },
+    {
+      "text": "위로",
+      "start": 167.12,
+      "end": 167.46,
+      "matched": true
+    },
+    {
+      "text": "올라오는",
+      "start": 167.46,
+      "end": 167.92,
+      "matched": true
+    },
+    {
+      "text": "것처럼요.",
+      "start": 167.92,
+      "end": 168.48,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 169.14,
+      "end": 169.34,
+      "matched": true
+    },
+    {
+      "text": "봉투를",
+      "start": 169.34,
+      "end": 169.86,
+      "matched": true
+    },
+    {
+      "text": "재킷",
+      "start": 169.86,
+      "end": 170.22,
+      "matched": true
+    },
+    {
+      "text": "안쪽에",
+      "start": 170.22,
+      "end": 170.58,
+      "matched": true
+    },
+    {
+      "text": "넣고",
+      "start": 170.58,
+      "end": 170.96,
+      "matched": true
+    },
+    {
+      "text": "철문으로",
+      "start": 170.96,
+      "end": 171.66,
+      "matched": true
+    },
+    {
+      "text": "갔어요.",
+      "start": 171.66,
+      "end": 172.12,
+      "matched": true
+    },
+    {
+      "text": "들어올",
+      "start": 172.74,
+      "end": 173.06,
+      "matched": true
+    },
+    {
+      "text": "때는",
+      "start": 173.06,
+      "end": 173.24,
+      "matched": true
+    },
+    {
+      "text": "문이",
+      "start": 173.24,
+      "end": 173.78,
+      "matched": true
+    },
+    {
+      "text": "작업대",
+      "start": 173.78,
+      "end": 174.26,
+      "matched": true
+    },
+    {
+      "text": "쪽",
+      "start": 174.26,
+      "end": 174.44,
+      "matched": true
+    },
+    {
+      "text": "벽에",
+      "start": 174.44,
+      "end": 174.8,
+      "matched": true
+    },
+    {
+      "text": "붙을",
+      "start": 174.8,
+      "end": 175.12,
+      "matched": true
+    },
+    {
+      "text": "만큼",
+      "start": 175.12,
+      "end": 175.36,
+      "matched": true
+    },
+    {
+      "text": "열려",
+      "start": 175.36,
+      "end": 175.74,
+      "matched": true
+    },
+    {
+      "text": "있었는데,",
+      "start": 175.74,
+      "end": 176.26,
+      "matched": true
+    },
+    {
+      "text": "어느새",
+      "start": 176.26,
+      "end": 177.06,
+      "matched": true
+    },
+    {
+      "text": "반쯤",
+      "start": 177.06,
+      "end": 177.58,
+      "matched": true
+    },
+    {
+      "text": "닫혀",
+      "start": 177.58,
+      "end": 177.92,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 177.92,
+      "end": 178.46,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 178.94,
+      "end": 179.42,
+      "matched": true
+    },
+    {
+      "text": "당기자",
+      "start": 179.42,
+      "end": 179.78,
+      "matched": true
+    },
+    {
+      "text": "무거운",
+      "start": 179.78,
+      "end": 180.54,
+      "matched": true
+    },
+    {
+      "text": "것이",
+      "start": 180.54,
+      "end": 180.8,
+      "matched": true
+    },
+    {
+      "text": "반대쪽에서",
+      "start": 180.8,
+      "end": 181.54,
+      "matched": true
+    },
+    {
+      "text": "버텼어요.",
+      "start": 181.54,
+      "end": 182.2,
+      "matched": true
+    },
+    {
+      "text": "문",
+      "start": 182.76,
+      "end": 182.98,
+      "matched": true
+    },
+    {
+      "text": "아래로",
+      "start": 182.98,
+      "end": 183.4,
+      "matched": true
+    },
+    {
+      "text": "물이",
+      "start": 183.4,
+      "end": 183.78,
+      "matched": true
+    },
+    {
+      "text": "흘러들어",
+      "start": 183.78,
+      "end": 184.66,
+      "matched": true
+    },
+    {
+      "text": "왔습니다.",
+      "start": 183.78,
+      "end": 184.66,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 185.22,
+      "end": 185.36,
+      "matched": true
+    },
+    {
+      "text": "쪽",
+      "start": 185.36,
+      "end": 185.52,
+      "matched": true
+    },
+    {
+      "text": "바닥은",
+      "start": 185.52,
+      "end": 186.06,
+      "matched": true
+    },
+    {
+      "text": "아직",
+      "start": 186.06,
+      "end": 186.32,
+      "matched": true
+    },
+    {
+      "text": "말라",
+      "start": 186.32,
+      "end": 186.66,
+      "matched": true
+    },
+    {
+      "text": "있었는데,",
+      "start": 186.66,
+      "end": 187.18,
+      "matched": true
+    },
+    {
+      "text": "복도",
+      "start": 187.18,
+      "end": 187.8,
+      "matched": true
+    },
+    {
+      "text": "쪽에서요.",
+      "start": 187.8,
+      "end": 188.34,
+      "matched": true
+    },
+    {
+      "text": "처음에는",
+      "start": 188.84,
+      "end": 189.48,
+      "matched": true
+    },
+    {
+      "text": "작업자가",
+      "start": 189.48,
+      "end": 190.1,
+      "matched": true
+    },
+    {
+      "text": "밖에",
+      "start": 190.1,
+      "end": 190.42,
+      "matched": true
+    },
+    {
+      "text": "서",
+      "start": 190.42,
+      "end": 190.58,
+      "matched": true
+    },
+    {
+      "text": "있다고",
+      "start": 190.58,
+      "end": 190.82,
+      "matched": true
+    },
+    {
+      "text": "생각했어요.",
+      "start": 190.82,
+      "end": 191.52,
+      "matched": true
+    },
+    {
+      "text": "비켜",
+      "start": 192.0,
+      "end": 192.6,
+      "matched": true
+    },
+    {
+      "text": "달라고",
+      "start": 192.0,
+      "end": 192.6,
+      "matched": true
+    },
+    {
+      "text": "말했죠.",
+      "start": 192.6,
+      "end": 193.08,
+      "matched": true
+    },
+    {
+      "text": "대답은",
+      "start": 193.54,
+      "end": 194.0,
+      "matched": true
+    },
+    {
+      "text": "없었습니다.",
+      "start": 194.0,
+      "end": 194.52,
+      "matched": true
+    },
+    {
+      "text": "대신",
+      "start": 195.1,
+      "end": 195.5,
+      "matched": true
+    },
+    {
+      "text": "문틈으로",
+      "start": 195.5,
+      "end": 196.22,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 196.22,
+      "end": 196.62,
+      "matched": true
+    },
+    {
+      "text": "들어왔어요.",
+      "start": 196.62,
+      "end": 197.2,
+      "matched": true
+    },
+    {
+      "text": "손바닥을",
+      "start": 197.2,
+      "end": 198.34,
+      "matched": true
+    },
+    {
+      "text": "보여주는",
+      "start": 198.34,
+      "end": 198.78,
+      "matched": true
+    },
+    {
+      "text": "모양이",
+      "start": 198.78,
+      "end": 199.2,
+      "matched": true
+    },
+    {
+      "text": "아니라,",
+      "start": 199.2,
+      "end": 199.52,
+      "matched": true
+    },
+    {
+      "text": "손등을",
+      "start": 199.52,
+      "end": 200.48,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 200.48,
+      "end": 201.04,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 200.48,
+      "end": 201.04,
+      "matched": true
+    },
+    {
+      "text": "향한",
+      "start": 201.04,
+      "end": 201.38,
+      "matched": true
+    },
+    {
+      "text": "채",
+      "start": 201.38,
+      "end": 201.54,
+      "matched": true
+    },
+    {
+      "text": "문",
+      "start": 201.54,
+      "end": 202.04,
+      "matched": true
+    },
+    {
+      "text": "가장자리를",
+      "start": 202.04,
+      "end": 202.84,
+      "matched": true
+    },
+    {
+      "text": "감싸",
+      "start": 202.84,
+      "end": 203.72,
+      "matched": true
+    },
+    {
+      "text": "쥐었습니다.",
+      "start": 202.84,
+      "end": 203.72,
+      "matched": true
+    },
+    {
+      "text": "손가락",
+      "start": 203.72,
+      "end": 204.82,
+      "matched": true
+    },
+    {
+      "text": "사이에",
+      "start": 204.82,
+      "end": 205.22,
+      "matched": true
+    },
+    {
+      "text": "검은",
+      "start": 205.22,
+      "end": 205.72,
+      "matched": true
+    },
+    {
+      "text": "머리카락이",
+      "start": 205.72,
+      "end": 206.36,
+      "matched": true
+    },
+    {
+      "text": "끼어",
+      "start": 206.36,
+      "end": 206.58,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 206.58,
+      "end": 207.12,
+      "matched": true
+    },
+    {
+      "text": "방금",
+      "start": 207.12,
+      "end": 207.98,
+      "matched": true
+    },
+    {
+      "text": "사다리에서",
+      "start": 207.98,
+      "end": 208.52,
+      "matched": true
+    },
+    {
+      "text": "본",
+      "start": 208.52,
+      "end": 208.7,
+      "matched": true
+    },
+    {
+      "text": "것과",
+      "start": 208.7,
+      "end": 209.0,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 209.0,
+      "end": 209.36,
+      "matched": true
+    },
+    {
+      "text": "머리카락이었습니다.",
+      "start": 209.36,
+      "end": 210.4,
+      "matched": true
+    },
+    {
+      "text": "뒤에서는",
+      "start": 210.4,
+      "end": 211.5,
+      "matched": true
+    },
+    {
+      "text": "금속이",
+      "start": 211.5,
+      "end": 212.14,
+      "matched": true
+    },
+    {
+      "text": "긁혔어요.",
+      "start": 212.14,
+      "end": 212.8,
+      "matched": true
+    },
+    {
+      "text": "돌아보니",
+      "start": 212.8,
+      "end": 213.84,
+      "matched": true
+    },
+    {
+      "text": "사다리",
+      "start": 213.84,
+      "end": 214.48,
+      "matched": true
+    },
+    {
+      "text": "윗부분이",
+      "start": 214.48,
+      "end": 215.16,
+      "matched": true
+    },
+    {
+      "text": "난간보다",
+      "start": 215.16,
+      "end": 215.88,
+      "matched": true
+    },
+    {
+      "text": "높이",
+      "start": 215.88,
+      "end": 216.28,
+      "matched": true
+    },
+    {
+      "text": "솟아",
+      "start": 216.28,
+      "end": 217.06,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 216.28,
+      "end": 217.06,
+      "matched": true
+    },
+    {
+      "text": "벽에서",
+      "start": 217.06,
+      "end": 218.08,
+      "matched": true
+    },
+    {
+      "text": "떨어진",
+      "start": 218.08,
+      "end": 218.5,
+      "matched": true
+    },
+    {
+      "text": "사다리가",
+      "start": 218.5,
+      "end": 219.0,
+      "matched": true
+    },
+    {
+      "text": "바닥을",
+      "start": 219.0,
+      "end": 219.62,
+      "matched": true
+    },
+    {
+      "text": "끌며",
+      "start": 219.62,
+      "end": 220.02,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 220.02,
+      "end": 220.68,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 220.02,
+      "end": 220.68,
+      "matched": true
+    },
+    {
+      "text": "기울어지고",
+      "start": 220.68,
+      "end": 221.28,
+      "matched": true
+    },
+    {
+      "text": "있었죠.",
+      "start": 221.28,
+      "end": 221.78,
+      "matched": true
+    },
+    {
+      "text": "회색",
+      "start": 221.78,
+      "end": 222.74,
+      "matched": true
+    },
+    {
+      "text": "옷의",
+      "start": 222.74,
+      "end": 222.96,
+      "matched": true
+    },
+    {
+      "text": "몸은",
+      "start": 222.96,
+      "end": 223.36,
+      "matched": true
+    },
+    {
+      "text": "여전히",
+      "start": 223.36,
+      "end": 223.9,
+      "matched": true
+    },
+    {
+      "text": "가로로",
+      "start": 223.9,
+      "end": 224.32,
+      "matched": true
+    },
+    {
+      "text": "누워",
+      "start": 224.32,
+      "end": 225.08,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 224.32,
+      "end": 225.08,
+      "matched": true
+    },
+    {
+      "text": "머리는",
+      "start": 225.08,
+      "end": 226.08,
+      "matched": true
+    },
+    {
+      "text": "사다리",
+      "start": 226.08,
+      "end": 226.52,
+      "matched": true
+    },
+    {
+      "text": "뒤에",
+      "start": 226.52,
+      "end": 226.76,
+      "matched": true
+    },
+    {
+      "text": "가려졌고,",
+      "start": 226.76,
+      "end": 227.5,
+      "matched": true
+    },
+    {
+      "text": "한쪽",
+      "start": 227.5,
+      "end": 228.16,
+      "matched": true
+    },
+    {
+      "text": "팔만",
+      "start": 228.16,
+      "end": 228.64,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 228.64,
+      "end": 229.1,
+      "matched": true
+    },
+    {
+      "text": "위로",
+      "start": 229.1,
+      "end": 229.32,
+      "matched": true
+    },
+    {
+      "text": "올라왔습니다.",
+      "start": 229.32,
+      "end": 230.0,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 230.0,
+      "end": 230.92,
+      "matched": true
+    },
+    {
+      "text": "잡고",
+      "start": 230.92,
+      "end": 231.26,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 231.26,
+      "end": 231.44,
+      "matched": true
+    },
+    {
+      "text": "손과",
+      "start": 231.44,
+      "end": 231.84,
+      "matched": true
+    },
+    {
+      "text": "똑같은",
+      "start": 231.84,
+      "end": 232.44,
+      "matched": true
+    },
+    {
+      "text": "손이었어요.",
+      "start": 232.44,
+      "end": 233.08,
+      "matched": true
+    },
+    {
+      "text": "문",
+      "start": 233.08,
+      "end": 233.8,
+      "matched": true
+    },
+    {
+      "text": "안에도",
+      "start": 233.8,
+      "end": 234.16,
+      "matched": true
+    },
+    {
+      "text": "있고,",
+      "start": 234.16,
+      "end": 234.52,
+      "matched": true
+    },
+    {
+      "text": "밖에도",
+      "start": 234.52,
+      "end": 235.2,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 235.2,
+      "end": 235.76,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 235.76,
+      "end": 236.6,
+      "matched": true
+    },
+    {
+      "text": "어느",
+      "start": 236.6,
+      "end": 236.9,
+      "matched": true
+    },
+    {
+      "text": "쪽을",
+      "start": 236.9,
+      "end": 237.2,
+      "matched": true
+    },
+    {
+      "text": "보고",
+      "start": 237.2,
+      "end": 237.4,
+      "matched": true
+    },
+    {
+      "text": "있는지",
+      "start": 237.4,
+      "end": 237.8,
+      "matched": true
+    },
+    {
+      "text": "확인하듯,",
+      "start": 237.8,
+      "end": 238.44,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 238.44,
+      "end": 238.86,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 238.86,
+      "end": 239.2,
+      "matched": true
+    },
+    {
+      "text": "번갈아",
+      "start": 239.2,
+      "end": 239.72,
+      "matched": true
+    },
+    {
+      "text": "움직였어요.",
+      "start": 239.72,
+      "end": 240.44,
+      "matched": true
+    },
+    {
+      "text": "밖의",
+      "start": 240.44,
+      "end": 241.24,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 241.24,
+      "end": 241.56,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 241.56,
+      "end": 241.88,
+      "matched": true
+    },
+    {
+      "text": "밀면",
+      "start": 241.88,
+      "end": 242.32,
+      "matched": true
+    },
+    {
+      "text": "난간",
+      "start": 242.32,
+      "end": 242.88,
+      "matched": true
+    },
+    {
+      "text": "위의",
+      "start": 242.88,
+      "end": 243.12,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 243.12,
+      "end": 243.42,
+      "matched": true
+    },
+    {
+      "text": "아래로",
+      "start": 243.42,
+      "end": 243.82,
+      "matched": true
+    },
+    {
+      "text": "사라졌고,",
+      "start": 243.82,
+      "end": 244.44,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 244.44,
+      "end": 245.1,
+      "matched": true
+    },
+    {
+      "text": "조금",
+      "start": 245.1,
+      "end": 245.34,
+      "matched": true
+    },
+    {
+      "text": "당기면",
+      "start": 245.34,
+      "end": 245.9,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 245.9,
+      "end": 246.18,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 246.18,
+      "end": 246.48,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 246.48,
+      "end": 246.74,
+      "matched": true
+    },
+    {
+      "text": "올라왔습니다.",
+      "start": 246.74,
+      "end": 247.5,
+      "matched": true
+    },
+    {
+      "text": "그때",
+      "start": 247.5,
+      "end": 248.42,
+      "matched": true
+    },
+    {
+      "text": "처음으로",
+      "start": 248.42,
+      "end": 249.16,
+      "matched": true
+    },
+    {
+      "text": "말소리가",
+      "start": 249.16,
+      "end": 249.68,
+      "matched": true
+    },
+    {
+      "text": "났어요.",
+      "start": 249.68,
+      "end": 250.16,
+      "matched": true
+    },
+    {
+      "text": "물에",
+      "start": 250.16,
+      "end": 251.02,
+      "matched": true
+    },
+    {
+      "text": "잠긴",
+      "start": 251.02,
+      "end": 251.38,
+      "matched": true
+    },
+    {
+      "text": "입으로",
+      "start": 251.38,
+      "end": 251.68,
+      "matched": true
+    },
+    {
+      "text": "하는",
+      "start": 251.68,
+      "end": 251.9,
+      "matched": true
+    },
+    {
+      "text": "말처럼,",
+      "start": 251.9,
+      "end": 252.38,
+      "matched": true
+    },
+    {
+      "text": "중간중간",
+      "start": 252.38,
+      "end": 253.42,
+      "matched": true
+    },
+    {
+      "text": "공기가",
+      "start": 253.42,
+      "end": 253.92,
+      "matched": true
+    },
+    {
+      "text": "끓었습니다.",
+      "start": 253.92,
+      "end": 254.46,
+      "matched": true
+    },
+    {
+      "text": "아직",
+      "start": 255.08,
+      "end": 255.34,
+      "matched": true
+    },
+    {
+      "text": "못",
+      "start": 255.34,
+      "end": 255.7,
+      "matched": true
+    },
+    {
+      "text": "올라갔어.",
+      "start": 255.7,
+      "end": 256.52,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 256.68,
+      "end": 257.24,
+      "matched": true
+    },
+    {
+      "text": "문손잡이를",
+      "start": 257.24,
+      "end": 258.08,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 258.08,
+      "end": 258.32,
+      "matched": true
+    },
+    {
+      "text": "손으로",
+      "start": 258.32,
+      "end": 258.68,
+      "matched": true
+    },
+    {
+      "text": "잡아당겼어요.",
+      "start": 258.68,
+      "end": 259.54,
+      "matched": true
+    },
+    {
+      "text": "손전등은",
+      "start": 260.02,
+      "end": 260.68,
+      "matched": true
+    },
+    {
+      "text": "겨드랑이에",
+      "start": 260.68,
+      "end": 261.28,
+      "matched": true
+    },
+    {
+      "text": "끼웠고요.",
+      "start": 261.28,
+      "end": 261.78,
+      "matched": true
+    },
+    {
+      "text": "문이",
+      "start": 262.38,
+      "end": 262.68,
+      "matched": true
+    },
+    {
+      "text": "손가락",
+      "start": 262.68,
+      "end": 263.1,
+      "matched": true
+    },
+    {
+      "text": "너비만큼",
+      "start": 263.1,
+      "end": 263.7,
+      "matched": true
+    },
+    {
+      "text": "벌어졌다가",
+      "start": 263.7,
+      "end": 264.4,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 264.4,
+      "end": 264.86,
+      "matched": true
+    },
+    {
+      "text": "닫혔습니다.",
+      "start": 264.86,
+      "end": 265.52,
+      "matched": true
+    },
+    {
+      "text": "손잡이가",
+      "start": 265.96,
+      "end": 266.7,
+      "matched": true
+    },
+    {
+      "text": "아래로",
+      "start": 266.7,
+      "end": 267.18,
+      "matched": true
+    },
+    {
+      "text": "휘는",
+      "start": 267.18,
+      "end": 267.48,
+      "matched": true
+    },
+    {
+      "text": "게",
+      "start": 267.48,
+      "end": 267.58,
+      "matched": true
+    },
+    {
+      "text": "보였어요.",
+      "start": 267.58,
+      "end": 268.16,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 268.72,
+      "end": 268.86,
+      "matched": true
+    },
+    {
+      "text": "손이",
+      "start": 268.86,
+      "end": 269.2,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 269.2,
+      "end": 269.42,
+      "matched": true
+    },
+    {
+      "text": "힘을",
+      "start": 269.42,
+      "end": 269.76,
+      "matched": true
+    },
+    {
+      "text": "받아내는",
+      "start": 269.76,
+      "end": 270.3,
+      "matched": true
+    },
+    {
+      "text": "동안,",
+      "start": 270.3,
+      "end": 270.54,
+      "matched": true
+    },
+    {
+      "text": "문",
+      "start": 270.54,
+      "end": 271.14,
+      "matched": true
+    },
+    {
+      "text": "밖의",
+      "start": 271.14,
+      "end": 271.5,
+      "matched": true
+    },
+    {
+      "text": "물은",
+      "start": 271.5,
+      "end": 271.88,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 271.88,
+      "end": 272.12,
+      "matched": true
+    },
+    {
+      "text": "신발",
+      "start": 272.12,
+      "end": 272.48,
+      "matched": true
+    },
+    {
+      "text": "밑까지",
+      "start": 272.48,
+      "end": 272.94,
+      "matched": true
+    },
+    {
+      "text": "넘어왔습니다.",
+      "start": 272.94,
+      "end": 273.64,
+      "matched": true
+    },
+    {
+      "text": "차가웠어요.",
+      "start": 274.14,
+      "end": 274.88,
+      "matched": true
+    },
+    {
+      "text": "바닥을",
+      "start": 275.4,
+      "end": 275.9,
+      "matched": true
+    },
+    {
+      "text": "적시는",
+      "start": 275.9,
+      "end": 276.3,
+      "matched": true
+    },
+    {
+      "text": "물인데",
+      "start": 276.3,
+      "end": 276.72,
+      "matched": true
+    },
+    {
+      "text": "발목까지",
+      "start": 276.72,
+      "end": 277.68,
+      "matched": true
+    },
+    {
+      "text": "잠긴",
+      "start": 277.68,
+      "end": 278.08,
+      "matched": true
+    },
+    {
+      "text": "느낌이",
+      "start": 278.08,
+      "end": 278.4,
+      "matched": true
+    },
+    {
+      "text": "들었습니다.",
+      "start": 278.4,
+      "end": 278.9,
+      "matched": true
+    },
+    {
+      "text": "등",
+      "start": 279.56,
+      "end": 279.74,
+      "matched": true
+    },
+    {
+      "text": "뒤에서",
+      "start": 279.74,
+      "end": 280.18,
+      "matched": true
+    },
+    {
+      "text": "사다리가",
+      "start": 280.18,
+      "end": 280.74,
+      "matched": true
+    },
+    {
+      "text": "난간에",
+      "start": 280.74,
+      "end": 281.26,
+      "matched": true
+    },
+    {
+      "text": "부딪쳤어요.",
+      "start": 281.26,
+      "end": 282.0,
+      "matched": true
+    },
+    {
+      "text": "놀라서",
+      "start": 282.0,
+      "end": 282.88,
+      "matched": true
+    },
+    {
+      "text": "팔을",
+      "start": 282.88,
+      "end": 283.22,
+      "matched": true
+    },
+    {
+      "text": "들었고,",
+      "start": 283.22,
+      "end": 283.66,
+      "matched": true
+    },
+    {
+      "text": "손전등이",
+      "start": 283.66,
+      "end": 284.44,
+      "matched": true
+    },
+    {
+      "text": "떨어졌습니다.",
+      "start": 284.44,
+      "end": 285.12,
+      "matched": true
+    },
+    {
+      "text": "바닥에서",
+      "start": 285.38,
+      "end": 286.26,
+      "matched": true
+    },
+    {
+      "text": "한",
+      "start": 286.26,
+      "end": 286.46,
+      "matched": true
+    },
+    {
+      "text": "번",
+      "start": 286.46,
+      "end": 286.6,
+      "matched": true
+    },
+    {
+      "text": "튄",
+      "start": 286.6,
+      "end": 286.86,
+      "matched": true
+    },
+    {
+      "text": "뒤",
+      "start": 286.86,
+      "end": 287.06,
+      "matched": true
+    },
+    {
+      "text": "저수조",
+      "start": 287.06,
+      "end": 287.66,
+      "matched": true
+    },
+    {
+      "text": "안으로",
+      "start": 287.66,
+      "end": 287.94,
+      "matched": true
+    },
+    {
+      "text": "굴러갔어요.",
+      "start": 287.94,
+      "end": 288.68,
+      "matched": true
+    },
+    {
+      "text": "불빛이",
+      "start": 289.26,
+      "end": 289.82,
+      "matched": true
+    },
+    {
+      "text": "사다리",
+      "start": 289.82,
+      "end": 290.24,
+      "matched": true
+    },
+    {
+      "text": "아래를",
+      "start": 290.24,
+      "end": 290.58,
+      "matched": true
+    },
+    {
+      "text": "훑는",
+      "start": 290.58,
+      "end": 290.88,
+      "matched": true
+    },
+    {
+      "text": "순간,",
+      "start": 290.88,
+      "end": 291.24,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 291.24,
+      "end": 291.96,
+      "matched": true
+    },
+    {
+      "text": "누르던",
+      "start": 291.96,
+      "end": 292.32,
+      "matched": true
+    },
+    {
+      "text": "힘이",
+      "start": 292.32,
+      "end": 292.58,
+      "matched": true
+    },
+    {
+      "text": "잠깐",
+      "start": 292.58,
+      "end": 292.94,
+      "matched": true
+    },
+    {
+      "text": "풀렸습니다.",
+      "start": 292.94,
+      "end": 293.6,
+      "matched": true
+    },
+    {
+      "text": "밖의",
+      "start": 294.14,
+      "end": 294.42,
+      "matched": true
+    },
+    {
+      "text": "손가락이",
+      "start": 294.42,
+      "end": 295.02,
+      "matched": true
+    },
+    {
+      "text": "문에서",
+      "start": 295.02,
+      "end": 295.42,
+      "matched": true
+    },
+    {
+      "text": "떨어졌고요.",
+      "start": 295.42,
+      "end": 296.04,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 296.72,
+      "end": 296.98,
+      "matched": true
+    },
+    {
+      "text": "이유를",
+      "start": 296.98,
+      "end": 297.42,
+      "matched": true
+    },
+    {
+      "text": "생각할",
+      "start": 297.42,
+      "end": 297.9,
+      "matched": true
+    },
+    {
+      "text": "틈도",
+      "start": 297.9,
+      "end": 298.18,
+      "matched": true
+    },
+    {
+      "text": "없이",
+      "start": 298.18,
+      "end": 298.5,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 298.5,
+      "end": 298.96,
+      "matched": true
+    },
+    {
+      "text": "열고",
+      "start": 298.96,
+      "end": 299.28,
+      "matched": true
+    },
+    {
+      "text": "복도로",
+      "start": 299.28,
+      "end": 299.76,
+      "matched": true
+    },
+    {
+      "text": "나왔습니다.",
+      "start": 299.76,
+      "end": 300.34,
+      "matched": true
+    },
+    {
+      "text": "계단까지",
+      "start": 300.92,
+      "end": 301.44,
+      "matched": true
+    },
+    {
+      "text": "몇",
+      "start": 301.44,
+      "end": 301.68,
+      "matched": true
+    },
+    {
+      "text": "걸음",
+      "start": 301.68,
+      "end": 301.94,
+      "matched": true
+    },
+    {
+      "text": "안",
+      "start": 301.94,
+      "end": 302.1,
+      "matched": true
+    },
+    {
+      "text": "됐는데",
+      "start": 302.1,
+      "end": 302.52,
+      "matched": true
+    },
+    {
+      "text": "너무",
+      "start": 302.52,
+      "end": 303.02,
+      "matched": true
+    },
+    {
+      "text": "멀게",
+      "start": 303.02,
+      "end": 303.4,
+      "matched": true
+    },
+    {
+      "text": "느껴졌어요.",
+      "start": 303.4,
+      "end": 304.1,
+      "matched": true
+    },
+    {
+      "text": "뒤에서",
+      "start": 304.72,
+      "end": 305.08,
+      "matched": true
+    },
+    {
+      "text": "철문이",
+      "start": 305.08,
+      "end": 305.58,
+      "matched": true
+    },
+    {
+      "text": "닫히고,",
+      "start": 305.58,
+      "end": 306.12,
+      "matched": true
+    },
+    {
+      "text": "물장구",
+      "start": 306.12,
+      "end": 306.82,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 306.82,
+      "end": 307.14,
+      "matched": true
+    },
+    {
+      "text": "따라왔습니다.",
+      "start": 307.14,
+      "end": 307.84,
+      "matched": true
+    },
+    {
+      "text": "발소리도",
+      "start": 308.4,
+      "end": 309.04,
+      "matched": true
+    },
+    {
+      "text": "아니고",
+      "start": 309.04,
+      "end": 309.32,
+      "matched": true
+    },
+    {
+      "text": "물을",
+      "start": 309.32,
+      "end": 309.96,
+      "matched": true
+    },
+    {
+      "text": "쏟는",
+      "start": 309.96,
+      "end": 310.22,
+      "matched": true
+    },
+    {
+      "text": "소리도",
+      "start": 310.22,
+      "end": 310.54,
+      "matched": true
+    },
+    {
+      "text": "아니었어요.",
+      "start": 310.54,
+      "end": 311.08,
+      "matched": true
+    },
+    {
+      "text": "누가",
+      "start": 311.08,
+      "end": 312.0,
+      "matched": false
+    },
+    {
+      "text": "제",
+      "start": 312.0,
+      "end": 312.22,
+      "matched": true
+    },
+    {
+      "text": "바로",
+      "start": 312.22,
+      "end": 312.54,
+      "matched": true
+    },
+    {
+      "text": "뒤에서",
+      "start": 312.54,
+      "end": 313.1,
+      "matched": true
+    },
+    {
+      "text": "팔을",
+      "start": 313.1,
+      "end": 313.62,
+      "matched": true
+    },
+    {
+      "text": "크게",
+      "start": 313.62,
+      "end": 313.9,
+      "matched": true
+    },
+    {
+      "text": "저으며",
+      "start": 313.9,
+      "end": 314.36,
+      "matched": true
+    },
+    {
+      "text": "헤엄치고",
+      "start": 314.36,
+      "end": 314.94,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 314.94,
+      "end": 315.46,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 315.8,
+      "end": 316.48,
+      "matched": true
+    },
+    {
+      "text": "계단을",
+      "start": 316.48,
+      "end": 317.0,
+      "matched": true
+    },
+    {
+      "text": "올라가면서",
+      "start": 317.0,
+      "end": 317.62,
+      "matched": true
+    },
+    {
+      "text": "봉투를",
+      "start": 317.62,
+      "end": 318.18,
+      "matched": true
+    },
+    {
+      "text": "놓쳤습니다.",
+      "start": 318.18,
+      "end": 318.86,
+      "matched": true
+    },
+    {
+      "text": "내려가서",
+      "start": 319.46,
+      "end": 319.92,
+      "matched": true
+    },
+    {
+      "text": "주울",
+      "start": 319.92,
+      "end": 320.22,
+      "matched": true
+    },
+    {
+      "text": "생각은",
+      "start": 320.22,
+      "end": 320.7,
+      "matched": true
+    },
+    {
+      "text": "전혀",
+      "start": 320.7,
+      "end": 321.08,
+      "matched": true
+    },
+    {
+      "text": "못",
+      "start": 321.08,
+      "end": 321.6,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 321.08,
+      "end": 321.6,
+      "matched": true
+    },
+    {
+      "text": "소장님은",
+      "start": 322.18,
+      "end": 322.88,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 322.88,
+      "end": 323.06,
+      "matched": true
+    },
+    {
+      "text": "얼굴을",
+      "start": 323.06,
+      "end": 323.52,
+      "matched": true
+    },
+    {
+      "text": "보자",
+      "start": 323.52,
+      "end": 323.8,
+      "matched": true
+    },
+    {
+      "text": "다른",
+      "start": 323.8,
+      "end": 324.34,
+      "matched": true
+    },
+    {
+      "text": "직원에게",
+      "start": 324.34,
+      "end": 324.9,
+      "matched": true
+    },
+    {
+      "text": "지하로",
+      "start": 324.9,
+      "end": 325.42,
+      "matched": true
+    },
+    {
+      "text": "같이",
+      "start": 325.42,
+      "end": 325.72,
+      "matched": true
+    },
+    {
+      "text": "가",
+      "start": 325.72,
+      "end": 326.18,
+      "matched": true
+    },
+    {
+      "text": "달라고",
+      "start": 325.72,
+      "end": 326.18,
+      "matched": true
+    },
+    {
+      "text": "했습니다.",
+      "start": 326.18,
+      "end": 326.46,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 327.18,
+      "end": 327.48,
+      "matched": true
+    },
+    {
+      "text": "관리사무소에",
+      "start": 327.48,
+      "end": 328.4,
+      "matched": true
+    },
+    {
+      "text": "남았어요.",
+      "start": 328.4,
+      "end": 328.9,
+      "matched": true
+    },
+    {
+      "text": "얼마",
+      "start": 329.58,
+      "end": 329.82,
+      "matched": true
+    },
+    {
+      "text": "뒤",
+      "start": 329.82,
+      "end": 330.08,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 330.08,
+      "end": 330.38,
+      "matched": true
+    },
+    {
+      "text": "분이",
+      "start": 330.38,
+      "end": 330.7,
+      "matched": true
+    },
+    {
+      "text": "봉투와",
+      "start": 330.7,
+      "end": 331.22,
+      "matched": true
+    },
+    {
+      "text": "손전등을",
+      "start": 331.22,
+      "end": 331.86,
+      "matched": true
+    },
+    {
+      "text": "가져왔죠.",
+      "start": 331.86,
+      "end": 332.46,
+      "matched": true
+    },
+    {
+      "text": "봉투는",
+      "start": 332.92,
+      "end": 333.54,
+      "matched": true
+    },
+    {
+      "text": "계단",
+      "start": 333.54,
+      "end": 333.92,
+      "matched": true
+    },
+    {
+      "text": "중간에",
+      "start": 333.92,
+      "end": 334.42,
+      "matched": true
+    },
+    {
+      "text": "있었고,",
+      "start": 334.42,
+      "end": 334.94,
+      "matched": true
+    },
+    {
+      "text": "손전등은",
+      "start": 334.94,
+      "end": 335.94,
+      "matched": true
+    },
+    {
+      "text": "저수조",
+      "start": 335.94,
+      "end": 336.44,
+      "matched": true
+    },
+    {
+      "text": "바닥에",
+      "start": 336.44,
+      "end": 336.88,
+      "matched": true
+    },
+    {
+      "text": "떨어져",
+      "start": 336.88,
+      "end": 337.24,
+      "matched": true
+    },
+    {
+      "text": "있었다고",
+      "start": 337.24,
+      "end": 337.68,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 337.68,
+      "end": 338.02,
+      "matched": true
+    },
+    {
+      "text": "사다리는",
+      "start": 338.66,
+      "end": 339.14,
+      "matched": true
+    },
+    {
+      "text": "원래",
+      "start": 339.14,
+      "end": 339.52,
+      "matched": true
+    },
+    {
+      "text": "자리였고,",
+      "start": 339.52,
+      "end": 340.16,
+      "matched": true
+    },
+    {
+      "text": "문손잡이도",
+      "start": 340.16,
+      "end": 341.18,
+      "matched": true
+    },
+    {
+      "text": "휘지",
+      "start": 341.18,
+      "end": 341.5,
+      "matched": true
+    },
+    {
+      "text": "않았다고요.",
+      "start": 341.5,
+      "end": 342.2,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 342.84,
+      "end": 343.12,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 343.12,
+      "end": 343.5,
+      "matched": true
+    },
+    {
+      "text": "분",
+      "start": 343.5,
+      "end": 343.68,
+      "matched": true
+    },
+    {
+      "text": "모두",
+      "start": 343.68,
+      "end": 344.0,
+      "matched": true
+    },
+    {
+      "text": "신발",
+      "start": 344.0,
+      "end": 344.42,
+      "matched": true
+    },
+    {
+      "text": "밑이",
+      "start": 344.42,
+      "end": 344.76,
+      "matched": true
+    },
+    {
+      "text": "젖어",
+      "start": 344.76,
+      "end": 345.06,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 345.06,
+      "end": 345.6,
+      "matched": true
+    },
+    {
+      "text": "소장님은",
+      "start": 346.18,
+      "end": 346.9,
+      "matched": true
+    },
+    {
+      "text": "청소하고",
+      "start": 346.9,
+      "end": 347.48,
+      "matched": true
+    },
+    {
+      "text": "남은",
+      "start": 347.48,
+      "end": 347.82,
+      "matched": true
+    },
+    {
+      "text": "물일",
+      "start": 347.82,
+      "end": 348.08,
+      "matched": true
+    },
+    {
+      "text": "거라고",
+      "start": 348.08,
+      "end": 348.38,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 348.38,
+      "end": 348.68,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 349.1,
+      "end": 349.58,
+      "matched": true
+    },
+    {
+      "text": "무슨",
+      "start": 349.58,
+      "end": 349.92,
+      "matched": true
+    },
+    {
+      "text": "말을",
+      "start": 349.92,
+      "end": 350.24,
+      "matched": true
+    },
+    {
+      "text": "하든",
+      "start": 350.24,
+      "end": 350.58,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 350.58,
+      "end": 350.92,
+      "matched": true
+    },
+    {
+      "text": "얘기만",
+      "start": 350.92,
+      "end": 351.26,
+      "matched": true
+    },
+    {
+      "text": "반복했습니다.",
+      "start": 351.26,
+      "end": 351.92,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 352.76,
+      "end": 353.04,
+      "matched": true
+    },
+    {
+      "text": "그날",
+      "start": 353.04,
+      "end": 353.54,
+      "matched": true
+    },
+    {
+      "text": "이후",
+      "start": 353.54,
+      "end": 353.82,
+      "matched": true
+    },
+    {
+      "text": "지하",
+      "start": 353.82,
+      "end": 354.28,
+      "matched": true
+    },
+    {
+      "text": "심부름을",
+      "start": 354.28,
+      "end": 354.82,
+      "matched": true
+    },
+    {
+      "text": "하지",
+      "start": 354.82,
+      "end": 355.04,
+      "matched": true
+    },
+    {
+      "text": "않았어요.",
+      "start": 355.04,
+      "end": 355.58,
+      "matched": true
+    },
+    {
+      "text": "계약이",
+      "start": 356.12,
+      "end": 356.52,
+      "matched": true
+    },
+    {
+      "text": "끝날",
+      "start": 356.52,
+      "end": 356.84,
+      "matched": true
+    },
+    {
+      "text": "때까지",
+      "start": 356.84,
+      "end": 357.26,
+      "matched": true
+    },
+    {
+      "text": "관리사무소에서",
+      "start": 357.26,
+      "end": 358.4,
+      "matched": true
+    },
+    {
+      "text": "서류만",
+      "start": 358.4,
+      "end": 358.9,
+      "matched": true
+    },
+    {
+      "text": "정리했습니다.",
+      "start": 358.9,
+      "end": 359.52,
+      "matched": true
+    },
+    {
+      "text": "손전등을",
+      "start": 360.18,
+      "end": 360.92,
+      "matched": true
+    },
+    {
+      "text": "가져다",
+      "start": 360.92,
+      "end": 361.32,
+      "matched": true
+    },
+    {
+      "text": "놓으라는",
+      "start": 361.32,
+      "end": 361.76,
+      "matched": true
+    },
+    {
+      "text": "말도",
+      "start": 361.76,
+      "end": 362.12,
+      "matched": true
+    },
+    {
+      "text": "다른",
+      "start": 362.12,
+      "end": 362.5,
+      "matched": true
+    },
+    {
+      "text": "직원에게",
+      "start": 362.5,
+      "end": 363.0,
+      "matched": true
+    },
+    {
+      "text": "부탁했고요.",
+      "start": 363.0,
+      "end": 363.7,
+      "matched": true
+    },
+    {
+      "text": "마지막",
+      "start": 364.14,
+      "end": 364.8,
+      "matched": true
+    },
+    {
+      "text": "날,",
+      "start": 364.8,
+      "end": 365.08,
+      "matched": true
+    },
+    {
+      "text": "서류함에서",
+      "start": 365.34,
+      "end": 366.08,
+      "matched": true
+    },
+    {
+      "text": "그날",
+      "start": 366.08,
+      "end": 366.54,
+      "matched": true
+    },
+    {
+      "text": "작업",
+      "start": 366.54,
+      "end": 366.9,
+      "matched": true
+    },
+    {
+      "text": "사진을",
+      "start": 366.9,
+      "end": 367.34,
+      "matched": true
+    },
+    {
+      "text": "봤어요.",
+      "start": 367.34,
+      "end": 367.78,
+      "matched": true
+    },
+    {
+      "text": "청소가",
+      "start": 368.02,
+      "end": 368.82,
+      "matched": true
+    },
+    {
+      "text": "끝난",
+      "start": 368.82,
+      "end": 369.2,
+      "matched": true
+    },
+    {
+      "text": "저수조",
+      "start": 369.2,
+      "end": 369.7,
+      "matched": true
+    },
+    {
+      "text": "바닥을",
+      "start": 369.7,
+      "end": 370.2,
+      "matched": true
+    },
+    {
+      "text": "찍은",
+      "start": 370.2,
+      "end": 370.48,
+      "matched": true
+    },
+    {
+      "text": "사진이었습니다.",
+      "start": 370.48,
+      "end": 371.28,
+      "matched": true
+    },
+    {
+      "text": "사다리는",
+      "start": 371.58,
+      "end": 372.38,
+      "matched": true
+    },
+    {
+      "text": "말라",
+      "start": 372.38,
+      "end": 372.72,
+      "matched": true
+    },
+    {
+      "text": "있었고,",
+      "start": 372.72,
+      "end": 373.22,
+      "matched": true
+    },
+    {
+      "text": "아래에는",
+      "start": 373.22,
+      "end": 373.98,
+      "matched": true
+    },
+    {
+      "text": "아무도",
+      "start": 373.98,
+      "end": 374.52,
+      "matched": true
+    },
+    {
+      "text": "없었죠.",
+      "start": 374.52,
+      "end": 375.04,
+      "matched": true
+    },
+    {
+      "text": "그런데",
+      "start": 375.64,
+      "end": 376.0,
+      "matched": true
+    },
+    {
+      "text": "사진",
+      "start": 376.0,
+      "end": 376.56,
+      "matched": true
+    },
+    {
+      "text": "오른쪽",
+      "start": 376.56,
+      "end": 377.1,
+      "matched": true
+    },
+    {
+      "text": "끝에",
+      "start": 377.1,
+      "end": 377.6,
+      "matched": true
+    },
+    {
+      "text": "철문이",
+      "start": 377.6,
+      "end": 378.26,
+      "matched": true
+    },
+    {
+      "text": "조금",
+      "start": 378.26,
+      "end": 378.52,
+      "matched": true
+    },
+    {
+      "text": "찍혀",
+      "start": 378.52,
+      "end": 378.88,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 378.88,
+      "end": 379.42,
+      "matched": true
+    },
+    {
+      "text": "문은",
+      "start": 379.7,
+      "end": 380.28,
+      "matched": true
+    },
+    {
+      "text": "열려",
+      "start": 380.28,
+      "end": 380.62,
+      "matched": true
+    },
+    {
+      "text": "있었어요.",
+      "start": 380.62,
+      "end": 381.14,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 381.8,
+      "end": 381.96,
+      "matched": true
+    },
+    {
+      "text": "아래,",
+      "start": 381.96,
+      "end": 382.32,
+      "matched": true
+    },
+    {
+      "text": "복도",
+      "start": 382.32,
+      "end": 382.88,
+      "matched": true
+    },
+    {
+      "text": "쪽에서",
+      "start": 382.88,
+      "end": 383.42,
+      "matched": true
+    },
+    {
+      "text": "회색",
+      "start": 383.42,
+      "end": 384.12,
+      "matched": true
+    },
+    {
+      "text": "옷의",
+      "start": 384.12,
+      "end": 384.4,
+      "matched": true
+    },
+    {
+      "text": "젖은",
+      "start": 384.4,
+      "end": 384.88,
+      "matched": true
+    },
+    {
+      "text": "팔",
+      "start": 384.88,
+      "end": 385.14,
+      "matched": true
+    },
+    {
+      "text": "하나가",
+      "start": 385.14,
+      "end": 385.64,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 385.64,
+      "end": 386.2,
+      "matched": true
+    },
+    {
+      "text": "붙들고",
+      "start": 386.2,
+      "end": 386.66,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 386.66,
+      "end": 387.22,
+      "matched": true
+    },
+    {
+      "text": "사진",
+      "start": 387.92,
+      "end": 388.32,
+      "matched": true
+    },
+    {
+      "text": "파일의",
+      "start": 388.32,
+      "end": 388.74,
+      "matched": true
+    },
+    {
+      "text": "시간을",
+      "start": 388.74,
+      "end": 389.16,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 389.16,
+      "end": 389.32,
+      "matched": true
+    },
+    {
+      "text": "번",
+      "start": 389.32,
+      "end": 389.54,
+      "matched": true
+    },
+    {
+      "text": "확인했어요.",
+      "start": 389.54,
+      "end": 390.16,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 390.6,
+      "end": 391.02,
+      "matched": true
+    },
+    {
+      "text": "지하에",
+      "start": 391.02,
+      "end": 391.5,
+      "matched": true
+    },
+    {
+      "text": "내려가기",
+      "start": 391.5,
+      "end": 392.02,
+      "matched": true
+    },
+    {
+      "text": "한",
+      "start": 392.02,
+      "end": 392.24,
+      "matched": true
+    },
+    {
+      "text": "시간",
+      "start": 392.24,
+      "end": 392.52,
+      "matched": true
+    },
+    {
+      "text": "전이었습니다.",
+      "start": 392.52,
+      "end": 393.32,
+      "matched": true
+    },
+    {
+      "text": "그때도",
+      "start": 393.9,
+      "end": 394.32,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 394.32,
+      "end": 394.78,
+      "matched": true
+    },
+    {
+      "text": "잡고",
+      "start": 394.78,
+      "end": 395.14,
+      "matched": true
+    },
+    {
+      "text": "있었던",
+      "start": 395.14,
+      "end": 395.5,
+      "matched": true
+    },
+    {
+      "text": "거예요.",
+      "start": 395.5,
+      "end": 395.78,
+      "matched": true
+    },
+    {
+      "text": "누군가",
+      "start": 395.78,
+      "end": 396.78,
+      "matched": true
+    },
+    {
+      "text": "들어오면",
+      "start": 396.78,
+      "end": 397.36,
+      "matched": true
+    },
+    {
+      "text": "닫을",
+      "start": 397.36,
+      "end": 397.8,
+      "matched": true
+    },
+    {
+      "text": "수",
+      "start": 397.8,
+      "end": 397.92,
+      "matched": true
+    },
+    {
+      "text": "있도록요.",
+      "start": 397.92,
+      "end": 398.5,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 398.84,
+      "end": 399.4,
+      "matched": true
+    },
+    {
+      "text": "사진을",
+      "start": 399.4,
+      "end": 399.96,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 399.96,
+      "end": 400.26,
+      "matched": true
+    },
+    {
+      "text": "서류함에",
+      "start": 400.26,
+      "end": 400.84,
+      "matched": true
+    },
+    {
+      "text": "넣었습니다.",
+      "start": 400.84,
+      "end": 401.28,
+      "matched": true
+    },
+    {
+      "text": "그날",
+      "start": 402.04,
+      "end": 402.3,
+      "matched": true
+    },
+    {
+      "text": "점심에",
+      "start": 402.3,
+      "end": 402.86,
+      "matched": true
+    },
+    {
+      "text": "소장님이",
+      "start": 402.86,
+      "end": 403.54,
+      "matched": true
+    },
+    {
+      "text": "저수조에",
+      "start": 403.54,
+      "end": 404.14,
+      "matched": true
+    },
+    {
+      "text": "물을",
+      "start": 404.14,
+      "end": 404.48,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 404.48,
+      "end": 404.72,
+      "matched": true
+    },
+    {
+      "text": "채웠다고",
+      "start": 404.72,
+      "end": 405.28,
+      "matched": true
+    },
+    {
+      "text": "했을",
+      "start": 405.28,
+      "end": 405.6,
+      "matched": true
+    },
+    {
+      "text": "때,",
+      "start": 405.6,
+      "end": 405.76,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 405.76,
+      "end": 406.4,
+      "matched": true
+    },
+    {
+      "text": "왜",
+      "start": 406.4,
+      "end": 406.7,
+      "matched": true
+    },
+    {
+      "text": "그렇게",
+      "start": 406.7,
+      "end": 407.08,
+      "matched": true
+    },
+    {
+      "text": "오래",
+      "start": 407.08,
+      "end": 407.42,
+      "matched": true
+    },
+    {
+      "text": "대답을",
+      "start": 407.42,
+      "end": 407.86,
+      "matched": true
+    },
+    {
+      "text": "못",
+      "start": 407.86,
+      "end": 408.7,
+      "matched": true
+    },
+    {
+      "text": "했는지는",
+      "start": 407.86,
+      "end": 408.7,
+      "matched": true
+    },
+    {
+      "text": "끝내",
+      "start": 408.7,
+      "end": 409.24,
+      "matched": true
+    },
+    {
+      "text": "설명하지",
+      "start": 409.24,
+      "end": 409.82,
+      "matched": true
+    },
+    {
+      "text": "않았습니다.",
+      "start": 409.82,
+      "end": 410.42,
+      "matched": true
+    }
+  ]
+}

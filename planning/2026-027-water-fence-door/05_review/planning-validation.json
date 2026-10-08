@@ -1,0 +1,32 @@
+{
+  "scope": "planning_files_only_not_audio_image_or_render_QA",
+  "checks": {
+    "all_json_parse": true,
+    "narration_matches_scene_text": true,
+    "caption_text_matches": true,
+    "continuous_estimated_timeline": true,
+    "main_speed_original": true,
+    "chapter_target_6_to_8_minutes": true,
+    "first_anomaly_40_to_60_seconds": true,
+    "cold_open_5_to_10_seconds": true,
+    "two_5_second_transitions": true,
+    "technique_ids_exist_in_catalog": true,
+    "baseline_ids_exist": true,
+    "three_separate_shorts": true,
+    "shorts_estimate_15_to_40_seconds": true,
+    "html_contains_all_six_complete_scripts": true,
+    "relative_file_links_resolve": true,
+    "no_performance_tags_in_narration": true,
+    "no_production_started": true
+  },
+  "script_hashes": {
+    "narration.txt": "8c3d9d228569cb3d08d532b0850bbc0b13db3e2d7e933287e5c978a3df614485",
+    "shorts-01-narration.txt": "52680cd48c642711fa9cf372169d1cf2059158777690b856062b5db81126d946",
+    "shorts-02-narration.txt": "33ddc29ff3f69e5e3acdb1c0a875ef7da89c2cf8f17cf768691ad92c62b2626b",
+    "shorts-03-narration.txt": "979fa03a2483d6534d4447d3721640197fa837ef1f599fd6f6269a40d569210b",
+    "story-01-narration.txt": "afda77d0951063503fee689a2a9ffb8dc75f0ca3c3a7e1dd7b35abc09effcc5b",
+    "story-02-narration.txt": "c4b3dd8225af83fa3e8cd06e7b62212c63b3321c59f35ebe774194dea81c5ca0",
+    "story-03-narration.txt": "e3f3f73bc1d267811520650cf4918def957027857015c90cffe1850b18233d3d"
+  },
+  "all_pass": true
+}

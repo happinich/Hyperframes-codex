@@ -1,0 +1,29 @@
+{
+  "reviewed_from": "encoded scene MP4s",
+  "transitions": [
+    {
+      "scene": "T01",
+      "duration_seconds": 5.0,
+      "absolute_review_seconds": [
+        410.717,
+        412.217,
+        413.517,
+        415.517
+      ],
+      "result": "passed",
+      "observation": "Fade down preserves visible clue; next-story cue appears; new setting fades up; no opaque black frame."
+    },
+    {
+      "scene": "T02",
+      "duration_seconds": 5.0,
+      "absolute_review_seconds": [
+        825.45,
+        826.95,
+        828.25,
+        830.25
+      ],
+      "result": "passed",
+      "observation": "Fade down preserves visible clue; next-story cue appears; new setting fades up; no opaque black frame."
+    }
+  ]
+}

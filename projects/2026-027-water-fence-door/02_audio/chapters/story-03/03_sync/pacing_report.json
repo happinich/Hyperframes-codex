@@ -1,0 +1,44 @@
+{
+  "status": "ready_for_review",
+  "duration": 437.3,
+  "word_count": 828,
+  "average_wpm": 113.6,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 0,
+  "long_word_gaps": [],
+  "slow_window_count": 2,
+  "slow_windows": [
+    {
+      "start": 430.0,
+      "end": 437.3,
+      "word_count": 14,
+      "wpm": 56.0
+    },
+    {
+      "start": 435.0,
+      "end": 437.3,
+      "word_count": 5,
+      "wpm": 20.0
+    }
+  ],
+  "fast_window_count": 1,
+  "fast_windows": [
+    {
+      "start": 100.0,
+      "end": 115.0,
+      "word_count": 34,
+      "wpm": 136.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

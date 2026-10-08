@@ -1,0 +1,31 @@
+{
+  "file": "06_delivery/youtube/2026-027-water-fence-door-youtube.mp4",
+  "sha256": "e50f8a1eb7c557b29d49d162748cd6fdfc61e7c47c4647fd3bff55c4e2d43032",
+  "exit_code": 0,
+  "decoded_entire_master": true,
+  "freeze_threshold_seconds": 3,
+  "freeze_noise_db": -55,
+  "freeze_starts": [],
+  "black_threshold_seconds": 1,
+  "black_intervals": [],
+  "silence_threshold_seconds": 0.8,
+  "silence_noise_db": -45,
+  "silence_intervals": [
+    {
+      "end": 415.752625,
+      "duration": 1.513875,
+      "start": 414.23875000000004,
+      "classification": "planned_narration_rest_with_low_background",
+      "scene": "T01",
+      "plan": {
+        "duration_seconds": 5.0,
+        "reason": "chapter transition; narration rests while low ambience and BGM continue"
+      },
+      "review": "Timeline and measured interval compared; subjective listening unavailable"
+    }
+  ],
+  "unplanned_silence_intervals": [],
+  "decode_errors": [],
+  "result": "passed",
+  "subjective_audio_listening": "not_performed"
+}

@@ -1,0 +1,64 @@
+{
+  "project_id": "2026-027-water-fence-door",
+  "recorded_on": "2026-10-08",
+  "user_request": "이번에도 3가지 이야기 합본으로 해줘. 목소리는 여성 보이스로 해주면되 .",
+  "topic_selection": {
+    "status": "approved",
+    "chapters": [
+      "C01",
+      "C02",
+      "C03"
+    ]
+  },
+  "format": {
+    "status": "approved",
+    "type": "three_story_anthology",
+    "scope": "this_episode"
+  },
+  "narration": {
+    "status": "approved",
+    "source": "01_script/narration.txt"
+  },
+  "shorts_scripts": {
+    "status": "approved",
+    "sources": [
+      "01_script/shorts-01-narration.txt",
+      "01_script/shorts-02-narration.txt",
+      "01_script/shorts-03-narration.txt"
+    ]
+  },
+  "visual_style": {
+    "status": "approved",
+    "recommendations": {
+      "C01": "horror_painterly",
+      "C02": "horror_rough_2d",
+      "C03": "horror_paper_stage"
+    }
+  },
+  "voice": {
+    "gender": "female",
+    "gender_approval": "explicit_user_request",
+    "selected_voice": "Esther",
+    "selection_basis": "requested_female_voice_and_established_Korean_female_voice_in_workspace",
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v4",
+    "speed_multiplier": 1.0,
+    "voice_generated": true
+  },
+  "bgm": {
+    "status": "selected_under_explicit_completion_delegation",
+    "basis": "끝까지 진행 요청에 따른 이번 제작 후보 비교·검수·선택 위임",
+    "candidate_not_yet_selected": false,
+    "selected_candidate": "cand-03",
+    "review": "05_review/bgm-review.json"
+  },
+  "production": {
+    "assets": "51_approved_two_pass",
+    "tts": "generated_eleven_v4",
+    "composition": "implemented_actual_voice_timing",
+    "renders": "all_four_final_videos_verified",
+    "drive_upload": "24_files_uploaded_and_ui_list_verified",
+    "status": "complete_with_disclosed_subjective_listening_limitation"
+  },
+  "approval_message": "진행해줘. 일레븐랩스 v4로 진행하는거지. 끝까지 진행하고 알려줘."
+}

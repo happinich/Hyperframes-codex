@@ -1,0 +1,163 @@
+{
+  "subjective_listening": "Not performed; no auditory perception available.",
+  "outputs": [
+    {
+      "file": "06_delivery/youtube/2026-027-water-fence-door-youtube.mp4",
+      "sha256": "e50f8a1eb7c557b29d49d162748cd6fdfc61e7c47c4647fd3bff55c4e2d43032",
+      "bytes": 699201140,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 60,
+      "video_frames": 76318,
+      "video_duration": 1271.966667,
+      "audio_duration": 1271.951,
+      "av_difference_seconds": 0.01566699999989396,
+      "first_word": {
+        "text": "저수조는",
+        "start": 0.0,
+        "end": 0.62,
+        "matched": true
+      },
+      "last_word": {
+        "text": "한다면서요.",
+        "start": 1267.089,
+        "end": 1267.749,
+        "matched": true
+      },
+      "approved_caption_text_exact": true,
+      "signal": {
+        "duration_seconds": 1271.951,
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_peak_dbfs": -2.872869529046041,
+        "clipped_samples": 0,
+        "first_active_sample_seconds_at_minus45db": 0.029020833333333333,
+        "first_100ms_rms_dbfs": -33.164023305433986,
+        "final_100ms_rms_dbfs": -57.03897976535359,
+        "final_four_seconds_halfsecond_rms_dbfs": [
+          -22.855102418989595,
+          -23.380491224105484,
+          -26.01255232979664,
+          -30.382336984757146,
+          -34.4005199313925,
+          -40.16814327152308,
+          -39.41464838328143,
+          -44.15186391937468
+        ]
+      }
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-01.mp4",
+      "sha256": "5855ea95c1e411760d2fd52aae1a1cfc164d688fdfbe4873cf23e3d95f581776",
+      "bytes": 16194117,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "video_frames": 1316,
+      "video_duration": 21.933333,
+      "audio_duration": 21.921646,
+      "av_difference_seconds": 0.011687000000002001,
+      "first_word": {
+        "text": "물을",
+        "start": 0.0,
+        "end": 0.3,
+        "matched": true
+      },
+      "last_word": {
+        "text": "알았습니다.",
+        "start": 21.06,
+        "end": 21.46,
+        "matched": true
+      },
+      "approved_caption_text_exact": true,
+      "signal": {
+        "duration_seconds": 21.921645833333333,
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_peak_dbfs": -4.054030280603156,
+        "clipped_samples": 0,
+        "first_active_sample_seconds_at_minus45db": 0.0128125,
+        "first_100ms_rms_dbfs": -22.764773867094977,
+        "final_100ms_rms_dbfs": -56.32313855232371
+      }
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-02.mp4",
+      "sha256": "fccf25a284c7f7be74b15be57c283de833305e6ad2826c17f1784d1eba5dbed9",
+      "bytes": 23894210,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "video_frames": 1383,
+      "video_duration": 23.05,
+      "audio_duration": 23.037812,
+      "av_difference_seconds": 0.012188000000001864,
+      "first_word": {
+        "text": "캠핑장",
+        "start": 0.0,
+        "end": 0.5,
+        "matched": true
+      },
+      "last_word": {
+        "text": "있었습니다.",
+        "start": 22.2,
+        "end": 22.72,
+        "matched": true
+      },
+      "approved_caption_text_exact": true,
+      "signal": {
+        "duration_seconds": 23.0378125,
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_peak_dbfs": -3.676809103912502,
+        "clipped_samples": 0,
+        "first_active_sample_seconds_at_minus45db": 0.03172916666666667,
+        "first_100ms_rms_dbfs": -27.583974051400126,
+        "final_100ms_rms_dbfs": -55.80550875585818
+      }
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-03.mp4",
+      "sha256": "0ec0f6e5e1d43b9e00405881829de89c872e7f5ac423ddbbf8b890d34ae74be5",
+      "bytes": 10768609,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "video_frames": 1113,
+      "video_duration": 18.55,
+      "audio_duration": 18.547104,
+      "av_difference_seconds": 0.0028959999999997876,
+      "first_word": {
+        "text": "이삿짐에",
+        "start": 0.0,
+        "end": 0.6,
+        "matched": true
+      },
+      "last_word": {
+        "text": "했어요.",
+        "start": 17.92,
+        "end": 18.28,
+        "matched": true
+      },
+      "approved_caption_text_exact": true,
+      "signal": {
+        "duration_seconds": 18.547104166666667,
+        "sample_rate": 48000,
+        "channels": 2,
+        "sample_peak_dbfs": -3.9648701211978663,
+        "clipped_samples": 0,
+        "first_active_sample_seconds_at_minus45db": 0.014208333333333333,
+        "first_100ms_rms_dbfs": -21.29796221089275,
+        "final_100ms_rms_dbfs": -54.858117682339355
+      }
+    }
+  ]
+}

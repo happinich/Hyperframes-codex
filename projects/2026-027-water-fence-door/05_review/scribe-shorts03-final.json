@@ -1,0 +1,492 @@
+{
+  "language_code": "kor",
+  "language_probability": 1.0,
+  "text": "이사쯤에 없던 문 하나가 배달됐어요. 거실 벽에 기대어 뒀는데 안쪽에서 잠금쇠가 돌아갔죠. 집주인도 그런 문을 보낸 적 없다고 했습니다. 업체는 수거할 때까지 반드시 눕혀두라고 했어요. 문을 당기자 뒤에서 의자가 끌렸습니다. 그 뒤에는 벽밖에 없어야 했어요.",
+  "words": [
+    {
+      "text": "이사쯤에",
+      "start": 0.08,
+      "end": 0.62,
+      "type": "word",
+      "logprob": -0.008935252669743932
+    },
+    {
+      "text": " ",
+      "start": 0.62,
+      "end": 0.82,
+      "type": "spacing",
+      "logprob": -1.6689160474925302e-05
+    },
+    {
+      "text": "없던",
+      "start": 0.82,
+      "end": 1.08,
+      "type": "word",
+      "logprob": -8.463789512802578e-06
+    },
+    {
+      "text": " ",
+      "start": 1.08,
+      "end": 1.24,
+      "type": "spacing",
+      "logprob": -2.47952248173533e-05
+    },
+    {
+      "text": "문",
+      "start": 1.24,
+      "end": 1.26,
+      "type": "word",
+      "logprob": -2.47952248173533e-05
+    },
+    {
+      "text": " ",
+      "start": 1.26,
+      "end": 1.36,
+      "type": "spacing",
+      "logprob": -0.00020346954988781363
+    },
+    {
+      "text": "하나가",
+      "start": 1.36,
+      "end": 1.66,
+      "type": "word",
+      "logprob": -0.0001358847850951861
+    },
+    {
+      "text": " ",
+      "start": 1.66,
+      "end": 1.74,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "배달됐어요.",
+      "start": 1.74,
+      "end": 2.44,
+      "type": "word",
+      "logprob": -0.0018463696573292054
+    },
+    {
+      "text": " ",
+      "start": 2.44,
+      "end": 3.02,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "거실",
+      "start": 3.02,
+      "end": 3.24,
+      "type": "word",
+      "logprob": -4.7683698412015474e-07
+    },
+    {
+      "text": " ",
+      "start": 3.24,
+      "end": 3.38,
+      "type": "spacing",
+      "logprob": -0.00038044367101974785
+    },
+    {
+      "text": "벽에",
+      "start": 3.42,
+      "end": 3.54,
+      "type": "word",
+      "logprob": -0.00019069867244070338
+    },
+    {
+      "text": " ",
+      "start": 3.54,
+      "end": 3.64,
+      "type": "spacing",
+      "logprob": -5.602820692729438e-06
+    },
+    {
+      "text": "기대어",
+      "start": 3.64,
+      "end": 3.86,
+      "type": "word",
+      "logprob": -5.2451946430664975e-06
+    },
+    {
+      "text": " ",
+      "start": 3.86,
+      "end": 3.94,
+      "type": "spacing",
+      "logprob": -0.07037565112113953
+    },
+    {
+      "text": "뒀는데",
+      "start": 3.94,
+      "end": 4.68,
+      "type": "word",
+      "logprob": -7.862928964641469e-05
+    },
+    {
+      "text": " ",
+      "start": 4.68,
+      "end": 4.8,
+      "type": "spacing",
+      "logprob": -1.537788011773955e-05
+    },
+    {
+      "text": "안쪽에서",
+      "start": 4.8,
+      "end": 5.24,
+      "type": "word",
+      "logprob": -0.00016261076910950578
+    },
+    {
+      "text": " ",
+      "start": 5.24,
+      "end": 5.44,
+      "type": "spacing",
+      "logprob": -0.0002619877050165087
+    },
+    {
+      "text": "잠금쇠가",
+      "start": 5.44,
+      "end": 5.86,
+      "type": "word",
+      "logprob": -0.0006185649497183476
+    },
+    {
+      "text": " ",
+      "start": 5.86,
+      "end": 5.94,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "돌아갔죠.",
+      "start": 5.94,
+      "end": 6.4,
+      "type": "word",
+      "logprob": -1.1181603616705615e-05
+    },
+    {
+      "text": " ",
+      "start": 6.4,
+      "end": 7.04,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "집주인도",
+      "start": 7.04,
+      "end": 7.56,
+      "type": "word",
+      "logprob": -0.0003822673342028793
+    },
+    {
+      "text": " ",
+      "start": 7.56,
+      "end": 7.64,
+      "type": "spacing",
+      "logprob": -1.490105023549404e-05
+    },
+    {
+      "text": "그런",
+      "start": 7.64,
+      "end": 7.8,
+      "type": "word",
+      "logprob": -1.490105023549404e-05
+    },
+    {
+      "text": " ",
+      "start": 7.8,
+      "end": 7.92,
+      "type": "spacing",
+      "logprob": -6.890059739816934e-05
+    },
+    {
+      "text": "문을",
+      "start": 7.92,
+      "end": 8.0,
+      "type": "word",
+      "logprob": -3.6000017075821233e-05
+    },
+    {
+      "text": " ",
+      "start": 8.0,
+      "end": 8.119,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "보낸",
+      "start": 8.119,
+      "end": 8.28,
+      "type": "word",
+      "logprob": -7.152552790046229e-07
+    },
+    {
+      "text": " ",
+      "start": 8.28,
+      "end": 8.36,
+      "type": "spacing",
+      "logprob": -3.6954811548639555e-06
+    },
+    {
+      "text": "적",
+      "start": 8.36,
+      "end": 8.42,
+      "type": "word",
+      "logprob": -3.6954811548639555e-06
+    },
+    {
+      "text": " ",
+      "start": 8.42,
+      "end": 8.56,
+      "type": "spacing",
+      "logprob": -8.940656698541716e-06
+    },
+    {
+      "text": "없다고",
+      "start": 8.6,
+      "end": 8.78,
+      "type": "word",
+      "logprob": -5.125982625031611e-06
+    },
+    {
+      "text": " ",
+      "start": 8.78,
+      "end": 8.9,
+      "type": "spacing",
+      "logprob": -1.4781842764932662e-05
+    },
+    {
+      "text": "했습니다.",
+      "start": 8.9,
+      "end": 9.28,
+      "type": "word",
+      "logprob": -1.182547421194613e-05
+    },
+    {
+      "text": " ",
+      "start": 9.28,
+      "end": 9.28,
+      "type": "spacing",
+      "logprob": -8.583032467868179e-06
+    },
+    {
+      "text": "업체는",
+      "start": 9.98,
+      "end": 10.5,
+      "type": "word",
+      "logprob": -5.7220216452454524e-06
+    },
+    {
+      "text": " ",
+      "start": 10.5,
+      "end": 10.58,
+      "type": "spacing",
+      "logprob": -3.8980677345534787e-05
+    },
+    {
+      "text": "수거할",
+      "start": 10.58,
+      "end": 10.8,
+      "type": "word",
+      "logprob": -1.5457212839464773e-05
+    },
+    {
+      "text": " ",
+      "start": 10.8,
+      "end": 10.9,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "때까지",
+      "start": 10.9,
+      "end": 11.32,
+      "type": "word",
+      "logprob": -3.417325046939368e-06
+    },
+    {
+      "text": " ",
+      "start": 11.32,
+      "end": 11.52,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "반드시",
+      "start": 11.52,
+      "end": 11.84,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 11.84,
+      "end": 11.92,
+      "type": "spacing",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": "눕혀두라고",
+      "start": 12.0,
+      "end": 12.42,
+      "type": "word",
+      "logprob": -0.007638309894900885
+    },
+    {
+      "text": " ",
+      "start": 12.42,
+      "end": 12.48,
+      "type": "spacing",
+      "logprob": -3.2305197237292305e-05
+    },
+    {
+      "text": "했어요.",
+      "start": 12.48,
+      "end": 12.84,
+      "type": "word",
+      "logprob": -9.02997240359582e-06
+    },
+    {
+      "text": " ",
+      "start": 12.84,
+      "end": 12.84,
+      "type": "spacing",
+      "logprob": -9.298280929215252e-06
+    },
+    {
+      "text": "문을",
+      "start": 13.6,
+      "end": 13.72,
+      "type": "word",
+      "logprob": -5.066372807505104e-06
+    },
+    {
+      "text": " ",
+      "start": 13.72,
+      "end": 13.88,
+      "type": "spacing",
+      "logprob": -6.318072337307967e-06
+    },
+    {
+      "text": "당기자",
+      "start": 13.88,
+      "end": 14.4,
+      "type": "word",
+      "logprob": -0.0005329597362333516
+    },
+    {
+      "text": " ",
+      "start": 14.4,
+      "end": 14.52,
+      "type": "spacing",
+      "logprob": -2.13382354559144e-05
+    },
+    {
+      "text": "뒤에서",
+      "start": 14.52,
+      "end": 14.84,
+      "type": "word",
+      "logprob": -7.112745151971467e-06
+    },
+    {
+      "text": " ",
+      "start": 14.84,
+      "end": 14.9,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "의자가",
+      "start": 14.9,
+      "end": 15.26,
+      "type": "word",
+      "logprob": -0.00025633016290764016
+    },
+    {
+      "text": " ",
+      "start": 15.26,
+      "end": 15.34,
+      "type": "spacing",
+      "logprob": -2.658331868587993e-05
+    },
+    {
+      "text": "끌렸습니다.",
+      "start": 15.34,
+      "end": 15.88,
+      "type": "word",
+      "logprob": -1.5576262710463123e-05
+    },
+    {
+      "text": " ",
+      "start": 15.88,
+      "end": 15.88,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "그",
+      "start": 16.46,
+      "end": 16.52,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 16.52,
+      "end": 16.68,
+      "type": "spacing",
+      "logprob": -1.5258672647178173e-05
+    },
+    {
+      "text": "뒤에는",
+      "start": 16.68,
+      "end": 17.1,
+      "type": "word",
+      "logprob": -5.8014795740746194e-06
+    },
+    {
+      "text": " ",
+      "start": 17.1,
+      "end": 17.28,
+      "type": "spacing",
+      "logprob": -8.344646857949556e-07
+    },
+    {
+      "text": "벽밖에",
+      "start": 17.28,
+      "end": 17.62,
+      "type": "word",
+      "logprob": -0.12023037672031478
+    },
+    {
+      "text": " ",
+      "start": 17.62,
+      "end": 17.78,
+      "type": "spacing",
+      "logprob": -0.00030048147891648114
+    },
+    {
+      "text": "없어야",
+      "start": 17.78,
+      "end": 17.98,
+      "type": "word",
+      "logprob": -0.0002750573039520532
+    },
+    {
+      "text": " ",
+      "start": 17.98,
+      "end": 18.02,
+      "type": "spacing",
+      "logprob": -2.932505594799295e-05
+    },
+    {
+      "text": "했어요.",
+      "start": 18.1,
+      "end": 18.38,
+      "type": "word",
+      "logprob": -5.307379365149245e-05
+    }
+  ],
+  "transcription_id": "LzNX410Re7EzxcltJPbk",
+  "audio_duration_secs": 18.547125
+}

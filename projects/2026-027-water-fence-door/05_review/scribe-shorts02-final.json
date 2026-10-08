@@ -1,0 +1,604 @@
+{
+  "language_code": "kor",
+  "language_probability": 1.0,
+  "text": "캠핑장 울타리 밖에서 누가 제 움직임을 따라 했어요. 제가 앉으면 풀이 눌렸고 손뼉을 치면 같은 소리가 돌아왔죠. 다른 캠핑객은 없었고 관리실은 전화를 받지 않았습니다. 랜턴을 들어보니 철망보다 높은 곳에 머리가 있었어요. 그런데 그 머리가 내려오기 시작했습니다. 무릎을 굽히는 게 아니라 몸통을 접고 있었습니다.",
+  "words": [
+    {
+      "text": "캠핑장",
+      "start": 0.16,
+      "end": 0.52,
+      "type": "word",
+      "logprob": -4.275414115303041e-05
+    },
+    {
+      "text": " ",
+      "start": 0.52,
+      "end": 0.64,
+      "type": "spacing",
+      "logprob": -8.511180931236595e-05
+    },
+    {
+      "text": "울타리",
+      "start": 0.64,
+      "end": 0.92,
+      "type": "word",
+      "logprob": -3.206607311767584e-05
+    },
+    {
+      "text": " ",
+      "start": 0.92,
+      "end": 1.06,
+      "type": "spacing",
+      "logprob": -0.00037353215157054365
+    },
+    {
+      "text": "밖에서",
+      "start": 1.06,
+      "end": 1.74,
+      "type": "word",
+      "logprob": -7.192218006935036e-06
+    },
+    {
+      "text": " ",
+      "start": 1.74,
+      "end": 1.82,
+      "type": "spacing",
+      "logprob": -2.861018856492592e-06
+    },
+    {
+      "text": "누가",
+      "start": 1.82,
+      "end": 2.0,
+      "type": "word",
+      "logprob": -2.861018856492592e-06
+    },
+    {
+      "text": " ",
+      "start": 2.0,
+      "end": 2.1,
+      "type": "spacing",
+      "logprob": -2.4318398573086597e-05
+    },
+    {
+      "text": "제",
+      "start": 2.1,
+      "end": 2.16,
+      "type": "word",
+      "logprob": -2.4318398573086597e-05
+    },
+    {
+      "text": " ",
+      "start": 2.16,
+      "end": 2.32,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "움직임을",
+      "start": 2.32,
+      "end": 2.76,
+      "type": "word",
+      "logprob": -1.627182905394875e-05
+    },
+    {
+      "text": " ",
+      "start": 2.76,
+      "end": 2.88,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "따라",
+      "start": 2.88,
+      "end": 3.0,
+      "type": "word",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": " ",
+      "start": 3.0,
+      "end": 3.08,
+      "type": "spacing",
+      "logprob": -0.1603883057832718
+    },
+    {
+      "text": "했어요.",
+      "start": 3.14,
+      "end": 3.48,
+      "type": "word",
+      "logprob": -0.040097493678146634
+    },
+    {
+      "text": " ",
+      "start": 3.48,
+      "end": 3.5,
+      "type": "spacing",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": "제가",
+      "start": 4.14,
+      "end": 4.32,
+      "type": "word",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": " ",
+      "start": 4.32,
+      "end": 4.5,
+      "type": "spacing",
+      "logprob": -3.0517112463712692e-05
+    },
+    {
+      "text": "앉으면",
+      "start": 4.5,
+      "end": 4.86,
+      "type": "word",
+      "logprob": -2.249055008481567e-05
+    },
+    {
+      "text": " ",
+      "start": 4.86,
+      "end": 5.0,
+      "type": "spacing",
+      "logprob": -8.809178689261898e-05
+    },
+    {
+      "text": "풀이",
+      "start": 5.0,
+      "end": 5.1,
+      "type": "word",
+      "logprob": -4.452273037713894e-05
+    },
+    {
+      "text": " ",
+      "start": 5.1,
+      "end": 5.22,
+      "type": "spacing",
+      "logprob": -5.61460001335945e-05
+    },
+    {
+      "text": "눌렸고",
+      "start": 5.22,
+      "end": 5.92,
+      "type": "word",
+      "logprob": -0.0006014576827055862
+    },
+    {
+      "text": " ",
+      "start": 5.92,
+      "end": 6.08,
+      "type": "spacing",
+      "logprob": -0.04859323427081108
+    },
+    {
+      "text": "손뼉을",
+      "start": 6.08,
+      "end": 6.36,
+      "type": "word",
+      "logprob": -0.11059789235378048
+    },
+    {
+      "text": " ",
+      "start": 6.36,
+      "end": 6.46,
+      "type": "spacing",
+      "logprob": -6.711257447022945e-05
+    },
+    {
+      "text": "치면",
+      "start": 6.46,
+      "end": 6.82,
+      "type": "word",
+      "logprob": -3.379470575737287e-05
+    },
+    {
+      "text": " ",
+      "start": 6.82,
+      "end": 7.02,
+      "type": "spacing",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": "같은",
+      "start": 7.04,
+      "end": 7.14,
+      "type": "word",
+      "logprob": -2.145764938177308e-06
+    },
+    {
+      "text": " ",
+      "start": 7.14,
+      "end": 7.22,
+      "type": "spacing",
+      "logprob": -1.2397689715726301e-05
+    },
+    {
+      "text": "소리가",
+      "start": 7.22,
+      "end": 7.44,
+      "type": "word",
+      "logprob": -5.324655073006094e-06
+    },
+    {
+      "text": " ",
+      "start": 7.44,
+      "end": 7.56,
+      "type": "spacing",
+      "logprob": -1.9073468138230965e-06
+    },
+    {
+      "text": "돌아왔죠.",
+      "start": 7.56,
+      "end": 8.0,
+      "type": "word",
+      "logprob": -1.8834463162420434e-05
+    },
+    {
+      "text": " ",
+      "start": 8.0,
+      "end": 8.02,
+      "type": "spacing",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": "다른",
+      "start": 8.74,
+      "end": 8.94,
+      "type": "word",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": " ",
+      "start": 8.94,
+      "end": 9.04,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "캠핑객은",
+      "start": 9.04,
+      "end": 9.46,
+      "type": "word",
+      "logprob": -5.056998792696277e-05
+    },
+    {
+      "text": " ",
+      "start": 9.46,
+      "end": 9.64,
+      "type": "spacing",
+      "logprob": -7.986990567587782e-06
+    },
+    {
+      "text": "없었고",
+      "start": 9.64,
+      "end": 10.28,
+      "type": "word",
+      "logprob": -5.7617644415586255e-06
+    },
+    {
+      "text": " ",
+      "start": 10.28,
+      "end": 10.44,
+      "type": "spacing",
+      "logprob": -0.000990496133454144
+    },
+    {
+      "text": "관리실은",
+      "start": 10.44,
+      "end": 10.9,
+      "type": "word",
+      "logprob": -0.000495695101307092
+    },
+    {
+      "text": " ",
+      "start": 10.9,
+      "end": 11.08,
+      "type": "spacing",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": "전화를",
+      "start": 11.08,
+      "end": 11.28,
+      "type": "word",
+      "logprob": -4.370997203295701e-06
+    },
+    {
+      "text": " ",
+      "start": 11.28,
+      "end": 11.44,
+      "type": "spacing",
+      "logprob": -4.494089080253616e-05
+    },
+    {
+      "text": "받지",
+      "start": 11.44,
+      "end": 11.52,
+      "type": "word",
+      "logprob": -2.2768468539879905e-05
+    },
+    {
+      "text": " ",
+      "start": 11.52,
+      "end": 11.64,
+      "type": "spacing",
+      "logprob": -9.894321920000948e-06
+    },
+    {
+      "text": "않았습니다.",
+      "start": 11.64,
+      "end": 12.14,
+      "type": "word",
+      "logprob": -3.7749442374964324e-06
+    },
+    {
+      "text": " ",
+      "start": 12.14,
+      "end": 12.14,
+      "type": "spacing",
+      "logprob": -0.0005036516231484711
+    },
+    {
+      "text": "랜턴을",
+      "start": 12.98,
+      "end": 13.28,
+      "type": "word",
+      "logprob": -0.0002272448230821548
+    },
+    {
+      "text": " ",
+      "start": 13.28,
+      "end": 13.38,
+      "type": "spacing",
+      "logprob": -4.5060096454108134e-05
+    },
+    {
+      "text": "들어보니",
+      "start": 13.38,
+      "end": 13.98,
+      "type": "word",
+      "logprob": -0.00048228765263047535
+    },
+    {
+      "text": " ",
+      "start": 13.98,
+      "end": 14.14,
+      "type": "spacing",
+      "logprob": -0.0002397011558059603
+    },
+    {
+      "text": "철망보다",
+      "start": 14.14,
+      "end": 14.58,
+      "type": "word",
+      "logprob": -0.00011681494220283639
+    },
+    {
+      "text": " ",
+      "start": 14.58,
+      "end": 14.78,
+      "type": "spacing",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": "높은",
+      "start": 14.78,
+      "end": 14.94,
+      "type": "word",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": " ",
+      "start": 14.94,
+      "end": 15.12,
+      "type": "spacing",
+      "logprob": -2.7656173188006505e-05
+    },
+    {
+      "text": "곳에",
+      "start": 15.12,
+      "end": 15.32,
+      "type": "word",
+      "logprob": -1.3828086594003253e-05
+    },
+    {
+      "text": " ",
+      "start": 15.32,
+      "end": 15.44,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "머리가",
+      "start": 15.44,
+      "end": 15.66,
+      "type": "word",
+      "logprob": -3.0199625674261674e-06
+    },
+    {
+      "text": " ",
+      "start": 15.66,
+      "end": 15.76,
+      "type": "spacing",
+      "logprob": -3.814689989667386e-06
+    },
+    {
+      "text": "있었어요.",
+      "start": 15.76,
+      "end": 16.239,
+      "type": "word",
+      "logprob": -1.5258759958669542e-06
+    },
+    {
+      "text": " ",
+      "start": 16.239,
+      "end": 16.239,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "그런데",
+      "start": 16.78,
+      "end": 17.34,
+      "type": "word",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": " ",
+      "start": 17.34,
+      "end": 17.4,
+      "type": "spacing",
+      "logprob": -1.156323378381785e-05
+    },
+    {
+      "text": "그",
+      "start": 17.4,
+      "end": 17.48,
+      "type": "word",
+      "logprob": -1.156323378381785e-05
+    },
+    {
+      "text": " ",
+      "start": 17.48,
+      "end": 17.68,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "머리가",
+      "start": 17.68,
+      "end": 18.12,
+      "type": "word",
+      "logprob": -2.5828641507056696e-06
+    },
+    {
+      "text": " ",
+      "start": 18.12,
+      "end": 18.24,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "내려오기",
+      "start": 18.24,
+      "end": 18.56,
+      "type": "word",
+      "logprob": -2.7923238985039234e-05
+    },
+    {
+      "text": " ",
+      "start": 18.56,
+      "end": 18.64,
+      "type": "spacing",
+      "logprob": -6.437280717364047e-06
+    },
+    {
+      "text": "시작했습니다.",
+      "start": 18.64,
+      "end": 19.3,
+      "type": "word",
+      "logprob": -2.3671497128166915e-06
+    },
+    {
+      "text": " ",
+      "start": 19.3,
+      "end": 19.3,
+      "type": "spacing",
+      "logprob": -2.8013790142722428e-05
+    },
+    {
+      "text": "무릎을",
+      "start": 19.96,
+      "end": 20.28,
+      "type": "word",
+      "logprob": -3.1351187011807724e-05
+    },
+    {
+      "text": " ",
+      "start": 20.28,
+      "end": 20.44,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "굽히는",
+      "start": 20.44,
+      "end": 20.64,
+      "type": "word",
+      "logprob": -7.64463438803394e-05
+    },
+    {
+      "text": " ",
+      "start": 20.64,
+      "end": 20.7,
+      "type": "spacing",
+      "logprob": -0.00020346954988781363
+    },
+    {
+      "text": "게",
+      "start": 20.7,
+      "end": 20.74,
+      "type": "word",
+      "logprob": -0.00020346954988781363
+    },
+    {
+      "text": " ",
+      "start": 20.74,
+      "end": 20.82,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "아니라",
+      "start": 20.82,
+      "end": 21.38,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 21.38,
+      "end": 21.56,
+      "type": "spacing",
+      "logprob": -7.271740287251305e-06
+    },
+    {
+      "text": "몸통을",
+      "start": 21.56,
+      "end": 21.9,
+      "type": "word",
+      "logprob": -1.9629346143782794e-05
+    },
+    {
+      "text": " ",
+      "start": 21.9,
+      "end": 22.08,
+      "type": "spacing",
+      "logprob": -5.376194530981593e-05
+    },
+    {
+      "text": "접고",
+      "start": 22.08,
+      "end": 22.22,
+      "type": "word",
+      "logprob": -2.723860040987347e-05
+    },
+    {
+      "text": " ",
+      "start": 22.22,
+      "end": 22.32,
+      "type": "spacing",
+      "logprob": -5.364403477869928e-06
+    },
+    {
+      "text": "있었습니다.",
+      "start": 22.32,
+      "end": 22.82,
+      "type": "word",
+      "logprob": -4.803563691287612e-05
+    }
+  ],
+  "transcription_id": "T9VPVTrUFAL39x9SDNC2",
+  "audio_duration_secs": 23.0378125
+}

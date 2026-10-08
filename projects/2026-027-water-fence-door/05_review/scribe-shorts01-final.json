@@ -1,0 +1,520 @@
+{
+  "language_code": "kor",
+  "language_probability": 1.0,
+  "text": "물을 다 뺀 저수조에서 누가 헤엄치고 있었어요. 작업팀은 이미 철수했고 바닥에는 사람도 물도 없었죠. 불빛을 비추면 소리가 멈췄고 거두면 다시 가까워졌습니다. 사다리에 젖은 발판이 하나씩 늘어났어요. 맨 아래에 걸려있던 검은 것이 위로 당겨졌습니다. 그제야 머리카락이라는 걸 알았습니다.",
+  "words": [
+    {
+      "text": "물을",
+      "start": 0.16,
+      "end": 0.34,
+      "type": "word",
+      "logprob": -9.870042413240299e-05
+    },
+    {
+      "text": " ",
+      "start": 0.34,
+      "end": 0.42,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "다",
+      "start": 0.5,
+      "end": 0.6,
+      "type": "word",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 0.6,
+      "end": 0.74,
+      "type": "spacing",
+      "logprob": -0.0002714027068577707
+    },
+    {
+      "text": "뺀",
+      "start": 0.74,
+      "end": 0.76,
+      "type": "word",
+      "logprob": -9.881961887003854e-05
+    },
+    {
+      "text": " ",
+      "start": 0.76,
+      "end": 0.92,
+      "type": "spacing",
+      "logprob": -1.9311717551317997e-05
+    },
+    {
+      "text": "저수조에서",
+      "start": 0.92,
+      "end": 1.82,
+      "type": "word",
+      "logprob": -1.473410802645958e-05
+    },
+    {
+      "text": " ",
+      "start": 1.82,
+      "end": 1.9,
+      "type": "spacing",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "누가",
+      "start": 1.9,
+      "end": 2.08,
+      "type": "word",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": " ",
+      "start": 2.08,
+      "end": 2.18,
+      "type": "spacing",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": "헤엄치고",
+      "start": 2.18,
+      "end": 2.56,
+      "type": "word",
+      "logprob": -1.3738690086029237e-05
+    },
+    {
+      "text": " ",
+      "start": 2.56,
+      "end": 2.64,
+      "type": "spacing",
+      "logprob": -4.0531076592742465e-06
+    },
+    {
+      "text": "있었어요.",
+      "start": 2.64,
+      "end": 3.16,
+      "type": "word",
+      "logprob": -2.1718923741786965e-05
+    },
+    {
+      "text": " ",
+      "start": 3.16,
+      "end": 3.16,
+      "type": "spacing",
+      "logprob": -4.887569048150908e-06
+    },
+    {
+      "text": "작업팀은",
+      "start": 3.84,
+      "end": 4.34,
+      "type": "word",
+      "logprob": -0.0006226350610631926
+    },
+    {
+      "text": " ",
+      "start": 4.34,
+      "end": 4.4,
+      "type": "spacing",
+      "logprob": -3.6954811548639555e-06
+    },
+    {
+      "text": "이미",
+      "start": 4.4,
+      "end": 4.56,
+      "type": "word",
+      "logprob": -3.6954811548639555e-06
+    },
+    {
+      "text": " ",
+      "start": 4.56,
+      "end": 4.7,
+      "type": "spacing",
+      "logprob": -1.0132738680113107e-05
+    },
+    {
+      "text": "철수했고",
+      "start": 4.7,
+      "end": 5.52,
+      "type": "word",
+      "logprob": -3.644730713858735e-05
+    },
+    {
+      "text": " ",
+      "start": 5.52,
+      "end": 5.62,
+      "type": "spacing",
+      "logprob": -0.008616648614406586
+    },
+    {
+      "text": "바닥에는",
+      "start": 5.62,
+      "end": 6.18,
+      "type": "word",
+      "logprob": -0.002175410327197369
+    },
+    {
+      "text": " ",
+      "start": 6.18,
+      "end": 6.34,
+      "type": "spacing",
+      "logprob": -9.894321920000948e-06
+    },
+    {
+      "text": "사람도",
+      "start": 6.34,
+      "end": 6.8,
+      "type": "word",
+      "logprob": -6.596214613333966e-06
+    },
+    {
+      "text": " ",
+      "start": 6.8,
+      "end": 6.98,
+      "type": "spacing",
+      "logprob": -0.0015029336791485548
+    },
+    {
+      "text": "물도",
+      "start": 6.98,
+      "end": 7.12,
+      "type": "word",
+      "logprob": -0.0007515264442155001
+    },
+    {
+      "text": " ",
+      "start": 7.12,
+      "end": 7.28,
+      "type": "spacing",
+      "logprob": -3.4570634852570947e-06
+    },
+    {
+      "text": "없었죠.",
+      "start": 7.28,
+      "end": 7.64,
+      "type": "word",
+      "logprob": -2.175566578443977e-06
+    },
+    {
+      "text": " ",
+      "start": 7.64,
+      "end": 7.66,
+      "type": "spacing",
+      "logprob": -2.7656173188006505e-05
+    },
+    {
+      "text": "불빛을",
+      "start": 8.42,
+      "end": 8.76,
+      "type": "word",
+      "logprob": -1.0688969117230348e-05
+    },
+    {
+      "text": " ",
+      "start": 8.76,
+      "end": 8.84,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "비추면",
+      "start": 8.84,
+      "end": 9.34,
+      "type": "word",
+      "logprob": -1.899352603610775e-05
+    },
+    {
+      "text": " ",
+      "start": 9.34,
+      "end": 9.44,
+      "type": "spacing",
+      "logprob": -5.722029527532868e-06
+    },
+    {
+      "text": "소리가",
+      "start": 9.44,
+      "end": 9.68,
+      "type": "word",
+      "logprob": -3.6557438155189934e-06
+    },
+    {
+      "text": " ",
+      "start": 9.68,
+      "end": 9.82,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "멈췄고",
+      "start": 9.82,
+      "end": 10.62,
+      "type": "word",
+      "logprob": -0.0006387891460993463
+    },
+    {
+      "text": " ",
+      "start": 10.62,
+      "end": 10.72,
+      "type": "spacing",
+      "logprob": -0.009769484400749207
+    },
+    {
+      "text": "거두면",
+      "start": 10.72,
+      "end": 11.18,
+      "type": "word",
+      "logprob": -0.0032927722964662585
+    },
+    {
+      "text": " ",
+      "start": 11.18,
+      "end": 11.3,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "다시",
+      "start": 11.3,
+      "end": 11.44,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 11.44,
+      "end": 11.54,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "가까워졌습니다.",
+      "start": 11.54,
+      "end": 12.32,
+      "type": "word",
+      "logprob": -2.9802312617732696e-07
+    },
+    {
+      "text": " ",
+      "start": 12.32,
+      "end": 12.32,
+      "type": "spacing",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "사다리에",
+      "start": 13.08,
+      "end": 13.44,
+      "type": "word",
+      "logprob": -0.10076837194486643
+    },
+    {
+      "text": " ",
+      "start": 13.44,
+      "end": 13.58,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "젖은",
+      "start": 13.58,
+      "end": 13.78,
+      "type": "word",
+      "logprob": -4.708752271653793e-06
+    },
+    {
+      "text": " ",
+      "start": 13.78,
+      "end": 13.9,
+      "type": "spacing",
+      "logprob": -2.2411095415009186e-05
+    },
+    {
+      "text": "발판이",
+      "start": 13.9,
+      "end": 14.34,
+      "type": "word",
+      "logprob": -8.848311820012593e-05
+    },
+    {
+      "text": " ",
+      "start": 14.34,
+      "end": 14.46,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "하나씩",
+      "start": 14.46,
+      "end": 14.76,
+      "type": "word",
+      "logprob": -4.768369876728684e-07
+    },
+    {
+      "text": " ",
+      "start": 14.76,
+      "end": 14.86,
+      "type": "spacing",
+      "logprob": -1.6689160474925302e-05
+    },
+    {
+      "text": "늘어났어요.",
+      "start": 14.86,
+      "end": 15.48,
+      "type": "word",
+      "logprob": -8.019014865112695e-05
+    },
+    {
+      "text": " ",
+      "start": 15.48,
+      "end": 15.48,
+      "type": "spacing",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": "맨",
+      "start": 16.2,
+      "end": 16.219,
+      "type": "word",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": " ",
+      "start": 16.219,
+      "end": 16.34,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "아래에",
+      "start": 16.34,
+      "end": 16.54,
+      "type": "word",
+      "logprob": -0.059917405247233546
+    },
+    {
+      "text": " ",
+      "start": 16.54,
+      "end": 16.7,
+      "type": "spacing",
+      "logprob": -4.6491513785440475e-06
+    },
+    {
+      "text": "걸려있던",
+      "start": 16.7,
+      "end": 17.1,
+      "type": "word",
+      "logprob": -0.11852970718410916
+    },
+    {
+      "text": " ",
+      "start": 17.1,
+      "end": 17.28,
+      "type": "spacing",
+      "logprob": -1.490105023549404e-05
+    },
+    {
+      "text": "검은",
+      "start": 17.28,
+      "end": 17.42,
+      "type": "word",
+      "logprob": -8.284989462481462e-06
+    },
+    {
+      "text": " ",
+      "start": 17.42,
+      "end": 17.54,
+      "type": "spacing",
+      "logprob": -0.00010263393050990999
+    },
+    {
+      "text": "것이",
+      "start": 17.62,
+      "end": 17.88,
+      "type": "word",
+      "logprob": -0.00010263393050990999
+    },
+    {
+      "text": " ",
+      "start": 17.88,
+      "end": 18.0,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "위로",
+      "start": 18.0,
+      "end": 18.16,
+      "type": "word",
+      "logprob": -2.443784747896416e-06
+    },
+    {
+      "text": " ",
+      "start": 18.16,
+      "end": 18.32,
+      "type": "spacing",
+      "logprob": -9.894321920000948e-06
+    },
+    {
+      "text": "당겨졌습니다.",
+      "start": 18.32,
+      "end": 18.94,
+      "type": "word",
+      "logprob": -6.709720971847284e-06
+    },
+    {
+      "text": " ",
+      "start": 18.94,
+      "end": 18.94,
+      "type": "spacing",
+      "logprob": -6.318072337307967e-06
+    },
+    {
+      "text": "그제야",
+      "start": 19.56,
+      "end": 20.16,
+      "type": "word",
+      "logprob": -1.1881050530367551e-05
+    },
+    {
+      "text": " ",
+      "start": 20.16,
+      "end": 20.28,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "머리카락이라는",
+      "start": 20.28,
+      "end": 20.96,
+      "type": "word",
+      "logprob": -2.4948349099369288e-05
+    },
+    {
+      "text": " ",
+      "start": 20.96,
+      "end": 21.04,
+      "type": "spacing",
+      "logprob": -2.47952248173533e-05
+    },
+    {
+      "text": "걸",
+      "start": 21.04,
+      "end": 21.08,
+      "type": "word",
+      "logprob": -2.47952248173533e-05
+    },
+    {
+      "text": " ",
+      "start": 21.08,
+      "end": 21.18,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "알았습니다.",
+      "start": 21.18,
+      "end": 21.68,
+      "type": "word",
+      "logprob": -0.0001137325846608898
+    }
+  ],
+  "transcription_id": "Hc0tmEO20ZYefkvWMD73",
+  "audio_duration_secs": 21.921625
+}

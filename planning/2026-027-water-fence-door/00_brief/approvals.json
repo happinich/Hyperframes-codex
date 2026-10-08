@@ -1,0 +1,58 @@
+{
+  "project_id": "2026-027-water-fence-door",
+  "recorded_on": "2026-10-08",
+  "user_request": "이번에도 3가지 이야기 합본으로 해줘. 목소리는 여성 보이스로 해주면되 .",
+  "topic_selection": {
+    "status": "approved",
+    "chapters": [
+      "C01",
+      "C02",
+      "C03"
+    ]
+  },
+  "format": {
+    "status": "approved",
+    "type": "three_story_anthology",
+    "scope": "this_episode"
+  },
+  "narration": {
+    "status": "awaiting_explicit_approval",
+    "source": "01_script/narration.txt"
+  },
+  "shorts_scripts": {
+    "status": "awaiting_separate_approval",
+    "sources": [
+      "01_script/shorts-01-narration.txt",
+      "01_script/shorts-02-narration.txt",
+      "01_script/shorts-03-narration.txt"
+    ]
+  },
+  "visual_style": {
+    "status": "awaiting_explicit_approval",
+    "recommendations": {
+      "C01": "horror_painterly",
+      "C02": "horror_rough_2d",
+      "C03": "horror_paper_stage"
+    }
+  },
+  "voice": {
+    "gender": "female",
+    "gender_approval": "explicit_user_request",
+    "selected_voice": "Esther",
+    "selection_basis": "requested_female_voice_and_established_Korean_female_voice_in_workspace",
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "model_id": "eleven_v4",
+    "speed_multiplier": 1.0,
+    "voice_generated": false
+  },
+  "bgm": {
+    "status": "pending_voice_review_before_candidates"
+  },
+  "production": {
+    "assets": "not_generated",
+    "tts": "not_started",
+    "composition": "not_started",
+    "renders": "not_started",
+    "drive_upload": "not_started"
+  }
+}

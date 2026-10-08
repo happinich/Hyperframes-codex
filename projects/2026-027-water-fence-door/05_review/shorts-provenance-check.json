@@ -1,0 +1,51 @@
+{
+  "new_portrait_images": 9,
+  "main_hash_overlap": false,
+  "assets": [
+    {
+      "id": "SH1-01",
+      "sha256": "728c4dc68fc546c4c9d3bd06396b92c3c2ff81bf0fc1398992655ca976da34cf",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-e91e0738-7c8c-4027-8474-934e4e3699b5.png"
+    },
+    {
+      "id": "SH1-02",
+      "sha256": "0194209c5c7359b0c8d44241954a5c45a4d4e62c95d43318be37bd65e64afc3c",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-0e00b87b-0d85-4a71-95fa-8d3660bf8343.png"
+    },
+    {
+      "id": "SH1-03",
+      "sha256": "f7b423dbf164fcb544127d9073fd545b038d09d8bc966eb1ac6180666b9b865c",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-5c2a5d8b-371c-4453-b892-153a2e4f600f.png"
+    },
+    {
+      "id": "SH2-01",
+      "sha256": "0b6bf20631a57df7c99406857a1ca390e86038cfcd6120bff0986167bd188d16",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-92e08a9a-acfa-4b32-a9dc-f2d1f2256fe6.png"
+    },
+    {
+      "id": "SH2-02",
+      "sha256": "80a73279b01f890a2c486facfa359512f451659bafcd3886dc14511821ac2204",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-e0b7e4f7-d270-4c07-85b6-b6d8a3f8642e.png"
+    },
+    {
+      "id": "SH3-01",
+      "sha256": "c3b730733093a273adbd98b9a17cda15d4abd90a5f39c748fd6e9fd57fcfcbf2",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-7fc60f54-42fa-401a-9fae-0ac174475f9c.png"
+    },
+    {
+      "id": "SH3-03",
+      "sha256": "dbc99a38260b1795e746fc623d2596fbf61d2f091a88f993ac5c836705c9599e",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-bdd7dc2f-9eed-4054-bfae-0749c2d5d0da.png"
+    },
+    {
+      "id": "SH2-03",
+      "sha256": "e1c123637cc3746817773ec3ebb0b64f441de430302353cf337b667bbebbbc36",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-f4772f1e-37b5-4c08-ba22-80897cf12a38.png"
+    },
+    {
+      "id": "SH3-02",
+      "sha256": "5279ad3fbd7cfcf57d1a59519bfdd91faafe9d73df26f285af99c412bf6c65b8",
+      "source": "/Users/happinich/.codex/generated_images/01a0f26c-e8ba-7d33-84a1-07d8e50aa92a/exec-8f565415-3ab0-47c3-b481-5b02cd967845.png"
+    }
+  ]
+}

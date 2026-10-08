@@ -1,0 +1,168 @@
+{
+  "original_generated_stems": true,
+  "events": [
+    {
+      "start": 67.14,
+      "duration": 1.2,
+      "kind": "water_swish",
+      "peak_amplitude": 0.011898941360414028,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 96.0,
+      "duration": 0.18,
+      "kind": "water_drop",
+      "peak_amplitude": 0.016124296933412552,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 128.32,
+      "duration": 0.5,
+      "kind": "telephone_vibration",
+      "peak_amplitude": 0.013000000268220901,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 212.14,
+      "duration": 0.65,
+      "kind": "metal_scrape",
+      "peak_amplitude": 0.011570751667022705,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 281.26,
+      "duration": 0.3,
+      "kind": "metal_hit",
+      "peak_amplitude": 0.010681860148906708,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 305.58,
+      "duration": 0.3,
+      "kind": "door_thud",
+      "peak_amplitude": 0.010813882574439049,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 465.654,
+      "duration": 0.7,
+      "kind": "grass_rustle",
+      "peak_amplitude": 0.011502940207719803,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 483.933,
+      "duration": 0.16,
+      "kind": "soft_clap",
+      "peak_amplitude": 0.011121421121060848,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 494.173,
+      "duration": 0.18,
+      "kind": "soft_clap",
+      "peak_amplitude": 0.008346300572156906,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 569.833,
+      "duration": 0.18,
+      "kind": "countdown_tone",
+      "peak_amplitude": 0.01299833320081234,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 589.014,
+      "duration": 0.5,
+      "kind": "fence_rattle",
+      "peak_amplitude": 0.01083211787045002,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 642.193,
+      "duration": 0.7,
+      "kind": "tent_creak",
+      "peak_amplitude": 0.014767136424779892,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 679.813,
+      "duration": 0.65,
+      "kind": "metal_scrape",
+      "peak_amplitude": 0.01336376741528511,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 880.609,
+      "duration": 0.12,
+      "kind": "latch_click",
+      "peak_amplitude": 0.010036000050604343,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 913.989,
+      "duration": 0.15,
+      "kind": "latch_click",
+      "peak_amplitude": 0.011286016553640366,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 977.309,
+      "duration": 0.75,
+      "kind": "chair_drag",
+      "peak_amplitude": 0.011340022087097168,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 1002.569,
+      "duration": 0.6,
+      "kind": "wood_creak",
+      "peak_amplitude": 0.011344236321747303,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 1079.709,
+      "duration": 0.45,
+      "kind": "cardboard_crush",
+      "peak_amplitude": 0.011101171374320984,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 1102.729,
+      "duration": 0.5,
+      "kind": "cardboard_drag",
+      "peak_amplitude": 0.012093369849026203,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 1176.729,
+      "duration": 0.35,
+      "kind": "door_thud",
+      "peak_amplitude": 0.01000926923006773,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    },
+    {
+      "start": 1259.989,
+      "duration": 0.7,
+      "kind": "cardboard_drag",
+      "peak_amplitude": 0.01057259552180767,
+      "source": "original_procedural_synthesis_no_external_recordings"
+    }
+  ],
+  "narration_stem_unchanged": true,
+  "duration_seconds": 1271.951,
+  "voice_duration_seconds": 1267.951042,
+  "shorts_duration_seconds": [
+    21.921646,
+    23.037813,
+    18.547104
+  ],
+  "ambience_stems": [
+    "02_audio/working/ambience-story-01.wav",
+    "02_audio/working/ambience-story-02.wav",
+    "02_audio/working/ambience-story-03.wav"
+  ],
+  "foley": "02_audio/working/event-foley.wav",
+  "mix": "02_audio/working/voice-bgm-soundscape.wav",
+  "subjective_listening": "Unavailable. Signal levels, speech verification and exact event timing are reviewed; ear-based sound quality is not claimed."
+}

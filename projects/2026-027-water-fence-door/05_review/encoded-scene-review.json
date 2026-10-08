@@ -1,0 +1,581 @@
+{
+  "reviewed_scenes": [
+    {
+      "part": 1,
+      "scene": "C01-S01",
+      "absolute_seconds": 3.191666666666667,
+      "frame": "05_review/frames/main-scene-pass2/01-C01-S01.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 2,
+      "scene": "C01-S02",
+      "absolute_seconds": 15.658333333333335,
+      "frame": "05_review/frames/main-scene-pass2/02-C01-S02.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 3,
+      "scene": "C01-S03",
+      "absolute_seconds": 36.208333333333336,
+      "frame": "05_review/frames/main-scene-pass2/03-C01-S03.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 4,
+      "scene": "C01-S04",
+      "absolute_seconds": 58.25,
+      "frame": "05_review/frames/main-scene-pass2/04-C01-S04.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 5,
+      "scene": "C01-S05",
+      "absolute_seconds": 78.075,
+      "frame": "05_review/frames/main-scene-pass2/05-C01-S05.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 6,
+      "scene": "C01-S06",
+      "absolute_seconds": 96.84166666666667,
+      "frame": "05_review/frames/main-scene-pass2/06-C01-S06.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 7,
+      "scene": "C01-S07",
+      "absolute_seconds": 117.0,
+      "frame": "05_review/frames/main-scene-pass2/07-C01-S07.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 8,
+      "scene": "C01-S08",
+      "absolute_seconds": 137.05,
+      "frame": "05_review/frames/main-scene-pass2/08-C01-S08.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 9,
+      "scene": "C01-S09",
+      "absolute_seconds": 157.71666666666667,
+      "frame": "05_review/frames/main-scene-pass2/09-C01-S09.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 10,
+      "scene": "C01-S10",
+      "absolute_seconds": 178.63333333333333,
+      "frame": "05_review/frames/main-scene-pass2/10-C01-S10.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 11,
+      "scene": "C01-S11",
+      "absolute_seconds": 199.26666666666665,
+      "frame": "05_review/frames/main-scene-pass2/11-C01-S11.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 12,
+      "scene": "C01-S12",
+      "absolute_seconds": 221.39166666666668,
+      "frame": "05_review/frames/main-scene-pass2/12-C01-S12.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 13,
+      "scene": "C01-S13",
+      "absolute_seconds": 244.53333333333333,
+      "frame": "05_review/frames/main-scene-pass2/13-C01-S13.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 14,
+      "scene": "C01-S14",
+      "absolute_seconds": 267.775,
+      "frame": "05_review/frames/main-scene-pass2/14-C01-S14.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 15,
+      "scene": "C01-S15",
+      "absolute_seconds": 289.89166666666665,
+      "frame": "05_review/frames/main-scene-pass2/15-C01-S15.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 16,
+      "scene": "C01-S16",
+      "absolute_seconds": 311.2,
+      "frame": "05_review/frames/main-scene-pass2/16-C01-S16.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 17,
+      "scene": "C01-S17",
+      "absolute_seconds": 333.8333333333333,
+      "frame": "05_review/frames/main-scene-pass2/17-C01-S17.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 18,
+      "scene": "C01-S18",
+      "absolute_seconds": 354.80833333333334,
+      "frame": "05_review/frames/main-scene-pass2/18-C01-S18.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 19,
+      "scene": "C01-S19",
+      "absolute_seconds": 375.675,
+      "frame": "05_review/frames/main-scene-pass2/19-C01-S19.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 20,
+      "scene": "C01-S20",
+      "absolute_seconds": 399.14166666666665,
+      "frame": "05_review/frames/main-scene-pass2/20-C01-S20.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 21,
+      "scene": "T01",
+      "absolute_seconds": 413.21666666666664,
+      "frame": "05_review/frames/main-scene-pass2/21-T01.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 22,
+      "scene": "C02-S01",
+      "absolute_seconds": 418.71666666666664,
+      "frame": "05_review/frames/main-scene-pass2/22-C02-S01.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 23,
+      "scene": "C02-S02",
+      "absolute_seconds": 432.64166666666665,
+      "frame": "05_review/frames/main-scene-pass2/23-C02-S02.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 24,
+      "scene": "C02-S03",
+      "absolute_seconds": 453.09166666666664,
+      "frame": "05_review/frames/main-scene-pass2/24-C02-S03.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 25,
+      "scene": "C02-S04",
+      "absolute_seconds": 473.1,
+      "frame": "05_review/frames/main-scene-pass2/25-C02-S04.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 26,
+      "scene": "C02-S05",
+      "absolute_seconds": 493.54166666666663,
+      "frame": "05_review/frames/main-scene-pass2/26-C02-S05.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 27,
+      "scene": "C02-S06",
+      "absolute_seconds": 513.575,
+      "frame": "05_review/frames/main-scene-pass2/27-C02-S06.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 28,
+      "scene": "C02-S07",
+      "absolute_seconds": 535.7083333333333,
+      "frame": "05_review/frames/main-scene-pass2/28-C02-S07.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 29,
+      "scene": "C02-S08",
+      "absolute_seconds": 558.225,
+      "frame": "05_review/frames/main-scene-pass2/29-C02-S08.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 30,
+      "scene": "C02-S09",
+      "absolute_seconds": 577.7833333333333,
+      "frame": "05_review/frames/main-scene-pass2/30-C02-S09.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 31,
+      "scene": "C02-S10",
+      "absolute_seconds": 598.075,
+      "frame": "05_review/frames/main-scene-pass2/31-C02-S10.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 32,
+      "scene": "C02-S11",
+      "absolute_seconds": 620.4083333333333,
+      "frame": "05_review/frames/main-scene-pass2/32-C02-S11.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 33,
+      "scene": "C02-S12",
+      "absolute_seconds": 641.8166666666666,
+      "frame": "05_review/frames/main-scene-pass2/33-C02-S12.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 34,
+      "scene": "C02-S13",
+      "absolute_seconds": 663.0250000000001,
+      "frame": "05_review/frames/main-scene-pass2/34-C02-S13.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 35,
+      "scene": "C02-S14",
+      "absolute_seconds": 684.7083333333334,
+      "frame": "05_review/frames/main-scene-pass2/35-C02-S14.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 36,
+      "scene": "C02-S15",
+      "absolute_seconds": 707.7750000000001,
+      "frame": "05_review/frames/main-scene-pass2/36-C02-S15.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 37,
+      "scene": "C02-S16",
+      "absolute_seconds": 729.0,
+      "frame": "05_review/frames/main-scene-pass2/37-C02-S16.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 38,
+      "scene": "C02-S17",
+      "absolute_seconds": 749.4833333333333,
+      "frame": "05_review/frames/main-scene-pass2/38-C02-S17.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 39,
+      "scene": "C02-S18",
+      "absolute_seconds": 772.1916666666667,
+      "frame": "05_review/frames/main-scene-pass2/39-C02-S18.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 40,
+      "scene": "C02-S19",
+      "absolute_seconds": 793.5416666666667,
+      "frame": "05_review/frames/main-scene-pass2/40-C02-S19.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 41,
+      "scene": "C02-S20",
+      "absolute_seconds": 814.6083333333333,
+      "frame": "05_review/frames/main-scene-pass2/41-C02-S20.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 42,
+      "scene": "T02",
+      "absolute_seconds": 827.95,
+      "frame": "05_review/frames/main-scene-pass2/42-T02.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 43,
+      "scene": "C03-S01",
+      "absolute_seconds": 832.9333333333334,
+      "frame": "05_review/frames/main-scene-pass2/43-C03-S01.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 44,
+      "scene": "C03-S02",
+      "absolute_seconds": 845.7583333333333,
+      "frame": "05_review/frames/main-scene-pass2/44-C03-S02.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 45,
+      "scene": "C03-S03",
+      "absolute_seconds": 867.0500000000001,
+      "frame": "05_review/frames/main-scene-pass2/45-C03-S03.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 46,
+      "scene": "C03-S04",
+      "absolute_seconds": 888.8583333333333,
+      "frame": "05_review/frames/main-scene-pass2/46-C03-S04.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 47,
+      "scene": "C03-S05",
+      "absolute_seconds": 910.275,
+      "frame": "05_review/frames/main-scene-pass2/47-C03-S05.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 48,
+      "scene": "C03-S06",
+      "absolute_seconds": 931.7083333333334,
+      "frame": "05_review/frames/main-scene-pass2/48-C03-S06.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 49,
+      "scene": "C03-S07",
+      "absolute_seconds": 952.4250000000001,
+      "frame": "05_review/frames/main-scene-pass2/49-C03-S07.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 50,
+      "scene": "C03-S08",
+      "absolute_seconds": 972.5666666666666,
+      "frame": "05_review/frames/main-scene-pass2/50-C03-S08.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 51,
+      "scene": "C03-S09",
+      "absolute_seconds": 994.3416666666667,
+      "frame": "05_review/frames/main-scene-pass2/51-C03-S09.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 52,
+      "scene": "C03-S10",
+      "absolute_seconds": 1015.975,
+      "frame": "05_review/frames/main-scene-pass2/52-C03-S10.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 53,
+      "scene": "C03-S11",
+      "absolute_seconds": 1037.1000000000001,
+      "frame": "05_review/frames/main-scene-pass2/53-C03-S11.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 54,
+      "scene": "C03-S12",
+      "absolute_seconds": 1059.5,
+      "frame": "05_review/frames/main-scene-pass2/54-C03-S12.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 55,
+      "scene": "C03-S13",
+      "absolute_seconds": 1082.075,
+      "frame": "05_review/frames/main-scene-pass2/55-C03-S13.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 56,
+      "scene": "C03-S14",
+      "absolute_seconds": 1105.1583333333333,
+      "frame": "05_review/frames/main-scene-pass2/56-C03-S14.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 57,
+      "scene": "C03-S15",
+      "absolute_seconds": 1129.0916666666665,
+      "frame": "05_review/frames/main-scene-pass2/57-C03-S15.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 58,
+      "scene": "C03-S16",
+      "absolute_seconds": 1152.5,
+      "frame": "05_review/frames/main-scene-pass2/58-C03-S16.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 59,
+      "scene": "C03-S17",
+      "absolute_seconds": 1175.525,
+      "frame": "05_review/frames/main-scene-pass2/59-C03-S17.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 60,
+      "scene": "C03-S18",
+      "absolute_seconds": 1196.45,
+      "frame": "05_review/frames/main-scene-pass2/60-C03-S18.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 61,
+      "scene": "C03-S19",
+      "absolute_seconds": 1216.5,
+      "frame": "05_review/frames/main-scene-pass2/61-C03-S19.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 62,
+      "scene": "C03-S20",
+      "absolute_seconds": 1236.3166666666666,
+      "frame": "05_review/frames/main-scene-pass2/62-C03-S20.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    },
+    {
+      "part": 63,
+      "scene": "C03-S21",
+      "absolute_seconds": 1258.6833333333334,
+      "frame": "05_review/frames/main-scene-pass2/63-C03-S21.png",
+      "pass": 2,
+      "result": "passed",
+      "observed": "Encoded scene frame: approved image/crop, no unintended text overlap; clue visibility preserved."
+    }
+  ],
+  "status": "passed_all_63_encoded_scene_frames_and_clue_repair",
+  "repair_reviews": [
+    {
+      "scene": "C02-S20",
+      "time": 817,
+      "result": "passed",
+      "original_issue": "Wide record photo underemphasized soil trace",
+      "repair": "2.1x clue crop starts at 철망 spoken cue; encoded output individually inspected. One soil trace under fence now clearly readable."
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "items": [
+    {
+      "asset_id": "C01-office",
+      "kind": "longform",
+      "prompt": "ONE 16:9 rough MATTE GOUACHE PAINTING with BIG VISIBLE brushstrokes, dark teal/ochre, simplified shapes. ORDINARY apartment management office, gray plain desk bearing brown DOCUMENT ENVELOPE and generic unlettered papers, wall filing shelves. No person, hands, phone, ghost, supernatural shadow, doorway or tank. No face, text, logo, watermark or photo realism. This is normal office setup, empty mundane room, no horror entity.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-ladder-wet",
+      "kind": "longform",
+      "prompt": "Edit the reference image with EXACTLY SAME camera, architecture, ladder rungs, rail, door, flashlight and envelope. Change ONLY bottom three rungs of ladder from dry to wet, add a few visible droplets; tiny water below drain. EVERYTHING else identical. Preserve expressive nonphotographic big-brushstroke gouache teal/ochre painting. NO ghost, hair, hand, human or entity. Do NOT redesign scene, change angle, move ladder or add details. 16:9 landscape.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-hair-low",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Use attached image ONLY as setting/style reference; create the requested new shot. One ghost, gray soaked plain garment, long black hair hiding face, two normal five-finger hands; horizontal torso orientation is intentional supernatural motion, no extra arms or duplicated bodies. Scene: Close detail of same fixed ladder lower rungs, cropped inside tank. Long BLACK wet hair hangs over THIRD rung from bottom; a very small dark head shape entirely hidden BEHIND rung, no face or body visible yet. Ladder otherwise same. Cold narrow flashlight patch reveals hair, big painted edges. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-entity-high",
+      "kind": "longform",
+      "prompt": "Create ONE CLOSE-UP 16:9 matte gouache painting continuing the reference ladder detail. Camera shows only same lower/middle ladder, wall behind and a little empty floor. Long black wet hair now drapes TWO RUNGS HIGHER than reference, with a SMALL soaked GRAY SHOULDER immediately below hair, horizontal behind ladder. Only hair and gray shoulder fragment, NO hands, arms, face, torso, legs, whole body or person on tank lip. Preserve coherent ladder and LARGE rough teal/ochre brushstrokes. Horror is a partly hidden horizontal shoulder floating inside empty tank, not a person lying on walkway. Exclude every other body part and the entire upper tank walkway.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-hair-low.png"
+      ]
+    },
+    {
+      "asset_id": "C01-door-water",
+      "kind": "longform",
+      "prompt": "Edit ONLY by removing black flashlight and brown document envelope from right workbench completely. Bench now empty. Keep EXACT same half-closed gray steel door, narrow water entering under door from corridor, camera, tank, ladder, railing, painted teal/ochre gouache style and lighting. No hands, ghost, hair, people, faces or text. 16:9. Do not alter architecture or flood level.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-door-water-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "C01-door-contact",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Use attached image ONLY as setting/style reference; create the requested new shot. One ghost, gray soaked plain garment, long black hair hiding face, two normal five-finger hands; horizontal torso orientation is intentional supernatural motion, no extra arms or duplicated bodies. Scene: Detailed close shot of same steel door half closed, seen from INSIDE room. ONE gray wet ghost hand reaches from corridor around metal door edge, BACK OF HAND facing camera, fingers wrap clearly around edge with correct occlusion, strands of black hair caught between fingers. Normal five fingers and thumb, gray sleeve. No human hand, no face, no extra hand, readable contact and door thickness. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-ladder-displaced",
+      "kind": "longform",
+      "prompt": "Edit ONLY the right steel door: make it HALF CLOSED across the doorway, with only a narrow slice of the yellow corridor visible behind its left edge. Preserve displaced ladder LEFT, single hand gripping railing, empty workbench and camera. Dark rough gouache painting, no new hands, no new person.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-ladder-displaced-rejected-pass2.png"
+      ]
+    },
+    {
+      "asset_id": "C01-human-handle",
+      "kind": "longform",
+      "prompt": "Edit the reference image. Preserve gouache paint, dark teal and amber, the two gray-jacket narrator hands pulling the steel door and the single black flashlight held under the narrator arm. REMOVE the entire ghost head hair body and ghost arm from the corridor: corridor empty. Tight close view of narrator two hands and door handle, no faces or entity visible. Correct two normal human hands, five digits each, physically gripping the handle and edge. No text. 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-human-handle-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "C01-flashlight-floor",
+      "kind": "longform",
+      "prompt": "One 16:9 dark matte rough gouache painted horror illustration, not a photograph. Tight overhead detail of empty concrete reservoir floor with ONE fallen black flashlight on its side casting a narrow amber beam LEFT across rough dark teal concrete. Only floor and flashlight visible; exclude all ladder, railing, workbench, doors, humans, ghost, hair and hands. Clearly dry floor with small damp streak under flashlight, no pool. Same reference painted texture, amber teal palette. No text.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-stairs-envelope",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Use attached image ONLY as setting/style reference; create the requested new shot. ABSOLUTELY NO GHOST, HAIR, SUPERNATURAL PERSON OR CREATURE IN THIS FRAME. Scene: Short dim underground corridor leading to concrete stairs UP to management area, plain brown envelope fallen on middle stair. Corridor behind frame leads to reservoir steel door; lower steps lightly wet, upper steps dry, NO ghost or person or faces. Painted teal/ochre consistent. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C01-photo-arm",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Use attached image ONLY as setting/style reference; create the requested new shot. One ghost, gray soaked plain garment, long black hair hiding face, two normal five-finger hands; horizontal torso orientation is intentional supernatural motion, no extra arms or duplicated bodies. Scene: A slightly wider inspection room view matching original baseline. Empty dry tank, fixed intact dry ladder, right workbench with envelope and flashlight, open steel door at far RIGHT. At BOTTOM CORRIDOR SIDE of the doorway, ONE soaked gray sleeve and five-finger pale hand subtly wraps door lower edge from OUTSIDE. No face or full ghost. This image will be shown as fictional earlier work photograph inside our painted story, no text or date in generated image. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-trunk",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. ABSOLUTELY NO CREATURE, MONSTER, SHADOW FIGURE OR OTHER PERSON IN THIS FRAME. Scene: Close view of SAME dark blue car open rear hatch at campsite night, sealed food container inside trunk, gray jacket sleeve hand at lower edge placing it in. Tent and lantern left background, lane right. No faces, creatures, text or logo. Keep same car model outline. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-grass",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. ABSOLUTELY NO CREATURE, MONSTER, SHADOW FIGURE OR OTHER PERSON IN THIS FRAME. Scene: Low close view of wire fence base at SAME campsite, forest behind fence, small ground gap and pressed olive grass in one narrow patch outside fence. Empty folding chair leg and warm lantern light foreground. NO creature, hands or faces. Normal coherent wire geometry. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-head-high",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. One creature with a dark smooth featureless small head, one long narrow torso, two long forelimbs and two hindlimbs. Each limb has exactly ONE extra mid-joint beyond a human elbow/knee and a blunt end, NO fingers, NO claws. Folding is an articulated zigzag body posture, never extra limbs or melted anatomy. Scene: Same campsite wide view from folding chair. Only ONE small dark featureless head shape rises JUST ABOVE tall fence at upper left behind tree branches; all body concealed by forest/rail. Tent lantern and car keep exact positions. Do not show body folding yet, no glowing eyes or face. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-fold-partial",
+      "kind": "longform",
+      "prompt": "Keep this exact rough 2D nighttime camp composition. Replace the creature pose: its entire small featureless black head must be BELOW the fence TOP rail, at the MIDDLE HEIGHT of the mesh. Its narrow torso bends SIDEWAYS horizontally BEHIND mesh and foliage, knees bend in angular zigzag. All entity parts stay behind fence, no part above top rail. Four limbs, blunt ends, no hands or eyes. Preserve tent left, blue car right, distant warm cabin.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial-rejected-pass2.png"
+      ]
+    },
+    {
+      "asset_id": "C02-driver-key",
+      "kind": "longform",
+      "prompt": "Edit reference image only by removing the dashboard mounted smartphone AND its holder completely. The narrator phone is in a jacket pocket, invisible. Preserve all other rough 2D drawing: left-hand steering wheel, single key dropped in footwell, tent with amber lantern seen through LEFT window and cabin ahead through windshield, no creature, no humans or hands, dark blue palette, 16:9. Remove all logo and written marks.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-driver-key-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "C02-creature-gap",
+      "kind": "longform",
+      "prompt": "ONE 16:9 rough hand drawn 2D horror illustration, flat navy olive blocks, irregular ink lines and amber light matching reference. TIGHT SIDE VIEW AT GROUND LEVEL of unbroken chain-link fence bottom horizontal bar exactly 25 cm above grass. Creature is COMPLETELY flattened BELOW the bottom bar, compressed sideways like an articulated folded strip, head and torso no taller than the small gap. One small perfectly smooth dark oval featureless head leads inside camp on RIGHT, one narrow torso halfway beneath bar, four thin limbs bent in angular zigzags following behind on LEFT. Four blunt rounded limb ends, NO fingers claws eyes holes mouth or face. Fixed extra midjoint on each limb, not stretched or melted. Its entire upper body is UNDER the bar, not standing above it. Only fence bottom grass and folded creature, no tent or humans, no text.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial.png"
+      ]
+    },
+    {
+      "asset_id": "C02-tent-bend",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. One creature with a dark smooth featureless small head, one long narrow torso, two long forelimbs and two hindlimbs. Each limb has exactly ONE extra mid-joint beyond a human elbow/knee and a blunt end, NO fingers, NO claws. Folding is an articulated zigzag body posture, never extra limbs or melted anatomy. Scene: Same beige dome tent LEFT of same dark blue car. ONE long blunt creature forelimb with fixed extra joint presses tent base; tent support pole bows and bends inside fabric TOWARD car left side. Lantern still hangs from front hook and tips with tent. Most creature behind cloth, no extra limbs, no human, no car damage yet. Clear cloth-pressure contact. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial.png"
+      ]
+    },
+    {
+      "asset_id": "C02-mirror-follow",
+      "kind": "longform",
+      "prompt": "ONE landscape rough 2D dark horror illustration matching references, irregular drawn contours and flat navy amber shadows. Interior POV left side mirror fills LEFT half, road toward lit camp office on RIGHT through windscreen. Inside mirror ONLY one low folded creature following car left: perfectly SMOOTH oval head with NO eyes sockets nose mouth or markings, four long angular zigzag limbs with BLUNT ROUND ends, NO fingers toes claws hands. Dark blue car edge. Farther behind reflected creature the beige tent is COLLAPSED and crushed with hanging amber lantern tilted. No standing tent. No humans or faces, no phone, NO letters numbers text logos on any dashboard. Mirror scene physically coherent and clearly separated from road ahead. 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial.png"
+      ]
+    },
+    {
+      "asset_id": "C02-car-contact",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. One creature with a dark smooth featureless small head, one long narrow torso, two long forelimbs and two hindlimbs. Each limb has exactly ONE extra mid-joint beyond a human elbow/knee and a blunt end, NO fingers, NO claws. Folding is an articulated zigzag body posture, never extra limbs or melted anatomy. Scene: Exterior close of same car LEFT REAR DOOR roof edge, one long dark blunt-ended articulated creature limb with extra mid-joint wraps from ABOVE onto metal and compresses it. Two curved joint bulges contact metal and form dents. No claws or hand/fingers, creature body mostly out of frame. Correct occlusion limb-over-metal, clean readable physical pressure, no crushed passenger or gore. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial.png"
+      ]
+    },
+    {
+      "asset_id": "C02-cabin",
+      "kind": "longform",
+      "prompt": "ONE 16:9 rough hand-drawn 2D horror background, navy olive flat shadows and amber lanterns, same camp as reference. Wide EXTERIOR view from beside dark blue car stopped outside small management cabin on RIGHT. A plain gray owner car parked at cabin. Look back LEFT along gravel lane: far away collapsed beige tent and still glowing hanging lantern. Only ONE extremely small elongated dark low shape under distant lantern, featureless and barely outlined; no nearby monster. Tent must be collapsed. No smartphone anywhere, no phone display, no human hands or faces, no lettering text or logos. Empty foreground, clear lane connecting cabin to distant original campsite.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-damage",
+      "kind": "longform",
+      "prompt": "One 16:9 rough 2D hand drawn illustration matching reference dark blue car, irregular ink outlines flat shadow blocks. EXTREME CLOSE VIEW of the upper LEFT REAR DOOR and roof edge only, empty warm roadside store light in background. Long broad downward depression at top door metal immediately ABOVE window, below it EXACTLY TWO LARGE SHALLOW ROUND DENTS next to each other. Dents are rounded pressure hollows with intact painted metal, NOT holes, NO punctures, NO scratches, no third or fourth dents. Window glass intact. No creature, limbs, humans, text or logos. Clearly readable two contact marks, same dark navy and amber.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-car-contact.png"
+      ]
+    },
+    {
+      "asset_id": "C02-lantern-return",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. ABSOLUTELY NO CREATURE, MONSTER, SHADOW FIGURE OR OTHER PERSON IN THIS FRAME. Scene: Close still life of returned camping lantern and folding chair in open plain parcel box. Lantern same dirty yellow design, metal hanging hook bent outward almost straight. No new creature, human or text. Dim indoor background rendered SAME rough 2D style, clear large clue. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C02-entry-mark",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Use attached image ONLY as setting/style reference; create the requested new shot. ABSOLUTELY NO CREATURE, MONSTER, SHADOW FIGURE OR OTHER PERSON IN THIS FRAME. Scene: Same campsite after incident in dim overcast morning, collapsed beige tent LEFT, fence intact behind, small bottom gap. ONE long pressed track in soil going from OUTSIDE through gap INSIDE toward tent, no return track and no monster. SAME car spot right is now empty. No other footprints, faces or text; consistent 2D outline and layout. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-knob-slit",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: Same paper-stage apartment and exact old door. Close view lever pressed DOWN; door slightly tilted away from original solid wall, narrow dark floor gap BEHIND it instead of wall, no hands or feet, no visible corridor of repeated doors yet. Left lower black stain and left hinges stable. No frame added. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-tipped-door",
+      "kind": "longform",
+      "prompt": "ONE 16:9 crafted CUT PAPER horror stage. Tight first-person view looking DOWN at old ochre detached door being tilted slightly toward camera, bottom stained-left edge remains planted on floor by blue-gray wall. Narrator ONE flat cardboard cutout hand enters from LOWER RIGHT foreground via long gray paper sleeve, reaches FORWARD and grips SIDE edge near top to pull door toward viewer. Arm visibly connected to frame edge, not emerging from behind door. Hand made flat gray-beige CARDSTOCK with visible cut edges, five coherent digits, NO photographic skin. Door has three silver hinges on LEFT, brass lever RIGHT, black stain lower LEFT. Only narrow black gap behind door, no other hand, body, face, feet, box, portal corridor. Same layered paper texture reference, kitchen left and bedroom right mostly outside tight shot.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-entry-wood",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: View from SAME apartment entry threshold looking OUT through actual entry door. Floor beyond threshold is now old WOOD instead of normal tile, distant SAME ochre door stands facing viewer with lower-left black stain. No repeated corridor yet. At left foreground some unchanged kitchen edge confirms narrator is still inside apartment. No ghost or human. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-box-under",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: Same apartment baseline layout, one plain cardboard moving box is now wedged UNDER lower edge of SAME standing ochre door, so door raised slightly. No feet or hands visible yet. Gray-blue wall and left kitchen/right bedroom fixed. No text or supernatural corridor. Cardstock edges and box contact clear. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-foot-box",
+      "kind": "longform",
+      "prompt": "Edit attached cut-paper stage image. Keep EXACT same room, door, small box dimensions and carton position, door stain lower-left, hinges left and lever right. Move camera a bit closer to lower door. Add ONE FLAT CUT WHITE PAPER SOCKED FOOT TIP emerging downward from black gap behind lower edge of door and pressing top of the same SMALL box. Door raised slightly more to expose this tip. White sock entirely covers foot: NO individual toes or toenails, no realistic fabric or flesh, visibly layered ivory paper with just two drawn rib lines. NO leg above ankle, no human or other body. Same cardstock materials throughout, 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-box-under.png"
+      ]
+    },
+    {
+      "asset_id": "C03-umbrella-box",
+      "kind": "longform",
+      "prompt": "ONE 16:9 cut-cardstock horror detail shot. Extreme close low side view of ONE small cardboard box sliding OUT from beneath bottom of ochre paper door toward viewer. Door bottom black stain visible at LEFT upper edge. A single closed dark umbrella enters diagonally from OFF-FRAME RIGHT; its curved handle is hooked AROUND THE FAR LEFT BACK CORNER of the carton, visibly gripping the corner with contact on two sides so it can pull carton forward. The umbrella shaft crosses beside the carton, never through it. No hand or foot included in this very tight detail crop; all bodies outside frame. Same layered cut-paper style and navy/ochre palette as reference, no text or other objects. Show clear mechanical hook-around-corner contact; do not put handle against flat front face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-box-under.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-tipped-door.png"
+      ]
+    },
+    {
+      "asset_id": "C03-repeated-corridor",
+      "kind": "longform",
+      "prompt": "Edit reference image only by REMOVING the closed black umbrella lying on the floor at lower right. Replace with continuous paper floor. Keep exactly every door, repeated corridor, kitchen, bedroom, boxes, green rolled mat, camera, lighting, paper texture and shadow unchanged. No additional objects or entities. 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-repeated-corridor-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "C03-hands-door",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. Paper hands each five fingers; no heads or faces. Scene: Same old paper door tilted forward. At top ONE normal five-finger pale PAPER hand curls from BEHIND over top edge to hold it upright; another equally shaped hand on distant repeated door top, no extra fingers or body. At lower right foreground one gray-sleeved HUMAN five-finger hand pulls front outer door edge toward camera, unmistakably separate from entity hand. No gore or human face. Show accurate front/back contact and paper edges; old lower-left stain consistent. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-flat-door",
+      "kind": "longform",
+      "prompt": "Edit reference. Keep exactly same cut-paper room and camera, solid blue back wall, kitchen left and bedroom right, umbrella beside door. FLIP the detached horizontal door so its PLAIN BACK face points UP. NO black stain or brass lever on upper surface; those are now underneath. Show three silver hinge PLATES lying visibly across upper LEFT edge of plain ochre cardboard BACK, with simple two horizontal support battens. Door stays completely FLAT on floor. No corridor, entity, hands, feet, text. Dark layered cardstock theatre style, 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-flat-door-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "C03-entry-tile",
+      "kind": "longform",
+      "prompt": "Edit reference image to restore normal apartment corridor. Preserve EXACT same foreground kitchen fragment on LEFT, entry door on RIGHT, frame, threshold and camera angle. Beyond threshold replace old wooden floor with ordinary GRAY SQUARE TILE and gray corridor walls lit by ceiling sensor lamp. Replace distant stained ochre door with ordinary flush dark gray neighbor apartment door integrated in wall. No detached old door anywhere in hallway, no stains, ghosts, hands or repeating doors. Keep cut-paper/cardboard construction. Do not add bedroom or move entry to another wall. 16:9.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-entry-wood.png"
+      ]
+    },
+    {
+      "asset_id": "C03-truck-door",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: In dark modest delivery truck cargo bay, old ochre detached door partly wrapped in plain gray cloth and resting FLAT with HINGE-HIDDEN FRONT SIDE UP, lower-left black stain just visible, right lever facing upward. No logos, people/faces or text. A few paper boxes at sides; definite cardboard craft material. No feet or ghost or standing door. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-warehouse-door",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: Fictional warehouse in SAME gloomy cut-paper style. SAME ochre door is standing against plain blue-gray wall again, one cardboard box partially slid toward its lower edge. Door black stain lower-left, lever right, hinges left. No hands/face or corridor revealed. Ordinary warehouse boxes and paper floor edges, dim theatre light; this is late-story recurrence only. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "C03-phone",
+      "kind": "longform",
+      "prompt": "Create ONE finished 16:9 landscape illustration. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. Use attached image ONLY as setting/style reference; create the requested new shot. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Scene: Close view of gray paper-cut human sleeve holding a plain smartphone vertically in front of SAME apartment blank wall, screen dark blank for later code-native call overlay. One coherent hand with five fingers, no text, no door or ghost. Empty right-half background for endscreen; layered paper construction. No narrator face, no captions, text, watermark or logos. Essential clue readable on phone. Save the image.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH1-01",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. ABSOLUTELY NO GHOST, HAIR, SUPERNATURAL PERSON OR CREATURE IN THIS FRAME. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait vertical view from above EMPTY DRY concrete reservoir, straight ladder with a few wet bottom rungs, big local light; no ghost or face. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH1-02",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. ABSOLUTELY NO GHOST, HAIR, SUPERNATURAL PERSON OR CREATURE IN THIS FRAME. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait close of same dry ladder lower rungs with wet third rung and drops, no body/hair yet. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH1-03",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Only a small lock of wet black hair is visible from behind ladder rung. No ghost body, torso, face, shoulders, arms, hands or clothing. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait close ladder third rung, black wet hair hangs from behind rung, tiny hidden head entirely obscured, no face, shoulders, door hand or flashlight escape. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH2-01",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. ABSOLUTELY NO CREATURE, MONSTER, SHADOW FIGURE OR OTHER PERSON IN THIS FRAME. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait view of small wire fence bottom gap and pressed grass outside, folding chair corner foreground. No entity yet. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH2-02",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. Rough hand-drawn 2D horror animation background, uneven DARK DRAWN outlines, matte flat shadow blocks, muted navy/olive and warm yellow; NO photorealism, glossy CGI or clean webtoon. Only one small smooth dark oval head with no eyes or facial features is visible. Entire body and all limbs stay hidden by foliage. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait tall wire fence with only small featureless dark head above upper edge behind tree, no body. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH2-03",
+      "kind": "shorts",
+      "prompt": "Create fresh 9:16 portrait rough hand drawn 2D horror image with navy olive palette amber rim light. Tall wire mesh fence spans ENTIRE image foreground. Its TOP BAR is near upper quarter of image. BEHIND mesh at center BELOW TOP BAR, small smooth featureless oval head at FENCE MID HEIGHT. Narrow torso folds HORIZONTALLY sideways into zigzag with ONE extra joint in two partially visible blunt limbs, most body hidden by tree and leaves. Head strictly below fence top, not above it. No eyes nose mouth fingers claws, no complete body, no creature inside camp, no crawling under gap, no car or ending. Subject center 60 percent, lower quarter clear for captions. New portrait composition using references only for style.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C02-fold-partial.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/SH2-02.png"
+      ]
+    },
+    {
+      "asset_id": "SH3-01",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait old detached ochre door before blank blue-gray wall, lower-left stain right lever left hinges, no box or portal. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "SH3-02",
+      "kind": "shorts",
+      "prompt": "Edit portrait reference image only: REMOVE the vertical brown doorframe strip on RIGHT of black slit. Continue solid blue-gray paper wall there instead. Keep narrow black slit BEHIND detached door edge, same lowered brass handle, hinges left, black stain lower-left, camera and cardstock texture. Door is a detached slab leaning on wall, NO frame, no doorway trim. No humans entities feet or text. 9:16.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/SH3-02-rejected-v1.png"
+      ]
+    },
+    {
+      "asset_id": "SH3-03",
+      "kind": "shorts",
+      "prompt": "Create ONE BRAND NEW 9:16 PORTRAIT illustration, 1080x1920 or larger. A handcrafted layered CARDSTOCK CUT-PAPER horror stage with visible paper edges and folded surfaces, flat cutout objects, deep theatre shadows, muted blue-gray and dirty ochre; NO actual human photo or realistic apartment. The old door is dirty ochre with black stain at front LOWER LEFT, brass lever handle at front RIGHT and three silver hinges at front LEFT. No frame. Behind the door supernatural space appears only in requested scenes. No entity hands, feet, heads or faces unless scene explicitly asks for normal narrator hand. Use attached landscape only as STYLE/SETTING REFERENCE. Independently compose a NEW vertical viewpoint, NEVER crop, reuse or extract the source image. Fresh portrait tilted door top and very narrow dark slit behind, unchanged wall at sides; a small paper chair SHADOW only inside slit to imply scraping, no feet, repeated corridor or solution. Keep essential clue in central 60%, bottom 25% clear for separately added captions. No text/logo/watermark, no narrator face.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C03-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "kind": "thumbnail",
+      "prompt": "Create ONE NEW 16:9 YouTube horror thumbnail background. NONPHOTOGRAPHIC matte gouache/oil illustration with conspicuous LARGE rough painted strokes and simplified shapes, dark teal and ochre; NO photorealistic surface detail. Only a small lock of wet black hair is visible from behind ladder rung. No ghost body, torso, face, shoulders, arms, hands or clothing. Use attached only as style/reference, compose a new large high-contrast decisive clue. Single decisive clue on RIGHT two-thirds: lower dry ladder rung with wet black hair rising from behind, tiny hidden head obscured. Empty tank background. LEFT third dark simple painted wall reserved for Korean warning added later. No full ghost face or gore. No text, no watermark, no faces, no extra limbs. Readable at small mobile size.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/C01-baseline.png"
+      ]
+    },
+    {
+      "asset_id": "thumbnail-b-source",
+      "kind": "thumbnail",
+      "prompt": "Generate ONE BRAND NEW landscape 16:9 YouTube horror thumbnail background in handcrafted layered CUT PAPER stage style, blue-gray paper walls and dirty ochre door, theatre shadows. Attached portrait only style/door design reference, create new landscape composition. RIGHT half: detached ochre door tipped slightly away from blank wall, brass handle right, silver hinges left, black stain lower-left. Narrow gap BEHIND door reveals dark chair SHADOW against dim amber space where solid wall should be. No human or ghost body, NO FOOT, NO SOCK, NO HAND, NO BOX, NO FACES. LEFT half plain dark blue-gray paper wall with large empty negative space for later text. Essential mysterious slit and shadow large high contrast readable on mobile. No text or logo, no realistic photo, all visibly cardstock.",
+      "references": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-027-water-fence-door/04_composition/assets/visuals/SH3-03.png"
+      ]
+    }
+  ],
+  "baseline_assets": [
+    "C01-baseline",
+    "C02-baseline",
+    "C03-baseline"
+  ],
+  "status": "planned_after_approval"
+}

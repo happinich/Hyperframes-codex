@@ -1,0 +1,2531 @@
+{
+  "project_id": "2026-027-water-fence-door-story-02",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "scenes": [
+    {
+      "id": "C02-S01",
+      "chapter_id": "C02",
+      "type": "cold_open",
+      "start_seconds": 386.5,
+      "end_seconds": 392.0,
+      "duration_seconds": 5.5,
+      "estimated_words": 11,
+      "target_wpm": 120,
+      "narration_text": "울타리가 높아서 안심했어요. 철망 밖에 서 있던 그것이, 몸을 접기 전까지는요.",
+      "caption_text": "울타리가 높아서 안심했어요. 철망 밖에 서 있던 그것이, 몸을 접기 전까지는요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "키 큰 울타리와 낮아진 형상의 조각",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "키 큰 울타리와 낮아진 형상의 조각",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "울타리가 높아서 안심했어요.",
+          "visual_target": "키 큰 울타리와 낮아진 형상의 조각",
+          "action": "공간·단서 방향 유지. 키 큰 울타리와 낮아진 형상의 조각의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "철망 밖에 서 있던 그것이, 몸을 접기 전까지는요.",
+          "visual_target": "키 큰 울타리와 낮아진 형상의 조각",
+          "action": "키 큰 울타리와 낮아진 형상의 조각 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "철망 밖에 서 있던 그것이, 몸을 접기 전까지는요.",
+          "visual_target": "키 큰 울타리와 낮아진 형상의 조각",
+          "action": "키 큰 울타리와 낮아진 형상의 조각의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "키 큰 울타리와 낮아진 형상의 조각",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S02",
+      "chapter_id": "C02",
+      "type": "normal",
+      "start_seconds": 392.0,
+      "end_seconds": 412.5,
+      "duration_seconds": 20.5,
+      "estimated_words": 41,
+      "target_wpm": 120,
+      "narration_text": "평일에 연차를 내고 혼자 캠핑을 간 적이 있어요. 산 아래 작은 캠핑장이었는데, 차를 텐트 바로 옆에 세울 수 있어서 골랐죠. 제가 예약한 자리는 가장 안쪽이었습니다. 왼쪽에는 철망 울타리가 있었고, 오른쪽으로 난 차로를 따라가면 관리실과 출입구가 나왔어요. 평일이라 가까운 자리에는 아무도 없었습니다.",
+      "caption_text": "평일에 연차를 내고 혼자 캠핑을 간 적이 있어요. 산 아래 작은 캠핑장이었는데, 차를 텐트 바로 옆에 세울 수 있어서 골랐죠. 제가 예약한 자리는 가장 안쪽이었습니다. 왼쪽에는 철망 울타리가 있었고, 오른쪽으로 난 차로를 따라가면 관리실과 출입구가 나왔어요. 평일이라 가까운 자리에는 아무도 없었습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "울타리 왼쪽·차로와 차 오른쪽",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "울타리 왼쪽·차로와 차 오른쪽",
+        "tension_stage": "normal",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "평일에 연차를 내고 혼자 캠핑을 간 적이 있어요.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "공간·단서 방향 유지. 울타리 왼쪽·차로와 차 오른쪽의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "평일에 연차를 내고 혼자 캠핑을 간 적이 있어요.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "공간·단서 방향 유지. 울타리 왼쪽·차로와 차 오른쪽의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "산 아래 작은 캠핑장이었는데, 차를 텐트 바로 옆에 세울 수 있어서 골랐죠.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "공간·단서 방향 유지. 울타리 왼쪽·차로와 차 오른쪽의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "산 아래 작은 캠핑장이었는데, 차를 텐트 바로 옆에 세울 수 있어서 골랐죠.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "제가 예약한 자리는 가장 안쪽이었습니다.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "왼쪽에는 철망 울타리가 있었고, 오른쪽으로 난 차로를 따라가면 관리실과 출입구가 나왔어요.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "왼쪽에는 철망 울타리가 있었고, 오른쪽으로 난 차로를 따라가면 관리실과 출입구가 나왔어요.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "왼쪽에는 철망 울타리가 있었고, 오른쪽으로 난 차로를 따라가면 관리실과 출입구가 나왔어요.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "평일이라 가까운 자리에는 아무도 없었습니다.",
+          "visual_target": "울타리 왼쪽·차로와 차 오른쪽",
+          "action": "울타리 왼쪽·차로와 차 오른쪽의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "울타리 왼쪽·차로와 차 오른쪽",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S03",
+      "chapter_id": "C02",
+      "type": "normal",
+      "start_seconds": 412.5,
+      "end_seconds": 431.0,
+      "duration_seconds": 18.5,
+      "estimated_words": 37,
+      "target_wpm": 120,
+      "narration_text": "저녁을 먹고 설거지를 하러 갔어요. 관리실 앞에는 주인 차가 있었고, 안에서 텔레비전 소리도 났죠. 주인분은 밤에 산 쪽에서 짐승이 내려올 때가 있으니 음식은 차에 넣으라고 했습니다. 저는 남은 고기를 밀폐용기에 담아 트렁크에 넣었어요. 쓰레기도 정해진 수거함에 버렸고요.",
+      "caption_text": "저녁을 먹고 설거지를 하러 갔어요. 관리실 앞에는 주인 차가 있었고, 안에서 텔레비전 소리도 났죠. 주인분은 밤에 산 쪽에서 짐승이 내려올 때가 있으니 음식은 차에 넣으라고 했습니다. 저는 남은 고기를 밀폐용기에 담아 트렁크에 넣었어요. 쓰레기도 정해진 수거함에 버렸고요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "음식을 트렁크에 넣는 정상 행동",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "음식을 트렁크에 넣는 정상 행동",
+        "tension_stage": "normal",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "저녁을 먹고 설거지를 하러 갔어요.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "공간·단서 방향 유지. 음식을 트렁크에 넣는 정상 행동의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "관리실 앞에는 주인 차가 있었고, 안에서 텔레비전 소리도 났죠.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "공간·단서 방향 유지. 음식을 트렁크에 넣는 정상 행동의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "관리실 앞에는 주인 차가 있었고, 안에서 텔레비전 소리도 났죠.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "공간·단서 방향 유지. 음식을 트렁크에 넣는 정상 행동의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "주인분은 밤에 산 쪽에서 짐승이 내려올 때가 있으니 음식은 차에 넣으라고 했습니다.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "음식을 트렁크에 넣는 정상 행동 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "주인분은 밤에 산 쪽에서 짐승이 내려올 때가 있으니 음식은 차에 넣으라고 했습니다.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "음식을 트렁크에 넣는 정상 행동 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "주인분은 밤에 산 쪽에서 짐승이 내려올 때가 있으니 음식은 차에 넣으라고 했습니다.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "음식을 트렁크에 넣는 정상 행동 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "저는 남은 고기를 밀폐용기에 담아 트렁크에 넣었어요.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "음식을 트렁크에 넣는 정상 행동의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "쓰레기도 정해진 수거함에 버렸고요.",
+          "visual_target": "음식을 트렁크에 넣는 정상 행동",
+          "action": "음식을 트렁크에 넣는 정상 행동의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "음식을 트렁크에 넣는 정상 행동",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S04",
+      "chapter_id": "C02",
+      "type": "anomaly",
+      "start_seconds": 431.0,
+      "end_seconds": 452.5,
+      "duration_seconds": 21.5,
+      "estimated_words": 43,
+      "target_wpm": 120,
+      "narration_text": "자리로 돌아오는데 울타리 밖에서 풀이 눌리는 소리가 들렸어요. 랜턴을 들어 봤지만 나무 사이가 어두워 잘 안 보였습니다. 고라니일 거라고 생각했죠. 텐트 앞 의자에 앉았는데, 이번에는 제가 앉는 소리에 맞춰 풀을 누르는 소리가 났어요. 한 번만 그런 게 아니라, 자세를 바꿀 때마다 같은 간격으로요.",
+      "caption_text": "자리로 돌아오는데 울타리 밖에서 풀이 눌리는 소리가 들렸어요. 랜턴을 들어 봤지만 나무 사이가 어두워 잘 안 보였습니다. 고라니일 거라고 생각했죠. 텐트 앞 의자에 앉았는데, 이번에는 제가 앉는 소리에 맞춰 풀을 누르는 소리가 났어요. 한 번만 그런 게 아니라, 자세를 바꿀 때마다 같은 간격으로요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "풀이 눌린 흔적·의자의 자세 변화",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "풀이 눌린 흔적·의자의 자세 변화",
+        "tension_stage": "anomaly",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "자리로 돌아오는데 울타리 밖에서 풀이 눌리는 소리가 들렸어요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "공간·단서 방향 유지. 풀이 눌린 흔적·의자의 자세 변화의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "자리로 돌아오는데 울타리 밖에서 풀이 눌리는 소리가 들렸어요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "공간·단서 방향 유지. 풀이 눌린 흔적·의자의 자세 변화의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "랜턴을 들어 봤지만 나무 사이가 어두워 잘 안 보였습니다.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "공간·단서 방향 유지. 풀이 눌린 흔적·의자의 자세 변화의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "랜턴을 들어 봤지만 나무 사이가 어두워 잘 안 보였습니다.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "텐트 앞 의자에 앉았는데, 이번에는 제가 앉는 소리에 맞춰 풀을 누르는 소리가 났어요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "텐트 앞 의자에 앉았는데, 이번에는 제가 앉는 소리에 맞춰 풀을 누르는 소리가 났어요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "텐트 앞 의자에 앉았는데, 이번에는 제가 앉는 소리에 맞춰 풀을 누르는 소리가 났어요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "한 번만 그런 게 아니라, 자세를 바꿀 때마다 같은 간격으로요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "한 번만 그런 게 아니라, 자세를 바꿀 때마다 같은 간격으로요.",
+          "visual_target": "풀이 눌린 흔적·의자의 자세 변화",
+          "action": "풀이 눌린 흔적·의자의 자세 변화의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "풀이 눌린 흔적·의자의 자세 변화",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S05",
+      "chapter_id": "C02",
+      "type": "anomaly",
+      "start_seconds": 452.5,
+      "end_seconds": 471.5,
+      "duration_seconds": 19.0,
+      "estimated_words": 38,
+      "target_wpm": 120,
+      "narration_text": "손뼉을 쳐 봤어요. 짐승이면 달아날 줄 알았거든요. 소리가 잠깐 멈췄습니다. 그러다 울타리 바깥에서 손뼉 소리가 났어요. 아주 작고 축축한 소리였어요. 저는 누가 장난을 치는 줄 알았습니다. 거기 사람 있냐고 물었는데, 대답 대신 손뼉 소리가 한 번 더 들렸어요.",
+      "caption_text": "손뼉을 쳐 봤어요. 짐승이면 달아날 줄 알았거든요. 소리가 잠깐 멈췄습니다. 그러다 울타리 바깥에서 손뼉 소리가 났어요. 아주 작고 축축한 소리였어요. 저는 누가 장난을 치는 줄 알았습니다. 거기 사람 있냐고 물었는데, 대답 대신 손뼉 소리가 한 번 더 들렸어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "손뼉에 답하는 풀밭·존재는 가림",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "손뼉에 답하는 풀밭·존재는 가림",
+        "tension_stage": "anomaly",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "손뼉을 쳐 봤어요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "공간·단서 방향 유지. 손뼉에 답하는 풀밭·존재는 가림의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "짐승이면 달아날 줄 알았거든요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "공간·단서 방향 유지. 손뼉에 답하는 풀밭·존재는 가림의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "그러다 울타리 바깥에서 손뼉 소리가 났어요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "공간·단서 방향 유지. 손뼉에 답하는 풀밭·존재는 가림의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "그러다 울타리 바깥에서 손뼉 소리가 났어요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "손뼉에 답하는 풀밭·존재는 가림 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "저는 누가 장난을 치는 줄 알았습니다.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "손뼉에 답하는 풀밭·존재는 가림 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "저는 누가 장난을 치는 줄 알았습니다.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "손뼉에 답하는 풀밭·존재는 가림 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "거기 사람 있냐고 물었는데, 대답 대신 손뼉 소리가 한 번 더 들렸어요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "손뼉에 답하는 풀밭·존재는 가림의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "거기 사람 있냐고 물었는데, 대답 대신 손뼉 소리가 한 번 더 들렸어요.",
+          "visual_target": "손뼉에 답하는 풀밭·존재는 가림",
+          "action": "손뼉에 답하는 풀밭·존재는 가림의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "손뼉에 답하는 풀밭·존재는 가림",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S06",
+      "chapter_id": "C02",
+      "type": "anomaly",
+      "start_seconds": 471.5,
+      "end_seconds": 491.5,
+      "duration_seconds": 20.0,
+      "estimated_words": 40,
+      "target_wpm": 120,
+      "narration_text": "그제야 차 키를 손에 쥐었습니다. 차는 텐트 오른쪽에 있었고, 운전석은 차로를 향하고 있었어요. 두어 걸음이면 탈 수 있었죠. 랜턴을 텐트 앞 고리에 걸고 휴대전화로 관리실에 전화했습니다. 연결음이 가는 동안 울타리 밖을 봤어요. 철망 위쪽에 검은 머리 같은 것이 올라와 있었습니다.",
+      "caption_text": "그제야 차 키를 손에 쥐었습니다. 차는 텐트 오른쪽에 있었고, 운전석은 차로를 향하고 있었어요. 두어 걸음이면 탈 수 있었죠. 랜턴을 텐트 앞 고리에 걸고 휴대전화로 관리실에 전화했습니다. 연결음이 가는 동안 울타리 밖을 봤어요. 철망 위쪽에 검은 머리 같은 것이 올라와 있었습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "차 키·텐트 고리 랜턴·철망 위 머리",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "차 키·텐트 고리 랜턴·철망 위 머리",
+        "tension_stage": "anomaly",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "그제야 차 키를 손에 쥐었습니다.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "공간·단서 방향 유지. 차 키·텐트 고리 랜턴·철망 위 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "차는 텐트 오른쪽에 있었고, 운전석은 차로를 향하고 있었어요.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "공간·단서 방향 유지. 차 키·텐트 고리 랜턴·철망 위 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "차는 텐트 오른쪽에 있었고, 운전석은 차로를 향하고 있었어요.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "공간·단서 방향 유지. 차 키·텐트 고리 랜턴·철망 위 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "두어 걸음이면 탈 수 있었죠.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "차 키·텐트 고리 랜턴·철망 위 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "랜턴을 텐트 앞 고리에 걸고 휴대전화로 관리실에 전화했습니다.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "차 키·텐트 고리 랜턴·철망 위 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "랜턴을 텐트 앞 고리에 걸고 휴대전화로 관리실에 전화했습니다.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "차 키·텐트 고리 랜턴·철망 위 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "연결음이 가는 동안 울타리 밖을 봤어요.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "차 키·텐트 고리 랜턴·철망 위 머리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "철망 위쪽에 검은 머리 같은 것이 올라와 있었습니다.",
+          "visual_target": "차 키·텐트 고리 랜턴·철망 위 머리",
+          "action": "차 키·텐트 고리 랜턴·철망 위 머리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "차 키·텐트 고리 랜턴·철망 위 머리",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S07",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 491.5,
+      "end_seconds": 513.0,
+      "duration_seconds": 21.5,
+      "estimated_words": 43,
+      "target_wpm": 120,
+      "narration_text": "관리실은 전화를 받지 않았어요. 저는 주인분이 화장실에 갔나 싶어서 문자부터 보냈습니다. 울타리 밖에 누가 있다고요. 휴대전화는 재킷 주머니에 넣었습니다. 다시 고개를 들었을 때 그 머리는 낮아져 있었습니다. 어깨 같은 부분이 철망 가운데 높이에 있었어요. 그런데 무릎을 굽히는 모습이 아니었습니다. 몸통이 옆으로 접히고 있었어요.",
+      "caption_text": "관리실은 전화를 받지 않았어요. 저는 주인분이 화장실에 갔나 싶어서 문자부터 보냈습니다. 울타리 밖에 누가 있다고요. 휴대전화는 재킷 주머니에 넣었습니다. 다시 고개를 들었을 때 그 머리는 낮아져 있었습니다. 어깨 같은 부분이 철망 가운데 높이에 있었어요. 그런데 무릎을 굽히는 모습이 아니었습니다. 몸통이 옆으로 접히고 있었어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "전화 보관·철망 가운데로 내려오는 어깨",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "전화 보관·철망 가운데로 내려오는 어깨",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "관리실은 전화를 받지 않았어요.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "공간·단서 방향 유지. 전화 보관·철망 가운데로 내려오는 어깨의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "저는 주인분이 화장실에 갔나 싶어서 문자부터 보냈습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "공간·단서 방향 유지. 전화 보관·철망 가운데로 내려오는 어깨의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "저는 주인분이 화장실에 갔나 싶어서 문자부터 보냈습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "공간·단서 방향 유지. 전화 보관·철망 가운데로 내려오는 어깨의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "휴대전화는 재킷 주머니에 넣었습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "다시 고개를 들었을 때 그 머리는 낮아져 있었습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "다시 고개를 들었을 때 그 머리는 낮아져 있었습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "어깨 같은 부분이 철망 가운데 높이에 있었어요.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "그런데 무릎을 굽히는 모습이 아니었습니다.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "몸통이 옆으로 접히고 있었어요.",
+          "visual_target": "전화 보관·철망 가운데로 내려오는 어깨",
+          "action": "전화 보관·철망 가운데로 내려오는 어깨의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "전화 보관·철망 가운데로 내려오는 어깨",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S08",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 513.0,
+      "end_seconds": 533.5,
+      "duration_seconds": 20.5,
+      "estimated_words": 41,
+      "target_wpm": 120,
+      "narration_text": "철망 너머에는 팔인지 다리인지 모를 긴 것이 보였습니다. 중간에 꺾이는 부분이 하나 더 있었죠. 그게 나무에 가려졌다가 다시 나타날 때마다, 머리는 같은 높이에 있는데 몸은 더 길게 늘어났어요. 사람의 자세로 설명할 수가 없었습니다. 저는 의자에서 일어나지 못한 채 그것만 보고 있었어요.",
+      "caption_text": "철망 너머에는 팔인지 다리인지 모를 긴 것이 보였습니다. 중간에 꺾이는 부분이 하나 더 있었죠. 그게 나무에 가려졌다가 다시 나타날 때마다, 머리는 같은 높이에 있는데 몸은 더 길게 늘어났어요. 사람의 자세로 설명할 수가 없었습니다. 저는 의자에서 일어나지 못한 채 그것만 보고 있었어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "몸통 접힘·팔다리의 추가 마디",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "몸통 접힘·팔다리의 추가 마디",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "철망 너머에는 팔인지 다리인지 모를 긴 것이 보였습니다.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "공간·단서 방향 유지. 몸통 접힘·팔다리의 추가 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "철망 너머에는 팔인지 다리인지 모를 긴 것이 보였습니다.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "공간·단서 방향 유지. 몸통 접힘·팔다리의 추가 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "중간에 꺾이는 부분이 하나 더 있었죠.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "공간·단서 방향 유지. 몸통 접힘·팔다리의 추가 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "그게 나무에 가려졌다가 다시 나타날 때마다, 머리는 같은 높이에 있는데 몸은 더 길게 늘어났어요.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "그게 나무에 가려졌다가 다시 나타날 때마다, 머리는 같은 높이에 있는데 몸은 더 길게 늘어났어요.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "그게 나무에 가려졌다가 다시 나타날 때마다, 머리는 같은 높이에 있는데 몸은 더 길게 늘어났어요.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "사람의 자세로 설명할 수가 없었습니다.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "저는 의자에서 일어나지 못한 채 그것만 보고 있었어요.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "저는 의자에서 일어나지 못한 채 그것만 보고 있었어요.",
+          "visual_target": "몸통 접힘·팔다리의 추가 마디",
+          "action": "몸통 접힘·팔다리의 추가 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "몸통 접힘·팔다리의 추가 마디",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S09",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 533.5,
+      "end_seconds": 552.5,
+      "duration_seconds": 19.0,
+      "estimated_words": 38,
+      "target_wpm": 120,
+      "narration_text": "그때 차 경보음이 짧게 울렸습니다. 제가 키를 너무 세게 쥐어서 버튼을 눌렀던 거예요. 울타리 밖의 머리가 차 쪽으로 돌아갔어요. 목은 움직이지 않았습니다. 머리 아래의 접힌 몸이 통째로 방향을 바꿨죠. 저는 다시 버튼을 눌러 차 문을 열고, 운전석으로 갔습니다.",
+      "caption_text": "그때 차 경보음이 짧게 울렸습니다. 제가 키를 너무 세게 쥐어서 버튼을 눌렀던 거예요. 울타리 밖의 머리가 차 쪽으로 돌아갔어요. 목은 움직이지 않았습니다. 머리 아래의 접힌 몸이 통째로 방향을 바꿨죠. 저는 다시 버튼을 눌러 차 문을 열고, 운전석으로 갔습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "키 버튼·차 불빛·존재의 방향 전환",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "키 버튼·차 불빛·존재의 방향 전환",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "그때 차 경보음이 짧게 울렸습니다.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "공간·단서 방향 유지. 키 버튼·차 불빛·존재의 방향 전환의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "제가 키를 너무 세게 쥐어서 버튼을 눌렀던 거예요.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "공간·단서 방향 유지. 키 버튼·차 불빛·존재의 방향 전환의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "제가 키를 너무 세게 쥐어서 버튼을 눌렀던 거예요.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "공간·단서 방향 유지. 키 버튼·차 불빛·존재의 방향 전환의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "울타리 밖의 머리가 차 쪽으로 돌아갔어요.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "키 버튼·차 불빛·존재의 방향 전환 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "목은 움직이지 않았습니다.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "키 버튼·차 불빛·존재의 방향 전환 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "머리 아래의 접힌 몸이 통째로 방향을 바꿨죠.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "키 버튼·차 불빛·존재의 방향 전환 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "저는 다시 버튼을 눌러 차 문을 열고, 운전석으로 갔습니다.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "키 버튼·차 불빛·존재의 방향 전환의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "저는 다시 버튼을 눌러 차 문을 열고, 운전석으로 갔습니다.",
+          "visual_target": "키 버튼·차 불빛·존재의 방향 전환",
+          "action": "키 버튼·차 불빛·존재의 방향 전환의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "키 버튼·차 불빛·존재의 방향 전환",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S10",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 552.5,
+      "end_seconds": 575.0,
+      "duration_seconds": 22.5,
+      "estimated_words": 45,
+      "target_wpm": 120,
+      "narration_text": "문을 여는데 등 뒤에서 철망이 울렸어요. 얼른 타고 문을 닫았습니다. 시동을 걸려는데 키가 바닥으로 떨어졌어요. 몸을 숙여 주우면서 왼쪽을 봤습니다. 차 옆 창 너머로 텐트 앞 랜턴이 보였어요. 그 뒤, 울타리 밑의 틈으로 검은 것이 밀려 들어오고 있었습니다. 머리가 먼저였고, 몸이 여러 번 접혀서 따라왔어요.",
+      "caption_text": "문을 여는데 등 뒤에서 철망이 울렸어요. 얼른 타고 문을 닫았습니다. 시동을 걸려는데 키가 바닥으로 떨어졌어요. 몸을 숙여 주우면서 왼쪽을 봤습니다. 차 옆 창 너머로 텐트 앞 랜턴이 보였어요. 그 뒤, 울타리 밑의 틈으로 검은 것이 밀려 들어오고 있었습니다. 머리가 먼저였고, 몸이 여러 번 접혀서 따라왔어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "운전석 탑승·떨어진 키·울타리 아래 머리",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "운전석 탑승·떨어진 키·울타리 아래 머리",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "문을 여는데 등 뒤에서 철망이 울렸어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "공간·단서 방향 유지. 운전석 탑승·떨어진 키·울타리 아래 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "문을 여는데 등 뒤에서 철망이 울렸어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "공간·단서 방향 유지. 운전석 탑승·떨어진 키·울타리 아래 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.111,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "시동을 걸려는데 키가 바닥으로 떨어졌어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "공간·단서 방향 유지. 운전석 탑승·떨어진 키·울타리 아래 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.222,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "몸을 숙여 주우면서 왼쪽을 봤습니다.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "공간·단서 방향 유지. 운전석 탑승·떨어진 키·울타리 아래 머리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.333,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "차 옆 창 너머로 텐트 앞 랜턴이 보였어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "운전석 탑승·떨어진 키·울타리 아래 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.444,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "차 옆 창 너머로 텐트 앞 랜턴이 보였어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "운전석 탑승·떨어진 키·울타리 아래 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.556,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "그 뒤, 울타리 밑의 틈으로 검은 것이 밀려 들어오고 있었습니다.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "운전석 탑승·떨어진 키·울타리 아래 머리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.667,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "그 뒤, 울타리 밑의 틈으로 검은 것이 밀려 들어오고 있었습니다.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "운전석 탑승·떨어진 키·울타리 아래 머리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.778,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "머리가 먼저였고, 몸이 여러 번 접혀서 따라왔어요.",
+          "visual_target": "운전석 탑승·떨어진 키·울타리 아래 머리",
+          "action": "운전석 탑승·떨어진 키·울타리 아래 머리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.889,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "운전석 탑승·떨어진 키·울타리 아래 머리",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S11",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 575.0,
+      "end_seconds": 595.5,
+      "duration_seconds": 20.5,
+      "estimated_words": 41,
+      "target_wpm": 120,
+      "narration_text": "틈은 사람 어깨가 지나갈 만한 높이가 아니었어요. 그런데 몸이 납작해지거나 사라지는 건 아니었습니다. 긴 몸통이 지그재그로 접힌 채 철망 밑을 통과했어요. 마지막에 딸려온 팔다리가 풀밭을 짚자, 제가 의자에서 듣던 그 소리가 났습니다. 축축한 손뼉 소리요. 그건 손뼉이 아니었어요. 땅을 짚는 소리였습니다.",
+      "caption_text": "틈은 사람 어깨가 지나갈 만한 높이가 아니었어요. 그런데 몸이 납작해지거나 사라지는 건 아니었습니다. 긴 몸통이 지그재그로 접힌 채 철망 밑을 통과했어요. 마지막에 딸려온 팔다리가 풀밭을 짚자, 제가 의자에서 듣던 그 소리가 났습니다. 축축한 손뼉 소리요. 그건 손뼉이 아니었어요. 땅을 짚는 소리였습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "철망 밑을 통과하는 고정된 마디 구조",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "철망 밑을 통과하는 고정된 마디 구조",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "틈은 사람 어깨가 지나갈 만한 높이가 아니었어요.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "공간·단서 방향 유지. 철망 밑을 통과하는 고정된 마디 구조의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "틈은 사람 어깨가 지나갈 만한 높이가 아니었어요.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "공간·단서 방향 유지. 철망 밑을 통과하는 고정된 마디 구조의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "그런데 몸이 납작해지거나 사라지는 건 아니었습니다.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "공간·단서 방향 유지. 철망 밑을 통과하는 고정된 마디 구조의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "긴 몸통이 지그재그로 접힌 채 철망 밑을 통과했어요.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "긴 몸통이 지그재그로 접힌 채 철망 밑을 통과했어요.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "마지막에 딸려온 팔다리가 풀밭을 짚자, 제가 의자에서 듣던 그 소리가 났습니다.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "마지막에 딸려온 팔다리가 풀밭을 짚자, 제가 의자에서 듣던 그 소리가 났습니다.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "그건 손뼉이 아니었어요.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "땅을 짚는 소리였습니다.",
+          "visual_target": "철망 밑을 통과하는 고정된 마디 구조",
+          "action": "철망 밑을 통과하는 고정된 마디 구조의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "철망 밑을 통과하는 고정된 마디 구조",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S12",
+      "chapter_id": "C02",
+      "type": "interaction",
+      "start_seconds": 595.5,
+      "end_seconds": 614.0,
+      "duration_seconds": 18.5,
+      "estimated_words": 37,
+      "target_wpm": 120,
+      "narration_text": "시동을 걸었습니다. 불이 들어오면서 차로가 보였어요. 앞으로 가면 관리실이었죠. 그런데 텐트 한쪽이 차 쪽으로 넘어왔습니다. 지지대가 천 안에서 꺾이고 있었어요. 랜턴도 함께 흔들렸고요. 그 아래에서 긴 팔다리 하나가 텐트 바닥을 누르고 있었습니다. 천 위로 굽은 마디들이 드러났어요.",
+      "caption_text": "시동을 걸었습니다. 불이 들어오면서 차로가 보였어요. 앞으로 가면 관리실이었죠. 그런데 텐트 한쪽이 차 쪽으로 넘어왔습니다. 지지대가 천 안에서 꺾이고 있었어요. 랜턴도 함께 흔들렸고요. 그 아래에서 긴 팔다리 하나가 텐트 바닥을 누르고 있었습니다. 천 위로 굽은 마디들이 드러났어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "꺾이는 지지대·천 위의 굽은 마디",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition",
+          "foreground_depth"
+        ],
+        "clue": "꺾이는 지지대·천 위의 굽은 마디",
+        "tension_stage": "interaction",
+        "shot_scale": "contact_detail_with_spatial_context",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "시동을 걸었습니다.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "공간·단서 방향 유지. 꺾이는 지지대·천 위의 굽은 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "불이 들어오면서 차로가 보였어요.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "공간·단서 방향 유지. 꺾이는 지지대·천 위의 굽은 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "그런데 텐트 한쪽이 차 쪽으로 넘어왔습니다.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "공간·단서 방향 유지. 꺾이는 지지대·천 위의 굽은 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "지지대가 천 안에서 꺾이고 있었어요.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "꺾이는 지지대·천 위의 굽은 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "랜턴도 함께 흔들렸고요.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "꺾이는 지지대·천 위의 굽은 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "그 아래에서 긴 팔다리 하나가 텐트 바닥을 누르고 있었습니다.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "꺾이는 지지대·천 위의 굽은 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "그 아래에서 긴 팔다리 하나가 텐트 바닥을 누르고 있었습니다.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "꺾이는 지지대·천 위의 굽은 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "천 위로 굽은 마디들이 드러났어요.",
+          "visual_target": "꺾이는 지지대·천 위의 굽은 마디",
+          "action": "꺾이는 지지대·천 위의 굽은 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "꺾이는 지지대·천 위의 굽은 마디",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S13",
+      "chapter_id": "C02",
+      "type": "interaction",
+      "start_seconds": 614.0,
+      "end_seconds": 636.5,
+      "duration_seconds": 22.5,
+      "estimated_words": 45,
+      "target_wpm": 120,
+      "narration_text": "텐트 천이 옆 창에 닿았습니다. 차를 움직이면 끌려올 것 같았지만 그대로 있을 수는 없었어요. 저는 천천히 앞으로 갔습니다. 접힌 지지대가 차 뒤쪽을 긁었고, 텐트가 바퀴에서 떨어졌어요. 그 순간 왼쪽 사이드미러에 몸이 비쳤습니다. 숲에서 높게 서 있던 그것이, 이제 차 창문 아래로 몸을 접고 따라오고 있었어요.",
+      "caption_text": "텐트 천이 옆 창에 닿았습니다. 차를 움직이면 끌려올 것 같았지만 그대로 있을 수는 없었어요. 저는 천천히 앞으로 갔습니다. 접힌 지지대가 차 뒤쪽을 긁었고, 텐트가 바퀴에서 떨어졌어요. 그 순간 왼쪽 사이드미러에 몸이 비쳤습니다. 숲에서 높게 서 있던 그것이, 이제 차 창문 아래로 몸을 접고 따라오고 있었어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition",
+          "foreground_depth"
+        ],
+        "clue": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+        "tension_stage": "interaction",
+        "shot_scale": "contact_detail_with_spatial_context",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "텐트 천이 옆 창에 닿았습니다.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "공간·단서 방향 유지. 창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "차를 움직이면 끌려올 것 같았지만 그대로 있을 수는 없었어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "공간·단서 방향 유지. 창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.111,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "차를 움직이면 끌려올 것 같았지만 그대로 있을 수는 없었어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "공간·단서 방향 유지. 창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.222,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "저는 천천히 앞으로 갔습니다.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "공간·단서 방향 유지. 창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.333,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "접힌 지지대가 차 뒤쪽을 긁었고, 텐트가 바퀴에서 떨어졌어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.444,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "접힌 지지대가 차 뒤쪽을 긁었고, 텐트가 바퀴에서 떨어졌어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.556,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "그 순간 왼쪽 사이드미러에 몸이 비쳤습니다.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.667,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "숲에서 높게 서 있던 그것이, 이제 차 창문 아래로 몸을 접고 따라오고 있었어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.778,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "숲에서 높게 서 있던 그것이, 이제 차 창문 아래로 몸을 접고 따라오고 있었어요.",
+          "visual_target": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+          "action": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.889,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "창에 닿은 텐트 천·왼쪽 미러의 접힌 몸",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S14",
+      "chapter_id": "C02",
+      "type": "interaction",
+      "start_seconds": 636.5,
+      "end_seconds": 658.0,
+      "duration_seconds": 21.5,
+      "estimated_words": 43,
+      "target_wpm": 120,
+      "narration_text": "속도를 올리려고 하는데 차가 한 번 크게 흔들렸습니다. 왼쪽 뒤에서 금속이 찌그러지는 소리가 났어요. 거울로 보니 긴 팔다리가 뒷문 위를 누르고 있었습니다. 손처럼 뭔가를 쥐는 끝은 없었어요. 마디가 하나 더 꺾이면서 차체를 감싸고 있었죠. 저는 차로 오른쪽의 빈 자리를 돌아 크게 방향을 틀었습니다.",
+      "caption_text": "속도를 올리려고 하는데 차가 한 번 크게 흔들렸습니다. 왼쪽 뒤에서 금속이 찌그러지는 소리가 났어요. 거울로 보니 긴 팔다리가 뒷문 위를 누르고 있었습니다. 손처럼 뭔가를 쥐는 끝은 없었어요. 마디가 하나 더 꺾이면서 차체를 감싸고 있었죠. 저는 차로 오른쪽의 빈 자리를 돌아 크게 방향을 틀었습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "왼쪽 뒷문을 감싸 누르는 두 마디",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition",
+          "foreground_depth"
+        ],
+        "clue": "왼쪽 뒷문을 감싸 누르는 두 마디",
+        "tension_stage": "interaction",
+        "shot_scale": "contact_detail_with_spatial_context",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "속도를 올리려고 하는데 차가 한 번 크게 흔들렸습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "공간·단서 방향 유지. 왼쪽 뒷문을 감싸 누르는 두 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "속도를 올리려고 하는데 차가 한 번 크게 흔들렸습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "공간·단서 방향 유지. 왼쪽 뒷문을 감싸 누르는 두 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "왼쪽 뒤에서 금속이 찌그러지는 소리가 났어요.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "공간·단서 방향 유지. 왼쪽 뒷문을 감싸 누르는 두 마디의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "거울로 보니 긴 팔다리가 뒷문 위를 누르고 있었습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "거울로 보니 긴 팔다리가 뒷문 위를 누르고 있었습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "손처럼 뭔가를 쥐는 끝은 없었어요.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "마디가 하나 더 꺾이면서 차체를 감싸고 있었죠.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "저는 차로 오른쪽의 빈 자리를 돌아 크게 방향을 틀었습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "저는 차로 오른쪽의 빈 자리를 돌아 크게 방향을 틀었습니다.",
+          "visual_target": "왼쪽 뒷문을 감싸 누르는 두 마디",
+          "action": "왼쪽 뒷문을 감싸 누르는 두 마디의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "왼쪽 뒷문을 감싸 누르는 두 마디",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S15",
+      "chapter_id": "C02",
+      "type": "interaction",
+      "start_seconds": 658.0,
+      "end_seconds": 680.5,
+      "duration_seconds": 22.5,
+      "estimated_words": 45,
+      "target_wpm": 120,
+      "narration_text": "마디가 미끄러지듯 떨어졌고 차가 곧게 나갔어요. 관리실 앞까지 와서 경적을 눌렀습니다. 주인분이 문을 열고 나왔죠. 저는 창문을 조금 내려서 뒤에 뭐가 있다고 말했어요. 그런데 끝까지 말을 못 했습니다. 주인분 어깨 너머로, 제가 있던 자리의 랜턴이 아직 보였거든요. 그 아래에 아주 길고 낮은 형상이 엎드려 있었습니다.",
+      "caption_text": "마디가 미끄러지듯 떨어졌고 차가 곧게 나갔어요. 관리실 앞까지 와서 경적을 눌렀습니다. 주인분이 문을 열고 나왔죠. 저는 창문을 조금 내려서 뒤에 뭐가 있다고 말했어요. 그런데 끝까지 말을 못 했습니다. 주인분 어깨 너머로, 제가 있던 자리의 랜턴이 아직 보였거든요. 그 아래에 아주 길고 낮은 형상이 엎드려 있었습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition",
+          "foreground_depth"
+        ],
+        "clue": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+        "tension_stage": "interaction",
+        "shot_scale": "contact_detail_with_spatial_context",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "마디가 미끄러지듯 떨어졌고 차가 곧게 나갔어요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "공간·단서 방향 유지. 미끄러지는 마디·관리실·먼 랜턴 아래 형상의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "마디가 미끄러지듯 떨어졌고 차가 곧게 나갔어요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "공간·단서 방향 유지. 미끄러지는 마디·관리실·먼 랜턴 아래 형상의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.111,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "관리실 앞까지 와서 경적을 눌렀습니다.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "공간·단서 방향 유지. 미끄러지는 마디·관리실·먼 랜턴 아래 형상의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.222,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "저는 창문을 조금 내려서 뒤에 뭐가 있다고 말했어요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "공간·단서 방향 유지. 미끄러지는 마디·관리실·먼 랜턴 아래 형상의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.333,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "저는 창문을 조금 내려서 뒤에 뭐가 있다고 말했어요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "미끄러지는 마디·관리실·먼 랜턴 아래 형상 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.444,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "그런데 끝까지 말을 못 했습니다.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "미끄러지는 마디·관리실·먼 랜턴 아래 형상 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.556,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "주인분 어깨 너머로, 제가 있던 자리의 랜턴이 아직 보였거든요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "미끄러지는 마디·관리실·먼 랜턴 아래 형상 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.667,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "주인분 어깨 너머로, 제가 있던 자리의 랜턴이 아직 보였거든요.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "미끄러지는 마디·관리실·먼 랜턴 아래 형상의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.778,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "그 아래에 아주 길고 낮은 형상이 엎드려 있었습니다.",
+          "visual_target": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+          "action": "미끄러지는 마디·관리실·먼 랜턴 아래 형상의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.889,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "미끄러지는 마디·관리실·먼 랜턴 아래 형상",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S16",
+      "chapter_id": "C02",
+      "type": "escalation",
+      "start_seconds": 680.5,
+      "end_seconds": 698.0,
+      "duration_seconds": 17.5,
+      "estimated_words": 35,
+      "target_wpm": 120,
+      "narration_text": "주인분은 차에서 내리지 말라고 했어요. 자기 차를 타고 앞장설 테니 따라오라고요. 캠핑장 출입구를 지나 큰길에 나올 때까지 저는 거울을 제대로 보지 못했습니다. 뒤를 보면 다시 가까워질 것 같았어요. 큰길 편의점에 멈춘 뒤에야 내려서 차를 확인했습니다.",
+      "caption_text": "주인분은 차에서 내리지 말라고 했어요. 자기 차를 타고 앞장설 테니 따라오라고요. 캠핑장 출입구를 지나 큰길에 나올 때까지 저는 거울을 제대로 보지 못했습니다. 뒤를 보면 다시 가까워질 것 같았어요. 큰길 편의점에 멈춘 뒤에야 내려서 차를 확인했습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "주인 차의 인도·큰길까지 탈출",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "주인 차의 인도·큰길까지 탈출",
+        "tension_stage": "escalation",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "주인분은 차에서 내리지 말라고 했어요.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "공간·단서 방향 유지. 주인 차의 인도·큰길까지 탈출의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "자기 차를 타고 앞장설 테니 따라오라고요.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "공간·단서 방향 유지. 주인 차의 인도·큰길까지 탈출의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "자기 차를 타고 앞장설 테니 따라오라고요.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "공간·단서 방향 유지. 주인 차의 인도·큰길까지 탈출의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "캠핑장 출입구를 지나 큰길에 나올 때까지 저는 거울을 제대로 보지 못했습니다.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "주인 차의 인도·큰길까지 탈출 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "캠핑장 출입구를 지나 큰길에 나올 때까지 저는 거울을 제대로 보지 못했습니다.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "주인 차의 인도·큰길까지 탈출 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "뒤를 보면 다시 가까워질 것 같았어요.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "주인 차의 인도·큰길까지 탈출 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "큰길 편의점에 멈춘 뒤에야 내려서 차를 확인했습니다.",
+          "visual_target": "주인 차의 인도·큰길까지 탈출",
+          "action": "주인 차의 인도·큰길까지 탈출의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "주인 차의 인도·큰길까지 탈출",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S17",
+      "chapter_id": "C02",
+      "type": "aftermath",
+      "start_seconds": 698.0,
+      "end_seconds": 720.0,
+      "duration_seconds": 22.0,
+      "estimated_words": 44,
+      "target_wpm": 120,
+      "narration_text": "왼쪽 뒷문 위에 길게 눌린 자국이 있었습니다. 나뭇가지에 긁힌 자국이 아니라, 넓은 것이 위에서 누른 모양이었어요. 그 아래에는 마디 두 개가 연달아 닿은 듯한 둥근 홈이 남아 있었고요. 주인분은 제가 괜찮은지 묻더니, 텐트와 짐은 다음 날 택배로 보내 주겠다고 했습니다. 무엇을 봤는지는 묻지 않았어요.",
+      "caption_text": "왼쪽 뒷문 위에 길게 눌린 자국이 있었습니다. 나뭇가지에 긁힌 자국이 아니라, 넓은 것이 위에서 누른 모양이었어요. 그 아래에는 마디 두 개가 연달아 닿은 듯한 둥근 홈이 남아 있었고요. 주인분은 제가 괜찮은지 묻더니, 텐트와 짐은 다음 날 택배로 보내 주겠다고 했습니다. 무엇을 봤는지는 묻지 않았어요.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "차체의 눌린 자국과 둥근 홈",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "차체의 눌린 자국과 둥근 홈",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "왼쪽 뒷문 위에 길게 눌린 자국이 있었습니다.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "공간·단서 방향 유지. 차체의 눌린 자국과 둥근 홈의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "왼쪽 뒷문 위에 길게 눌린 자국이 있었습니다.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "공간·단서 방향 유지. 차체의 눌린 자국과 둥근 홈의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "나뭇가지에 긁힌 자국이 아니라, 넓은 것이 위에서 누른 모양이었어요.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "공간·단서 방향 유지. 차체의 눌린 자국과 둥근 홈의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "나뭇가지에 긁힌 자국이 아니라, 넓은 것이 위에서 누른 모양이었어요.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "그 아래에는 마디 두 개가 연달아 닿은 듯한 둥근 홈이 남아 있었고요.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "그 아래에는 마디 두 개가 연달아 닿은 듯한 둥근 홈이 남아 있었고요.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "주인분은 제가 괜찮은지 묻더니, 텐트와 짐은 다음 날 택배로 보내 주겠다고 했습니다.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "주인분은 제가 괜찮은지 묻더니, 텐트와 짐은 다음 날 택배로 보내 주겠다고 했습니다.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "무엇을 봤는지는 묻지 않았어요.",
+          "visual_target": "차체의 눌린 자국과 둥근 홈",
+          "action": "차체의 눌린 자국과 둥근 홈의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "차체의 눌린 자국과 둥근 홈",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S18",
+      "chapter_id": "C02",
+      "type": "aftermath",
+      "start_seconds": 720.0,
+      "end_seconds": 741.0,
+      "duration_seconds": 21.0,
+      "estimated_words": 42,
+      "target_wpm": 120,
+      "narration_text": "다음 날 관리실에서 전화가 왔습니다. 텐트는 찢어져서 못 쓰겠지만 다른 물건은 챙겼다고 했어요. 저는 울타리 밖에 있던 게 뭔지 물었습니다. 주인분은 한참 말이 없었어요. 그러더니 야생동물일 수도 있다고 했죠. 그 말을 믿고 싶었지만, 짐승이 철망보다 높았다가 차 창문보다 낮아지는 모습을 저는 봤습니다.",
+      "caption_text": "다음 날 관리실에서 전화가 왔습니다. 텐트는 찢어져서 못 쓰겠지만 다른 물건은 챙겼다고 했어요. 저는 울타리 밖에 있던 게 뭔지 물었습니다. 주인분은 한참 말이 없었어요. 그러더니 야생동물일 수도 있다고 했죠. 그 말을 믿고 싶었지만, 짐승이 철망보다 높았다가 차 창문보다 낮아지는 모습을 저는 봤습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "전화·찢어진 텐트·불완전한 설명",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "전화·찢어진 텐트·불완전한 설명",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "다음 날 관리실에서 전화가 왔습니다.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "공간·단서 방향 유지. 전화·찢어진 텐트·불완전한 설명의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "텐트는 찢어져서 못 쓰겠지만 다른 물건은 챙겼다고 했어요.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "공간·단서 방향 유지. 전화·찢어진 텐트·불완전한 설명의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "텐트는 찢어져서 못 쓰겠지만 다른 물건은 챙겼다고 했어요.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "공간·단서 방향 유지. 전화·찢어진 텐트·불완전한 설명의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "저는 울타리 밖에 있던 게 뭔지 물었습니다.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "주인분은 한참 말이 없었어요.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "그러더니 야생동물일 수도 있다고 했죠.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "그 말을 믿고 싶었지만, 짐승이 철망보다 높았다가 차 창문보다 낮아지는 모습을 저는 봤습니다.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "그 말을 믿고 싶었지만, 짐승이 철망보다 높았다가 차 창문보다 낮아지는 모습을 저는 봤습니다.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "그 말을 믿고 싶었지만, 짐승이 철망보다 높았다가 차 창문보다 낮아지는 모습을 저는 봤습니다.",
+          "visual_target": "전화·찢어진 텐트·불완전한 설명",
+          "action": "전화·찢어진 텐트·불완전한 설명의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "전화·찢어진 텐트·불완전한 설명",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S19",
+      "chapter_id": "C02",
+      "type": "aftermath",
+      "start_seconds": 741.0,
+      "end_seconds": 761.5,
+      "duration_seconds": 20.5,
+      "estimated_words": 41,
+      "target_wpm": 120,
+      "narration_text": "며칠 뒤 택배 상자에서 의자를 꺼냈어요. 의자에는 흙이 거의 안 묻어 있었습니다. 접어서 넣어 준 담요도 멀쩡했고요. 그런데 랜턴은 고리 부분이 바깥으로 길게 펴져 있었어요. 텐트에 걸려 있던 고리가, 누군가 잡아당긴 것처럼요. 제가 차로 떠난 뒤에도 그 불빛 가까이에 있었던 겁니다.",
+      "caption_text": "며칠 뒤 택배 상자에서 의자를 꺼냈어요. 의자에는 흙이 거의 안 묻어 있었습니다. 접어서 넣어 준 담요도 멀쩡했고요. 그런데 랜턴은 고리 부분이 바깥으로 길게 펴져 있었어요. 텐트에 걸려 있던 고리가, 누군가 잡아당긴 것처럼요. 제가 차로 떠난 뒤에도 그 불빛 가까이에 있었던 겁니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "돌아온 랜턴의 펴진 고리",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "돌아온 랜턴의 펴진 고리",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "며칠 뒤 택배 상자에서 의자를 꺼냈어요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "공간·단서 방향 유지. 돌아온 랜턴의 펴진 고리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "며칠 뒤 택배 상자에서 의자를 꺼냈어요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "공간·단서 방향 유지. 돌아온 랜턴의 펴진 고리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.125,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "의자에는 흙이 거의 안 묻어 있었습니다.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "공간·단서 방향 유지. 돌아온 랜턴의 펴진 고리의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.25,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "접어서 넣어 준 담요도 멀쩡했고요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.375,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "그런데 랜턴은 고리 부분이 바깥으로 길게 펴져 있었어요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.5,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "텐트에 걸려 있던 고리가, 누군가 잡아당긴 것처럼요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.625,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "텐트에 걸려 있던 고리가, 누군가 잡아당긴 것처럼요.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.75,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "제가 차로 떠난 뒤에도 그 불빛 가까이에 있었던 겁니다.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.875,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 20.0,
+          "spoken_anchor": "제가 차로 떠난 뒤에도 그 불빛 가까이에 있었던 겁니다.",
+          "visual_target": "돌아온 랜턴의 펴진 고리",
+          "action": "돌아온 랜턴의 펴진 고리의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "돌아온 랜턴의 펴진 고리",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    },
+    {
+      "id": "C02-S20",
+      "chapter_id": "C02",
+      "type": "aftermath",
+      "start_seconds": 761.5,
+      "end_seconds": 780.5,
+      "duration_seconds": 19.0,
+      "estimated_words": 38,
+      "target_wpm": 120,
+      "narration_text": "그때 주인분이 보낸 사진을 다시 봤어요. 짐을 챙겼다는 문자에 붙어 있던 사진이었죠. 무너진 텐트와 울타리가 보였습니다. 철망 밑의 틈에는 흙이 밀린 자국이 남아 있었어요. 들어올 때 생긴 긴 자국 하나뿐이었습니다. 저는 화면을 확대했다가 바로 껐어요. 나간 자국은 없었습니다.",
+      "caption_text": "그때 주인분이 보낸 사진을 다시 봤어요. 짐을 챙겼다는 문자에 붙어 있던 사진이었죠. 무너진 텐트와 울타리가 보였습니다. 철망 밑의 틈에는 흙이 밀린 자국이 남아 있었어요. 들어올 때 생긴 긴 자국 하나뿐이었습니다. 저는 화면을 확대했다가 바로 껐어요. 나간 자국은 없었습니다.",
+      "visual_style_id": "horror_rough_2d",
+      "visual_style_approval": "approved",
+      "visual": "수거 사진의 유입 흔적 하나",
+      "editing": {
+        "technique_ids": [
+          "foreground_depth",
+          "clue_directed_motion"
+        ],
+        "clue": "수거 사진의 유입 흔적 하나",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide_to_detail",
+        "baseline_scene_id": null,
+        "selection_reason": "고정된 공간과 접히는 생물의 행동을 명확한 윤곽으로 구별한다."
+      },
+      "motion_beats": [
+        {
+          "at": 0.0,
+          "spoken_anchor": "그때 주인분이 보낸 사진을 다시 봤어요.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "공간·단서 방향 유지. 수거 사진의 유입 흔적 하나의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 2.5,
+          "spoken_anchor": "그때 주인분이 보낸 사진을 다시 봤어요.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "공간·단서 방향 유지. 수거 사진의 유입 흔적 하나의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.143,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 5.0,
+          "spoken_anchor": "짐을 챙겼다는 문자에 붙어 있던 사진이었죠.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "공간·단서 방향 유지. 수거 사진의 유입 흔적 하나의 첫 언급 부분부터 국소광으로 드러낸다.",
+          "phase": 0.286,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 7.5,
+          "spoken_anchor": "무너진 텐트와 울타리가 보였습니다.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "수거 사진의 유입 흔적 하나 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.429,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 10.0,
+          "spoken_anchor": "철망 밑의 틈에는 흙이 밀린 자국이 남아 있었어요.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "수거 사진의 유입 흔적 하나 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.571,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 12.5,
+          "spoken_anchor": "들어올 때 생긴 긴 자국 하나뿐이었습니다.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "수거 사진의 유입 흔적 하나 중 해당 발화 단서로 구도 중심을 이동하고, 이전에 가린 부분은 공개 시각에 맞춰 드러낸다.",
+          "phase": 0.714,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 15.0,
+          "spoken_anchor": "저는 화면을 확대했다가 바로 껐어요.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "수거 사진의 유입 흔적 하나의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 0.857,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        },
+        {
+          "at": 17.5,
+          "spoken_anchor": "나간 자국은 없었습니다.",
+          "visual_target": "수거 사진의 유입 흔적 하나",
+          "action": "수거 사진의 유입 흔적 하나의 현재 상태를 가까운 구도로 확인하고 다음 동선 방향에 윤곽광을 남긴다.",
+          "phase": 1.0,
+          "timing_status": "estimated_retime_after_approved_voice",
+          "implementation_status": "not_started",
+          "reveal_guard": "앵커 이전에 새로운 존재·잔상 단서를 노출하지 않는다. 전체 이미지 줌 반복으로 대체하지 않는다."
+        }
+      ],
+      "audio": {
+        "narration": "Esther 여성 V4 선택, 본편 원고 승인 후 생성",
+        "ambience": "숲바람·멀리 있는 캠핑장 생활음",
+        "foley": [
+          {
+            "cue": "수거 사진의 유입 흔적 하나",
+            "status": "planned_only",
+            "condition": "사건에 해당하는 움직임·접촉만 별도 제작하고 발화보다 작은 음량으로 청취 검수"
+          }
+        ],
+        "bgm": "voice_review_then_candidate_approval",
+        "intentional_silence": null
+      },
+      "transition_out": "공간·시간 이동은 짧은 연결, 발견·접촉은 명확한 컷. 과한 글리치·플래시 제외.",
+      "visual_asset_status": "not_generated"
+    }
+  ],
+  "voice_speed_multiplier": 1.0
+}

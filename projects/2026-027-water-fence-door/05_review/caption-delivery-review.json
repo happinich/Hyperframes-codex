@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "file": "06_delivery/youtube/2026-027-water-fence-door-youtube.srt",
+      "approved_text_exact": true,
+      "sha256": "84dbdcab0886c57c4c06e901a5560354827dcfec829e9214aa6fe130f3a2d673"
+    },
+    {
+      "file": "06_delivery/youtube/2026-027-water-fence-door-youtube.vtt",
+      "approved_text_exact": true,
+      "sha256": "3b630fcb11f0ba0edb7c20fb1607e76da6c0d9fef8c35e1a46466d53d6f9d769"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-01.srt",
+      "approved_text_exact": true,
+      "sha256": "8a7897bd600984541b778e1d236de016557abd6fd28d77cd6938ed4a818d49e6"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-01.vtt",
+      "approved_text_exact": true,
+      "sha256": "0bfa8c82df07ebf0061365aafdee81a32f77cd0d1ea74761a452d4ff287a77f6"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-02.srt",
+      "approved_text_exact": true,
+      "sha256": "833dbdea160c8cc92959f0b9e81cc5bd9d27f967424f8896e651d2b67d70818c"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-02.vtt",
+      "approved_text_exact": true,
+      "sha256": "e7645aea4dd6f8b9c70f5d15d3b5f86e3ad8ff5c1709ee9b12ab05f96520f2f1"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-03.srt",
+      "approved_text_exact": true,
+      "sha256": "34a63465ca4623220fb9feb24bb55be387ad6f50f8f8c4c098996c6eaf61c437"
+    },
+    {
+      "file": "06_delivery/shorts/2026-027-water-fence-door-shorts-03.vtt",
+      "approved_text_exact": true,
+      "sha256": "3b972dc7164c25b1cfb27a75a352d49b446c58eef2bf6b6a863124f1c0dddd15"
+    }
+  ],
+  "result": "passed_exact_script_text_all_eight_caption_files"
+}
