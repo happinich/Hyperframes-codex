@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.8.0",
+  "schema_version": "1.9.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -318,6 +318,27 @@
       "editing_technique_guide": "docs/HORROR_EDITING_TECHNIQUES.ko.md",
       "editing_selection": "이야기·단서·긴장 단계·승인 스타일별 주된 기법과 필요한 보조 기법을 선택하고 editing-plan.json 및 씬별 editing에 기록한다. 실제 동작과 시각은 motion_beats·audio·transition_out과 컴포지션에 구현한다.",
       "editing_review_record": "05_review/editing-review.md",
+      "camera_coverage": {
+        "scope": "new horror longform and independently composed shorts",
+        "user_preference_recorded_on": "2026-10-11",
+        "plan_before_image_generation": true,
+        "preferred_distinct_camera_setups_per_extended_location_sequence": 3,
+        "selection": "Match camera position, angle, height, shot size and subject focus to each narration beat. Plan spatial overview, observation or action, and decisive detail as appropriate; do not mechanically cycle angles.",
+        "required_shot_fields": ["shot_id", "location_id", "camera_position", "camera_angle", "camera_height", "shot_size", "subject_focus", "spatial_anchors", "asset_id", "new_information", "reuse_reason"],
+        "new_view_requires_new_generated_asset": true,
+        "digital_crop_or_shake_counts_as_new_view": false,
+        "continuity": "Keep doors, props, light sources, character and entity design, screen direction and the action axis consistent across camera setups.",
+        "same_view_exception": "A deliberate baseline comparison may repeat the camera setup only with a visible clue change or documented narrative purpose; record the baseline shot and reason.",
+        "reject": ["adjacent shots that repeat the same view without new information", "using small shake or uniform zoom as the only change during an extended narration beat", "random viewpoint changes that break geography or reveal the entity early"],
+        "review": "Compare every shot sequence in narration order before rendering, then review the rendered sequence continuously and record shot IDs and actual times in 05_review/editing-review.md. Freeze detection alone does not establish visual variety."
+      },
+      "screen_text": {
+        "separate_from_narration_captions": true,
+        "per_project_plan_required": true,
+        "allowed_roles": ["story title", "time or location when necessary", "diegetic device or document clue", "brief decisive rule"],
+        "narration_burn_in_policy_source": "defaults.subtitles.profile_variants.horror_cinematic_story_v1",
+        "selection": "Record screen-text mode and approval in the brief. A clean master means no continuous narration captions; it does not prohibit story-relevant titles or clues. Keep text brief, readable and clear of the decisive visual clue."
+      },
       "reference_sheet_required": ["character", "location", "period", "palette", "lighting", "recurring_object", "threat_entity_when_present"],
       "preferred": ["clue close-up", "empty corridor", "door gap", "CCTV frame", "phone interface", "rainy night road", "consistent ghost or creature interaction in the mid-to-late reveal"],
       "entity_reveal_stages": ["trace", "partial silhouette or body detail", "clear physical interaction"],

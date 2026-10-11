@@ -202,6 +202,15 @@ silently carry a previous project's style or BGM into a new project.
   does not prohibit showing the supernatural entity.
 - Animate still images with deliberate pans, zooms, parallax, fog, shadow,
   lighting, focus, or crop changes that support the narration.
+- Before generating new horror images, plan each location sequence as shots with
+  different camera positions, angles, heights, shot sizes, and narrative focus.
+  Record `shot_sequence` and follow `motion_rules.horror_visuals.camera_coverage`
+  in `config/success-rules.json`. Generate new assets for genuinely new views;
+  digital crops, small shake, and repeated zooms do not count as new camera setups.
+  Preserve spatial continuity and review adjacent shots plus continuous playback.
+- Distinguish continuous narration captions from brief titles, times, and visual
+  clue text. Record the chosen screen-text mode in the brief and scene plan;
+  a clean horror master does not prohibit story-relevant screen text.
 - Avoid a static explanatory screen longer than three seconds.
 - Avoid a full-black horror frame longer than one second; darkness must retain a
   readable clue on mobile.

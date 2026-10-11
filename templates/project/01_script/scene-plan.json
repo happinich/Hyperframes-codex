@@ -20,6 +20,12 @@
     "reveal_mode": "",
     "reveal_beats": []
   },
+  "screen_text_plan": {
+    "scope": "horror_cinematic_story_v1",
+    "mode": "pending_story_review",
+    "approval_basis": "",
+    "note": "제목·시간·핵심 단서 글자와 나레이션 전체 자막은 별도로 결정한다."
+  },
   "style": {
     "face_visible": false,
     "caption_delivery": "external_srt_upload",
@@ -65,6 +71,25 @@
       "caption_text": "",
       "visual": "",
       "entity_reveal_stage": "none",
+      "shot_sequence": [
+        {
+          "shot_id": "S01-A",
+          "location_id": "",
+          "start_seconds": null,
+          "end_seconds": null,
+          "camera_position": "",
+          "camera_angle": "",
+          "camera_height": "",
+          "shot_size": "",
+          "subject_focus": "",
+          "spatial_anchors": [],
+          "asset_id": "",
+          "new_information": "",
+          "reuse_reason": "",
+          "baseline_shot_id": null,
+          "screen_text": []
+        }
+      ],
       "editing": {
         "technique_ids": [],
         "clue": "",

@@ -17,6 +17,14 @@
   "support_technique_ids": [],
   "selection_reason": "",
   "excluded_techniques": [],
+  "camera_coverage": {
+    "rules_source": "config/success-rules.json#motion_rules.horror_visuals.camera_coverage",
+    "location_sequences": [],
+    "required_asset_variants": [],
+    "intentional_same_view_comparisons": [],
+    "plan_review": "pending",
+    "rendered_sequence_review": "pending"
+  },
   "longform": {
     "scene_plan_path": "01_script/scene-plan.json",
     "application_summary": "",
