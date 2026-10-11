@@ -1,51 +1,11 @@
-# YouTube Shorts 게시 문서: {{VIDEO_TITLE}}
+# 028 · 쇼츠 세 편 게시 전략
 
-## 업로드 파일
+본편: 마지막까지 남아 있던 것들 | 창작 공포 3편
 
-- 쇼츠 영상: `../../06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts.mp4`
-- 외부 자막: `../../06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-ko.srt`
-- 영상 형식: `1080x1920`, `9:16`, `60fps`
-- 목표 길이: `15~40초`
-- 작품 성격: `{{CONTENT_NATURE}}`
+- 1. 공연이 끝났는데, 커튼 아래 발이 있었다: [게시 전략](shorts-01-publish.md) · [복사 도우미](shorts-01-publish.html)
+- 2. 빈 냉동창고에서 상자가 움직였다: [게시 전략](shorts-02-publish.md) · [복사 도우미](shorts-02-publish.html)
+- 3. 마지막 퇴실 방송에는 대답하지 마세요: [게시 전략](shorts-03-publish.md) · [복사 도우미](shorts-03-publish.html)
 
-## 제목
+각 쇼츠는 별도 승인 원고와 새 세로 이미지로 제작했습니다. 1080×1920·60fps, Esther V4 생성 후 1.07배속이며 길이는 각각 19.60/19.00/18.78초입니다. 자막은 영상에 포함하며 외부 SRT/VTT는 전달하지 않습니다.
 
-```text
-{{SHORTS_TITLE}} #shorts
-```
-
-## 설명
-
-```text
-{{SHORTS_DESCRIPTION}}
-
-{{CONTENT_NATURE_NOTICE}}
-
-#공포이야기 #무서운이야기 #괴담 #shorts
-```
-
-## 고정 댓글
-
-```text
-{{SHORTS_PINNED_COMMENT}}
-```
-
-## 관련 동영상
-
-- 연결할 본편: `{{RELATED_LONGFORM_TITLE}}`
-- YouTube Studio에서 쇼츠 업로드 후 `관련 동영상`으로 직접 지정합니다.
-- 쇼츠 설명·댓글의 일반 URL은 클릭 CTA로 간주하지 않습니다.
-
-## 추천 게시 시간
-
-- 예약 시간: `{{RECOMMENDED_PUBLISH_TIME_KST}}`
-- 채널 데이터가 부족하면 금요일 저녁부터 테스트하고, 데이터가 쌓이면 시청자 피크 30~60분 전으로 조정합니다.
-
-## 게시 체크리스트
-
-- [ ] 첫 1초에 이전 장면의 잘린 음성이나 검은 프레임이 없는지 확인한다.
-- [ ] 15~40초 길이와 1080x1920 60fps를 확인한다.
-- [ ] 화면·음성·자막 시작 시간이 일치하는지 확인한다.
-- [ ] 작품 성격 표시가 본편과 일치하는지 확인한다.
-- [ ] `관련 동영상`에 정확한 본편을 연결한다.
-- [ ] 모바일에서 제목과 핵심 단서가 잘리는지 확인한다.
+본편 업로드 후 YouTube Studio의 관련 동영상에 위 본편을 정확히 지정하세요. 권장 공개 시간은 10월 13·14·15일 20:30 KST이며 실험 제안입니다.

@@ -57,6 +57,7 @@ for i,(title,hook) in enumerate(zip(titles,hooks),1):
  (SH/f'{sid}-publish.html').write_text(helper(title,sf,f'<video controls preload="metadata" src="../../06_delivery/shorts/{stem}.mp4"></video>', '<p>관련 동영상 지정은 본편 업로드 후 YouTube Studio에서 완료하세요. 아직 실제 YouTube 영상 URL이 없으므로 링크를 임의로 기입하지 않았습니다.</p>'))
  items.append({'short_id':sid,'title':title,'related_video_title':TITLE,'related_video_project_id':P.name,'video':f'06_delivery/shorts/{stem}.mp4','recommended_publish_time':publish_time,'external_caption_files_delivery':False})
 (SH/'shorts-publish.json').write_text(json.dumps({'project_id':P.name,'shorts':items},ensure_ascii=False,indent=2)+'\n')
+(SH/'shorts-publish.md').write_text('# 028 · 쇼츠 세 편 게시 전략\n\n본편: '+TITLE+'\n\n'+''.join(f'- {i}. {title}: [게시 전략](shorts-{i:02}-publish.md) · [복사 도우미](shorts-{i:02}-publish.html)\n' for i,title in enumerate(titles,1))+'\n각 쇼츠는 별도 승인 원고와 새 세로 이미지로 제작했습니다. 1080×1920·60fps, Esther V4 생성 후 1.07배속이며 길이는 각각 19.60/19.00/18.78초입니다. 자막은 영상에 포함하며 외부 SRT/VTT는 전달하지 않습니다.\n\n본편 업로드 후 YouTube Studio의 관련 동영상에 위 본편을 정확히 지정하세요. 권장 공개 시간은 10월 13·14·15일 20:30 KST이며 실험 제안입니다.\n')
 (SH/'shorts-publish.html').write_text(helper('028 · 쇼츠 세 편',[],extra=''.join(f'<section><h2>{i}. {html.escape(title)}</h2><video controls preload="metadata" src="../../06_delivery/shorts/{P.name}-shorts-{i:02}.mp4"></video><p><a href="shorts-{i:02}-publish.html">이 쇼츠의 게시 전략 열기</a></p></section>' for i,title in enumerate(titles,1))))
 
 # Native typography over individually approved image assets; no semantic raster edits.
