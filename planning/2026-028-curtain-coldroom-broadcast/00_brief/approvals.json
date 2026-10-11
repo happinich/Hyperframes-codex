@@ -1,0 +1,72 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "recorded_on": "2026-10-11",
+  "user_request": "좋아 3편 합본으로 바뀐 내용 적용해서 진행해줘.",
+  "topic_selection": {
+    "status": "approved",
+    "chapters": [
+      "C01",
+      "C02",
+      "C03"
+    ]
+  },
+  "format": {
+    "status": "approved",
+    "type": "three_story_anthology",
+    "scope": "this_episode"
+  },
+  "camera_variation": {
+    "status": "approved",
+    "basis": "same_scene_new_camera_positions_and_angles_requested"
+  },
+  "screen_text": {
+    "status": "approved_selective_story_text",
+    "narration_burn_in": false,
+    "external_caption_files_delivery": false
+  },
+  "narration": {
+    "status": "approved",
+    "source": "01_script/narration.txt"
+  },
+  "shorts_scripts": {
+    "status": "approved"
+  },
+  "visual_style": {
+    "status": "approved",
+    "recommendations": {
+      "C01": "horror_shadow_theatre",
+      "C02": "horror_retro_3d",
+      "C03": "horror_pixel"
+    }
+  },
+  "voice": {
+    "status": "approved",
+    "recommendation": "female_Esther",
+    "alternative": "male_distant_documentary_delivery",
+    "model_id": "eleven_v4",
+    "speed_multiplier": 1.0,
+    "gender": "female",
+    "selected_voice": "Esther",
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B"
+  },
+  "bgm": {
+    "status": "selection_delegated",
+    "user_message": "BGM 선택을 너에게 위임",
+    "selected_candidate": "cand-04",
+    "reason": "Restrained drone and space were requested in its generation prompt; objective signal and speech QA required before final acceptance.",
+    "subjective_listening": "No auditory perception available; no ear-based claim.",
+    "selection_status": "selected_applied_signal_review_passed"
+  },
+  "production": {
+    "tts": "generated_two_asr_signal_review_passed",
+    "images": "individual_two_pass_review_passed",
+    "composition": "implemented_and_verified",
+    "render": "main_three_shorts_two_thumbnails_verified",
+    "publishing": "uploaded_15_unique_files_verified"
+  },
+  "approval_message": {
+    "narration": "본편·쇼츠 대본 모두 승인",
+    "visual": "추천 스탕이로 해줘. 근데 자막 파일은 이제 필요 없어. 자동 자막으로 할거라 올릴 필요가 없어.",
+    "voice": "여성 Esther로 진행"
+  }
+}

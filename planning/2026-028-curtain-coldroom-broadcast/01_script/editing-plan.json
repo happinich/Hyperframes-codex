@@ -1,0 +1,179 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "status": "planned_pending_direction_review",
+  "chapters": [
+    {
+      "id": "C01",
+      "visual_style_id": "horror_shadow_theatre",
+      "primary_technique_id": "foreground_depth",
+      "support_technique_ids": [
+        "clue_directed_motion",
+        "tension_driven_transition"
+      ],
+      "reason": "커튼의 가림과 손의 물리 접촉을 분리된 레이어와 새 각도 컷으로 보여 준다.",
+      "excluded": [
+        "uniform shake",
+        "automatic glitch",
+        "unmotivated angle rotation"
+      ],
+      "applied_scene_ids": [
+        "C01-S01",
+        "C01-S02",
+        "C01-S03",
+        "C01-S04",
+        "C01-S05",
+        "C01-S06",
+        "C01-S07",
+        "C01-S08",
+        "C01-S09",
+        "C01-S10",
+        "C01-S11",
+        "C01-S12",
+        "C01-S13",
+        "C01-S14",
+        "C01-S15",
+        "C01-S16",
+        "C01-S17",
+        "C01-S18",
+        "C01-S19",
+        "C01-S20",
+        "C01-S21",
+        "C01-S22"
+      ]
+    },
+    {
+      "id": "C02",
+      "visual_style_id": "horror_retro_3d",
+      "primary_technique_id": "space_clue_action",
+      "support_technique_ids": [
+        "local_darkness_texture",
+        "tension_driven_transition"
+      ],
+      "reason": "출구가 보이는 공간에서 진로가 막히는 행동을 큰 형태와 고정 지형으로 전달한다.",
+      "excluded": [
+        "uniform shake",
+        "automatic glitch",
+        "unmotivated angle rotation"
+      ],
+      "applied_scene_ids": [
+        "C02-S01",
+        "C02-S02",
+        "C02-S03",
+        "C02-S04",
+        "C02-S05",
+        "C02-S06",
+        "C02-S07",
+        "C02-S08",
+        "C02-S09",
+        "C02-S10",
+        "C02-S11",
+        "C02-S12",
+        "C02-S13",
+        "C02-S14",
+        "C02-S15",
+        "C02-S16",
+        "C02-S17",
+        "C02-S18",
+        "C02-S19",
+        "C02-S20",
+        "C02-S21",
+        "C02-S22"
+      ]
+    },
+    {
+      "id": "C03",
+      "visual_style_id": "horror_pixel",
+      "primary_technique_id": "return_with_changed_clue",
+      "support_technique_ids": [
+        "space_clue_action",
+        "sound_bridge_silence"
+      ],
+      "reason": "잔류 숫자와 교실 불빛의 변화를 큰 픽셀 형태로 비교하고 다른 공간 컷으로 반복감을 줄인다.",
+      "excluded": [
+        "uniform shake",
+        "automatic glitch",
+        "unmotivated angle rotation"
+      ],
+      "applied_scene_ids": [
+        "C03-S01",
+        "C03-S02",
+        "C03-S03",
+        "C03-S04",
+        "C03-S05",
+        "C03-S06",
+        "C03-S07",
+        "C03-S08",
+        "C03-S09",
+        "C03-S10",
+        "C03-S11",
+        "C03-S12",
+        "C03-S13",
+        "C03-S14",
+        "C03-S15",
+        "C03-S16",
+        "C03-S17",
+        "C03-S18",
+        "C03-S19",
+        "C03-S20",
+        "C03-S21",
+        "C03-S22",
+        "C03-S23"
+      ]
+    }
+  ],
+  "camera_coverage": {
+    "rules_source": "config/success-rules.json#motion_rules.horror_visuals.camera_coverage",
+    "planned_shot_count": 134,
+    "distinct_camera_setup_ids": [
+      "T-W",
+      "T-O",
+      "T-L",
+      "T-S",
+      "T-P",
+      "T-B",
+      "T-D",
+      "T-H",
+      "T-X",
+      "T-R",
+      "F-W",
+      "F-O",
+      "F-L",
+      "F-P",
+      "F-C",
+      "F-S",
+      "F-A",
+      "F-D",
+      "F-R",
+      "F-X",
+      "S-W",
+      "S-B",
+      "S-P",
+      "S-N",
+      "S-H",
+      "S-D",
+      "S-L",
+      "S-O",
+      "S-G",
+      "S-F",
+      "S-C",
+      "S-T",
+      "S-M",
+      "S-R"
+    ],
+    "all_new_view_assets_pending": true,
+    "same_camera_comparison_exception": "학교 잔류 인원 숫자 비교 컷만 기준 촬영 위치 유지. 이외 긴 같은 공간도 다른 시점 컷으로 전개.",
+    "plan_review": "reviewed_twice_as_text_plan_only",
+    "asset_review": "pending_generation",
+    "rendered_sequence_review": "pending_render"
+  },
+  "shorts": {
+    "scene_plan_path": "01_script/shorts-scene-plans.json",
+    "new_portrait_asset_count": 9,
+    "selection": "각 위협 단서에 맞게 독립 적용"
+  },
+  "review": {
+    "record_path": "05_review/editing-review.md",
+    "rendered_output": "pending"
+  }
+}

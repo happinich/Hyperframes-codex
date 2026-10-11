@@ -1,0 +1,506 @@
+{
+  "language_code": "kor",
+  "language_probability": 1.0,
+  "text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고 안에는 저 혼자였죠. 상자를 열어보니 비어 있었습니다. 그런데 비닐막 뒤에 사람 같은 등이 보였어요. 무전기로 확인하니 아무도 들어간 적 없다고 했습니다. 그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+  "words": [
+    {
+      "text": "빈",
+      "start": 0.18,
+      "end": 0.26,
+      "type": "word",
+      "logprob": -0.000648883986286819
+    },
+    {
+      "text": " ",
+      "start": 0.26,
+      "end": 0.38,
+      "type": "spacing",
+      "logprob": -5.1616290875244886e-05
+    },
+    {
+      "text": "냉동창고에서",
+      "start": 0.38,
+      "end": 1.3,
+      "type": "word",
+      "logprob": -0.013159602657244326
+    },
+    {
+      "text": " ",
+      "start": 1.3,
+      "end": 1.46,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "상자가",
+      "start": 1.46,
+      "end": 1.74,
+      "type": "word",
+      "logprob": -2.2132825201026662e-05
+    },
+    {
+      "text": " ",
+      "start": 1.74,
+      "end": 1.9,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "저절로",
+      "start": 1.9,
+      "end": 2.14,
+      "type": "word",
+      "logprob": -1.5497187841143993e-06
+    },
+    {
+      "text": " ",
+      "start": 2.14,
+      "end": 2.26,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "움직였어요.",
+      "start": 2.26,
+      "end": 2.88,
+      "type": "word",
+      "logprob": -7.251807183195069e-06
+    },
+    {
+      "text": " ",
+      "start": 2.88,
+      "end": 3.56,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "입고",
+      "start": 3.56,
+      "end": 3.7,
+      "type": "word",
+      "logprob": -1.7285325668581208e-06
+    },
+    {
+      "text": " ",
+      "start": 3.7,
+      "end": 3.86,
+      "type": "spacing",
+      "logprob": -0.0010346779599785805
+    },
+    {
+      "text": "작업은",
+      "start": 3.86,
+      "end": 4.08,
+      "type": "word",
+      "logprob": -0.000689785306652387
+    },
+    {
+      "text": " ",
+      "start": 4.08,
+      "end": 4.2,
+      "type": "spacing",
+      "logprob": -3.933898824470816e-06
+    },
+    {
+      "text": "끝났고",
+      "start": 4.2,
+      "end": 4.9,
+      "type": "word",
+      "logprob": -3.735213338037132e-06
+    },
+    {
+      "text": " ",
+      "start": 4.9,
+      "end": 5.02,
+      "type": "spacing",
+      "logprob": -0.003592349123209715
+    },
+    {
+      "text": "안에는",
+      "start": 5.02,
+      "end": 5.3,
+      "type": "word",
+      "logprob": -0.0012332910046097822
+    },
+    {
+      "text": " ",
+      "start": 5.3,
+      "end": 5.4,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "저",
+      "start": 5.4,
+      "end": 5.44,
+      "type": "word",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": " ",
+      "start": 5.44,
+      "end": 5.56,
+      "type": "spacing",
+      "logprob": -1.9073304429184645e-05
+    },
+    {
+      "text": "혼자였죠.",
+      "start": 5.56,
+      "end": 6.06,
+      "type": "word",
+      "logprob": -7.891595942055574e-06
+    },
+    {
+      "text": " ",
+      "start": 6.06,
+      "end": 6.06,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "상자를",
+      "start": 6.76,
+      "end": 7.02,
+      "type": "word",
+      "logprob": -2.2927529528260493e-05
+    },
+    {
+      "text": " ",
+      "start": 7.02,
+      "end": 7.14,
+      "type": "spacing",
+      "logprob": -1.7762025890988298e-05
+    },
+    {
+      "text": "열어보니",
+      "start": 7.14,
+      "end": 7.7,
+      "type": "word",
+      "logprob": -0.0002209675170661285
+    },
+    {
+      "text": " ",
+      "start": 7.7,
+      "end": 7.8,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "비어",
+      "start": 7.82,
+      "end": 7.92,
+      "type": "word",
+      "logprob": -1.1324875686113955e-06
+    },
+    {
+      "text": " ",
+      "start": 7.92,
+      "end": 8.0,
+      "type": "spacing",
+      "logprob": -0.47410517930984497
+    },
+    {
+      "text": "있었습니다.",
+      "start": 8.0,
+      "end": 8.52,
+      "type": "word",
+      "logprob": -0.39508768916129594
+    },
+    {
+      "text": " ",
+      "start": 8.52,
+      "end": 8.52,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "그런데",
+      "start": 9.14,
+      "end": 9.66,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": " ",
+      "start": 9.66,
+      "end": 9.74,
+      "type": "spacing",
+      "logprob": -7.986990567587782e-06
+    },
+    {
+      "text": "비닐막",
+      "start": 9.74,
+      "end": 10.12,
+      "type": "word",
+      "logprob": -0.14313115639652096
+    },
+    {
+      "text": " ",
+      "start": 10.12,
+      "end": 10.24,
+      "type": "spacing",
+      "logprob": -7.271740287251305e-06
+    },
+    {
+      "text": "뒤에",
+      "start": 10.24,
+      "end": 10.46,
+      "type": "word",
+      "logprob": -3.6358701436256524e-06
+    },
+    {
+      "text": " ",
+      "start": 10.46,
+      "end": 10.6,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "사람",
+      "start": 10.6,
+      "end": 10.76,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 10.76,
+      "end": 10.92,
+      "type": "spacing",
+      "logprob": -0.001702646492049098
+    },
+    {
+      "text": "같은",
+      "start": 10.92,
+      "end": 11.02,
+      "type": "word",
+      "logprob": -0.001702646492049098
+    },
+    {
+      "text": " ",
+      "start": 11.02,
+      "end": 11.22,
+      "type": "spacing",
+      "logprob": -0.0006646093097515404
+    },
+    {
+      "text": "등이",
+      "start": 11.22,
+      "end": 11.3,
+      "type": "word",
+      "logprob": -0.0006646093097515404
+    },
+    {
+      "text": " ",
+      "start": 11.3,
+      "end": 11.4,
+      "type": "spacing",
+      "logprob": -1.7881377516459906e-06
+    },
+    {
+      "text": "보였어요.",
+      "start": 11.4,
+      "end": 11.9,
+      "type": "word",
+      "logprob": -2.074237087867914e-06
+    },
+    {
+      "text": " ",
+      "start": 11.9,
+      "end": 11.9,
+      "type": "spacing",
+      "logprob": -5.602820692729438e-06
+    },
+    {
+      "text": "무전기로",
+      "start": 12.5,
+      "end": 12.88,
+      "type": "word",
+      "logprob": -3.4957188859152666e-05
+    },
+    {
+      "text": " ",
+      "start": 12.88,
+      "end": 13.04,
+      "type": "spacing",
+      "logprob": -0.0002740246127359569
+    },
+    {
+      "text": "확인하니",
+      "start": 13.04,
+      "end": 13.64,
+      "type": "word",
+      "logprob": -0.00016782695820438676
+    },
+    {
+      "text": " ",
+      "start": 13.64,
+      "end": 13.76,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "아무도",
+      "start": 13.76,
+      "end": 14.04,
+      "type": "word",
+      "logprob": -4.371005957182206e-07
+    },
+    {
+      "text": " ",
+      "start": 14.04,
+      "end": 14.14,
+      "type": "spacing",
+      "logprob": -4.637133679352701e-05
+    },
+    {
+      "text": "들어간",
+      "start": 14.14,
+      "end": 14.36,
+      "type": "word",
+      "logprob": -3.2424205376931546e-05
+    },
+    {
+      "text": " ",
+      "start": 14.36,
+      "end": 14.44,
+      "type": "spacing",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": "적",
+      "start": 14.44,
+      "end": 14.5,
+      "type": "word",
+      "logprob": -6.9141146923357155e-06
+    },
+    {
+      "text": " ",
+      "start": 14.5,
+      "end": 14.66,
+      "type": "spacing",
+      "logprob": -1.4305012882687151e-05
+    },
+    {
+      "text": "없다고",
+      "start": 14.66,
+      "end": 14.86,
+      "type": "word",
+      "logprob": -8.185661802902663e-06
+    },
+    {
+      "text": " ",
+      "start": 14.86,
+      "end": 14.98,
+      "type": "spacing",
+      "logprob": -1.2755313036905136e-05
+    },
+    {
+      "text": "했습니다.",
+      "start": 14.98,
+      "end": 15.32,
+      "type": "word",
+      "logprob": -1.022809228601318e-05
+    },
+    {
+      "text": " ",
+      "start": 15.32,
+      "end": 15.34,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "그때",
+      "start": 15.94,
+      "end": 16.36,
+      "type": "word",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": " ",
+      "start": 16.36,
+      "end": 16.46,
+      "type": "spacing",
+      "logprob": -2.90866428258596e-05
+    },
+    {
+      "text": "제",
+      "start": 16.46,
+      "end": 16.52,
+      "type": "word",
+      "logprob": -2.90866428258596e-05
+    },
+    {
+      "text": " ",
+      "start": 16.52,
+      "end": 16.66,
+      "type": "spacing",
+      "logprob": -0.17981715500354767
+    },
+    {
+      "text": "앞의",
+      "start": 16.66,
+      "end": 16.76,
+      "type": "word",
+      "logprob": -0.08990875631567974
+    },
+    {
+      "text": " ",
+      "start": 16.76,
+      "end": 16.88,
+      "type": "spacing",
+      "logprob": -6.556489552167477e-06
+    },
+    {
+      "text": "운반대가",
+      "start": 16.88,
+      "end": 17.48,
+      "type": "word",
+      "logprob": -0.00015554543745111005
+    },
+    {
+      "text": " ",
+      "start": 17.48,
+      "end": 17.64,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "통로를",
+      "start": 17.64,
+      "end": 17.88,
+      "type": "word",
+      "logprob": -3.1509519070975024e-05
+    },
+    {
+      "text": " ",
+      "start": 17.88,
+      "end": 18.06,
+      "type": "spacing",
+      "logprob": -4.541770613286644e-05
+    },
+    {
+      "text": "막기",
+      "start": 18.06,
+      "end": 18.14,
+      "type": "word",
+      "logprob": -2.4079757963590964e-05
+    },
+    {
+      "text": " ",
+      "start": 18.14,
+      "end": 18.24,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "시작했어요.",
+      "start": 18.24,
+      "end": 18.8,
+      "type": "word",
+      "logprob": -0.0003259258240101796
+    }
+  ],
+  "transcription_id": "Tp0RQInxMnj2Ag4sA3lG",
+  "audio_duration_secs": 18.998125
+}

@@ -1,0 +1,2440 @@
+{
+  "main_first_pass": [
+    {
+      "shot": "shot-000",
+      "scene": "C01-S01",
+      "time": 1.5,
+      "frame": "05_review/frames/main/r1-shot-000.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-001",
+      "scene": "C01-S01",
+      "time": 4.883333333333333,
+      "frame": "05_review/frames/main/r1-shot-001.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-002",
+      "scene": "C01-S02",
+      "time": 7.616666666666666,
+      "frame": "05_review/frames/main/r1-shot-002.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-003",
+      "scene": "C01-S02",
+      "time": 20.866666666666667,
+      "frame": "05_review/frames/main/r1-shot-003.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-004",
+      "scene": "C01-S03",
+      "time": 25.516666666666666,
+      "frame": "05_review/frames/main/r1-shot-004.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-005",
+      "scene": "C01-S03",
+      "time": 33.55,
+      "frame": "05_review/frames/main/r1-shot-005.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-006",
+      "scene": "C01-S04",
+      "time": 45.416666666666664,
+      "frame": "05_review/frames/main/r1-shot-006.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-007",
+      "scene": "C01-S04",
+      "time": 54.71666666666667,
+      "frame": "05_review/frames/main/r1-shot-007.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-008",
+      "scene": "C01-S05",
+      "time": 64.66666666666666,
+      "frame": "05_review/frames/main/r1-shot-008.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-009",
+      "scene": "C01-S05",
+      "time": 81.08333333333333,
+      "frame": "05_review/frames/main/r1-shot-009.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-010",
+      "scene": "C01-S06",
+      "time": 84.41666666666667,
+      "frame": "05_review/frames/main/r1-shot-010.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-011",
+      "scene": "C01-S06",
+      "time": 91.78333333333333,
+      "frame": "05_review/frames/main/r1-shot-011.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-012",
+      "scene": "C01-S07",
+      "time": 105.65,
+      "frame": "05_review/frames/main/r1-shot-012.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-013",
+      "scene": "C01-S07",
+      "time": 110.95,
+      "frame": "05_review/frames/main/r1-shot-013.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-014",
+      "scene": "C01-S08",
+      "time": 126.41666666666667,
+      "frame": "05_review/frames/main/r1-shot-014.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-015",
+      "scene": "C01-S08",
+      "time": 139.675,
+      "frame": "05_review/frames/main/r1-shot-015.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-016",
+      "scene": "C01-S08",
+      "time": 142.61666666666667,
+      "frame": "05_review/frames/main/r1-shot-016.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-017",
+      "scene": "C01-S09",
+      "time": 146.28333333333333,
+      "frame": "05_review/frames/main/r1-shot-017.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-018",
+      "scene": "C01-S09",
+      "time": 160.91666666666666,
+      "frame": "05_review/frames/main/r1-shot-018.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-019",
+      "scene": "C01-S10",
+      "time": 165.15,
+      "frame": "05_review/frames/main/r1-shot-019.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-020",
+      "scene": "C01-S10",
+      "time": 171.25,
+      "frame": "05_review/frames/main/r1-shot-020.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-021",
+      "scene": "C01-S11",
+      "time": 186.16666666666666,
+      "frame": "05_review/frames/main/r1-shot-021.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-022",
+      "scene": "C01-S11",
+      "time": 195.88333333333333,
+      "frame": "05_review/frames/main/r1-shot-022.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-023",
+      "scene": "C01-S12",
+      "time": 206.31666666666666,
+      "frame": "05_review/frames/main/r1-shot-023.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-024",
+      "scene": "C01-S12",
+      "time": 217.33333333333334,
+      "frame": "05_review/frames/main/r1-shot-024.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-025",
+      "scene": "C01-S12",
+      "time": 223.51666666666668,
+      "frame": "05_review/frames/main/r1-shot-025.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-026",
+      "scene": "C01-S13",
+      "time": 228.55,
+      "frame": "05_review/frames/main/r1-shot-026.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-027",
+      "scene": "C01-S13",
+      "time": 242.68333333333334,
+      "frame": "05_review/frames/main/r1-shot-027.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-028",
+      "scene": "C01-S14",
+      "time": 250.33333333333334,
+      "frame": "05_review/frames/main/r1-shot-028.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-029",
+      "scene": "C01-S14",
+      "time": 264.5833333333333,
+      "frame": "05_review/frames/main/r1-shot-029.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-030",
+      "scene": "C01-S15",
+      "time": 271.6666666666667,
+      "frame": "05_review/frames/main/r1-shot-030.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-031",
+      "scene": "C01-S15",
+      "time": 278.3333333333333,
+      "frame": "05_review/frames/main/r1-shot-031.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-032",
+      "scene": "C01-S16",
+      "time": 291.78333333333336,
+      "frame": "05_review/frames/main/r1-shot-032.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-033",
+      "scene": "C01-S16",
+      "time": 299.15,
+      "frame": "05_review/frames/main/r1-shot-033.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-034",
+      "scene": "C01-S16",
+      "time": 309.98333333333335,
+      "frame": "05_review/frames/main/r1-shot-034.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-035",
+      "scene": "C01-S17",
+      "time": 313.01666666666665,
+      "frame": "05_review/frames/main/r1-shot-035.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-036",
+      "scene": "C01-S17",
+      "time": 317.93333333333334,
+      "frame": "05_review/frames/main/r1-shot-036.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-037",
+      "scene": "C01-S18",
+      "time": 333.7416666666667,
+      "frame": "05_review/frames/main/r1-shot-037.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-038",
+      "scene": "C01-S18",
+      "time": 336.65,
+      "frame": "05_review/frames/main/r1-shot-038.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-039",
+      "scene": "C01-S18",
+      "time": 349.76666666666665,
+      "frame": "05_review/frames/main/r1-shot-039.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-040",
+      "scene": "C01-S19",
+      "time": 356.3666666666667,
+      "frame": "05_review/frames/main/r1-shot-040.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-041",
+      "scene": "C01-S19",
+      "time": 374.1333333333333,
+      "frame": "05_review/frames/main/r1-shot-041.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-042",
+      "scene": "C01-S20",
+      "time": 377.9166666666667,
+      "frame": "05_review/frames/main/r1-shot-042.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-043",
+      "scene": "C01-S20",
+      "time": 381.05,
+      "frame": "05_review/frames/main/r1-shot-043.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-044",
+      "scene": "C01-S21",
+      "time": 400.56666666666666,
+      "frame": "05_review/frames/main/r1-shot-044.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-045",
+      "scene": "C01-S21",
+      "time": 417.31666666666666,
+      "frame": "05_review/frames/main/r1-shot-045.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-046",
+      "scene": "C01-S22",
+      "time": 424.98333333333335,
+      "frame": "05_review/frames/main/r1-shot-046.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-047",
+      "scene": "C01-S22",
+      "time": 438.85,
+      "frame": "05_review/frames/main/r1-shot-047.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-048",
+      "scene": "T01",
+      "time": 449.1,
+      "frame": "05_review/frames/main/r1-shot-048.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-049",
+      "scene": "T01",
+      "time": 451.6,
+      "frame": "05_review/frames/main/r1-shot-049.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-050",
+      "scene": "C02-S01",
+      "time": 453.57500000000005,
+      "frame": "05_review/frames/main/r1-shot-050.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-051",
+      "scene": "C02-S01",
+      "time": 455.51666666666665,
+      "frame": "05_review/frames/main/r1-shot-051.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-052",
+      "scene": "C02-S02",
+      "time": 458.23333333333335,
+      "frame": "05_review/frames/main/r1-shot-052.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-053",
+      "scene": "C02-S02",
+      "time": 472.81666666666666,
+      "frame": "05_review/frames/main/r1-shot-053.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-054",
+      "scene": "C02-S03",
+      "time": 479.85,
+      "frame": "05_review/frames/main/r1-shot-054.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-055",
+      "scene": "C02-S03",
+      "time": 492.6,
+      "frame": "05_review/frames/main/r1-shot-055.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-056",
+      "scene": "C02-S04",
+      "time": 503.025,
+      "frame": "05_review/frames/main/r1-shot-056.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-057",
+      "scene": "C02-S04",
+      "time": 505.5,
+      "frame": "05_review/frames/main/r1-shot-057.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-058",
+      "scene": "C02-S04",
+      "time": 514.75,
+      "frame": "05_review/frames/main/r1-shot-058.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-059",
+      "scene": "C02-S05",
+      "time": 523.4166666666666,
+      "frame": "05_review/frames/main/r1-shot-059.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-060",
+      "scene": "C02-S05",
+      "time": 531.4333333333333,
+      "frame": "05_review/frames/main/r1-shot-060.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-061",
+      "scene": "C02-S06",
+      "time": 545.05,
+      "frame": "05_review/frames/main/r1-shot-061.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-062",
+      "scene": "C02-S06",
+      "time": 555.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-062.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-063",
+      "scene": "C02-S07",
+      "time": 563.55,
+      "frame": "05_review/frames/main/r1-shot-063.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-064",
+      "scene": "C02-S07",
+      "time": 573.7666666666667,
+      "frame": "05_review/frames/main/r1-shot-064.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-065",
+      "scene": "C02-S08",
+      "time": 586.05,
+      "frame": "05_review/frames/main/r1-shot-065.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-066",
+      "scene": "C02-S08",
+      "time": 591.5166666666667,
+      "frame": "05_review/frames/main/r1-shot-066.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-067",
+      "scene": "C02-S09",
+      "time": 606.9333333333333,
+      "frame": "05_review/frames/main/r1-shot-067.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-068",
+      "scene": "C02-S09",
+      "time": 624.7,
+      "frame": "05_review/frames/main/r1-shot-068.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-069",
+      "scene": "C02-S10",
+      "time": 628.0666666666667,
+      "frame": "05_review/frames/main/r1-shot-069.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-070",
+      "scene": "C02-S10",
+      "time": 642.3666666666667,
+      "frame": "05_review/frames/main/r1-shot-070.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-071",
+      "scene": "C02-S11",
+      "time": 647.3166666666667,
+      "frame": "05_review/frames/main/r1-shot-071.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-072",
+      "scene": "C02-S11",
+      "time": 652.9333333333333,
+      "frame": "05_review/frames/main/r1-shot-072.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-073",
+      "scene": "C02-S11",
+      "time": 665.1166666666667,
+      "frame": "05_review/frames/main/r1-shot-073.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-074",
+      "scene": "C02-S12",
+      "time": 671.85,
+      "frame": "05_review/frames/main/r1-shot-074.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-075",
+      "scene": "C02-S12",
+      "time": 677.85,
+      "frame": "05_review/frames/main/r1-shot-075.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-076",
+      "scene": "C02-S13",
+      "time": 692.1166666666667,
+      "frame": "05_review/frames/main/r1-shot-076.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-077",
+      "scene": "C02-S13",
+      "time": 710.6333333333333,
+      "frame": "05_review/frames/main/r1-shot-077.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-078",
+      "scene": "C02-S14",
+      "time": 713.1666666666666,
+      "frame": "05_review/frames/main/r1-shot-078.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-079",
+      "scene": "C02-S14",
+      "time": 724.4,
+      "frame": "05_review/frames/main/r1-shot-079.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-080",
+      "scene": "C02-S15",
+      "time": 736.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-080.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-081",
+      "scene": "C02-S15",
+      "time": 741.5333333333333,
+      "frame": "05_review/frames/main/r1-shot-081.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-082",
+      "scene": "C02-S15",
+      "time": 748.0166666666667,
+      "frame": "05_review/frames/main/r1-shot-082.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-083",
+      "scene": "C02-S16",
+      "time": 758.2166666666667,
+      "frame": "05_review/frames/main/r1-shot-083.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-084",
+      "scene": "C02-S16",
+      "time": 771.75,
+      "frame": "05_review/frames/main/r1-shot-084.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-085",
+      "scene": "C02-S17",
+      "time": 778.8333333333334,
+      "frame": "05_review/frames/main/r1-shot-085.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-086",
+      "scene": "C02-S17",
+      "time": 796.2,
+      "frame": "05_review/frames/main/r1-shot-086.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-087",
+      "scene": "C02-S18",
+      "time": 800.7666666666667,
+      "frame": "05_review/frames/main/r1-shot-087.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-088",
+      "scene": "C02-S18",
+      "time": 806.9666666666667,
+      "frame": "05_review/frames/main/r1-shot-088.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-089",
+      "scene": "C02-S18",
+      "time": 812.35,
+      "frame": "05_review/frames/main/r1-shot-089.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-090",
+      "scene": "C02-S19",
+      "time": 822.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-090.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-091",
+      "scene": "C02-S19",
+      "time": 829.65,
+      "frame": "05_review/frames/main/r1-shot-091.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-092",
+      "scene": "C02-S20",
+      "time": 844.3666666666667,
+      "frame": "05_review/frames/main/r1-shot-092.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-093",
+      "scene": "C02-S20",
+      "time": 855.95,
+      "frame": "05_review/frames/main/r1-shot-093.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-094",
+      "scene": "C02-S21",
+      "time": 860.65,
+      "frame": "05_review/frames/main/r1-shot-094.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-095",
+      "scene": "C02-S21",
+      "time": 871.0666666666667,
+      "frame": "05_review/frames/main/r1-shot-095.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-096",
+      "scene": "C02-S22",
+      "time": 882.5666666666667,
+      "frame": "05_review/frames/main/r1-shot-096.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-097",
+      "scene": "C02-S22",
+      "time": 888.2166666666667,
+      "frame": "05_review/frames/main/r1-shot-097.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-098",
+      "scene": "C02-S22",
+      "time": 891.75,
+      "frame": "05_review/frames/main/r1-shot-098.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-099",
+      "scene": "T02",
+      "time": 905.6,
+      "frame": "05_review/frames/main/r1-shot-099.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-100",
+      "scene": "T02",
+      "time": 908.1,
+      "frame": "05_review/frames/main/r1-shot-100.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-101",
+      "scene": "C03-S01",
+      "time": 910.0416666666667,
+      "frame": "05_review/frames/main/r1-shot-101.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-102",
+      "scene": "C03-S01",
+      "time": 912.1,
+      "frame": "05_review/frames/main/r1-shot-102.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-103",
+      "scene": "C03-S02",
+      "time": 914.9666666666667,
+      "frame": "05_review/frames/main/r1-shot-103.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-104",
+      "scene": "C03-S02",
+      "time": 925.3333333333334,
+      "frame": "05_review/frames/main/r1-shot-104.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-105",
+      "scene": "C03-S03",
+      "time": 937.2333333333333,
+      "frame": "05_review/frames/main/r1-shot-105.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-106",
+      "scene": "C03-S03",
+      "time": 953.8333333333334,
+      "frame": "05_review/frames/main/r1-shot-106.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-107",
+      "scene": "C03-S04",
+      "time": 960.05,
+      "frame": "05_review/frames/main/r1-shot-107.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-108",
+      "scene": "C03-S04",
+      "time": 976.6333333333333,
+      "frame": "05_review/frames/main/r1-shot-108.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-109",
+      "scene": "C03-S05",
+      "time": 981.2666666666667,
+      "frame": "05_review/frames/main/r1-shot-109.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-110",
+      "scene": "C03-S05",
+      "time": 990.3666666666667,
+      "frame": "05_review/frames/main/r1-shot-110.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-111",
+      "scene": "C03-S06",
+      "time": 998.0833333333334,
+      "frame": "05_review/frames/main/r1-shot-111.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-112",
+      "scene": "C03-S06",
+      "time": 1011.9666666666667,
+      "frame": "05_review/frames/main/r1-shot-112.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-113",
+      "scene": "C03-S07",
+      "time": 1019.3833333333333,
+      "frame": "05_review/frames/main/r1-shot-113.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-114",
+      "scene": "C03-S07",
+      "time": 1035.35,
+      "frame": "05_review/frames/main/r1-shot-114.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-115",
+      "scene": "C03-S08",
+      "time": 1041.7333333333333,
+      "frame": "05_review/frames/main/r1-shot-115.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-116",
+      "scene": "C03-S08",
+      "time": 1059.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-116.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-117",
+      "scene": "C03-S09",
+      "time": 1062.35,
+      "frame": "05_review/frames/main/r1-shot-117.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-118",
+      "scene": "C03-S09",
+      "time": 1068.0666666666666,
+      "frame": "05_review/frames/main/r1-shot-118.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-119",
+      "scene": "C03-S10",
+      "time": 1077.6833333333334,
+      "frame": "05_review/frames/main/r1-shot-119.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-120",
+      "scene": "C03-S10",
+      "time": 1090.3833333333334,
+      "frame": "05_review/frames/main/r1-shot-120.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-121",
+      "scene": "C03-S11",
+      "time": 1100.3,
+      "frame": "05_review/frames/main/r1-shot-121.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-122",
+      "scene": "C03-S11",
+      "time": 1114.3916666666667,
+      "frame": "05_review/frames/main/r1-shot-122.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-123",
+      "scene": "C03-S11",
+      "time": 1117.35,
+      "frame": "05_review/frames/main/r1-shot-123.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-124",
+      "scene": "C03-S12",
+      "time": 1123.45,
+      "frame": "05_review/frames/main/r1-shot-124.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-125",
+      "scene": "C03-S12",
+      "time": 1136.9833333333333,
+      "frame": "05_review/frames/main/r1-shot-125.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-126",
+      "scene": "C03-S13",
+      "time": 1145.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-126.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-127",
+      "scene": "C03-S13",
+      "time": 1153.7,
+      "frame": "05_review/frames/main/r1-shot-127.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-128",
+      "scene": "C03-S14",
+      "time": 1162.3666666666666,
+      "frame": "05_review/frames/main/r1-shot-128.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-129",
+      "scene": "C03-S14",
+      "time": 1175.05,
+      "frame": "05_review/frames/main/r1-shot-129.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-130",
+      "scene": "C03-S15",
+      "time": 1184.1333333333334,
+      "frame": "05_review/frames/main/r1-shot-130.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-131",
+      "scene": "C03-S15",
+      "time": 1193.2666666666667,
+      "frame": "05_review/frames/main/r1-shot-131.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-132",
+      "scene": "C03-S15",
+      "time": 1203.4666666666667,
+      "frame": "05_review/frames/main/r1-shot-132.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-133",
+      "scene": "C03-S16",
+      "time": 1207.2,
+      "frame": "05_review/frames/main/r1-shot-133.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-134",
+      "scene": "C03-S16",
+      "time": 1213.2666666666667,
+      "frame": "05_review/frames/main/r1-shot-134.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-135",
+      "scene": "C03-S17",
+      "time": 1222.5,
+      "frame": "05_review/frames/main/r1-shot-135.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-136",
+      "scene": "C03-S17",
+      "time": 1236.15,
+      "frame": "05_review/frames/main/r1-shot-136.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-137",
+      "scene": "C03-S17",
+      "time": 1240.9333333333334,
+      "frame": "05_review/frames/main/r1-shot-137.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-138",
+      "scene": "C03-S18",
+      "time": 1245.35,
+      "frame": "05_review/frames/main/r1-shot-138.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-139",
+      "scene": "C03-S18",
+      "time": 1259.8833333333334,
+      "frame": "05_review/frames/main/r1-shot-139.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-140",
+      "scene": "C03-S19",
+      "time": 1269.9833333333333,
+      "frame": "05_review/frames/main/r1-shot-140.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-141",
+      "scene": "C03-S19",
+      "time": 1279.4833333333333,
+      "frame": "05_review/frames/main/r1-shot-141.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-142",
+      "scene": "C03-S20",
+      "time": 1292.5666666666666,
+      "frame": "05_review/frames/main/r1-shot-142.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-143",
+      "scene": "C03-S20",
+      "time": 1295.0833333333333,
+      "frame": "05_review/frames/main/r1-shot-143.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-144",
+      "scene": "C03-S20",
+      "time": 1299.4833333333333,
+      "frame": "05_review/frames/main/r1-shot-144.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-145",
+      "scene": "C03-S21",
+      "time": 1308.8333333333333,
+      "frame": "05_review/frames/main/r1-shot-145.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-146",
+      "scene": "C03-S21",
+      "time": 1327.35,
+      "frame": "05_review/frames/main/r1-shot-146.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-147",
+      "scene": "C03-S22",
+      "time": 1330.7,
+      "frame": "05_review/frames/main/r1-shot-147.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-148",
+      "scene": "C03-S22",
+      "time": 1335.6333333333334,
+      "frame": "05_review/frames/main/r1-shot-148.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-149",
+      "scene": "C03-S23",
+      "time": 1352.1,
+      "frame": "05_review/frames/main/r1-shot-149.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    },
+    {
+      "shot": "shot-150",
+      "scene": "C03-S23",
+      "time": 1368.3666666666666,
+      "frame": "05_review/frames/main/r1-shot-150.png",
+      "decision": "passed",
+      "review_note": "실제 출력 1차: 컷 시점·단서 흐름 대조"
+    }
+  ],
+  "main_second_pass": [
+    {
+      "shot": "shot-000",
+      "scene": "C01-S01",
+      "time": 2.15,
+      "frame": "05_review/frames/main/r2-shot-000.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-001",
+      "scene": "C01-S01",
+      "time": 4.616666666666666,
+      "frame": "05_review/frames/main/r2-shot-001.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-002",
+      "scene": "C01-S02",
+      "time": 17.866666666666667,
+      "frame": "05_review/frames/main/r2-shot-002.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-003",
+      "scene": "C01-S02",
+      "time": 22.516666666666666,
+      "frame": "05_review/frames/main/r2-shot-003.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-004",
+      "scene": "C01-S03",
+      "time": 30.549999999999997,
+      "frame": "05_review/frames/main/r2-shot-004.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-005",
+      "scene": "C01-S03",
+      "time": 42.416666666666664,
+      "frame": "05_review/frames/main/r2-shot-005.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-006",
+      "scene": "C01-S04",
+      "time": 51.71666666666667,
+      "frame": "05_review/frames/main/r2-shot-006.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-007",
+      "scene": "C01-S04",
+      "time": 61.666666666666664,
+      "frame": "05_review/frames/main/r2-shot-007.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-008",
+      "scene": "C01-S05",
+      "time": 78.08333333333333,
+      "frame": "05_review/frames/main/r2-shot-008.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-009",
+      "scene": "C01-S05",
+      "time": 81.41666666666667,
+      "frame": "05_review/frames/main/r2-shot-009.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-010",
+      "scene": "C01-S06",
+      "time": 88.78333333333333,
+      "frame": "05_review/frames/main/r2-shot-010.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-011",
+      "scene": "C01-S06",
+      "time": 102.65,
+      "frame": "05_review/frames/main/r2-shot-011.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-012",
+      "scene": "C01-S07",
+      "time": 107.95,
+      "frame": "05_review/frames/main/r2-shot-012.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-013",
+      "scene": "C01-S07",
+      "time": 123.41666666666667,
+      "frame": "05_review/frames/main/r2-shot-013.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-014",
+      "scene": "C01-S08",
+      "time": 136.73333333333332,
+      "frame": "05_review/frames/main/r2-shot-014.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-015",
+      "scene": "C01-S08",
+      "time": 139.61666666666667,
+      "frame": "05_review/frames/main/r2-shot-015.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-016",
+      "scene": "C01-S08",
+      "time": 143.28333333333333,
+      "frame": "05_review/frames/main/r2-shot-016.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-017",
+      "scene": "C01-S09",
+      "time": 157.91666666666666,
+      "frame": "05_review/frames/main/r2-shot-017.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-018",
+      "scene": "C01-S09",
+      "time": 162.15,
+      "frame": "05_review/frames/main/r2-shot-018.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-019",
+      "scene": "C01-S10",
+      "time": 168.25,
+      "frame": "05_review/frames/main/r2-shot-019.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-020",
+      "scene": "C01-S10",
+      "time": 183.16666666666666,
+      "frame": "05_review/frames/main/r2-shot-020.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-021",
+      "scene": "C01-S11",
+      "time": 192.88333333333333,
+      "frame": "05_review/frames/main/r2-shot-021.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-022",
+      "scene": "C01-S11",
+      "time": 203.31666666666666,
+      "frame": "05_review/frames/main/r2-shot-022.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-023",
+      "scene": "C01-S12",
+      "time": 214.33333333333334,
+      "frame": "05_review/frames/main/r2-shot-023.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-024",
+      "scene": "C01-S12",
+      "time": 220.51666666666668,
+      "frame": "05_review/frames/main/r2-shot-024.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-025",
+      "scene": "C01-S12",
+      "time": 225.55,
+      "frame": "05_review/frames/main/r2-shot-025.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-026",
+      "scene": "C01-S13",
+      "time": 239.68333333333334,
+      "frame": "05_review/frames/main/r2-shot-026.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-027",
+      "scene": "C01-S13",
+      "time": 247.33333333333334,
+      "frame": "05_review/frames/main/r2-shot-027.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-028",
+      "scene": "C01-S14",
+      "time": 261.5833333333333,
+      "frame": "05_review/frames/main/r2-shot-028.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-029",
+      "scene": "C01-S14",
+      "time": 268.6666666666667,
+      "frame": "05_review/frames/main/r2-shot-029.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-030",
+      "scene": "C01-S15",
+      "time": 275.3333333333333,
+      "frame": "05_review/frames/main/r2-shot-030.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-031",
+      "scene": "C01-S15",
+      "time": 288.78333333333336,
+      "frame": "05_review/frames/main/r2-shot-031.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-032",
+      "scene": "C01-S16",
+      "time": 296.15,
+      "frame": "05_review/frames/main/r2-shot-032.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-033",
+      "scene": "C01-S16",
+      "time": 306.98333333333335,
+      "frame": "05_review/frames/main/r2-shot-033.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-034",
+      "scene": "C01-S16",
+      "time": 310.01666666666665,
+      "frame": "05_review/frames/main/r2-shot-034.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-035",
+      "scene": "C01-S17",
+      "time": 314.93333333333334,
+      "frame": "05_review/frames/main/r2-shot-035.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-036",
+      "scene": "C01-S17",
+      "time": 330.8333333333333,
+      "frame": "05_review/frames/main/r2-shot-036.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-037",
+      "scene": "C01-S18",
+      "time": 333.65,
+      "frame": "05_review/frames/main/r2-shot-037.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-038",
+      "scene": "C01-S18",
+      "time": 346.76666666666665,
+      "frame": "05_review/frames/main/r2-shot-038.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-039",
+      "scene": "C01-S18",
+      "time": 353.3666666666667,
+      "frame": "05_review/frames/main/r2-shot-039.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-040",
+      "scene": "C01-S19",
+      "time": 371.1333333333333,
+      "frame": "05_review/frames/main/r2-shot-040.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-041",
+      "scene": "C01-S19",
+      "time": 374.9166666666667,
+      "frame": "05_review/frames/main/r2-shot-041.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-042",
+      "scene": "C01-S20",
+      "time": 378.05,
+      "frame": "05_review/frames/main/r2-shot-042.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-043",
+      "scene": "C01-S20",
+      "time": 397.56666666666666,
+      "frame": "05_review/frames/main/r2-shot-043.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-044",
+      "scene": "C01-S21",
+      "time": 414.31666666666666,
+      "frame": "05_review/frames/main/r2-shot-044.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-045",
+      "scene": "C01-S21",
+      "time": 421.98333333333335,
+      "frame": "05_review/frames/main/r2-shot-045.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-046",
+      "scene": "C01-S22",
+      "time": 435.85,
+      "frame": "05_review/frames/main/r2-shot-046.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-047",
+      "scene": "C01-S22",
+      "time": 446.35,
+      "frame": "05_review/frames/main/r2-shot-047.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-048",
+      "scene": "T01",
+      "time": 448.85,
+      "frame": "05_review/frames/main/r2-shot-048.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-049",
+      "scene": "T01",
+      "time": 451.35,
+      "frame": "05_review/frames/main/r2-shot-049.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-050",
+      "scene": "C02-S01",
+      "time": 452.95000000000005,
+      "frame": "05_review/frames/main/r2-shot-050.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-051",
+      "scene": "C02-S01",
+      "time": 455.23333333333335,
+      "frame": "05_review/frames/main/r2-shot-051.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-052",
+      "scene": "C02-S02",
+      "time": 469.81666666666666,
+      "frame": "05_review/frames/main/r2-shot-052.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-053",
+      "scene": "C02-S02",
+      "time": 476.85,
+      "frame": "05_review/frames/main/r2-shot-053.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-054",
+      "scene": "C02-S03",
+      "time": 489.6,
+      "frame": "05_review/frames/main/r2-shot-054.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-055",
+      "scene": "C02-S03",
+      "time": 500.55,
+      "frame": "05_review/frames/main/r2-shot-055.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-056",
+      "scene": "C02-S04",
+      "time": 502.5,
+      "frame": "05_review/frames/main/r2-shot-056.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-057",
+      "scene": "C02-S04",
+      "time": 511.75,
+      "frame": "05_review/frames/main/r2-shot-057.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-058",
+      "scene": "C02-S04",
+      "time": 520.4166666666666,
+      "frame": "05_review/frames/main/r2-shot-058.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-059",
+      "scene": "C02-S05",
+      "time": 528.4333333333333,
+      "frame": "05_review/frames/main/r2-shot-059.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-060",
+      "scene": "C02-S05",
+      "time": 542.05,
+      "frame": "05_review/frames/main/r2-shot-060.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-061",
+      "scene": "C02-S06",
+      "time": 552.4666666666667,
+      "frame": "05_review/frames/main/r2-shot-061.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-062",
+      "scene": "C02-S06",
+      "time": 560.55,
+      "frame": "05_review/frames/main/r2-shot-062.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-063",
+      "scene": "C02-S07",
+      "time": 570.7666666666667,
+      "frame": "05_review/frames/main/r2-shot-063.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-064",
+      "scene": "C02-S07",
+      "time": 583.05,
+      "frame": "05_review/frames/main/r2-shot-064.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-065",
+      "scene": "C02-S08",
+      "time": 588.5166666666667,
+      "frame": "05_review/frames/main/r2-shot-065.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-066",
+      "scene": "C02-S08",
+      "time": 603.9333333333333,
+      "frame": "05_review/frames/main/r2-shot-066.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-067",
+      "scene": "C02-S09",
+      "time": 621.7,
+      "frame": "05_review/frames/main/r2-shot-067.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-068",
+      "scene": "C02-S09",
+      "time": 625.0666666666667,
+      "frame": "05_review/frames/main/r2-shot-068.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-069",
+      "scene": "C02-S10",
+      "time": 639.3666666666667,
+      "frame": "05_review/frames/main/r2-shot-069.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-070",
+      "scene": "C02-S10",
+      "time": 644.3166666666667,
+      "frame": "05_review/frames/main/r2-shot-070.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-071",
+      "scene": "C02-S11",
+      "time": 649.9333333333333,
+      "frame": "05_review/frames/main/r2-shot-071.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-072",
+      "scene": "C02-S11",
+      "time": 662.1166666666667,
+      "frame": "05_review/frames/main/r2-shot-072.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-073",
+      "scene": "C02-S11",
+      "time": 668.85,
+      "frame": "05_review/frames/main/r2-shot-073.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-074",
+      "scene": "C02-S12",
+      "time": 674.85,
+      "frame": "05_review/frames/main/r2-shot-074.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-075",
+      "scene": "C02-S12",
+      "time": 689.1166666666667,
+      "frame": "05_review/frames/main/r2-shot-075.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-076",
+      "scene": "C02-S13",
+      "time": 708.1,
+      "frame": "05_review/frames/main/r2-shot-076.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-077",
+      "scene": "C02-S13",
+      "time": 710.1666666666666,
+      "frame": "05_review/frames/main/r2-shot-077.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-078",
+      "scene": "C02-S14",
+      "time": 721.4,
+      "frame": "05_review/frames/main/r2-shot-078.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-079",
+      "scene": "C02-S14",
+      "time": 733.4666666666667,
+      "frame": "05_review/frames/main/r2-shot-079.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-080",
+      "scene": "C02-S15",
+      "time": 738.5333333333333,
+      "frame": "05_review/frames/main/r2-shot-080.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-081",
+      "scene": "C02-S15",
+      "time": 745.0166666666667,
+      "frame": "05_review/frames/main/r2-shot-081.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-082",
+      "scene": "C02-S15",
+      "time": 755.2166666666667,
+      "frame": "05_review/frames/main/r2-shot-082.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-083",
+      "scene": "C02-S16",
+      "time": 768.75,
+      "frame": "05_review/frames/main/r2-shot-083.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-084",
+      "scene": "C02-S16",
+      "time": 775.8333333333334,
+      "frame": "05_review/frames/main/r2-shot-084.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-085",
+      "scene": "C02-S17",
+      "time": 793.2,
+      "frame": "05_review/frames/main/r2-shot-085.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-086",
+      "scene": "C02-S17",
+      "time": 797.7666666666667,
+      "frame": "05_review/frames/main/r2-shot-086.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-087",
+      "scene": "C02-S18",
+      "time": 803.9666666666667,
+      "frame": "05_review/frames/main/r2-shot-087.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-088",
+      "scene": "C02-S18",
+      "time": 809.35,
+      "frame": "05_review/frames/main/r2-shot-088.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-089",
+      "scene": "C02-S18",
+      "time": 819.4666666666667,
+      "frame": "05_review/frames/main/r2-shot-089.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-090",
+      "scene": "C02-S19",
+      "time": 826.65,
+      "frame": "05_review/frames/main/r2-shot-090.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-091",
+      "scene": "C02-S19",
+      "time": 841.3666666666667,
+      "frame": "05_review/frames/main/r2-shot-091.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-092",
+      "scene": "C02-S20",
+      "time": 852.95,
+      "frame": "05_review/frames/main/r2-shot-092.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-093",
+      "scene": "C02-S20",
+      "time": 857.65,
+      "frame": "05_review/frames/main/r2-shot-093.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-094",
+      "scene": "C02-S21",
+      "time": 868.0666666666667,
+      "frame": "05_review/frames/main/r2-shot-094.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-095",
+      "scene": "C02-S21",
+      "time": 879.5666666666667,
+      "frame": "05_review/frames/main/r2-shot-095.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-096",
+      "scene": "C02-S22",
+      "time": 885.2166666666667,
+      "frame": "05_review/frames/main/r2-shot-096.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-097",
+      "scene": "C02-S22",
+      "time": 888.75,
+      "frame": "05_review/frames/main/r2-shot-097.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-098",
+      "scene": "C02-S22",
+      "time": 902.85,
+      "frame": "05_review/frames/main/r2-shot-098.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-099",
+      "scene": "T02",
+      "time": 905.35,
+      "frame": "05_review/frames/main/r2-shot-099.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-100",
+      "scene": "T02",
+      "time": 907.85,
+      "frame": "05_review/frames/main/r2-shot-100.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-101",
+      "scene": "C03-S01",
+      "time": 909.45,
+      "frame": "05_review/frames/main/r2-shot-101.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-102",
+      "scene": "C03-S01",
+      "time": 911.9666666666667,
+      "frame": "05_review/frames/main/r2-shot-102.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-103",
+      "scene": "C03-S02",
+      "time": 922.3333333333334,
+      "frame": "05_review/frames/main/r2-shot-103.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-104",
+      "scene": "C03-S02",
+      "time": 934.2333333333333,
+      "frame": "05_review/frames/main/r2-shot-104.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-105",
+      "scene": "C03-S03",
+      "time": 950.8333333333334,
+      "frame": "05_review/frames/main/r2-shot-105.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-106",
+      "scene": "C03-S03",
+      "time": 957.05,
+      "frame": "05_review/frames/main/r2-shot-106.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-107",
+      "scene": "C03-S04",
+      "time": 973.6333333333333,
+      "frame": "05_review/frames/main/r2-shot-107.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-108",
+      "scene": "C03-S04",
+      "time": 978.2666666666667,
+      "frame": "05_review/frames/main/r2-shot-108.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-109",
+      "scene": "C03-S05",
+      "time": 987.3666666666667,
+      "frame": "05_review/frames/main/r2-shot-109.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-110",
+      "scene": "C03-S05",
+      "time": 995.0833333333334,
+      "frame": "05_review/frames/main/r2-shot-110.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-111",
+      "scene": "C03-S06",
+      "time": 1008.9666666666667,
+      "frame": "05_review/frames/main/r2-shot-111.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-112",
+      "scene": "C03-S06",
+      "time": 1016.3833333333333,
+      "frame": "05_review/frames/main/r2-shot-112.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-113",
+      "scene": "C03-S07",
+      "time": 1032.35,
+      "frame": "05_review/frames/main/r2-shot-113.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-114",
+      "scene": "C03-S07",
+      "time": 1038.7333333333333,
+      "frame": "05_review/frames/main/r2-shot-114.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-115",
+      "scene": "C03-S08",
+      "time": 1056.5833333333333,
+      "frame": "05_review/frames/main/r2-shot-115.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-116",
+      "scene": "C03-S08",
+      "time": 1059.35,
+      "frame": "05_review/frames/main/r2-shot-116.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-117",
+      "scene": "C03-S09",
+      "time": 1065.0666666666666,
+      "frame": "05_review/frames/main/r2-shot-117.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-118",
+      "scene": "C03-S09",
+      "time": 1074.6833333333334,
+      "frame": "05_review/frames/main/r2-shot-118.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-119",
+      "scene": "C03-S10",
+      "time": 1087.3833333333334,
+      "frame": "05_review/frames/main/r2-shot-119.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-120",
+      "scene": "C03-S10",
+      "time": 1097.3,
+      "frame": "05_review/frames/main/r2-shot-120.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-121",
+      "scene": "C03-S11",
+      "time": 1111.4333333333334,
+      "frame": "05_review/frames/main/r2-shot-121.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-122",
+      "scene": "C03-S11",
+      "time": 1114.35,
+      "frame": "05_review/frames/main/r2-shot-122.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-123",
+      "scene": "C03-S11",
+      "time": 1120.45,
+      "frame": "05_review/frames/main/r2-shot-123.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-124",
+      "scene": "C03-S12",
+      "time": 1133.9833333333333,
+      "frame": "05_review/frames/main/r2-shot-124.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-125",
+      "scene": "C03-S12",
+      "time": 1142.4666666666667,
+      "frame": "05_review/frames/main/r2-shot-125.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-126",
+      "scene": "C03-S13",
+      "time": 1150.7,
+      "frame": "05_review/frames/main/r2-shot-126.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-127",
+      "scene": "C03-S13",
+      "time": 1159.3666666666666,
+      "frame": "05_review/frames/main/r2-shot-127.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-128",
+      "scene": "C03-S14",
+      "time": 1172.05,
+      "frame": "05_review/frames/main/r2-shot-128.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-129",
+      "scene": "C03-S14",
+      "time": 1181.1333333333334,
+      "frame": "05_review/frames/main/r2-shot-129.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-130",
+      "scene": "C03-S15",
+      "time": 1190.2666666666667,
+      "frame": "05_review/frames/main/r2-shot-130.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-131",
+      "scene": "C03-S15",
+      "time": 1200.4666666666667,
+      "frame": "05_review/frames/main/r2-shot-131.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-132",
+      "scene": "C03-S15",
+      "time": 1204.2,
+      "frame": "05_review/frames/main/r2-shot-132.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-133",
+      "scene": "C03-S16",
+      "time": 1210.2666666666667,
+      "frame": "05_review/frames/main/r2-shot-133.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-134",
+      "scene": "C03-S16",
+      "time": 1219.5,
+      "frame": "05_review/frames/main/r2-shot-134.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-135",
+      "scene": "C03-S17",
+      "time": 1233.15,
+      "frame": "05_review/frames/main/r2-shot-135.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-136",
+      "scene": "C03-S17",
+      "time": 1237.9333333333334,
+      "frame": "05_review/frames/main/r2-shot-136.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-137",
+      "scene": "C03-S17",
+      "time": 1242.35,
+      "frame": "05_review/frames/main/r2-shot-137.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-138",
+      "scene": "C03-S18",
+      "time": 1256.8833333333334,
+      "frame": "05_review/frames/main/r2-shot-138.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-139",
+      "scene": "C03-S18",
+      "time": 1266.9833333333333,
+      "frame": "05_review/frames/main/r2-shot-139.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-140",
+      "scene": "C03-S19",
+      "time": 1276.4833333333333,
+      "frame": "05_review/frames/main/r2-shot-140.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-141",
+      "scene": "C03-S19",
+      "time": 1290.05,
+      "frame": "05_review/frames/main/r2-shot-141.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-142",
+      "scene": "C03-S20",
+      "time": 1292.0833333333333,
+      "frame": "05_review/frames/main/r2-shot-142.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-143",
+      "scene": "C03-S20",
+      "time": 1296.4833333333333,
+      "frame": "05_review/frames/main/r2-shot-143.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-144",
+      "scene": "C03-S20",
+      "time": 1305.8333333333333,
+      "frame": "05_review/frames/main/r2-shot-144.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-145",
+      "scene": "C03-S21",
+      "time": 1324.35,
+      "frame": "05_review/frames/main/r2-shot-145.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-146",
+      "scene": "C03-S21",
+      "time": 1327.7,
+      "frame": "05_review/frames/main/r2-shot-146.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-147",
+      "scene": "C03-S22",
+      "time": 1332.6333333333334,
+      "frame": "05_review/frames/main/r2-shot-147.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-148",
+      "scene": "C03-S22",
+      "time": 1349.1,
+      "frame": "05_review/frames/main/r2-shot-148.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-149",
+      "scene": "C03-S23",
+      "time": 1365.3666666666666,
+      "frame": "05_review/frames/main/r2-shot-149.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    },
+    {
+      "shot": "shot-150",
+      "scene": "C03-S23",
+      "time": 1379.05,
+      "frame": "05_review/frames/main/r2-shot-150.png",
+      "decision": "passed",
+      "review_note": "실제 출력 2차: 컷 말미 확대 크롭·팬·시점 연속성 확인"
+    }
+  ],
+  "status": "main_visual_two_pass_passed",
+  "repairs": [
+    {
+      "scene": "C03-S01",
+      "time": 912.1,
+      "issue": "5ms floating overlap admitted negative rest tweens into next chapter; dim/title persisted.",
+      "decision": "rejected_then_repaired",
+      "source_repair": "Use 60fps-grid transition boundaries; rerender parts 23,46,47; repeat actual-frame checks.",
+      "recheck": "Repaired C03 cold open at 911.967s and 912.1s: clear hallway; rest cue no longer persists. Both passes accepted."
+    }
+  ],
+  "native_clue_checks": [
+    "C03-S09 3 / 아무도 없어요, 네",
+    "C03-S11 4 / 아무도 없어요, 네, 네",
+    "C03-S22 1 / 아무도 없어요 alone",
+    "T01 end cue readable, curtain trace retained during dim",
+    "C03-S23 endscreen right reserve and 1379.05s final label fit"
+  ]
+}

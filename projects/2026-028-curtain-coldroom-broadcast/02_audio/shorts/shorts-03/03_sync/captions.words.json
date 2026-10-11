@@ -1,0 +1,259 @@
+{
+  "duration": 18.56,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.64,
+      "text": "마지막 퇴실 방송에는 대답하지 말라고 했어요."
+    },
+    {
+      "start": 2.94,
+      "end": 5.78,
+      "text": "저는 학교에 아무도 없다고 혼잣말을 했죠."
+    },
+    {
+      "start": 6.36,
+      "end": 9.72,
+      "text": "방송실 화면에 잔류 인원 둘이 떴습니다. 이"
+    },
+    {
+      "start": 9.72,
+      "end": 12.24,
+      "text": "층 교실에 불이 켜졌지만, 안에는 아무도"
+    },
+    {
+      "start": 12.24,
+      "end": 14.78,
+      "text": "없었어요. 같은 안내가 다시 나왔습니다."
+    },
+    {
+      "start": 15.28,
+      "end": 18.56,
+      "text": "이번에는 빈 교실에서 네 하는 대답이 들렸어요."
+    }
+  ],
+  "words": [
+    {
+      "text": "마지막",
+      "start": 0.0,
+      "end": 0.44,
+      "matched": true
+    },
+    {
+      "text": "퇴실",
+      "start": 0.44,
+      "end": 0.8,
+      "matched": true
+    },
+    {
+      "text": "방송에는",
+      "start": 0.8,
+      "end": 1.28,
+      "matched": true
+    },
+    {
+      "text": "대답하지",
+      "start": 1.28,
+      "end": 1.96,
+      "matched": true
+    },
+    {
+      "text": "말라고",
+      "start": 1.96,
+      "end": 2.32,
+      "matched": true
+    },
+    {
+      "text": "했어요.",
+      "start": 2.32,
+      "end": 2.64,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 2.94,
+      "end": 3.5,
+      "matched": true
+    },
+    {
+      "text": "학교에",
+      "start": 3.5,
+      "end": 4.16,
+      "matched": true
+    },
+    {
+      "text": "아무도",
+      "start": 4.16,
+      "end": 4.48,
+      "matched": true
+    },
+    {
+      "text": "없다고",
+      "start": 4.48,
+      "end": 4.84,
+      "matched": true
+    },
+    {
+      "text": "혼잣말을",
+      "start": 4.84,
+      "end": 5.46,
+      "matched": true
+    },
+    {
+      "text": "했죠.",
+      "start": 5.46,
+      "end": 5.78,
+      "matched": true
+    },
+    {
+      "text": "방송실",
+      "start": 6.36,
+      "end": 6.96,
+      "matched": true
+    },
+    {
+      "text": "화면에",
+      "start": 6.96,
+      "end": 7.44,
+      "matched": true
+    },
+    {
+      "text": "잔류",
+      "start": 7.44,
+      "end": 8.18,
+      "matched": true
+    },
+    {
+      "text": "인원",
+      "start": 7.44,
+      "end": 8.18,
+      "matched": true
+    },
+    {
+      "text": "둘이",
+      "start": 8.18,
+      "end": 8.64,
+      "matched": true
+    },
+    {
+      "text": "떴습니다.",
+      "start": 8.64,
+      "end": 9.14,
+      "matched": true
+    },
+    {
+      "text": "이",
+      "start": 9.14,
+      "end": 9.72,
+      "matched": false
+    },
+    {
+      "text": "층",
+      "start": 9.72,
+      "end": 10.02,
+      "matched": true
+    },
+    {
+      "text": "교실에",
+      "start": 10.02,
+      "end": 10.38,
+      "matched": true
+    },
+    {
+      "text": "불이",
+      "start": 10.38,
+      "end": 10.64,
+      "matched": true
+    },
+    {
+      "text": "켜졌지만,",
+      "start": 10.64,
+      "end": 11.16,
+      "matched": true
+    },
+    {
+      "text": "안에는",
+      "start": 11.16,
+      "end": 11.78,
+      "matched": true
+    },
+    {
+      "text": "아무도",
+      "start": 11.78,
+      "end": 12.24,
+      "matched": true
+    },
+    {
+      "text": "없었어요.",
+      "start": 12.24,
+      "end": 12.72,
+      "matched": true
+    },
+    {
+      "text": "같은",
+      "start": 13.26,
+      "end": 13.52,
+      "matched": true
+    },
+    {
+      "text": "안내가",
+      "start": 13.52,
+      "end": 13.92,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 13.92,
+      "end": 14.22,
+      "matched": true
+    },
+    {
+      "text": "나왔습니다.",
+      "start": 14.22,
+      "end": 14.78,
+      "matched": true
+    },
+    {
+      "text": "이번에는",
+      "start": 15.28,
+      "end": 15.76,
+      "matched": true
+    },
+    {
+      "text": "빈",
+      "start": 15.76,
+      "end": 16.1,
+      "matched": true
+    },
+    {
+      "text": "교실에서",
+      "start": 16.1,
+      "end": 16.66,
+      "matched": true
+    },
+    {
+      "text": "네",
+      "start": 16.66,
+      "end": 17.08,
+      "matched": true
+    },
+    {
+      "text": "하는",
+      "start": 17.08,
+      "end": 17.66,
+      "matched": true
+    },
+    {
+      "text": "대답이",
+      "start": 17.66,
+      "end": 18.04,
+      "matched": true
+    },
+    {
+      "text": "들렸어요.",
+      "start": 18.04,
+      "end": 18.56,
+      "matched": true
+    }
+  ]
+}

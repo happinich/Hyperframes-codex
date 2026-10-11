@@ -1,0 +1,221 @@
+{
+  "status": "signal_and_synchronization_review_required",
+  "provenance": "Original deterministic numpy/scipy synthesis in this project; no sampled external recordings.",
+  "voice_only_sha256": "aaf477af34b80636bfa1b93b53570e6185713757d3e6f6c4b12fc15f6a4ffdd4",
+  "voice_master_preserved": true,
+  "bgm_candidate": "cand-04",
+  "events": [
+    {
+      "scene_id": "C01-S10",
+      "spoken_cue": "바닥 긁는 소리가",
+      "start_seconds": 169.02,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C01-S14",
+      "spoken_cue": "금속 고리가",
+      "start_seconds": 260.86,
+      "kind": "metal",
+      "duration_seconds": 0.75,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C01-S16",
+      "spoken_cue": "넘어져",
+      "start_seconds": 299.7,
+      "kind": "thud",
+      "duration_seconds": 0.3,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C01-S18",
+      "spoken_cue": "눌렀어요",
+      "start_seconds": 332.98,
+      "kind": "relay",
+      "duration_seconds": 0.14,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C01-S20",
+      "spoken_cue": "금속 고리가",
+      "start_seconds": 385.48,
+      "kind": "metal",
+      "duration_seconds": 0.75,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C02-S04",
+      "spoken_cue": "상자가 미끄러져",
+      "start_seconds": 502.9433,
+      "kind": "paper",
+      "duration_seconds": 0.6,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S07",
+      "spoken_cue": "가운데 두 장만",
+      "start_seconds": 566.6233,
+      "kind": "pvc",
+      "duration_seconds": 0.65,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S08",
+      "spoken_cue": "바닥을 문지르는",
+      "start_seconds": 584.9033,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S10",
+      "spoken_cue": "그때 상자 안쪽에서",
+      "start_seconds": 633.0033,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S12",
+      "spoken_cue": "상자가 하나 더",
+      "start_seconds": 674.5633,
+      "kind": "paper",
+      "duration_seconds": 0.6,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S16",
+      "spoken_cue": "큰 문이 움직이는",
+      "start_seconds": 763.0833,
+      "kind": "metal",
+      "duration_seconds": 0.75,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C02-S17",
+      "spoken_cue": "걷어찼습니다",
+      "start_seconds": 795.8633,
+      "kind": "thud",
+      "duration_seconds": 0.3,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C02-S18",
+      "spoken_cue": "골판지가 찢어졌습니다",
+      "start_seconds": 812.1433,
+      "kind": "paper",
+      "duration_seconds": 0.6,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C02-S19",
+      "spoken_cue": "금속이 부딪쳤습니다",
+      "start_seconds": 838.3633,
+      "kind": "metal",
+      "duration_seconds": 0.75,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C02-S22",
+      "spoken_cue": "밑창이 종이를",
+      "start_seconds": 894.6433,
+      "kind": "paper",
+      "duration_seconds": 0.6,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S04",
+      "spoken_cue": "스피커에서 안내",
+      "start_seconds": 961.9951,
+      "kind": "relay",
+      "duration_seconds": 0.14,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S06",
+      "spoken_cue": "처음 껐던 교실에서",
+      "start_seconds": 1012.7351,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S07",
+      "spoken_cue": "그때 복도",
+      "start_seconds": 1031.4551,
+      "kind": "relay",
+      "duration_seconds": 0.14,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S11",
+      "spoken_cue": "방송이 시작됐어요",
+      "start_seconds": 1099.1551,
+      "kind": "relay",
+      "duration_seconds": 0.14,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S12",
+      "spoken_cue": "의자를 끄는",
+      "start_seconds": 1135.2951,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S14",
+      "spoken_cue": "전화가 울렸습니다",
+      "start_seconds": 1161.2151,
+      "kind": "buzz",
+      "duration_seconds": 0.7,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S17",
+      "spoken_cue": "의자 다리를",
+      "start_seconds": 1225.2151,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S18",
+      "spoken_cue": "다시 울렸습니다",
+      "start_seconds": 1257.3951,
+      "kind": "buzz",
+      "duration_seconds": 0.7,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S19",
+      "spoken_cue": "의자가 문에",
+      "start_seconds": 1275.7151,
+      "kind": "thud",
+      "duration_seconds": 0.3,
+      "peak_dbfs": -37.077439286435244
+    },
+    {
+      "scene_id": "C03-S21",
+      "spoken_cue": "학교 쪽으로",
+      "start_seconds": 1322.5351,
+      "kind": "scrape",
+      "duration_seconds": 1.25,
+      "peak_dbfs": -40.9151498112135
+    },
+    {
+      "scene_id": "C03-S23",
+      "spoken_cue": "음성 메시지가",
+      "start_seconds": 1355.5151,
+      "kind": "relay",
+      "duration_seconds": 0.14,
+      "peak_dbfs": -40.9151498112135
+    }
+  ],
+  "ambience_max_peak_dbfs": -46,
+  "subjective_listening_performed": false,
+  "listening_limitation": "Tools do not provide auditory perception; do not claim review by ear.",
+  "shorts_no_outro_extension": true
+}

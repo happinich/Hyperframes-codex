@@ -1,0 +1,506 @@
+{
+  "language_code": "kor",
+  "language_probability": 1.0,
+  "text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠. 방송실 화면에 잔류 인원 둘이 떴습니다. 2층 교실에 불이 켜졌지만 안에는 아무도 없었어요. 같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 \"네\" 하는 대답이 들렸어요.",
+  "words": [
+    {
+      "text": "마지막",
+      "start": 0.22,
+      "end": 0.5,
+      "type": "word",
+      "logprob": -0.0007959038721310208
+    },
+    {
+      "text": " ",
+      "start": 0.5,
+      "end": 0.62,
+      "type": "spacing",
+      "logprob": -4.351044481154531e-05
+    },
+    {
+      "text": "퇴실",
+      "start": 0.62,
+      "end": 0.82,
+      "type": "word",
+      "logprob": -2.90865400529583e-05
+    },
+    {
+      "text": " ",
+      "start": 0.82,
+      "end": 0.94,
+      "type": "spacing",
+      "logprob": -0.0017044316045939922
+    },
+    {
+      "text": "방송에는",
+      "start": 0.94,
+      "end": 1.52,
+      "type": "word",
+      "logprob": -0.0008545403779862681
+    },
+    {
+      "text": " ",
+      "start": 1.52,
+      "end": 1.6,
+      "type": "spacing",
+      "logprob": -5.602820692729438e-06
+    },
+    {
+      "text": "대답하지",
+      "start": 1.6,
+      "end": 1.98,
+      "type": "word",
+      "logprob": -4.955672130790845e-05
+    },
+    {
+      "text": " ",
+      "start": 1.98,
+      "end": 2.12,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "말라고",
+      "start": 2.12,
+      "end": 2.36,
+      "type": "word",
+      "logprob": -1.1523555182672378e-06
+    },
+    {
+      "text": " ",
+      "start": 2.36,
+      "end": 2.4,
+      "type": "spacing",
+      "logprob": -5.781483559985645e-05
+    },
+    {
+      "text": "했어요.",
+      "start": 2.46,
+      "end": 2.76,
+      "type": "word",
+      "logprob": -2.083132585184444e-05
+    },
+    {
+      "text": " ",
+      "start": 2.76,
+      "end": 2.76,
+      "type": "spacing",
+      "logprob": -4.136476854910143e-05
+    },
+    {
+      "text": "저는",
+      "start": 3.4,
+      "end": 3.8,
+      "type": "word",
+      "logprob": -4.136476854910143e-05
+    },
+    {
+      "text": " ",
+      "start": 3.8,
+      "end": 3.94,
+      "type": "spacing",
+      "logprob": -3.111314072157256e-05
+    },
+    {
+      "text": "학교에",
+      "start": 3.94,
+      "end": 4.18,
+      "type": "word",
+      "logprob": -2.0821566664608326e-05
+    },
+    {
+      "text": " ",
+      "start": 4.18,
+      "end": 4.28,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "아무도",
+      "start": 4.28,
+      "end": 4.48,
+      "type": "word",
+      "logprob": -2.7815494737145247e-07
+    },
+    {
+      "text": " ",
+      "start": 4.48,
+      "end": 4.62,
+      "type": "spacing",
+      "logprob": -4.529942543740617e-06
+    },
+    {
+      "text": "없다고",
+      "start": 4.62,
+      "end": 4.96,
+      "type": "word",
+      "logprob": -1.8278722109243972e-06
+    },
+    {
+      "text": " ",
+      "start": 4.96,
+      "end": 5.08,
+      "type": "spacing",
+      "logprob": -1.07287787614041e-05
+    },
+    {
+      "text": "혼잣말을",
+      "start": 5.08,
+      "end": 5.48,
+      "type": "word",
+      "logprob": -0.00035571485953767024
+    },
+    {
+      "text": " ",
+      "start": 5.48,
+      "end": 5.64,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "했죠.",
+      "start": 5.64,
+      "end": 5.8,
+      "type": "word",
+      "logprob": -5.364391237587067e-06
+    },
+    {
+      "text": " ",
+      "start": 5.8,
+      "end": 5.8,
+      "type": "spacing",
+      "logprob": -4.887569048150908e-06
+    },
+    {
+      "text": "방송실",
+      "start": 6.64,
+      "end": 7.0,
+      "type": "word",
+      "logprob": -7.907509219270045e-06
+    },
+    {
+      "text": " ",
+      "start": 7.0,
+      "end": 7.1,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "화면에",
+      "start": 7.1,
+      "end": 7.58,
+      "type": "word",
+      "logprob": -2.1060283567445972e-06
+    },
+    {
+      "text": " ",
+      "start": 7.58,
+      "end": 7.78,
+      "type": "spacing",
+      "logprob": -8.987976616481319e-05
+    },
+    {
+      "text": "잔류",
+      "start": 7.78,
+      "end": 7.92,
+      "type": "word",
+      "logprob": -0.00014834324611001648
+    },
+    {
+      "text": " ",
+      "start": 7.92,
+      "end": 8.039,
+      "type": "spacing",
+      "logprob": -0.0004880429187323898
+    },
+    {
+      "text": "인원",
+      "start": 8.039,
+      "end": 8.22,
+      "type": "word",
+      "logprob": -0.0002445579008849563
+    },
+    {
+      "text": " ",
+      "start": 8.22,
+      "end": 8.48,
+      "type": "spacing",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": "둘이",
+      "start": 8.52,
+      "end": 8.6,
+      "type": "word",
+      "logprob": -1.1742018614313565e-05
+    },
+    {
+      "text": " ",
+      "start": 8.6,
+      "end": 8.74,
+      "type": "spacing",
+      "logprob": -2.9802276912960224e-06
+    },
+    {
+      "text": "떴습니다.",
+      "start": 8.74,
+      "end": 9.18,
+      "type": "word",
+      "logprob": -0.00020553247628640747
+    },
+    {
+      "text": " ",
+      "start": 9.18,
+      "end": 9.18,
+      "type": "spacing",
+      "logprob": -0.005957465618848801
+    },
+    {
+      "text": "2층",
+      "start": 9.84,
+      "end": 10.04,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 10.04,
+      "end": 10.14,
+      "type": "spacing",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": "교실에",
+      "start": 10.14,
+      "end": 10.42,
+      "type": "word",
+      "logprob": -1.0689016221476777e-05
+    },
+    {
+      "text": " ",
+      "start": 10.42,
+      "end": 10.54,
+      "type": "spacing",
+      "logprob": -1.9073468138230965e-06
+    },
+    {
+      "text": "불이",
+      "start": 10.54,
+      "end": 10.62,
+      "type": "word",
+      "logprob": -9.536734069115482e-07
+    },
+    {
+      "text": " ",
+      "start": 10.62,
+      "end": 10.72,
+      "type": "spacing",
+      "logprob": -1.5735502529423684e-05
+    },
+    {
+      "text": "켜졌지만",
+      "start": 10.72,
+      "end": 11.26,
+      "type": "word",
+      "logprob": -6.9140616005824995e-06
+    },
+    {
+      "text": " ",
+      "start": 11.26,
+      "end": 11.6,
+      "type": "spacing",
+      "logprob": -0.0006392342620529234
+    },
+    {
+      "text": "안에는",
+      "start": 11.6,
+      "end": 11.92,
+      "type": "word",
+      "logprob": -0.00024208505055867136
+    },
+    {
+      "text": " ",
+      "start": 11.92,
+      "end": 12.02,
+      "type": "spacing",
+      "logprob": -7.152555099310121e-07
+    },
+    {
+      "text": "아무도",
+      "start": 12.02,
+      "end": 12.24,
+      "type": "word",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": " ",
+      "start": 12.24,
+      "end": 12.38,
+      "type": "spacing",
+      "logprob": -5.960462772236497e-07
+    },
+    {
+      "text": "없었어요.",
+      "start": 12.38,
+      "end": 12.8,
+      "type": "word",
+      "logprob": -1.6307618909650046e-05
+    },
+    {
+      "text": " ",
+      "start": 12.8,
+      "end": 12.8,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "같은",
+      "start": 13.46,
+      "end": 13.58,
+      "type": "word",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": " ",
+      "start": 13.58,
+      "end": 13.64,
+      "type": "spacing",
+      "logprob": -0.0001110968878492713
+    },
+    {
+      "text": "안내가",
+      "start": 13.64,
+      "end": 14.02,
+      "type": "word",
+      "logprob": -7.414406474974082e-05
+    },
+    {
+      "text": " ",
+      "start": 14.02,
+      "end": 14.12,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "다시",
+      "start": 14.12,
+      "end": 14.26,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 14.26,
+      "end": 14.34,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "나왔습니다.",
+      "start": 14.34,
+      "end": 14.84,
+      "type": "word",
+      "logprob": -1.589457004532354e-07
+    },
+    {
+      "text": " ",
+      "start": 14.84,
+      "end": 14.84,
+      "type": "spacing",
+      "logprob": -1.680836794548668e-05
+    },
+    {
+      "text": "이번에는",
+      "start": 15.32,
+      "end": 15.92,
+      "type": "word",
+      "logprob": -8.702207111355165e-06
+    },
+    {
+      "text": " ",
+      "start": 15.92,
+      "end": 16.1,
+      "type": "spacing",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": "빈",
+      "start": 16.1,
+      "end": 16.16,
+      "type": "word",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": " ",
+      "start": 16.16,
+      "end": 16.239,
+      "type": "spacing",
+      "logprob": -0.0021852203644812107
+    },
+    {
+      "text": "교실에서",
+      "start": 16.239,
+      "end": 16.9,
+      "type": "word",
+      "logprob": -0.0005464243003956426
+    },
+    {
+      "text": " ",
+      "start": 16.9,
+      "end": 16.92,
+      "type": "spacing",
+      "logprob": -0.0007563352701254189
+    },
+    {
+      "text": "\"네\"",
+      "start": 16.92,
+      "end": 17.22,
+      "type": "word",
+      "logprob": -0.014608396948460722
+    },
+    {
+      "text": " ",
+      "start": 17.22,
+      "end": 17.58,
+      "type": "spacing",
+      "logprob": -0.016034699976444244
+    },
+    {
+      "text": "하는",
+      "start": 17.58,
+      "end": 17.74,
+      "type": "word",
+      "logprob": -0.016034699976444244
+    },
+    {
+      "text": " ",
+      "start": 17.74,
+      "end": 17.82,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "대답이",
+      "start": 17.82,
+      "end": 18.04,
+      "type": "word",
+      "logprob": -2.344444887114605e-06
+    },
+    {
+      "text": " ",
+      "start": 18.04,
+      "end": 18.12,
+      "type": "spacing",
+      "logprob": -1.0728830375228426e-06
+    },
+    {
+      "text": "들렸어요.",
+      "start": 18.12,
+      "end": 18.58,
+      "type": "word",
+      "logprob": -0.0013623798188518777
+    }
+  ],
+  "transcription_id": "wwJfOYE1XQfpDmTqzSgz",
+  "audio_duration_secs": 18.7798125
+}

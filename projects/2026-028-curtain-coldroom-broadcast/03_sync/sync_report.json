@@ -1,0 +1,9 @@
+{
+  "status": "ready_for_review",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "matched_character_ratio": 0.9924,
+  "required_ratio": 0.92,
+  "source": "separately aligned reviewed chapter takes with exact PCM offsets",
+  "caption_text_source": "01_script/narration.txt",
+  "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions"
+}

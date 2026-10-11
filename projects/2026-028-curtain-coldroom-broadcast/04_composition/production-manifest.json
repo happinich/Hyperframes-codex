@@ -1,0 +1,14 @@
+{
+  "status": "rendered_and_verified",
+  "fps": 60,
+  "duration_seconds": 1380.545333,
+  "chapter_styles": {
+    "C01": "horror_shadow_theatre",
+    "C02": "horror_retro_3d",
+    "C03": "horror_pixel"
+  },
+  "longform_camera_shots": 151,
+  "shorts": 3,
+  "external_caption_files_delivery": false,
+  "burned_longform_captions": false
+}

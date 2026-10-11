@@ -1,0 +1,29 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "status": "approved",
+  "primary": {
+    "gender": "female",
+    "voice": "Esther",
+    "reason": "앞선 여성 보이스 선호를 참고한 추천. 서로 다른 세 직업의 일인칭 화자를 담담한 구술에서 불안으로 연결한다. 서사상 성별은 고정되지 않는다."
+  },
+  "alternative": {
+    "gender": "male",
+    "tradeoff": "더 거리감 있는 경험담 전달; 같은 편에서도 기존 여성 보이스와 음색 대비가 커짐"
+  },
+  "request": {
+    "model_id": "eleven_v4",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "performance_direction": "담담한 자연스러운 존댓말 구술. 대답·괴물 소리 등은 음성 마스터에 넣지 않고 별도 연출 층으로 계획. sparse tags only in TTS source."
+  },
+  "postprocess": {
+    "voice_speed_multiplier": 1.0,
+    "automatic_speedup": false,
+    "preserve_pitch": true
+  },
+  "selected_voice": "Esther",
+  "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+  "approval": "여성 Esther로 진행"
+}

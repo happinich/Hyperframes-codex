@@ -1,0 +1,28 @@
+{
+  "thumbnails": [
+    {
+      "file": "07_publish/youtube/thumbnail-a.png",
+      "sha256": "04ad829e5caca70de101dd9951e8526a1604448ec8a12ed40d7c35e501501cad",
+      "resolution": [
+        1280,
+        720
+      ],
+      "first_pass": "원본 생성 자산 검수와 별도로 실제 글자 합성 최종 PNG의 크롭·글자 범위·손/모니터 단서 확인. passed",
+      "second_pass": "본편 제목과 중복하지 않는 5/6음절 문구, 좌측 큰 글자·우측 단일 단서, 모바일 대비 및 장면 스타일 일치 확인. passed",
+      "text": "누가 잡았지",
+      "decision": "approved"
+    },
+    {
+      "file": "07_publish/youtube/thumbnail-b.png",
+      "sha256": "8323783a86cc4b99cca474a8852fbc4aa34d349bfabccdaac61665d9f6c39544",
+      "resolution": [
+        1280,
+        720
+      ],
+      "first_pass": "원본 생성 자산 검수와 별도로 실제 글자 합성 최종 PNG의 크롭·글자 범위·손/모니터 단서 확인. passed",
+      "second_pass": "본편 제목과 중복하지 않는 5/6음절 문구, 좌측 큰 글자·우측 단일 단서, 모바일 대비 및 장면 스타일 일치 확인. passed",
+      "text": "한 명 더 있다",
+      "decision": "approved"
+    }
+  ]
+}

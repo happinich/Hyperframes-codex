@@ -1,0 +1,34 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "scope": "planning_structure_only_not_media_review",
+  "result": "pass",
+  "chapters": 3,
+  "chapter_estimates_seconds": [
+    435.5,
+    442.0,
+    444.5
+  ],
+  "anomaly_estimates_seconds": [
+    44.5,
+    47.5,
+    48.5
+  ],
+  "short_estimates_seconds": [
+    16.82,
+    17.29,
+    17.29
+  ],
+  "planned_shots": 134,
+  "checks": [
+    "exact narration and caption source match",
+    "continuous estimated scene and shot timeline",
+    "two genuinely different camera setup descriptions per scene",
+    "unique planned asset IDs",
+    "explicit five-second chapter narration gaps",
+    "original 1.00x speed",
+    "draft story and short duration windows",
+    "fresh portrait asset plan"
+  ],
+  "media_generated": false,
+  "voice_image_render_review": "pending"
+}

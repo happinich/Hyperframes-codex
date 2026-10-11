@@ -3,7 +3,7 @@
 ## 업로드 파일
 
 - 쇼츠 영상: `../../06_delivery/shorts/{{PROJECT_ID}}-shorts.mp4`
-- 외부 자막: `../../06_delivery/shorts/{{PROJECT_ID}}-shorts-ko.srt`
+- 외부 자막: 납품·업로드하지 않음. YouTube 자동 자막 사용.
 - 영상 형식: `1080x1920`, `9:16`, `60fps`
 - 목표 길이: `15~40초`
 - 작품 성격: `{{CONTENT_NATURE}}`

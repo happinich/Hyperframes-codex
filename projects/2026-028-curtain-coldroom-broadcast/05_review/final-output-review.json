@@ -1,0 +1,53 @@
+{
+  "status": "verified",
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "main_file": "06_delivery/youtube/2026-028-curtain-coldroom-broadcast-youtube.mp4",
+  "sha256": "850ba7bf23bbac6e84768b1d9c18853d5f9ca156f4323495b0ba6103ece43193",
+  "main": {
+    "video_duration": 1380.55,
+    "audio_duration": 1380.545,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 60,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "sample_rate": 48000,
+    "visual_passes": 2,
+    "shots_reviewed_per_pass": 151,
+    "freeze_events_over_3s": 0,
+    "black_events_over_1s": 0,
+    "silence_events_over_0_8s_at_minus45db": 0,
+    "final_mux_extra_frame_times": [
+      0,
+      6.7,
+      447.9,
+      449.7,
+      451.8,
+      452.95,
+      457,
+      904.4,
+      906.2,
+      908.4,
+      909.5,
+      914,
+      1359.9,
+      1376.6,
+      1380.3
+    ],
+    "final_mux_transition_and_ending_decision": "passed",
+    "outro_seconds": 4,
+    "end_screen_reserve_seconds": 20
+  },
+  "shorts_review": "shorts-output-review.json",
+  "thumbnail_review": "thumbnail-output-review.json",
+  "image_review": "image-review.json",
+  "caption_delivery": "youtube_automatic_no_external_files",
+  "audio_review_scope": "Whisper and independent Scribe text comparison plus PCM signal checks. Subjective ear-based naturalness and music judgment were not performed.",
+  "render_lint": {
+    "errors": 0,
+    "warnings": 1,
+    "mitigation": "Master heavy-overlay warning addressed in actual output by 69 scene/transition compositions, at most four images per part; all cache fingerprints and frame counts verified."
+  }
+}

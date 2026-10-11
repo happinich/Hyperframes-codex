@@ -249,9 +249,11 @@ silently carry a previous project's style or BGM into a new project.
   renderer must preserve an existing completed master's detected fps.
 - Render a clean master first. Create the captioned derivative only after the
   clean master passes review and the selected profile explicitly enables it.
-- Keep SRT and VTT as separate uploadable caption files.
+- For new productions from 2026-10-11, use YouTube automatic captions and do not
+  deliver or upload external SRT/VTT. Keep Whisper words and internal caption
+  timing artifacts for synchronization and Shorts burned captions.
 - Horror long-form videos default to no burned captions. Deliver the clean master
-  plus SRT and VTT for YouTube captions. Generate a restrained semantic-phrase
+  and use YouTube automatic captions. Generate a restrained semantic-phrase
   captioned derivative only when the project brief explicitly approves it.
 
 ## Standard Commands
@@ -328,7 +330,7 @@ Before declaring a video complete:
 Each finished YouTube project should include:
 
 - Clean 1920x1080 MP4
-- SRT and VTT files
+- YouTube automatic captions; no external SRT/VTT delivery for new productions
 - For horror, no captioned MP4 by default; include one only when explicitly
   enabled in the project brief
 - Two readable, provocative 1280x720 thumbnails
@@ -337,7 +339,7 @@ Each finished YouTube project should include:
 - Description with accurate timestamps, sources, hashtags, and tags
 - Pinned comment, SNS promotional copy, and recommended publishing time
 - At least one 1080x1920, 60fps, 15-40 second Short built as a separate vertical
-  composition, with burned captions plus uploadable SRT and VTT files
+  composition, with burned captions; no external SRT/VTT delivery
 - One Shorts publishing helper containing its title, description, hashtags,
   pinned comment, recommended time, and the exact long-form Related Video target
 - Horror title and thumbnail must complement rather than repeat each other. Use
@@ -351,7 +353,7 @@ Keep publishing assets under `07_publish/`. Do not claim that an artifact exists
 until it has been generated and verified.
 
 After final review, upload the long-form publishing strategy (MD/HTML), final
-thumbnails, Shorts MP4, Shorts publishing strategy (MD/HTML), and final SRT/VTT
+thumbnails, Shorts MP4, and Shorts publishing strategy (MD/HTML)
 to the Google Drive folder configured in
 `config/success-rules.json` under `publishing_rules.google_drive_delivery`.
 Use a project-ID subfolder, exclude long-form MP4, verify the uploaded file list,

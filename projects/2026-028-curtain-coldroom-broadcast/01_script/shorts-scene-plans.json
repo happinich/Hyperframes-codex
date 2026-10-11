@@ -1,0 +1,691 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "shorts": [
+    {
+      "id": "SH1",
+      "narration_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠. 커튼 뒤를 확인했지만 아무도 없었습니다. 그런데 객석으로 내려오면 같은 발이 다시 보였어요. 조명을 옮겨도 그림자는 움직이지 않았습니다. 제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+      "caption_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠. 커튼 뒤를 확인했지만 아무도 없었습니다. 그런데 객석으로 내려오면 같은 발이 다시 보였어요. 조명을 옮겨도 그림자는 움직이지 않았습니다. 제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+      "estimated_duration_seconds": 16.82,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-01-narration.txt",
+      "visual_style_id": "horror_shadow_theatre",
+      "assets": [
+        {
+          "asset_id": "SH1-01",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH1-02",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH1-03",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH1-04",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "two_pass_actual_output_and_technical_checks_passed",
+      "status": "approved_timed_voice_review_passed",
+      "duration_seconds": 19.594563,
+      "scenes": [
+        {
+          "id": "SH1-cut-01",
+          "asset_id": "SH1-01",
+          "narration_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠.",
+          "caption_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠.",
+          "start_seconds": 0.0,
+          "end_seconds": 5.116666666666666,
+          "spoken_start_seconds": 0.0,
+          "spoken_end_seconds": 4.96,
+          "visual_style_id": "horror_shadow_theatre",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH1-cut-02",
+          "asset_id": "SH1-02",
+          "narration_text": "커튼 뒤를 확인했지만 아무도 없었습니다.",
+          "caption_text": "커튼 뒤를 확인했지만 아무도 없었습니다.",
+          "start_seconds": 5.116666666666666,
+          "end_seconds": 8.216666666666667,
+          "spoken_start_seconds": 5.46,
+          "spoken_end_seconds": 7.78,
+          "visual_style_id": "horror_shadow_theatre",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH1-cut-03",
+          "asset_id": "SH1-01",
+          "narration_text": "그런데 객석으로 내려오면 같은 발이 다시 보였어요.",
+          "caption_text": "그런데 객석으로 내려오면 같은 발이 다시 보였어요.",
+          "start_seconds": 8.216666666666667,
+          "end_seconds": 11.883333333333333,
+          "spoken_start_seconds": 8.56,
+          "spoken_end_seconds": 11.66,
+          "visual_style_id": "horror_shadow_theatre",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": "의도한 발 단서 재확인",
+          "screen_text": []
+        },
+        {
+          "id": "SH1-cut-04",
+          "asset_id": "SH1-03",
+          "narration_text": "조명을 옮겨도 그림자는 움직이지 않았습니다.",
+          "caption_text": "조명을 옮겨도 그림자는 움직이지 않았습니다.",
+          "start_seconds": 11.883333333333333,
+          "end_seconds": 15.116666666666667,
+          "spoken_start_seconds": 12.24,
+          "spoken_end_seconds": 14.76,
+          "visual_style_id": "horror_shadow_theatre",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH1-cut-05",
+          "asset_id": "SH1-04",
+          "narration_text": "제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+          "caption_text": "제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+          "start_seconds": 15.116666666666667,
+          "end_seconds": 19.594563,
+          "spoken_start_seconds": 15.46,
+          "spoken_end_seconds": 18.96,
+          "visual_style_id": "horror_shadow_theatre",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        }
+      ],
+      "shots": [
+        {
+          "id": "short-1-0",
+          "scene_id": "SH1-cut-01",
+          "chapter": "C01",
+          "asset": "SH1-01",
+          "start": 0.0,
+          "end": 5.116666666666666,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-1-1",
+          "scene_id": "SH1-cut-02",
+          "chapter": "C01",
+          "asset": "SH1-02",
+          "start": 5.116666666666666,
+          "end": 8.216666666666667,
+          "size": "detail",
+          "text": []
+        },
+        {
+          "id": "short-1-2",
+          "scene_id": "SH1-cut-03",
+          "chapter": "C01",
+          "asset": "SH1-01",
+          "start": 8.216666666666667,
+          "end": 11.883333333333333,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-1-3",
+          "scene_id": "SH1-cut-04",
+          "chapter": "C01",
+          "asset": "SH1-03",
+          "start": 11.883333333333333,
+          "end": 15.116666666666667,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-1-4",
+          "scene_id": "SH1-cut-05",
+          "chapter": "C01",
+          "asset": "SH1-04",
+          "start": 15.116666666666667,
+          "end": 19.594563,
+          "size": "wide",
+          "text": []
+        }
+      ],
+      "caption_cues": [
+        {
+          "start": 0.0,
+          "end": 2.28,
+          "text": "빈 무대의 커튼 아래에 발이 있었어요."
+        },
+        {
+          "start": 2.6,
+          "end": 4.96,
+          "text": "공연은 끝났고, 배우들도 돌아갔죠."
+        },
+        {
+          "start": 5.46,
+          "end": 7.3,
+          "text": "커튼 뒤를 확인했지만 아무도"
+        },
+        {
+          "start": 7.3,
+          "end": 7.78,
+          "text": "없었습니다."
+        },
+        {
+          "start": 8.56,
+          "end": 10.86,
+          "text": "그런데 객석으로 내려오면 같은 발이"
+        },
+        {
+          "start": 10.86,
+          "end": 11.66,
+          "text": "다시 보였어요."
+        },
+        {
+          "start": 12.24,
+          "end": 14.24,
+          "text": "조명을 옮겨도 그림자는 움직이지"
+        },
+        {
+          "start": 14.24,
+          "end": 14.76,
+          "text": "않았습니다."
+        },
+        {
+          "start": 15.46,
+          "end": 17.86,
+          "text": "제가 커튼 줄을 당기자, 뒤에서 바닥"
+        },
+        {
+          "start": 17.86,
+          "end": 18.96,
+          "text": "긁는 소리가 가까워졌어요."
+        }
+      ]
+    },
+    {
+      "id": "SH2",
+      "narration_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠. 상자를 열어 보니 비어 있었습니다. 그런데 비닐막 뒤에 사람 같은 등이 보였어요. 무전기로 확인하니 아무도 들어간 적 없다고 했습니다. 그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+      "caption_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠. 상자를 열어 보니 비어 있었습니다. 그런데 비닐막 뒤에 사람 같은 등이 보였어요. 무전기로 확인하니 아무도 들어간 적 없다고 했습니다. 그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+      "estimated_duration_seconds": 17.29,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-02-narration.txt",
+      "visual_style_id": "horror_retro_3d",
+      "assets": [
+        {
+          "asset_id": "SH2-01",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH2-02",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH2-03",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH2-04",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH2-05",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "two_pass_actual_output_and_technical_checks_passed",
+      "status": "approved_timed_voice_review_passed",
+      "duration_seconds": 18.998104,
+      "scenes": [
+        {
+          "id": "SH2-cut-01",
+          "asset_id": "SH2-01",
+          "narration_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠.",
+          "caption_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠.",
+          "start_seconds": 0.0,
+          "end_seconds": 6.166666666666667,
+          "spoken_start_seconds": 0.0,
+          "spoken_end_seconds": 6.02,
+          "visual_style_id": "horror_retro_3d",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH2-cut-02",
+          "asset_id": "SH2-02",
+          "narration_text": "상자를 열어 보니 비어 있었습니다.",
+          "caption_text": "상자를 열어 보니 비어 있었습니다.",
+          "start_seconds": 6.166666666666667,
+          "end_seconds": 8.716666666666667,
+          "spoken_start_seconds": 6.52,
+          "spoken_end_seconds": 8.34,
+          "visual_style_id": "horror_retro_3d",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH2-cut-03",
+          "asset_id": "SH2-03",
+          "narration_text": "그런데 비닐막 뒤에 사람 같은 등이 보였어요.",
+          "caption_text": "그런데 비닐막 뒤에 사람 같은 등이 보였어요.",
+          "start_seconds": 8.716666666666667,
+          "end_seconds": 12.033333333333333,
+          "spoken_start_seconds": 9.06,
+          "spoken_end_seconds": 11.82,
+          "visual_style_id": "horror_retro_3d",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH2-cut-04",
+          "asset_id": "SH2-04",
+          "narration_text": "무전기로 확인하니 아무도 들어간 적 없다고 했습니다.",
+          "caption_text": "무전기로 확인하니 아무도 들어간 적 없다고 했습니다.",
+          "start_seconds": 12.033333333333333,
+          "end_seconds": 15.533333333333333,
+          "spoken_start_seconds": 12.38,
+          "spoken_end_seconds": 15.12,
+          "visual_style_id": "horror_retro_3d",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH2-cut-05",
+          "asset_id": "SH2-05",
+          "narration_text": "그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+          "caption_text": "그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+          "start_seconds": 15.533333333333333,
+          "end_seconds": 18.998104,
+          "spoken_start_seconds": 15.88,
+          "spoken_end_seconds": 18.7,
+          "visual_style_id": "horror_retro_3d",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        }
+      ],
+      "shots": [
+        {
+          "id": "short-2-0",
+          "scene_id": "SH2-cut-01",
+          "chapter": "C02",
+          "asset": "SH2-01",
+          "start": 0.0,
+          "end": 6.166666666666667,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-2-1",
+          "scene_id": "SH2-cut-02",
+          "chapter": "C02",
+          "asset": "SH2-02",
+          "start": 6.166666666666667,
+          "end": 8.716666666666667,
+          "size": "detail",
+          "text": []
+        },
+        {
+          "id": "short-2-2",
+          "scene_id": "SH2-cut-03",
+          "chapter": "C02",
+          "asset": "SH2-03",
+          "start": 8.716666666666667,
+          "end": 12.033333333333333,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-2-3",
+          "scene_id": "SH2-cut-04",
+          "chapter": "C02",
+          "asset": "SH2-04",
+          "start": 12.033333333333333,
+          "end": 15.533333333333333,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-2-4",
+          "scene_id": "SH2-cut-05",
+          "chapter": "C02",
+          "asset": "SH2-05",
+          "start": 15.533333333333333,
+          "end": 18.998104,
+          "size": "wide",
+          "text": []
+        }
+      ],
+      "caption_cues": [
+        {
+          "start": 0.0,
+          "end": 2.12,
+          "text": "빈 냉동창고에서 상자가 저절로"
+        },
+        {
+          "start": 2.12,
+          "end": 2.8,
+          "text": "움직였어요."
+        },
+        {
+          "start": 3.4,
+          "end": 5.38,
+          "text": "입고 작업은 끝났고, 안에는 저"
+        },
+        {
+          "start": 5.38,
+          "end": 6.02,
+          "text": "혼자였죠."
+        },
+        {
+          "start": 6.52,
+          "end": 8.34,
+          "text": "상자를 열어 보니 비어 있었습니다."
+        },
+        {
+          "start": 9.06,
+          "end": 11.3,
+          "text": "그런데 비닐막 뒤에 사람 같은 등이"
+        },
+        {
+          "start": 11.3,
+          "end": 11.82,
+          "text": "보였어요."
+        },
+        {
+          "start": 12.38,
+          "end": 14.46,
+          "text": "무전기로 확인하니 아무도 들어간 적"
+        },
+        {
+          "start": 14.46,
+          "end": 15.12,
+          "text": "없다고 했습니다."
+        },
+        {
+          "start": 15.88,
+          "end": 18.14,
+          "text": "그때 제 앞의 운반대가 통로를 막기"
+        },
+        {
+          "start": 18.14,
+          "end": 18.7,
+          "text": "시작했어요."
+        }
+      ]
+    },
+    {
+      "id": "SH3",
+      "narration_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠. 방송실 화면에 잔류 인원 둘이 떴습니다. 이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요. 같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+      "caption_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠. 방송실 화면에 잔류 인원 둘이 떴습니다. 이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요. 같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+      "estimated_duration_seconds": 17.29,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-03-narration.txt",
+      "visual_style_id": "horror_pixel",
+      "assets": [
+        {
+          "asset_id": "SH3-01",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH3-02",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH3-03",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        },
+        {
+          "asset_id": "SH3-04",
+          "fresh_portrait": true,
+          "reuse_longform": false,
+          "generation_status": "generated_and_individually_reviewed_twice"
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "two_pass_actual_output_and_technical_checks_passed",
+      "status": "approved_timed_voice_review_passed",
+      "duration_seconds": 18.779813,
+      "scenes": [
+        {
+          "id": "SH3-cut-01",
+          "asset_id": "SH3-01",
+          "narration_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠.",
+          "caption_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠.",
+          "start_seconds": 0.0,
+          "end_seconds": 6.016666666666667,
+          "spoken_start_seconds": 0.0,
+          "spoken_end_seconds": 5.78,
+          "visual_style_id": "horror_pixel",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": [
+            {
+              "text": "응답하지 말 것",
+              "role": "manual_warning"
+            }
+          ]
+        },
+        {
+          "id": "SH3-cut-02",
+          "asset_id": "SH3-02",
+          "narration_text": "방송실 화면에 잔류 인원 둘이 떴습니다.",
+          "caption_text": "방송실 화면에 잔류 인원 둘이 떴습니다.",
+          "start_seconds": 6.016666666666667,
+          "end_seconds": 8.783333333333333,
+          "spoken_start_seconds": 6.36,
+          "spoken_end_seconds": 9.14,
+          "visual_style_id": "horror_pixel",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": [
+            {
+              "text": "잔류 인원 2",
+              "role": "portrait_device_clue"
+            }
+          ]
+        },
+        {
+          "id": "SH3-cut-03",
+          "asset_id": "SH3-03",
+          "narration_text": "이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요.",
+          "caption_text": "이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요.",
+          "start_seconds": 8.783333333333333,
+          "end_seconds": 12.916666666666666,
+          "spoken_start_seconds": 9.14,
+          "spoken_end_seconds": 12.72,
+          "visual_style_id": "horror_pixel",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        },
+        {
+          "id": "SH3-cut-04",
+          "asset_id": "SH3-04",
+          "narration_text": "같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+          "caption_text": "같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+          "start_seconds": 12.916666666666666,
+          "end_seconds": 18.779813,
+          "spoken_start_seconds": 13.26,
+          "spoken_end_seconds": 18.56,
+          "visual_style_id": "horror_pixel",
+          "fresh_portrait_required": true,
+          "camera_direction": "별도 생성한 세로 구도로 나레이션 단서·행동에 맞춘 전환",
+          "reuse_reason": null,
+          "screen_text": []
+        }
+      ],
+      "shots": [
+        {
+          "id": "short-3-0",
+          "scene_id": "SH3-cut-01",
+          "chapter": "C03",
+          "asset": "SH3-01",
+          "start": 0.0,
+          "end": 6.016666666666667,
+          "size": "wide",
+          "text": [
+            {
+              "text": "응답하지 말 것",
+              "role": "manual_warning"
+            }
+          ]
+        },
+        {
+          "id": "short-3-1",
+          "scene_id": "SH3-cut-02",
+          "chapter": "C03",
+          "asset": "SH3-02",
+          "start": 6.016666666666667,
+          "end": 8.783333333333333,
+          "size": "detail",
+          "text": [
+            {
+              "text": "잔류 인원 2",
+              "role": "portrait_device_clue"
+            }
+          ]
+        },
+        {
+          "id": "short-3-2",
+          "scene_id": "SH3-cut-03",
+          "chapter": "C03",
+          "asset": "SH3-03",
+          "start": 8.783333333333333,
+          "end": 12.916666666666666,
+          "size": "wide",
+          "text": []
+        },
+        {
+          "id": "short-3-3",
+          "scene_id": "SH3-cut-04",
+          "chapter": "C03",
+          "asset": "SH3-04",
+          "start": 12.916666666666666,
+          "end": 18.779813,
+          "size": "wide",
+          "text": []
+        }
+      ],
+      "caption_cues": [
+        {
+          "start": 0.0,
+          "end": 2.32,
+          "text": "마지막 퇴실 방송에는 대답하지 말라고"
+        },
+        {
+          "start": 2.32,
+          "end": 2.64,
+          "text": "했어요."
+        },
+        {
+          "start": 2.94,
+          "end": 5.46,
+          "text": "저는 학교에 아무도 없다고 혼잣말을"
+        },
+        {
+          "start": 5.46,
+          "end": 5.78,
+          "text": "했죠."
+        },
+        {
+          "start": 6.36,
+          "end": 8.64,
+          "text": "방송실 화면에 잔류 인원 둘이"
+        },
+        {
+          "start": 8.64,
+          "end": 9.14,
+          "text": "떴습니다."
+        },
+        {
+          "start": 9.14,
+          "end": 11.78,
+          "text": "이 층 교실에 불이 켜졌지만, 안에는"
+        },
+        {
+          "start": 11.78,
+          "end": 12.72,
+          "text": "아무도 없었어요."
+        },
+        {
+          "start": 13.26,
+          "end": 14.78,
+          "text": "같은 안내가 다시 나왔습니다."
+        },
+        {
+          "start": 15.28,
+          "end": 18.04,
+          "text": "이번에는 빈 교실에서 네 하는 대답이"
+        },
+        {
+          "start": 18.04,
+          "end": 18.56,
+          "text": "들렸어요."
+        }
+      ]
+    }
+  ]
+}

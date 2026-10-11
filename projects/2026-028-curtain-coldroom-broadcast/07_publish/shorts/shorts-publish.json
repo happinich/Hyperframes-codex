@@ -1,0 +1,32 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "shorts": [
+    {
+      "short_id": "shorts-01",
+      "title": "공연이 끝났는데, 커튼 아래 발이 있었다",
+      "related_video_title": "마지막까지 남아 있던 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-028-curtain-coldroom-broadcast",
+      "video": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-01.mp4",
+      "recommended_publish_time": "2026-10-13 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-02",
+      "title": "빈 냉동창고에서 상자가 움직였다",
+      "related_video_title": "마지막까지 남아 있던 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-028-curtain-coldroom-broadcast",
+      "video": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-02.mp4",
+      "recommended_publish_time": "2026-10-14 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-03",
+      "title": "마지막 퇴실 방송에는 대답하지 마세요",
+      "related_video_title": "마지막까지 남아 있던 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-028-curtain-coldroom-broadcast",
+      "video": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-03.mp4",
+      "recommended_publish_time": "2026-10-15 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    }
+  ]
+}

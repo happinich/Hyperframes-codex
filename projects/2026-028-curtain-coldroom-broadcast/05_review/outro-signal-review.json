@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "mix_duration": 1380.545,
+  "voice_only_duration": 1376.545333,
+  "outro_seconds": 4,
+  "last_second_bins_rms_dbfs": [
+    -30.74010061168773,
+    -32.816200906261464,
+    -37.53117464737358,
+    -45.20482360277381
+  ],
+  "fade_out_seconds": 3,
+  "method": "PCM signal, not subjective listening"
+}

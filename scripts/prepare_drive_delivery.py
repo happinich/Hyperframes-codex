@@ -18,6 +18,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def external_caption_delivery(project: Path) -> bool:
+    """Use the project decision, falling back to the current delivery default."""
+    profile = project / "06_delivery/profile.json"
+    if profile.is_file():
+        data = json.loads(profile.read_text())
+        if "external_caption_files_delivery" in data:
+            return bool(data["external_caption_files_delivery"])
+        # Legacy project profiles predate the automatic-caption preference.
+        # New projects record their policy explicitly in the template.
+        return True
+    rules = json.loads((ROOT / "config/success-rules.json").read_text())
+    return bool(rules["defaults"]["subtitles"].get("external_files_delivery", True))
+
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -34,13 +48,17 @@ def prepare_multi_short_delivery(project: Path, policy: dict, shorts: list[dict]
     publish = project / "07_publish"
     output = publish / "drive-upload"
     package = json.loads((output / "delivery-manifest.json").read_text())
-    required = {"longform-publish.md", "longform-publish.html", "thumbnail-a.png", "thumbnail-b.png",
-                "longform-captions.srt", "longform-captions.vtt", "README.md"}
+    captions = external_caption_delivery(project)
+    required = {"longform-publish.md", "longform-publish.html", "thumbnail-a.png", "thumbnail-b.png", "README.md"}
+    if captions:
+        required.update({"longform-captions.srt", "longform-captions.vtt"})
     allowed_videos = set()
     for i, short in enumerate(shorts, 1):
         sid = short.get("short_id", f"shorts-{i:02}")
         stem = f"{project.name}-{sid}"
-        required.update({f"{stem}.{ext}" for ext in ("mp4", "srt", "vtt")})
+        required.add(f"{stem}.mp4")
+        if captions:
+            required.update({f"{stem}.{ext}" for ext in ("srt", "vtt")})
         required.update({f"{sid}-publish.{ext}" for ext in ("md", "html")})
         allowed_videos.add(f"{stem}.mp4")
     entries = package["files"]
@@ -55,6 +73,8 @@ def prepare_multi_short_delivery(project: Path, policy: dict, shorts: list[dict]
     files = []
     for name in sorted(actual):
         path = output / name
+        if not captions and path.suffix.lower() in {".srt", ".vtt"}:
+            raise ValueError("External captions are excluded by this project's delivery policy")
         if path.suffix == ".mp4" and name not in allowed_videos:
             raise ValueError("Only final Shorts MP4s may be uploaded")
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -72,7 +92,8 @@ def prepare_multi_short_delivery(project: Path, policy: dict, shorts: list[dict]
         files.append({"name": name, "path": str(path), "bytes": path.stat().st_size, "sha256": digest})
     manifest = {"project_id": project.name, "destination": policy["folder_url"],
                 "remote_subfolder_name": project.name, "status": "prepared_not_uploaded",
-                "longform_video_included": False, "shorts_count": len(shorts), "files": files}
+                "longform_video_included": False, "external_caption_files_included": captions,
+                "shorts_count": len(shorts), "files": files}
     (publish / "drive-delivery-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     return manifest
 
@@ -99,9 +120,11 @@ def prepare(project: Path) -> dict:
         "shorts-publish.html": publish / "shorts/shorts-publish.html",
         "shorts-publish.md": publish / "shorts/shorts-publish.md",
         shorts_name: project / f"06_delivery/shorts/{shorts_name}",
-        **{f"{prefix}.{ext}": project / f"03_sync/{prefix}.{ext}"
-           for prefix in ("captions", "shorts-captions") for ext in ("srt", "vtt")},
     }
+    captions = external_caption_delivery(project)
+    if captions:
+        sources.update({f"{prefix}.{ext}": project / f"03_sync/{prefix}.{ext}"
+                        for prefix in ("captions", "shorts-captions") for ext in ("srt", "vtt")})
     for path in sources.values():
         if not path.is_file() or path.stat().st_size == 0:
             raise FileNotFoundError(f"Missing completed deliverable: {path}")
@@ -115,6 +138,8 @@ def prepare(project: Path) -> dict:
         dst = output / name
         if src.suffix == ".html":
             html = src.read_text()
+            if not captions:
+                html = re.sub(r'<a\b[^>]*href="[^\"]*\.(?:srt|vtt)"[^>]*>.*?</a>', "", html, flags=re.S | re.I)
             if name.startswith("youtube"):
                 html = re.sub(r"<video\b[^>]*>.*?</video>", "", html, flags=re.S)
                 html = re.sub(r'<a\b[^>]*href="[^\"]*-youtube[^\"]*\.mp4"[^>]*>.*?</a>', "", html, flags=re.S)
@@ -129,8 +154,9 @@ def prepare(project: Path) -> dict:
         "썸네일: thumbnail-a.png / thumbnail-b.png\n"
         f"쇼츠 영상: {shorts_name}\n"
         "쇼츠 게시 전략: shorts-publish.md / shorts-publish.html\n"
-        "본편 및 쇼츠 업로드용 자막: captions / shorts-captions의 SRT와 VTT\n\n"
-        "HTML 복사 버튼과 미리보기는 이 폴더 전체를 내려받아 같은 폴더에서 여세요.\n"
+        + ("본편 및 쇼츠 업로드용 자막: captions / shorts-captions의 SRT와 VTT\n\n" if captions
+         else "YouTube 자동 자막 사용. 외부 SRT/VTT는 납품·업로드하지 않습니다.\n\n")
+        + "HTML 복사 버튼과 미리보기는 이 폴더 전체를 내려받아 같은 폴더에서 여세요.\n"
         "롱폼 영상은 Google Drive 전달 대상에서 제외했습니다.\n"
     )
     for name in ("youtube-publish.html", "shorts-publish.html"):
@@ -149,7 +175,7 @@ def prepare(project: Path) -> dict:
                       "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
     manifest = {"project_id": project.name, "destination": policy["folder_url"],
                 "remote_subfolder_name": project.name, "status": "prepared_not_uploaded",
-                "longform_video_included": False, "files": files}
+                "longform_video_included": False, "external_caption_files_included": captions, "files": files}
     (publish / "drive-delivery-manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     return manifest
 

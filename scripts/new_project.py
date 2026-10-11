@@ -99,6 +99,8 @@ def main() -> int:
         "{{TITLE}}": args.title,
         "{{CREATED_DATE}}": dt.date.today().isoformat(),
         "{{LONGFORM_VOICE_SPEED_MULTIPLIER}}": str(voice_speed["default_multiplier"]),
+        "{{EXTERNAL_CAPTION_FILES_DELIVERY}}": str(rules["defaults"]["subtitles"].get("external_files_delivery", True)).lower(),
+        "{{CAPTION_DELIVERY_LABEL}}": rules["defaults"]["subtitles"]["delivery"],
         "{{VISUAL_STYLE_ID}}": args.visual_style,
         "{{VISUAL_STYLE_LABEL}}": selected_style["label_ko"],
         "{{VISUAL_STYLE_MOOD}}": selected_style["mood"],

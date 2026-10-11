@@ -1,0 +1,132 @@
+{
+  "status": "visual_two_pass_and_technical_review_passed",
+  "shorts": [
+    {
+      "short_id": "SH1",
+      "file": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-01.mp4",
+      "sha256": "1559672b7886d5b9910cbc23b3e26a6c7ca06425529c85f0538966717afe2277",
+      "video_duration": 19.6,
+      "audio_duration": 19.594562,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "first_pass": {
+        "actual_output_times": [
+          0,
+          2.558,
+          6.667,
+          10.05,
+          13.5,
+          17.356,
+          19.445
+        ],
+        "decision": "passed",
+        "note": "커튼 발끝 → 빈 무대 뒤 → 같은 발 재확인 → 빛과 다른 그림자 → 줄 당김. 전체 귀신·접촉·신발 분실 결말은 공개하지 않음. 첫 프레임 훅·모바일 자막·마지막 문장 및 CTA 확인."
+      },
+      "second_pass": {
+        "actual_output_times": [
+          0.12,
+          4.916666666666666,
+          8.016666666666667,
+          11.683333333333334,
+          14.916666666666668,
+          19.394563
+        ],
+        "decision": "passed",
+        "note": "컷 말미의 확대/팬, 첫 0.12초 훅 자막, 숫자/책자 글자 위치, 마지막 CTA 재검수. 정상 문장 간 짧은 자막 공백은 유지. 잘림·겹침·결말 노출 없음."
+      },
+      "technical_detection": {
+        "freeze_over_3s": [],
+        "black_over_1s": [],
+        "silence_over_0_8s": []
+      },
+      "audio_review": "Whisper/Scribe approved-script agreement and signal checks; subjective ear review was not performed."
+    },
+    {
+      "short_id": "SH2",
+      "file": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-02.mp4",
+      "sha256": "98ad3be30f498ef25436e2fc9192a186ef614499df5126338340f6bc361c393d",
+      "video_duration": 19.0,
+      "audio_duration": 18.998104,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "first_pass": {
+        "actual_output_times": [
+          0,
+          3.083,
+          7.442,
+          10.375,
+          13.783,
+          17.266,
+          18.848
+        ],
+        "decision": "passed",
+        "note": "닫힌 상자 → 빈 상자 → 비닐 뒤 부분 등 → 무전기 → 출구를 막는 운반대. 괴물 얼굴·탈출 수단·회수 신발 결말은 공개하지 않음. 첫 프레임 훅·모바일 자막·마지막 문장 및 CTA 확인."
+      },
+      "second_pass": {
+        "actual_output_times": [
+          0.12,
+          5.966666666666667,
+          8.516666666666667,
+          11.833333333333334,
+          15.333333333333334,
+          18.798104000000002
+        ],
+        "decision": "passed",
+        "note": "컷 말미의 확대/팬, 첫 0.12초 훅 자막, 숫자/책자 글자 위치, 마지막 CTA 재검수. 정상 문장 간 짧은 자막 공백은 유지. 잘림·겹침·결말 노출 없음."
+      },
+      "technical_detection": {
+        "freeze_over_3s": [],
+        "black_over_1s": [],
+        "silence_over_0_8s": []
+      },
+      "audio_review": "Whisper/Scribe approved-script agreement and signal checks; subjective ear review was not performed."
+    },
+    {
+      "short_id": "SH3",
+      "file": "06_delivery/shorts/2026-028-curtain-coldroom-broadcast-shorts-03.mp4",
+      "sha256": "272f223e3e691ace3c4b5d34531f784b0ef2bf4cc91c52ea50b274a98d39b947",
+      "video_duration": 18.783333,
+      "audio_duration": 18.779812,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 60,
+      "first_pass": {
+        "actual_output_times": [
+          0,
+          3.008,
+          7.4,
+          10.85,
+          15.848,
+          18.63
+        ],
+        "decision": "passed",
+        "note": "책자 규칙 → 잔류 인원 2 → 빈 교실 → 스피커. 의자 이동·숫자 4·잔상 결말은 공개하지 않음. 첫 프레임 훅·모바일 자막·마지막 문장 및 CTA 확인."
+      },
+      "second_pass": {
+        "actual_output_times": [
+          0.12,
+          5.816666666666666,
+          8.583333333333334,
+          12.716666666666667,
+          18.579813
+        ],
+        "decision": "passed",
+        "note": "컷 말미의 확대/팬, 첫 0.12초 훅 자막, 숫자/책자 글자 위치, 마지막 CTA 재검수. 정상 문장 간 짧은 자막 공백은 유지. 잘림·겹침·결말 노출 없음."
+      },
+      "technical_detection": {
+        "freeze_over_3s": [],
+        "black_over_1s": [],
+        "silence_over_0_8s": []
+      },
+      "audio_review": "Whisper/Scribe approved-script agreement and signal checks; subjective ear review was not performed."
+    }
+  ]
+}

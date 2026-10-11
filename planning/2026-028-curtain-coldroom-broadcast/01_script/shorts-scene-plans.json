@@ -1,0 +1,113 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "shorts": [
+    {
+      "id": "SH1",
+      "narration_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠. 커튼 뒤를 확인했지만 아무도 없었습니다. 그런데 객석으로 내려오면 같은 발이 다시 보였어요. 조명을 옮겨도 그림자는 움직이지 않았습니다. 제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+      "caption_text": "빈 무대의 커튼 아래에 발이 있었어요. 공연은 끝났고, 배우들도 돌아갔죠. 커튼 뒤를 확인했지만 아무도 없었습니다. 그런데 객석으로 내려오면 같은 발이 다시 보였어요. 조명을 옮겨도 그림자는 움직이지 않았습니다. 제가 커튼 줄을 당기자, 뒤에서 바닥 긁는 소리가 가까워졌어요.",
+      "estimated_duration_seconds": 16.82,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-01-narration.txt",
+      "visual_style_id": "horror_shadow_theatre",
+      "assets": [
+        {
+          "asset_id": "SH1-01",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH1-02",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH1-03",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "script_review_only_assets_and_audio_pending"
+    },
+    {
+      "id": "SH2",
+      "narration_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠. 상자를 열어 보니 비어 있었습니다. 그런데 비닐막 뒤에 사람 같은 등이 보였어요. 무전기로 확인하니 아무도 들어간 적 없다고 했습니다. 그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+      "caption_text": "빈 냉동창고에서 상자가 저절로 움직였어요. 입고 작업은 끝났고, 안에는 저 혼자였죠. 상자를 열어 보니 비어 있었습니다. 그런데 비닐막 뒤에 사람 같은 등이 보였어요. 무전기로 확인하니 아무도 들어간 적 없다고 했습니다. 그때 제 앞의 운반대가 통로를 막기 시작했어요.",
+      "estimated_duration_seconds": 17.29,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-02-narration.txt",
+      "visual_style_id": "horror_retro_3d",
+      "assets": [
+        {
+          "asset_id": "SH2-01",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH2-02",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH2-03",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "script_review_only_assets_and_audio_pending"
+    },
+    {
+      "id": "SH3",
+      "narration_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠. 방송실 화면에 잔류 인원 둘이 떴습니다. 이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요. 같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+      "caption_text": "마지막 퇴실 방송에는 대답하지 말라고 했어요. 저는 학교에 아무도 없다고 혼잣말을 했죠. 방송실 화면에 잔류 인원 둘이 떴습니다. 이 층 교실에 불이 켜졌지만, 안에는 아무도 없었어요. 같은 안내가 다시 나왔습니다. 이번에는 빈 교실에서 네 하는 대답이 들렸어요.",
+      "estimated_duration_seconds": 17.29,
+      "voice_speed_multiplier": 1.07,
+      "source": "01_script/shorts-03-narration.txt",
+      "visual_style_id": "horror_pixel",
+      "assets": [
+        {
+          "asset_id": "SH3-01",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH3-02",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        },
+        {
+          "asset_id": "SH3-03",
+          "generation_status": "not_generated",
+          "fresh_portrait": true,
+          "reuse_longform": false
+        }
+      ],
+      "camera_direction": [
+        "전체 장소를 세로로 읽히게 하는 새 구도",
+        "단서를 크게 보는 다른 위치·각도",
+        "정체 공개 직전의 새 관찰 시점"
+      ],
+      "spoiler_policy": "귀신·괴물의 직접 접촉·전체 모습, 탈출 방법, 잔상 결말은 공개하지 않음.",
+      "review_status": "script_review_only_assets_and_audio_pending"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "duration_seconds": 1380.545333,
+  "integrated_loudness_lufs": -17.6,
+  "loudness_range_lu": 3.3,
+  "true_peak_dbfs": -3.2,
+  "clipping": false,
+  "analysis_tool": "ffmpeg ebur128 peak=true",
+  "subjective_listening_performed": false,
+  "scope": "최종 합성 본편 신호 분석; ASR 원고 누락 검수는 audio-review.json에 별도 기록"
+}

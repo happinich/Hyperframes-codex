@@ -1,0 +1,123 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "status": "uploaded_and_file_list_verified",
+  "verified_at": "2026-10-12T00:07:02.033001+09:00",
+  "parent_folder_url": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "project_folder_url": "https://drive.google.com/drive/folders/1OxIME_6qZEAsxLN5A7JcDOC4S3pXVlSM",
+  "final_folder_url": "https://drive.google.com/drive/folders/1JguLMAkymHXi0JF2fble3bw_Mrk2YuxG",
+  "final_folder_name": "최종본-2026-10-12",
+  "verified_file_count": 15,
+  "longform_video_included": false,
+  "external_caption_files_included": false,
+  "verification_method": "Browser upload completion and exact 15 unique DOM filenames/file IDs; local bytes and SHA256 from packaged files. Remote content hashes were not measured.",
+  "proof": "05_review/frames/drive-upload-proof.jpg",
+  "duplicate_handling": "Same-name copies appeared in project root after upload/retry. Preserve them; deliver clean exact 15-file package in newly created final subfolder.",
+  "files": [
+    {
+      "name": "2026-028-curtain-coldroom-broadcast-shorts-01.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/2026-028-curtain-coldroom-broadcast-shorts-01.mp4",
+      "bytes": 12016110,
+      "sha256": "1559672b7886d5b9910cbc23b3e26a6c7ca06425529c85f0538966717afe2277",
+      "remote_file_id": "1PINcI21O15xatuplBX3FLum08ES3HVpf"
+    },
+    {
+      "name": "2026-028-curtain-coldroom-broadcast-shorts-02.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/2026-028-curtain-coldroom-broadcast-shorts-02.mp4",
+      "bytes": 13782351,
+      "sha256": "98ad3be30f498ef25436e2fc9192a186ef614499df5126338340f6bc361c393d",
+      "remote_file_id": "1p-dQPgvrkNvoW-Sspjlp8TGZli58Mjex"
+    },
+    {
+      "name": "2026-028-curtain-coldroom-broadcast-shorts-03.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/2026-028-curtain-coldroom-broadcast-shorts-03.mp4",
+      "bytes": 15684031,
+      "sha256": "272f223e3e691ace3c4b5d34531f784b0ef2bf4cc91c52ea50b274a98d39b947",
+      "remote_file_id": "1gzZ8_e1_WxE9mMPZTWPfnUmnHtd3jO2u"
+    },
+    {
+      "name": "README.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/README.md",
+      "bytes": 1288,
+      "sha256": "8cd58ae8dafba006ce6cd28d34739c6ce19bcb169bf27b9b9038ed1737f8987f",
+      "remote_file_id": "1ZH3nb2CqqXuu2ON1lKSdZNZVD-oEFJM9"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/delivery-manifest.json",
+      "bytes": 2499,
+      "sha256": "e8e8ad6413dbd7678d97ee46fcecce0c186c2f9f4943e841537f3ec6cd004519",
+      "remote_file_id": "14mJREMHuiFgfMkUYDyWQN9qv3hsQwSz3"
+    },
+    {
+      "name": "longform-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/longform-publish.html",
+      "bytes": 5932,
+      "sha256": "6f1e6b141fcb91a57195abd4b55b0bcac54a7d26fb56b5470d73756ccbff4a7c",
+      "remote_file_id": "1ckzw3vLOVS-zJMqr_AlZsAGbpiOAFG_j"
+    },
+    {
+      "name": "longform-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/longform-publish.md",
+      "bytes": 3200,
+      "sha256": "89711ccc2d5c4a90c8db07293b415b8a38f6b299644347953c01ff69d010b3f3",
+      "remote_file_id": "1JUtrW5NgjwzsNVMM8uSE5hGBcHmZgExu"
+    },
+    {
+      "name": "shorts-01-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-01-publish.html",
+      "bytes": 3662,
+      "sha256": "10651d238dc4bcaec3d93c523ec6fc3ac379445f102123ca9ee4915ccd2823fe",
+      "remote_file_id": "1boSyR0i5B6rSHdbUywwRnSxxJwhNg84X"
+    },
+    {
+      "name": "shorts-01-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-01-publish.md",
+      "bytes": 1298,
+      "sha256": "593ad5e46fa84b97674779ed4c946c0e6494de2cb1999bd610fe95fb6be83119",
+      "remote_file_id": "1-Uj4iWUK2MXFg3lgc2Sdf_MrXXuY-kEa"
+    },
+    {
+      "name": "shorts-02-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-02-publish.html",
+      "bytes": 3623,
+      "sha256": "2f824da55681bb7556c08769e8f25615a0c69c54b32673f7000c9802db81fa81",
+      "remote_file_id": "1c8nLCmNTK8tffEX043AVXcXtI2nBktx5"
+    },
+    {
+      "name": "shorts-02-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-02-publish.md",
+      "bytes": 1268,
+      "sha256": "532b15dd7b081b96214fa44a9f944fad161968f537709b49af7dfc00ac0dddfd",
+      "remote_file_id": "18fo9LwTeOL6nd43PCEA7FZNx0BPxBf2k"
+    },
+    {
+      "name": "shorts-03-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-03-publish.html",
+      "bytes": 3653,
+      "sha256": "937b9aba4078974b18a52e5e308450fec330cc09a6c445cca71a7903ccdc1f79",
+      "remote_file_id": "1oznyOtew6wIVC2Jn8Mvw97eQi3X8G8bn"
+    },
+    {
+      "name": "shorts-03-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/shorts-03-publish.md",
+      "bytes": 1291,
+      "sha256": "05af31aba0874a3865d7e2a71d2c317822894d2945e9a824daa59c285db46d2e",
+      "remote_file_id": "1_zmyO5w6drQSiy-bsYXPX6UQ3T4x_uRU"
+    },
+    {
+      "name": "thumbnail-a.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/thumbnail-a.png",
+      "bytes": 762494,
+      "sha256": "04ad829e5caca70de101dd9951e8526a1604448ec8a12ed40d7c35e501501cad",
+      "remote_file_id": "1WIkAablZTA-al4GwFPNcvF7NTFiqdwev"
+    },
+    {
+      "name": "thumbnail-b.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/07_publish/drive-upload/thumbnail-b.png",
+      "bytes": 599884,
+      "sha256": "8323783a86cc4b99cca474a8852fbc4aa34d349bfabccdaac61665d9f6c39544",
+      "remote_file_id": "1JNbGv-gjRL-Hy9QOfNhagmxaMp3DDJhz"
+    }
+  ],
+  "proof_shorts": "05_review/frames/drive-upload-proof-shorts.jpg"
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.9.0",
+  "schema_version": "1.10.0",
   "name": "hyperframes_longform_success_rules",
   "updated_from_project": "config/horror-channel-strategy.json",
   "purpose": "Horror-first reusable production rules for face-free HyperFrames long-form YouTube videos while preserving legacy explainer profiles.",
@@ -46,8 +46,8 @@
           "manual_listening_review_required": true
         },
         "burned_captions_required": true,
-        "external_srt_required": true,
-        "external_vtt_required": true,
+        "external_srt_required": false,
+        "external_vtt_required": false,
         "publishing_helper_required": true
       }
     },
@@ -73,7 +73,7 @@
       "top_right_runtime_badge": false
     },
     "subtitles": {
-      "delivery": "external_srt_upload",
+      "delivery": "youtube_automatic_captions",
       "burn_in_to_video": false,
       "generate_planned_captions_before_audio": true,
       "final_alignment_source": "mlx-community/whisper-large-v3-turbo",
@@ -96,7 +96,7 @@
       "profile_variants": {
         "horror_cinematic_story_v1": {
           "enabled": false,
-          "delivery": "clean_master_plus_external_srt_vtt",
+          "delivery": "clean_master_youtube_automatic_captions",
           "renderer": "scripts/burn_story_captions.mjs",
           "output_suffix": "-captioned-story",
           "position": "bottom-center-safe-area",
@@ -105,7 +105,8 @@
           "active_word_color": null,
           "cue_mode": "semantic_phrase",
           "font_size_px": 44,
-          "max_glyphs_per_cue": 28
+          "max_glyphs_per_cue": 28,
+          "external_files_delivery": false
         },
         "minimal_dark_tech_v1": {
           "renderer": "scripts/burn_story_captions.mjs",
@@ -129,7 +130,10 @@
           "font_size_px": 44,
           "max_glyphs_per_cue": 28
         }
-      }
+      },
+      "external_files_delivery": false,
+      "user_preference_recorded_on": "2026-10-11",
+      "internal_timing_artifacts_required": true
     }
   },
   "script_rules": {
@@ -401,8 +405,19 @@
       "folder_url": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
       "project_subfolder": true,
       "upload_after_final_review": true,
-      "include": ["longform_publishing_md_html", "final_thumbnails", "shorts_mp4", "shorts_publishing_md_html", "final_srt_vtt"],
-      "exclude": ["longform_mp4", "source_audio", "working_assets", "credentials"],
+      "include": [
+        "longform_publishing_md_html",
+        "final_thumbnails",
+        "shorts_mp4",
+        "shorts_publishing_md_html"
+      ],
+      "exclude": [
+        "longform_mp4",
+        "source_audio",
+        "working_assets",
+        "credentials",
+        "external_srt_vtt"
+      ],
       "verify_uploaded_file_list": true,
       "record_receipt": "07_publish/drive-upload-receipt.json"
     },
@@ -435,6 +450,8 @@
           "required_for_finance_topics": ["core number", "visual money flow", "topic destination"]
         }
       }
-    }
+    },
+    "external_caption_files_delivery": false,
+    "caption_note": "YouTube automatic captions; do not deliver or upload SRT/VTT for new productions. Keep internal Whisper timing and Shorts burned captions."
   }
 }

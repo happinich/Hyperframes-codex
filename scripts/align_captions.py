@@ -250,18 +250,23 @@ def main() -> int:
     write_captions(cues, sync_dir)
     coverage = spoken_coverage if spoken_script_path.exists() else caption_coverage
     status = "ready_for_review" if coverage >= args.threshold else "alignment_review_required"
+    delivery_profile_path = project / "06_delivery" / "profile.json"
+    delivery_profile = json.loads(delivery_profile_path.read_text()) if delivery_profile_path.is_file() else {}
+    canonical_rules = json.loads((Path(__file__).resolve().parents[1] / "config" / "success-rules.json").read_text())
+    legacy_default = True if delivery_profile_path.is_file() else canonical_rules.get("publishing_rules", {}).get("external_caption_files_delivery", True)
+    external_delivery = delivery_profile.get("external_caption_files_delivery", legacy_default)
     report = {
         "status": status,
         "whisper_backend": "mlx-whisper",
         "whisper_model": args.model,
-        "subtitle_delivery_mode": "external_srt_upload",
+        "subtitle_delivery_mode": "external_srt_upload" if external_delivery else "internal_timing_only_youtube_automatic_captions",
         "subtitle_text_source": "01_script/narration.txt",
         "spoken_text_source": "01_script/tts-narration.txt" if spoken_script_path.exists() else "01_script/narration.txt",
         "matched_character_ratio": round(coverage, 4),
         "caption_surface_match_ratio": round(caption_coverage, 4),
         "spoken_match_ratio": round(spoken_coverage, 4),
         "required_ratio": args.threshold,
-        "note": "Captions are delivered as external SRT/VTT files. The rendered MP4 does not burn captions into the image.",
+        "note": "External SRT/VTT delivery enabled by the project profile." if external_delivery else "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used.",
     }
     (sync_dir / "sync_report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

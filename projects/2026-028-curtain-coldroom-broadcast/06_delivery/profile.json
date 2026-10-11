@@ -1,0 +1,18 @@
+{
+  "production_profile_id": "horror_cinematic_story_v1",
+  "production_profile_label": "호러 시네마틱 스토리형",
+  "visual_style_id": "horror_shadow_theatre",
+  "visual_style_label": "그림자극",
+  "script_mode": "user_approved_three_story_anthology",
+  "sound_rule": "내레이션을 중심으로 공간 앰비언스, 사건 효과음, 승인된 BGM을 분리 설계하고 반전 직전 의도적 적막을 씬 플랜에 표시한다.",
+  "clean_master_suffix": "",
+  "external_caption_files_delivery": false,
+  "caption_delivery": "youtube_automatic_captions",
+  "captioned_output_default_enabled": false,
+  "captioned_output_suffix": "-captioned-story",
+  "chapter_visual_styles": {
+    "C01": "horror_shadow_theatre",
+    "C02": "horror_retro_3d",
+    "C03": "horror_pixel"
+  }
+}
