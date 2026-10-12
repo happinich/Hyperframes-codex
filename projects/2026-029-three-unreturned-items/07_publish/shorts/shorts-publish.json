@@ -1,0 +1,32 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "shorts": [
+    {
+      "short_id": "shorts-01",
+      "title": "빈 소매 안에서 누가 제 손목을 잡았어요",
+      "related_video_title": "돌아오지 말아야 할 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-029-three-unreturned-items",
+      "video": "06_delivery/shorts/2026-029-three-unreturned-items-shorts-01.mp4",
+      "recommended_publish_time": "2026-10-14 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-02",
+      "title": "막배 뒤 마른 잔교에서 올라온 손",
+      "related_video_title": "돌아오지 말아야 할 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-029-three-unreturned-items",
+      "video": "06_delivery/shorts/2026-029-three-unreturned-items-shorts-02.mp4",
+      "recommended_publish_time": "2026-10-15 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-03",
+      "title": "철거한 펜션에 없는 객실의 키가 돌아왔다",
+      "related_video_title": "돌아오지 말아야 할 것들 | 창작 공포 3편",
+      "related_video_project_id": "2026-029-three-unreturned-items",
+      "video": "06_delivery/shorts/2026-029-three-unreturned-items-shorts-03.mp4",
+      "recommended_publish_time": "2026-10-16 20:30 KST 권장. 본편 공개 이후 하루 한 편씩 테스트합니다.",
+      "external_caption_files_delivery": false
+    }
+  ]
+}

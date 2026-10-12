@@ -1,0 +1,128 @@
+{
+  "assets": [
+    {
+      "asset_id": "SH01-01",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: tactile handmade puppet stop-motion miniature, warm umber wool and dim olive repair shop. Scene: One empty brown coat right sleeve on workbench extends one cloth five-finger hand and grips the human worker wrist; exactly one coat and one supernatural hand, normal blue pins only.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c01-location-clean-v2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c01-entity-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh01-01.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH01-02",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: tactile handmade puppet stop-motion miniature, warm umber wool and dim olive repair shop. Scene: Close view inside brown coat right sleeve: newly grown brown seam and exactly one yellow-headed pin; blue pins only in distant cushion.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c01-location-clean-v2.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh01-02.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH01-03",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: tactile handmade puppet stop-motion miniature, warm umber wool and dim olive repair shop. Scene: Worker holds mobile phone showing earlier coat photo with smooth unstitched sleeve, while real sleeve with one visible brown seam rests beyond phone; no legible phone text.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c01-location-clean-v2.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh01-03.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH01-04",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: tactile handmade puppet stop-motion miniature, warm umber wool and dim olive repair shop. Scene: Close view of one brown coat on workbench: unnatural new seam has climbed from right sleeve to shoulder, one yellow pin only. Empty wall hanger, no second coat.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c01-location-clean-v2.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh01-04.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH02-01",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: rough 2D painted Korean coastal horror illustration, deep navy water, rusty iron, one amber lamp. Scene: At the far end of a ferry pier, a dry waist-high rusty steel worktable with two rectangular dents rising from BELOW its tabletop, sea many feet below. No creature shown. HARD CORRECTION: tabletop is ONE single continuous flat welded steel sheet, no built-in rectangular hatch, no panel outlines, no hinges, no seams. The visual clue is TWO fresh shallow RECTANGULAR INWARD PRESSURE DENTS in that continuous steel surface, side by side, with bent metal edges. Water remains many feet below. Show the two dents plainly in central portrait crop; no creature reveal.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c02-location-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh02-01.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH02-02",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: rough 2D painted Korean coastal horror illustration, deep navy water, rusty iron, one amber lamp. Scene: Close high angle of dry steel worktable surface with exactly two rectangular impressions from below; lamp and dark low water visible behind. No hand or creature. HARD CORRECTION: tabletop is ONE single continuous flat welded steel sheet, no built-in rectangular hatch, no panel outlines, no hinges, no seams. The visual clue is TWO fresh shallow RECTANGULAR INWARD PRESSURE DENTS in that continuous steel surface, side by side, with bent metal edges. Water remains many feet below. Show the two dents plainly in central portrait crop; no creature reveal.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c02-location-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh02-02.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH02-03",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: rough 2D painted Korean coastal horror illustration, deep navy water, rusty iron, one amber lamp. Scene: Long narrow ferry gangway from end platform toward shore, worker only seen from behind checking one locking pin, no entity visible.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c02-location-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh02-03.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH02-04",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: rough 2D painted Korean coastal horror illustration, deep navy water, rusty iron, one amber lamp. Scene: Close perspective down repeated metal railings marked by gray dry powder fingerprints, nearest final railing remains CLEAN while worker stands beside it; no creature shown.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c02-location-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh02-04.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH03-01",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: ink and charcoal Korean horror illustration with muted ochre clue highlights, old pension demolition storage. Scene: Key board with nine numbered old hooks and ONE unnumbered additional key returned on a separate hook; strong legible key shape but no generated writing.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c03-location-v1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c03-keyboard-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh03-01.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH03-02",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: ink and charcoal Korean horror illustration with muted ochre clue highlights, old pension demolition storage. Scene: Worker hands seal an unnumbered old brass room key into a kraft envelope. Only one key, no readable text.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c03-keyboard-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh03-02.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH03-03",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: ink and charcoal Korean horror illustration with muted ochre clue highlights, old pension demolition storage. Scene: Next morning, the same unnumbered old brass key hangs again on one separate hook on the key board; sealed kraft envelope nearby; no duplicate key. HARD CORRECTION: tightly crop ONLY the isolated lower spare hook with its returned anomalous key; all nine ordinary hooks are outside the frame. Do not show any row or count of regular hooks. Keep the construction-plan and envelope in frame if possible.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c03-keyboard-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh03-03.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    },
+    {
+      "asset_id": "SH03-04",
+      "prompt": "Original NEW 9:16 vertical portrait illustration for a separate YouTube Short. Do not crop, copy, or reproduce any supplied image; use reference only for artistic style and continuity. Keep decisive clue in central vertical safe area, high contrast on phone. No text, logos, watermark, face, gore, or malformed hands. Style: ink and charcoal Korean horror illustration with muted ochre clue highlights, old pension demolition storage. Scene: Overhead view of architectural plan and mobile photo: plan shows a small new square where a yard used to be, phone earlier photo shows empty yard; visually distinct without generated text.",
+      "reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/references/c03-location-v1.png"
+      ],
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/04_composition/assets/visuals/sh03-04.png",
+      "generation_status": "generated",
+      "review_status": "approved_two_full_resolution_passes_and_adjacent_scene_review"
+    }
+  ],
+  "fresh_portrait_assets": true,
+  "must_differ_from_longform_hashes": true
+}

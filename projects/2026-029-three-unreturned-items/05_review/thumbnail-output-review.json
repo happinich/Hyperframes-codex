@@ -1,0 +1,29 @@
+{
+  "status": "approved",
+  "assets": [
+    {
+      "thumbnail": "a",
+      "source": "04_composition/assets/visuals/c01-s01-a1.png",
+      "file": "07_publish/youtube/thumbnail-a.png",
+      "sha256": "7b50d0794f59e817b56824eb4a0efb7f1970c2d04719ac596dda0422ed773944",
+      "resolution": "1280x720",
+      "source_full_resolution_review": "approved",
+      "rendered_output_full_resolution_review": "approved",
+      "mobile_clue_readability": "approved",
+      "text_safe_area": "approved",
+      "decision": "approved"
+    },
+    {
+      "thumbnail": "b",
+      "source": "04_composition/assets/visuals/c02-s11-a1.png",
+      "file": "07_publish/youtube/thumbnail-b.png",
+      "sha256": "a8f730f0cb48915f1457486148cdd166824b3ac06631a2f4e79629cf6cb02e12",
+      "resolution": "1280x720",
+      "source_full_resolution_review": "approved",
+      "rendered_output_full_resolution_review": "approved",
+      "mobile_clue_readability": "approved",
+      "text_safe_area": "approved",
+      "decision": "approved"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "verification_scope": "Technical signal scan, approved-image review, selected full-resolution final mux frame inspection. Subjective listening and full continuous playback were not performed.",
+  "project_id": "2026-029-three-unreturned-items",
+  "main_file": "06_delivery/youtube/2026-029-three-unreturned-items-youtube.mp4",
+  "sha256": "c6df176962a0df7a601cb51a7f13d4788035f1076652506937c78953a3b1d3ce",
+  "main": {
+    "video_duration": 1594.066667,
+    "audio_duration": 1594.063729,
+    "audio_video_duration_delta": 0.002938,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 60,
+    "frame_count": 95644,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "video_bytes": 1533624065,
+    "visual_passes": 2,
+    "approved_longform_images": 126,
+    "final_mux_frames_inspected_seconds": [
+      0,
+      3,
+      31,
+      120,
+      300,
+      540,
+      546.8,
+      549,
+      552,
+      750,
+      1088,
+      1092,
+      1095,
+      1098,
+      1250,
+      1430,
+      1578,
+      1593
+    ],
+    "freeze_events_over_3s": 0,
+    "black_events_over_1s": 0,
+    "quiet_intervals_over_0_8s_at_minus45db": [
+      {
+        "start_seconds": 549.588,
+        "end_seconds": 551.198,
+        "duration_seconds": 1.61,
+        "context": "C01→C02 transition",
+        "reason": "Chapter-card musical bridge fades to quiet before next cold open; below -45 dBFS, not digital zero."
+      },
+      {
+        "start_seconds": 1590.689,
+        "end_seconds": 1594.064,
+        "duration_seconds": 3.375,
+        "context": "C03 outro",
+        "reason": "Approved BGM 3-second fade and closing room tone; below -45 dBFS, not digital zero."
+      }
+    ],
+    "peak_dbfs": -2.8,
+    "mean_dbfs": -20.6,
+    "end_screen_reserve_seconds": 20,
+    "outro_seconds": 4
+  },
+  "shorts_review": "shorts-technical-qa.json",
+  "shorts_count": 3,
+  "thumbnail_review": "thumbnail-output-review.json",
+  "image_review": "image-review.json",
+  "caption_delivery": "youtube_automatic_no_external_files",
+  "audio_review_scope": "Whisper alignment and PCM signal checks; subjective ear listening not performed.",
+  "render_lint": {
+    "errors": 0,
+    "warnings": 1,
+    "mitigation": "Heavy-overlay warning in monolithic master; delivered video rendered as 66 scene/transition segments with verified frame counts and cache fingerprints."
+  },
+  "drive_delivery": "uploaded_and_verified_15_files",
+  "drive_receipt": "07_publish/drive-upload-receipt.json"
+}

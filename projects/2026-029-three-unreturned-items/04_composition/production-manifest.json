@@ -1,0 +1,9 @@
+{
+  "status": "rendered_and_objective_visual_output_review_passed",
+  "fps": 60,
+  "duration_seconds": 1594.064,
+  "longform_camera_shots": 126,
+  "segments": 66,
+  "burned_longform_captions": false,
+  "review": "05_review/final-output-review.json"
+}

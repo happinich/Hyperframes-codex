@@ -1,0 +1,29 @@
+{
+  "shorts-01": {
+    "duration": 21.766667,
+    "video_seconds": 21.766667,
+    "audio_seconds": 21.766667,
+    "freeze_or_black_intervals": [],
+    "silence_intervals_over_0_15s": [],
+    "freeze_check_exit": 0,
+    "silence_check_exit": 0
+  },
+  "shorts-02": {
+    "duration": 20.883333,
+    "video_seconds": 20.883333,
+    "audio_seconds": 20.883333,
+    "freeze_or_black_intervals": [],
+    "silence_intervals_over_0_15s": [],
+    "freeze_check_exit": 0,
+    "silence_check_exit": 0
+  },
+  "shorts-03": {
+    "duration": 19.783333,
+    "video_seconds": 19.783333,
+    "audio_seconds": 19.783333,
+    "freeze_or_black_intervals": [],
+    "silence_intervals_over_0_15s": [],
+    "freeze_check_exit": 0,
+    "silence_check_exit": 0
+  }
+}

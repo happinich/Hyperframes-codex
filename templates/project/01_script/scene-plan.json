@@ -2,6 +2,16 @@
   "project_id": "{{PROJECT_ID}}",
   "title": "{{TITLE}}",
   "voice_speed_multiplier": {{LONGFORM_VOICE_SPEED_MULTIPLIER}},
+  "anthology_plan": {
+    "scope": "horror_cinematic_story_v1",
+    "duration_minutes_range": [20, 40],
+    "default_chapter_count": 3,
+    "allowed_chapter_count_range": [2, 3],
+    "chapter_duration_rule": "story_structure_not_fixed_minutes",
+    "chapters": [],
+    "transition_seconds": null,
+    "end_screen_seconds": null
+  },
   "master_format": {
     "aspect_ratio": "16:9",
     "width": 1920,

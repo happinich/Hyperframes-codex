@@ -1,0 +1,318 @@
+{
+  "duration": 21.76,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.74,
+      "text": "빈 코트 소매 안에서 누가 제 손목을 잡았어요."
+    },
+    {
+      "start": 3.1,
+      "end": 6.38,
+      "text": "그 전날, 저는 소매 안감에 없던 봉제선 하나를"
+    },
+    {
+      "start": 6.38,
+      "end": 9.02,
+      "text": "봤습니다. 노란 시침핀도 꽂혀 있었죠."
+    },
+    {
+      "start": 9.58,
+      "end": 12.7,
+      "text": "가게 핀은 전부 파란색인데요. 접수 사진을 다시"
+    },
+    {
+      "start": 12.7,
+      "end": 16.02,
+      "text": "열자 그 선은 찍혀 있지 않았어요. 저는 코트를"
+    },
+    {
+      "start": 16.02,
+      "end": 19.28,
+      "text": "작업대에서 치우고 문을 잠갔습니다. 다음 날,"
+    },
+    {
+      "start": 19.28,
+      "end": 21.76,
+      "text": "봉제선은 어깨까지 올라와 있었습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "빈",
+      "start": 0.0,
+      "end": 0.18,
+      "matched": true
+    },
+    {
+      "text": "코트",
+      "start": 0.18,
+      "end": 0.48,
+      "matched": true
+    },
+    {
+      "text": "소매",
+      "start": 0.48,
+      "end": 0.76,
+      "matched": true
+    },
+    {
+      "text": "안에서",
+      "start": 0.76,
+      "end": 1.12,
+      "matched": true
+    },
+    {
+      "text": "누가",
+      "start": 1.12,
+      "end": 1.58,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 1.58,
+      "end": 1.82,
+      "matched": true
+    },
+    {
+      "text": "손목을",
+      "start": 1.82,
+      "end": 2.24,
+      "matched": true
+    },
+    {
+      "text": "잡았어요.",
+      "start": 2.24,
+      "end": 2.74,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 3.1,
+      "end": 3.52,
+      "matched": true
+    },
+    {
+      "text": "전날,",
+      "start": 3.52,
+      "end": 3.98,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 3.98,
+      "end": 4.36,
+      "matched": true
+    },
+    {
+      "text": "소매",
+      "start": 4.36,
+      "end": 4.72,
+      "matched": true
+    },
+    {
+      "text": "안감에",
+      "start": 4.72,
+      "end": 5.18,
+      "matched": true
+    },
+    {
+      "text": "없던",
+      "start": 5.18,
+      "end": 5.5,
+      "matched": true
+    },
+    {
+      "text": "봉제선",
+      "start": 5.5,
+      "end": 6.06,
+      "matched": true
+    },
+    {
+      "text": "하나를",
+      "start": 6.06,
+      "end": 6.38,
+      "matched": true
+    },
+    {
+      "text": "봤습니다.",
+      "start": 6.38,
+      "end": 6.82,
+      "matched": true
+    },
+    {
+      "text": "노란",
+      "start": 7.32,
+      "end": 7.72,
+      "matched": true
+    },
+    {
+      "text": "시침핀도",
+      "start": 7.72,
+      "end": 8.3,
+      "matched": true
+    },
+    {
+      "text": "꽂혀",
+      "start": 8.3,
+      "end": 8.6,
+      "matched": true
+    },
+    {
+      "text": "있었죠.",
+      "start": 8.6,
+      "end": 9.02,
+      "matched": true
+    },
+    {
+      "text": "가게",
+      "start": 9.58,
+      "end": 10.16,
+      "matched": true
+    },
+    {
+      "text": "핀은",
+      "start": 9.58,
+      "end": 10.16,
+      "matched": true
+    },
+    {
+      "text": "전부",
+      "start": 10.16,
+      "end": 10.46,
+      "matched": true
+    },
+    {
+      "text": "파란색인데요.",
+      "start": 10.46,
+      "end": 11.2,
+      "matched": true
+    },
+    {
+      "text": "접수",
+      "start": 11.82,
+      "end": 12.48,
+      "matched": true
+    },
+    {
+      "text": "사진을",
+      "start": 11.82,
+      "end": 12.48,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 12.48,
+      "end": 12.7,
+      "matched": true
+    },
+    {
+      "text": "열자",
+      "start": 12.7,
+      "end": 13.08,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 13.08,
+      "end": 13.46,
+      "matched": true
+    },
+    {
+      "text": "선은",
+      "start": 13.46,
+      "end": 13.74,
+      "matched": true
+    },
+    {
+      "text": "찍혀",
+      "start": 13.74,
+      "end": 14.24,
+      "matched": true
+    },
+    {
+      "text": "있지",
+      "start": 13.74,
+      "end": 14.24,
+      "matched": true
+    },
+    {
+      "text": "않았어요.",
+      "start": 14.24,
+      "end": 14.74,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 15.38,
+      "end": 15.6,
+      "matched": true
+    },
+    {
+      "text": "코트를",
+      "start": 15.6,
+      "end": 16.02,
+      "matched": true
+    },
+    {
+      "text": "작업대에서",
+      "start": 16.02,
+      "end": 16.66,
+      "matched": true
+    },
+    {
+      "text": "치우고",
+      "start": 16.66,
+      "end": 17.12,
+      "matched": true
+    },
+    {
+      "text": "문을",
+      "start": 17.12,
+      "end": 17.54,
+      "matched": true
+    },
+    {
+      "text": "잠갔습니다.",
+      "start": 17.54,
+      "end": 18.16,
+      "matched": true
+    },
+    {
+      "text": "다음",
+      "start": 18.8,
+      "end": 19.28,
+      "matched": true
+    },
+    {
+      "text": "날,",
+      "start": 18.8,
+      "end": 19.28,
+      "matched": true
+    },
+    {
+      "text": "봉제선은",
+      "start": 19.28,
+      "end": 20.3,
+      "matched": true
+    },
+    {
+      "text": "어깨까지",
+      "start": 20.3,
+      "end": 20.92,
+      "matched": true
+    },
+    {
+      "text": "올라와",
+      "start": 20.92,
+      "end": 21.26,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 21.26,
+      "end": 21.76,
+      "matched": true
+    }
+  ]
+}

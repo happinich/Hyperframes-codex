@@ -1,0 +1,464 @@
+[
+  {
+    "filename": "segments/part-01.html",
+    "scene": "C01-S01",
+    "startFrame": 0,
+    "endFrame": 416,
+    "duration": 6.933333333333334
+  },
+  {
+    "filename": "segments/part-02.html",
+    "scene": "C01-S02",
+    "startFrame": 416,
+    "endFrame": 1901,
+    "duration": 24.75
+  },
+  {
+    "filename": "segments/part-03.html",
+    "scene": "C01-S03",
+    "startFrame": 1901,
+    "endFrame": 3896,
+    "duration": 33.25
+  },
+  {
+    "filename": "segments/part-04.html",
+    "scene": "C01-S04",
+    "startFrame": 3896,
+    "endFrame": 5310,
+    "duration": 23.566666666666666
+  },
+  {
+    "filename": "segments/part-05.html",
+    "scene": "C01-S05",
+    "startFrame": 5310,
+    "endFrame": 6652,
+    "duration": 22.366666666666667
+  },
+  {
+    "filename": "segments/part-06.html",
+    "scene": "C01-S06",
+    "startFrame": 6652,
+    "endFrame": 8056,
+    "duration": 23.4
+  },
+  {
+    "filename": "segments/part-07.html",
+    "scene": "C01-S07",
+    "startFrame": 8056,
+    "endFrame": 9451,
+    "duration": 23.25
+  },
+  {
+    "filename": "segments/part-08.html",
+    "scene": "C01-S08",
+    "startFrame": 9451,
+    "endFrame": 10972,
+    "duration": 25.35
+  },
+  {
+    "filename": "segments/part-09.html",
+    "scene": "C01-S09",
+    "startFrame": 10972,
+    "endFrame": 12292,
+    "duration": 22.0
+  },
+  {
+    "filename": "segments/part-10.html",
+    "scene": "C01-S10",
+    "startFrame": 12292,
+    "endFrame": 13687,
+    "duration": 23.25
+  },
+  {
+    "filename": "segments/part-11.html",
+    "scene": "C01-S11",
+    "startFrame": 13687,
+    "endFrame": 15302,
+    "duration": 26.916666666666668
+  },
+  {
+    "filename": "segments/part-12.html",
+    "scene": "C01-S12",
+    "startFrame": 15302,
+    "endFrame": 17102,
+    "duration": 30.0
+  },
+  {
+    "filename": "segments/part-13.html",
+    "scene": "C01-S13",
+    "startFrame": 17102,
+    "endFrame": 18799,
+    "duration": 28.283333333333335
+  },
+  {
+    "filename": "segments/part-14.html",
+    "scene": "C01-S14",
+    "startFrame": 18799,
+    "endFrame": 20638,
+    "duration": 30.65
+  },
+  {
+    "filename": "segments/part-15.html",
+    "scene": "C01-S15",
+    "startFrame": 20638,
+    "endFrame": 22022,
+    "duration": 23.066666666666666
+  },
+  {
+    "filename": "segments/part-16.html",
+    "scene": "C01-S16",
+    "startFrame": 22022,
+    "endFrame": 23491,
+    "duration": 24.483333333333334
+  },
+  {
+    "filename": "segments/part-17.html",
+    "scene": "C01-S17",
+    "startFrame": 23491,
+    "endFrame": 25037,
+    "duration": 25.766666666666666
+  },
+  {
+    "filename": "segments/part-18.html",
+    "scene": "C01-S18",
+    "startFrame": 25037,
+    "endFrame": 26572,
+    "duration": 25.583333333333332
+  },
+  {
+    "filename": "segments/part-19.html",
+    "scene": "C01-S19",
+    "startFrame": 26572,
+    "endFrame": 28135,
+    "duration": 26.05
+  },
+  {
+    "filename": "segments/part-20.html",
+    "scene": "C01-S20",
+    "startFrame": 28135,
+    "endFrame": 29724,
+    "duration": 26.483333333333334
+  },
+  {
+    "filename": "segments/part-21.html",
+    "scene": "C01-S21",
+    "startFrame": 29724,
+    "endFrame": 31134,
+    "duration": 23.5
+  },
+  {
+    "filename": "segments/part-22.html",
+    "scene": "C01-S22",
+    "startFrame": 31134,
+    "endFrame": 32772,
+    "duration": 27.3
+  },
+  {
+    "filename": "segments/part-23.html",
+    "scene": "transition",
+    "startFrame": 32772,
+    "endFrame": 33072,
+    "duration": 5.0
+  },
+  {
+    "filename": "segments/part-24.html",
+    "scene": "C02-S01",
+    "startFrame": 33072,
+    "endFrame": 33541,
+    "duration": 7.816666666666666
+  },
+  {
+    "filename": "segments/part-25.html",
+    "scene": "C02-S02",
+    "startFrame": 33541,
+    "endFrame": 34779,
+    "duration": 20.633333333333333
+  },
+  {
+    "filename": "segments/part-26.html",
+    "scene": "C02-S03",
+    "startFrame": 34779,
+    "endFrame": 36545,
+    "duration": 29.433333333333334
+  },
+  {
+    "filename": "segments/part-27.html",
+    "scene": "C02-S04",
+    "startFrame": 36545,
+    "endFrame": 38102,
+    "duration": 25.95
+  },
+  {
+    "filename": "segments/part-28.html",
+    "scene": "C02-S05",
+    "startFrame": 38102,
+    "endFrame": 39524,
+    "duration": 23.7
+  },
+  {
+    "filename": "segments/part-29.html",
+    "scene": "C02-S06",
+    "startFrame": 39524,
+    "endFrame": 41297,
+    "duration": 29.55
+  },
+  {
+    "filename": "segments/part-30.html",
+    "scene": "C02-S07",
+    "startFrame": 41297,
+    "endFrame": 42823,
+    "duration": 25.433333333333334
+  },
+  {
+    "filename": "segments/part-31.html",
+    "scene": "C02-S08",
+    "startFrame": 42823,
+    "endFrame": 44306,
+    "duration": 24.716666666666665
+  },
+  {
+    "filename": "segments/part-32.html",
+    "scene": "C02-S09",
+    "startFrame": 44306,
+    "endFrame": 45776,
+    "duration": 24.5
+  },
+  {
+    "filename": "segments/part-33.html",
+    "scene": "C02-S10",
+    "startFrame": 45776,
+    "endFrame": 47235,
+    "duration": 24.316666666666666
+  },
+  {
+    "filename": "segments/part-34.html",
+    "scene": "C02-S11",
+    "startFrame": 47235,
+    "endFrame": 48835,
+    "duration": 26.666666666666668
+  },
+  {
+    "filename": "segments/part-35.html",
+    "scene": "C02-S12",
+    "startFrame": 48835,
+    "endFrame": 50101,
+    "duration": 21.1
+  },
+  {
+    "filename": "segments/part-36.html",
+    "scene": "C02-S13",
+    "startFrame": 50101,
+    "endFrame": 51523,
+    "duration": 23.7
+  },
+  {
+    "filename": "segments/part-37.html",
+    "scene": "C02-S14",
+    "startFrame": 51523,
+    "endFrame": 52885,
+    "duration": 22.7
+  },
+  {
+    "filename": "segments/part-38.html",
+    "scene": "C02-S15",
+    "startFrame": 52885,
+    "endFrame": 54529,
+    "duration": 27.4
+  },
+  {
+    "filename": "segments/part-39.html",
+    "scene": "C02-S16",
+    "startFrame": 54529,
+    "endFrame": 56053,
+    "duration": 25.4
+  },
+  {
+    "filename": "segments/part-40.html",
+    "scene": "C02-S17",
+    "startFrame": 56053,
+    "endFrame": 57332,
+    "duration": 21.316666666666666
+  },
+  {
+    "filename": "segments/part-41.html",
+    "scene": "C02-S18",
+    "startFrame": 57332,
+    "endFrame": 58821,
+    "duration": 24.816666666666666
+  },
+  {
+    "filename": "segments/part-42.html",
+    "scene": "C02-S19",
+    "startFrame": 58821,
+    "endFrame": 60456,
+    "duration": 27.25
+  },
+  {
+    "filename": "segments/part-43.html",
+    "scene": "C02-S20",
+    "startFrame": 60456,
+    "endFrame": 62073,
+    "duration": 26.95
+  },
+  {
+    "filename": "segments/part-44.html",
+    "scene": "C02-S21",
+    "startFrame": 62073,
+    "endFrame": 63704,
+    "duration": 27.183333333333334
+  },
+  {
+    "filename": "segments/part-45.html",
+    "scene": "C02-S22",
+    "startFrame": 63704,
+    "endFrame": 65512,
+    "duration": 30.133333333333333
+  },
+  {
+    "filename": "segments/part-46.html",
+    "scene": "transition",
+    "startFrame": 65512,
+    "endFrame": 65812,
+    "duration": 5.0
+  },
+  {
+    "filename": "segments/part-47.html",
+    "scene": "C03-S01",
+    "startFrame": 65812,
+    "endFrame": 66336,
+    "duration": 8.733333333333333
+  },
+  {
+    "filename": "segments/part-48.html",
+    "scene": "C03-S02",
+    "startFrame": 66336,
+    "endFrame": 67733,
+    "duration": 23.283333333333335
+  },
+  {
+    "filename": "segments/part-49.html",
+    "scene": "C03-S03",
+    "startFrame": 67733,
+    "endFrame": 69779,
+    "duration": 34.1
+  },
+  {
+    "filename": "segments/part-50.html",
+    "scene": "C03-S04",
+    "startFrame": 69779,
+    "endFrame": 70650,
+    "duration": 14.516666666666667
+  },
+  {
+    "filename": "segments/part-51.html",
+    "scene": "C03-S05",
+    "startFrame": 70650,
+    "endFrame": 72304,
+    "duration": 27.566666666666666
+  },
+  {
+    "filename": "segments/part-52.html",
+    "scene": "C03-S06",
+    "startFrame": 72304,
+    "endFrame": 73638,
+    "duration": 22.233333333333334
+  },
+  {
+    "filename": "segments/part-53.html",
+    "scene": "C03-S07",
+    "startFrame": 73638,
+    "endFrame": 75297,
+    "duration": 27.65
+  },
+  {
+    "filename": "segments/part-54.html",
+    "scene": "C03-S08",
+    "startFrame": 75297,
+    "endFrame": 76878,
+    "duration": 26.35
+  },
+  {
+    "filename": "segments/part-55.html",
+    "scene": "C03-S09",
+    "startFrame": 76878,
+    "endFrame": 78594,
+    "duration": 28.6
+  },
+  {
+    "filename": "segments/part-56.html",
+    "scene": "C03-S10",
+    "startFrame": 78594,
+    "endFrame": 79980,
+    "duration": 23.1
+  },
+  {
+    "filename": "segments/part-57.html",
+    "scene": "C03-S11",
+    "startFrame": 79980,
+    "endFrame": 81533,
+    "duration": 25.883333333333333
+  },
+  {
+    "filename": "segments/part-58.html",
+    "scene": "C03-S12",
+    "startFrame": 81533,
+    "endFrame": 83226,
+    "duration": 28.216666666666665
+  },
+  {
+    "filename": "segments/part-59.html",
+    "scene": "C03-S13",
+    "startFrame": 83226,
+    "endFrame": 84758,
+    "duration": 25.533333333333335
+  },
+  {
+    "filename": "segments/part-60.html",
+    "scene": "C03-S14",
+    "startFrame": 84758,
+    "endFrame": 86600,
+    "duration": 30.7
+  },
+  {
+    "filename": "segments/part-61.html",
+    "scene": "C03-S15",
+    "startFrame": 86600,
+    "endFrame": 88136,
+    "duration": 25.6
+  },
+  {
+    "filename": "segments/part-62.html",
+    "scene": "C03-S16",
+    "startFrame": 88136,
+    "endFrame": 89781,
+    "duration": 27.416666666666668
+  },
+  {
+    "filename": "segments/part-63.html",
+    "scene": "C03-S17",
+    "startFrame": 89781,
+    "endFrame": 91612,
+    "duration": 30.516666666666666
+  },
+  {
+    "filename": "segments/part-64.html",
+    "scene": "C03-S18",
+    "startFrame": 91612,
+    "endFrame": 93545,
+    "duration": 32.21666666666667
+  },
+  {
+    "filename": "segments/part-65.html",
+    "scene": "C03-S19",
+    "startFrame": 93545,
+    "endFrame": 95404,
+    "duration": 30.983333333333334
+  },
+  {
+    "filename": "segments/part-66.html",
+    "scene": "C03-S19",
+    "startFrame": 95404,
+    "endFrame": 95644,
+    "duration": 4.0
+  }
+]

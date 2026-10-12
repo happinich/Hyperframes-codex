@@ -1,0 +1,164 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "status": "uploaded_and_verified",
+  "verified_at": "2026-10-12T22:58:42.244Z",
+  "folder_id": "1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb",
+  "folder_url": "https://drive.google.com/drive/folders/1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb",
+  "parent_folder_id": "1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "file_count": 15,
+  "longform_video_included": false,
+  "external_caption_files_included": false,
+  "verification": "Connector upload success, folder list readback, exact filename/size and parent-folder metadata match. Connector did not expose remote checksums.",
+  "files": [
+    {
+      "name": "2026-029-three-unreturned-items-shorts-01.mp4",
+      "bytes": 15659242,
+      "local_sha256": "103b24afdd0969f1036c32896cf3eb38b1045f0ee04faf1aa0f3339a64a891d4",
+      "drive_id": "1G__p6-n7VcUbBeLZK8ZkUeSeW_X-oW0U",
+      "url": "https://drive.google.com/file/d/1G__p6-n7VcUbBeLZK8ZkUeSeW_X-oW0U/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "2026-029-three-unreturned-items-shorts-02.mp4",
+      "bytes": 23191776,
+      "local_sha256": "63f827a5feb7bfadf7297a369d70ddf3f80fe088f4bc13a387f67d27ae330c95",
+      "drive_id": "1CkdcnYJlofuNT-CVid0DrGefu9_F8pKt",
+      "url": "https://drive.google.com/file/d/1CkdcnYJlofuNT-CVid0DrGefu9_F8pKt/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "2026-029-three-unreturned-items-shorts-03.mp4",
+      "bytes": 26960224,
+      "local_sha256": "d522e0aa9f458d8f6d23754ce5755b318120d9a6c57bf47165546a38e535ab8a",
+      "drive_id": "1LzMKnJIn0QPlIFAd25-KVVEe6MtwVEBU",
+      "url": "https://drive.google.com/file/d/1LzMKnJIn0QPlIFAd25-KVVEe6MtwVEBU/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "README.md",
+      "bytes": 1297,
+      "local_sha256": "2a33556229861d8ed8b58bc5ebce1272254793d04611dc8054f2b525cce96763",
+      "drive_id": "1YeLFv20niVPIOBhhTRSDIriAL1nlL5i4",
+      "url": "https://drive.google.com/file/d/1YeLFv20niVPIOBhhTRSDIriAL1nlL5i4/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "delivery-manifest.json",
+      "bytes": 2484,
+      "local_sha256": "cafcfbb3997ee08aee40a22052e3d0d7250366d7ccb691b31cd31099dc426ced",
+      "drive_id": "1V8EIPPnzXmgBeYSEOJDYv28jGVw9EQZm",
+      "url": "https://drive.google.com/file/d/1V8EIPPnzXmgBeYSEOJDYv28jGVw9EQZm/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "longform-publish.html",
+      "bytes": 6038,
+      "local_sha256": "b1dd629f23950364ffe96457959681e89db3b5fd74c26b645a532200e8f71186",
+      "drive_id": "1l47OYW4DLb_yDbXj6Rju8STUV16LczGa",
+      "url": "https://drive.google.com/file/d/1l47OYW4DLb_yDbXj6Rju8STUV16LczGa/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "longform-publish.md",
+      "bytes": 3324,
+      "local_sha256": "eebcacb49ddef35caa23e9120b723e23cfbe8dbabd2c4f9c3f2a17c71940bef7",
+      "drive_id": "1rs2tV1MTQR3Xh9i1pW6k7aQO9fQqkxu6",
+      "url": "https://drive.google.com/file/d/1rs2tV1MTQR3Xh9i1pW6k7aQO9fQqkxu6/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-01-publish.html",
+      "bytes": 3687,
+      "local_sha256": "2c19626e2beab7f5502f46f94ea89c8013677218f5a952ccb76426d49023551a",
+      "drive_id": "1h1umttCK9X6e8Ni1ladu5GtAW0wW-guR",
+      "url": "https://drive.google.com/file/d/1h1umttCK9X6e8Ni1ladu5GtAW0wW-guR/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-01-publish.md",
+      "bytes": 1327,
+      "local_sha256": "18e3f543eca635a1a1deba43d0ff2963df3b744bca6cd549c33fe904e3499942",
+      "drive_id": "1xw8X-UDlX3zgjM-P17B4Vj1GjlI7bzGA",
+      "url": "https://drive.google.com/file/d/1xw8X-UDlX3zgjM-P17B4Vj1GjlI7bzGA/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-02-publish.html",
+      "bytes": 3644,
+      "local_sha256": "7754e6b7050eececdfd5fef3c382e7ac62b78f84448999cb6a6ff60f8f6bb3af",
+      "drive_id": "1m_UpStL-ZZUQIh-6_8GnISoRD3mHXWFw",
+      "url": "https://drive.google.com/file/d/1m_UpStL-ZZUQIh-6_8GnISoRD3mHXWFw/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-02-publish.md",
+      "bytes": 1294,
+      "local_sha256": "03dca685e6d562ae35bf3436a7eb9f0c992c4f01902e1d740c66aba188a8a04a",
+      "drive_id": "19OS5C0h_8IyflHsiPZBIYeNNUzHRCVvB",
+      "url": "https://drive.google.com/file/d/19OS5C0h_8IyflHsiPZBIYeNNUzHRCVvB/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-03-publish.html",
+      "bytes": 3707,
+      "local_sha256": "fd50f1153223bc1f9e16a3188f83082d4c36dd408fd7cdd941e30630ed9a94ad",
+      "drive_id": "1e18VeaJ7oH04QOr0pCZwMLM9sU_gl417",
+      "url": "https://drive.google.com/file/d/1e18VeaJ7oH04QOr0pCZwMLM9sU_gl417/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "shorts-03-publish.md",
+      "bytes": 1345,
+      "local_sha256": "c27cea30ad65ce22d44743c4872ffa5b61feff75570570fe1da1022b2c1122d8",
+      "drive_id": "1TViIXF_LOsUTjTN9pfJ0tDbXtCJ1jqiX",
+      "url": "https://drive.google.com/file/d/1TViIXF_LOsUTjTN9pfJ0tDbXtCJ1jqiX/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "thumbnail-a.png",
+      "bytes": 922358,
+      "local_sha256": "7b50d0794f59e817b56824eb4a0efb7f1970c2d04719ac596dda0422ed773944",
+      "drive_id": "1nNgZVwokOXroal1ywHsf206h3hupIGml",
+      "url": "https://drive.google.com/file/d/1nNgZVwokOXroal1ywHsf206h3hupIGml/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    },
+    {
+      "name": "thumbnail-b.png",
+      "bytes": 1059983,
+      "local_sha256": "a8f730f0cb48915f1457486148cdd166824b3ac06631a2f4e79629cf6cb02e12",
+      "drive_id": "1x2fqlZXewfX842STQHneNUw7-v9yYyBE",
+      "url": "https://drive.google.com/file/d/1x2fqlZXewfX842STQHneNUw7-v9yYyBE/view?usp=drivesdk",
+      "upload_success": true,
+      "remote_size_match": true,
+      "remote_parent_match": true
+    }
+  ]
+}

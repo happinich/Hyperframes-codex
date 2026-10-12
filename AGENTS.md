@@ -60,12 +60,15 @@ the documentation and templates in sync when a shared rule changes.
 
 Follow these gates for every new long-form production:
 
-For a new horror story without a user-supplied premise, recommend three distinct
-story candidates by default and wait for the user to choose one before writing
-the complete narration. Include a hook, premise, horror type, suggested visual
-style and editing approach, and one primary recommendation with its reason.
-The candidate count is defined in `config/horror-channel-strategy.json`.
-Topic selection alone does not approve narration, visual style, voice, or BGM.
+For a new horror long-form video without user-supplied premises, develop three
+distinct stories for one anthology by default. Do not ask the user to select one
+of three candidates. Use two stories when both longer narratives have enough
+substance and complete structure to fill the episode without padding. Target
+20-40 minutes for the whole video; do not impose a 6-8 minute per-story limit.
+Give each story its own hook, premise, horror type, complete narration, scene
+plan, visual-style options, and editing approach. The story-count range and
+duration come from `config/horror-channel-strategy.json`. Planning the anthology
+does not approve narration, visual style, voice, or BGM.
 
 1. Gather the topic, supplied sources, target duration, audience, and goal.
 2. Research current or unstable claims when necessary.
@@ -105,9 +108,10 @@ silently carry a previous project's style or BGM into a new project.
   teaser with its own first-second hook and compressed escalation. End on a
   complete sentence immediately before the identity, twist, or ending is
   revealed. A raw long-form excerpt is not the default Shorts script.
-- For this horror channel, make one complete 6-8 minute story per long-form
-  video. Keep multi-story anthologies paused until single-story retention data
-  is sufficient, and build compilations only from approved published stories.
+- For this horror channel, make two or three distinct complete stories per new
+  long-form video, with three as the default and 20-40 minutes total. Let each
+  story's structure determine its length. Plan a separate spoiler-free Short for each story.
+  Compilations of past stories use only approved published stories.
 - Write new horror narration as natural spoken Korean storytelling, as if a
   person were recounting an experience directly to the listener. Mix endings
   such as `~했어요`, `~였죠`, `~거든요`, `~더라고요`, and occasional

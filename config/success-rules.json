@@ -20,6 +20,7 @@
       },
       "shorts_required_per_longform": true,
       "shorts_minimum_count": 1,
+      "shorts_minimum_per_horror_story": 1,
       "shorts": {
         "width": 1080,
         "height": 1920,
@@ -155,7 +156,7 @@
       "avoid": ["long written-style paragraphs", "slow greetings", "abstract setup without a visual anchor"]
     },
     "horror_story": {
-      "format": "one complete 6-8 minute modern everyday-horror story per video",
+      "format": "20-40 minute anthology of two or three complete modern everyday-horror stories; three by default, two when both longer narratives earn their length",
       "preferred_devices": ["호출벨", "인터폰", "CCTV", "블랙박스", "택시 앱", "단체 채팅방"],
       "rotation_target_percent": {
         "explicit_ghost": 40,
@@ -167,7 +168,7 @@
       "opening": "Lead with the most disturbing line for 5-10 seconds, establish why the narrator is there and what normal looks like, then introduce the first anomaly between 40 and 60 seconds.",
       "narration_style": "Use natural polite spoken Korean storytelling, as if a person were recounting an experience directly to the listener. Mix endings such as ~했어요, ~였죠, ~거든요, ~더라고요, and occasional ~했습니다 according to emotion and pacing. Avoid chains of clipped 했다/였다 sentences and any mechanically repeated ending.",
       "explicit_entity_rule": "For ghost or creature stories, confirm that the entity exists through direct interaction by the late story. Reveal it as trace, partial form, then clear interaction without repeatedly showing a full face or explaining its complete origin.",
-      "anthology_default": false,
+      "anthology_default": true,
       "ending": "Leave a concrete residual rule, sound, time, object, or viewer-directed implication instead of explaining everything.",
       "truth_label_required": true,
       "default_truth_label": "fiction",

@@ -1,0 +1,1659 @@
+{
+  "status": "all_138_final_assets_approved_two_passes",
+  "required_passes": 2,
+  "assets": [
+    {
+      "asset_id": "C01-S01-A1",
+      "scene_id": "C01-S01",
+      "relative_path": "04_composition/assets/visuals/c01-s01-a1.png",
+      "sha256": "b607dd33eca86f1601f326c97b895620d226648548450679dc8862f7cf210ec5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s01-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S01-A2",
+      "scene_id": "C01-S01",
+      "relative_path": "04_composition/assets/visuals/c01-s01-a2.png",
+      "sha256": "e53170e173f4f3dfaa6e0be3f6fce9c21ba745e854f38965ad7febc067b4e278",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s01-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S02-A1",
+      "scene_id": "C01-S02",
+      "relative_path": "04_composition/assets/visuals/c01-s02-a1.png",
+      "sha256": "659b2bfac3120b81c0ab147eb591b985ff91bc3cdcfa893b1cfabdd53e4d0c3f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s02-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S02-A2",
+      "scene_id": "C01-S02",
+      "relative_path": "04_composition/assets/visuals/c01-s02-a2.png",
+      "sha256": "f243b7849ebf787883b735eb0e80a6dbd1eb6b22861428ebb3e1a74c98d137aa",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s02-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S03-A1",
+      "scene_id": "C01-S03",
+      "relative_path": "04_composition/assets/visuals/c01-s03-a1.png",
+      "sha256": "4ab60cc29d25838a2fc9f34e8253777ee083c6f49f57dfa3ac99d4d16f3deb95",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s03-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S03-A2",
+      "scene_id": "C01-S03",
+      "relative_path": "04_composition/assets/visuals/c01-s03-a2.png",
+      "sha256": "d50f68bd9f38bba0c327b0518c7ff613ec06cda87f87fa01a93e0cb0a4173069",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s03-a2-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S04-A1",
+      "scene_id": "C01-S04",
+      "relative_path": "04_composition/assets/visuals/c01-s04-a1.png",
+      "sha256": "596429e63df74b0766aebb658af8b9600ca290509eb79874e2592ecee855cd05",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s04-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S04-A2",
+      "scene_id": "C01-S04",
+      "relative_path": "04_composition/assets/visuals/c01-s04-a2.png",
+      "sha256": "e351161c3821245edc185df6fce1068a58b40604360cb9486365d455825cf0a8",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s04-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S05-A1",
+      "scene_id": "C01-S05",
+      "relative_path": "04_composition/assets/visuals/c01-s05-a1.png",
+      "sha256": "5367f5eedf6ec87e14efaddde70346e354f8678164b35da32dc82b7a6814fe6f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s05-a1-rejected-v1.png",
+        "c01-s05-a1-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S05-A2",
+      "scene_id": "C01-S05",
+      "relative_path": "04_composition/assets/visuals/c01-s05-a2.png",
+      "sha256": "bfaa6c9ac74a90716c2660b9d831c3519fcf55c9f42ad6288bb18691232cc796",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s05-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S06-A1",
+      "scene_id": "C01-S06",
+      "relative_path": "04_composition/assets/visuals/c01-s06-a1.png",
+      "sha256": "73f6640192cfd9b73f1162e2df246b0a0740d52b0212cd60ef3d52c65bde0a49",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s06-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S06-A2",
+      "scene_id": "C01-S06",
+      "relative_path": "04_composition/assets/visuals/c01-s06-a2.png",
+      "sha256": "e4382660611015c592bb83f4afdf9d59251370c534ee9dcf1041308ce11ac583",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s06-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S07-A1",
+      "scene_id": "C01-S07",
+      "relative_path": "04_composition/assets/visuals/c01-s07-a1.png",
+      "sha256": "8b54ea0e838fa1c63e9a8b834a3044b365d0f2468ea58f7975a82e52e990e635",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s07-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S07-A2",
+      "scene_id": "C01-S07",
+      "relative_path": "04_composition/assets/visuals/c01-s07-a2.png",
+      "sha256": "e15be68d49287c31b17d4620db9617b6795f55c8aaf938729c9e9a995d207401",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s07-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S08-A1",
+      "scene_id": "C01-S08",
+      "relative_path": "04_composition/assets/visuals/c01-s08-a1.png",
+      "sha256": "27ff3a057773b7e1249ab3a8c638af280151866fddff54e4684a0377bb12d91e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s08-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S08-A2",
+      "scene_id": "C01-S08",
+      "relative_path": "04_composition/assets/visuals/c01-s08-a2.png",
+      "sha256": "1663f79412810ae8c3e7b8da4e2924d71d3c59afab43c5967994198defa1a50a",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s08-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S09-A1",
+      "scene_id": "C01-S09",
+      "relative_path": "04_composition/assets/visuals/c01-s09-a1.png",
+      "sha256": "c39f7e9d3b1be263e7a369f0bf2470afc1f5d7a8b8587670db4656cdc727ac1c",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s09-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S09-A2",
+      "scene_id": "C01-S09",
+      "relative_path": "04_composition/assets/visuals/c01-s09-a2.png",
+      "sha256": "d2136d4ca85d3a9170789e71b280b41fa921fbd68db56dd314e38cf3a3fe2c53",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s09-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S10-A1",
+      "scene_id": "C01-S10",
+      "relative_path": "04_composition/assets/visuals/c01-s10-a1.png",
+      "sha256": "ddfe43f473587d671c56f8fa2edc4a2890d727360155bdae8b9b17ae6330a1a5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S10-A2",
+      "scene_id": "C01-S10",
+      "relative_path": "04_composition/assets/visuals/c01-s10-a2.png",
+      "sha256": "c4ef91423aab02a610cbfc9943ed2c7a48964c93c7d9abd7f88f17df8c3f705a",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S11-A1",
+      "scene_id": "C01-S11",
+      "relative_path": "04_composition/assets/visuals/c01-s11-a1.png",
+      "sha256": "b8d5481a375d17a9706a69a3dbc2a709d87c594d3a2c852ae43c06e261b561fa",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S11-A2",
+      "scene_id": "C01-S11",
+      "relative_path": "04_composition/assets/visuals/c01-s11-a2.png",
+      "sha256": "015ca8350b7ed3f08b43f4f927c92cd31b5e620ed3283e31bc48b176567dd35f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S12-A1",
+      "scene_id": "C01-S12",
+      "relative_path": "04_composition/assets/visuals/c01-s12-a1.png",
+      "sha256": "083f148663301b9b47e7ec15863af5136c00b1991e4d41a28ed86c33d15b1629",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S12-A2",
+      "scene_id": "C01-S12",
+      "relative_path": "04_composition/assets/visuals/c01-s12-a2.png",
+      "sha256": "9442f16d6ba17f782a935260c3f1108ad84e2bb0c14f1f49f1dcf64f82aa7567",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S13-A1",
+      "scene_id": "C01-S13",
+      "relative_path": "04_composition/assets/visuals/c01-s13-a1.png",
+      "sha256": "b3a49a57a08aa70c075030bc9130bc4e66b2f02c7736f30c0a0aa70c8e1376bb",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s13-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S13-A2",
+      "scene_id": "C01-S13",
+      "relative_path": "04_composition/assets/visuals/c01-s13-a2.png",
+      "sha256": "d8ec27041acddc89bea5237b8cf6213dc45e1d9ad341a2ba760f00b3f5515b79",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s13-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S14-A1",
+      "scene_id": "C01-S14",
+      "relative_path": "04_composition/assets/visuals/c01-s14-a1.png",
+      "sha256": "0a86d7a4f0205a3aaf6344aad7358ce2ea6c3c50112799eb5e3d44a5c54b2f20",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S14-A2",
+      "scene_id": "C01-S14",
+      "relative_path": "04_composition/assets/visuals/c01-s14-a2.png",
+      "sha256": "8ae70d26c5230ccae1f82a5b20c4dc45aa455fd7a837df46e202abac7ac7e604",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S15-A1",
+      "scene_id": "C01-S15",
+      "relative_path": "04_composition/assets/visuals/c01-s15-a1.png",
+      "sha256": "d20cc579f3cc119aecf94d204fe914c38e01c5b5d4a5aafc8b117f2c04f01fab",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S15-A2",
+      "scene_id": "C01-S15",
+      "relative_path": "04_composition/assets/visuals/c01-s15-a2.png",
+      "sha256": "41330f0c9e26315235b8f8b76413fef808483471a78b46796f6437136b650057",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s15-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S16-A1",
+      "scene_id": "C01-S16",
+      "relative_path": "04_composition/assets/visuals/c01-s16-a1.png",
+      "sha256": "8d2290dd28e47a561669952d1cbcdf1d7eeeda90673ada5c27f6da9db59696fe",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s16-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S16-A2",
+      "scene_id": "C01-S16",
+      "relative_path": "04_composition/assets/visuals/c01-s16-a2.png",
+      "sha256": "f65ccb2921270c028f6cbea20b73277d2a179d72d7c95344fc223c339ac0c668",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S17-A1",
+      "scene_id": "C01-S17",
+      "relative_path": "04_composition/assets/visuals/c01-s17-a1.png",
+      "sha256": "730022d0a3924203accc3042918edf748997c2b7ce17e144596867e453ea4429",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S17-A2",
+      "scene_id": "C01-S17",
+      "relative_path": "04_composition/assets/visuals/c01-s17-a2.png",
+      "sha256": "504701cd8dbdaffd2a134508e040ab8a76d4710f15f3229e20e9896516a2d99b",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s17-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S18-A1",
+      "scene_id": "C01-S18",
+      "relative_path": "04_composition/assets/visuals/c01-s18-a1.png",
+      "sha256": "c80c3c30ee05d7cd01e29cfd11d7228b62fef40f42f01c22ea941e1e5db9f6e5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s18-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S18-A2",
+      "scene_id": "C01-S18",
+      "relative_path": "04_composition/assets/visuals/c01-s18-a2.png",
+      "sha256": "ba7d33597ab16470aa9f37920a811d22ace06e1115a37bed031dde0e8ac2d96e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s18-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S19-A1",
+      "scene_id": "C01-S19",
+      "relative_path": "04_composition/assets/visuals/c01-s19-a1.png",
+      "sha256": "cc491605b467b3e88cfdb3890699682c349ca51762e1f4c6c29e6dc63f9035d9",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s19-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S19-A2",
+      "scene_id": "C01-S19",
+      "relative_path": "04_composition/assets/visuals/c01-s19-a2.png",
+      "sha256": "72c5693e0f7e7f5f9f28c22ca2572bbed8fde2c8d88b04d305259dd649b0e5d3",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S20-A1",
+      "scene_id": "C01-S20",
+      "relative_path": "04_composition/assets/visuals/c01-s20-a1.png",
+      "sha256": "56bd180aa311dc208f13f1d797f3e3854fa19e9352f6dac524e595bd415c0f0a",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s20-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S20-A2",
+      "scene_id": "C01-S20",
+      "relative_path": "04_composition/assets/visuals/c01-s20-a2.png",
+      "sha256": "a26d01802df5886638815f35f66f3628c2182c8e39aa526bbc4220d27a11c6aa",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s20-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S21-A1",
+      "scene_id": "C01-S21",
+      "relative_path": "04_composition/assets/visuals/c01-s21-a1.png",
+      "sha256": "ff258bade7955e118d40dac35d531497f872e6cba77ac78e439a9a355ef1a5f5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s21-a1-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S21-A2",
+      "scene_id": "C01-S21",
+      "relative_path": "04_composition/assets/visuals/c01-s21-a2.png",
+      "sha256": "712f93687e0cec5a6cf505c2a177292e8d4050b423d086ddd2a23086e8961852",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s21-a2-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S22-A1",
+      "scene_id": "C01-S22",
+      "relative_path": "04_composition/assets/visuals/c01-s22-a1.png",
+      "sha256": "238d17961c017be42f9fa2ae821a5e2366fc6fb6d1b99ee6df4655754c07e0cd",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s22-a1-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C01-S22-A2",
+      "scene_id": "C01-S22",
+      "relative_path": "04_composition/assets/visuals/c01-s22-a2.png",
+      "sha256": "f4f88ee08bd4014155b2e3bfaf1e4b44aecb380e245c3b3af2039ce42056d8bb",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c01-s22-a2-rejected-v2.png"
+      ],
+      "note": "Narrated clue, character, prop count, location and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S01-A1",
+      "scene_id": "C02-S01",
+      "relative_path": "04_composition/assets/visuals/c02-s01-a1.png",
+      "sha256": "79572b30439aa810ab2f39456f38dd969eddedcc828f76dc0418f90468c7f011",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s01-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S01-A2",
+      "scene_id": "C02-S01",
+      "relative_path": "04_composition/assets/visuals/c02-s01-a2.png",
+      "sha256": "9e0f05ec1d6a21175bb8915b2c3e9e46dc4652ab71f7b1c505b59f0b7d767f8d",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s01-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S02-A1",
+      "scene_id": "C02-S02",
+      "relative_path": "04_composition/assets/visuals/c02-s02-a1.png",
+      "sha256": "e53b2bbbfafd3274d80e6df240daed43b1738a89b42e3bee9d54aa285b9e4b34",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S02-A2",
+      "scene_id": "C02-S02",
+      "relative_path": "04_composition/assets/visuals/c02-s02-a2.png",
+      "sha256": "8b7d5d528ca13a56b6c546146d441b413fc73d994275c9744792033b34cfff21",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S03-A1",
+      "scene_id": "C02-S03",
+      "relative_path": "04_composition/assets/visuals/c02-s03-a1.png",
+      "sha256": "156129a812d3cf3d9ca492d39f707739e523fcec40e32eac827b4e1c0f275507",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S03-A2",
+      "scene_id": "C02-S03",
+      "relative_path": "04_composition/assets/visuals/c02-s03-a2.png",
+      "sha256": "5912cbdcbc4ff4bd37e31e6297e14be2f104a8f5781123e23f2fa5bc793cfb2d",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S04-A1",
+      "scene_id": "C02-S04",
+      "relative_path": "04_composition/assets/visuals/c02-s04-a1.png",
+      "sha256": "fa6fa795c18a05c9f6b573c778a9b5775ab2180730c0cbc11eaa21817d6e45a4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S04-A2",
+      "scene_id": "C02-S04",
+      "relative_path": "04_composition/assets/visuals/c02-s04-a2.png",
+      "sha256": "ec3961db390225a271ed2ebbc9ead992af7584d7be100410d971325330efa80e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S05-A1",
+      "scene_id": "C02-S05",
+      "relative_path": "04_composition/assets/visuals/c02-s05-a1.png",
+      "sha256": "b65dcaf1983b718106b789b7ef882a6b630434e1af6addcb37f58c62c9285ace",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S05-A2",
+      "scene_id": "C02-S05",
+      "relative_path": "04_composition/assets/visuals/c02-s05-a2.png",
+      "sha256": "f365caee64703926dad0502c5bf0eaa67acfeb2dd753c03d55e19203d44a1a54",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S06-A1",
+      "scene_id": "C02-S06",
+      "relative_path": "04_composition/assets/visuals/c02-s06-a1.png",
+      "sha256": "6cd89fdd4069d8a922a8e8a3abe540aca07dbd9282540061bb49493de36daf56",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s06-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S06-A2",
+      "scene_id": "C02-S06",
+      "relative_path": "04_composition/assets/visuals/c02-s06-a2.png",
+      "sha256": "fdb80c077bb8f78646c2b86aa6980a4da3b32b3dd4743e35aa36d9006843d9e4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S07-A1",
+      "scene_id": "C02-S07",
+      "relative_path": "04_composition/assets/visuals/c02-s07-a1.png",
+      "sha256": "f8f69663d15a5c9bf0b84fc116c6bd11b71ceeaa8322fc52a221830820f1c3f7",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S07-A2",
+      "scene_id": "C02-S07",
+      "relative_path": "04_composition/assets/visuals/c02-s07-a2.png",
+      "sha256": "32c3b0f092219c5ca13ed0c965c29a5c51de69dc75e2e21650a17a8286ec6000",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S08-A1",
+      "scene_id": "C02-S08",
+      "relative_path": "04_composition/assets/visuals/c02-s08-a1.png",
+      "sha256": "190dbed963ab7acbd7b5ccd03d42144b0869d0e1a80d29f684fb63e782ca5884",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S08-A2",
+      "scene_id": "C02-S08",
+      "relative_path": "04_composition/assets/visuals/c02-s08-a2.png",
+      "sha256": "247c803c40f44c1928634f334a05fe68d6563388f4048d41f334067c92f01b26",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S09-A1",
+      "scene_id": "C02-S09",
+      "relative_path": "04_composition/assets/visuals/c02-s09-a1.png",
+      "sha256": "cad937c97c7b339d5a6f1c35b5e0a73e463d4d7d5a0beafde498fd1b19a9f775",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S09-A2",
+      "scene_id": "C02-S09",
+      "relative_path": "04_composition/assets/visuals/c02-s09-a2.png",
+      "sha256": "1915dcbefe558d33e83500be4ea27c352dacbd8504723875c23b860d58067ab9",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S10-A1",
+      "scene_id": "C02-S10",
+      "relative_path": "04_composition/assets/visuals/c02-s10-a1.png",
+      "sha256": "f66609fcaf1a9d369599763d447dfe037e8554ab9e0b5ee54dc13817c5b3f4cc",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s10-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S10-A2",
+      "scene_id": "C02-S10",
+      "relative_path": "04_composition/assets/visuals/c02-s10-a2.png",
+      "sha256": "eccbbc0af98eb989347c93b3977aaf0e0615e3ede732aec0ea30beb13d313eb6",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s10-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S11-A1",
+      "scene_id": "C02-S11",
+      "relative_path": "04_composition/assets/visuals/c02-s11-a1.png",
+      "sha256": "7a395180a994f0064984d445bfebc7a2b03dc2f3597e936d17c42e96b4a94126",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S11-A2",
+      "scene_id": "C02-S11",
+      "relative_path": "04_composition/assets/visuals/c02-s11-a2.png",
+      "sha256": "9eeb2e33ffdc49fd4beeb595cc1b40b9759f3965c5eee4f91f34b48e4c44e876",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S12-A1",
+      "scene_id": "C02-S12",
+      "relative_path": "04_composition/assets/visuals/c02-s12-a1.png",
+      "sha256": "c4a7b6f154801d009fef3099967a4fc388c407fa723a8e01d1face0ae4822761",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S12-A2",
+      "scene_id": "C02-S12",
+      "relative_path": "04_composition/assets/visuals/c02-s12-a2.png",
+      "sha256": "dac0a16c3e2526bcb90566e07aaf267681ec6c54ab47e4ff0ac3d5b17c7511cb",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S13-A1",
+      "scene_id": "C02-S13",
+      "relative_path": "04_composition/assets/visuals/c02-s13-a1.png",
+      "sha256": "dcb50a44137b9caa7c01424a2c62ad9c72741b1054952dec7c1d1a480302e17b",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S13-A2",
+      "scene_id": "C02-S13",
+      "relative_path": "04_composition/assets/visuals/c02-s13-a2.png",
+      "sha256": "edff57439719e354115a91c83f87ab9c5732187a384c529e4236e9ac48c4a443",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S14-A1",
+      "scene_id": "C02-S14",
+      "relative_path": "04_composition/assets/visuals/c02-s14-a1.png",
+      "sha256": "99b88fbed2b4123fbf37ba90b5a149cf4ec2206ddf677b86043224e6ec75b4e6",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s14-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S14-A2",
+      "scene_id": "C02-S14",
+      "relative_path": "04_composition/assets/visuals/c02-s14-a2.png",
+      "sha256": "079e843078e9af81ce8dd48653f0201e7ef53e8c0e1138d630b360000841b4fd",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S15-A1",
+      "scene_id": "C02-S15",
+      "relative_path": "04_composition/assets/visuals/c02-s15-a1.png",
+      "sha256": "43c625c59e2b5211084b641bd7c91d901599e8b38f37fcce379d03a2aaefb661",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S15-A2",
+      "scene_id": "C02-S15",
+      "relative_path": "04_composition/assets/visuals/c02-s15-a2.png",
+      "sha256": "6e4bf7c8992c8e2335b1f6f3265275a917b086df99e40561df79e27d0bf8a124",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S16-A1",
+      "scene_id": "C02-S16",
+      "relative_path": "04_composition/assets/visuals/c02-s16-a1.png",
+      "sha256": "26390081218815f245d88884bcdc256da9fd1a3b9373e2c755b4dd2bc11ef8cf",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s16-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S16-A2",
+      "scene_id": "C02-S16",
+      "relative_path": "04_composition/assets/visuals/c02-s16-a2.png",
+      "sha256": "839c0f3930e1784148b8be926c6f0ba3617c78c2b92658732b97a0871ec58f7a",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S17-A1",
+      "scene_id": "C02-S17",
+      "relative_path": "04_composition/assets/visuals/c02-s17-a1.png",
+      "sha256": "9bcaa3d9ca5a9255461792808feedb7c591b07378ef3fb7821830bf4fb8907ad",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S17-A2",
+      "scene_id": "C02-S17",
+      "relative_path": "04_composition/assets/visuals/c02-s17-a2.png",
+      "sha256": "5bb50ddb92411e906e1368dd407e23b2e7909d173b691810b28598315e19f00f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S18-A1",
+      "scene_id": "C02-S18",
+      "relative_path": "04_composition/assets/visuals/c02-s18-a1.png",
+      "sha256": "a20b2c73990935727f7ecc302ab2ca169f8c544fe6d8f469f79dd9e1fbbfde6e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S18-A2",
+      "scene_id": "C02-S18",
+      "relative_path": "04_composition/assets/visuals/c02-s18-a2.png",
+      "sha256": "88bc27ed9fcbd1a9b4c778eb99fd60db6190a343298b489b846a734fb000af95",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S19-A1",
+      "scene_id": "C02-S19",
+      "relative_path": "04_composition/assets/visuals/c02-s19-a1.png",
+      "sha256": "f6d81df720b12a85fc04f13fde2eb485ea90c3da15ee5592baa1170bf4354634",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S19-A2",
+      "scene_id": "C02-S19",
+      "relative_path": "04_composition/assets/visuals/c02-s19-a2.png",
+      "sha256": "0f00496774406feb6f664d5de68e14153520d7994bbc2964f3e786a61370cc63",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S20-A1",
+      "scene_id": "C02-S20",
+      "relative_path": "04_composition/assets/visuals/c02-s20-a1.png",
+      "sha256": "03e9800fb3c5726fd0dc189deb04a6d4a7b0eabcbbd4ffe53e0ee37e8a5790fd",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s20-a1-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S20-A2",
+      "scene_id": "C02-S20",
+      "relative_path": "04_composition/assets/visuals/c02-s20-a2.png",
+      "sha256": "6818393f940e59198a3a9ba7cba08d4d8097a8983967ee39d5f3d76f9a891f5b",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "c02-s20-a2-rejected-v1.png"
+      ],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S21-A1",
+      "scene_id": "C02-S21",
+      "relative_path": "04_composition/assets/visuals/c02-s21-a1.png",
+      "sha256": "2a11aed5a7ffd7dc89a72a46653be09a04dfa6b92a45387324d1d707ce56f996",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S21-A2",
+      "scene_id": "C02-S21",
+      "relative_path": "04_composition/assets/visuals/c02-s21-a2.png",
+      "sha256": "9d232d7f04e7ebd30cd49c8b96f941d0541d386870d2205aab74b8aa30b21816",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S22-A1",
+      "scene_id": "C02-S22",
+      "relative_path": "04_composition/assets/visuals/c02-s22-a1.png",
+      "sha256": "9daa9e926a150eff49453a513e2e2e4a870f8a5740744ec9f6d7cdd9fb034898",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "C02-S22-A2",
+      "scene_id": "C02-S22",
+      "relative_path": "04_composition/assets/visuals/c02-s22-a2.png",
+      "sha256": "c1cedd9089214a7fd50e94e10e2b695d4362199950008aba813be1a4622e1d61",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Narrated clue, entity anatomy, dock spatial continuity, action and adjacent visual continuity checked; only final approved version may render."
+    },
+    {
+      "asset_id": "SH01-01",
+      "scene_id": "SH01",
+      "relative_path": "04_composition/assets/visuals/sh01-01.png",
+      "sha256": "4d15e8c947fc150047d5a5a92b05974bddaeeb6ac4acc0ef97129f0105265a2f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH01-02",
+      "scene_id": "SH01",
+      "relative_path": "04_composition/assets/visuals/sh01-02.png",
+      "sha256": "e18f9c55fca032b9a6aa89f1d3140d0369b283e3a3954e35675d5f69b3f85f75",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH01-03",
+      "scene_id": "SH01",
+      "relative_path": "04_composition/assets/visuals/sh01-03.png",
+      "sha256": "dbe465f40b5c4cae693f522264fd9f040ac4ba142fb933594f06d4a6daac43cb",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH01-04",
+      "scene_id": "SH01",
+      "relative_path": "04_composition/assets/visuals/sh01-04.png",
+      "sha256": "80564ef789adb7e29fe4336b1232a391354c2dcd5727815146a9cd315f9331fe",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH02-01",
+      "scene_id": "SH02",
+      "relative_path": "04_composition/assets/visuals/sh02-01.png",
+      "sha256": "26dcdba4d21a510f6fa5a010fd203da209f68d9c30962ccbb71726b75fc9c29e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "sh02-01-rejected-v1.png"
+      ],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH02-02",
+      "scene_id": "SH02",
+      "relative_path": "04_composition/assets/visuals/sh02-02.png",
+      "sha256": "182b60632d4235d9bacbcaa0f4f71d2a0b49595caa53a785ee2f00894014ed3e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "sh02-02-rejected-v1.png"
+      ],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH02-03",
+      "scene_id": "SH02",
+      "relative_path": "04_composition/assets/visuals/sh02-03.png",
+      "sha256": "5169338fbe003a34581237c81b36fbf0eed6082b345dd3767d5a47340330a322",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH02-04",
+      "scene_id": "SH02",
+      "relative_path": "04_composition/assets/visuals/sh02-04.png",
+      "sha256": "c8a3fa35803b3c87c5543ac0fa98993a5887d58e7c258b47037c0dc4d303a31d",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH03-01",
+      "scene_id": "SH03",
+      "relative_path": "04_composition/assets/visuals/sh03-01.png",
+      "sha256": "2e362c12b4176279d99d916a37a207f1168f3c8fc02a60a1ac5062190e5c725c",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH03-02",
+      "scene_id": "SH03",
+      "relative_path": "04_composition/assets/visuals/sh03-02.png",
+      "sha256": "6fe1c4da30c0c9b796ba53f831bd1fc810bd70b6f9cd7171b3245bc787b5cb3b",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH03-03",
+      "scene_id": "SH03",
+      "relative_path": "04_composition/assets/visuals/sh03-03.png",
+      "sha256": "cdb9aaf9b684e0a9263c5854e6416594f418c4426b3a8cac18c69bd21e7fad77",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "sh03-03-rejected-v1.png"
+      ],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "SH03-04",
+      "scene_id": "SH03",
+      "relative_path": "04_composition/assets/visuals/sh03-04.png",
+      "sha256": "8e1ba53fec412ed4d445c81ced683f61266f2992248e137ccf3eea08cb215ce9",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Fresh portrait image; narration clue, anatomy/props, vertical crop and adjacent-shot continuity approved; hash differs from all long-form assets."
+    },
+    {
+      "asset_id": "C03-S01-A1",
+      "scene_id": "C03-S01",
+      "relative_path": "04_composition/assets/visuals/c03-s01-a1.png",
+      "sha256": "b1e8681de3e1719c5614eb3b3efb281beb25890d19c53501ebe909d880a4b481",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S01-A2",
+      "scene_id": "C03-S01",
+      "relative_path": "04_composition/assets/visuals/c03-s01-a2.png",
+      "sha256": "b2fd87b9e293fcbe25e264053df2345399f7bfbb81779e08ccf271ecdd816ef4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s01-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S02-A1",
+      "scene_id": "C03-S02",
+      "relative_path": "04_composition/assets/visuals/c03-s02-a1.png",
+      "sha256": "1030332ce44bd321d536ad9e348b26e1124d5430334e5a396419cdf7c6d58504",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s02-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S02-A2",
+      "scene_id": "C03-S02",
+      "relative_path": "04_composition/assets/visuals/c03-s02-a2.png",
+      "sha256": "c9c13b003d1cff313d2afe51ce1d2c9430aea2dd588f8e1e4d1c0d43db03a205",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s02-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S03-A1",
+      "scene_id": "C03-S03",
+      "relative_path": "04_composition/assets/visuals/c03-s03-a1.png",
+      "sha256": "2b65de818c5d84119b88984159d5c399b7db429d2c05f8abe344ebcf87e16c02",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S03-A2",
+      "scene_id": "C03-S03",
+      "relative_path": "04_composition/assets/visuals/c03-s03-a2.png",
+      "sha256": "bdbe4db37257c656209e51416189c44039af04413854c477a5b7dfd64c443fc4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S04-A1",
+      "scene_id": "C03-S04",
+      "relative_path": "04_composition/assets/visuals/c03-s04-a1.png",
+      "sha256": "02c30cd44cef8651113b19747a6f947cf9c516dfd02f065bd8a3a063559e7113",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S04-A2",
+      "scene_id": "C03-S04",
+      "relative_path": "04_composition/assets/visuals/c03-s04-a2.png",
+      "sha256": "e6135767d3d707b5b3dfaeef0d68084c094c7a2430b91ded94bbf0551eabc651",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s04-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S05-A1",
+      "scene_id": "C03-S05",
+      "relative_path": "04_composition/assets/visuals/c03-s05-a1.png",
+      "sha256": "d00d032d5b771cc794094956e72c22d63f2d468e4736d47769275b1b07a1d11d",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s05-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S05-A2",
+      "scene_id": "C03-S05",
+      "relative_path": "04_composition/assets/visuals/c03-s05-a2.png",
+      "sha256": "a38387eea77a2c41997bc965dcf611cdac1ac167605b2f465beec8237956edad",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s05-a2-rejected-v1.png",
+        "04_composition/assets/visuals/c03-s05-a2-rejected-v2.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S06-A1",
+      "scene_id": "C03-S06",
+      "relative_path": "04_composition/assets/visuals/c03-s06-a1.png",
+      "sha256": "90978101f0d066067eb9813c0a12084bde2375a38c2be904e6a6c93c41585004",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S06-A2",
+      "scene_id": "C03-S06",
+      "relative_path": "04_composition/assets/visuals/c03-s06-a2.png",
+      "sha256": "4780b18cc8c1a79d872abee6811cf2af6a7a09167f04e6bbef414fe33341513e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s06-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "scene_id": "C03-S07",
+      "relative_path": "04_composition/assets/visuals/c03-s07-a1.png",
+      "sha256": "025e8218beb0e98e207282908019aec010cc0a9fb4484d7849caaa5050c79b83",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "scene_id": "C03-S07",
+      "relative_path": "04_composition/assets/visuals/c03-s07-a2.png",
+      "sha256": "fc658b8d5e79dde3cadcbe296eed27867778b75ddbf56b87c6fdd03d47e1f85b",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "scene_id": "C03-S08",
+      "relative_path": "04_composition/assets/visuals/c03-s08-a1.png",
+      "sha256": "fe118676ada1b4420198e1ce68fa9a2ead3915c41d73cd76ef823145d04970d5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "scene_id": "C03-S08",
+      "relative_path": "04_composition/assets/visuals/c03-s08-a2.png",
+      "sha256": "a65ebb8b4f6fb7b9d3b60d7ba3d9d840c29a76b3939ec0dece9d93f935437029",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s08-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "scene_id": "C03-S09",
+      "relative_path": "04_composition/assets/visuals/c03-s09-a1.png",
+      "sha256": "b84aa2474f342350f12063bcd68c777bd93d33aa3c2a4268576eb4dc92252da5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s09-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "scene_id": "C03-S09",
+      "relative_path": "04_composition/assets/visuals/c03-s09-a2.png",
+      "sha256": "2eeb25a4667d497d018176e24f185670845afa30362cccefad2dafc5d42f717e",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s09-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "scene_id": "C03-S10",
+      "relative_path": "04_composition/assets/visuals/c03-s10-a1.png",
+      "sha256": "a06cd3a1a947e63633179958add28936b2e40280407ec082c6043f3ff680e9d5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "scene_id": "C03-S10",
+      "relative_path": "04_composition/assets/visuals/c03-s10-a2.png",
+      "sha256": "41be1b3e9577f29fcd5323106c133fad0cfb5d93954be78f629169442c5bf6e8",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "scene_id": "C03-S11",
+      "relative_path": "04_composition/assets/visuals/c03-s11-a1.png",
+      "sha256": "0844f366f5c445ab20e1b2a5118e7aac7b0795fe395ff39411894a6b3d441497",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "scene_id": "C03-S11",
+      "relative_path": "04_composition/assets/visuals/c03-s11-a2.png",
+      "sha256": "2b7f74732a0aab7df43fb5056b091f206e3a5794bdcf39831683e8fd653dbdc5",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s11-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S12-A1",
+      "scene_id": "C03-S12",
+      "relative_path": "04_composition/assets/visuals/c03-s12-a1.png",
+      "sha256": "970a642e9ff89f1bf9f8765ad1096d8fb6afb7cfd2c6f0884295f7137803fb34",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S12-A2",
+      "scene_id": "C03-S12",
+      "relative_path": "04_composition/assets/visuals/c03-s12-a2.png",
+      "sha256": "c30a370ec834bdda4d3c47938def36729690e55e84a2a6a914211f66b46c6cfc",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s12-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S13-A1",
+      "scene_id": "C03-S13",
+      "relative_path": "04_composition/assets/visuals/c03-s13-a1.png",
+      "sha256": "9365331a29e0f18a0997bc4951c7dcc367258a2b0afe826aabd5f687573c9917",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s13-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S13-A2",
+      "scene_id": "C03-S13",
+      "relative_path": "04_composition/assets/visuals/c03-s13-a2.png",
+      "sha256": "553cafa7a190140022a16192c54b84d02ac13b3857f65914ef75679c30453b9f",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s13-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S14-A1",
+      "scene_id": "C03-S14",
+      "relative_path": "04_composition/assets/visuals/c03-s14-a1.png",
+      "sha256": "4857f90ad740c51d12293785bd02c6d6e0f1e90caf0fbdc779e1197f58523483",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s14-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "scene_id": "C03-S14",
+      "relative_path": "04_composition/assets/visuals/c03-s14-a2.png",
+      "sha256": "647e0cbdc906b66aa4ebfad7d9cad2cb02774089304cbef4c0ca980f9e4e8990",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s14-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S15-A1",
+      "scene_id": "C03-S15",
+      "relative_path": "04_composition/assets/visuals/c03-s15-a1.png",
+      "sha256": "447954714f496c2d1d74c613c018e8cb85dabe19c2c3f903ba5f7352d62dd622",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S15-A2",
+      "scene_id": "C03-S15",
+      "relative_path": "04_composition/assets/visuals/c03-s15-a2.png",
+      "sha256": "3c3e850d2a64353837fcf90a863bfe47d719d8121e07d207d07b708b97b6137a",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S16-A1",
+      "scene_id": "C03-S16",
+      "relative_path": "04_composition/assets/visuals/c03-s16-a1.png",
+      "sha256": "a90f171c980aaa407a5ff866815c043a6829b124eaa4580962fc4755fbae1fba",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s16-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S16-A2",
+      "scene_id": "C03-S16",
+      "relative_path": "04_composition/assets/visuals/c03-s16-a2.png",
+      "sha256": "23465c3e06b6a70286038a8866276200207c79141eaee874f5bace97b3ffecd4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s16-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S17-A1",
+      "scene_id": "C03-S17",
+      "relative_path": "04_composition/assets/visuals/c03-s17-a1.png",
+      "sha256": "42049f2e536e3a43a8e2e5267b1592d0a7d707ca90d89366eaddbce2a42f81fb",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s17-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S17-A2",
+      "scene_id": "C03-S17",
+      "relative_path": "04_composition/assets/visuals/c03-s17-a2.png",
+      "sha256": "7efa694f41ceb962df167cc5cab261733c82ee051382193e10c8b4b1b5d530a7",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S18-A1",
+      "scene_id": "C03-S18",
+      "relative_path": "04_composition/assets/visuals/c03-s18-a1.png",
+      "sha256": "c76ee4c6721e2db2b92f3eee546bea1fb0fc5b64f9bb9565e5ca1cdf7d29cba8",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S18-A2",
+      "scene_id": "C03-S18",
+      "relative_path": "04_composition/assets/visuals/c03-s18-a2.png",
+      "sha256": "2d48b98f7567f422ce0f344cdb59d83b336dcc56af0217981802075fb094c0c4",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s18-a2-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S19-A1",
+      "scene_id": "C03-S19",
+      "relative_path": "04_composition/assets/visuals/c03-s19-a1.png",
+      "sha256": "ad77cb9b1ca53926420684839096b0b6251a25931ffc74557ea4dc1d96380894",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s19-a1-rejected-v1.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    },
+    {
+      "asset_id": "C03-S19-A2",
+      "scene_id": "C03-S19",
+      "relative_path": "04_composition/assets/visuals/c03-s19-a2.png",
+      "sha256": "f12a1f548b190fbe80f31177f5fb2837f4a6e0738713699766024f1ae3c0acc0",
+      "first_full_resolution_review": "approved",
+      "second_full_resolution_and_adjacent_review": "approved",
+      "decision": "approved",
+      "rejected_versions": [
+        "04_composition/assets/visuals/c03-s19-a2-rejected-v1.png",
+        "04_composition/assets/visuals/c03-s19-a2-rejected-v2.png"
+      ],
+      "note": "Nine normal room hooks plus one isolated spare where board is fully visible; no unresolved geometry, anatomy or count defect. Two full-resolution passes against narration and adjacent frames."
+    }
+  ]
+}

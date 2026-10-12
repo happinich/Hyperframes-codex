@@ -1,0 +1,300 @@
+{
+  "duration": 20.88,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": "막배가 떠난 뒤, 잔교의 마른 철판이 아래에서"
+    },
+    {
+      "start": 3.2,
+      "end": 6.2,
+      "text": "두드려졌어요. 물은 한참 밑에 있었습니다."
+    },
+    {
+      "start": 6.54,
+      "end": 9.44,
+      "text": "작업대 안쪽에는 네모난 눌림 두 개가 생겼죠."
+    },
+    {
+      "start": 10.04,
+      "end": 12.24,
+      "text": "저는 잠금 핀을 확인하고 육지 쪽으로"
+    },
+    {
+      "start": 12.24,
+      "end": 15.74,
+      "text": "걸었습니다. 그때 난간마다 회색 가루가 묻어"
+    },
+    {
+      "start": 15.32,
+      "end": 18.52,
+      "text": "있는 걸 봤어요. 맨 끝 난간은 깨끗했습니다."
+    },
+    {
+      "start": 18.92,
+      "end": 20.88,
+      "text": "제가 거기 서 있는 동안에만요."
+    }
+  ],
+  "words": [
+    {
+      "text": "막배가",
+      "start": 0.0,
+      "end": 0.42,
+      "matched": true
+    },
+    {
+      "text": "떠난",
+      "start": 0.42,
+      "end": 0.72,
+      "matched": true
+    },
+    {
+      "text": "뒤,",
+      "start": 0.72,
+      "end": 0.92,
+      "matched": true
+    },
+    {
+      "text": "잔교의",
+      "start": 0.92,
+      "end": 1.76,
+      "matched": true
+    },
+    {
+      "text": "마른",
+      "start": 1.76,
+      "end": 2.08,
+      "matched": true
+    },
+    {
+      "text": "철판이",
+      "start": 2.08,
+      "end": 2.66,
+      "matched": true
+    },
+    {
+      "text": "아래에서",
+      "start": 2.66,
+      "end": 3.2,
+      "matched": true
+    },
+    {
+      "text": "두드려졌어요.",
+      "start": 3.2,
+      "end": 4.02,
+      "matched": true
+    },
+    {
+      "text": "물은",
+      "start": 4.32,
+      "end": 4.9,
+      "matched": true
+    },
+    {
+      "text": "한참",
+      "start": 4.9,
+      "end": 5.38,
+      "matched": true
+    },
+    {
+      "text": "밑에",
+      "start": 5.38,
+      "end": 5.66,
+      "matched": true
+    },
+    {
+      "text": "있었습니다.",
+      "start": 5.66,
+      "end": 6.2,
+      "matched": true
+    },
+    {
+      "text": "작업대",
+      "start": 6.54,
+      "end": 6.98,
+      "matched": true
+    },
+    {
+      "text": "안쪽에는",
+      "start": 6.98,
+      "end": 7.6,
+      "matched": true
+    },
+    {
+      "text": "네모난",
+      "start": 7.6,
+      "end": 8.18,
+      "matched": true
+    },
+    {
+      "text": "눌림",
+      "start": 8.18,
+      "end": 8.52,
+      "matched": true
+    },
+    {
+      "text": "두",
+      "start": 8.52,
+      "end": 8.7,
+      "matched": true
+    },
+    {
+      "text": "개가",
+      "start": 8.7,
+      "end": 8.96,
+      "matched": true
+    },
+    {
+      "text": "생겼죠.",
+      "start": 8.96,
+      "end": 9.44,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 10.04,
+      "end": 10.26,
+      "matched": true
+    },
+    {
+      "text": "잠금",
+      "start": 10.26,
+      "end": 10.98,
+      "matched": true
+    },
+    {
+      "text": "핀을",
+      "start": 10.26,
+      "end": 10.98,
+      "matched": true
+    },
+    {
+      "text": "확인하고",
+      "start": 10.98,
+      "end": 11.5,
+      "matched": true
+    },
+    {
+      "text": "육지",
+      "start": 11.5,
+      "end": 11.92,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 11.92,
+      "end": 12.24,
+      "matched": true
+    },
+    {
+      "text": "걸었습니다.",
+      "start": 12.24,
+      "end": 12.7,
+      "matched": true
+    },
+    {
+      "text": "그때",
+      "start": 13.46,
+      "end": 13.72,
+      "matched": true
+    },
+    {
+      "text": "난간마다",
+      "start": 13.72,
+      "end": 14.68,
+      "matched": true
+    },
+    {
+      "text": "회색",
+      "start": 14.68,
+      "end": 15.02,
+      "matched": true
+    },
+    {
+      "text": "가루가",
+      "start": 15.02,
+      "end": 15.32,
+      "matched": true
+    },
+    {
+      "text": "묻어",
+      "start": 15.32,
+      "end": 15.74,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 15.32,
+      "end": 15.74,
+      "matched": true
+    },
+    {
+      "text": "걸",
+      "start": 15.74,
+      "end": 15.86,
+      "matched": true
+    },
+    {
+      "text": "봤어요.",
+      "start": 15.86,
+      "end": 16.34,
+      "matched": true
+    },
+    {
+      "text": "맨",
+      "start": 16.94,
+      "end": 17.18,
+      "matched": true
+    },
+    {
+      "text": "끝",
+      "start": 17.18,
+      "end": 17.34,
+      "matched": true
+    },
+    {
+      "text": "난간은",
+      "start": 17.34,
+      "end": 17.88,
+      "matched": true
+    },
+    {
+      "text": "깨끗했습니다.",
+      "start": 17.88,
+      "end": 18.52,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 18.92,
+      "end": 19.4,
+      "matched": true
+    },
+    {
+      "text": "거기",
+      "start": 19.4,
+      "end": 19.8,
+      "matched": true
+    },
+    {
+      "text": "서",
+      "start": 19.8,
+      "end": 19.98,
+      "matched": true
+    },
+    {
+      "text": "있는",
+      "start": 19.98,
+      "end": 20.22,
+      "matched": true
+    },
+    {
+      "text": "동안에만요.",
+      "start": 20.22,
+      "end": 20.88,
+      "matched": true
+    }
+  ]
+}

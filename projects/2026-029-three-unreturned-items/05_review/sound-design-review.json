@@ -1,0 +1,171 @@
+{
+  "status": "objective_signal_review_passed_subjective_listening_not_performed",
+  "provenance": "Original deterministic numpy/scipy synthesis; no external sampled recordings",
+  "voice_only_sha256": "04c90389769937a54884c2a048a6aae8acd75a93336983131adb9162e19b1e65",
+  "voice_master_preserved": true,
+  "bgm_candidate": "cand-01",
+  "events": [
+    {
+      "scene_id": "C01-S01",
+      "spoken_cue": "손목을",
+      "start_seconds": 0.0,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S09",
+      "spoken_cue": "바늘이",
+      "start_seconds": 182.86,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S12",
+      "spoken_cue": "카메라를",
+      "start_seconds": 255.04,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S17",
+      "spoken_cue": "손목을",
+      "start_seconds": 410.72,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S18",
+      "spoken_cue": "실가위를",
+      "start_seconds": 429.06,
+      "kind": "snip",
+      "duration_seconds": 0.23
+    },
+    {
+      "scene_id": "C01-S19",
+      "spoken_cue": "첫 줄을",
+      "start_seconds": 442.86,
+      "kind": "snip",
+      "duration_seconds": 0.23
+    },
+    {
+      "scene_id": "C02-S01",
+      "spoken_cue": "철판을",
+      "start_seconds": 551.198,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C02-S04",
+      "spoken_cue": "철판 밑을",
+      "start_seconds": 609.978,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C02-S10",
+      "spoken_cue": "발밑 철판이",
+      "start_seconds": 767.058,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S12",
+      "spoken_cue": "금속판이",
+      "start_seconds": 819.678,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S14",
+      "spoken_cue": "발판이 먼저",
+      "start_seconds": 859.778,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S16",
+      "spoken_cue": "장화를",
+      "start_seconds": 913.018,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C02-S18",
+      "spoken_cue": "갈고리를",
+      "start_seconds": 955.538,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S19",
+      "spoken_cue": "작업복을",
+      "start_seconds": 980.358,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C03-S03",
+      "spoken_cue": "객실 키를",
+      "start_seconds": 1129.547,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C03-S07",
+      "spoken_cue": "자갈이",
+      "start_seconds": 1228.767,
+      "kind": "gravel",
+      "duration_seconds": 0.66
+    },
+    {
+      "scene_id": "C03-S11",
+      "spoken_cue": "열쇠 하나를",
+      "start_seconds": 1333.007,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C03-S13",
+      "spoken_cue": "키를 고리에서",
+      "start_seconds": 1387.107,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C03-S17",
+      "spoken_cue": "키 세 개를",
+      "start_seconds": 1503.807,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C03-S18",
+      "spoken_cue": "문밖으로",
+      "start_seconds": 1526.867,
+      "kind": "door",
+      "duration_seconds": 0.78
+    }
+  ],
+  "ambience_and_foley_separate_layers": true,
+  "shorts_outro_delay_seconds": 0,
+  "subjective_listening_performed": false,
+  "mixed_master_peak_dbfs": -2.8,
+  "mixed_master_mean_dbfs": -20.6,
+  "objective_master_signal_check": "ffmpeg volumedetect, 2026-10-13; no clipping; subjective listening remains unperformed",
+  "intentional_quiet_intervals": [
+    {
+      "start_seconds": 549.588,
+      "end_seconds": 551.198,
+      "duration_seconds": 1.61,
+      "context": "C01→C02 transition",
+      "reason": "Chapter-card musical bridge fades to quiet before next cold open; below -45 dBFS, not digital zero."
+    },
+    {
+      "start_seconds": 1590.689,
+      "end_seconds": 1594.064,
+      "duration_seconds": 3.375,
+      "context": "C03 outro",
+      "reason": "Approved BGM 3-second fade and closing room tone; below -45 dBFS, not digital zero."
+    }
+  ]
+}

@@ -4,6 +4,7 @@
   "visual_style_id": "{{VISUAL_STYLE_ID}}",
   "catalog": "config/horror-editing-techniques.json",
   "status": "{{HORROR_EDITING_PLAN_STATUS}}",
+  "anthology_chapters": [],
   "selection_basis": {
     "premise": "",
     "setting": "",

@@ -1,0 +1,62 @@
+{
+  "shorts-01": {
+    "duration": 21.766667,
+    "size_bytes": 15659242,
+    "video": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "pix_fmt": "yuv420p"
+      }
+    ],
+    "audio": [
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  },
+  "shorts-02": {
+    "duration": 20.883333,
+    "size_bytes": 23191776,
+    "video": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "pix_fmt": "yuv420p"
+      }
+    ],
+    "audio": [
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  },
+  "shorts-03": {
+    "duration": 19.783333,
+    "size_bytes": 26960224,
+    "video": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "60/1",
+        "pix_fmt": "yuv420p"
+      }
+    ],
+    "audio": [
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  }
+}

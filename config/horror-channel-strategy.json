@@ -39,10 +39,11 @@
   },
   "topic_selection": {
     "default_candidate_count": 3,
-    "selected_candidate_count": 1,
-    "selection_by": "user",
-    "workflow": "recommend_candidates_then_user_selects_then_write_complete_narration",
-    "primary_recommendation_count": 1,
+    "default_story_count": 3,
+    "minimum_story_count": 2,
+    "selection_by": "develop_all_planned_stories_not_choose_one_candidate",
+    "workflow": "plan_three_complete_stories_by_default_or_two_when_longer_stories_have_sufficient_structure_then_write_all_narrations_for_user_approval",
+    "primary_recommendation_count": 0,
     "candidate_fields": [
       "working_title",
       "cold_open_line",
@@ -58,7 +59,7 @@
       "threat_structure"
     ],
     "check_existing_projects_and_latest_reference_report": true,
-    "override": "사용자가 소재 또는 다른 후보 수를 지정하면 해당 요청을 따른다.",
+    "override": "사용자가 소재·편수·구성을 별도로 지정하면 해당 요청을 따른다.",
     "topic_selection_does_not_approve": [
       "narration",
       "visual_style",
@@ -93,15 +94,16 @@
     },
     "flagship_longform": {
       "role": "retention_and_identity",
-      "duration_minutes_range": [6, 8],
-      "stories_per_video_range": [1, 1],
-      "minutes_per_story_range": [6, 8],
+      "duration_minutes_range": [20, 40],
+      "stories_per_video_range": [2, 3],
+      "default_stories_per_video": 3,
+      "per_story_duration_rule": "내용과 긴장 구조에 맞춰 정한다. 편당 고정 시간은 없으며 충분히 전개된 두 긴 이야기는 두 편 합본으로 구성할 수 있다.",
       "weekly_target": 2,
-      "series_rule": "한 영상에서 하나의 긴장 사이클을 완결한다. 여러 단편 묶음은 현재 기본 포맷으로 사용하지 않는다."
+      "series_rule": "기본은 서로 다른 완결 이야기 세 편이며, 두 긴 이야기가 각각 충분한 정상 상태·불일치·확인·확대·선택·결말을 갖추면 두 편으로 구성한다. 전체 본편은 20~40분이다. 편 사이 전환과 엔드스크린 시간도 합산해 계획한다."
     },
     "anthology": {
-      "status": "paused_until_single_story_data_is_sufficient",
-      "rule": "단편별 유지율 데이터가 충분히 쌓인 뒤 승인된 3~4편을 묶는 2차 포맷으로만 검토한다."
+      "status": "active_default_for_new_horror_longform",
+      "rule": "새 공포 본편은 기본 세 편, 서사가 충분히 긴 경우 두 편을 새로 제작한다. 편당 6~8분 제한은 두지 않는다. 기존 게시작 재편집 몰아듣기는 compilation 규칙을 따른다."
     },
     "compilation": {
       "role": "binge_and_night_listening",
@@ -155,7 +157,7 @@
       "결정적 선택",
       "완전한 설명 대신 잔상을 남기는 결말"
     ],
-    "single_story_completion": "한 편 안에서 정상 상태, 불일치, 확인 행동, 위협 확대, 결정적 선택, 잔상 결말을 모두 끝낸다.",
+    "single_story_completion": "합본의 각 편에서 정상 상태, 불일치, 확인 행동, 위협 확대, 결정적 선택, 잔상 결말을 모두 끝낸다.",
     "truth_label": {
       "allowed": ["fiction", "adapted_submission", "verified_account"],
       "default": "fiction",

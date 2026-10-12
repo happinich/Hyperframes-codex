@@ -1,0 +1,58 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "recorded_on": "2026-10-13",
+  "user_message": "모두 승인 그대로 모두 진행해줘. 모든 사항은 추천으로 할테니 끝날때까지 진행해줘. 검수 하는건 잊지 말고.",
+  "format": {
+    "status": "approved",
+    "type": "three_story_anthology",
+    "duration_minutes_range": [
+      20,
+      40
+    ]
+  },
+  "narration": {
+    "status": "approved",
+    "source": "01_script/narration.txt"
+  },
+  "shorts_scripts": {
+    "status": "approved",
+    "sources": [
+      "01_script/shorts-01-narration.txt",
+      "01_script/shorts-02-narration.txt",
+      "01_script/shorts-03-narration.txt"
+    ]
+  },
+  "production_profile": {
+    "status": "approved_by_selection_delegation",
+    "id": "horror_cinematic_story_v1"
+  },
+  "visual_style": {
+    "status": "approved_by_selection_delegation",
+    "chapter_styles": {
+      "C01": "horror_puppet_stopmotion",
+      "C02": "horror_rough_2d",
+      "C03": "horror_ink_charcoal"
+    }
+  },
+  "voice": {
+    "status": "recommendation_reselected_after_QA",
+    "recommendation": "male_Bin",
+    "model_id": "eleven_v4",
+    "speed_multiplier": 1.0,
+    "selected_voice": "Esther",
+    "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+    "rejected_voice": "Bin",
+    "reason": "Repeated and distorted lines in Bin V4 first story; repair by switching to proven Esther under user selection delegation."
+  },
+  "bgm": {
+    "status": "selection_delegated_after_voice_review",
+    "candidate": "pending"
+  },
+  "production": {
+    "tts": "pending",
+    "images": "pending",
+    "composition": "pending",
+    "render": "pending",
+    "publishing": "pending"
+  }
+}

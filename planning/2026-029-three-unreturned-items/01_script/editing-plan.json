@@ -1,0 +1,46 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "status": "draft_pending_narration_and_visual_style_approval",
+  "catalog": "config/horror-editing-techniques.json",
+  "reference_report": "planning/horror-reference-monitoring/2026-10-12/report.ko.md",
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "수선실에서 맡긴 소매가 저를 잡았어요",
+      "primary_technique_id": "space_clue_action",
+      "support_technique_ids": ["foreground_depth", "return_with_changed_clue", "sound_bridge_silence"],
+      "clue": "노란 핀과 점점 길어지는 갈색 봉제선",
+      "tension_stages": {"normal": ["C01-S02", "C01-S03"], "anomaly": ["C01-S04", "C01-S07"], "escalation": ["C01-S09", "C01-S12", "C01-S16"], "interaction": ["C01-S17", "C01-S18", "C01-S19"], "aftermath": ["C01-S20", "C01-S21", "C01-S22"]},
+      "camera_coverage": "작업대 정면 전체→작업자 뒤 사선→바늘 높이 소매→위에서 본 접수 사진→손목 접촉 주관 시점. 봉제선 비교에만 같은 기준 시점을 반복한다.",
+      "reference_application": "2026-10-12 일상 서비스업 물건 확인 표본은 수선 절차라는 일반 발상에만 사용한다. 천·핀·손 접촉과 결말은 독립 창작.",
+      "excluded": ["무의미한 화면 글리치", "같은 소매 이미지만 확대 반복", "천 손의 완전 노출을 초반으로 이동"],
+      "shorts_application": "노란 핀과 접수 사진 불일치까지만 보여 주며 손의 형체와 탈출은 공개하지 않는다. 새 세로 자산과 별도 원고를 사용한다."
+    },
+    {
+      "id": "C02",
+      "title": "막배가 떠난 뒤 잔교 밑에서 손이 올라왔어요",
+      "primary_technique_id": "space_clue_action",
+      "support_technique_ids": ["foreground_depth", "tension_driven_transition", "clue_directed_motion"],
+      "clue": "마른 철판의 네모난 압박과 손가락 네 개의 석회색 손",
+      "tension_stages": {"normal": ["C02-S02", "C02-S03"], "anomaly": ["C02-S04", "C02-S06"], "escalation": ["C02-S09", "C02-S11", "C02-S15"], "interaction": ["C02-S16", "C02-S17", "C02-S18", "C02-S19"], "aftermath": ["C02-S20", "C02-S21", "C02-S22"]},
+      "camera_coverage": "육지 철문의 높은 전체→난간 눈높이→발판 틈의 낮은 시점→점검 거울→접촉 주관 시점. 광원·난간 간격·배 끝 왼쪽 작업대를 유지한다.",
+      "reference_application": "2026-10-12 기록의 운송 장비와 카메라 높이 대비를 작업대·발판 압박 읽기에 적용한다. 경쟁 영상의 사건·음향·컷 속도는 사용하지 않는다.",
+      "excluded": ["물속 여성과 젖은 장화", "같은 줌과 흔들림으로 새 시점 대체", "공간 방향을 깨는 임의의 글리치"],
+      "shorts_application": "압박 자국과 난간의 회색 가루까지만 보여 주고 손의 형체와 발판 접촉은 숨긴다. 새 세로 자산과 별도 원고를 사용한다."
+    },
+    {
+      "id": "C03",
+      "title": "철거한 펜션의 객실 키가 반납됐어요",
+      "primary_technique_id": "return_with_changed_clue",
+      "support_technique_ids": ["space_clue_action", "sound_bridge_silence", "tension_driven_transition"],
+      "clue": "번호 없는 금속 키와 도면의 넓어지는 흰 칸",
+      "tension_stages": {"normal": ["C03-S02", "C03-S03"], "anomaly": ["C03-S04", "C03-S06"], "escalation": ["C03-S07", "C03-S11", "C03-S14"], "interaction": ["C03-S15", "C03-S16", "C03-S17", "C03-S18"], "aftermath": ["C03-S19"]},
+      "camera_coverage": "마당 전체→컨테이너 키판 기준→도면 정면→철거 벽 뒤 복도 사선→문턱 주관 시점. 키판·도면 비교 때 같은 기준 구도를 유지한다.",
+      "reference_application": "2026-10-12 임시 숙박·출입 물건 표본은 키 관리라는 일반 발상에만 사용한다. 면적 잠식·작업 구역 등록은 독립 창작.",
+      "excluded": ["잦은 무작위 시점 변경으로 도면 비교 방해", "생성 이미지에 정확한 숫자와 문구를 맡기기", "기존 사라진 층 이야기의 층수 반전 반복"],
+      "shorts_application": "아홉 열쇠와 새 도면 네모까지만 보여 주고 컨테이너 구역·사번 반전은 숨긴다. 새 세로 자산과 별도 원고를 사용한다."
+    }
+  ],
+  "implementation_status": "planned_only",
+  "review": {"plan_and_assets": "pending_image_generation", "rendered_output": "pending_render", "record_path": "05_review/editing-review.md"}
+}

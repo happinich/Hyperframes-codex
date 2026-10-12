@@ -1,0 +1,70 @@
+{
+  "status": "ready_for_review",
+  "duration": 492.72,
+  "word_count": 959,
+  "average_wpm": 116.8,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 1,
+  "long_word_gaps": [
+    {
+      "start": 56.84,
+      "end": 57.74,
+      "duration": 0.9,
+      "before": "걸었습니다.",
+      "after": "출처를"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 490.0,
+      "end": 492.72,
+      "word_count": 5,
+      "wpm": 20.0
+    }
+  ],
+  "fast_window_count": 5,
+  "fast_windows": [
+    {
+      "start": 25.0,
+      "end": 40.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 35.0,
+      "end": 50.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 70.0,
+      "end": 85.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 75.0,
+      "end": 90.0,
+      "word_count": 34,
+      "wpm": 136.0
+    },
+    {
+      "start": 300.0,
+      "end": 315.0,
+      "word_count": 34,
+      "wpm": 136.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

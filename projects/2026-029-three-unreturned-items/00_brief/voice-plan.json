@@ -1,0 +1,17 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "status": "reselected_after_objective_voice_QA",
+  "voice": "Esther",
+  "voice_id": "dJlwSfdSqMaQjm3NSl3B",
+  "voice_api_lookup": "200 name Bin - Measured and Serious; Korean professional voice",
+  "model_id": "eleven_v4",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75
+  },
+  "longform_speed_multiplier": 1.0,
+  "shorts_postprocess_multiplier": 1.07,
+  "selection_reason": "Bin V4 first story produced repeated and distorted lines at about 144–204 seconds and additional corruption around 326 seconds; alignment 0.965 still passed overall, but local defects failed manual transcript review. Esther had objective QA evidence in 028 and is the recommended replacement.",
+  "user_authorization": "모든 사항은 추천으로 할테니 끝날때까지 진행해줘.",
+  "rejected_take": "02_audio/chapters/story-01/02_audio/rejected/bin-v1-repeated-lines.mp3"
+}

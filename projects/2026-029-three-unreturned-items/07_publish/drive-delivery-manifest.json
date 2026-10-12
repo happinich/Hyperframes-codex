@@ -1,0 +1,103 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "destination": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "remote_subfolder_name": "2026-029-three-unreturned-items",
+  "status": "uploaded_and_verified",
+  "longform_video_included": false,
+  "external_caption_files_included": false,
+  "shorts_count": 3,
+  "files": [
+    {
+      "name": "2026-029-three-unreturned-items-shorts-01.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/2026-029-three-unreturned-items-shorts-01.mp4",
+      "bytes": 15659242,
+      "sha256": "103b24afdd0969f1036c32896cf3eb38b1045f0ee04faf1aa0f3339a64a891d4"
+    },
+    {
+      "name": "2026-029-three-unreturned-items-shorts-02.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/2026-029-three-unreturned-items-shorts-02.mp4",
+      "bytes": 23191776,
+      "sha256": "63f827a5feb7bfadf7297a369d70ddf3f80fe088f4bc13a387f67d27ae330c95"
+    },
+    {
+      "name": "2026-029-three-unreturned-items-shorts-03.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/2026-029-three-unreturned-items-shorts-03.mp4",
+      "bytes": 26960224,
+      "sha256": "d522e0aa9f458d8f6d23754ce5755b318120d9a6c57bf47165546a38e535ab8a"
+    },
+    {
+      "name": "README.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/README.md",
+      "bytes": 1297,
+      "sha256": "2a33556229861d8ed8b58bc5ebce1272254793d04611dc8054f2b525cce96763"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/delivery-manifest.json",
+      "bytes": 2484,
+      "sha256": "cafcfbb3997ee08aee40a22052e3d0d7250366d7ccb691b31cd31099dc426ced"
+    },
+    {
+      "name": "longform-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/longform-publish.html",
+      "bytes": 6038,
+      "sha256": "b1dd629f23950364ffe96457959681e89db3b5fd74c26b645a532200e8f71186"
+    },
+    {
+      "name": "longform-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/longform-publish.md",
+      "bytes": 3324,
+      "sha256": "eebcacb49ddef35caa23e9120b723e23cfbe8dbabd2c4f9c3f2a17c71940bef7"
+    },
+    {
+      "name": "shorts-01-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-01-publish.html",
+      "bytes": 3687,
+      "sha256": "2c19626e2beab7f5502f46f94ea89c8013677218f5a952ccb76426d49023551a"
+    },
+    {
+      "name": "shorts-01-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-01-publish.md",
+      "bytes": 1327,
+      "sha256": "18e3f543eca635a1a1deba43d0ff2963df3b744bca6cd549c33fe904e3499942"
+    },
+    {
+      "name": "shorts-02-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-02-publish.html",
+      "bytes": 3644,
+      "sha256": "7754e6b7050eececdfd5fef3c382e7ac62b78f84448999cb6a6ff60f8f6bb3af"
+    },
+    {
+      "name": "shorts-02-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-02-publish.md",
+      "bytes": 1294,
+      "sha256": "03dca685e6d562ae35bf3436a7eb9f0c992c4f01902e1d740c66aba188a8a04a"
+    },
+    {
+      "name": "shorts-03-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-03-publish.html",
+      "bytes": 3707,
+      "sha256": "fd50f1153223bc1f9e16a3188f83082d4c36dd408fd7cdd941e30630ed9a94ad"
+    },
+    {
+      "name": "shorts-03-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/shorts-03-publish.md",
+      "bytes": 1345,
+      "sha256": "c27cea30ad65ce22d44743c4872ffa5b61feff75570570fe1da1022b2c1122d8"
+    },
+    {
+      "name": "thumbnail-a.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/thumbnail-a.png",
+      "bytes": 922358,
+      "sha256": "7b50d0794f59e817b56824eb4a0efb7f1970c2d04719ac596dda0422ed773944"
+    },
+    {
+      "name": "thumbnail-b.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/07_publish/drive-upload/thumbnail-b.png",
+      "bytes": 1059983,
+      "sha256": "a8f730f0cb48915f1457486148cdd166824b3ac06631a2f4e79629cf6cb02e12"
+    }
+  ],
+  "receipt": "drive-upload-receipt.json",
+  "remote_folder_url": "https://drive.google.com/drive/folders/1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb"
+}
