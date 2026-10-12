@@ -286,7 +286,9 @@
       "overlap_with_existing_projects",
       "adaptation_proposal",
       "limitations",
-      "review_status"
+      "review_status",
+      "playback_content_verification",
+      "chapter_source"
     ],
     "timezone": "Asia/Seoul",
     "schedule_local": {
@@ -311,6 +313,11 @@
     ],
     "next_story_rule": "새 이야기 기획 전 최신 보고서와 누적 후보를 확인하고, 적합한 항목의 출처·추천 이유를 브리프와 편집 계획에 기록한다.",
     "adaptation_policy": "기법은 관찰 근거와 우리 제작 제안을 구분하고 적용 조건·제외 조건·검수 항목을 정리한다. 소재는 발상 축만 활용해 사건 전개·대사·반전은 독립적으로 창작한다.",
+    "evidence_checks": {
+      "playback_content_verification": "광고·스폰서 표시, 원 영상 duration, UI 시각과 일시정지 상태를 대조하고 광고 프레임은 근거에서 제외한다.",
+      "chapter_source": "creator_authored / youtube_auto_generated / not_inspected를 구분한다. 자동 생성 챕터의 제목·시각만으로 제작자의 구성 의도나 실제 편집점을 단정하지 않는다.",
+      "paused_sample_limit": "개별 정지 표본을 연속 재생 구간·컷 속도·음향 확인으로 기록하지 않는다."
+    },
     "pending_videos_rule": "접근 불가 또는 검토량 초과 항목은 완료로 표시하지 않고 다음 회차에 이어서 확인한다.",
     "preserve_existing_approval_gates": true,
     "preserve_completed_projects": true,

@@ -2,6 +2,8 @@
   "schema_version": "1.0.0",
   "applies_to_profile_ids": ["horror_cinematic_story_v1"],
   "guide": "docs/HORROR_EDITING_TECHNIQUES.ko.md",
+  "reference_candidate_library": "planning/horror-reference-monitoring/ideas.json",
+  "candidate_rule": "주간 후보는 기존 카탈로그 기법의 구도 선택을 구체화할 수 있다. 후보 ID를 씬의 technique_ids에 넣지 않고, 출처와 조건을 shot_sequence·선정 이유에 연결한다. 새 효과로 채택할 때만 카탈로그와 가이드를 함께 추가한다.",
   "reference_analysis": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
   "evidence_policy": "편집 판단 기준이다. 경쟁 채널의 컷 속도·오디오 측정값이나 성과가 검증된 프리셋이 아니다.",
   "selection": {
