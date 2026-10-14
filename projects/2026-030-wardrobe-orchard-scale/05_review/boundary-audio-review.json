@@ -1,0 +1,41 @@
+{
+  "first_audio_samples": [
+    {
+      "file": "2026-030-wardrobe-orchard-scale-youtube.mp4",
+      "first_half_second_peak": 0.5756202340126038,
+      "first_signal_above_minus80db_seconds": 0.0,
+      "method": "encoded_PCM_signal_not_listening"
+    },
+    {
+      "file": "2026-030-wardrobe-orchard-scale-shorts-01.mp4",
+      "first_half_second_peak": 0.6213254928588867,
+      "first_signal_above_minus80db_seconds": 0.0,
+      "method": "encoded_PCM_signal_not_listening"
+    },
+    {
+      "file": "2026-030-wardrobe-orchard-scale-shorts-02.mp4",
+      "first_half_second_peak": 0.7670523524284363,
+      "first_signal_above_minus80db_seconds": 0.011395833333333332,
+      "method": "encoded_PCM_signal_not_listening"
+    },
+    {
+      "file": "2026-030-wardrobe-orchard-scale-shorts-03.mp4",
+      "first_half_second_peak": 0.8751435279846191,
+      "first_signal_above_minus80db_seconds": 0.0,
+      "method": "encoded_PCM_signal_not_listening"
+    }
+  ],
+  "last_four_second_half_second_rms_db": [
+    -23.2540340423584,
+    -22.366626739501953,
+    -22.799701690673828,
+    -23.694122314453125,
+    -25.661304473876953,
+    -29.208478927612305,
+    -35.326568603515625,
+    -46.836524963378906
+  ],
+  "configured_outro_seconds": 4,
+  "configured_fade_seconds": 3,
+  "listening_performed": false
+}

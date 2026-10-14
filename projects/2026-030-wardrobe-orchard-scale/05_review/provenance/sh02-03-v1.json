@@ -1,0 +1,11 @@
+{
+  "asset_id": "SH02-03",
+  "chapter_id": "C02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-03.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Shot: fixed pole comparison short ordinary tree now closer to lane, root limbs completely HIDDEN. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.\nREQUIRED SPECIFIC DETAILS: Short solid leafless tree with same TWO main branches now closer to central lane, plain fixed concrete pole visible nearby as distance anchor. Central lane slopes UP to yellow shed, no ribbons, cavity, exposed roots or faces.",
+  "status": "planned",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-fc1e74d3-2d22-4404-823f-97a66fa9b8ae.png",
+  "generated_at": "2026-10-14T18:44:27.690Z",
+  "tool": "image_gen"
+}

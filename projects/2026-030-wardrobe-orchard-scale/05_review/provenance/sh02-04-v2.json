@@ -1,0 +1,18 @@
+{
+  "asset_id": "SH02-04",
+  "chapter_id": "C02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+  "prompt": "Change ONLY the lower trunk of the large TWO-branched leafless tree: ONE ordinary SOLID vertical stump planted firmly into smooth dirt, all roots COMPLETELY UNDERGROUND. REMOVE raised root legs, arch, openings and all exposed roots. No feet, entity anatomy, hollow seams, eyes or face. Keep olive worker back, lane, paper stage style, shed and dusk unchanged.",
+  "status": "planned",
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04-rejected-v1.png",
+      "reason": "Root arch reveals creature body in spoiler-free teaser"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04-rejected-v1.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-a2d1df64-6649-4c43-8b96-f5fc92c5e799.png",
+  "generated_at": "2026-10-14T18:50:07.474Z",
+  "tool": "image_gen"
+}

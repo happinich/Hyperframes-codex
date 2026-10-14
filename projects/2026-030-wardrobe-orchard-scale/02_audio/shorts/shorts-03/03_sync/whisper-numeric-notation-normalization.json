@@ -1,0 +1,24 @@
+{
+  "raw_whisper_preserved": true,
+  "scope": "Number/unit notation aliases only; no narration or audio changed; original timestamps preserved.",
+  "changes": [
+    {
+      "original": "32kg이",
+      "normalized": "서른두 킬로그램이",
+      "start": 0.68,
+      "end": 1.82
+    },
+    {
+      "original": "0점으로",
+      "normalized": "영점으로",
+      "start": 2.92,
+      "end": 3.7
+    },
+    {
+      "original": "0이",
+      "normalized": "영이",
+      "start": 8.18,
+      "end": 8.6
+    }
+  ]
+}

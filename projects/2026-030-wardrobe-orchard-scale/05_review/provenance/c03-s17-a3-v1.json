@@ -1,0 +1,26 @@
+{
+  "asset_id": "C03-S17-A3",
+  "scene_id": "C03-S17",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s17-a3.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Edit this office-threshold low-poly pixel warehouse shot AFTER the worker has left: REMOVE both shoes, legs and all people. Show TWO shallow matching shoe-shaped depressions in the concrete threshold, clearly displaced down beneath the surrounding flat floor. No holes, black voids, gore, detached shoes, debris or writing. Keep office doorway, rear room and same low floor angle, palette and pixel material. One empty threshold with two readable indentations, no scale controls in foreground.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C03-S17-SH3",
+    "location_id": "warehouse",
+    "camera_position": "low floor angle TWO brown worker shoes at office threshold compressed into shallow matching dents",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "floor_level",
+    "shot_size": "medium",
+    "subject_focus": "문턱에 붙은 신발",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C03-S17-A3",
+    "new_information": "After release: two empty shoe-shaped floor depressions, no employee",
+    "reuse_reason": null
+  },
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s17-a1.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-68340bac-8200-402e-bdbc-fbca1c46282c.png",
+  "generated_at": "2026-10-14T18:35:55.231Z",
+  "tool": "image_gen"
+}

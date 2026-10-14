@@ -1,0 +1,21 @@
+{
+  "asset_id": "SH01-04",
+  "chapter_id": "C01",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "prompt": "Rotate ONLY the small chair 180 degrees. We see its REAR side: backrest and REAR legs toward camera, FRONT legs farther away close to wardrobe back wall. Its seat points AWAY from camera toward rear panel. Hide broad front seat surface behind rear backrest. The SECOND landscape reference is orientation guidance ONLY; generate an independent portrait image, never crop or extract it. Retain full open wardrobe with chair INSIDE cabinet, painted material. No person, feet, grey fabric or ghost.",
+  "status": "planned",
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04-rejected-v1.png",
+      "reason": "Chair seat faces viewer rather than rear panel"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04-rejected-v1.png",
+  "support_reference_paths": [
+    "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c01-s07-a2.png"
+  ],
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-df771d2b-d0dc-4210-a327-d7e0db6c6215.png",
+  "generated_at": "2026-10-14T18:44:04.768Z",
+  "tool": "image_gen"
+}

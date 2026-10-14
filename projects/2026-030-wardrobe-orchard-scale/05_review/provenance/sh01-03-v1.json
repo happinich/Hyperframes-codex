@@ -1,0 +1,11 @@
+{
+  "asset_id": "SH01-03",
+  "chapter_id": "C01",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting. Shot: courtyard back-view navy worker holding phone, bedroom window behind. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.\nREQUIRED SPECIFIC DETAILS: Show an OUTSIDE LEFT-window viewpoint looking into the same room just BEFORE the chair reveal: brown wardrobe interior is EMPTY, no person or phone. This shot is the setup to the following chair image.",
+  "status": "planned",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-e33c482e-a798-4fb6-9279-35e04c70e3d2.png",
+  "generated_at": "2026-10-14T18:39:09.471Z",
+  "tool": "image_gen"
+}

@@ -1,0 +1,643 @@
+{
+  "c03-s03-a1": {
+    "quad": [
+      [
+        1002,
+        254
+      ],
+      [
+        1304,
+        314
+      ],
+      [
+        961,
+        337
+      ]
+    ],
+    "initial": "",
+    "events": [
+      {
+        "seconds": 1076.788188,
+        "text": "32"
+      }
+    ],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s04-a1": {
+    "quad": [
+      [
+        912,
+        354
+      ],
+      [
+        1012,
+        366
+      ],
+      [
+        894,
+        378
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s04-a2": {
+    "quad": [
+      [
+        606,
+        491
+      ],
+      [
+        783,
+        541
+      ],
+      [
+        567,
+        551
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#56442b",
+    "font_size": 52,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s05-a1": {
+    "quad": [
+      [
+        854,
+        286
+      ],
+      [
+        1278,
+        357
+      ],
+      [
+        816,
+        376
+      ]
+    ],
+    "initial": "32",
+    "events": [
+      {
+        "seconds": 1122.268188,
+        "text": "0"
+      }
+    ],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s05-a2": {
+    "quad": [
+      [
+        516,
+        342
+      ],
+      [
+        581,
+        345
+      ],
+      [
+        505,
+        359
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s01-a2": {
+    "quad": [
+      [
+        516,
+        342
+      ],
+      [
+        581,
+        345
+      ],
+      [
+        505,
+        359
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s06-a2": {
+    "quad": [
+      [
+        490,
+        386
+      ],
+      [
+        551,
+        388
+      ],
+      [
+        474,
+        406
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s07-a1": {
+    "quad": [
+      [
+        216,
+        167
+      ],
+      [
+        309,
+        169
+      ],
+      [
+        204,
+        187
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s09-a2": {
+    "quad": [
+      [
+        209,
+        405
+      ],
+      [
+        284,
+        400
+      ],
+      [
+        220,
+        430
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s10-a1": {
+    "quad": [
+      [
+        950,
+        69
+      ],
+      [
+        1105,
+        57
+      ],
+      [
+        927,
+        105
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s10-a2": {
+    "quad": [
+      [
+        1403,
+        33
+      ],
+      [
+        1549,
+        20
+      ],
+      [
+        1395,
+        64
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s11-a2": {
+    "quad": [
+      [
+        1462,
+        350
+      ],
+      [
+        1588,
+        359
+      ],
+      [
+        1451,
+        383
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review",
+    "extra_clues": [
+      {
+        "quad": [
+          [
+            941,
+            603
+          ],
+          [
+            1100,
+            638
+          ],
+          [
+            910,
+            650
+          ]
+        ],
+        "initial": "",
+        "events": [
+          {
+            "seconds": 1340.048188,
+            "text": "32  32"
+          }
+        ],
+        "color": "#56442b",
+        "font_size": 45
+      }
+    ]
+  },
+  "c03-s12-a2": {
+    "quad": [
+      [
+        1307,
+        68
+      ],
+      [
+        1482,
+        79
+      ],
+      [
+        1287,
+        109
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s13-a1": {
+    "quad": [
+      [
+        1248,
+        94
+      ],
+      [
+        1419,
+        84
+      ],
+      [
+        1217,
+        143
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s13-a2": {
+    "quad": [
+      [
+        397,
+        364
+      ],
+      [
+        807,
+        321
+      ],
+      [
+        414,
+        472
+      ]
+    ],
+    "initial": "0",
+    "events": [
+      {
+        "seconds": 1392.908188,
+        "text": "32"
+      },
+      {
+        "seconds": 1400.048188,
+        "text": "0"
+      }
+    ],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s14-a1": {
+    "quad": [
+      [
+        1098,
+        408
+      ],
+      [
+        1194,
+        410
+      ],
+      [
+        1087,
+        430
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s14-a2": {
+    "quad": [
+      [
+        1058,
+        489
+      ],
+      [
+        1142,
+        494
+      ],
+      [
+        1044,
+        512
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s15-a1": {
+    "quad": [
+      [
+        953,
+        429
+      ],
+      [
+        1042,
+        438
+      ],
+      [
+        941,
+        451
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s15-a2": {
+    "quad": [
+      [
+        586,
+        405
+      ],
+      [
+        897,
+        439
+      ],
+      [
+        552,
+        478
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s16-a1": {
+    "quad": [
+      [
+        920,
+        466
+      ],
+      [
+        1001,
+        473
+      ],
+      [
+        907,
+        484
+      ]
+    ],
+    "initial": "32",
+    "events": [
+      {
+        "seconds": 1493.428,
+        "text": "0"
+      }
+    ],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review",
+    "event_reason": "Zero appears at actual electronic beep; spoken observation follows"
+  },
+  "c03-s16-a2": {
+    "quad": [
+      [
+        1086,
+        390
+      ],
+      [
+        1170,
+        391
+      ],
+      [
+        1078,
+        415
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "color": "#b8d8a2",
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s11-a1": {
+    "quad": [
+      [
+        993,
+        454
+      ],
+      [
+        1183,
+        504
+      ],
+      [
+        969,
+        510
+      ]
+    ],
+    "initial": "",
+    "events": [
+      {
+        "seconds": 1340.048188,
+        "text": "32  32"
+      }
+    ],
+    "color": "#56442b",
+    "font_size": 45,
+    "review_status": "pending_composed_frame_review"
+  },
+  "c03-s12-a1": {
+    "quad": [
+      [
+        1070,
+        422
+      ],
+      [
+        1266,
+        470
+      ],
+      [
+        1051,
+        474
+      ]
+    ],
+    "initial": "32  32",
+    "events": [],
+    "color": "#56442b",
+    "font_size": 45,
+    "review_status": "pending_composed_frame_review"
+  },
+  "sh03-01": {
+    "quad": [
+      [
+        664,
+        734
+      ],
+      [
+        758,
+        749
+      ],
+      [
+        652,
+        769
+      ]
+    ],
+    "initial": "32",
+    "events": [],
+    "view_box": [
+      941,
+      1672
+    ],
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "sh03-02": {
+    "quad": [
+      [
+        450,
+        705
+      ],
+      [
+        804,
+        799
+      ],
+      [
+        400,
+        782
+      ]
+    ],
+    "initial": "32",
+    "events": [
+      {
+        "seconds": 8.18,
+        "text": "0"
+      }
+    ],
+    "view_box": [
+      941,
+      1672
+    ],
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "sh03-03": {
+    "quad": [
+      [
+        287,
+        594
+      ],
+      [
+        368,
+        601
+      ],
+      [
+        276,
+        614
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "view_box": [
+      941,
+      1672
+    ],
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  },
+  "sh03-04": {
+    "quad": [
+      [
+        784,
+        557
+      ],
+      [
+        872,
+        570
+      ],
+      [
+        776,
+        580
+      ]
+    ],
+    "initial": "0",
+    "events": [],
+    "view_box": [
+      941,
+      1672
+    ],
+    "font_size": 62,
+    "review_status": "pending_composed_frame_review"
+  }
+}

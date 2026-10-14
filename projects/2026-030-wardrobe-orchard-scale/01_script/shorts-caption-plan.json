@@ -1,0 +1,133 @@
+[
+  {
+    "short_id": "SH01",
+    "cues": [
+      {
+        "start": 0.0,
+        "end": 2.44,
+        "text": "장롱 뒤에는 사람이 설 틈이 없었어요."
+      },
+      {
+        "start": 2.78,
+        "end": 4.76,
+        "text": "그런데 가구를 당길 때마다,"
+      },
+      {
+        "start": 4.76,
+        "end": 7.32,
+        "text": "그 틈에서 의자를 끄는 소리가 났습니다."
+      },
+      {
+        "start": 7.96,
+        "end": 9.38,
+        "text": "창밖에서 다시 봤어요."
+      },
+      {
+        "start": 9.96,
+        "end": 11.36,
+        "text": "아까 비어 있던 장롱 안에"
+      },
+      {
+        "start": 11.36,
+        "end": 13.18,
+        "text": "작은 의자가 놓여 있었습니다."
+      },
+      {
+        "start": 13.72,
+        "end": 15.62,
+        "text": "의자는 저를 보고 있지 않았어요."
+      }
+    ],
+    "source_words_unchanged": true,
+    "status": "output_cues_individually_reviewed_against_unchanged_Whisper_words"
+  },
+  {
+    "short_id": "SH02",
+    "cues": [
+      {
+        "start": 0.0,
+        "end": 0.88,
+        "text": "그 과수원에는"
+      },
+      {
+        "start": 0.88,
+        "end": 3.54,
+        "text": "바람에 흔들리지 않는 나무가 하나 있었어요."
+      },
+      {
+        "start": 3.86,
+        "end": 4.94,
+        "text": "가까이 갔더니,"
+      },
+      {
+        "start": 4.94,
+        "end": 6.78,
+        "text": "제 발밑 흙이 움직였습니다."
+      },
+      {
+        "start": 7.4,
+        "end": 9.2,
+        "text": "저는 길 쪽으로 물러났어요."
+      },
+      {
+        "start": 9.74,
+        "end": 11.46,
+        "text": "그러자 고정된 지지대와"
+      },
+      {
+        "start": 11.46,
+        "end": 13.6,
+        "text": "나무 사이의 거리가 달라져 있었습니다."
+      },
+      {
+        "start": 14.26,
+        "end": 16.14,
+        "text": "그 나무만 앞으로 나와 있었어요."
+      }
+    ],
+    "source_words_unchanged": true,
+    "status": "output_cues_individually_reviewed_against_unchanged_Whisper_words"
+  },
+  {
+    "short_id": "SH03",
+    "cues": [
+      {
+        "start": 0.0,
+        "end": 2.54,
+        "text": "빈 저울에 서른두 킬로그램이 남아 있었어요."
+      },
+      {
+        "start": 2.92,
+        "end": 5.22,
+        "text": "영점으로 맞추지 말라는 말을 들었는데,"
+      },
+      {
+        "start": 5.22,
+        "end": 7.1,
+        "text": "저는 단추를 눌렀습니다."
+      },
+      {
+        "start": 7.52,
+        "end": 9.02,
+        "text": "저울은 영이 됐어요."
+      },
+      {
+        "start": 9.6,
+        "end": 10.0,
+        "text": "그 순간,"
+      },
+      {
+        "start": 10.0,
+        "end": 12.54,
+        "text": "아무도 앉지 않은 의자가 내려앉았습니다."
+      },
+      {
+        "start": 13.2,
+        "end": 15.52,
+        "text": "바닥의 먼지에도 새 자국이 생겼어요."
+      }
+    ],
+    "source_words_unchanged": true,
+    "status": "output_cues_individually_reviewed_against_unchanged_Whisper_words"
+  }
+]

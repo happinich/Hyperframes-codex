@@ -1,0 +1,28 @@
+{
+  "asset_id": "C02-S01-A1",
+  "scene_id": "C02-S01",
+  "chapter_id": "C02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c02-s01-a1.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Specific shot: close ground-level view one thick woody root bends around dark GREEN RUBBER BOOT over black irrigation hose, boot leather compresses, root is bark not a human hand, no gore no face. Narrated purpose: 발등을 조이는 뿌리. Keep the decisive clue near central 70 percent, readable on a phone, with intact natural anatomy and coherent object geometry. Only show the exact people or threat portions described for this shot; do not insert reference entities into earlier empty scenes. Human faces fully hidden by back view or framing. No gore, logos, text, captions, lettering, numbers or watermark. Device displays and notebook pages remain BLANK for precise editorial overlays. Lighting low but clue edges readable. Preserve consistent wardrobe doors/dolly or orchard lane/pickup or platform/display/office relationships from reference.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C02-S01-SH1",
+    "location_id": "orchard",
+    "camera_position": "close ground-level view one thick woody root bends around dark GREEN RUBBER BOOT over black irrigation hose",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "eye_level",
+    "shot_size": "detail",
+    "subject_focus": "발등을 조이는 뿌리",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C02-S01-A1",
+    "new_information": "close ground-level view one thick woody root bends around dark GREEN RUBBER BOOT over black irrigation hose, boot leather compresses, root is bark not a human hand, no gore no face",
+    "reuse_reason": null,
+    "start_seconds": 475.546958,
+    "end_seconds": 478.726958,
+    "timing_source": "Whisper_approved_word_anchor"
+  },
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-2786e453-bf99-424c-a95b-e0b9e300c65a.png",
+  "generated_at": "2026-10-14T15:51:30.781Z",
+  "tool": "image_gen"
+}

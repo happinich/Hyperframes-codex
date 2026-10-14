@@ -1,0 +1,144 @@
+{
+  "project_id": "2026-030-wardrobe-orchard-scale",
+  "generation_tool": "built_in_image_gen",
+  "fresh_portrait_required": true,
+  "assets": [
+    {
+      "asset_id": "SH01-01",
+      "chapter_id": "C01",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-01.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting. Shot: exterior through left window, empty wardrobe doors open; no person inside. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.\nREQUIRED SPECIFIC DETAILS: Establish the brown two-door wardrobe north wall, LEFT window and RIGHT door. No bed, chair, feet or ghost; natural painterly room.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH01-02",
+      "chapter_id": "C01",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-02.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting. Shot: low close narrow empty gap behind wardrobe, fine dust trails toward wall. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH01-03",
+      "chapter_id": "C01",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+      "prompt": "REMOVE the entire woman from inside room: head, body, both legs and hands. The room is EMPTY, wardrobe interior EMPTY. Keep this freshly generated portrait camera outside the left window, same open wardrobe, dolly, window frame, warm gouache paint and palette. No chair yet, no human, ghost, feet or phone.",
+      "status": "planned",
+      "rejected_versions": [
+        {
+          "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03-rejected-v1.png",
+          "reason": "Unwanted worker remains inside room during outside look-back"
+        }
+      ],
+      "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03-rejected-v1.png"
+    },
+    {
+      "asset_id": "SH01-04",
+      "chapter_id": "C01",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+      "prompt": "Rotate ONLY the small chair 180 degrees. We see its REAR side: backrest and REAR legs toward camera, FRONT legs farther away close to wardrobe back wall. Its seat points AWAY from camera toward rear panel. Hide broad front seat surface behind rear backrest. The SECOND landscape reference is orientation guidance ONLY; generate an independent portrait image, never crop or extract it. Retain full open wardrobe with chair INSIDE cabinet, painted material. No person, feet, grey fabric or ghost.",
+      "status": "planned",
+      "rejected_versions": [
+        {
+          "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04-rejected-v1.png",
+          "reason": "Chair seat faces viewer rather than rear panel"
+        }
+      ],
+      "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-04-rejected-v1.png",
+      "support_reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c01-s07-a2.png"
+      ]
+    },
+    {
+      "asset_id": "SH02-01",
+      "chapter_id": "C02",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-01.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Shot: wide central orchard dirt lane toward yellow shed, ordinary trees, one still bare short tree. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.\nREQUIRED SPECIFIC DETAILS: Short solid leafless tree with exactly TWO main branches at right orchard ROW, central dirt lane slopes UP to small yellow-lit shed. No ribbon, fissure, roots or face.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH02-02",
+      "chapter_id": "C02",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-02.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Shot: low worker green boot beside black hose and slightly raised dirt, NO revealed creature. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH02-03",
+      "chapter_id": "C02",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-03.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Shot: fixed pole comparison short ordinary tree now closer to lane, root limbs completely HIDDEN. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.\nREQUIRED SPECIFIC DETAILS: Short solid leafless tree with same TWO main branches now closer to central lane, plain fixed concrete pole visible nearby as distance anchor. Central lane slopes UP to yellow shed, no ribbons, cavity, exposed roots or faces.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH02-04",
+      "chapter_id": "C02",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+      "prompt": "Change ONLY the lower trunk of the large TWO-branched leafless tree: ONE ordinary SOLID vertical stump planted firmly into smooth dirt, all roots COMPLETELY UNDERGROUND. REMOVE raised root legs, arch, openings and all exposed roots. No feet, entity anatomy, hollow seams, eyes or face. Keep olive worker back, lane, paper stage style, shed and dusk unchanged.",
+      "status": "planned",
+      "rejected_versions": [
+        {
+          "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04-rejected-v1.png",
+          "reason": "Root arch reveals creature body in spoiler-free teaser"
+        }
+      ],
+      "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh02-04-rejected-v1.png"
+    },
+    {
+      "asset_id": "SH03-01",
+      "chapter_id": "C03",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-01.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette. Shot: low empty square steel scale and BLANK panel, no person or pressure yet. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH03-02",
+      "chapter_id": "C03",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+      "prompt": "Change ONLY the raised upper LID/VISOR into clear transparent acrylic: warehouse background must be visibly seen THROUGH the entire lid; retain thin rectangular rim, two hinges and its raised angle. Keep SINGLE low-poly controller, blank display, red and green buttons, SAME natural grey-sleeved hand touching yellow left button. No writing or extra fingers.",
+      "status": "planned",
+      "rejected_versions": [
+        {
+          "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02-rejected-v1.png",
+          "reason": "Raised visor is opaque rather than transparent"
+        }
+      ],
+      "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02-rejected-v1.png"
+    },
+    {
+      "asset_id": "SH03-03",
+      "chapter_id": "C03",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-03.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+      "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette. Shot: empty chair seat begins to bow downward, NO body. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.",
+      "status": "planned"
+    },
+    {
+      "asset_id": "SH03-04",
+      "chapter_id": "C03",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+      "prompt": "Change ONLY the empty wooden chair at left: its seat center visibly bows DOWN under invisible weight, matching the bowed chair in second PORTRAIT reference. Preserve four chair legs, NO figure on chair. Keep TWO round shallow pressed dust circles and empty platform/controller, low-poly pixel warehouse. No shoeprints, figures, writing or extra objects.",
+      "status": "planned",
+      "rejected_versions": [
+        {
+          "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04-rejected-v1.png",
+          "reason": "Chair seat recovers before pressure-release event"
+        }
+      ],
+      "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04-rejected-v1.png",
+      "support_reference_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-03.png"
+      ]
+    }
+  ]
+}

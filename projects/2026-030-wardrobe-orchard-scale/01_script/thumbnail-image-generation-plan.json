@@ -1,0 +1,26 @@
+{
+  "project_id": "2026-030-wardrobe-orchard-scale",
+  "generation_tool": "built_in_image_gen",
+  "assets": [
+    {
+      "asset_id": "TH-A",
+      "scene_id": "thumbnail-a",
+      "chapter_id": "C03",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/TH-A.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+      "prompt": "ONE new 16:9 landscape horror thumbnail BACKGROUND, early low-poly 3D game style, coarse pixel textures and flat-shaded angular geometry, no photorealism. Same warehouse geography/material/control design as reference: single empty square low scale with four supports at foreground, controller on RIGHT, one office rear right and corrugated exit rear left. NEW closer low camera, empty platform occupies CENTER RIGHT and display upper-right LARGE enough for later editorial 32. Display must be entirely DARK BLANK, buttons yellow left/red middle/green right. Empty cart and chair far rear, ordinary undamaged as BEFORE zero event. Strong dark green/ochre light contrast. LEFT 38% dark plain negative space for typography. Decisive clue is EMPTY scale and its display. NO human, face, entity, numbers, writing, watermark, logo or collage.",
+      "status": "planned",
+      "use": "thumbnail_background"
+    },
+    {
+      "asset_id": "TH-B",
+      "scene_id": "thumbnail-b",
+      "chapter_id": "C01",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/TH-B.png",
+      "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+      "prompt": "ONE new 16:9 landscape horror thumbnail BACKGROUND, nonphotographic matte gouache/rough painterly style matching reference. NEW close low front angle into WIDELY OPEN brown two-door wardrobe against north wall; a small plain wooden chair stands INSIDE the cabinet at CENTER RIGHT. Camera sees CHAIR REAR: backrest and rear legs toward viewer, chair SEAT faces rear cabinet panel, front legs further from viewer. Entire chair enclosed by cabinet sides, nothing outside cabinet. No human, ghost, feet, grey hem, bed or extra chair. Warm narrow light from LEFT window catches rear wooden backrest, deep readable navy/brown shadows. LEFT 38% mostly dark negative space for native Korean typography. ONE decisive clue: inexplicable backward chair inside wardrobe. No text, numbers, panels, collage, face, logo, gore or watermark.",
+      "status": "planned",
+      "use": "thumbnail_background"
+    }
+  ]
+}

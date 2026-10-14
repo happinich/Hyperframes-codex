@@ -1,0 +1,18 @@
+{
+  "asset_id": "SH03-02",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Change ONLY the raised upper LID/VISOR into clear transparent acrylic: warehouse background must be visibly seen THROUGH the entire lid; retain thin rectangular rim, two hinges and its raised angle. Keep SINGLE low-poly controller, blank display, red and green buttons, SAME natural grey-sleeved hand touching yellow left button. No writing or extra fingers.",
+  "status": "planned",
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02-rejected-v1.png",
+      "reason": "Raised visor is opaque rather than transparent"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-02-rejected-v1.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-408228b9-9a9b-4848-be69-5e09a5b70fb2.png",
+  "generated_at": "2026-10-14T18:50:31.304Z",
+  "tool": "image_gen"
+}

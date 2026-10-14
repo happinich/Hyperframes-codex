@@ -1,0 +1,25 @@
+{
+  "asset_id": "C03-S02-A2",
+  "scene_id": "C03-S02",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s02-a2.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette. Specific shot: back view navy vest woman clerk near office doorway looking toward low steel platform, no face, angular low-poly limbs. Narrated purpose: 고물상 야간 업무. Keep the decisive clue near central 70 percent, readable on a phone, with intact natural anatomy and coherent object geometry. Only show the exact people or threat portions described for this shot; do not insert reference entities into earlier empty scenes. Human faces fully hidden by back view or framing. No gore, logos, text, captions, lettering, numbers or watermark. Device displays and notebook pages remain BLANK for precise editorial overlays. Lighting low but clue edges readable. Preserve consistent wardrobe doors/dolly or orchard lane/pickup or platform/display/office relationships from reference.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C03-S02-SH2",
+    "location_id": "warehouse",
+    "camera_position": "back view navy vest woman clerk near office doorway looking toward low steel platform",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "floor_level",
+    "shot_size": "medium",
+    "subject_focus": "고물상 야간 업무",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C03-S02-A2",
+    "new_information": "back view navy vest woman clerk near office doorway looking toward low steel platform, no face, angular low-poly limbs",
+    "reuse_reason": null
+  },
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-a2367d05-ee24-4f2d-a1d4-e229767ea76d.png",
+  "generated_at": "2026-10-14T17:12:37.532Z",
+  "tool": "image_gen"
+}

@@ -1,0 +1,32 @@
+{
+  "project_id": "2026-030-wardrobe-orchard-scale",
+  "shorts": [
+    {
+      "short_id": "shorts-01",
+      "title": "장롱 안 의자는 뒤를 보고 있었어요",
+      "related_video_title": "빈 저울의 영점을 맞췄더니 옆 의자가 눌렸어요 | 창작 공포 3편",
+      "related_video_project_id": "2026-030-wardrobe-orchard-scale",
+      "video": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-01.mp4",
+      "recommended_time": "2026-10-16 20:30 KST 권장. 실험 제안입니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-02",
+      "title": "바람이 없는데 나무의 자리가 바뀌었어요",
+      "related_video_title": "빈 저울의 영점을 맞췄더니 옆 의자가 눌렸어요 | 창작 공포 3편",
+      "related_video_project_id": "2026-030-wardrobe-orchard-scale",
+      "video": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-02.mp4",
+      "recommended_time": "2026-10-17 20:30 KST 권장. 실험 제안입니다.",
+      "external_caption_files_delivery": false
+    },
+    {
+      "short_id": "shorts-03",
+      "title": "영점을 누르자 빈 의자가 눌렸어요",
+      "related_video_title": "빈 저울의 영점을 맞췄더니 옆 의자가 눌렸어요 | 창작 공포 3편",
+      "related_video_project_id": "2026-030-wardrobe-orchard-scale",
+      "video": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-03.mp4",
+      "recommended_time": "2026-10-18 20:30 KST 권장. 실험 제안입니다.",
+      "external_caption_files_delivery": false
+    }
+  ]
+}

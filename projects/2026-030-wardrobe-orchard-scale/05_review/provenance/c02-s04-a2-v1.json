@@ -1,0 +1,28 @@
+{
+  "asset_id": "C02-S04-A2",
+  "scene_id": "C02-S04",
+  "chapter_id": "C02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c02-s04-a2.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: layered cardstock horror stage, visible folded seams and cut paper edges, paper construction, gloomy theatrical lighting. Specific shot: ground-level close view of black hose caught under soil beside the same bare tree base, one brown gloved hand pulls hose from frame edge, surface soil gently heaved in a broad oval mound but no roots or creature revealed yet, no face. Narrated purpose: 지지끈 없는 낮은 나무와 빠지지 않는 호스. Keep the decisive clue centrally readable on a phone. ONE standalone landscape frame, no panels, no text, no numbers, no faces, no gore. Use reference only for paper material and fixed orchard lane geography.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C02-S04-SH2",
+    "location_id": "orchard",
+    "camera_position": "ground-level close view of black hose caught under soil beside the same bare tree base, one brown gloved hand pulls hose from frame edge, surface soil gently heaved in a broad oval mound but no roots or creature revealed yet, no face",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "floor_level",
+    "shot_size": "detail",
+    "subject_focus": "지지끈 없는 낮은 나무와 빠지지 않는 호스",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C02-S04-A2",
+    "new_information": "ground-level close view of black hose caught under soil beside the same bare tree base, one brown gloved hand pulls hose from frame edge, surface soil gently heaved in a broad oval mound but no roots or creature revealed yet, no face",
+    "reuse_reason": null,
+    "start_seconds": 555.976958,
+    "end_seconds": 571.186958,
+    "timing_source": "Whisper_approved_word_anchor"
+  },
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-a44cdf94-f793-43c2-9b8a-db3bab1715c8.png",
+  "generated_at": "2026-10-14T15:59:01.241Z",
+  "tool": "image_gen"
+}

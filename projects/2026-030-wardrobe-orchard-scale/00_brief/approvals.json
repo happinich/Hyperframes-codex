@@ -1,0 +1,14 @@
+{
+  "recorded_date_kst": "2026-10-15",
+  "user_instruction": "오늘 이야기 시작하자. 지금 작업 지시하고 자러 갈거야. 다음 작업 지시 안되니까 모든 내용 추천으로 하고 끝까지 진행해줘.",
+  "scope": "Explicit advance approval and selection delegation for this new anthology: all three complete scripts, separate Shorts scripts, production profile, story-specific recommended visual styles, narrator casting, editing, BGM selection after voice review, reviewed Drive delivery and relevant commit/push.",
+  "script": "approved_by_explicit_user_delegation",
+  "shorts_script": "approved_by_explicit_user_delegation",
+  "visual_styles": {
+    "C01": "horror_painterly",
+    "C02": "horror_paper_stage",
+    "C03": "horror_retro_3d"
+  },
+  "voice": "Esther_eleven_v4_recommended_selected_by_delegation",
+  "bgm": "cand-04_selected_after_voice_review_by_explicit_user_delegation"
+}

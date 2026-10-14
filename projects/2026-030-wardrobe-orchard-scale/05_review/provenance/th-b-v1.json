@@ -1,0 +1,13 @@
+{
+  "asset_id": "TH-B",
+  "scene_id": "thumbnail-b",
+  "chapter_id": "C01",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/TH-B.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "prompt": "ONE new 16:9 landscape horror thumbnail BACKGROUND, nonphotographic matte gouache/rough painterly style matching reference. NEW close low front angle into WIDELY OPEN brown two-door wardrobe against north wall; a small plain wooden chair stands INSIDE the cabinet at CENTER RIGHT. Camera sees CHAIR REAR: backrest and rear legs toward viewer, chair SEAT faces rear cabinet panel, front legs further from viewer. Entire chair enclosed by cabinet sides, nothing outside cabinet. No human, ghost, feet, grey hem, bed or extra chair. Warm narrow light from LEFT window catches rear wooden backrest, deep readable navy/brown shadows. LEFT 38% mostly dark negative space for native Korean typography. ONE decisive clue: inexplicable backward chair inside wardrobe. No text, numbers, panels, collage, face, logo, gore or watermark.",
+  "status": "planned",
+  "use": "thumbnail_background",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-a253448f-3a1e-4975-ab1a-29a742d09b98.png",
+  "generated_at": "2026-10-14T19:20:57.715Z",
+  "tool": "image_gen"
+}

@@ -1,0 +1,113 @@
+{
+  "project_id": "2026-030-wardrobe-orchard-scale",
+  "destination": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "remote_subfolder_name": "2026-030-wardrobe-orchard-scale",
+  "status": "prepared_not_uploaded",
+  "longform_video_included": false,
+  "external_caption_files_included": false,
+  "shorts_count": 3,
+  "files": [
+    {
+      "name": "2026-030-wardrobe-orchard-scale-shorts-01.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/2026-030-wardrobe-orchard-scale-shorts-01.mp4",
+      "bytes": 11680561,
+      "sha256": "e5066532588088159a529ffca8afe96ef599d07648c4f82b8a7b6c8711d25d20"
+    },
+    {
+      "name": "2026-030-wardrobe-orchard-scale-shorts-02.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/2026-030-wardrobe-orchard-scale-shorts-02.mp4",
+      "bytes": 18638696,
+      "sha256": "567f7e01c060c30d3bd141d6fe563bf4ca404e4ae1fdbcaf6acee8f090395598"
+    },
+    {
+      "name": "2026-030-wardrobe-orchard-scale-shorts-03.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/2026-030-wardrobe-orchard-scale-shorts-03.mp4",
+      "bytes": 8421233,
+      "sha256": "28c411e720228a47f62c6038ce42eb33f843527be85324bc1c2d1ab2670f1c85"
+    },
+    {
+      "name": "README.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/README.md",
+      "bytes": 1245,
+      "sha256": "5bc5f64f44a48ef766d5da18e41c08e2d93dfa1f0acb009c3554853e63219a67"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/delivery-manifest.json",
+      "bytes": 2876,
+      "sha256": "c984b4b3cf7a38e3b3af243e5fac00b6574ebd112ad45089543938aaba691320"
+    },
+    {
+      "name": "longform-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/longform-publish.html",
+      "bytes": 5824,
+      "sha256": "91ddbebaa61c40a58369fdba1e4506f6985c95062e878ca6e913e0e6222260cc"
+    },
+    {
+      "name": "longform-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/longform-publish.md",
+      "bytes": 3599,
+      "sha256": "09ab43b57b8b5d281d20e3bac19110071480c739efc503ede1e88e9836f5217e"
+    },
+    {
+      "name": "shorts-01-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-01-publish.html",
+      "bytes": 3005,
+      "sha256": "7d8199bf68ea27483df06ef31f38c3c761c0031dcf89591f18b78f77188e3fe3"
+    },
+    {
+      "name": "shorts-01-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-01-publish.md",
+      "bytes": 1215,
+      "sha256": "60b10b6329e6d5c99e0ed65edbc1d1c90227c57a6cc94100605f6fb87a986991"
+    },
+    {
+      "name": "shorts-02-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-02-publish.html",
+      "bytes": 3029,
+      "sha256": "ee90c30b83f14bdb39de32d06e63dac99e377816b3c217e6aefa3192257a337f"
+    },
+    {
+      "name": "shorts-02-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-02-publish.md",
+      "bytes": 1231,
+      "sha256": "bb33c26eabaaa88bed97c443be5ce29b5628e8868409da74606609680a7313d7"
+    },
+    {
+      "name": "shorts-03-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-03-publish.html",
+      "bytes": 3002,
+      "sha256": "4acb8acaa23d468629b6b4de4fee3e0fba8e4a1485ce83d29cd0ed536440843c"
+    },
+    {
+      "name": "shorts-03-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-03-publish.md",
+      "bytes": 1213,
+      "sha256": "df5e6f4d6ea93bf12f52c3dec2b9fe3227baa5b06400346e875da3cf0cda2d58"
+    },
+    {
+      "name": "shorts-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-publish.html",
+      "bytes": 1660,
+      "sha256": "7a2b4f9b36b4baea7e00eefd5f9d3da210b459fbf0e89e1500d7d0e8490a187a"
+    },
+    {
+      "name": "shorts-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/shorts-publish.md",
+      "bytes": 687,
+      "sha256": "8d03fd2439da521a700fb67d93afd796e262324e8ac7b01f465c2307facc83cd"
+    },
+    {
+      "name": "thumbnail-a.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/thumbnail-a.png",
+      "bytes": 1064710,
+      "sha256": "e77d0a442db9247a90dc1d9b6862bfd7f14c5218e3cdb1d84551b4632f71aac0"
+    },
+    {
+      "name": "thumbnail-b.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/07_publish/drive-upload/thumbnail-b.png",
+      "bytes": 1234305,
+      "sha256": "793dd79ae2ff3f9053a5a493927a3d8adfb08585d78c42ec24a987bff5363c1e"
+    }
+  ]
+}

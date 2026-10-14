@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-10-14T19:37:31.704682+00:00",
+  "files": [
+    {
+      "file": "06_delivery/youtube/2026-030-wardrobe-orchard-scale-youtube.mp4",
+      "sha256": "a1f63730a7b867f6c5000cd68b1ee53ecccfbfdd0e38e040c17480a9fdfe6b73",
+      "bytes": 854835515,
+      "duration_seconds": 1558.137,
+      "video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "codec": "h264",
+        "frames": "93488",
+        "duration": "1558.133333"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "1558.137000"
+      },
+      "av_difference_seconds": 0.003667,
+      "detector_sampling_fps": 15,
+      "detector_dimensions_width": 480,
+      "freeze_noise_db": -55,
+      "freeze_duration_threshold_seconds": 3,
+      "black_duration_threshold_seconds": 1,
+      "detected_intervals": [],
+      "technical_status": "pass"
+    },
+    {
+      "file": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-01.mp4",
+      "sha256": "e5066532588088159a529ffca8afe96ef599d07648c4f82b8a7b6c8711d25d20",
+      "bytes": 11680561,
+      "duration_seconds": 15.933333,
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "codec": "h264",
+        "frames": "956",
+        "duration": "15.933333"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "15.933000"
+      },
+      "av_difference_seconds": 0.000333,
+      "detector_sampling_fps": 15,
+      "detector_dimensions_width": 480,
+      "freeze_noise_db": -55,
+      "freeze_duration_threshold_seconds": 3,
+      "black_duration_threshold_seconds": 1,
+      "detected_intervals": [],
+      "technical_status": "pass"
+    },
+    {
+      "file": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-02.mp4",
+      "sha256": "567f7e01c060c30d3bd141d6fe563bf4ca404e4ae1fdbcaf6acee8f090395598",
+      "bytes": 18638696,
+      "duration_seconds": 16.466667,
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "codec": "h264",
+        "frames": "988",
+        "duration": "16.466667"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "16.466667"
+      },
+      "av_difference_seconds": 0.0,
+      "detector_sampling_fps": 15,
+      "detector_dimensions_width": 480,
+      "freeze_noise_db": -55,
+      "freeze_duration_threshold_seconds": 3,
+      "black_duration_threshold_seconds": 1,
+      "detected_intervals": [],
+      "technical_status": "pass"
+    },
+    {
+      "file": "06_delivery/shorts/2026-030-wardrobe-orchard-scale-shorts-03.mp4",
+      "sha256": "28c411e720228a47f62c6038ce42eb33f843527be85324bc1c2d1ab2670f1c85",
+      "bytes": 8421233,
+      "duration_seconds": 15.8,
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "codec": "h264",
+        "frames": "948",
+        "duration": "15.800000"
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "duration": "15.800000"
+      },
+      "av_difference_seconds": 0.0,
+      "detector_sampling_fps": 15,
+      "detector_dimensions_width": 480,
+      "freeze_noise_db": -55,
+      "freeze_duration_threshold_seconds": 3,
+      "black_duration_threshold_seconds": 1,
+      "detected_intervals": [],
+      "technical_status": "pass"
+    }
+  ],
+  "listening_review_performed": false
+}

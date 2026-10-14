@@ -1,0 +1,52 @@
+{
+  "status": "ready_for_review",
+  "duration": 545.7,
+  "word_count": 996,
+  "average_wpm": 109.5,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 3,
+  "long_word_gaps": [
+    {
+      "start": 109.6,
+      "end": 110.5,
+      "duration": 0.9,
+      "before": "떼었습니다.",
+      "after": "영점"
+    },
+    {
+      "start": 343.9,
+      "end": 344.7,
+      "duration": 0.8,
+      "before": "했습니다.",
+      "after": "예전에도"
+    },
+    {
+      "start": 439.62,
+      "end": 440.42,
+      "duration": 0.8,
+      "before": "있었습니다.",
+      "after": "다음"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 540.0,
+      "end": 545.7,
+      "word_count": 12,
+      "wpm": 48.0
+    }
+  ],
+  "fast_window_count": 0,
+  "fast_windows": [],
+  "recommendations": [
+    "Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering."
+  ]
+}

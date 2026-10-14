@@ -1,0 +1,5 @@
+from pathlib import Path
+import json
+P=Path(__file__).resolve().parent;f=P/'01_script/image-generation-plan.json';d=json.loads(f.read_text());a=next(a for a in d['assets'] if a['asset_id']=='C03-S09-A1');old=Path(a['output_path']);n=len(a['rejected_versions'])+1;bad=old.with_name(old.stem+f'-rejected-v{n}.png');old.rename(bad)
+target=a['rejected_versions'][-1]['path'];a['rejected_versions'].append({'path':str(bad),'reason':'Whole frame switches to chair reference, loses required empty cart and compressed tires'})
+a.update(edit_target_path=target,prompt='Preserve this exact LOW CLOSE camera of the BLUE EMPTY HANDCART with its FOUR FLATTENED TIRES. DO NOT change the camera or main handcart, tires, empty tray, single office, warehouse or light. Make ONLY the small wooden chair seat in FAR rear-RIGHT background slightly concave down at its center. The cart must remain the dominant foreground object. No new figure, text or numbers.',support_reference_paths=[],status='planned');f.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

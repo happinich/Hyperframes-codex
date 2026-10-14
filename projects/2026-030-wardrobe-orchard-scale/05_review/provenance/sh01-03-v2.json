@@ -1,0 +1,18 @@
+{
+  "asset_id": "SH01-03",
+  "chapter_id": "C01",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "prompt": "REMOVE the entire woman from inside room: head, body, both legs and hands. The room is EMPTY, wardrobe interior EMPTY. Keep this freshly generated portrait camera outside the left window, same open wardrobe, dolly, window frame, warm gouache paint and palette. No chair yet, no human, ghost, feet or phone.",
+  "status": "planned",
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03-rejected-v1.png",
+      "reason": "Unwanted worker remains inside room during outside look-back"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh01-03-rejected-v1.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-95e0ff25-7302-4a89-80ba-f8e26d258d0e.png",
+  "generated_at": "2026-10-14T18:43:40.238Z",
+  "tool": "image_gen"
+}

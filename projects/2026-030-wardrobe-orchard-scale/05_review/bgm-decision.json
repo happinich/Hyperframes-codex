@@ -1,0 +1,37 @@
+{
+  "status": "objective_signal_reviewed",
+  "candidates": [
+    {
+      "id": "cand-01",
+      "seconds": 40.019625,
+      "peak_dbfs": -1.73,
+      "rms_dbfs": -14.58,
+      "sha256": "22b4c57122b134b12bcf73a388e7d35524c24760bef898f7dbda6ea497c623d3"
+    },
+    {
+      "id": "cand-02",
+      "seconds": 40.019625,
+      "peak_dbfs": -2.4,
+      "rms_dbfs": -15.89,
+      "sha256": "9888371ab54bb8b690e530a89a74835605d063fb4ce5c0127eb66264867dbac9"
+    },
+    {
+      "id": "cand-03",
+      "seconds": 40.019625,
+      "peak_dbfs": -2.68,
+      "rms_dbfs": -15.42,
+      "sha256": "c98269e73737fff98526a361d4cebfcc05c07d0d92d685afb29663af52d501e1"
+    },
+    {
+      "id": "cand-04",
+      "seconds": 40.071875,
+      "peak_dbfs": -1.66,
+      "rms_dbfs": -11.49,
+      "sha256": "0d53c8ada043a08c206218bbd085aca2b26ed983c1931957cc11afac72173be3"
+    }
+  ],
+  "selected": "cand-04",
+  "selection_authorization": "Explicit user delegation 2026-10-14",
+  "reason": "Near-static sparse drone prompt gives room for wardrobe creaks, root friction and scale beeps. Numeric signal check found usable nonempty tracks. This is prompt/signal-based selection, not a subjective ear-listening claim.",
+  "subjective_listening_performed": false
+}

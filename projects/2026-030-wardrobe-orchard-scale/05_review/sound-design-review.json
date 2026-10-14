@@ -1,0 +1,166 @@
+{
+  "status": "signal_review_pending",
+  "provenance": "Original deterministic numpy/scipy synthesis; no external sampled recordings",
+  "voice_only_sha256": "e744eaaea1406e3eda01df4c6b1cef64483cf9e7acfa493dedc35625764de760",
+  "voice_master_preserved": true,
+  "bgm_candidate": "cand-04",
+  "events": [
+    {
+      "scene_id": "C01-S04",
+      "spoken_cue": "장롱 옆을",
+      "start_seconds": 77.72,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S05",
+      "spoken_cue": "발바닥이",
+      "start_seconds": 101.52,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S07",
+      "spoken_cue": "창문을",
+      "start_seconds": 169.0,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S09",
+      "spoken_cue": "의자 다리 하나가",
+      "start_seconds": 237.66,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C01-S11",
+      "spoken_cue": "한 손이",
+      "start_seconds": 286.92,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C01-S12",
+      "spoken_cue": "가슴에 닿았어요",
+      "start_seconds": 303.86,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C01-S13",
+      "spoken_cue": "가로대 하나가",
+      "start_seconds": 354.3,
+      "kind": "snip",
+      "duration_seconds": 0.23
+    },
+    {
+      "scene_id": "C01-S14",
+      "spoken_cue": "장롱이 바닥을",
+      "start_seconds": 374.78,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C02-S04",
+      "spoken_cue": "호스를",
+      "start_seconds": 551.907,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C02-S07",
+      "spoken_cue": "밑동이",
+      "start_seconds": 653.287,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C02-S11",
+      "spoken_cue": "발등을",
+      "start_seconds": 781.027,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C02-S13",
+      "spoken_cue": "쇠막대로",
+      "start_seconds": 833.807,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S14",
+      "spoken_cue": "지지대들이",
+      "start_seconds": 868.567,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S17",
+      "spoken_cue": "나무뿌리가",
+      "start_seconds": 975.507,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S05",
+      "spoken_cue": "영점 단추를",
+      "start_seconds": 1114.788,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S06",
+      "spoken_cue": "좌판 가운데가",
+      "start_seconds": 1146.108,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C03-S07",
+      "spoken_cue": "빗자루 끝이",
+      "start_seconds": 1191.248,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C03-S08",
+      "spoken_cue": "창고문에서",
+      "start_seconds": 1232.228,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C03-S13",
+      "spoken_cue": "조회 단추를",
+      "start_seconds": 1387.768,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S14",
+      "spoken_cue": "단추가 눌렸습니다",
+      "start_seconds": 1411.888,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S16",
+      "spoken_cue": "전자음이",
+      "start_seconds": 1493.428,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S17",
+      "spoken_cue": "문턱 바닥이",
+      "start_seconds": 1534.368,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    }
+  ],
+  "ambience_and_foley_separate_layers": true,
+  "shorts_outro_delay_seconds": 0,
+  "subjective_listening_performed": false
+}

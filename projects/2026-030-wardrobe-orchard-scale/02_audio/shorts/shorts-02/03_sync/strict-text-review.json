@@ -1,0 +1,7 @@
+{
+  "reference_recall": 1.0,
+  "heard_precision": 1.0,
+  "insertions": [],
+  "omissions": [],
+  "status": "objective_text_review_passed"
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "TH-A",
+  "scene_id": "thumbnail-a",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/TH-A.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "ONE new 16:9 landscape horror thumbnail BACKGROUND, early low-poly 3D game style, coarse pixel textures and flat-shaded angular geometry, no photorealism. Same warehouse geography/material/control design as reference: single empty square low scale with four supports at foreground, controller on RIGHT, one office rear right and corrugated exit rear left. NEW closer low camera, empty platform occupies CENTER RIGHT and display upper-right LARGE enough for later editorial 32. Display must be entirely DARK BLANK, buttons yellow left/red middle/green right. Empty cart and chair far rear, ordinary undamaged as BEFORE zero event. Strong dark green/ochre light contrast. LEFT 38% dark plain negative space for typography. Decisive clue is EMPTY scale and its display. NO human, face, entity, numbers, writing, watermark, logo or collage.",
+  "status": "planned",
+  "use": "thumbnail_background",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-e9d07c4b-aa89-49a0-984d-88011acc3ad6.png",
+  "generated_at": "2026-10-14T19:20:34.330Z",
+  "tool": "image_gen"
+}

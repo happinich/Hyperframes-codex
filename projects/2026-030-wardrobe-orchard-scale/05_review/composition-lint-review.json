@@ -1,0 +1,295 @@
+{
+  "checks": [
+    {
+      "source": "04_composition/segments/part-01.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1k2n70k_/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-02.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-9n789buv/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-03.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-_pk7a5sp/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-04.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1r0vj4va/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-05.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-ytj6qlnm/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-06.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-xuq0zhq9/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-07.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-73dxry9u/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-08.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-fwz4pm4y/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-09.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-wjz3zfed/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-10.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-_5tclal4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-11.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-_f1_h1_d/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-12.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-ctfmdya6/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-13.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-v20muwbz/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-14.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1k91ixfo/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-15.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-rxyp5i0a/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-16.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-q6iyy5d3/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-17.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-he8r6w93/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-18.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-b1tv9ecv/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-19.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-lt_4pexe/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-20.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-_bxc14bp/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-21.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-6icda4s7/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-22.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-t82ya3ab/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-23.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1_2mzen1/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-24.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-4fthg_6l/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-25.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-18fcbe0o/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-26.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-z9h_8m7f/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-27.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-zd4u84gp/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-28.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-b4hicl_s/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-29.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-qxnxdex4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-30.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-ebvhh2d9/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-31.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-n_qbr4_a/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-32.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-0r0avqaq/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-33.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-z_b2mvtf/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-34.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-6o2_iwi8/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-35.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-nvzhv2g4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-36.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-9dgjdd5c/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-37.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-6dhvw02u/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-38.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-d4jykrw4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-39.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1zhmhfx7/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-40.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-w9ujvggq/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-41.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-bb11usbn/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-42.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1o_f2_cz/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-43.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-mqprrwx4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-44.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-3a3v1p5i/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-45.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-2nr4m41i/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-46.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-9tve630x/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-47.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-3wlfu02w/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-48.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-hdrqbib1/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-49.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-luqa7zf8/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-50.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-0_wzo9_o/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-51.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-0sq6ynr2/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-52.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-lp2f1dq4/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-53.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-_bdmigyi/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/segments/part-54.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1epw6tgi/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/shorts-01/index.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-2gf316lk/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/shorts-02/index.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-1y6nm8jz/index.html\n\n◇  0 errors, 0 warnings\n"
+    },
+    {
+      "source": "04_composition/shorts-03/index.html",
+      "exit_code": 0,
+      "result": "◆  Linting lint-vsoo0tnz/index.html\n\n◇  0 errors, 0 warnings\n"
+    }
+  ],
+  "main": {
+    "errors": 0,
+    "warnings": 1,
+    "warning": "heavy overlay count 108",
+    "mitigation": "Actual renderer uses 54 separate segment HTML compositions and concatenates; entire final master black detection passed"
+  }
+}

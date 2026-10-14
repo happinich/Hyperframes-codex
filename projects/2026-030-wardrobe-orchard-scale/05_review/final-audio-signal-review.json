@@ -1,0 +1,46 @@
+{
+  "status": "signal_pass",
+  "outputs": [
+    {
+      "path": "02_audio/working/voice-final.wav",
+      "duration_seconds": 1558.137,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -3.1548744835015112,
+      "rms_dbfs": -20.570981784415643,
+      "clipped_samples": 0,
+      "sha256": "5e8f61309a68d920e72b06d96cb6afa368fe3d93ddf32f196a113e5421a0f561"
+    },
+    {
+      "path": "04_composition/assets/audio/shorts-01.wav",
+      "duration_seconds": 15.933,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -3.5064645770857257,
+      "rms_dbfs": -20.624300225327,
+      "clipped_samples": 0,
+      "sha256": "d80b67f07c9ecc4c07b1189827760335a18717e170af47134f5f839481b31a08"
+    },
+    {
+      "path": "04_composition/assets/audio/shorts-02.wav",
+      "duration_seconds": 16.453,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -3.8695775886683315,
+      "rms_dbfs": -19.73057235581078,
+      "clipped_samples": 0,
+      "sha256": "def3e240bc1268d80a9365c1e8c5f0bf98355e797c10844ec8d63fff8a3a7482"
+    },
+    {
+      "path": "04_composition/assets/audio/shorts-03.wav",
+      "duration_seconds": 15.785895833333333,
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_dbfs": -3.679238043983718,
+      "rms_dbfs": -19.836162826096093,
+      "clipped_samples": 0,
+      "sha256": "647fd3095ff25754c6c7d59b176fcaefb6c44db71f71527e2493f2fd200be6ae"
+    }
+  ],
+  "subjective_listening_performed": false
+}

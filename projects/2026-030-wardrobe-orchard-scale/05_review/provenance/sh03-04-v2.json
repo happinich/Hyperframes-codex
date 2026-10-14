@@ -1,0 +1,21 @@
+{
+  "asset_id": "SH03-04",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Change ONLY the empty wooden chair at left: its seat center visibly bows DOWN under invisible weight, matching the bowed chair in second PORTRAIT reference. Preserve four chair legs, NO figure on chair. Keep TWO round shallow pressed dust circles and empty platform/controller, low-poly pixel warehouse. No shoeprints, figures, writing or extra objects.",
+  "status": "planned",
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04-rejected-v1.png",
+      "reason": "Chair seat recovers before pressure-release event"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-04-rejected-v1.png",
+  "support_reference_paths": [
+    "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-03.png"
+  ],
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-4dda6ca2-28d4-45c8-a5c8-5924c537aac5.png",
+  "generated_at": "2026-10-14T18:50:55.620Z",
+  "tool": "image_gen"
+}

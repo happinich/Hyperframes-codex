@@ -1,0 +1,46 @@
+{
+  "status": "ready_for_review",
+  "duration": 527.14,
+  "word_count": 986,
+  "average_wpm": 112.2,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 1,
+  "long_word_gaps": [
+    {
+      "start": 294.14,
+      "end": 295.04,
+      "duration": 0.9,
+      "before": "멈췄습니다.",
+      "after": "가지가"
+    }
+  ],
+  "slow_window_count": 1,
+  "slow_windows": [
+    {
+      "start": 525.0,
+      "end": 527.14,
+      "word_count": 6,
+      "wpm": 24.0
+    }
+  ],
+  "fast_window_count": 1,
+  "fast_windows": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "word_count": 35,
+      "wpm": 140.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

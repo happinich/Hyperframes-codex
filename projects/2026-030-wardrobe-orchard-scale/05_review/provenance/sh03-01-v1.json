@@ -1,0 +1,11 @@
+{
+  "asset_id": "SH03-01",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/sh03-01.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE freshly composed full-bleed PORTRAIT image for a 9:16, 1080x1920 Short. New independent asset, never crop the reference sheet or a longform frame. Reference ONLY for consistent material, props, clothes and geography. Style: early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette. Shot: low empty square steel scale and BLANK panel, no person or pressure yet. Clear central mobile clue with safe lower third for captions. No panels, borders, collage, text, numbers, logos, gore, watermark or human face. NO identity, full ghost, root creature body or ending. Scale display stays blank.",
+  "status": "planned",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-7f073a5e-7770-453c-bbfc-9ee39b68e758.png",
+  "generated_at": "2026-10-14T18:45:17.555Z",
+  "tool": "image_gen"
+}

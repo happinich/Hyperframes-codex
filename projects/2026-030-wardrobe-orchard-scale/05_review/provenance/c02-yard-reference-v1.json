@@ -1,0 +1,11 @@
+{
+  "asset_id": "C02-YARD-REFERENCE",
+  "scene_id": null,
+  "chapter_id": "C02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c02-yard-reference.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c02-s02-a2.png",
+  "prompt": "Create one standalone landscape cut-paper stage reference image of a DIFFERENT LOCATION: daytime equipment work yard with flat grey CONCRETE ground, white plaster boundary wall, closed plain corrugated metal storage door, compact WHITE CAB-OVER work pickup with black irrigation hose coils in open cargo bed. Adult woman in olive work jacket, brown cargo trousers, dark green rubber boots, brown gloves, low tied dark hair, seen from BACK only beside truck. Match supplied image only for folded cardstock material, clothes and pickup, NOT its orchard setting. NO orchard, no planted trees, no mountains, no yellow-lit shed, no creature, no roots, no face, no text, no panels. Cloudy DAYLIGHT with muted blue-grey shadows, natural paper grain, cohesive one work yard frame.",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-b1d7ac1a-ef5b-4799-a9b9-285640c1d8f2.png",
+  "generated_at": "2026-10-14T16:51:43.020Z",
+  "tool": "image_gen"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "07_publish/youtube/thumbnail-a.png",
+    "size": [
+      1280,
+      720
+    ],
+    "sha256": "e77d0a442db9247a90dc1d9b6862bfd7f14c5218e3cdb1d84551b4632f71aac0",
+    "review": "approved_individual_original_and_native_composed_frame",
+    "previous_output": "UTF8 mojibake rejected, explicit head repaired"
+  },
+  {
+    "file": "07_publish/youtube/thumbnail-b.png",
+    "size": [
+      1280,
+      720
+    ],
+    "sha256": "793dd79ae2ff3f9053a5a493927a3d8adfb08585d78c42ec24a987bff5363c1e",
+    "review": "approved_individual_original_and_native_composed_frame",
+    "previous_output": "UTF8 mojibake rejected, explicit head repaired"
+  }
+]

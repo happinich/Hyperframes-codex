@@ -1,0 +1,25 @@
+{
+  "asset_id": "C03-S17-A1",
+  "scene_id": "C03-S17",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s17-a1.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: early low-poly 3D horror game render, coarse low-resolution textures, flat shaded geometry, muted palette. Specific shot: low floor angle TWO brown worker shoes at office threshold compressed into shallow matching dents, grey pants legs above, no person face no gore. Narrated purpose: 문턱에 붙은 신발. Keep the decisive clue near central 70 percent, readable on a phone, with intact natural anatomy and coherent object geometry. Only show the exact people or threat portions described for this shot; do not insert reference entities into earlier empty scenes. Human faces fully hidden by back view or framing. No gore, logos, text, captions, lettering, numbers or watermark. Device displays and notebook pages remain BLANK for precise editorial overlays. Lighting low but clue edges readable. Preserve consistent wardrobe doors/dolly or orchard lane/pickup or platform/display/office relationships from reference.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C03-S17-SH1",
+    "location_id": "warehouse",
+    "camera_position": "low floor angle TWO brown worker shoes at office threshold compressed into shallow matching dents",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "floor_level",
+    "shot_size": "medium",
+    "subject_focus": "문턱에 붙은 신발",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C03-S17-A1",
+    "new_information": "low floor angle TWO brown worker shoes at office threshold compressed into shallow matching dents, grey pants legs above, no person face no gore",
+    "reuse_reason": null
+  },
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-6266b029-909f-49c8-80e2-63732229c446.png",
+  "generated_at": "2026-10-14T18:31:14.524Z",
+  "tool": "image_gen"
+}

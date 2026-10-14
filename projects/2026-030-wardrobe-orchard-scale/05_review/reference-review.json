@@ -1,0 +1,34 @@
+[
+  {
+    "name": "c01-reference",
+    "sha256": "62d2b45c09cdd47204e9d68c184e8bfa724890a0ef1dad427fd64d3932b71801",
+    "generation_review": "previously_individually_viewed",
+    "final_original_reference_comparison": "approved",
+    "note": "회화풍 방/작업자/회색 치마와 양말 존재, 왼쪽 창/오른쪽 문, 의자 소품 기준. 실제 선택 컷과 대조.",
+    "reviewed_at": "2026-10-14T20:02:07.321624+00:00"
+  },
+  {
+    "name": "c02-reference",
+    "sha256": "1b5cac071f9fef8789f2e0ff42c67516b3b957d5b02f9e6f942c89d6fc38ce62",
+    "generation_review": "previously_individually_viewed",
+    "final_original_reference_comparison": "approved",
+    "note": "종이 무대풍 입구→창고 축, 올리브 작업복/갈색 동료, 두 주요 가지/수피/뿌리 기준.",
+    "reviewed_at": "2026-10-14T20:02:07.321624+00:00"
+  },
+  {
+    "name": "c02-yard-reference",
+    "sha256": "c2e4b51229a3240fbbfddef7b619901208e041508059288cb8d65014d8d1d013",
+    "generation_review": "previously_individually_viewed",
+    "final_original_reference_comparison": "approved",
+    "note": "후일 별도 콘크리트 장비 야적장. 과수원과 구별되는 흰 벽/회색 셔터/호스/트럭.",
+    "reviewed_at": "2026-10-14T20:02:07.321624+00:00"
+  },
+  {
+    "name": "c03-reference",
+    "sha256": "1e89886fa64a050fee2312752d8369c4e62dde15fa5a8d18ee93b601d56d1d38",
+    "generation_review": "previously_individually_viewed",
+    "final_original_reference_comparison": "approved",
+    "note": "저해상도 3D/픽셀 표면, 고물상 한 사무실/출구/세 버튼 계기/작업자/빈 의자. 실사풍 이전 버전 제외.",
+    "reviewed_at": "2026-10-14T20:02:07.321624+00:00"
+  }
+]

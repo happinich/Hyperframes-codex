@@ -1,0 +1,13 @@
+{
+  "asset_id": "C01-S01-A2",
+  "scene_id": "C01-S01",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c01-s01-a2.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-9ccaf4f2-f6f9-4b9e-b152-39398f6053c2.png",
+  "tool": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting. Specific shot: Floor-level lateral view. Spatial order LEFT TO RIGHT: grey sock of ghost barely visible at far LEFT behind brown wardrobe, wardrobe body on wheeled dolly in left half, protagonist brown boots and navy trouser legs in right half pinned between wardrobe FRONT and wall at far RIGHT. Absolutely NO ghost beside or behind protagonist on right. Ghost body occluded behind LEFT side of wardrobe. Dolly under wardrobe with wheels directed right toward protagonist. A grey sleeve may be visible only at far upper left pushing wooden rear panel. Head and human faces fully outside frame, clear geometry and no ghost touching protagonist directly. Full-bleed 16:9 single frame, no panels, no text, no gore.",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "generated_at": "2026-10-14T14:50:00.749Z",
+  "rejected_versions": [
+    "c01-s01-a2-rejected-v1.png"
+  ]
+}

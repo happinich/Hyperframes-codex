@@ -1,0 +1,11 @@
+{
+  "asset_id": "C01-S02-A2",
+  "scene_id": "C01-S02",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c01-s02-a2.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-9e9b67c2-efb7-4a17-8ade-44dfd9b5c969.png",
+  "tool": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Generate ONE new standalone full-bleed landscape film frame in 16:9 aspect ratio, intended for 1920x1080 video. Reference sheet is ONLY a guide to material, palette, character clothes, recurring objects and fixed geography. Do NOT copy its panel layout: NO panels, NO collage, NO borders. Style: nonphotographic hand-painted horror illustration, matte pigment masses, rough brushwork, selective low-key lighting. Specific shot: exterior of modest Korean house and white moving pickup at courtyard, dusk, no people faces, worker returns from front gate. Narrated purpose: 빈집 정리와 안방 동선. Keep the decisive clue near central 70 percent, readable on a phone, with intact natural anatomy and coherent object geometry. Only show the exact people or threat portions described for this shot; do not insert reference entities into earlier empty scenes. Human faces fully hidden by back view or framing. No gore, logos, text, captions, lettering, numbers or watermark. Device displays and notebook pages remain BLANK for precise editorial overlays. Lighting low but clue edges readable. Preserve consistent wardrobe doors/dolly or orchard lane/pickup or platform/display/office relationships from reference.",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c01-reference.png",
+  "generated_at": "2026-10-14T14:50:57.964Z",
+  "rejected_versions": []
+}

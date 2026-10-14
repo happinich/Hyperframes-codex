@@ -1,0 +1,32 @@
+{
+  "asset_id": "C03-S09-A2",
+  "scene_id": "C03-S09",
+  "chapter_id": "C03",
+  "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s09-a2.png",
+  "reference_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/references/c03-reference.png",
+  "prompt": "Edit only handcart lower wheels and suspension: compress ALL four black rubber tires into visibly FLATTENED squashed shapes with broad contact patches on floor; empty blue cart metal bottom nearly touches concrete. Preserve worker standing BACK with hands released from handle, same office/scale and coarse low-poly pixel textures. No load, no entity or text.",
+  "status": "planned",
+  "camera": {
+    "shot_id": "C03-S09-SH2",
+    "location_id": "warehouse",
+    "camera_position": "medium back view navy vest clerk releases handcart handle and steps back",
+    "camera_angle": "story_specific_as_described",
+    "camera_height": "eye_level",
+    "shot_size": "medium",
+    "subject_focus": "빈 손수레의 무게",
+    "spatial_anchors": "Fixed chapter-specific geography and entity design in reference sheet; preserve action axis.",
+    "asset_id": "C03-S09-A2",
+    "new_information": "medium back view navy vest clerk releases handcart handle and steps back, wheels compressed, face excluded",
+    "reuse_reason": null
+  },
+  "rejected_versions": [
+    {
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s09-a2-rejected-v1.png",
+      "reason": "Cart wheels still read as normal rather than crushed"
+    }
+  ],
+  "edit_target_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/04_composition/assets/visuals/c03-s09-a2-rejected-v1.png",
+  "source_path": "/Users/happinich/.codex/generated_images/01a13097-df2c-7682-8562-cd8c8a2fd405/exec-2df17635-3fd8-48a4-86ce-a51e639dd01a.png",
+  "generated_at": "2026-10-14T17:58:29.657Z",
+  "tool": "image_gen"
+}
