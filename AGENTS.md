@@ -132,6 +132,11 @@ silently carry a previous project's style or BGM into a new project.
 
 ## Audio And Timing
 
+- For future female narration, use Jian.K (`ah4r1hZOydd3XWlHOm3Y`) as the
+  first choice, approved by the user after the horror audition on 2026-10-15.
+  Read `audio_rules.voice_preferences.female_first_choice` and record this
+  standing preference in the brief when selecting a female narrator. Explicit
+  project-specific choices take precedence. Preserve completed projects.
 - New long-form narration defaults to the original 1.00x speed, as requested on
   2026-10-06. Read `audio_rules.longform_voice_speed` in the canonical JSON and
   record the multiplier in the new project's request metadata and scene plan.

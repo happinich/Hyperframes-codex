@@ -211,6 +211,21 @@
     }
   },
   "audio_rules": {
+    "voice_preferences": {
+      "female_first_choice": {
+        "provider": "elevenlabs",
+        "name": "Jian.K – Calm mid-low, trustworthy voice",
+        "voice_id": "ah4r1hZOydd3XWlHOm3Y",
+        "language_code": "ko",
+        "priority": 1,
+        "user_approved_on": "2026-10-15",
+        "approval_basis": "User listened to the 59.760-second horror audition and selected Jian.K as the first choice for future female narration.",
+        "audition_project": "projects/2026-voice-audition-jian-k-20261015",
+        "scope": "Future projects when a female narrator is selected; record this standing user preference in the project brief. Explicit project-specific voice choices take precedence.",
+        "horror_direction": "Restrained mid-low Korean storytelling with gradual tension and sparse, story-specific performance tags; avoid constant whispering.",
+        "preserve_existing_project_settings": true
+      }
+    },
     "longform_voice_speed": {
       "default_multiplier": 1.0,
       "automatic_speedup": false,
