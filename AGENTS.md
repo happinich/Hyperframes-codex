@@ -361,13 +361,17 @@ Each finished YouTube project should include:
 Keep publishing assets under `07_publish/`. Do not claim that an artifact exists
 until it has been generated and verified.
 
-After final review, upload the long-form publishing strategy (MD/HTML), final
+After final review, upload the clean long-form main MP4, long-form publishing strategy (MD/HTML), final
 thumbnails, Shorts MP4, and Shorts publishing strategy (MD/HTML)
 to the Google Drive folder configured in
 `config/success-rules.json` under `publishing_rules.google_drive_delivery`.
-Use a project-ID subfolder, exclude long-form MP4, verify the uploaded file list,
+Use a project-ID subfolder, include the final main MP4 (user preference from
+2026-10-15), verify each video's filename, exact byte size, and destination parent,
 and record `07_publish/drive-upload-receipt.json`. Prepare portable copies with
 `.venv/bin/python scripts/prepare_drive_delivery.py <project>`.
+For files above the connector's upload-size limit, use authenticated native
+Chrome file upload through the computer-use tools. If in-app browser uploads
+repeatedly fail, switch to native Chrome and verify the completed uploads.
 
 ## Git And Generated Media
 

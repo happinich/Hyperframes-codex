@@ -260,9 +260,9 @@ HyperFrames 영상의 화면 톤을 하나로 고정하지 않습니다. 새 프
 
 ## 완료 후 Google Drive 전달
 
-사용자가 지정한 [롱폼 영상 작업 폴더](https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11)에 검수 완료 후 프로젝트 ID별 하위 폴더를 만들어 전달합니다. 대상은 롱폼 게시 전략(MD/HTML), 최종 썸네일 2장, 완성 쇼츠 MP4, 쇼츠 게시 전략(MD/HTML), 최종 SRT/VTT입니다. 롱폼 MP4는 업로드하지 않습니다. 기존 폴더의 다른 파일은 변경하지 않습니다.
+사용자가 지정한 [롱폼 영상 작업 폴더](https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11)에 검수 완료 후 프로젝트 ID별 하위 폴더를 만들어 전달합니다. 2026-10-15 사용자 요청에 따라 **롱폼 메인 MP4도 필수 업로드**합니다. 대상은 클린 롱폼 메인 MP4, 롱폼 게시 전략(MD/HTML), 최종 썸네일 2장, 완성 쇼츠 MP4, 쇼츠 게시 전략(MD/HTML)입니다. 새 제작물은 YouTube 자동 자막을 사용하고 외부 SRT/VTT를 납품·업로드하지 않습니다. 기존 폴더의 다른 파일은 변경하지 않습니다.
 
-`.venv/bin/python scripts/prepare_drive_delivery.py <project>`로 업로드용 사본을 `07_publish/drive/`에 만듭니다. HTML은 내려받은 폴더의 파일을 연결하며 롱폼 플레이어는 제외합니다. 인증된 Google Drive 연결 또는 브라우저의 파일 업로드를 사용하고, 업로드 완료 표시와 최종 파일 목록을 확인해 `07_publish/drive-upload-receipt.json`에 기록합니다. 연결/권한 문제로 업로드하지 못하면 준비 상태와 원인을 보고하고 완료했다고 주장하지 않습니다. 상세 설정은 `config/success-rules.json`의 `publishing_rules.google_drive_delivery`가 기준입니다.
+`.venv/bin/python scripts/prepare_drive_delivery.py <project>`로 업로드용 사본을 `07_publish/drive/` 또는 여러 쇼츠가 있는 `07_publish/drive-upload/`에 준비합니다. 롱폼 메인 MP4를 포함하고 HTML에서 같은 폴더의 영상 파일을 연결합니다. 인증된 Google Drive 연결 또는 브라우저의 파일 업로드를 사용합니다. 연결 도구의 크기 제한을 넘는 대용량 영상은 일반 Chrome 업로드를 사용하며, 앱 내 브라우저에서 실패가 반복되면 일반 Chrome으로 전환합니다. 업로드 완료 표시와 최종 파일명·바이트 단위 용량·저장 폴더를 확인해 `07_publish/drive-upload-receipt.json`에 기록합니다. 연결/권한 문제로 업로드하지 못하면 준비 상태와 원인을 보고하고 완료했다고 주장하지 않습니다. 상세 설정은 `config/success-rules.json`의 `publishing_rules.google_drive_delivery`가 기준입니다.
 
 ## 완료 후 GitHub 푸시
 

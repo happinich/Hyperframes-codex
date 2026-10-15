@@ -55,6 +55,6 @@
 
 ## Google Drive 전달
 
-- [ ] `scripts/prepare_drive_delivery.py`로 게시 전략·썸네일·쇼츠·최종 자막 사본을 준비했다.
-- [ ] 지정 Drive의 프로젝트별 폴더에 업로드했다. 롱폼 MP4는 제외했다.
-- [ ] 실제 업로드 완료 표시와 파일 목록을 확인하고 `07_publish/drive-upload-receipt.json`에 기록했다.
+- [ ] `scripts/prepare_drive_delivery.py`로 롱폼 메인 MP4·게시 전략·썸네일·쇼츠 사본을 준비했다. 외부 SRT/VTT는 납품에서 제외했다.
+- [ ] 지정 Drive의 프로젝트별 폴더에 롱폼 메인 MP4와 나머지 납품 파일을 업로드했다.
+- [ ] 실제 업로드 완료 표시와 파일명·바이트 단위 용량·저장 폴더를 확인하고 `07_publish/drive-upload-receipt.json`에 기록했다.

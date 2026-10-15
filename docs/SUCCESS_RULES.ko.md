@@ -254,7 +254,7 @@ projects/<project-id>/07_publish/youtube/youtube-publish.md
 
 ## 완료 후 Google Drive 전달
 
-검수 완료 후 `publishing_rules.google_drive_delivery`의 지정 폴더에 프로젝트 ID별 하위 폴더로 롱폼 게시 전략(MD/HTML), 최종 썸네일 2장, 쇼츠 MP4, 쇼츠 게시 전략(MD/HTML), 최종 SRT/VTT를 업로드합니다. 롱폼 영상은 제외합니다. `scripts/prepare_drive_delivery.py`로 경로가 연결된 사본을 준비하고, 실제 업로드 완료와 파일 목록을 검증해 `07_publish/drive-upload-receipt.json`을 남깁니다. 연결 또는 권한이 없으면 업로드 대기 상태로 보고합니다.
+검수 완료 후 `publishing_rules.google_drive_delivery`의 지정 폴더에 프로젝트 ID별 하위 폴더로 **클린 롱폼 메인 MP4**, 롱폼 게시 전략(MD/HTML), 최종 썸네일 2장, 쇼츠 MP4, 쇼츠 게시 전략(MD/HTML)을 업로드합니다. 2026-10-15 사용자 요청으로 롱폼 메인 영상도 필수 납품 대상입니다. 새 제작물은 YouTube 자동 자막을 사용하고 외부 SRT/VTT는 납품·업로드하지 않습니다. `scripts/prepare_drive_delivery.py`로 경로가 연결된 사본을 준비하고, 실제 업로드 완료와 파일명·바이트 단위 용량·저장 폴더를 검증해 `07_publish/drive-upload-receipt.json`을 남깁니다. 연결 도구의 업로드 크기 제한을 넘는 영상은 일반 Chrome 업로드를 사용합니다. 연결 또는 권한이 없으면 업로드 대기 상태로 보고합니다.
 
 ## 쇼츠 전용 이미지
 

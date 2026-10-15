@@ -20,6 +20,7 @@
 - Narration rule: {{PRODUCTION_PROFILE_NARRATION_RULE}}
 - Sound rule: {{PRODUCTION_PROFILE_SOUND_RULE}}
 - Voice generation: ElevenLabs API.
+- Google Drive delivery: 최종 검수 후 프로젝트별 폴더에 롱폼 메인 MP4·게시 전략·썸네일·쇼츠를 함께 업로드하고 파일명·용량·폴더를 검증한다. 원본 정책은 `publishing_rules.google_drive_delivery`.
 - Female voice first choice: `config/success-rules.json`의 `audio_rules.voice_preferences.female_first_choice`에 기록된 Jian.K. 사용자 청취 승인일 2026-10-15. 여성 화자 선택 시 실제 ID를 `02_audio/elevenlabs-request.json`에 적용하고 작품별 명시적 선택이 있으면 우선.
 - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.
 

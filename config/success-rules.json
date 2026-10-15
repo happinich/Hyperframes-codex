@@ -421,14 +421,15 @@
       "folder_url": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
       "project_subfolder": true,
       "upload_after_final_review": true,
+      "longform_upload_required_from": "2026-10-15",
       "include": [
+        "longform_mp4",
         "longform_publishing_md_html",
         "final_thumbnails",
         "shorts_mp4",
         "shorts_publishing_md_html"
       ],
       "exclude": [
-        "longform_mp4",
         "source_audio",
         "working_assets",
         "credentials",
