@@ -204,5 +204,15 @@
       "drive_row": "이미지thumbnail-b.png공유됨나오후 11:54오후 11:54 나1.3MB 공유(⌥⌘A) 다운로드 이름 바꾸기(⌥⌘E) 중요 문서함에 추가(⌥⌘S)추가 작업(Alt+A)"
     }
   ],
-  "screenshot": "05_review/drive-upload-complete.jpg"
+  "screenshot": "05_review/drive-upload-complete.jpg",
+  "supplemental_longform_upload": {
+    "receipt": "longform-drive-upload-receipt.json",
+    "status": "uploaded_and_verified",
+    "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+    "file_id": "1izbdKl7b_s1Fv3j9E-eptD0zoEUjgjzE",
+    "file_url": "https://drive.google.com/file/d/1izbdKl7b_s1Fv3j9E-eptD0zoEUjgjzE/view?usp=drivesdk",
+    "parent_folder_id": "1tCnLGQh8YC62ObedEr0nJPGVpjfshAd8",
+    "size_bytes": 699201140,
+    "note": "Original receipt fields describe the earlier publishing-package upload; this supplemental record confirms the subsequently authorized long-form main video upload."
+  }
 }

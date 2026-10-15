@@ -1,0 +1,181 @@
+{
+  "project_id": "2026-026-three-places-after-hours",
+  "status": "uploaded_and_browser_verified",
+  "verified_at_utc": "2026-10-05 17:29:12 UTC",
+  "parent_folder_url": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "folder_url": "https://drive.google.com/drive/folders/1JRbsFuq83q60uR9ymKqER0WoYnccTfhs",
+  "upload_method": "Authenticated in-app Google Drive browser, native file chooser, 24 local files",
+  "completion_ui": "항목 24개 업로드 완료",
+  "expected_file_count": 24,
+  "observed_file_count": 24,
+  "all_expected_names_observed": true,
+  "longform_mp4_excluded": true,
+  "local_hash_manifest": "07_publish/drive-upload/delivery-manifest.json",
+  "remote_hash_verified": false,
+  "remote_verification_scope": "Upload-complete UI and all 24 names with Drive size labels observed; no remote checksum or download comparison claimed",
+  "files": [
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-01.mp4",
+      "observed_size": "16MB"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-01.srt",
+      "observed_size": "692바이트"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-01.vtt",
+      "observed_size": "684바이트"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-02.mp4",
+      "observed_size": "10.9MB"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-02.srt",
+      "observed_size": "692바이트"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-02.vtt",
+      "observed_size": "684바이트"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-03.mp4",
+      "observed_size": "6MB"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-03.srt",
+      "observed_size": "702바이트"
+    },
+    {
+      "filename": "2026-026-three-places-after-hours-shorts-03.vtt",
+      "observed_size": "694바이트"
+    },
+    {
+      "filename": "README.md",
+      "observed_size": "1KB"
+    },
+    {
+      "filename": "delivery-manifest.json",
+      "observed_size": "4KB"
+    },
+    {
+      "filename": "longform-captions.srt",
+      "observed_size": "46KB"
+    },
+    {
+      "filename": "longform-captions.vtt",
+      "observed_size": "44KB"
+    },
+    {
+      "filename": "longform-publish.html",
+      "observed_size": "8KB"
+    },
+    {
+      "filename": "longform-publish.json",
+      "observed_size": "4KB"
+    },
+    {
+      "filename": "longform-publish.md",
+      "observed_size": "3KB"
+    },
+    {
+      "filename": "shorts-01-publish.html",
+      "observed_size": "5KB"
+    },
+    {
+      "filename": "shorts-01-publish.md",
+      "observed_size": "1KB"
+    },
+    {
+      "filename": "shorts-02-publish.html",
+      "observed_size": "5KB"
+    },
+    {
+      "filename": "shorts-02-publish.md",
+      "observed_size": "1KB"
+    },
+    {
+      "filename": "shorts-03-publish.html",
+      "observed_size": "5KB"
+    },
+    {
+      "filename": "shorts-03-publish.md",
+      "observed_size": "1KB"
+    },
+    {
+      "filename": "thumbnail-a.png",
+      "observed_size": "1.4MB"
+    },
+    {
+      "filename": "thumbnail-b.png",
+      "observed_size": "1.1MB"
+    }
+  ],
+  "subjective_listening": "not_performed_due_to_tool_limitation",
+  "revision": {
+    "id": "2026-10-06-story-transitions",
+    "status": "seven_existing_files_updated_to_version_2_browser_verified",
+    "folder_url": "https://drive.google.com/drive/folders/1JRbsFuq83q60uR9ymKqER0WoYnccTfhs",
+    "changed_files": [
+      {
+        "filename": "README.md",
+        "bytes": 1315,
+        "local_sha256": "f55a39835a2078a97755a80001ec5e1e36cff5dd955e4e9cb6899d32ca4a1511",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "longform-captions.srt",
+        "bytes": 47401,
+        "local_sha256": "5877126c72dbfd03ec0ac45a08b46280abbb4cc921717827284c5def5bb85dda",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "longform-captions.vtt",
+        "bytes": 45533,
+        "local_sha256": "c7420c22ab9d11304e29b76101e0cc7f636cb4c476e1988b8ad71f927f2a3b47",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "longform-publish.html",
+        "bytes": 7874,
+        "local_sha256": "985cd9dcd945c95217fa763737a4a49aa5b83b61dc3d969154bbe84d54f2a0b1",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "longform-publish.json",
+        "bytes": 4347,
+        "local_sha256": "3a8e0b59ed098feca2ce1ace4c3cbc1dab4337307a9689ec58611d9b074ab271",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "longform-publish.md",
+        "bytes": 3499,
+        "local_sha256": "06b74c606a20a07274e1a6377f60e0f42ece115b1f2a9327568067d5d10a08f2",
+        "remote_version_observed": 2
+      },
+      {
+        "filename": "delivery-manifest.json",
+        "bytes": 4053,
+        "local_sha256": "226a2f36d1ea2ed7d8009b83584204873b709d3daee4c481ba4d8a700fb262f6",
+        "remote_version_observed": 2
+      }
+    ],
+    "browser_evidence": "05_review/revision-drive-browser-evidence.json",
+    "screenshot": "05_review/frames/revision-drive-upload-proof.png",
+    "completion_dialog": "항목 7개 업로드 완료",
+    "total_remote_files": 24,
+    "longform_mp4_uploaded": false,
+    "verification_limit": "Browser verifies completion, filenames and version 2; no remote checksum was read."
+  },
+  "current_local_manifest": "07_publish/drive-upload/delivery-manifest.json",
+  "supplemental_longform_upload": {
+    "receipt": "longform-drive-upload-receipt.json",
+    "status": "uploaded_and_verified",
+    "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+    "file_id": "12IAs4JeGNowAdJ_BdelgPFrDb_elAcEq",
+    "file_url": "https://drive.google.com/file/d/12IAs4JeGNowAdJ_BdelgPFrDb_elAcEq/view?usp=drivesdk",
+    "parent_folder_id": "1JRbsFuq83q60uR9ymKqER0WoYnccTfhs",
+    "size_bytes": 743662701,
+    "note": "Original receipt fields describe the earlier publishing-package upload; this supplemental record confirms the subsequently authorized long-form main video upload."
+  }
+}

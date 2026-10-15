@@ -160,5 +160,15 @@
       "remote_size_match": true,
       "remote_parent_match": true
     }
-  ]
+  ],
+  "supplemental_longform_upload": {
+    "receipt": "longform-drive-upload-receipt.json",
+    "status": "uploaded_and_verified",
+    "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+    "file_id": "1dT315mz8sCrUd82PDPJohBsk6yQ8z2BA",
+    "file_url": "https://drive.google.com/file/d/1dT315mz8sCrUd82PDPJohBsk6yQ8z2BA/view?usp=drivesdk",
+    "parent_folder_id": "1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb",
+    "size_bytes": 1533624065,
+    "note": "Original receipt fields describe the earlier publishing-package upload; this supplemental record confirms the subsequently authorized long-form main video upload."
+  }
 }

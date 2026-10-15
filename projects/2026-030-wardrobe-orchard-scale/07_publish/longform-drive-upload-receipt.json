@@ -1,0 +1,47 @@
+{
+  "project_id": "2026-030-wardrobe-orchard-scale",
+  "status": "uploaded_and_verified",
+  "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+  "user_authorization": "Upload the existing long-form anthology main MP4s for projects 026 through 030 to Google Drive. This explicit request overrides the longform exclusion only for these five deliveries.",
+  "upload_method": "Native Google Chrome file upload controlled through cua_repl; Drive connector used for folder moves and metadata readback.",
+  "transient_failures": "Connector rejected files over 512 MiB; in-app-browser uploads failed and were stopped. Native Chrome upload succeeded.",
+  "local_file": {
+    "project_id": "2026-030-wardrobe-orchard-scale",
+    "local_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-030-wardrobe-orchard-scale/06_delivery/youtube/2026-030-wardrobe-orchard-scale-youtube.mp4",
+    "file_name": "2026-030-wardrobe-orchard-scale-youtube.mp4",
+    "size": 854835515,
+    "md5": "70e0fece4554f1cfc45adcde6383cf0a",
+    "sha256": "a1f63730a7b867f6c5000cd68b1ee53ecccfbfdd0e38e040c17480a9fdfe6b73",
+    "destination_folder_id": "1do8QghcmU4CaTzfjwnBWhTWNY5re4HHd"
+  },
+  "remote_file": {
+    "id": "195i9EZ0YI1dWRybAm03BUe2EMUBiiwqt",
+    "title": "2026-030-wardrobe-orchard-scale-youtube.mp4",
+    "mime_type": "video/mp4",
+    "size": "854835515",
+    "url": "https://drive.google.com/file/d/195i9EZ0YI1dWRybAm03BUe2EMUBiiwqt/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/195i9EZ0YI1dWRybAm03BUe2EMUBiiwqt/view?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1do8QghcmU4CaTzfjwnBWhTWNY5re4HHd"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  },
+  "verification": {
+    "file_name_match": true,
+    "size_bytes_match": true,
+    "mime_type_match": true,
+    "destination_parent_match": true,
+    "destination_folder_listing_exactly_one_matching_master": true,
+    "remote_checksum_exposed_by_connector": false,
+    "remote_checksum_verified": false
+  },
+  "preserved_original_delivery_receipt": true
+}

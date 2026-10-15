@@ -119,5 +119,15 @@
       "remote_file_id": "1JNbGv-gjRL-Hy9QOfNhagmxaMp3DDJhz"
     }
   ],
-  "proof_shorts": "05_review/frames/drive-upload-proof-shorts.jpg"
+  "proof_shorts": "05_review/frames/drive-upload-proof-shorts.jpg",
+  "supplemental_longform_upload": {
+    "receipt": "longform-drive-upload-receipt.json",
+    "status": "uploaded_and_verified",
+    "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+    "file_id": "1je6AUKpx6gF9ngjSS_iQed00cbZQ-Hdh",
+    "file_url": "https://drive.google.com/file/d/1je6AUKpx6gF9ngjSS_iQed00cbZQ-Hdh/view?usp=drivesdk",
+    "parent_folder_id": "1JguLMAkymHXi0JF2fble3bw_Mrk2YuxG",
+    "size_bytes": 818302665,
+    "note": "Original receipt fields describe the earlier publishing-package upload; this supplemental record confirms the subsequently authorized long-form main video upload."
+  }
 }

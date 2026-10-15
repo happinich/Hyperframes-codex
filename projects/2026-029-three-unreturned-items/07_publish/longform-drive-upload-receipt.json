@@ -1,0 +1,47 @@
+{
+  "project_id": "2026-029-three-unreturned-items",
+  "status": "uploaded_and_verified",
+  "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+  "user_authorization": "Upload the existing long-form anthology main MP4s for projects 026 through 030 to Google Drive. This explicit request overrides the longform exclusion only for these five deliveries.",
+  "upload_method": "Native Google Chrome file upload controlled through cua_repl; Drive connector used for folder moves and metadata readback.",
+  "transient_failures": "Connector rejected files over 512 MiB; in-app-browser uploads failed and were stopped. Native Chrome upload succeeded.",
+  "local_file": {
+    "project_id": "2026-029-three-unreturned-items",
+    "local_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-029-three-unreturned-items/06_delivery/youtube/2026-029-three-unreturned-items-youtube.mp4",
+    "file_name": "2026-029-three-unreturned-items-youtube.mp4",
+    "size": 1533624065,
+    "md5": "7ac7e7d34cebc62cd42209bd9584f8dc",
+    "sha256": "c6df176962a0df7a601cb51a7f13d4788035f1076652506937c78953a3b1d3ce",
+    "destination_folder_id": "1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb"
+  },
+  "remote_file": {
+    "id": "1dT315mz8sCrUd82PDPJohBsk6yQ8z2BA",
+    "title": "2026-029-three-unreturned-items-youtube.mp4",
+    "mime_type": "video/mp4",
+    "size": "1533624065",
+    "url": "https://drive.google.com/file/d/1dT315mz8sCrUd82PDPJohBsk6yQ8z2BA/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/1dT315mz8sCrUd82PDPJohBsk6yQ8z2BA/view?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1jgzr_FARbzUACVhBi53J8Hp9rwFqqcTb"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  },
+  "verification": {
+    "file_name_match": true,
+    "size_bytes_match": true,
+    "mime_type_match": true,
+    "destination_parent_match": true,
+    "destination_folder_listing_exactly_one_matching_master": true,
+    "remote_checksum_exposed_by_connector": false,
+    "remote_checksum_verified": false
+  },
+  "preserved_original_delivery_receipt": true
+}

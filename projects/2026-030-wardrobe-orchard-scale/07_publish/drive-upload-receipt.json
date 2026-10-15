@@ -835,5 +835,15 @@
       "can_download": true,
       "can_list_children": false
     }
-  ]
+  ],
+  "supplemental_longform_upload": {
+    "receipt": "longform-drive-upload-receipt.json",
+    "status": "uploaded_and_verified",
+    "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+    "file_id": "195i9EZ0YI1dWRybAm03BUe2EMUBiiwqt",
+    "file_url": "https://drive.google.com/file/d/195i9EZ0YI1dWRybAm03BUe2EMUBiiwqt/view?usp=drivesdk",
+    "parent_folder_id": "1do8QghcmU4CaTzfjwnBWhTWNY5re4HHd",
+    "size_bytes": 854835515,
+    "note": "Original receipt fields describe the earlier publishing-package upload; this supplemental record confirms the subsequently authorized long-form main video upload."
+  }
 }

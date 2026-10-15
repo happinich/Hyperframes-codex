@@ -1,0 +1,47 @@
+{
+  "project_id": "2026-028-curtain-coldroom-broadcast",
+  "status": "uploaded_and_verified",
+  "verified_at_utc": "2026-10-15T08:14:52.240272+00:00",
+  "user_authorization": "Upload the existing long-form anthology main MP4s for projects 026 through 030 to Google Drive. This explicit request overrides the longform exclusion only for these five deliveries.",
+  "upload_method": "Native Google Chrome file upload controlled through cua_repl; Drive connector used for folder moves and metadata readback.",
+  "transient_failures": "Connector rejected files over 512 MiB; in-app-browser uploads failed and were stopped. Native Chrome upload succeeded.",
+  "local_file": {
+    "project_id": "2026-028-curtain-coldroom-broadcast",
+    "local_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-028-curtain-coldroom-broadcast/06_delivery/youtube/2026-028-curtain-coldroom-broadcast-youtube.mp4",
+    "file_name": "2026-028-curtain-coldroom-broadcast-youtube.mp4",
+    "size": 818302665,
+    "md5": "2315f6566444d009a82c0ef9e74701c9",
+    "sha256": "850ba7bf23bbac6e84768b1d9c18853d5f9ca156f4323495b0ba6103ece43193",
+    "destination_folder_id": "1JguLMAkymHXi0JF2fble3bw_Mrk2YuxG"
+  },
+  "remote_file": {
+    "id": "1je6AUKpx6gF9ngjSS_iQed00cbZQ-Hdh",
+    "title": "2026-028-curtain-coldroom-broadcast-youtube.mp4",
+    "mime_type": "video/mp4",
+    "size": "818302665",
+    "url": "https://drive.google.com/file/d/1je6AUKpx6gF9ngjSS_iQed00cbZQ-Hdh/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/1je6AUKpx6gF9ngjSS_iQed00cbZQ-Hdh/view?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1JguLMAkymHXi0JF2fble3bw_Mrk2YuxG"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  },
+  "verification": {
+    "file_name_match": true,
+    "size_bytes_match": true,
+    "mime_type_match": true,
+    "destination_parent_match": true,
+    "destination_folder_listing_exactly_one_matching_master": true,
+    "remote_checksum_exposed_by_connector": false,
+    "remote_checksum_verified": false
+  },
+  "preserved_original_delivery_receipt": true
+}
