@@ -1,0 +1,19 @@
+{
+  "duration_seconds": 59.76,
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 1
+    }
+  ],
+  "script_character_coverage": 1.0,
+  "max_volume_dbfs": -0.9,
+  "mean_volume_dbfs": -17.5,
+  "silence_over_0_8_seconds_at_minus45_db": false,
+  "decode_errors": false,
+  "speed_multiplier": 1.0,
+  "bgm_added": false,
+  "sha256": "3982be753f5860b89992733a2fda42c992ab0af9b2c88a2337cc4b777f13c1e9",
+  "listening_review": "User audition required; no claim of direct listening by agent."
+}

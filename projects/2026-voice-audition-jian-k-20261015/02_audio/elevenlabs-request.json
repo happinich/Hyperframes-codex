@@ -1,0 +1,27 @@
+{
+  "provider": "elevenlabs",
+  "script_source": "../01_script/narration.txt",
+  "tts_script_source": "../01_script/tts-narration.txt",
+  "target_audio": "inbox/jian-k-horror-take-01.mp3",
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY"
+  },
+  "request": {
+    "voice_id": "ah4r1hZOydd3XWlHOm3Y",
+    "model_id": "eleven_v4",
+    "language_code": "ko",
+    "apply_text_normalization": "on",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "performance_direction": "quiet, tense storytelling, restrained fear growing gradually",
+    "context_stitching": true
+  },
+  "postprocess": {
+    "voice_speed_multiplier": 1.0,
+    "automatic_speedup": false
+  },
+  "scope": "One-minute fictional horror voice audition; user delegated sample script and requested generation on 2026-10-15. No BGM."
+}
