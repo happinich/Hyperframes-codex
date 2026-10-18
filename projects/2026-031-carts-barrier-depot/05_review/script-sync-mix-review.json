@@ -1,0 +1,131 @@
+{
+  "script_checks": [
+    {
+      "path": "01_script/narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/story-01-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/story-02-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/story-03-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/shorts-01-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/shorts-02-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "path": "01_script/shorts-03-narration.txt",
+      "approved_hash_matches": true
+    },
+    {
+      "chapter": 1,
+      "report": {
+        "status": "ready_for_review",
+        "whisper_backend": "mlx-whisper",
+        "whisper_model": "mlx-community/whisper-large-v3-turbo",
+        "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions",
+        "subtitle_text_source": "01_script/narration.txt",
+        "spoken_text_source": "01_script/tts-narration.txt",
+        "matched_character_ratio": 0.9965,
+        "caption_surface_match_ratio": 0.9965,
+        "spoken_match_ratio": 0.9965,
+        "required_ratio": 0.92,
+        "note": "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used.",
+        "timing_input": "whisper_raw.spot-corrected.json with documented number orthography normalization"
+      }
+    },
+    {
+      "chapter": 2,
+      "report": {
+        "status": "ready_for_review",
+        "whisper_backend": "mlx-whisper",
+        "whisper_model": "mlx-community/whisper-large-v3-turbo",
+        "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions",
+        "subtitle_text_source": "01_script/narration.txt",
+        "spoken_text_source": "01_script/tts-narration.txt",
+        "matched_character_ratio": 0.9942,
+        "caption_surface_match_ratio": 0.9933,
+        "spoken_match_ratio": 0.9942,
+        "required_ratio": 0.92,
+        "note": "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used."
+      }
+    },
+    {
+      "chapter": 3,
+      "report": {
+        "status": "ready_for_review",
+        "whisper_backend": "mlx-whisper",
+        "whisper_model": "mlx-community/whisper-large-v3-turbo",
+        "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions",
+        "subtitle_text_source": "01_script/narration.txt",
+        "spoken_text_source": "01_script/tts-narration.txt",
+        "matched_character_ratio": 0.992,
+        "caption_surface_match_ratio": 0.992,
+        "spoken_match_ratio": 0.992,
+        "required_ratio": 0.92,
+        "note": "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used."
+      }
+    }
+  ],
+  "captions_identical_to_approved_narration": true,
+  "all_shot_boundaries_contiguous": true,
+  "first_anomalies_within_40_60_seconds": [
+    52.96,
+    52.02,
+    43.96
+  ],
+  "sound_layers": "voice-only file preserved; BGM applied without TTS regeneration; final mix adds separate local synthesized room/event layers",
+  "voice_only_sha256": "89a237e195ddb5b839169afd713e7ac443a6515affdf14d105add0d50e8fa51f",
+  "hush_windows": [
+    {
+      "start": 219.42,
+      "end": 220.32,
+      "bed_rms_during_hush": 3.0514476666304016e-05,
+      "intent": "Narration continues unaltered; ambience/BGM/foley bed hush only."
+    },
+    {
+      "start": 640.722,
+      "end": 641.622,
+      "bed_rms_during_hush": 3.0441501423013877e-05,
+      "intent": "Narration continues unaltered; ambience/BGM/foley bed hush only."
+    },
+    {
+      "start": 1118.122,
+      "end": 1119.022,
+      "bed_rms_during_hush": 2.8424890309562125e-05,
+      "intent": "Narration continues unaltered; ambience/BGM/foley bed hush only."
+    }
+  ],
+  "outro_seconds": 4,
+  "fade_out_seconds": 3,
+  "outro_rms_per_second": [
+    {
+      "start": 1245.997146,
+      "rms": 0.05064985361593529
+    },
+    {
+      "start": 1246.997146,
+      "rms": 0.05116401108189932
+    },
+    {
+      "start": 1247.997146,
+      "rms": 0.031166614217803063
+    },
+    {
+      "start": 1248.997146,
+      "rms": 0.009954117840338533
+    }
+  ],
+  "direct_listening": false
+}

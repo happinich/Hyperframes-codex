@@ -1,0 +1,227 @@
+{
+  "assets": [
+    {
+      "asset_id": "C03-S04-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. NEW tight side rear service hatch detail ONLY. Intact red-white paper security seal spans the battery isolation hatch BEHIND rear axle. One rear wheel edge visible, all other bus outside close crop. No writing or symbols on seal. No other bus or view.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A1-v3.png"
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene ONLY: remove the small distant second bus in background, replace with empty same depot pavement and wall. Keep the ONE foreground bus, open CENTER door above blue wash hose, drain, all geometry, pixel texture and external lamps. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene ONLY: open the CENTER passenger door, located BETWEEN front and rear axles. Fold its two leaves outward into the frame so an empty dark doorway is visible. Front door beside windshield stays CLOSED. Preserve one bus, empty driver seat, steering front wheel slightly turned, same camera and yard.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit ONLY the human hand to wear a thin BLACK work glove with exactly five normal digits; keep the blue lanyard, clear ID holder, attached small gray plastic location tag, camera and night yard. No new hand, card or object.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene into a DAYTIME FLASHBACK to a system test earlier the same day. Bright overcast sky, pale natural daylight evenly illuminates the yard. All depot electric work lights OFF. Keep the ONE spare bus parked at the back maintenance row, two doors CLOSED, all bus lights OFF. ONE small face-free worker walks the yellow pedestrian route during the test, no other people, no added vehicles. Preserve yard geography and pixel style.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene. Keep foreground blue wash-zone sign, ID card with attached gray location tag below it, flowerbed outside yellow walkway. Move the SAME SINGLE bus from far back row into the MIDGROUND near wash entrance, center passenger door OPEN toward the badge. Do not leave another bus at original spot. Front door CLOSED. Same camera and exterior yard lights.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene ONLY: remove small second bus in distant RIGHT background, fill with empty yard wall and pavement. Close the foreground bus FRONT passenger door beside windshield; keep CENTER door between axles OPEN. Preserve ID tag on floor and every other position, external amber lights and pixel style.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene: the ONE hand hanging ID and attached location tag on flatbed hand trolley handle wears a BLACK work glove. The SAME SINGLE bus is now closer in midground LEFT near wash entrance, CENTER door OPEN and front door CLOSED. Remove it from original far maintenance parking spot. No extra bus. Keep the gray empty flatbed HAND trolley with four small caster wheels and U handle, badge and correct anatomy.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. NEW elevated oblique view looking toward front exit barrier. ONE empty GRAY FLATBED HAND TROLLEY rolls downhill toward the red-white barrier, with blue-lanyard ID card and gray location tag on its U-shaped push handle. Four small caster wheels. NO motor, cab, seat, steering wheel or cargo. The SAME SINGLE green-gray bus follows 5 meters behind it, CENTER door OPEN, front door CLOSED. A small face-free mechanic runs at far RIGHT toward electrical-room door. Wash lane LEFT, maintenance bays BACK. NO second bus.  Same green-gray TWO-AXLE bus with TWO passenger doors: front and CENTER. Driver seat EMPTY. All electric bus lamps OFF: interior ceiling lights, headlights, markers and tail lamps dark. Exterior yard work lights ON. Blank destination panel for Korean text overlay later. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. NEW intimate camera OUTSIDE the bus, at waist height on pavement, looking THROUGH OPEN CENTER door into EMPTY dark passenger seats. ONE triangular hanging strap is prominent at top center, angled subtly as if moving, attached to ceiling rail. No people, faces, humanoid silhouettes, hands or other vehicles. NO view out to another bus, no second bus anywhere. Front driver door not in frame. Exterior amber light grazes metal threshold, bus interior lamps dark. No text.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. NEW LOW side-detail from pavement outside OPEN CENTER bus doorway. Dark empty entry threshold and lower green-gray body fill frame. A broad NON-HUMANOID rectangular doorframe shadow lies on the asphalt, visibly attached to doorframe. No human-shaped shadow, person, hands or faces. Four small trolley caster wheels partly cropped in far left foreground; trolley stationary. No other bus, no text. External worklight on, interior lamps OFF. Deliberate square pixel clusters.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "prompt": "Single LANDSCAPE 16:9 crisp chunky pixel art, deliberate visible square pixel clusters, navy asphalt green-gray city bus and external amber work lamps, not smooth painting or photo. ONE final frame, no panels, no collage. Edit supplied scene ONLY: CENTER passenger door BETWEEN the TWO axles is slightly OPEN, leaving a narrow but unmistakable dark 30cm gap. Its leaves fold at edges. Front door beside windshield remains CLOSED. Destination panel BLANK and all bus electric lamps OFF. Same empty driver seat, single bus, camera, yard geometry and external amber work lights. No figure or shadow inside.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S14-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S14-A2-v2.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A01",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. Floor-level oblique close-up of ONE crooked steel caster still attached under the separate defective red-handle cart, dry shelter concrete. Ordinary nested blue-handle carts mostly OUT OF FRAME. Red handle barely visible upper edge; no people, no entity. Wheel fills middle 60%, visual hook readable immediately. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A01.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A02",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. Extreme oblique close-up of ONE red tape cart handle with exactly FOUR wet finger streaks, no thumb print. BLUE end cap at right, dry floor visible below through cart mesh. No hands or entity. Four streaks large and distinct in middle third. No towel or cuff reveal. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A02.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A03",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. Over-shoulder chest-down view of ONE BLACK-gloved normal hand holding a blank dark smartphone aimed down into the empty red cart basket. Phone screen blank dark for later photo UI. No face or ghost. Cart basket fills center; natural hand geometry. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A03.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A04",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. High angle straight DOWN into ONE completely EMPTY red-handle cart basket, dry dusty wire bottom, absolutely no object, figure or reflection. Strong readable silhouette of empty basket. No second cart or extra handle in crop. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A04.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A05",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. Low view through NARROW GAP between ordinary blue-handle cart caster at LEFT and separate red cart caster at RIGHT. A SINGLE wet dark mesh sneaker TOE with thin dirty white sole points TOWARD camera, leg above fully hidden by basket. No body, hand, face or identity. Dry concrete. Sneaker toe fills center, no ending revealed. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A05.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A01",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Dark matte gouache horror painting, visible broad brush texture, navy gray steel chalk-white and amber worklight; NOT photo or pixel art. Low upper-walkway view of TWO ordinary black work boots beside a noise-barrier navy steel panel. Narrow grated floor and rail clearly above road, no creature, no limb or shadow figure. Worker face and body outside crop. Unease through empty wall and light. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A01.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A02",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Dark matte gouache horror painting, visible broad brush texture, navy gray steel chalk-white and amber worklight; NOT photo or pixel art. New elevated oblique establishing shot of narrow upper grated inspection walkway, stairs lower LEFT, sealed metal barrier RIGHT, road with maintenance truck BELOW, black steel toolbox at far RIGHT dead end. One faceless worker back in charcoal reflective jacket and hardhat. No creature. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A02.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A03",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Dark matte gouache horror painting, visible broad brush texture, navy gray steel chalk-white and amber worklight; NOT photo or pixel art. Tight side view of ONE normal black-gloved work hand JUST WITHDRAWN from steel wall, palm no longer touching. Dark steel panel with fixed bolts behind; no monster, fingers from wall or body. Glove has five natural digits, arm attached outside crop. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A03.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A04",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Dark matte gouache horror painting, visible broad brush texture, navy gray steel chalk-white and amber worklight; NOT photo or pixel art. Macro low oblique view of wall-bottom gutter and grated floor: exactly SIX parallel thin chalk-white SCRATCH LINES on steel beside panel seam. No hand, creature or full-body shadow. Six lines readable in center, no extra symbol. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A04.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A05",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Dark matte gouache horror painting, visible broad brush texture, navy gray steel chalk-white and amber worklight; NOT photo or pixel art. DOWNWARD view of two ordinary black boots on upper grate, exactly SIX pale narrow scratch lines at floor edge immediately ahead. Their far end points toward boots, subtle light traces only, NO creature or jointed limb. Tiny road generator amber light far BELOW rail as secondary background. No entity identity, no ending. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A05.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A01",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. Tight frontal UPWARD view of empty bus driver seat and large blank DARK destination LED panel above windshield. All bus interior lights and headlights OFF, exterior depot amber lights only. No person, silhouette or text. Front door closed. Bus front fills vertical middle. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A01.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A02",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. Rear three-quarter view of ONE face-free charcoal-jacket dispatcher walking yellow pedestrian path toward wash lane. Blue wash brushes left, flowerbed outside path right, bus OUT OF FRAME, no other people. External worklights only, night. Hair short dark, no hardhat. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A02.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A03",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. Low oblique side view of ONE green-gray city bus with CENTER passenger door OPEN between the TWO axles. Front passenger door CLOSED, empty driver seat visible obliquely, NO interior electric lights. Wheels on pavement, no driver or other vehicles. No letters, faces or entity. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A03.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A04",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. New medium frontal view of empty driver seat, large blank DARK destination panel, and a blank blue wash-zone SIGN at LEFT edge, no generated letters. All bus electric lamps OFF except later composition display overlay. Exterior amber lights. No human, no other bus. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A04.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A05",
+      "prompt": "FRESH PORTRAIT 9:16 illustration for a separately composed vertical Short. One single shot, not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. Over-shoulder back of ONE faceless charcoal-jacket dispatcher stepping backward on yellow route toward gray maintenance building. SAME ONE driverless bus ahead-left, large blank DARK destination panel visible, CENTER door OPEN. All interior lamps/headlights OFF, exterior worklight on. No tag reveal, identity, log, ending or other bus. Compose decisive clue in central 65% width, between 25% and 65% image height; leave lower 25% simple for captions and right 15% safe. No writing, logos, gore or narrator face. New camera and fresh image, never crop a reference.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05.png"
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "prompt": "Fresh LANDSCAPE 16:9 YouTube thumbnail background, one scene not collage. Rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight and red tape accent; NOT photo. ONE red-tape cart handle crosses RIGHT 65% of image, exactly FOUR large wet finger streaks with no visible thumb. Dry concrete and empty wire basket behind, no hands or ghost. Left 40% dark uncluttered blue-gray space reserved for title text, no writing in image. Blue end caps, restrained amber rim light. One decisive clue, readable at phone size.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source.png"
+    },
+    {
+      "asset_id": "thumbnail-b-source",
+      "prompt": "Fresh LANDSCAPE 16:9 YouTube thumbnail background, one scene not collage. Crisp chunky pixel art with obvious square pixel clusters, navy asphalt, green-gray bus, yellow walkway and amber depot lamps; NOT smooth painting or photo. ONE green-gray city bus in RIGHT 65% at low front-side angle, CENTER passenger door OPEN between two axles, front door CLOSED, clearly EMPTY driver seat, all bus electric lamps off. Exterior amber lamp outlines open doorway. LEFT 40% uncluttered navy darkness reserved for title text, no writing in image. No human, silhouette or other bus. One decisive clue, phone-readable.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-b-source.png"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "asset_id": "SH01-portrait-A01",
+    "relative_path": "04_composition/assets/visuals/SH01-portrait-A01.png",
+    "sha256": "927c8e9de512397176e5c03bf35c71d7d9662c0d5b16dea1d98f3ad29d4d862d",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH01-portrait-A02",
+    "relative_path": "04_composition/assets/visuals/SH01-portrait-A02.png",
+    "sha256": "68f3e02d620615e62a6cd58fa950f18c16ac077d593b97cccc0051e9c2367050",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH01-portrait-A03",
+    "relative_path": "04_composition/assets/visuals/SH01-portrait-A03.png",
+    "sha256": "c7e758a80ec67b88a42921119e210a626d6ee201b1d5a4c88290e87bb3032da0",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH01-portrait-A04",
+    "relative_path": "04_composition/assets/visuals/SH01-portrait-A04.png",
+    "sha256": "7b9e2d7ae46c25ed9283d2d683fe119782ab36a75279d497c2a8e370432ba352",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH01-portrait-A05",
+    "relative_path": "04_composition/assets/visuals/SH01-portrait-A05.png",
+    "sha256": "dc4e1f50015aab4d20af6d2c0b5ba0f7edea31c6f03962dbd662a90e0efa0c5a",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH02-portrait-A01",
+    "relative_path": "04_composition/assets/visuals/SH02-portrait-A01.png",
+    "sha256": "75e51f5f9f57168b98d1a8c0b85ed43cafba88d9c869887804a21e676f5106f3",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH02-portrait-A02",
+    "relative_path": "04_composition/assets/visuals/SH02-portrait-A02.png",
+    "sha256": "1be77cae9e1481d4809998c93ab7a6f514efa782df4d71f0c23bd19e2af19f53",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH02-portrait-A03",
+    "relative_path": "04_composition/assets/visuals/SH02-portrait-A03.png",
+    "sha256": "d7a93db9449d1df5c9ac1436a3ea4820e9de1fac7f48320a33b99b3daef4d2ee",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH02-portrait-A04",
+    "relative_path": "04_composition/assets/visuals/SH02-portrait-A04.png",
+    "sha256": "ffabde5ac8fafe4111df8fdb1092a1b34dddd13685a35218b783e62f083aa0f5",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH02-portrait-A05",
+    "relative_path": "04_composition/assets/visuals/SH02-portrait-A05.png",
+    "sha256": "6a7b08eaaabab95da8e21275ac8e8d7c9be51e78309ab64d906eb11f72083c3a",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH03-portrait-A01",
+    "relative_path": "04_composition/assets/visuals/SH03-portrait-A01.png",
+    "sha256": "bb1383d8fec1bb9eb859d468a4b02657f7fd37304eb3f9c2903aee335deefa7f",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH03-portrait-A02",
+    "relative_path": "04_composition/assets/visuals/SH03-portrait-A02.png",
+    "sha256": "51c3fa667873d98e03a70587382c0cfee3213d978d3a7f486cce57e6b1e95701",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH03-portrait-A03",
+    "relative_path": "04_composition/assets/visuals/SH03-portrait-A03.png",
+    "sha256": "e000428f5f2c10ce149b9658fc56dcc83d6bac5e80e355552f51c053ab06bc33",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH03-portrait-A04",
+    "relative_path": "04_composition/assets/visuals/SH03-portrait-A04.png",
+    "sha256": "92a91999c8163cb0c0ad52e39ba5a3570419eaeaf7b7e1c6150eca424af43297",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  },
+  {
+    "asset_id": "SH03-portrait-A05",
+    "relative_path": "04_composition/assets/visuals/SH03-portrait-A05.png",
+    "sha256": "c33b388289b80a066052085df56c987779744e1f3546b88b9df3d3cc491e82cf",
+    "fresh_portrait": true,
+    "longform_hash_collision": false
+  }
+]

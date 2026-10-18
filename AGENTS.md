@@ -386,3 +386,7 @@ repeatedly fail, switch to native Chrome and verify the completed uploads.
   the local commit intact.
 - When committing, include only the files relevant to the approved task and leave
   unrelated worktree changes untouched.
+
+## 2026-10-18 사용자 상시 제작 위임
+
+사용자 지시: “앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.” 현재 및 이후 Hyperframes 제작에서는 원고, 편별 남녀 캐스팅과 실제 보이스, 비주얼 스타일, 음성 검수 판단, BGM, 편집, 썸네일, 쇼츠 및 납품을 추천안에 따라 진행하고 같은 선택을 재질문하지 않는다. 기존의 각 검토 단계와 품질 기준은 유지하되 사용자 답변 대기 대신 위임 근거·실제 선택·이유·검수 결과를 각각 기록한다. 이후 프로젝트별 사용자 명시 지시가 우선하며 완료 프로젝트는 보존한다.

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "C01-S02-A1-v2",
+    "asset_id": "C01-S02-A1",
+    "prompt": "Use case: precise-object-edit. Fix the overlong normal cart row in this rough 2D horror illustration. Maintain the roofed shelter, two front bollards, rear staff door, clear right aisle, dry concrete, amber light, ONE separate red-handled broken cart at the rear, no people or ghost. REPLACE the central overlong row by a SHORT nested row of ONLY FOUR clearly visible blue cart handles in the near half of the shelter; the rest of the normal carts are naturally occluded behind a broad steel roof-support post placed center-left at mid-depth. Do not depict extra handles peeking around that support. This is a shot where exact total cart count is out of view: FOUR visible handles only, remaining normal carts hidden by structural occlusion. Separate red cart and rear door remain unobstructed on the RIGHT of that post. Simplified hand-inked 2D painted shadows, no glossy realism. No text. Preserve a continuous person-width right aisle. Reduce the visual clutter rather than duplicating carts. One landscape 16:9 final shot.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-1c6e646b-98ab-48a4-b1fa-cd95ef62a565.png",
+    "decision": "pass_1",
+    "notes": "Visible partial normal row with structural occlusion avoids overcount; clear right aisle, dry floor, separate red cart, rear door."
+  },
+  {
+    "id": "C02-S02-A2",
+    "asset_id": "C02-S02-A2",
+    "prompt": "Use case: illustration-story. NEW CAMERA SETUP, final single landscape 16:9 matte gouache horror scene matching reference paint style and exact location. Normal workplace before anomaly: camera at 1.5m standing at the TOP LEFT stair landing, looking right along upper narrow steel-grate inspection walkway to its dead end and one closed metal toolbox. Tall noise-wall steel panels on walkway's inner side, guardrail outer side; road and work-truck lights below outer rail, not above. Main worker seen only from behind at edge of frame, charcoal jacket, hardhat, normal boots, face not shown. No monster, scratches, body parts, bending rail, glow eyes, extra people or text. Preserve left stairs behind camera and right dead-end ahead. Amber work lamps, navy wall, gray metal, visible broad brush marks, readable mobile view of walkway width and toolbox. Different ground-level camera from reference's overhead view.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-ffff85ad-5aa7-4cde-83bb-856ad666d1d4.png",
+    "decision": "pass_1",
+    "notes": "New eye-height view from stair landing, truck below, right dead end/toolbox, face-free worker, no premature entity."
+  },
+  {
+    "id": "C03-S02-A2",
+    "asset_id": "C03-S02-A2",
+    "prompt": "Use case: illustration-story. Final single landscape 16:9 crisp chunky pixel-art scene matching reference palette and pixel grid. New camera: close down-angle at dispatch desk at 1.2m. Face-free narrator in charcoal dispatch jacket seen only by normal gloved hands placing ONE plain bus key beside a large open departure-record clipboard. The paper has empty ruled rows and column divisions but NO letters, numbers, logos, or readable text (exact Korean content added in editing). Temporary small gray plastic test tag clipped to an unmarked staff ID rests at desk edge. Through background window, tiny green-gray two-door spare bus parked still, dark display, no driver silhouette. Warm desk light and navy outside, clear key/record geometry, no duplicated fingers or extra hands. Don't reveal moving bus or strange log. No collage or panels.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-ef759649-5493-46be-8789-66f743739c0c.png",
+    "decision": "pass_1",
+    "notes": "Key and record clipboard; normal two glove hands, empty bus outside; tiny gray header marks to be covered by exact edited table headings."
+  }
+]

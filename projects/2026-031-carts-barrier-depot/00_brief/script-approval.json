@@ -1,0 +1,63 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "approved",
+  "evidence": {
+    "date_kst": "2026-10-18",
+    "user_message": "앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.",
+    "scope": "minor narration clarity revisions under delegated production decisions"
+  },
+  "approved_files": [
+    {
+      "path": "01_script/narration.txt",
+      "sha256": "0efbbb9ccce2220e1fad3078d8625cc937b2c180cda1af0caceff14272a9ea04",
+      "bytes": 23298
+    },
+    {
+      "path": "01_script/story-01-narration.txt",
+      "sha256": "8840598d4616f4f2a2ed6ab17910d153c5f0817c9e8d1d12587cbb83bf6b48ac",
+      "bytes": 7904
+    },
+    {
+      "path": "01_script/story-02-narration.txt",
+      "sha256": "d8861b0de42b4bcf08e0ab10814cd58e15e9c86e1baa5278871fb39f203e1130",
+      "bytes": 7653
+    },
+    {
+      "path": "01_script/story-03-narration.txt",
+      "sha256": "4517b649526a7ba794061e4a05bb6d7c52755ee4e882df3c09dd4fd3c217dff3",
+      "bytes": 7739
+    },
+    {
+      "path": "01_script/shorts-01-narration.txt",
+      "sha256": "120e8525b4311da5fc23cdd509255cac1fc2831b32062fdd703664c98f853918",
+      "bytes": 392
+    },
+    {
+      "path": "01_script/shorts-02-narration.txt",
+      "sha256": "5deec1364b55ba0ce9eb4aae596c21bc55ac371c79e7343789ab4e27221800c2",
+      "bytes": 372
+    },
+    {
+      "path": "01_script/shorts-03-narration.txt",
+      "sha256": "b9e710bd4cbdfde53660259ac4e858a8638ed9cc96476fddd728aecd06d20217",
+      "bytes": 396
+    }
+  ],
+  "text_changes_require_reapproval": true,
+  "revision": "clarity_revision_under_standing_delegation",
+  "previous_approval_manifest": "00_brief/script-approval.initial.json",
+  "changes": [
+    {
+      "story": "C03",
+      "before": "바퀴 자국",
+      "after": "타이어 자국",
+      "reason": "clearer articulation, same physical evidence"
+    },
+    {
+      "story": "SH03",
+      "before": "밤 배차",
+      "after": "야간 배차",
+      "reason": "clearer articulation, same setting"
+    }
+  ]
+}

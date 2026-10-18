@@ -1,0 +1,1410 @@
+{
+  "scenes": [
+    {
+      "scene_id": "C01-S01",
+      "start_seconds": 0.0,
+      "end_seconds": 7.68,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S01-A1",
+          "time_seconds": 2.485,
+          "path": "05_review/composition-frames/C01-S01-A1.png"
+        },
+        {
+          "asset_id": "C01-S01-A2",
+          "time_seconds": 6.325,
+          "path": "05_review/composition-frames/C01-S01-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "젖은 손과 손목",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "붙잡힌 손목의 콜드 오픈에서 젖은 손과 손목가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 0.05,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-0.05.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C01-S02",
+      "start_seconds": 7.68,
+      "end_seconds": 35.8,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S02-A1",
+          "time_seconds": 20.145,
+          "path": "05_review/composition-frames/C01-S02-A1.png"
+        },
+        {
+          "asset_id": "C01-S02-A2",
+          "time_seconds": 34.03,
+          "path": "05_review/composition-frames/C01-S02-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "말뚝·직원문·오른쪽 통로",
+        "tension_stage": "normal",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "정상 회수 업무와 탈출구에서 말뚝·직원문·오른쪽 통로가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S03",
+      "start_seconds": 35.8,
+      "end_seconds": 64.22,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S03-A1",
+          "time_seconds": 47.45,
+          "path": "05_review/composition-frames/C01-S03-A1.png"
+        },
+        {
+          "asset_id": "C01-S03-A2",
+          "time_seconds": 61.835,
+          "path": "05_review/composition-frames/C01-S03-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "빨간 테이프와 회전 바퀴",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "손대지 않은 고장 바퀴에서 빨간 테이프와 회전 바퀴가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S04",
+      "start_seconds": 64.22,
+      "end_seconds": 90.12,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S04-A1",
+          "time_seconds": 70.495,
+          "path": "05_review/composition-frames/C01-S04-A1.png"
+        },
+        {
+          "asset_id": "C01-S04-A2",
+          "time_seconds": 83.445,
+          "path": "05_review/composition-frames/C01-S04-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "엄지가 안 보이는 네 손가락 자국",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "마른 바닥과 젖은 손잡이에서 엄지가 안 보이는 네 손가락 자국가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S05",
+      "start_seconds": 90.12,
+      "end_seconds": 121.32,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S05-A1",
+          "time_seconds": 96.095,
+          "path": "05_review/composition-frames/C01-S05-A1.png"
+        },
+        {
+          "asset_id": "C01-S05-A2",
+          "time_seconds": 113.51,
+          "path": "05_review/composition-frames/C01-S05-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "안쪽을 향한 손자국",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "비어 있는 짐칸 확인에서 안쪽을 향한 손자국가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S06",
+      "start_seconds": 121.32,
+      "end_seconds": 149.82,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S06-A1",
+          "time_seconds": 130.29,
+          "path": "05_review/composition-frames/C01-S06-A1.png"
+        },
+        {
+          "asset_id": "C01-S06-A2",
+          "time_seconds": 142.725,
+          "path": "05_review/composition-frames/C01-S06-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "말뚝과 카트 사이 거리",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "줄이 밀리고 직원문이 열린다에서 말뚝과 카트 사이 거리가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S07",
+      "start_seconds": 149.82,
+      "end_seconds": 181.8,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S07-A1",
+          "time_seconds": 160.725,
+          "path": "05_review/composition-frames/C01-S07-A1.png"
+        },
+        {
+          "asset_id": "C01-S07-A2",
+          "time_seconds": 176.715,
+          "path": "05_review/composition-frames/C01-S07-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "카트 사이 젖은 운동화",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "지원 요청과 신발의 등장에서 카트 사이 젖은 운동화가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S08",
+      "start_seconds": 181.8,
+      "end_seconds": 208.82,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S08-A1",
+          "time_seconds": 191.965,
+          "path": "05_review/composition-frames/C01-S08-A1.png"
+        },
+        {
+          "asset_id": "C01-S08-A2",
+          "time_seconds": 205.475,
+          "path": "05_review/composition-frames/C01-S08-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "인간 없이 돌아가는 신발",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "신발의 회전과 동시 이동에서 인간 없이 돌아가는 신발가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S09",
+      "start_seconds": 208.82,
+      "end_seconds": 235.12,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S09-A1",
+          "time_seconds": 217.425,
+          "path": "05_review/composition-frames/C01-S09-A1.png"
+        },
+        {
+          "asset_id": "C01-S09-A2",
+          "time_seconds": 234.11,
+          "path": "05_review/composition-frames/C01-S09-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "손잡이 아래를 감싼 엄지",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "회색 소매와 손의 부분 공개에서 손잡이 아래를 감싼 엄지가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S10",
+      "start_seconds": 235.12,
+      "end_seconds": 262.94,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S10-A1",
+          "time_seconds": 250.4,
+          "path": "05_review/composition-frames/C01-S10-A1.png"
+        },
+        {
+          "asset_id": "C01-S10-A2",
+          "time_seconds": 263.48,
+          "path": "05_review/composition-frames/C01-S10-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "직원문 앞을 가로막은 고장 카트",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "빨간 카트가 통로를 막는다에서 직원문 앞을 가로막은 고장 카트가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S11",
+      "start_seconds": 262.94,
+      "end_seconds": 296.84,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S11-A1",
+          "time_seconds": 273.42,
+          "path": "05_review/composition-frames/C01-S11-A1.png"
+        },
+        {
+          "asset_id": "C01-S11-A2",
+          "time_seconds": 289.38,
+          "path": "05_review/composition-frames/C01-S11-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "네 손가락과 아래쪽 엄지",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "한 존재가 손목을 붙잡는다에서 네 손가락과 아래쪽 엄지가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "door_continuity": "직접 접촉 숏에서 뒤 문이 닫혀 함정이 완성된다. S12 그 문을 열면이라는 대사와 맞춤."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S12",
+      "start_seconds": 296.84,
+      "end_seconds": 329.02,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S12-A0",
+          "time_seconds": 307.94,
+          "path": "05_review/composition-frames/C01-S12-A0.png"
+        },
+        {
+          "asset_id": "C01-S12-A1",
+          "time_seconds": 318.91,
+          "path": "05_review/composition-frames/C01-S12-A1.png"
+        },
+        {
+          "asset_id": "C01-S12-A2",
+          "time_seconds": 327.17,
+          "path": "05_review/composition-frames/C01-S12-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "바퀴·체인·말뚝의 접촉",
+        "tension_stage": "interaction",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "체인으로 카트를 고정하고 탈출에서 바퀴·체인·말뚝의 접촉가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S13",
+      "start_seconds": 329.02,
+      "end_seconds": 356.32,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S13-A1",
+          "time_seconds": 339.08,
+          "path": "05_review/composition-frames/C01-S13-A1.png"
+        },
+        {
+          "asset_id": "C01-S13-A2",
+          "time_seconds": 351.175,
+          "path": "05_review/composition-frames/C01-S13-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "별도 카트와 손목 멍",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "동료가 상처와 현장을 확인에서 별도 카트와 손목 멍가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "non_graphic_visual_substitution": "자국/압박은 음성으로 전하고 정상적인 손·소매와 마른 손잡이로 표현. 이미지 도구 차단 이후 안전한 장면 선택."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C01-S14",
+      "start_seconds": 356.32,
+      "end_seconds": 391.26,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S14-A1",
+          "time_seconds": 364.445,
+          "path": "05_review/composition-frames/C01-S14-A1.png"
+        },
+        {
+          "asset_id": "C01-S14-A2",
+          "time_seconds": 384.35,
+          "path": "05_review/composition-frames/C01-S14-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "clue_directed_motion"
+        ],
+        "clue": "수건 아래 회색 소매",
+        "tension_stage": "aftermath",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "이미 찍힌 사진에 새 사실이 생기는 것이 아니라, 같은 사진의 수건 아래 소매를 뒤늦게 읽히는 접근으로 공개한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 384.35,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-384.35.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C01-S15",
+      "start_seconds": 391.26,
+      "end_seconds": 411.582,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C01-S15-A1",
+          "time_seconds": 399.44,
+          "path": "05_review/composition-frames/C01-S15-A1.png"
+        },
+        {
+          "asset_id": "C01-S15-A2",
+          "time_seconds": 407.166,
+          "path": "05_review/composition-frames/C01-S15-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "손목 안쪽의 압박",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "마른 날에 남는 감각에서 손목 안쪽의 압박가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "non_graphic_visual_substitution": "자국/압박은 음성으로 전하고 정상적인 손·소매와 마른 손잡이로 표현. 이미지 도구 차단 이후 안전한 장면 선택."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S01",
+      "start_seconds": 416.582,
+      "end_seconds": 424.702,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S01-A1",
+          "time_seconds": 419.047,
+          "path": "05_review/composition-frames/C02-S01-A1.png"
+        },
+        {
+          "asset_id": "C02-S01-A2",
+          "time_seconds": 423.107,
+          "path": "05_review/composition-frames/C02-S01-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "위 점검로와 아래 긁힘의 높이 차이",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "벽 안 보행의 콜드 오픈에서 위 점검로와 아래 긁힘의 높이 차이가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S02",
+      "start_seconds": 424.702,
+      "end_seconds": 454.802,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S02-A1",
+          "time_seconds": 433.797,
+          "path": "05_review/composition-frames/C02-S02-A1.png"
+        },
+        {
+          "asset_id": "C02-S02-A2",
+          "time_seconds": 448.847,
+          "path": "05_review/composition-frames/C02-S02-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "좌측 계단과 우측 막힌 끝",
+        "tension_stage": "normal",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "정상 야간 보수 동선에서 좌측 계단과 우측 막힌 끝가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S03",
+      "start_seconds": 454.802,
+      "end_seconds": 484.722,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S03-A1",
+          "time_seconds": 467.687,
+          "path": "05_review/composition-frames/C02-S03-A1.png"
+        },
+        {
+          "asset_id": "C02-S03-A2",
+          "time_seconds": 482.647,
+          "path": "05_review/composition-frames/C02-S03-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "두 번째 패널의 독립된 응답",
+        "tension_stage": "anomaly",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "손을 뗀 뒤 돌아오는 두드림에서 두 번째 패널의 독립된 응답가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S04",
+      "start_seconds": 484.722,
+      "end_seconds": 513.202,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S04-A1",
+          "time_seconds": 492.657,
+          "path": "05_review/composition-frames/C02-S04-A1.png"
+        },
+        {
+          "asset_id": "C02-S04-A2",
+          "time_seconds": 506.722,
+          "path": "05_review/composition-frames/C02-S04-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "분필선·패널 틈·긁힘 여섯 줄",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "벌어진 이음새와 여섯 자국에서 분필선·패널 틈·긁힘 여섯 줄가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S05",
+      "start_seconds": 513.202,
+      "end_seconds": 549.862,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S05-A1",
+          "time_seconds": 522.902,
+          "path": "05_review/composition-frames/C02-S05-A1.png"
+        },
+        {
+          "asset_id": "C02-S05-A2",
+          "time_seconds": 541.232,
+          "path": "05_review/composition-frames/C02-S05-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "철판을 미는 압력",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "상하 시점의 불일치에서 철판을 미는 압력가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S06",
+      "start_seconds": 549.862,
+      "end_seconds": 559.962,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S06-A1",
+          "time_seconds": 551.522,
+          "path": "05_review/composition-frames/C02-S06-A1.png"
+        },
+        {
+          "asset_id": "C02-S06-A2",
+          "time_seconds": 556.572,
+          "path": "05_review/composition-frames/C02-S06-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth",
+          "sound_bridge_silence"
+        ],
+        "clue": "아래 발전기와 벽 안 긁힘",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "발전기 진동에 움직이는 흔적에서 아래 발전기와 벽 안 긁힘가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S07",
+      "start_seconds": 559.962,
+      "end_seconds": 591.242,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S07-A1",
+          "time_seconds": 562.812,
+          "path": "05_review/composition-frames/C02-S07-A1.png"
+        },
+        {
+          "asset_id": "C02-S07-A2",
+          "time_seconds": 580.262,
+          "path": "05_review/composition-frames/C02-S07-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "철제 바닥 틈을 짚는 마디 여섯 개",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "바닥 아래 회색 마디의 부분 공개에서 철제 바닥 틈을 짚는 마디 여섯 개가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S08",
+      "start_seconds": 591.242,
+      "end_seconds": 631.762,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S08-A1",
+          "time_seconds": 600.372,
+          "path": "05_review/composition-frames/C02-S08-A1.png"
+        },
+        {
+          "asset_id": "C02-S08-A2",
+          "time_seconds": 624.702,
+          "path": "05_review/composition-frames/C02-S08-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "공구 충격과 연결된 금속 구조",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "안전 점검로가 추적 경로가 됨에서 공구 충격과 연결된 금속 구조가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S09",
+      "start_seconds": 631.762,
+      "end_seconds": 662.502,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S09-A1",
+          "time_seconds": 648.752,
+          "path": "05_review/composition-frames/C02-S09-A1.png"
+        },
+        {
+          "asset_id": "C02-S09-A2",
+          "time_seconds": 661.982,
+          "path": "05_review/composition-frames/C02-S09-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth",
+          "sound_bridge_silence"
+        ],
+        "clue": "여섯 마디가 붙은 납작한 몸",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "아래의 동료가 한 몸을 확인에서 여섯 마디가 붙은 납작한 몸가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 648.75,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-648.75.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C02-S10",
+      "start_seconds": 662.502,
+      "end_seconds": 695.122,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S10-A1",
+          "time_seconds": 674.202,
+          "path": "05_review/composition-frames/C02-S10-A1.png"
+        },
+        {
+          "asset_id": "C02-S10-A2",
+          "time_seconds": 688.702,
+          "path": "05_review/composition-frames/C02-S10-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "왼쪽 발목을 잡은 두 마디",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "발목과 난간을 통한 직접 접촉에서 왼쪽 발목을 잡은 두 마디가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 674.2,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-674.20.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C02-S11",
+      "start_seconds": 695.122,
+      "end_seconds": 727.122,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S11-A1",
+          "time_seconds": 705.532,
+          "path": "05_review/composition-frames/C02-S11-A1.png"
+        },
+        {
+          "asset_id": "C02-S11-A2",
+          "time_seconds": 719.602,
+          "path": "05_review/composition-frames/C02-S11-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "전동 드라이버·오른쪽 상자",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "떨어진 진동원으로 움직임을 돌림에서 전동 드라이버·오른쪽 상자가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S12",
+      "start_seconds": 727.122,
+      "end_seconds": 762.122,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S12-A1",
+          "time_seconds": 734.812,
+          "path": "05_review/composition-frames/C02-S12-A1.png"
+        },
+        {
+          "asset_id": "C02-S12-A2",
+          "time_seconds": 754.642,
+          "path": "05_review/composition-frames/C02-S12-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "남겨진 왼쪽 작업화와 찌그러진 패널",
+        "tension_stage": "aftermath",
+        "shot_scale": "medium → wide",
+        "baseline_scene_id": null,
+        "selection_reason": "계단 탈출과 목격 대조에서 남겨진 왼쪽 작업화와 찌그러진 패널가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S13",
+      "start_seconds": 762.122,
+      "end_seconds": 797.202,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S13-A1",
+          "time_seconds": 777.372,
+          "path": "05_review/composition-frames/C02-S13-A1.png"
+        },
+        {
+          "asset_id": "C02-S13-A2",
+          "time_seconds": 792.582,
+          "path": "05_review/composition-frames/C02-S13-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "끈의 눌림·철판 여섯 솟음",
+        "tension_stage": "aftermath",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "낮 현장의 물리 흔적에서 끈의 눌림·철판 여섯 솟음가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C02-S14",
+      "start_seconds": 797.202,
+      "end_seconds": 826.262,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C02-S14-A1",
+          "time_seconds": 800.932,
+          "path": "05_review/composition-frames/C02-S14-A1.png"
+        },
+        {
+          "asset_id": "C02-S14-A2",
+          "time_seconds": 815.637,
+          "path": "05_review/composition-frames/C02-S14-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "미개봉 포장과 여섯 긁힘",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "새 패널 안에서 같은 긁힘에서 미개봉 포장과 여섯 긁힘가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S01",
+      "start_seconds": 831.262,
+      "end_seconds": 838.502,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S01-A1",
+          "time_seconds": 832.577,
+          "path": "05_review/composition-frames/C03-S01-A1.png"
+        },
+        {
+          "asset_id": "C03-S01-A2",
+          "time_seconds": 836.197,
+          "path": "05_review/composition-frames/C03-S01-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "세차선을 향하는 무인 버스",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "빈 운전석 버스의 콜드 오픈에서 세차선을 향하는 무인 버스가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S02",
+      "start_seconds": 838.502,
+      "end_seconds": 868.102,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S02-A1",
+          "time_seconds": 840.327,
+          "path": "05_review/composition-frames/C03-S02-A1.png"
+        },
+        {
+          "asset_id": "C03-S02-A2",
+          "time_seconds": 858.512,
+          "path": "05_review/composition-frames/C03-S02-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "운행 없는 예비 버스·키·보행선",
+        "tension_stage": "normal",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "정상 배차 마감과 구역 지도에서 운행 없는 예비 버스·키·보행선가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S03",
+      "start_seconds": 868.102,
+      "end_seconds": 893.462,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S03-A1",
+          "time_seconds": 881.562,
+          "path": "05_review/composition-frames/C03-S03-A1.png"
+        },
+        {
+          "asset_id": "C03-S03-A2",
+          "time_seconds": 890.682,
+          "path": "05_review/composition-frames/C03-S03-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "차고지 정문 글자",
+        "tension_stage": "anomaly",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "봉인된 예비 버스의 첫 행선지에서 차고지 정문 글자가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 890.68,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-890.68.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C03-S04",
+      "start_seconds": 893.462,
+      "end_seconds": 923.242,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S04-A1",
+          "time_seconds": 903.612,
+          "path": "05_review/composition-frames/C03-S04-A1.png"
+        },
+        {
+          "asset_id": "C03-S04-A2",
+          "time_seconds": 921.082,
+          "path": "05_review/composition-frames/C03-S04-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "정상 봉인과 수정 완료",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "전원 차단 대신 공란 재전송에서 정상 봉인과 수정 완료가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S05",
+      "start_seconds": 923.242,
+      "end_seconds": 952.262,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S05-A1",
+          "time_seconds": 936.612,
+          "path": "05_review/composition-frames/C03-S05-A1.png"
+        },
+        {
+          "asset_id": "C03-S05-A2",
+          "time_seconds": 948.542,
+          "path": "05_review/composition-frames/C03-S05-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "return_with_changed_clue"
+        ],
+        "clue": "표시 소거 뒤 열리는 문",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": "C03-S03",
+        "selection_reason": "열린 중문과 세차선 표시에서 표시 소거 뒤 열리는 문가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 948.54,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-948.54.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C03-S06",
+      "start_seconds": 952.262,
+      "end_seconds": 983.782,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S06-A1",
+          "time_seconds": 965.542,
+          "path": "05_review/composition-frames/C03-S06-A1.png"
+        },
+        {
+          "asset_id": "C03-S06-A2",
+          "time_seconds": 981.302,
+          "path": "05_review/composition-frames/C03-S06-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "return_with_changed_clue",
+          "tension_driven_transition"
+        ],
+        "clue": "세차선→정비동 앞",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": "C03-S03",
+        "selection_reason": "무시동 이동과 현재 위치 갱신에서 세차선→정비동 앞가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S07",
+      "start_seconds": 983.782,
+      "end_seconds": 1017.042,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S07-A1",
+          "time_seconds": 995.522,
+          "path": "05_review/composition-frames/C03-S07-A1.png"
+        },
+        {
+          "asset_id": "C03-S07-A2",
+          "time_seconds": 1019.012,
+          "path": "05_review/composition-frames/C03-S07-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition"
+        ],
+        "clue": "배수로·호스·중문 위치",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "문턱이 접근을 기다린다에서 배수로·호스·중문 위치가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S08",
+      "start_seconds": 1017.042,
+      "end_seconds": 1050.282,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S08-A1",
+          "time_seconds": 1035.002,
+          "path": "05_review/composition-frames/C03-S08-A1.png"
+        },
+        {
+          "asset_id": "C03-S08-A2",
+          "time_seconds": 1046.462,
+          "path": "05_review/composition-frames/C03-S08-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "임시 위치 태그",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → wide",
+        "baseline_scene_id": null,
+        "selection_reason": "시험 태그와 낮 동선 연결에서 임시 위치 태그가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S09",
+      "start_seconds": 1050.282,
+      "end_seconds": 1081.002,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S09-A1",
+          "time_seconds": 1056.692,
+          "path": "05_review/composition-frames/C03-S09-A1.png"
+        },
+        {
+          "asset_id": "C03-S09-A2",
+          "time_seconds": 1072.802,
+          "path": "05_review/composition-frames/C03-S09-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "return_with_changed_clue"
+        ],
+        "clue": "사람과 떨어진 태그",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": "C03-S03",
+        "selection_reason": "태그를 두자 버스가 그곳으로 향함에서 사람과 떨어진 태그가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S10",
+      "start_seconds": 1081.002,
+      "end_seconds": 1113.162,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S10-A1",
+          "time_seconds": 1094.562,
+          "path": "05_review/composition-frames/C03-S10-A1.png"
+        },
+        {
+          "asset_id": "C03-S10-A2",
+          "time_seconds": 1112.292,
+          "path": "05_review/composition-frames/C03-S10-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action",
+          "tension_driven_transition"
+        ],
+        "clue": "별도 카트에 건 태그",
+        "tension_stage": "interaction",
+        "shot_scale": "medium → wide",
+        "baseline_scene_id": null,
+        "selection_reason": "운반 카트로 태그를 옮김에서 별도 카트에 건 태그가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S11",
+      "start_seconds": 1113.162,
+      "end_seconds": 1146.162,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S11-A1",
+          "time_seconds": 1127.182,
+          "path": "05_review/composition-frames/C03-S11-A1.png"
+        },
+        {
+          "asset_id": "C03-S11-A2",
+          "time_seconds": 1139.582,
+          "path": "05_review/composition-frames/C03-S11-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "빈 좌석·손잡이·문틀 그림자",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "문 안쪽의 늦게 움직이는 그림자에서 빈 좌석·손잡이·문틀 그림자가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S12",
+      "start_seconds": 1146.162,
+      "end_seconds": 1186.122,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S12-A1",
+          "time_seconds": 1151.232,
+          "path": "05_review/composition-frames/C03-S12-A1.png"
+        },
+        {
+          "asset_id": "C03-S12-A2",
+          "time_seconds": 1171.212,
+          "path": "05_review/composition-frames/C03-S12-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "수신기 소등과 봉인",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "시험 설비를 끄고 버스가 멈춤에서 수신기 소등과 봉인가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    },
+    {
+      "scene_id": "C03-S13",
+      "start_seconds": 1186.122,
+      "end_seconds": 1217.222,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S13-A1",
+          "time_seconds": 1193.442,
+          "path": "05_review/composition-frames/C03-S13-A1.png"
+        },
+        {
+          "asset_id": "C03-S13-A2",
+          "time_seconds": 1208.992,
+          "path": "05_review/composition-frames/C03-S13-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "손자국 같은 눌림·승차 처리",
+        "tension_stage": "aftermath",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "남은 승차 로그에서 손자국 같은 눌림·승차 처리가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": [
+        {
+          "time_seconds": 1208.99,
+          "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1208.99.png"
+        }
+      ]
+    },
+    {
+      "scene_id": "C03-S14",
+      "start_seconds": 1217.222,
+      "end_seconds": 1245.997,
+      "reviewed_midshot_frames": [
+        {
+          "asset_id": "C03-S14-A1",
+          "time_seconds": 1229.082,
+          "path": "05_review/composition-frames/C03-S14-A1.png"
+        },
+        {
+          "asset_id": "C03-S14-A2",
+          "time_seconds": 1243.644,
+          "path": "05_review/composition-frames/C03-S14-A2.png"
+        }
+      ],
+      "plan_asset_review": "passed_individual_originals",
+      "composition_snapshot_review": "passed",
+      "rendered_output_review": "full_stream_technical_passed; composition_snapshots_inspected; sparse_final_mp4_sampling",
+      "techniques": {
+        "technique_ids": [
+          "return_with_changed_clue"
+        ],
+        "clue": "글자 없는 앞유리와 중문 틈",
+        "tension_stage": "aftermath",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": "C03-S03",
+        "selection_reason": "규칙을 지키는 마감과 다시 열린 문에서 글자 없는 앞유리와 중문 틈가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "inspected_final_mp4_frames": []
+    }
+  ],
+  "notes": [
+    "C01 photo source identical; cuff hidden by early crop and revealed at exact towel phrase.",
+    "C02 lower concavity and upper convexity are different viewpoints; trace/partial/body/contact chronology inspected.",
+    "C03 daylight test explicitly labeled at shot start; dark bus cabin/exterior lights and door continuity inspected.",
+    "C03-S10-A2 premature running worker removed so full LED/trolley frame remains readable.",
+    "C03 single triangular handle is independently animated over native cleanplate.",
+    "Initial full-page source has a heavy-overlay lint warning; final MP4 uses separate coherent scene pages with only 1–3 visible shot elements.",
+    "Final MP4 full decode, freeze >=3s and black >=1s scans passed. Actual MP4 samples are listed per scene only where individually inspected; all 87 composition shot snapshots and individual source originals were inspected. No complete normal-speed visual playback or direct auditory listening was performed."
+  ]
+}

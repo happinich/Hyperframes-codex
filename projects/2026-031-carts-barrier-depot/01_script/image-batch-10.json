@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "asset_id": "SH03-portrait-A05",
+      "prompt": "Edit the supplied ONE vertical pixel-art image. ALL INTERIOR ELECTRIC LIGHTS OF THE BUS MUST BE OFF. In particular the luminous yellow bar INSIDE THE BUS, just above the open CENTER PASSENGER doorway (approximately x=413..443, y=575..590 on the 941x1672 image), becomes a DARK ceiling fixture. The cabin and empty seats are dark, faint external reflections only. Keep ALL EXTERNAL DEPOT GARAGE ceiling lights and outdoor wall lamps ON, including fixture around x=410,y=380. Do not confuse the external garage ceiling with the bus interior. Preserve black-gloved worker, bus shape, two axles, open center door, CLOSED front door, blank LED, empty driver seat, exact camera and pixel texture. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v4.png"
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "prompt": "Fresh single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray shadows, amber rim light. A red-tape steel cart handle fills RIGHT 60% with exactly FOUR distinct FLAT WET DARK STREAKS on its surface. The four traces are TRANSLUCENT WATER STAINS lying flush on red tape, irregular narrow elongated damp patches with tiny clear droplets, not anatomical finger-shaped objects. NO raised lumps, skin, flesh, actual fingers, hands, ridges or blood. Ordinary blue-gray end caps and empty wire basket. Background only a cropped gray shelter wall and dry concrete; NO other carts. LEFT 40% uncluttered deep navy space for later Korean title. Reference establishes matte style and flat water on red tape only; create a new thumbnail composition, no collage or inset. No generated text.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source-v4.png"
+    }
+  ]
+}

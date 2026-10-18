@@ -1,0 +1,49 @@
+{
+  "approved_character_coverage": 0.9965367965367965,
+  "recognized_character_precision": 0.9961055819991346,
+  "differences": [
+    {
+      "op": "replace",
+      "approved": "끽",
+      "recognized": "끼익"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "었",
+      "recognized": "웠"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    }
+  ],
+  "extended_repeated_passages_detected": false,
+  "direct_listening_performed": false,
+  "status": "text_signal_checked_human_listening_pending"
+}

@@ -1,0 +1,84 @@
+{
+  "approved_character_coverage": 0.9911621741051702,
+  "recognized_character_precision": 0.9911621741051702,
+  "differences": [
+    {
+      "op": "replace",
+      "approved": "선",
+      "recognized": "섬"
+    },
+    {
+      "op": "replace",
+      "approved": "격리",
+      "recognized": "경미"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "박",
+      "recognized": "빡"
+    },
+    {
+      "op": "replace",
+      "approved": "스",
+      "recognized": "수"
+    },
+    {
+      "op": "replace",
+      "approved": "스",
+      "recognized": "수"
+    },
+    {
+      "op": "replace",
+      "approved": "너머",
+      "recognized": "넘어"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "드리운",
+      "recognized": "들이온"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "바퀴",
+      "recognized": "다큐"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "온",
+      "recognized": "운"
+    }
+  ],
+  "extended_repeated_passages_detected": false,
+  "direct_listening_performed": false,
+  "status": "text_signal_checked_human_listening_pending"
+}

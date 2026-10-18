@@ -1,0 +1,47 @@
+{
+  "selection": "cand-04",
+  "authority": "standing user delegation 2026-10-18",
+  "reason": "horror drone with the smallest measured speech-band competition and abrupt loudness movement among four generated candidates; separate event foley carries story-specific sounds",
+  "direct_listening_performed": false,
+  "signal_comparison": [
+    {
+      "candidate": "cand-01",
+      "duration_seconds": 40.071875,
+      "rms_dbfs": -18.12865447998047,
+      "peak_dbfs": -4.541713714599609,
+      "narration_band_energy_share_300_3500Hz": 0.003075344255194068,
+      "p95_rms_change_per_100ms_db": 3.9705066680908203,
+      "selection_score_lower_is_quieter_under_speech": 0.4278041124343872
+    },
+    {
+      "candidate": "cand-02",
+      "duration_seconds": 40.071875,
+      "rms_dbfs": -10.381107330322266,
+      "peak_dbfs": 0.07875663042068481,
+      "narration_band_energy_share_300_3500Hz": 3.886270133079961e-05,
+      "p95_rms_change_per_100ms_db": 2.368558406829834,
+      "selection_score_lower_is_quieter_under_speech": 0.23724445700645447
+    },
+    {
+      "candidate": "cand-03",
+      "duration_seconds": 40.019625,
+      "rms_dbfs": -14.156025886535645,
+      "peak_dbfs": -0.17840974032878876,
+      "narration_band_energy_share_300_3500Hz": 2.325634704902768e-05,
+      "p95_rms_change_per_100ms_db": 3.2471630573272705,
+      "selection_score_lower_is_quieter_under_speech": 0.32494887709617615
+    },
+    {
+      "candidate": "cand-04",
+      "duration_seconds": 40.071875,
+      "rms_dbfs": -11.437311172485352,
+      "peak_dbfs": -1.0981169939041138,
+      "narration_band_energy_share_300_3500Hz": 0.0009480867302045226,
+      "p95_rms_change_per_100ms_db": 2.1482326984405518,
+      "selection_score_lower_is_quieter_under_speech": 0.22430413961410522
+    }
+  ],
+  "ducking_gain_db": -18,
+  "outro_seconds": 4,
+  "fade_out_seconds": 3
+}

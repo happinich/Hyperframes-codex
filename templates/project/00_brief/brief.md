@@ -21,6 +21,7 @@
 - Sound rule: {{PRODUCTION_PROFILE_SOUND_RULE}}
 - Voice generation: ElevenLabs API.
 - Google Drive delivery: 최종 검수 후 프로젝트별 폴더에 롱폼 메인 MP4·게시 전략·썸네일·쇼츠를 함께 업로드하고 파일명·용량·폴더를 검증한다. 원본 정책은 `publishing_rules.google_drive_delivery`.
+- Voice casting: 처음 원고를 제안할 때부터 이야기별로 남성·여성 중 우선 추천·음색·이유·대안을 기록한다. 합본 전체를 여성으로 자동 지정하거나 기계적인 성별 순환을 적용하지 않는다. 캐스팅 성별을 먼저 정한 뒤 실제 보이스를 고른다.
 - Female voice first choice: `config/success-rules.json`의 `audio_rules.voice_preferences.female_first_choice`에 기록된 Jian.K. 사용자 청취 승인일 2026-10-15. 여성 화자 선택 시 실제 ID를 `02_audio/elevenlabs-request.json`에 적용하고 작품별 명시적 선택이 있으면 우선.
 - Timing policy: 기획 단계부터 초 단위 씬 타임라인을 작성하고, MLX Whisper turbo로 실제 발화 시간만 보정.
 
@@ -57,6 +58,16 @@
 - 해당 이야기의 스타일 승인 또는 명시적 선택 위임 근거:
 - 본편·쇼츠·썸네일의 시각 언어 일관성 계획:
 
+## 이야기별 보이스 캐스팅
+
+원본 규칙: `script_rules.horror_story.voice_casting_review`. 첫 원고 제안 때부터 편별로 작성합니다. 주인공 성별이 고정되지 않았다면 그 사실을 밝히고, 직업만으로 성별을 정하지 않습니다.
+
+| 이야기 | 우선 추천 성별·음색 | 시점·감정선에 맞는 이유 | 다른 성별 대안과 장단점 | 주인공 성별 고정 여부 | 실제 보이스·승인 근거 |
+| --- | --- | --- | --- | --- | --- |
+| 작성 예정 | 작성 예정 | 작성 예정 | 작성 예정 | 작성 예정 | 선택 대기 |
+
+여성 1순위 Jian.K는 여성 캐스팅을 선택한 편에 적용합니다. 남성 후보는 해당 원고 샘플의 발음·호흡·문장 반복·과장 여부를 확인한 뒤 선정합니다. 본편과 그 이야기의 별도 쇼츠는 같은 캐스팅을 기본으로 검토합니다.
+
 ## 이야기별 편집 방향
 
 공포 프로젝트는 [편집 기법 가이드](../../../docs/HORROR_EDITING_TECHNIQUES.ko.md)를 따라
@@ -92,3 +103,7 @@
 - Related long-form video for Shorts:
 - Long-form end-screen target:
 - Submission permission or source notes:
+
+## 2026-10-18 사용자 상시 제작 위임
+
+사용자 지시: “앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.” 현재 및 이후 Hyperframes 제작에서는 원고, 편별 남녀 캐스팅과 실제 보이스, 비주얼 스타일, 음성 검수 판단, BGM, 편집, 썸네일, 쇼츠 및 납품을 추천안에 따라 진행하고 같은 선택을 재질문하지 않는다. 기존의 각 검토 단계와 품질 기준은 유지하되 사용자 답변 대기 대신 위임 근거·실제 선택·이유·검수 결과를 각각 기록한다. 이후 프로젝트별 사용자 명시 지시가 우선하며 완료 프로젝트는 보존한다.

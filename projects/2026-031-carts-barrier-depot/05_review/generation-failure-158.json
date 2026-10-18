@@ -1,0 +1,7 @@
+{
+  "tool": "built_in_image_gen",
+  "failure": "output safety filter classified one wrist-mark illustration as self-harm",
+  "affected_batch": "C01 late shots; missing S13-A2, S15-A1, S15-A2",
+  "response": "preserve narration, replace with ordinary clothed-arm examination and healthy shopping hand pose, no visible marks/injury/compression",
+  "not_used_in_render": true
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "2026-031-carts-barrier-depot-youtube.mp4",
+    "relative_path": "06_delivery/youtube/2026-031-carts-barrier-depot-youtube.mp4",
+    "bytes": 1040483174,
+    "sha256": "e825b4572d7e2677d314e4af087a18adc9736c4c1308b8126581c4bea3722246",
+    "width": 1920,
+    "height": 1080,
+    "fps": "60/1",
+    "frames": 75000,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": "48000",
+    "channels": 2,
+    "video_duration_seconds": 1250.0,
+    "audio_duration_seconds": 1249.997,
+    "duration_delta_seconds": 0.003,
+    "full_decode": "passed",
+    "freeze_intervals_over_3s": [],
+    "black_intervals_over_1s": [],
+    "extracted_review_frames": [
+      {
+        "time_seconds": 0.05,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-0.05.png"
+      },
+      {
+        "time_seconds": 7,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-7.00.png"
+      },
+      {
+        "time_seconds": 20,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-20.00.png"
+      },
+      {
+        "time_seconds": 96.1,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-96.10.png"
+      },
+      {
+        "time_seconds": 130.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-130.30.png"
+      },
+      {
+        "time_seconds": 176.7,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-176.70.png"
+      },
+      {
+        "time_seconds": 217.4,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-217.40.png"
+      },
+      {
+        "time_seconds": 289.4,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-289.40.png"
+      },
+      {
+        "time_seconds": 318.9,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-318.90.png"
+      },
+      {
+        "time_seconds": 384.35,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-384.35.png"
+      },
+      {
+        "time_seconds": 419,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-419.00.png"
+      },
+      {
+        "time_seconds": 506.7,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-506.70.png"
+      },
+      {
+        "time_seconds": 580.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-580.30.png"
+      },
+      {
+        "time_seconds": 648.75,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-648.75.png"
+      },
+      {
+        "time_seconds": 674.2,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-674.20.png"
+      },
+      {
+        "time_seconds": 719.6,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-719.60.png"
+      },
+      {
+        "time_seconds": 792.58,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-792.58.png"
+      },
+      {
+        "time_seconds": 836.2,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-836.20.png"
+      },
+      {
+        "time_seconds": 881.56,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-881.56.png"
+      },
+      {
+        "time_seconds": 890.68,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-890.68.png"
+      },
+      {
+        "time_seconds": 921.08,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-921.08.png"
+      },
+      {
+        "time_seconds": 948.54,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-948.54.png"
+      },
+      {
+        "time_seconds": 981.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-981.30.png"
+      },
+      {
+        "time_seconds": 1043.0,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1043.00.png"
+      },
+      {
+        "time_seconds": 1112.29,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1112.29.png"
+      },
+      {
+        "time_seconds": 1127.18,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1127.18.png"
+      },
+      {
+        "time_seconds": 1139.58,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1139.58.png"
+      },
+      {
+        "time_seconds": 1208.99,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1208.99.png"
+      },
+      {
+        "time_seconds": 1233,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1233.00.png"
+      },
+      {
+        "time_seconds": 1249.9,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-youtube-1249.90.png"
+      }
+    ],
+    "subjective_listening": false
+  }
+]

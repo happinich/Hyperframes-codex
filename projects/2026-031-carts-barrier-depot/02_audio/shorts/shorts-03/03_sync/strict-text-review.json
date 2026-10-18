@@ -1,0 +1,14 @@
+{
+  "approved_character_coverage": 0.9913793103448276,
+  "recognized_character_precision": 0.9913793103448276,
+  "differences": [
+    {
+      "op": "replace",
+      "approved": "밤",
+      "recognized": "담"
+    }
+  ],
+  "extended_repeated_passages_detected": false,
+  "direct_listening_performed": false,
+  "status": "text_signal_checked_human_listening_pending"
+}

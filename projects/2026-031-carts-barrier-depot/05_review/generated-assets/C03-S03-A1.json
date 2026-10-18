@@ -1,0 +1,9 @@
+{
+  "asset_id": "C03-S03-A1",
+  "attempt": 1,
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-2d094319-97e8-4276-a03c-cf34b81b62e6.png",
+  "target": "04_composition/assets/visuals/C03-S03-A1.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S03-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 같은 예비 버스의 켜진 표시. TIGHT STRAIGHT-ON front of the SAME bus, upper windshield and EMPTY driver seat plus large DARK BLANK horizontal destination display centered at upper-middle. Keep display perfectly rectangular front-facing for exact Korean overlay. No identifiable ground/location background. This framing is the BASELINE for later destination comparisons; no generated text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons."
+}

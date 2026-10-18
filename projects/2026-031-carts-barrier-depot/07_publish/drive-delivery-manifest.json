@@ -1,0 +1,107 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "destination": "https://drive.google.com/drive/folders/1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "remote_subfolder_name": "2026-031-carts-barrier-depot",
+  "status": "prepared_not_uploaded",
+  "longform_video_included": true,
+  "external_caption_files_included": false,
+  "shorts_count": 3,
+  "files": [
+    {
+      "name": "2026-031-carts-barrier-depot-shorts-01.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/2026-031-carts-barrier-depot-shorts-01.mp4",
+      "bytes": 17737745,
+      "sha256": "67697eae2a2f97f1ac3020b1d5bdaeb91070710886ac954f8fdd5f9d2f6c891e"
+    },
+    {
+      "name": "2026-031-carts-barrier-depot-shorts-02.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/2026-031-carts-barrier-depot-shorts-02.mp4",
+      "bytes": 19753513,
+      "sha256": "c01f51a7ed34902786fcf4b3e938d9f1fe606603164f92d42ff706d07f15ec6e"
+    },
+    {
+      "name": "2026-031-carts-barrier-depot-shorts-03.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/2026-031-carts-barrier-depot-shorts-03.mp4",
+      "bytes": 27637182,
+      "sha256": "bab44f4e1101f866e73777fc7641ac23eabf51fca88a8e3313000192f3c3d085"
+    },
+    {
+      "name": "2026-031-carts-barrier-depot-youtube.mp4",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/2026-031-carts-barrier-depot-youtube.mp4",
+      "bytes": 1040483174,
+      "sha256": "e825b4572d7e2677d314e4af087a18adc9736c4c1308b8126581c4bea3722246"
+    },
+    {
+      "name": "README.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/README.md",
+      "bytes": 1034,
+      "sha256": "5f3c7afbb4255f0a85e8e49c766639f52be072fe23d6e83efbf4bbaa1129b57a"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/delivery-manifest.json",
+      "bytes": 2646,
+      "sha256": "c8842a8fbb3d1e2d97b2c1caf8b9bee03e24f21b7d65aa681c2579f78084c3ff"
+    },
+    {
+      "name": "longform-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/longform-publish.html",
+      "bytes": 5521,
+      "sha256": "16b75d9961a8f32c62c20a2714c9d26720cab67a90f538e2f39fd7e6aed83cae"
+    },
+    {
+      "name": "longform-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/longform-publish.md",
+      "bytes": 3177,
+      "sha256": "8c4fe1779071877ac73b9b22be251221d59687afe3ebad5ef90d5209c12fe51f"
+    },
+    {
+      "name": "shorts-01-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-01-publish.html",
+      "bytes": 3221,
+      "sha256": "4906fedd9d4a068ded854b97568840ef3769c77225291f08b8609a3442d13af3"
+    },
+    {
+      "name": "shorts-01-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-01-publish.md",
+      "bytes": 1249,
+      "sha256": "3f70dcae2093490e55c8a948cbd5637409790eaa7a56b2f71c91422067742ae5"
+    },
+    {
+      "name": "shorts-02-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-02-publish.html",
+      "bytes": 3221,
+      "sha256": "63f7a985c6699ae8fe0363ae6100653ce2aadf4b2a5f0f160a2030d0c8dbbc1b"
+    },
+    {
+      "name": "shorts-02-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-02-publish.md",
+      "bytes": 1249,
+      "sha256": "8c0e4578b68338b7380b2fb3e4c540c497a322f9609067273fc8b6006bb562c4"
+    },
+    {
+      "name": "shorts-03-publish.html",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-03-publish.html",
+      "bytes": 3221,
+      "sha256": "967c7694da80f0576591a678d27f87fcb189cb065a04b2babfd831a35e15d8ad"
+    },
+    {
+      "name": "shorts-03-publish.md",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/shorts-03-publish.md",
+      "bytes": 1249,
+      "sha256": "0f170445577c566463e48c83424fd8d8b2d393e87c07817a3a372c6883e8dbc8"
+    },
+    {
+      "name": "thumbnail-a.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/thumbnail-a.png",
+      "bytes": 1194166,
+      "sha256": "2ff207d895f0300c81689c406bcd2ec921849908750a4c182d834f565d379328"
+    },
+    {
+      "name": "thumbnail-b.png",
+      "path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/07_publish/drive-upload/thumbnail-b.png",
+      "bytes": 1130958,
+      "sha256": "64f0ddc8ae4963fb77b89cb562fc58789bc6729e093721f3bce2bc3cd1c49f11"
+    }
+  ]
+}

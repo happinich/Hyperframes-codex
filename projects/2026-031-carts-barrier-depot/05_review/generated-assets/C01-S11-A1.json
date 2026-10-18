@@ -1,0 +1,9 @@
+{
+  "asset_id": "C01-S11-A1",
+  "attempt": 1,
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-24ad806e-091f-445d-9b14-2bc28cd50f48.png",
+  "target": "04_composition/assets/visuals/C01-S11-A1.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S11-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 회색 어깨와 짐칸에 가려진 머리 위치. Partial soaked gray SHOULDER and sleeve and dark wet shoes around standalone red cart. HEAD location fully HIDDEN BEHIND wire basket, not headless cut stump. One ghost, no visible face or gore. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue."
+}

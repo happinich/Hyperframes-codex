@@ -1,0 +1,43 @@
+{
+  "purpose": "actual narration voice review, normal and tense complete sentence extracts, no BGM",
+  "sources": [
+    {
+      "chapter_id": "C01",
+      "start": 7.62,
+      "end": 20.36
+    },
+    {
+      "chapter_id": "C01",
+      "start": 278.78,
+      "end": 296.66
+    },
+    {
+      "chapter_id": "C02",
+      "start": 8.06,
+      "end": 21.76
+    },
+    {
+      "chapter_id": "C02",
+      "start": 253.34,
+      "end": 266.42
+    },
+    {
+      "chapter_id": "C03",
+      "start": 7.18,
+      "end": 22.32
+    },
+    {
+      "chapter_id": "C03",
+      "start": 120.94,
+      "end": 139.44
+    }
+  ],
+  "duration_seconds": 91.04,
+  "order": [
+    "C01_Jian_K",
+    "C02_Hyuk",
+    "C03_Hyuk"
+  ],
+  "voice_speed": "original 1.00x",
+  "note": "Review excerpts only; not an approved Short or publication video."
+}

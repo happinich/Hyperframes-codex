@@ -174,7 +174,16 @@
       "default_truth_label": "fiction",
       "voice_casting_review": {
         "required_with_script_review": true,
-        "recommendation_options": ["male", "female"],
+        "recommendation_granularity": "per_story_from_initial_script_proposal",
+        "default_narrator_gender": null,
+        "gender_selection_precedes_voice_choice": true,
+        "female_first_choice_applies_only_after_female_casting": true,
+        "anthology_policy": "Choose male or female narration independently for each story from its point of view, vocal character and emotional arc. Do not default an entire anthology to a female voice or impose a mechanical gender rotation or quota.",
+        "user_preference_recorded_on": "2026-10-18",
+        "recommendation_options": [
+          "male",
+          "female"
+        ],
         "evaluate": [
           "protagonist identity and point of view",
           "narrator distance and emotional intensity",
@@ -182,6 +191,7 @@
           "pace and escalation required by the script"
         ],
         "include": [
+          "per-story primary narrator gender and desired vocal character in the initial script proposal",
           "primary recommendation with reason",
           "secondary option with tradeoff",
           "whether the narrator gender must match the protagonist"
@@ -470,5 +480,17 @@
     },
     "external_caption_files_delivery": false,
     "caption_note": "YouTube automatic captions; do not deliver or upload SRT/VTT for new productions. Keep internal Whisper timing and Shorts burned captions."
+  },
+  "workflow_authorization": {
+    "mode": "standing_user_delegation",
+    "recorded_on": "2026-10-18",
+    "user_message": "앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.",
+    "scope": "Current and future Hyperframes production recommendations: script, story-specific casting and visual style, voice quality decisions, BGM, editing, thumbnails, Shorts and delivery. Select and record recommendations without repeated user questions.",
+    "review_stages_remain_separate": true,
+    "record_actual_selection_and_reason": true,
+    "manual_user_response_required": false,
+    "preserve_quality_checks": true,
+    "preserve_completed_projects": true,
+    "explicit_later_project_direction_takes_precedence": true
   }
 }

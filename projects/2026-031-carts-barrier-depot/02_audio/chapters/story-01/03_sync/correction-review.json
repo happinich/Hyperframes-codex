@@ -1,0 +1,278 @@
+{
+  "original_raw_preserved": true,
+  "approved_script_changed": false,
+  "spot_reanalysis": [
+    {
+      "original": {
+        "start": 162.2,
+        "end": 164.98,
+        "text": "한 장 앞에서 카트 12대를 다시 세웠습니다.",
+        "words": [
+          {
+            "text": "한",
+            "start": 162.2,
+            "end": 162.2
+          },
+          {
+            "text": "장",
+            "start": 162.2,
+            "end": 162.38
+          },
+          {
+            "text": "앞에서",
+            "start": 162.38,
+            "end": 162.84
+          },
+          {
+            "text": "카트",
+            "start": 162.84,
+            "end": 163.4
+          },
+          {
+            "text": "12대를",
+            "start": 163.4,
+            "end": 164.06
+          },
+          {
+            "text": "다시",
+            "start": 164.06,
+            "end": 164.34
+          },
+          {
+            "text": "세웠습니다.",
+            "start": 164.34,
+            "end": 164.98
+          }
+        ]
+      },
+      "replacement": {
+        "start": 161.52,
+        "end": 165.0,
+        "text": "저는 보관장 앞에서 카트 12대를 다시 세웠습니다.",
+        "words": [
+          {
+            "text": "저는",
+            "start": 161.52,
+            "end": 161.72
+          },
+          {
+            "text": "보관장",
+            "start": 161.72,
+            "end": 162.4
+          },
+          {
+            "text": "앞에서",
+            "start": 162.4,
+            "end": 162.84
+          },
+          {
+            "text": "카트",
+            "start": 162.84,
+            "end": 163.4
+          },
+          {
+            "text": "12대를",
+            "start": 163.4,
+            "end": 164.06
+          },
+          {
+            "text": "다시",
+            "start": 164.06,
+            "end": 164.34
+          },
+          {
+            "text": "세웠습니다.",
+            "start": 164.34,
+            "end": 165.0
+          }
+        ]
+      },
+      "source": "05_review/voice-auditions/c01-spot-check/counting.json",
+      "reason": "same canonical model reanalysis of shorter audio with leading context; no TTS regeneration"
+    },
+    {
+      "original": {
+        "start": 275.26,
+        "end": 278.56,
+        "text": "있어야 할 높이는 카트 안쪽 짐칸에 가려져 있었죠.",
+        "words": [
+          {
+            "text": "있어야",
+            "start": 275.26,
+            "end": 275.4
+          },
+          {
+            "text": "할",
+            "start": 275.4,
+            "end": 275.6
+          },
+          {
+            "text": "높이는",
+            "start": 275.6,
+            "end": 276.06
+          },
+          {
+            "text": "카트",
+            "start": 276.06,
+            "end": 276.62
+          },
+          {
+            "text": "안쪽",
+            "start": 276.62,
+            "end": 277.06
+          },
+          {
+            "text": "짐칸에",
+            "start": 277.06,
+            "end": 277.66
+          },
+          {
+            "text": "가려져",
+            "start": 277.66,
+            "end": 278.06
+          },
+          {
+            "text": "있었죠.",
+            "start": 278.06,
+            "end": 278.56
+          }
+        ]
+      },
+      "replacement": {
+        "start": 274.54,
+        "end": 278.56,
+        "text": "얼굴이 있어야 할 높이는 카트 안쪽 짐칸에 가려져 있었죠.",
+        "words": [
+          {
+            "text": "얼굴이",
+            "start": 274.54,
+            "end": 275.1
+          },
+          {
+            "text": "있어야",
+            "start": 275.1,
+            "end": 275.4
+          },
+          {
+            "text": "할",
+            "start": 275.4,
+            "end": 275.6
+          },
+          {
+            "text": "높이는",
+            "start": 275.6,
+            "end": 276.06
+          },
+          {
+            "text": "카트",
+            "start": 276.06,
+            "end": 276.62
+          },
+          {
+            "text": "안쪽",
+            "start": 276.62,
+            "end": 277.06
+          },
+          {
+            "text": "짐칸에",
+            "start": 277.06,
+            "end": 277.66
+          },
+          {
+            "text": "가려져",
+            "start": 277.66,
+            "end": 278.06
+          },
+          {
+            "text": "있었죠.",
+            "start": 278.06,
+            "end": 278.56
+          }
+        ]
+      },
+      "source": "05_review/voice-auditions/c01-spot-check/face-occlusion.json",
+      "reason": "same canonical model reanalysis of shorter audio with leading context; no TTS regeneration"
+    }
+  ],
+  "number_orthography_normalization": [
+    {
+      "before": "12대를",
+      "after": "열두 대를",
+      "start": 0.32,
+      "end": 0.96
+    },
+    {
+      "before": "2개가",
+      "after": "두 개가",
+      "start": 24.4,
+      "end": 24.86
+    },
+    {
+      "before": "11대를",
+      "after": "열한 대를",
+      "start": 48.64,
+      "end": 49.36
+    },
+    {
+      "before": "4개가",
+      "after": "네 개가",
+      "start": 78.78,
+      "end": 79.3
+    },
+    {
+      "before": "11대는",
+      "after": "열한 대는",
+      "start": 105.92,
+      "end": 106.58
+    },
+    {
+      "before": "12대를",
+      "after": "열두 대를",
+      "start": 163.4,
+      "end": 164.06
+    },
+    {
+      "before": "11대는",
+      "after": "열한 대는",
+      "start": 165.62,
+      "end": 166.34
+    },
+    {
+      "before": "12대의",
+      "after": "열두 대의",
+      "start": 198.9,
+      "end": 199.54
+    },
+    {
+      "before": "4개가",
+      "after": "네 개가",
+      "start": 252.08,
+      "end": 252.64
+    },
+    {
+      "before": "4개가",
+      "after": "네 개가",
+      "start": 287.18,
+      "end": 287.76
+    },
+    {
+      "before": "12대",
+      "after": "열두 대",
+      "start": 334.66,
+      "end": 335.22
+    },
+    {
+      "before": "11대는",
+      "after": "열한 대는",
+      "start": 337.9,
+      "end": 338.58
+    },
+    {
+      "before": "4개의",
+      "after": "네 개의",
+      "start": 350.7,
+      "end": 351.32
+    }
+  ],
+  "direct_listening_review": "pending_user"
+}

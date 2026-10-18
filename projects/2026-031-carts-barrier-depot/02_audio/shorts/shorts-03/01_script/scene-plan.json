@@ -1,0 +1,120 @@
+{
+  "project_id": "shorts-03",
+  "parent_project_id": "2026-031-carts-barrier-depot",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_pixel",
+  "voice_speed_multiplier": 1.07,
+  "timing_source": "draft_pending_actual_voice",
+  "scenes": [
+    {
+      "id": "SH03-S01",
+      "start_seconds": 0,
+      "end_seconds": 3.015,
+      "narration_text": "운전석이 빈 예비 버스의 행선지가 켜졌어요.",
+      "caption_text": "운전석이 빈 예비 버스의 행선지가 켜졌어요.",
+      "visual_focus": "운전석이 빈 예비 버스의 행선지가 켜졌어요.",
+      "asset_id": "SH03-portrait-A01",
+      "source": "fresh_portrait_generation_authorized",
+      "motion_beats": [
+        {
+          "relative_seconds": 0.0,
+          "action": "새 세로 자산의 단서·구문 자막 준비"
+        },
+        {
+          "relative_seconds": 1.508,
+          "action": "새 정보가 있는 국소 빛·격자 이동 또는 단서 접근; 정체 공개 금지"
+        }
+      ],
+      "screen_text": "모바일 안전 영역 번인 구문 자막",
+      "spoiler_guard": "정체·반전·탈출법·결말 자산 제외"
+    },
+    {
+      "id": "SH03-S02",
+      "start_seconds": 3.015,
+      "end_seconds": 6.909,
+      "narration_text": "저는 야간 배차를 끝내고 세차선으로 걸어가던 중이었습니다.",
+      "caption_text": "저는 야간 배차를 끝내고 세차선으로 걸어가던 중이었습니다.",
+      "visual_focus": "저는 야간 배차를 끝내고 세차선으로 걸어가던 중이었습니다.",
+      "asset_id": "SH03-portrait-A02",
+      "source": "fresh_portrait_generation_authorized",
+      "motion_beats": [
+        {
+          "relative_seconds": 0.0,
+          "action": "새 세로 자산의 단서·구문 자막 준비"
+        },
+        {
+          "relative_seconds": 1.947,
+          "action": "새 정보가 있는 국소 빛·격자 이동 또는 단서 접근; 정체 공개 금지"
+        }
+      ],
+      "screen_text": "모바일 안전 영역 번인 구문 자막",
+      "spoiler_guard": "정체·반전·탈출법·결말 자산 제외"
+    },
+    {
+      "id": "SH03-S03",
+      "start_seconds": 6.909,
+      "end_seconds": 11.682,
+      "narration_text": "표시를 껐는데 가운데 문이 열리고, 버스가 시동 소리도 없이 굴렀죠.",
+      "caption_text": "표시를 껐는데 가운데 문이 열리고, 버스가 시동 소리도 없이 굴렀죠.",
+      "visual_focus": "표시를 껐는데 가운데 문이 열리고, 버스가 시동 소리도 없이 굴렀죠.",
+      "asset_id": "SH03-portrait-A03",
+      "source": "fresh_portrait_generation_authorized",
+      "motion_beats": [
+        {
+          "relative_seconds": 0.0,
+          "action": "새 세로 자산의 단서·구문 자막 준비"
+        },
+        {
+          "relative_seconds": 2.387,
+          "action": "새 정보가 있는 국소 빛·격자 이동 또는 단서 접근; 정체 공개 금지"
+        }
+      ],
+      "screen_text": "모바일 안전 영역 번인 구문 자막",
+      "spoiler_guard": "정체·반전·탈출법·결말 자산 제외"
+    },
+    {
+      "id": "SH03-S04",
+      "start_seconds": 11.682,
+      "end_seconds": 15.827,
+      "narration_text": "앞 유리에 새로 뜬 행선지는 제가 서 있던 세차선이었습니다.",
+      "caption_text": "앞 유리에 새로 뜬 행선지는 제가 서 있던 세차선이었습니다.",
+      "visual_focus": "앞 유리에 새로 뜬 행선지는 제가 서 있던 세차선이었습니다.",
+      "asset_id": "SH03-portrait-A04",
+      "source": "fresh_portrait_generation_authorized",
+      "motion_beats": [
+        {
+          "relative_seconds": 0.0,
+          "action": "새 세로 자산의 단서·구문 자막 준비"
+        },
+        {
+          "relative_seconds": 2.072,
+          "action": "새 정보가 있는 국소 빛·격자 이동 또는 단서 접근; 정체 공개 금지"
+        }
+      ],
+      "screen_text": "모바일 안전 영역 번인 구문 자막",
+      "spoiler_guard": "정체·반전·탈출법·결말 자산 제외"
+    },
+    {
+      "id": "SH03-S05",
+      "start_seconds": 15.827,
+      "end_seconds": 19.595,
+      "narration_text": "제가 정비동 쪽으로 물러서자 글자가 다시 바뀌었습니다.",
+      "caption_text": "제가 정비동 쪽으로 물러서자 글자가 다시 바뀌었습니다.",
+      "visual_focus": "제가 정비동 쪽으로 물러서자 글자가 다시 바뀌었습니다.",
+      "asset_id": "SH03-portrait-A05",
+      "source": "fresh_portrait_generation_authorized",
+      "motion_beats": [
+        {
+          "relative_seconds": 0.0,
+          "action": "새 세로 자산의 단서·구문 자막 준비"
+        },
+        {
+          "relative_seconds": 1.884,
+          "action": "새 정보가 있는 국소 빛·격자 이동 또는 단서 접근; 정체 공개 금지"
+        }
+      ],
+      "screen_text": "모바일 안전 영역 번인 구문 자막",
+      "spoiler_guard": "정체·반전·탈출법·결말 자산 제외"
+    }
+  ]
+}

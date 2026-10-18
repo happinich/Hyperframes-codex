@@ -1,0 +1,9 @@
+{
+  "asset_id": "C03-S03-A1",
+  "attempt": 2,
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-7c227a13-c7c5-4f5a-aefc-75b287484b91.png",
+  "target": "04_composition/assets/visuals/C03-S03-A1-v2.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt": "Use case: precise-object-edit. Preserve this exact front-facing green-gray bus, pixel art, windshield, empty driver seat, BLANK unlit destination sign, camera, size and background. Change ONLY the TWO HEADLIGHT assemblies: turn both fully OFF. Replace bright white/yellow lamp glow with dark blue-gray unpowered glass reflecting a faint amber worklight, absolutely NO emitted beam or white powered bulb. Parking vehicle battery is isolated; only the destination sign will illuminate later in editing. Keep all coordinates and framing identical, no text, no people or driver. One 16:9 image."
+}

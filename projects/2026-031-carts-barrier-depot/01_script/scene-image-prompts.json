@@ -1,0 +1,12 @@
+{
+  "mode": "built_in_image_gen",
+  "assets": [
+    {
+      "id": "C01-S04-A2",
+      "prompt": "Use case: illustration-story. Asset C01-S04-A2, a final single 16:9 horror-animation scene, no collage/panels. Reference image is STYLE, CART DESIGN, and LIGHTING only; do not copy its ghost or composition. Rough 2D illustrated matte animation background with irregular ink outlines and flat restrained shadow blocks as in reference. Camera at handle height 1m, very close from right side of the separate defective steel-wire supermarket cart. Its red-tape-wrapped cylindrical handle crosses the middle diagonally. On top of the red tape are EXACTLY FOUR separate wet finger-shaped streaks and tiny water beads left by an unseen grip; NO hand is present, NO palm silhouette, thumb trace absent. A plain off-white cleaning towel hangs over the near SIDE end of the cart handle, not over the wet four streaks. Empty dry basket wires below. Clearly dry matte dusty concrete visible below the cart, no puddles inside the shelter. Blurred simple rear staff door and amber roof lamp in background, readable blue-gray shadows. No ghost, body, sneaker, person, face, extra limbs, writing, logos, or watermark. Make the four damp streaks readable at phone size, large within central safe area; avoid photorealistic shiny rendering. This is an early trace scene BEFORE any entity appears.",
+      "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-6d4bf375-2785-4511-9000-f68eac7e75bc.png",
+      "pass_1": "four wet streaks visible, no entity shown, no thumb trace, dry floor, offwhite towel, approved rough 2D consistent",
+      "pass_2": "pending narration-adjacent-image review before render"
+    }
+  ]
+}

@@ -1,0 +1,1353 @@
+{
+  "project_id": "story-02",
+  "parent_project_id": "2026-031-carts-barrier-depot",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_painterly",
+  "voice_speed_multiplier": 1.0,
+  "timing_source": "actual_approved_words_from_Whisper",
+  "scenes": [
+    {
+      "id": "C02-S01",
+      "chapter_id": "C02",
+      "type": "cold_open",
+      "start_seconds": -4.200000000764703e-05,
+      "end_seconds": 8.119957999999997,
+      "duration_seconds": 8.12,
+      "estimated_words": 16,
+      "target_wpm": 125.0,
+      "purpose": "벽 안 보행의 콜드 오픈",
+      "narration_text": "방음벽 안에서 뭔가 제 발에 맞춰 걸었어요. 저는 위쪽 점검로에 있었는데, 그건 벽의 아래쪽에 붙어 있었습니다.",
+      "caption_text": "방음벽 안에서 뭔가 제 발에 맞춰 걸었어요. 저는 위쪽 점검로에 있었는데, 그건 벽의 아래쪽에 붙어 있었습니다.",
+      "visual": "상부에 선 작업자와 벽 / 패널 아래쪽에서 움직이는 여섯 자국만",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 416.582,
+          "action": "cut to distinct camera setup C02-S01-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 421.512,
+          "action": "cut to distinct camera setup C02-S01-A2",
+          "spoken_anchor": "그건 벽의 아래쪽에"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "위 점검로와 아래 긁힘의 높이 차이",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "벽 안 보행의 콜드 오픈에서 위 점검로와 아래 긁힘의 높이 차이가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S01-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": -4.200000000764703e-05,
+          "end_seconds": 4.929957999999999,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "overview",
+          "camera_position": "통제 차로 바깥 높은 작업 위치",
+          "camera_angle": "downward",
+          "camera_height": "3m",
+          "shot_size": "wide",
+          "subject_focus": "상부에 선 작업자와 벽",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S01-A1",
+          "new_information": "상부에 선 작업자와 벽",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C02-S01-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 4.929957999999999,
+          "end_seconds": 8.119957999999997,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "under",
+          "camera_position": "패널 밑 빗물받이 높이",
+          "camera_angle": "low",
+          "camera_height": "0.2m",
+          "shot_size": "detail",
+          "subject_focus": "패널 아래쪽에서 움직이는 여섯 자국만",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S01-A2",
+          "new_information": "패널 아래쪽에서 움직이는 여섯 자국만",
+          "reuse_reason": null,
+          "spoken_anchor": "그건 벽의 아래쪽에"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 0,
+      "audio_local_end_seconds": 8.12
+    },
+    {
+      "id": "C02-S02",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 8.119957999999997,
+      "end_seconds": 38.21995800000002,
+      "duration_seconds": 30.1,
+      "estimated_words": 60,
+      "target_wpm": 125.0,
+      "purpose": "정상 야간 보수 동선",
+      "narration_text": "국도 옆 방음벽을 보수하는 일을 했습니다. 그날 밤에는 태풍 뒤에 느슨해진 금속 패널 두 장을 교체하기로 했어요. 한 차로를 막아 두고 작업했고, 동료는 도로 쪽 트럭에서 새 패널과 공구를 관리했습니다. 저는 방음벽 안쪽의 좁은 점검로에 올라가 볼트 상태를 확인했죠. 점검로 왼쪽에는 주택가로 내려가는 계단이, 오른쪽 끝에는 막힌 패널이 있었습니다. 아래 도로는 작업등 때문에 환했고, 제 발밑 철제 바닥도 잘 보였어요.",
+      "caption_text": "국도 옆 방음벽을 보수하는 일을 했습니다. 그날 밤에는 태풍 뒤에 느슨해진 금속 패널 두 장을 교체하기로 했어요. 한 차로를 막아 두고 작업했고, 동료는 도로 쪽 트럭에서 새 패널과 공구를 관리했습니다. 저는 방음벽 안쪽의 좁은 점검로에 올라가 볼트 상태를 확인했죠. 점검로 왼쪽에는 주택가로 내려가는 계단이, 오른쪽 끝에는 막힌 패널이 있었습니다. 아래 도로는 작업등 때문에 환했고, 제 발밑 철제 바닥도 잘 보였어요.",
+      "visual": "통제 차로·트럭·상부 점검로 / 계단 입구에서 보이는 오른쪽 끝",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 424.702,
+          "action": "cut to distinct camera setup C02-S02-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 442.892,
+          "action": "cut to distinct camera setup C02-S02-A2",
+          "spoken_anchor": "점검로 왼쪽에는"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "좌측 계단과 우측 막힌 끝",
+        "tension_stage": "normal",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "정상 야간 보수 동선에서 좌측 계단과 우측 막힌 끝가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S02-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 8.119957999999997,
+          "end_seconds": 26.309957999999995,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "overview",
+          "camera_position": "통제 차로 바깥 높은 작업 위치",
+          "camera_angle": "downward",
+          "camera_height": "3m",
+          "shot_size": "wide",
+          "subject_focus": "통제 차로·트럭·상부 점검로",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S02-A1",
+          "new_information": "통제 차로·트럭·상부 점검로",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C02-S02-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 26.309957999999995,
+          "end_seconds": 38.21995800000002,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "stairs",
+          "camera_position": "왼쪽 계단 아래에서 점검로 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.4m",
+          "shot_size": "medium",
+          "subject_focus": "계단 입구에서 보이는 오른쪽 끝",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S02-A2",
+          "new_information": "계단 입구에서 보이는 오른쪽 끝",
+          "reuse_reason": null,
+          "spoken_anchor": "점검로 왼쪽에는"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 8.12,
+      "audio_local_end_seconds": 38.22
+    },
+    {
+      "id": "C02-S03",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 38.21995800000002,
+      "end_seconds": 68.13995799999998,
+      "duration_seconds": 29.92,
+      "estimated_words": 65,
+      "target_wpm": 125.0,
+      "purpose": "손을 뗀 뒤 돌아오는 두드림",
+      "narration_text": "보통은 패널을 손으로 두드리면 소리로 헐거운 곳을 알 수 있습니다. 첫 장을 두드렸을 때는 둔탁한 금속음이 났고, 두 번째 장에서는 비어 있는 긴 울림이 나왔어요. 사진을 찍고 표시 분필을 꺼내려는데, 두 번째 패널의 아래쪽에서 같은 간격으로 세 번 두드리는 소리가 났습니다. 제 손은 이미 벽에서 떨어져 있었어요. 바람이 지나가며 울리는 줄 알고 몇 걸음 뒤로 물러났습니다. 그러자 소리도 제 발을 따라 두 칸 옮겨 왔어요.",
+      "caption_text": "보통은 패널을 손으로 두드리면 소리로 헐거운 곳을 알 수 있습니다. 첫 장을 두드렸을 때는 둔탁한 금속음이 났고, 두 번째 장에서는 비어 있는 긴 울림이 나왔어요. 사진을 찍고 표시 분필을 꺼내려는데, 두 번째 패널의 아래쪽에서 같은 간격으로 세 번 두드리는 소리가 났습니다. 제 손은 이미 벽에서 떨어져 있었어요. 바람이 지나가며 울리는 줄 알고 몇 걸음 뒤로 물러났습니다. 그러자 소리도 제 발을 따라 두 칸 옮겨 왔어요.",
+      "visual": "손이 떨어진 철판과 표시 / 두 칸 옮긴 발과 그 아래 소리 위치",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 454.802,
+          "action": "cut to distinct camera setup C02-S03-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 480.572,
+          "action": "cut to distinct camera setup C02-S03-A2",
+          "spoken_anchor": "그러자 소리도"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S03",
+            "spoken_cue": "세 번 두드리는",
+            "start_seconds": 469.162,
+            "kind": "triple",
+            "duration_seconds": 0.9
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "두 번째 패널의 독립된 응답",
+        "tension_stage": "anomaly",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "손을 뗀 뒤 돌아오는 두드림에서 두 번째 패널의 독립된 응답가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S03-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 38.21995800000002,
+          "end_seconds": 63.989958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "panel",
+          "camera_position": "점검로 위 패널 정면",
+          "camera_angle": "frontal",
+          "camera_height": "1.3m",
+          "shot_size": "medium",
+          "subject_focus": "손이 떨어진 철판과 표시",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S03-A1",
+          "new_information": "손이 떨어진 철판과 표시",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C02-S03-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 63.989958,
+          "end_seconds": 68.13995799999998,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "foot",
+          "camera_position": "점검로에서 화자의 작업화 방향",
+          "camera_angle": "downward",
+          "camera_height": "0.9m",
+          "shot_size": "detail",
+          "subject_focus": "두 칸 옮긴 발과 그 아래 소리 위치",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S03-A2",
+          "new_information": "두 칸 옮긴 발과 그 아래 소리 위치",
+          "reuse_reason": null,
+          "spoken_anchor": "그러자 소리도"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 38.22,
+      "audio_local_end_seconds": 68.14
+    },
+    {
+      "id": "C02-S04",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 68.13995799999998,
+      "end_seconds": 96.619958,
+      "duration_seconds": 28.48,
+      "estimated_words": 54,
+      "target_wpm": 125.0,
+      "purpose": "벌어진 이음새와 여섯 자국",
+      "narration_text": "작업등을 낮춰 패널 이음새를 봤습니다. 원래 손가락 하나 들어갈 만큼 벌어져 있던 곳이 손바닥 넓이만큼 열려 있었죠. 그 안은 그냥 빈 공간이어야 했어요. 패널 뒤에는 흡음재가 붙어 있고, 다른 쪽은 콘크리트 지지대거든요. 틈 바닥에는 하얗게 긁힌 선이 여섯 개 있었습니다. 먼지가 벗겨진 자국이라고 하기에는 선마다 끝이 둥글었어요. 저는 분필로 틈의 바깥쪽을 표시하고 동료를 불렀습니다.",
+      "caption_text": "작업등을 낮춰 패널 이음새를 봤습니다. 원래 손가락 하나 들어갈 만큼 벌어져 있던 곳이 손바닥 넓이만큼 열려 있었죠. 그 안은 그냥 빈 공간이어야 했어요. 패널 뒤에는 흡음재가 붙어 있고, 다른 쪽은 콘크리트 지지대거든요. 틈 바닥에는 하얗게 긁힌 선이 여섯 개 있었습니다. 먼지가 벗겨진 자국이라고 하기에는 선마다 끝이 둥글었어요. 저는 분필로 틈의 바깥쪽을 표시하고 동료를 불렀습니다.",
+      "visual": "옆에서 본 벌어진 이음새 / 바닥 높이에서 드러난 긁힘과 분필 표시",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 484.722,
+          "action": "cut to distinct camera setup C02-S04-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 500.592,
+          "action": "cut to distinct camera setup C02-S04-A2",
+          "spoken_anchor": "틈 바닥에는"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "분필선·패널 틈·긁힘 여섯 줄",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "벌어진 이음새와 여섯 자국에서 분필선·패널 틈·긁힘 여섯 줄가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S04-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 68.13995799999998,
+          "end_seconds": 84.00995799999998,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "seam",
+          "camera_position": "패널 이음새 오른쪽 사선",
+          "camera_angle": "oblique",
+          "camera_height": "0.8m",
+          "shot_size": "detail",
+          "subject_focus": "옆에서 본 벌어진 이음새",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S04-A1",
+          "new_information": "옆에서 본 벌어진 이음새",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C02-S04-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 84.00995799999998,
+          "end_seconds": 96.26995799999997,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "under",
+          "camera_position": "패널 밑 빗물받이 높이",
+          "camera_angle": "low",
+          "camera_height": "0.2m",
+          "shot_size": "detail",
+          "subject_focus": "바닥 높이에서 드러난 긁힘과 분필 표시",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S04-A2",
+          "new_information": "바닥 높이에서 드러난 긁힘과 분필 표시",
+          "reuse_reason": null,
+          "spoken_anchor": "틈 바닥에는"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 68.14,
+      "audio_local_end_seconds": 96.62
+    },
+    {
+      "id": "C02-S05",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 96.619958,
+      "end_seconds": 133.27995799999997,
+      "duration_seconds": 36.66,
+      "estimated_words": 70,
+      "target_wpm": 125.0,
+      "purpose": "상하 시점의 불일치",
+      "narration_text": "동료가 도로에서 올려다봤어요. 그는 아래에서는 틈이 안 보이고, 제 발밑 패널 하나가 안쪽으로 휘어 보인다고 했습니다. 제가 있는 곳에서는 오히려 패널이 바깥쪽으로 부풀어 있었죠. 같은 철판이 서로 반대 방향으로 휘어 보인다는 말이 이상했어요. 저는 계단으로 내려가 함께 보자고 했습니다. 그 전에 분필선 옆 볼트를 손가락으로 눌러 봤어요. 볼트는 단단했는데 주변 철판만 한 번씩 제 손끝을 밀었습니다. 처음에는 도로로 지나가는 차의 진동이라고 생각했죠. 통제된 차로에는 우리 트럭밖에 없다는 걸 곧 떠올렸습니다.",
+      "caption_text": "동료가 도로에서 올려다봤어요. 그는 아래에서는 틈이 안 보이고, 제 발밑 패널 하나가 안쪽으로 휘어 보인다고 했습니다. 제가 있는 곳에서는 오히려 패널이 바깥쪽으로 부풀어 있었죠. 같은 철판이 서로 반대 방향으로 휘어 보인다는 말이 이상했어요. 저는 계단으로 내려가 함께 보자고 했습니다. 그 전에 분필선 옆 볼트를 손가락으로 눌러 봤어요. 볼트는 단단했는데 주변 철판만 한 번씩 제 손끝을 밀었습니다. 처음에는 도로로 지나가는 차의 진동이라고 생각했죠. 통제된 차로에는 우리 트럭밖에 없다는 걸 곧 떠올렸습니다.",
+      "visual": "아래 도로에서 본 부푼 패널 / 위에서 단단한 볼트 주변만 움직이는 철판",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 512.852,
+          "action": "cut to distinct camera setup C02-S05-A1",
+          "spoken_anchor": "동료가 도로에서"
+        },
+        {
+          "absolute_seconds": 532.952,
+          "action": "cut to distinct camera setup C02-S05-A2",
+          "spoken_anchor": "그 전에 분필선"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "철판을 미는 압력",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "상하 시점의 불일치에서 철판을 미는 압력가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S05-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 96.26995799999997,
+          "end_seconds": 116.369958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "road",
+          "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "아래 도로에서 본 부푼 패널",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S05-A1",
+          "new_information": "아래 도로에서 본 부푼 패널",
+          "reuse_reason": null,
+          "spoken_anchor": "동료가 도로에서"
+        },
+        {
+          "shot_id": "C02-S05-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 116.369958,
+          "end_seconds": 132.92995799999994,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "panel",
+          "camera_position": "점검로 위 패널 정면",
+          "camera_angle": "frontal",
+          "camera_height": "1.3m",
+          "shot_size": "medium",
+          "subject_focus": "위에서 단단한 볼트 주변만 움직이는 철판",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S05-A2",
+          "new_information": "위에서 단단한 볼트 주변만 움직이는 철판",
+          "reuse_reason": null,
+          "spoken_anchor": "그 전에 분필선"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 96.62,
+      "audio_local_end_seconds": 133.28
+    },
+    {
+      "id": "C02-S06",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 133.27995799999997,
+      "end_seconds": 143.379958,
+      "duration_seconds": 10.1,
+      "estimated_words": 21,
+      "target_wpm": 125.0,
+      "purpose": "발전기 진동에 움직이는 흔적",
+      "narration_text": "몇 걸음 걸었는데, 아래에서 트럭 발전기가 켜지는 소리가 났어요. 그 순간 제가 지나던 벽 안쪽에서 여섯 개의 마른 긁힘이 빠르게 이어졌습니다.",
+      "caption_text": "몇 걸음 걸었는데, 아래에서 트럭 발전기가 켜지는 소리가 났어요. 그 순간 제가 지나던 벽 안쪽에서 여섯 개의 마른 긁힘이 빠르게 이어졌습니다.",
+      "visual": "트럭 발전기 시작 / 분필선 아래를 지나는 여섯 갈래 긁힘",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 549.512,
+          "action": "cut to distinct camera setup C02-S06-A1",
+          "spoken_anchor": "몇 걸음 걸었는데"
+        },
+        {
+          "absolute_seconds": 553.532,
+          "action": "cut to distinct camera setup C02-S06-A2",
+          "spoken_anchor": "그 순간 제가"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S06",
+            "spoken_cue": "발전기가 켜지는",
+            "start_seconds": 549.862,
+            "kind": "generator",
+            "duration_seconds": 1.2
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth",
+          "sound_bridge_silence"
+        ],
+        "clue": "아래 발전기와 벽 안 긁힘",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "발전기 진동에 움직이는 흔적에서 아래 발전기와 벽 안 긁힘가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S06-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 132.92995799999994,
+          "end_seconds": 136.94995800000004,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "road",
+          "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "트럭 발전기 시작",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S06-A1",
+          "new_information": "트럭 발전기 시작",
+          "reuse_reason": null,
+          "spoken_anchor": "몇 걸음 걸었는데"
+        },
+        {
+          "shot_id": "C02-S06-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 136.94995800000004,
+          "end_seconds": 143.02995799999997,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "under",
+          "camera_position": "패널 밑 빗물받이 높이",
+          "camera_angle": "low",
+          "camera_height": "0.2m",
+          "shot_size": "detail",
+          "subject_focus": "분필선 아래를 지나는 여섯 갈래 긁힘",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S06-A2",
+          "new_information": "분필선 아래를 지나는 여섯 갈래 긁힘",
+          "reuse_reason": null,
+          "spoken_anchor": "그 순간 제가"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 133.28,
+      "audio_local_end_seconds": 143.38
+    },
+    {
+      "id": "C02-S07",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 143.379958,
+      "end_seconds": 174.65995799999996,
+      "duration_seconds": 31.28,
+      "estimated_words": 59,
+      "target_wpm": 125.0,
+      "purpose": "바닥 아래 회색 마디의 부분 공개",
+      "narration_text": "계단 앞에 멈춰 섰어요. 손전등으로 바닥을 비추자 철제 점검로 밑의 빗물받이 틈에서 얇은 회색 조각이 나왔습니다. 넓은 쪽은 손등 같고 끝은 갈라진 금속 조각 같았어요. 하나가 아니라 여섯 개였습니다. 그 조각들은 나란히 뻗지 않고, 하나씩 차례로 발밑을 짚으며 제 쪽으로 왔어요. 발전기 소음이 끊기자 모두 멈췄습니다. 제 호흡만 들리는 동안, 가장 가까운 조각 끝이 제 작업화 코앞에 닿아 있었죠.",
+      "caption_text": "계단 앞에 멈춰 섰어요. 손전등으로 바닥을 비추자 철제 점검로 밑의 빗물받이 틈에서 얇은 회색 조각이 나왔습니다. 넓은 쪽은 손등 같고 끝은 갈라진 금속 조각 같았어요. 하나가 아니라 여섯 개였습니다. 그 조각들은 나란히 뻗지 않고, 하나씩 차례로 발밑을 짚으며 제 쪽으로 왔어요. 발전기 소음이 끊기자 모두 멈췄습니다. 제 호흡만 들리는 동안, 가장 가까운 조각 끝이 제 작업화 코앞에 닿아 있었죠.",
+      "visual": "멈춘 작업화 앞 / 빗물받이 틈의 회색 마디들이 순서대로 움직임",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 559.612,
+          "action": "cut to distinct camera setup C02-S07-A1",
+          "spoken_anchor": "계단 앞에"
+        },
+        {
+          "absolute_seconds": 566.012,
+          "action": "cut to distinct camera setup C02-S07-A2",
+          "spoken_anchor": "얇은 회색 조각이"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S07",
+            "spoken_cue": "회색 조각이",
+            "start_seconds": 563.682,
+            "kind": "fabric",
+            "duration_seconds": 0.52
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "철제 바닥 틈을 짚는 마디 여섯 개",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "바닥 아래 회색 마디의 부분 공개에서 철제 바닥 틈을 짚는 마디 여섯 개가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S07-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 143.02995799999997,
+          "end_seconds": 149.42995799999994,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "foot",
+          "camera_position": "점검로에서 화자의 작업화 방향",
+          "camera_angle": "downward",
+          "camera_height": "0.9m",
+          "shot_size": "detail",
+          "subject_focus": "멈춘 작업화 앞",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S07-A1",
+          "new_information": "멈춘 작업화 앞",
+          "reuse_reason": null,
+          "spoken_anchor": "계단 앞에"
+        },
+        {
+          "shot_id": "C02-S07-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 149.42995799999994,
+          "end_seconds": 177.92995799999994,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "under",
+          "camera_position": "패널 밑 빗물받이 높이",
+          "camera_angle": "low",
+          "camera_height": "0.2m",
+          "shot_size": "detail",
+          "subject_focus": "빗물받이 틈의 회색 마디들이 순서대로 움직임",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S07-A2",
+          "new_information": "빗물받이 틈의 회색 마디들이 순서대로 움직임",
+          "reuse_reason": null,
+          "spoken_anchor": "얇은 회색 조각이"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 143.38,
+      "audio_local_end_seconds": 174.66
+    },
+    {
+      "id": "C02-S08",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 174.65995799999996,
+      "end_seconds": 215.17995799999994,
+      "duration_seconds": 40.52,
+      "estimated_words": 75,
+      "target_wpm": 125.0,
+      "purpose": "안전 점검로가 추적 경로가 됨",
+      "narration_text": "동료에게 발전기를 다시 켜지 말라고 무전했습니다. 그가 알아듣기 전에 트럭 쪽 공구통이 떨어졌어요. 금속이 부딪치는 소리에 회색 조각들이 한꺼번에 옆으로 움직였습니다. 이번에는 제 쪽이 아니라 공구통이 떨어진 방향이었어요. 그제야 소리가 아니라 금속을 타고 전해지는 떨림을 따라간다는 생각이 들었습니다. 떨어지지 말라고 만들어 둔 점검로가 벽과 한 몸으로 연결돼 있었어요. 제가 발을 디디는 곳마다 그것한테 제 자리를 알려 주고 있었던 겁니다. 저는 가만히 서서, 방금 표시해 둔 분필선이 점점 길어지는 걸 봤어요. 벽의 이음새가 안쪽에서 벌어지고 있었습니다.",
+      "caption_text": "동료에게 발전기를 다시 켜지 말라고 무전했습니다. 그가 알아듣기 전에 트럭 쪽 공구통이 떨어졌어요. 금속이 부딪치는 소리에 회색 조각들이 한꺼번에 옆으로 움직였습니다. 이번에는 제 쪽이 아니라 공구통이 떨어진 방향이었어요. 그제야 소리가 아니라 금속을 타고 전해지는 떨림을 따라간다는 생각이 들었습니다. 떨어지지 말라고 만들어 둔 점검로가 벽과 한 몸으로 연결돼 있었어요. 제가 발을 디디는 곳마다 그것한테 제 자리를 알려 주고 있었던 겁니다. 저는 가만히 서서, 방금 표시해 둔 분필선이 점점 길어지는 걸 봤어요. 벽의 이음새가 안쪽에서 벌어지고 있었습니다.",
+      "visual": "떨어진 공구통 / 벽과 점검로 연결점, 발과 함께 전해지는 떨림",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 594.512,
+          "action": "cut to distinct camera setup C02-S08-A1",
+          "spoken_anchor": "그가 알아듣기 전에"
+        },
+        {
+          "absolute_seconds": 606.232,
+          "action": "cut to distinct camera setup C02-S08-A2",
+          "spoken_anchor": "그제야 소리가"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S08",
+            "spoken_cue": "공구통이 떨어졌어요",
+            "start_seconds": 593.602,
+            "kind": "metal",
+            "duration_seconds": 0.58
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "공구 충격과 연결된 금속 구조",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "안전 점검로가 추적 경로가 됨에서 공구 충격과 연결된 금속 구조가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S08-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 177.92995799999994,
+          "end_seconds": 189.64995799999997,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "road",
+          "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "떨어진 공구통",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S08-A1",
+          "new_information": "떨어진 공구통",
+          "reuse_reason": null,
+          "spoken_anchor": "그가 알아듣기 전에"
+        },
+        {
+          "shot_id": "C02-S08-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 189.64995799999997,
+          "end_seconds": 226.58995800000002,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "foot",
+          "camera_position": "점검로에서 화자의 작업화 방향",
+          "camera_angle": "downward",
+          "camera_height": "0.9m",
+          "shot_size": "detail",
+          "subject_focus": "벽과 점검로 연결점, 발과 함께 전해지는 떨림",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S08-A2",
+          "new_information": "벽과 점검로 연결점, 발과 함께 전해지는 떨림",
+          "reuse_reason": null,
+          "spoken_anchor": "그제야 소리가"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 174.66,
+      "audio_local_end_seconds": 215.18
+    },
+    {
+      "id": "C02-S09",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 215.17995799999994,
+      "end_seconds": 245.91995799999995,
+      "duration_seconds": 30.74,
+      "estimated_words": 59,
+      "target_wpm": 125.0,
+      "purpose": "아래의 동료가 한 몸을 확인",
+      "narration_text": "동료가 계단 아래에 도착해 고개를 들었습니다. 제가 내려오라며 손짓하려는데, 그는 제 오른쪽을 보고 굳었어요. 제가 볼 수 없던 패널 겉면에 사람 키보다 긴 회색 등판 같은 것이 붙어 있었답니다. 허리처럼 좁아지는 중간 부분과, 양옆으로 펼쳐진 여섯 개의 마디가 보였다고 했어요. 얼굴이나 눈은 없었습니다. 저는 뒤를 돌아볼 수가 없었어요. 점검로는 한 사람이 겨우 지나갈 폭이었고, 돌아서는 순간 바닥을 밟아야 했거든요.",
+      "caption_text": "동료가 계단 아래에 도착해 고개를 들었습니다. 제가 내려오라며 손짓하려는데, 그는 제 오른쪽을 보고 굳었어요. 제가 볼 수 없던 패널 겉면에 사람 키보다 긴 회색 등판 같은 것이 붙어 있었답니다. 허리처럼 좁아지는 중간 부분과, 양옆으로 펼쳐진 여섯 개의 마디가 보였다고 했어요. 얼굴이나 눈은 없었습니다. 저는 뒤를 돌아볼 수가 없었어요. 점검로는 한 사람이 겨우 지나갈 폭이었고, 돌아서는 순간 바닥을 밟아야 했거든요.",
+      "visual": "아래쪽 동료의 시선에서 본 회색 등판 / 좁은 점검로에 멈춘 화자의 측면",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 643.172,
+          "action": "cut to distinct camera setup C02-S09-A1",
+          "spoken_anchor": "회색 등판 같은 것이"
+        },
+        {
+          "absolute_seconds": 654.332,
+          "action": "cut to distinct camera setup C02-S09-A2",
+          "spoken_anchor": "저는 뒤를 돌아볼"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.9,
+        "intentional_silence_note": "음악·공간음·효과음만 0.9초 낮추는 구간; 나레이션은 원래 흐름을 유지한다.",
+        "intentional_silence_start_seconds": 640.722
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth",
+          "sound_bridge_silence"
+        ],
+        "clue": "여섯 마디가 붙은 납작한 몸",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "아래의 동료가 한 몸을 확인에서 여섯 마디가 붙은 납작한 몸가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S09-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 226.58995800000002,
+          "end_seconds": 237.749958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "road",
+          "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "아래쪽 동료의 시선에서 본 회색 등판",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S09-A1",
+          "new_information": "아래쪽 동료의 시선에서 본 회색 등판",
+          "reuse_reason": null,
+          "spoken_anchor": "회색 등판 같은 것이"
+        },
+        {
+          "shot_id": "C02-S09-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 237.749958,
+          "end_seconds": 253.04995799999995,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "profile",
+          "camera_position": "점검로 계단 쪽에서 옆면 방향",
+          "camera_angle": "side",
+          "camera_height": "1.2m",
+          "shot_size": "medium",
+          "subject_focus": "좁은 점검로에 멈춘 화자의 측면",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S09-A2",
+          "new_information": "좁은 점검로에 멈춘 화자의 측면",
+          "reuse_reason": null,
+          "spoken_anchor": "저는 뒤를 돌아볼"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 215.18,
+      "audio_local_end_seconds": 245.92
+    },
+    {
+      "id": "C02-S10",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 245.91995799999995,
+      "end_seconds": 278.53995799999996,
+      "duration_seconds": 32.62,
+      "estimated_words": 63,
+      "target_wpm": 125.0,
+      "purpose": "발목과 난간을 통한 직접 접촉",
+      "narration_text": "계단까지 세 걸음 남았을 때 제 왼쪽 작업화가 아래로 꺼졌습니다. 철판이 부서진 게 아니었어요. 그 밑에서 회색 마디 두 개가 발판을 벌리고 발목을 잡았습니다. 표면이 젖은 돌처럼 거칠었고, 손가락은 없었어요. 다른 마디가 난간을 잡으면서 난간이 제 쪽으로 휘었습니다. 저는 한 손으로 계단 손잡이를 붙들고 발을 빼려고 했지만 작업화 끈이 마디 사이에 걸렸습니다. 동료가 아래에서 제 이름을 불렀고, 벽 전체가 그 소리에 얇게 떨렸어요.",
+      "caption_text": "계단까지 세 걸음 남았을 때 제 왼쪽 작업화가 아래로 꺼졌습니다. 철판이 부서진 게 아니었어요. 그 밑에서 회색 마디 두 개가 발판을 벌리고 발목을 잡았습니다. 표면이 젖은 돌처럼 거칠었고, 손가락은 없었어요. 다른 마디가 난간을 잡으면서 난간이 제 쪽으로 휘었습니다. 저는 한 손으로 계단 손잡이를 붙들고 발을 빼려고 했지만 작업화 끈이 마디 사이에 걸렸습니다. 동료가 아래에서 제 이름을 불렀고, 벽 전체가 그 소리에 얇게 떨렸어요.",
+      "visual": "발판 아래에서 작업화를 잡은 두 마디 / 다른 마디가 휘게 하는 난간",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 669.632,
+          "action": "cut to distinct camera setup C02-S10-A1",
+          "spoken_anchor": "그 밑에서 회색 마디"
+        },
+        {
+          "absolute_seconds": 678.772,
+          "action": "cut to distinct camera setup C02-S10-A2",
+          "spoken_anchor": "다른 마디가 난간을"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S10",
+            "spoken_cue": "발목을 잡았습니다",
+            "start_seconds": 670.782,
+            "kind": "thud",
+            "duration_seconds": 0.37
+          },
+          {
+            "scene_id": "C02-S10",
+            "spoken_cue": "난간이 제 쪽으로",
+            "start_seconds": 678.002,
+            "kind": "metal",
+            "duration_seconds": 0.58
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "왼쪽 발목을 잡은 두 마디",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "발목과 난간을 통한 직접 접촉에서 왼쪽 발목을 잡은 두 마디가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S10-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 253.04995799999995,
+          "end_seconds": 262.18995800000005,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "foot",
+          "camera_position": "점검로에서 화자의 작업화 방향",
+          "camera_angle": "downward",
+          "camera_height": "0.9m",
+          "shot_size": "detail",
+          "subject_focus": "발판 아래에서 작업화를 잡은 두 마디",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S10-A1",
+          "new_information": "발판 아래에서 작업화를 잡은 두 마디",
+          "reuse_reason": null,
+          "spoken_anchor": "그 밑에서 회색 마디"
+        },
+        {
+          "shot_id": "C02-S10-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 262.18995800000005,
+          "end_seconds": 282.04995799999995,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "profile",
+          "camera_position": "점검로 계단 쪽에서 옆면 방향",
+          "camera_angle": "side",
+          "camera_height": "1.2m",
+          "shot_size": "medium",
+          "subject_focus": "다른 마디가 휘게 하는 난간",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S10-A2",
+          "new_information": "다른 마디가 휘게 하는 난간",
+          "reuse_reason": null,
+          "spoken_anchor": "다른 마디가 난간을"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 245.92,
+      "audio_local_end_seconds": 278.54
+    },
+    {
+      "id": "C02-S11",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 278.53995799999996,
+      "end_seconds": 310.53995799999996,
+      "duration_seconds": 32.0,
+      "estimated_words": 63,
+      "target_wpm": 125.0,
+      "purpose": "떨어진 진동원으로 움직임을 돌림",
+      "narration_text": "더 버둥거리면 발판을 통해 진동이 전해질 것 같았어요. 저는 몸을 멈춘 채 주머니에 있던 전동 드라이버를 켰습니다. 벽과 떨어진 손에 들고 있으니 회색 마디는 반응하지 않았어요. 손이 닿지 않는 점검로 오른쪽 끝에 금속 공구 상자가 있었습니다. 저는 드라이버를 그 상자 위로 던졌어요. 회전하던 비트가 상자에 닿자 날카로운 진동이 벽 쪽으로 전해졌습니다. 발목을 붙잡던 두 마디가 동시에 풀렸고, 패널 겉면의 회색 등이 오른쪽으로 미끄러졌어요.",
+      "caption_text": "더 버둥거리면 발판을 통해 진동이 전해질 것 같았어요. 저는 몸을 멈춘 채 주머니에 있던 전동 드라이버를 켰습니다. 벽과 떨어진 손에 들고 있으니 회색 마디는 반응하지 않았어요. 손이 닿지 않는 점검로 오른쪽 끝에 금속 공구 상자가 있었습니다. 저는 드라이버를 그 상자 위로 던졌어요. 회전하던 비트가 상자에 닿자 날카로운 진동이 벽 쪽으로 전해졌습니다. 발목을 붙잡던 두 마디가 동시에 풀렸고, 패널 겉면의 회색 등이 오른쪽으로 미끄러졌어요.",
+      "visual": "금속에서 떨어진 손의 드라이버 / 오른쪽 상자에 닿은 비트와 풀리는 발목",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 698.632,
+          "action": "cut to distinct camera setup C02-S11-A1",
+          "spoken_anchor": "저는 몸을 멈춘 채"
+        },
+        {
+          "absolute_seconds": 712.432,
+          "action": "cut to distinct camera setup C02-S11-A2",
+          "spoken_anchor": "저는 드라이버를"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S11",
+            "spoken_cue": "전동 드라이버를 켰습니다",
+            "start_seconds": 699.562,
+            "kind": "drill",
+            "duration_seconds": 0.9
+          },
+          {
+            "scene_id": "C02-S11",
+            "spoken_cue": "상자 위로 던졌어요",
+            "start_seconds": 711.362,
+            "kind": "metal",
+            "duration_seconds": 0.58
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "전동 드라이버·오른쪽 상자",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "떨어진 진동원으로 움직임을 돌림에서 전동 드라이버·오른쪽 상자가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S11-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 282.04995799999995,
+          "end_seconds": 295.849958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "hand",
+          "camera_position": "화자의 손과 금속이 떨어진 틈",
+          "camera_angle": "side",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "금속에서 떨어진 손의 드라이버",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S11-A1",
+          "new_information": "금속에서 떨어진 손의 드라이버",
+          "reuse_reason": null,
+          "spoken_anchor": "저는 몸을 멈춘 채"
+        },
+        {
+          "shot_id": "C02-S11-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 295.849958,
+          "end_seconds": 310.18995800000005,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "right_end",
+          "camera_position": "계단 쪽에서 오른쪽 끝 공구함 방향",
+          "camera_angle": "oblique",
+          "camera_height": "1.3m",
+          "shot_size": "medium",
+          "subject_focus": "오른쪽 상자에 닿은 비트와 풀리는 발목",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S11-A2",
+          "new_information": "오른쪽 상자에 닿은 비트와 풀리는 발목",
+          "reuse_reason": null,
+          "spoken_anchor": "저는 드라이버를"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 278.54,
+      "audio_local_end_seconds": 310.54
+    },
+    {
+      "id": "C02-S12",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 310.53995799999996,
+      "end_seconds": 345.53995799999996,
+      "duration_seconds": 35.0,
+      "estimated_words": 67,
+      "target_wpm": 125.0,
+      "purpose": "계단 탈출과 목격 대조",
+      "narration_text": "작업화 한 짝을 남긴 채 계단을 내려왔습니다. 동료가 제 팔을 잡아 차로 쪽으로 끌어냈어요. 둘 다 말하지 않고 트럭 뒤로 물러났습니다. 드라이버는 잠깐 더 돌다가 멈췄어요. 그러자 방음벽 안에서 이어지던 긁힘도 멈췄습니다. 작업등에 비친 패널에는 긴 눌림이 남아 있었고, 그 아래 점검로 난간은 제가 잡지 않은 쪽까지 휘어 있었어요. 동료는 저와 같은 회색 형체를 봤다고 했습니다. 여섯 마디가 금속을 짚어 오른쪽으로 움직였고, 몸통은 패널 틈을 지나가면서 납작해졌다고요.",
+      "caption_text": "작업화 한 짝을 남긴 채 계단을 내려왔습니다. 동료가 제 팔을 잡아 차로 쪽으로 끌어냈어요. 둘 다 말하지 않고 트럭 뒤로 물러났습니다. 드라이버는 잠깐 더 돌다가 멈췄어요. 그러자 방음벽 안에서 이어지던 긁힘도 멈췄습니다. 작업등에 비친 패널에는 긴 눌림이 남아 있었고, 그 아래 점검로 난간은 제가 잡지 않은 쪽까지 휘어 있었어요. 동료는 저와 같은 회색 형체를 봤다고 했습니다. 여섯 마디가 금속을 짚어 오른쪽으로 움직였고, 몸통은 패널 틈을 지나가면서 납작해졌다고요.",
+      "visual": "한쪽 신발을 두고 내려오는 화자 / 트럭 뒤에서 본 휘어진 난간과 패널",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 726.772,
+          "action": "cut to distinct camera setup C02-S12-A1",
+          "spoken_anchor": "작업화 한 짝을"
+        },
+        {
+          "absolute_seconds": 742.852,
+          "action": "cut to distinct camera setup C02-S12-A2",
+          "spoken_anchor": "작업등에 비친"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S12",
+            "spoken_cue": "계단을 내려왔습니다",
+            "start_seconds": 727.122,
+            "kind": "gravel",
+            "duration_seconds": 0.66
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "남겨진 왼쪽 작업화와 찌그러진 패널",
+        "tension_stage": "aftermath",
+        "shot_scale": "medium → wide",
+        "baseline_scene_id": null,
+        "selection_reason": "계단 탈출과 목격 대조에서 남겨진 왼쪽 작업화와 찌그러진 패널가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S12-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 310.18995800000005,
+          "end_seconds": 326.269958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "stairs",
+          "camera_position": "왼쪽 계단 아래에서 점검로 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.4m",
+          "shot_size": "medium",
+          "subject_focus": "한쪽 신발을 두고 내려오는 화자",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S12-A1",
+          "new_information": "한쪽 신발을 두고 내려오는 화자",
+          "reuse_reason": null,
+          "spoken_anchor": "작업화 한 짝을"
+        },
+        {
+          "shot_id": "C02-S12-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 326.269958,
+          "end_seconds": 349.849958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "road",
+          "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+          "camera_angle": "upward",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "트럭 뒤에서 본 휘어진 난간과 패널",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S12-A2",
+          "new_information": "트럭 뒤에서 본 휘어진 난간과 패널",
+          "reuse_reason": null,
+          "spoken_anchor": "작업등에 비친"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 310.54,
+      "audio_local_end_seconds": 345.54
+    },
+    {
+      "id": "C02-S13",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 345.53995799999996,
+      "end_seconds": 380.619958,
+      "duration_seconds": 35.08,
+      "estimated_words": 73,
+      "target_wpm": 125.0,
+      "purpose": "낮 현장의 물리 흔적",
+      "narration_text": "도로 통제 담당자에게 구조물이 휘었다고 알리고 작업을 중단했습니다. 날이 밝아 다른 팀과 올라가 보니 제 작업화는 계단 앞 철판 위에 놓여 있었어요. 끈이 여섯 갈래로 눌려 있었고, 밑창 가운데에는 안쪽에서 바깥쪽으로 민 자국이 남았습니다. 방음벽 패널 두 장은 이미 제거돼 트럭에 실려 있었죠. 휘어진 난간과 찢긴 볼트 구멍 때문에 그날은 다른 패널을 달지 못했습니다. 동료가 찍은 현장 사진에는 회색 몸이 나오지 않았지만, 손전등을 들고 서 있는 제 아래에서 철판이 여섯 군데 솟아 있었습니다.",
+      "caption_text": "도로 통제 담당자에게 구조물이 휘었다고 알리고 작업을 중단했습니다. 날이 밝아 다른 팀과 올라가 보니 제 작업화는 계단 앞 철판 위에 놓여 있었어요. 끈이 여섯 갈래로 눌려 있었고, 밑창 가운데에는 안쪽에서 바깥쪽으로 민 자국이 남았습니다. 방음벽 패널 두 장은 이미 제거돼 트럭에 실려 있었죠. 휘어진 난간과 찢긴 볼트 구멍 때문에 그날은 다른 패널을 달지 못했습니다. 동료가 찍은 현장 사진에는 회색 몸이 나오지 않았지만, 손전등을 들고 서 있는 제 아래에서 철판이 여섯 군데 솟아 있었습니다.",
+      "visual": "낮에 회수된 왼쪽 작업화 / 현장 사진 속 철판 변형 여섯 곳",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 766.432,
+          "action": "cut to distinct camera setup C02-S13-A1",
+          "spoken_anchor": "날이 밝아"
+        },
+        {
+          "absolute_seconds": 788.312,
+          "action": "cut to distinct camera setup C02-S13-A2",
+          "spoken_anchor": "동료가 찍은 현장"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "끈의 눌림·철판 여섯 솟음",
+        "tension_stage": "aftermath",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "낮 현장의 물리 흔적에서 끈의 눌림·철판 여섯 솟음가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S13-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 349.849958,
+          "end_seconds": 371.729958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "foot",
+          "camera_position": "점검로에서 화자의 작업화 방향",
+          "camera_angle": "downward",
+          "camera_height": "0.9m",
+          "shot_size": "detail",
+          "subject_focus": "낮에 회수된 왼쪽 작업화",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S13-A1",
+          "new_information": "낮에 회수된 왼쪽 작업화",
+          "reuse_reason": null,
+          "spoken_anchor": "날이 밝아"
+        },
+        {
+          "shot_id": "C02-S13-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 371.729958,
+          "end_seconds": 380.269958,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "photo",
+          "camera_position": "주간 점검자의 손 위 현장 사진",
+          "camera_angle": "top_down",
+          "camera_height": "1.1m",
+          "shot_size": "detail",
+          "subject_focus": "현장 사진 속 철판 변형 여섯 곳",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S13-A2",
+          "new_information": "현장 사진 속 철판 변형 여섯 곳",
+          "reuse_reason": null,
+          "spoken_anchor": "동료가 찍은 현장"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 345.54,
+      "audio_local_end_seconds": 380.62
+    },
+    {
+      "id": "C02-S14",
+      "chapter_id": "C02",
+      "type": "story_beat",
+      "start_seconds": 380.619958,
+      "end_seconds": 409.67995799999994,
+      "duration_seconds": 29.06,
+      "estimated_words": 59,
+      "target_wpm": 125.0,
+      "purpose": "새 패널 안에서 같은 긁힘",
+      "narration_text": "며칠 뒤 새 패널을 받아 왔어요. 교체 작업은 낮에 다른 조가 맡았고 저는 창고에서 자재 번호만 확인했습니다. 포장이 뜯기지 않은 패널을 내려놓을 때, 안쪽에서 여섯 번의 가벼운 긁힘이 났어요. 지게차가 멈추자 소리도 멈췄습니다. 저는 그 패널 번호를 적지 않고 밖으로 나왔어요. 지금도 금속 벽 옆을 걸을 때면 발을 끌지 않습니다. 제가 멈춘 뒤에도 안쪽에서 한 걸음이 더 들릴까 봐요.",
+      "caption_text": "며칠 뒤 새 패널을 받아 왔어요. 교체 작업은 낮에 다른 조가 맡았고 저는 창고에서 자재 번호만 확인했습니다. 포장이 뜯기지 않은 패널을 내려놓을 때, 안쪽에서 여섯 번의 가벼운 긁힘이 났어요. 지게차가 멈추자 소리도 멈췄습니다. 저는 그 패널 번호를 적지 않고 밖으로 나왔어요. 지금도 금속 벽 옆을 걸을 때면 발을 끌지 않습니다. 제가 멈춘 뒤에도 안쪽에서 한 걸음이 더 들릴까 봐요.",
+      "visual": "창고의 포장된 새 패널 / 지게차 정지 뒤 멎는 포장 안의 국소 움직임",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 796.852,
+          "action": "cut to distinct camera setup C02-S14-A1",
+          "spoken_anchor": "며칠 뒤 새 패널을"
+        },
+        {
+          "absolute_seconds": 805.012,
+          "action": "cut to distinct camera setup C02-S14-A2",
+          "spoken_anchor": "포장이 뜯기지 않은"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "철판 세 번 두드림, 여섯 갈래 긁힘, 발전기 떨림, 전동 드라이버와 금속 상자",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C02-S14",
+            "spoken_cue": "여섯 번의 가벼운",
+            "start_seconds": 806.382,
+            "kind": "sixscrape",
+            "duration_seconds": 1.25
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-02-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "미개봉 포장과 여섯 긁힘",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "새 패널 안에서 같은 긁힘에서 미개봉 포장과 여섯 긁힘가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C02-S14-SH1",
+          "location_id": "sound_barrier",
+          "start_seconds": 380.269958,
+          "end_seconds": 388.42995799999994,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "warehouse",
+          "camera_position": "자재 창고 문턱에서 패널 적재대",
+          "camera_angle": "oblique",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "창고의 포장된 새 패널",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S14-A1",
+          "new_information": "창고의 포장된 새 패널",
+          "reuse_reason": null,
+          "spoken_anchor": "며칠 뒤 새 패널을"
+        },
+        {
+          "shot_id": "C02-S14-SH2",
+          "location_id": "sound_barrier",
+          "start_seconds": 388.42995799999994,
+          "end_seconds": 409.67995799999994,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "package",
+          "camera_position": "새 패널 포장 아래 모서리",
+          "camera_angle": "low",
+          "camera_height": "0.4m",
+          "shot_size": "detail",
+          "subject_focus": "지게차 정지 뒤 멎는 포장 안의 국소 움직임",
+          "spatial_anchors": "점검로 왼쪽에 하강 계단 / 오른쪽에 막힌 끝과 공구 상자 / 차로와 트럭은 아래. 한 몸과 총 여섯 마디의 비인간 부속지, 손가락·눈·입 없음. 화자의 왼쪽 작업화만 남는다.",
+          "asset_id": "C02-S14-A2",
+          "new_information": "지게차 정지 뒤 멎는 포장 안의 국소 움직임",
+          "reuse_reason": null,
+          "spoken_anchor": "포장이 뜯기지 않은"
+        }
+      ],
+      "visual_style_id": "horror_painterly",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 380.62,
+      "audio_local_end_seconds": 409.68
+    }
+  ]
+}

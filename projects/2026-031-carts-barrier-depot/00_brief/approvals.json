@@ -1,0 +1,187 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "requested_on": "2026-10-18",
+  "user_requests": [
+    {
+      "text": "새로은 이야기 시작하자.",
+      "scope": "새 이야기 기획"
+    },
+    {
+      "text": "몇군데 참고할 유튜브 사이트 알려준거 같은데, 참고 사이트에서 나온 이야기를 각색하고 소재를 빌려서 쓰는게 좋을거 같아.",
+      "scope": "지정 참고 채널을 확인하고 소재·모티프를 가져와 독립 사건과 결말 작성"
+    },
+    {
+      "text": "그래 진행해줘.",
+      "scope": "직전 원고 승인 질문에 대한 본편·쇼츠 원고 승인"
+    },
+    {
+      "text": "목소리는 너무 여성 목소리로만 하지말고 남성 목소리로도 해줘. 이야기에 따라서 처음부터 남자로 할건지 여성으로 할건지 추천해서 시작하자.",
+      "scope": "이야기별 남성·여성 캐스팅을 처음 원고 제안부터 추천; 여성 전체 자동 적용 수정"
+    },
+    {
+      "text": "좋아. 그렇게 해서 진행해줘.",
+      "scope": "여성 1명·동일 남성 1명의 두 화자 구성 승인. 이번 답변만으로 화면 스타일 승인을 확대 해석하지 않음."
+    },
+    {
+      "text": "추천 스타일 조합 승인",
+      "scope": "카트=거친 2D / 방음벽=어두운 회화 / 차고지=픽셀아트 추천 조합에 대한 별도 승인"
+    }
+  ],
+  "script": {
+    "longform": "approved",
+    "shorts": "approved",
+    "approval_evidence": {
+      "date_kst": "2026-10-18",
+      "user_message": "그래 진행해줘.",
+      "context": "직전 질문: 본편 세 편과 쇼츠 세 편의 원고를 이대로 승인하실까요?",
+      "scope": [
+        "longform_narration_all_three_stories",
+        "separate_shorts_narration_all_three_stories"
+      ]
+    },
+    "approved_file_manifest": "00_brief/script-approval.json"
+  },
+  "production_profile": {
+    "id": "horror_cinematic_story_v1",
+    "status": "approved"
+  },
+  "visual_styles": [
+    {
+      "chapter_id": "C01",
+      "recommended": "horror_rough_2d",
+      "selected": "horror_rough_2d",
+      "status": "approved",
+      "approval_evidence": {
+        "date_kst": "2026-10-18",
+        "user_message": "추천 스타일 조합 승인",
+        "context": "카트=거친 2D / 방음벽=어두운 회화 / 차고지=픽셀아트 추천 조합에 대한 별도 승인",
+        "scope": [
+          "horror_cinematic_story_v1",
+          "C01_horror_rough_2d",
+          "C02_horror_painterly",
+          "C03_horror_pixel"
+        ]
+      }
+    },
+    {
+      "chapter_id": "C02",
+      "recommended": "horror_painterly",
+      "selected": "horror_painterly",
+      "status": "approved",
+      "approval_evidence": {
+        "date_kst": "2026-10-18",
+        "user_message": "추천 스타일 조합 승인",
+        "context": "카트=거친 2D / 방음벽=어두운 회화 / 차고지=픽셀아트 추천 조합에 대한 별도 승인",
+        "scope": [
+          "horror_cinematic_story_v1",
+          "C01_horror_rough_2d",
+          "C02_horror_painterly",
+          "C03_horror_pixel"
+        ]
+      }
+    },
+    {
+      "chapter_id": "C03",
+      "recommended": "horror_pixel",
+      "selected": "horror_pixel",
+      "status": "approved",
+      "approval_evidence": {
+        "date_kst": "2026-10-18",
+        "user_message": "추천 스타일 조합 승인",
+        "context": "카트=거친 2D / 방음벽=어두운 회화 / 차고지=픽셀아트 추천 조합에 대한 별도 승인",
+        "scope": [
+          "horror_cinematic_story_v1",
+          "C01_horror_rough_2d",
+          "C02_horror_painterly",
+          "C03_horror_pixel"
+        ]
+      }
+    }
+  ],
+  "voice": {
+    "status": "all_story_voices_approved",
+    "recommended": "per_story_casting",
+    "female_standing_preference_approved_on": "2026-10-15",
+    "voice_plan": "00_brief/voice-plan.json",
+    "stories": [
+      {
+        "chapter_id": "C01",
+        "recommended_gender": "female",
+        "recommended_voice": "Jian.K",
+        "selected_voice_id": "ah4r1hZOydd3XWlHOm3Y",
+        "status": "voice_approved"
+      },
+      {
+        "chapter_id": "C02",
+        "recommended_gender": "male",
+        "recommended_voice": "Hyuk - Cold and Clear",
+        "selected_voice_id": "ZJCNdZEjYwkOElxugmW2",
+        "status": "voice_approved"
+      },
+      {
+        "chapter_id": "C03",
+        "recommended_gender": "male",
+        "recommended_voice": "Hyuk - Cold and Clear",
+        "selected_voice_id": "ZJCNdZEjYwkOElxugmW2",
+        "status": "voice_approved"
+      }
+    ],
+    "approval_evidence": {
+      "date_kst": "2026-10-18",
+      "user_message": "좋아. 그렇게 해서 진행해줘.",
+      "context": "카트=여성 Jian.K / 방음벽·차고지=동일 남성 보이스, 이야기 경계에서 화자 전환 제안",
+      "scope": [
+        "two_narrator_structure",
+        "C01_Jian_K",
+        "C02_C03_same_male_voice",
+        "matching_shorts_narrators"
+      ]
+    },
+    "male_identity_approval_evidence": {
+      "date_kst": "2026-10-18",
+      "user_message": "A · Hyuk (추천)",
+      "context": "방음벽·차고지 두 편에 함께 쓸 남성 목소리 선택",
+      "scope": [
+        "C02_C03_Hyuk",
+        "SH02_SH03_Hyuk"
+      ]
+    }
+  },
+  "bgm": {
+    "status": "selected_under_explicit_standing_delegation",
+    "selected_candidate": "cand-04",
+    "evidence": "앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.",
+    "selection_record": "02_audio/bgm/delegated-selection.json",
+    "direct_listening_performed": false
+  },
+  "generation_authorized": {
+    "visual_assets_all_stories": true,
+    "narration_C01_and_SH01": true,
+    "narration_C02_C03_SH02_SH03": true,
+    "reason": "all_scripts_visual_styles_and_story_voices_approved",
+    "bgm": true
+  },
+  "visual_approval_evidence": {
+    "date_kst": "2026-10-18",
+    "user_message": "추천 스타일 조합 승인",
+    "context": "카트=거친 2D / 방음벽=어두운 회화 / 차고지=픽셀아트 추천 조합에 대한 별도 승인",
+    "scope": [
+      "horror_cinematic_story_v1",
+      "C01_horror_rough_2d",
+      "C02_horror_painterly",
+      "C03_horror_pixel"
+    ]
+  },
+  "standing_delegation": {
+    "date_kst": "2026-10-18",
+    "user_message": "앞으로 작업은 추천되로 진행해줘. 나한테 안물어봐도되.",
+    "scope": "recommended production choices and quality decisions, including voice review, BGM and remaining delivery",
+    "waiting_for_manual_choice": false
+  },
+  "voice_quality_review": {
+    "status": "accepted_by_delegated_agent_judgment_after_clarity_repairs",
+    "direct_listening_performed": false,
+    "method": "approved-text cross-check, canonical Whisper, local reanalysis, repetition checks, silence and peak review; pronunciation edits repaired and verified",
+    "human_review_requirement": "superseded_by_explicit_standing_delegation_2026-10-18"
+  }
+}

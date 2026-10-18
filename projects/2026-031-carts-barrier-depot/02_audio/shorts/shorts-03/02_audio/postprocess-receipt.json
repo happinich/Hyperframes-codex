@@ -1,0 +1,8 @@
+{
+  "multiplier": 1.07,
+  "method": "ffmpeg atempo pitch preserving",
+  "source": "working/voice-original-1.00x.wav",
+  "output": "working/voice.wav",
+  "raw_elevenlabs_mp3_preserved": true,
+  "direct_listening_review": "pending_user_review"
+}

@@ -1,0 +1,29 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_ids": [
+    "horror_rough_2d",
+    "horror_painterly",
+    "horror_pixel"
+  ],
+  "youtube": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "burned_captions": false
+  },
+  "shorts": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "count": 3,
+    "burned_captions": true
+  },
+  "external_caption_files_delivery": false,
+  "caption_policy": "YouTube automatic for longform, internal Whisper timings retained",
+  "status": "rendered_technical_and_sampled_visual_review_passed",
+  "review_limitations": [
+    "No direct auditory listening",
+    "No complete normal-speed visual playback"
+  ]
+}

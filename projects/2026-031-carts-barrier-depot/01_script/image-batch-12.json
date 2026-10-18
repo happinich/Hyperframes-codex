@@ -1,0 +1,18 @@
+{
+  "assets": [
+    {
+      "id": "C01-S13-A1",
+      "prompt": "Create a NEW tight medium shot in same rough ink-and-matte 2D horror style, navy gray and amber. Aftermath in roofed cart shelter: EXACTLY ONE ordinary steel shopping cart with RED TAPE ONLY ON HANDLE, blue-gray handle end caps, silver-gray basket/frame and black wheels. Cart stands diagonally, short chain loops from its front caster around ONE fixed steel bollard in foreground RIGHT. Rear staff door CLOSED, dry covered concrete. NEW camera at 1.2m height from front RIGHT looking LEFT. Only red cart, single bollard and closed rear door fit in frame; normal blue-handled cart row is entirely OFFSCREEN. No other cart, person, hand, ghost, injury or letters. Match reference cart materials and shelter only, don't copy wide layout.",
+      "refs": [
+        "C01-S13-A1"
+      ]
+    },
+    {
+      "id": "C02-S04-A2",
+      "prompt": "Edit this one gouache scene ONLY: REMOVE the black toolbox near the LEFT staircase in distant background, reconstruct empty steel grated walkway there. Preserve all six thin white scratch lines on foreground inner floor strip, chalk mark, wall bolts, left stairs, railing, camera, scale and lighting. No added object or creature. Toolbox at right dead end is OFFSCREEN; do not add any box.",
+      "refs": [
+        "C02-S04-A2"
+      ]
+    }
+  ]
+}

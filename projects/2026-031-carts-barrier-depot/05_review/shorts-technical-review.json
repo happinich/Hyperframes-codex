@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "2026-031-carts-barrier-depot-shorts-01.mp4",
+    "relative_path": "06_delivery/shorts/2026-031-carts-barrier-depot-shorts-01.mp4",
+    "bytes": 17737745,
+    "sha256": "67697eae2a2f97f1ac3020b1d5bdaeb91070710886ac954f8fdd5f9d2f6c891e",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "frames": 1230,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": "48000",
+    "channels": 2,
+    "video_duration_seconds": 20.5,
+    "audio_duration_seconds": 20.5,
+    "duration_delta_seconds": 0.0,
+    "full_decode": "passed",
+    "freeze_intervals_over_3s": [],
+    "black_intervals_over_1s": [],
+    "extracted_review_frames": [
+      {
+        "time_seconds": 0.05,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-0.05.png"
+      },
+      {
+        "time_seconds": 5.8,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-5.80.png"
+      },
+      {
+        "time_seconds": 11,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-11.00.png"
+      },
+      {
+        "time_seconds": 14.5,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-14.50.png"
+      },
+      {
+        "time_seconds": 19.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-19.30.png"
+      },
+      {
+        "time_seconds": 20.42,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-01-20.42.png"
+      }
+    ],
+    "subjective_listening": false
+  },
+  {
+    "filename": "2026-031-carts-barrier-depot-shorts-02.mp4",
+    "relative_path": "06_delivery/shorts/2026-031-carts-barrier-depot-shorts-02.mp4",
+    "bytes": 19753513,
+    "sha256": "c01f51a7ed34902786fcf4b3e938d9f1fe606603164f92d42ff706d07f15ec6e",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "frames": 1232,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": "48000",
+    "channels": 2,
+    "video_duration_seconds": 20.533333,
+    "audio_duration_seconds": 20.533333,
+    "duration_delta_seconds": 0.0,
+    "full_decode": "passed",
+    "freeze_intervals_over_3s": [],
+    "black_intervals_over_1s": [],
+    "extracted_review_frames": [
+      {
+        "time_seconds": 0.05,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-0.05.png"
+      },
+      {
+        "time_seconds": 5.8,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-5.80.png"
+      },
+      {
+        "time_seconds": 11,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-11.00.png"
+      },
+      {
+        "time_seconds": 14.5,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-14.50.png"
+      },
+      {
+        "time_seconds": 19.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-19.30.png"
+      },
+      {
+        "time_seconds": 20.453333,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-02-20.45.png"
+      }
+    ],
+    "subjective_listening": false
+  },
+  {
+    "filename": "2026-031-carts-barrier-depot-shorts-03.mp4",
+    "relative_path": "06_delivery/shorts/2026-031-carts-barrier-depot-shorts-03.mp4",
+    "bytes": 27637182,
+    "sha256": "bab44f4e1101f866e73777fc7641ac23eabf51fca88a8e3313000192f3c3d085",
+    "width": 1080,
+    "height": 1920,
+    "fps": "60/1",
+    "frames": 1243,
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": "48000",
+    "channels": 2,
+    "video_duration_seconds": 20.716667,
+    "audio_duration_seconds": 20.716667,
+    "duration_delta_seconds": 0.0,
+    "full_decode": "passed",
+    "freeze_intervals_over_3s": [],
+    "black_intervals_over_1s": [],
+    "extracted_review_frames": [
+      {
+        "time_seconds": 0.05,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-0.05.png"
+      },
+      {
+        "time_seconds": 5.8,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-5.80.png"
+      },
+      {
+        "time_seconds": 11,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-11.00.png"
+      },
+      {
+        "time_seconds": 14.5,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-14.50.png"
+      },
+      {
+        "time_seconds": 19.3,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-19.30.png"
+      },
+      {
+        "time_seconds": 20.636667000000003,
+        "path": "05_review/delivery-frames/2026-031-carts-barrier-depot-shorts-03-20.64.png"
+      }
+    ],
+    "subjective_listening": false
+  }
+]

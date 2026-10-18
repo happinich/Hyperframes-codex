@@ -1,0 +1,39 @@
+{
+  "approved_character_coverage": 0.9968763944667559,
+  "recognized_character_precision": 0.9968763944667559,
+  "differences": [
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "속음",
+      "recognized": "소금"
+    },
+    {
+      "op": "replace",
+      "approved": "변",
+      "recognized": "간"
+    },
+    {
+      "op": "replace",
+      "approved": "의",
+      "recognized": "에"
+    },
+    {
+      "op": "replace",
+      "approved": "치",
+      "recognized": "히"
+    },
+    {
+      "op": "replace",
+      "approved": "벽",
+      "recognized": "평"
+    }
+  ],
+  "extended_repeated_passages_detected": false,
+  "direct_listening_performed": false,
+  "status": "text_signal_checked_human_listening_pending"
+}

@@ -1,0 +1,80 @@
+{
+  "voices": [
+    {
+      "name": "story-01",
+      "alignment": 0.9965,
+      "coverage_after_number_orthography": 0.9965367965367965,
+      "precision_after_number_orthography": 0.9961055819991346,
+      "long_silences": [],
+      "long_gaps": [],
+      "status": "text_signal_checked_human_listening_pending"
+    },
+    {
+      "name": "story-02",
+      "alignment": 0.9942,
+      "coverage_after_number_orthography": 0.9968763944667559,
+      "precision_after_number_orthography": 0.9968763944667559,
+      "long_silences": [],
+      "long_gaps": [
+        {
+          "start": 10.52,
+          "end": 11.32,
+          "duration": 0.8,
+          "before": "했습니다.",
+          "after": "그날"
+        }
+      ],
+      "status": "text_signal_checked_human_listening_pending"
+    },
+    {
+      "name": "story-03",
+      "alignment": 0.9912,
+      "coverage_after_number_orthography": 0.9911621741051702,
+      "precision_after_number_orthography": 0.9911621741051702,
+      "long_silences": [],
+      "long_gaps": [],
+      "status": "text_signal_checked_human_listening_pending"
+    },
+    {
+      "name": "shorts-01",
+      "alignment": 0.9737,
+      "coverage_after_number_orthography": 1.0,
+      "precision_after_number_orthography": 1.0,
+      "long_silences": [],
+      "long_gaps": [],
+      "status": "text_signal_checked_human_listening_pending"
+    },
+    {
+      "name": "shorts-02",
+      "alignment": 1.0,
+      "coverage_after_number_orthography": 1.0,
+      "precision_after_number_orthography": 1.0,
+      "long_silences": [],
+      "long_gaps": [],
+      "status": "text_signal_checked_human_listening_pending"
+    },
+    {
+      "name": "shorts-03",
+      "alignment": 0.9914,
+      "coverage_after_number_orthography": 0.9913793103448276,
+      "precision_after_number_orthography": 0.9913793103448276,
+      "long_silences": [],
+      "long_gaps": [
+        {
+          "start": 11.64,
+          "end": 12.46,
+          "duration": 0.82,
+          "before": "굴렀죠.",
+          "after": "앞"
+        }
+      ],
+      "status": "text_signal_checked_human_listening_pending"
+    }
+  ],
+  "C02_take_01": "excluded after confirmed repeated/corrupted speech; take02 prior_request_ids_only replaces it",
+  "SH02": "duplicate first and ending sentences removed; new Whisper exact approved normalized text; raw preserved",
+  "C03_pronunciation_check": "Whisper recognizes 바퀴 자국 as 다큐 자국 in both original and test regeneration; test patch not applied because it did not resolve recognition. Human listening required around 05:43.7.",
+  "intentional_pauses": "C02 0.80 sec between job introduction and event setup, SH03 0.82 sec between bus moving and new display, retain as sentence pauses; no stretched intra-word gap detected",
+  "direct_listening_review": "pending_user",
+  "bgm_generation": "not_started_until_voice_review_passes"
+}

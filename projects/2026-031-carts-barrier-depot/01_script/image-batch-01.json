@@ -1,0 +1,20 @@
+[
+  {
+    "id": "C01-S02-A1",
+    "prompt": "Use case: illustration-story. Final SINGLE 16:9 landscape 2D horror animation background. Reference is style and object design ONLY; no ghost. Camera 2.5m high from FRONT RIGHT of supermarket roofed cart shelter, looking diagonally toward rear staff door. Draw ONE central nested row of exactly ELEVEN normal steel-wire carts with plain dark blue handles; do not create extra parallel rows. BEHIND that row (far end near rear wall), leave a small clear gap and ONE separate defective cart with RED taped handle, not nested. The whole nested row's longitudinal axis runs front to rear. At FRONT opening two steel bollards, rear wall ONE closed staff door. Person-width RIGHT aisle connects front opening to rear door, completely free of carts. Dry matte concrete beneath roof, wet asphalt only outside. Amber single worklight above, blue-gray matte 2D ink contours and restrained flat painted shadows. Clear spatial overview with individual handles distinct enough for counting, no people, ghost, human hands, shoes, writing, logos or watermark. No realistic glossy raytrace texture. Carts and door positions must make a continuous right-side escape aisle.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-cd6a4e73-3d56-4dc3-af1f-eff72064d969.png",
+    "decision": "excluded_too_many_carts_regenerate"
+  },
+  {
+    "id": "C02-S02-A1",
+    "prompt": "Use case: illustration-story. Final ONE 16:9 cinematic matte gouache horror environment painting, broad painted strokes in navy gray and amber. Normal workplace establishing shot BEFORE any anomaly or creature. High 3/4 camera at about 4m views one road noise barrier maintenance zone at night. A narrow UPPER steel inspection walkway runs horizontally beside the wall, with stairway DOWN on SCREEN LEFT, blocked dead-end on SCREEN RIGHT with ONE metal toolbox. A work truck with tools is parked on the CLOSED ROAD lane BELOW the walkway, traffic cones close only that lane. Road lights illuminate steel grating and rail, safe edge visible. Two faceless workers at most: main seen small from back on upper walkway in charcoal jacket and work boots; colleague back silhouette near truck below. No extra road above walkway, no reversed left/right geography, no monster, hands emerging, scratches, distortion, faces, text, or watermark. Readable mobile composition, dry matte industrial texture, no crushed black. Establish upper/below relationship clearly.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-be6188d1-309f-4054-899d-febab34a34a1.png",
+    "decision": "pass_1_pending_adjacent_scene_review"
+  },
+  {
+    "id": "C03-S02-A1",
+    "prompt": "Use case: illustration-story. Final ONE 16:9 crisp chunky PIXEL ART establishing shot, reference is exact green-gray TWO-door TWO-axle bus design, depot lighting and pixel style. Camera elevated 4m at depot entrance, wide spatial overview: foreground entrance gate, yellow pedestrian walkway leading past washing lane in midground LEFT, maintenance garage at back CENTER, dispatch standby lane extending toward gate RIGHT, small closed electrical room door on maintenance garage side; low flowerbed OUTSIDE pedestrian walkway. ONE green-gray spare bus parked still at maintenance-row far end, facing toward open yard, TWO passenger doors CLOSED, windshield empty, destination panel DARK and blank. Tiny red/white paper isolation seal near REAR service hatch behind rear axle. Contemporary fictional Korean city bus depot at night, navy asphalt, amber lamps, clearly separated yellow route lines. No people, moving bus, ghost, screen labels, generated Korean words, numbers, logos, or watermark. Pixel grid clean, empty windshield readable, no fog. Map geography through built environment, not a diagram or collage.",
+    "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-b4f179bc-0fb9-4fea-9be1-c7ec53666231.png",
+    "decision": "pass_1_pending_adjacent_scene_review"
+  }
+]

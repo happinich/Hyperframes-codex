@@ -1,0 +1,9 @@
+{
+  "asset_id": "C01-S14-A1",
+  "attempt": 1,
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-f6c35c32-6cb6-4140-a09c-f85d8429dead.png",
+  "target": "04_composition/assets/visuals/C01-S14-A1.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S14-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 손 위 휴대전화; angle top_down; height 1.2m; size detail. Precise narrative focus: 주간 시설 점검과 빨간 테이프. Daylight maintenance examination of RED tape handle, plain tool case and gloved facility hand; no ghost body. Phone-shaped blank screen may be in foreground if framing needs it; no generated text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue."
+}

@@ -1,0 +1,1017 @@
+{
+  "assets": [
+    {
+      "asset_id": "C01-S01-A1",
+      "scene_id": "C01-S01",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S01-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 카트 옆면과 화자의 손목. One pale ghost hand in wet gray sleeve firmly holds ONE human exposed wrist, gloved human hand, cart side partially occludes body; ghost head fully hidden, no face. Distinct exactly five digits per hand; gripping hand released cart handle to hold wrist, no extra hand on handle. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S01-A2",
+      "scene_id": "C01-S01",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S01-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 오른쪽 손잡이 옆; angle side; height 1.0m; size detail. Precise narrative focus: 손잡이 아래에서 감싸는 다섯 손가락. Close red handle with ONE ghost pale five-finger hand grasping from basket side, FOUR fingers over top ONE thumb curls UNDER handle. One gray sleeve, no other limb or face. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S02-A1",
+      "scene_id": "C01-S02",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S02-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 앞쪽 높은 사선; angle downward; height 2.5m; size wide. Precise narrative focus: 보관장의 출입구와 정상 카트 줄. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO entity, shoe, sleeve, ghost hand, face or unexplained figure in this early scene. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S02-A2",
+      "scene_id": "C01-S02",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S02-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 오른쪽 통로 입구에서 직원문 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 작업자 뒤에서 본 오른쪽 통로. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO entity, shoe, sleeve, ghost hand, face or unexplained figure in this early scene. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S03-A1",
+      "scene_id": "C01-S03",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S03-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 오른쪽 손잡이 옆; angle side; height 1.0m; size detail. Precise narrative focus: 정상 카트 줄과 별도 고장 카트. Normal nested carts only partially visible beyond frame; separate red-tape defective cart BEHIND their rear end, no handprints or entity yet. No more than four visible normal handles; remaining row out of frame. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S03-A2",
+      "scene_id": "C01-S03",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S03-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 카트 짐칸 아래 바닥; angle low; height 0.15m; size detail. Precise narrative focus: 멈춘 바닥 위 혼자 회전하는 앞바퀴. ONE defective cart front swivel caster on DRY dusty floor, slight turned angle indicating it is rotating alone, no wheel track or ghost. Caster correctly attached to cart leg. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S04-A1",
+      "scene_id": "C01-S04",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S04-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 카트 짐칸 아래 바닥; angle low; height 0.15m; size detail. Precise narrative focus: 물자국 없는 바닥. Extreme low floor angle under cart showing DRY dusty concrete and firmly attached stationary wheels, no wet floor, no shoe or ghost. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S04-A2",
+      "scene_id": "C01-S04",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S04-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 오른쪽 손잡이 옆; angle side; height 1.0m; size detail. Precise narrative focus: 빨간 테이프 위 손가락 네 줄과 옆 수건. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S05-A1",
+      "scene_id": "C01-S05",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S05-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 손 위 휴대전화; angle top_down; height 1.2m; size detail. Precise narrative focus: 사진 속 손자국 방향. ONE phone in normal gloved hand, blank bright screen for photo insertion in edit, red handle background only, no generated screen picture, no text or ghost. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S05-A2",
+      "scene_id": "C01-S05",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S05-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 옆 짐칸을 향한 위치; angle downward; height 1.5m; size medium. Precise narrative focus: 손전등에 드러난 비어 있는 짐칸. Flashlight reveals clearly EMPTY standalone defective red-handled cart BASKET, dry dust, no figure/shoes/sleeve. Normal carts partially occluded outside frame. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO entity, shoe, sleeve, ghost hand, face or unexplained figure in this early scene. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S06-A1",
+      "scene_id": "C01-S06",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S06-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 앞쪽 높은 사선; angle downward; height 2.5m; size wide. Precise narrative focus: 앞쪽 말뚝으로 가까워진 정상 카트 줄. Front normal nested cart row now close to front bollards with one hand-width gap, remaining handles occluded by support post. Red cart still separate at far back. No ghost or shoes. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO entity, shoe, sleeve, ghost hand, face or unexplained figure in this early scene. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C01-S06-A2",
+      "scene_id": "C01-S06",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S06-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 뒤 직원문 문턱에서 앞 말뚝 방향; angle reverse_oblique; height 1.3m; size medium. Precise narrative focus: 뒤 직원문의 열린 틈. ONE rear staff door slightly OPEN into dark stockroom, a readable gap and door threshold; view from doorway towards front bollards. No figure in dark gap. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO entity, shoe, sleeve, ghost hand, face or unexplained figure in this early scene. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S07-A1",
+      "scene_id": "C01-S07",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S07-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 오른쪽 통로 입구에서 직원문 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 문 밖에서 무전하는 손. Normal gloved hand holding radio beside clear right aisle, door at rear, no face, no entity. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S07-A2",
+      "scene_id": "C01-S07",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S07-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 카트 짐칸 아래 바닥; angle low; height 0.15m; size detail. Precise narrative focus: 별도 빨간 카트와 정상 줄 사이의 신발 앞코. LOW view of narrow gap between last nested normal cart and separate red-handled cart. ONE dark wet SNEAKER TOE appears on dry floor; no leg above sneaker, no sleeve/hand/face. Ghost trace partial only. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S08-A1",
+      "scene_id": "C01-S08",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S08-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 카트 짐칸 아래 바닥; angle low; height 0.15m; size detail. Precise narrative focus: 운동화가 화자 쪽으로 돌아감. Same dark wet sneaker toe turned TOWARD camera from gap, partial shoe only with dry surrounding floor; no leg or body. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S08-A2",
+      "scene_id": "C01-S08",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S08-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 바깥 말뚝 오른쪽; angle side; height 0.6m; size medium. Precise narrative focus: 열한 대가 말뚝에 부딪히는 외부 측면. Low EXTERIOR side view of front normal steel cart touching one front bollard, chain fallen loosely on floor; rear red cart out of close frame. No entity. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S09-A1",
+      "scene_id": "C01-S09",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S09-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 오른쪽 손잡이 옆; angle side; height 1.0m; size detail. Precise narrative focus: 젖은 회색 소매 한쪽. ONE soaked gray sleeve ending in one pale normal FIVE-finger hand grasping red handle from basket side, thumb under handle. Only forearm visible, shoulder/head/body hidden by wire basket. No gore or extra digits. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S09-A2",
+      "scene_id": "C01-S09",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S09-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 바깥 말뚝 오른쪽; angle side; height 0.6m; size medium. Precise narrative focus: 밀리는 카트 윗부분과 고정된 말뚝. Normal cart upper frame pushes toward front fixed bollard while bollard remains straight; slight cart-frame bend only, correct solid contact, ghost out of close frame. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S10-A1",
+      "scene_id": "C01-S10",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S10-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 뒤 직원문 문턱에서 앞 말뚝 방향; angle reverse_oblique; height 1.3m; size medium. Precise narrative focus: 정상 줄 뒤에서 별도로 빠져 오른쪽 통로로 선회. From rear door toward front: separate red cart has moved OUT from behind normal row into RIGHT aisle, blocking worker route to rear door; normal row remains at front bollards. Show rolling red cart lateral turn without passing through normal carts. Face-free worker small back silhouette. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S10-A2",
+      "scene_id": "C01-S10",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S10-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 오른쪽 통로 입구에서 직원문 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 통로에 나타난 빨간 카트와 체인을 줍는 손. Red cart blocks right aisle; one normal gloved human hand reaches down for loose steel chain on dry floor; wet gray ghost hand on handle only. No face or extra limbs. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post. Rear staff door is OPEN from the discovered opening through the cart blocking the aisle; black empty stockroom, no person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S11-A1",
+      "scene_id": "C01-S11",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S11-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 회색 어깨와 짐칸에 가려진 머리 위치. Partial soaked gray SHOULDER and sleeve and dark wet shoes around standalone red cart. HEAD location fully HIDDEN BEHIND wire basket, not headless cut stump. One ghost, no visible face or gore. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S11-A2",
+      "scene_id": "C01-S11",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S11-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 옆 짐칸을 향한 위치; angle downward; height 1.5m; size medium. Precise narrative focus: 정상 손목을 붙잡은 하나의 손. ONE ghost hand from soaked gray sleeve grips exposed human wrist. Exactly four pale fingers press outer wrist and one thumb supports inner wrist, natural hand anatomy, two distinct arm materials; cart basket blocks head. No extra hands or blood. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S12-A1",
+      "scene_id": "C01-S12",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S12-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 바깥 말뚝 오른쪽; angle side; height 0.6m; size medium. Precise narrative focus: 앞바퀴에 걸린 체인과 말뚝 고리. Low side view steel chain looped around red cart FRONT CASTER and front steel BOLLARD. Chain visibly taut; correct separate wheel and bollard contact. No floating chain, fingers or body needed. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S12-A2",
+      "scene_id": "C01-S12",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S12-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 팽팽해진 체인 뒤 손이 놓이고 몸을 빼는 동작. Human wrist pulling FREE away from open ghost hand; chain holds defective cart front caster in background, dark parking lane escape direction visible; no face, no extra hands, ghost head hidden. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C01-reference-v2.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S13-A1",
+      "scene_id": "C01-S13",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S13-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 보관장 앞쪽 높은 사선; angle downward; height 2.5m; size wide. Precise narrative focus: 다시 모인 카트와 체인. Aftermath wide: normal row at front bollards, extra normal handles behind roof post/out of view. Separate red cart sits DIAGONALLY at right side held by chain attached to front caster and front bollard. Rear staff door CLOSED. Two workers seen only small backs at entrance, no ghost. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S13-A2",
+      "scene_id": "C01-S13",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S13-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 손목 바깥 네 자국과 안쪽 엄지 자국. Close normal human WRIST with FOUR faint red fingertip pressure bruises outside, one separate thumb pressure mark inside. No ghost hand, gore, wounds, written text. Charcoal sleeve and beige glove pushed back expose wrist. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S14-A1",
+      "scene_id": "C01-S14",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S14-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 손 위 휴대전화; angle top_down; height 1.2m; size detail. Precise narrative focus: 주간 시설 점검과 빨간 테이프. Daylight maintenance examination of RED tape handle, plain tool case and gloved facility hand; no ghost body. Phone-shaped blank screen may be in foreground if framing needs it; no generated text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S14-A2",
+      "scene_id": "C01-S14",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S14-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 빨간 카트 오른쪽 손잡이 옆; angle side; height 1.0m; size detail. Precise narrative focus: 사진의 수건 아래 소매를 확대 비교. Memory PHOTO detail red-taped cart handle with off-white cleaning towel hanging at side; a SMALL wet gray sleeve edge now visible UNDER towel at edge of photograph. No whole hand, face, body, or giant sleeve, not a new entity. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S15-A1",
+      "scene_id": "C01-S15",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S15-A1. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 새 마트 주간 주차장 출입구 뒤; angle oblique; height 1.5m; size wide. Precise narrative focus: 주간 새 마트 보관장을 멀리 보는 뒷모습. DIFFERENT supermarket on a dry DAY, distant cart shelter with NO red tape; faceless narrator back in charcoal civilian jacket watches from outside. Normal daylight realism translated to same rough 2D style; no ghost or wet ground. Continuity: roofed supermarket cart shelter; rear staff door; front two dark steel bollards; a partially occluded normal cart row with no more than four handles visible; ONE unique defective cart with red taped handle, only if requested in foreground; person-width right aisle; dry concrete under roof; damp asphalt outside. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. CRITICAL: If the red cart or its wheel/hand/handle appears CLOSE in foreground, it is the ONLY red cart in this image, never add another red cart behind. Close shots must have an abstract cropped wall background, not a full shelter overview. Normal cart row may show AT MOST FOUR clearly visible handles, the remaining normal carts must be outside framing or fully occluded by structural post.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C01-S15-A2",
+      "scene_id": "C01-S15",
+      "chapter_id": "C01",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C01-S15-A2. Style: rough ink-outlined 2D horror animation illustration, broad matte flat shadows; blue-gray steel, amber worklight, red tape accent; NOT photorealistic. NEW camera position: 화자 어깨 아래 손목을 보는 일인칭; angle downward; height 1.2m; size detail. Precise narrative focus: 잡는 손 없이 눌리는 화자 손목. Close normal human bare inner wrist slightly compressed but NO hand touching it, no entity, no blood. Dry daylight parking background, restrained residual fear. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S01-A1",
+      "scene_id": "C02-S01",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S01-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 통제 차로 바깥 높은 작업 위치; angle downward; height 3m; size wide. Precise narrative focus: 상부에 선 작업자와 벽. Cold open: upper walkway worker seen from back, tall wall and metal floor. NO creature body, only uncertain shadow below panel. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S01-A2",
+      "scene_id": "C02-S01",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S01-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 밑 빗물받이 높이; angle low; height 0.2m; size detail. Precise narrative focus: 패널 아래쪽에서 움직이는 여섯 자국만. Only SIX pale scrape marks visible below lower panel seam; no limbs or body in cold-open trace shot. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S02-A1",
+      "scene_id": "C02-S02",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S02-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 통제 차로 바깥 높은 작업 위치; angle downward; height 3m; size wide. Precise narrative focus: 통제 차로·트럭·상부 점검로. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S02-A2",
+      "scene_id": "C02-S02",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S02-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 왼쪽 계단 아래에서 점검로 방향; angle upward; height 1.4m; size medium. Precise narrative focus: 계단 입구에서 보이는 오른쪽 끝. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S03-A1",
+      "scene_id": "C02-S03",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S03-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로 위 패널 정면; angle frontal; height 1.3m; size medium. Precise narrative focus: 손이 떨어진 철판과 표시. Normal gloved hand withdrawn from wall, faint chalk marker at bolt, wall otherwise ordinary, no scratches revealed yet. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S03-A2",
+      "scene_id": "C02-S03",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S03-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로에서 화자의 작업화 방향; angle downward; height 0.9m; size detail. Precise narrative focus: 두 칸 옮긴 발과 그 아래 소리 위치. Low view worker TWO normal boots stepping back two grate squares; panel below feet still hides everything. No creature. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S04-A1",
+      "scene_id": "C02-S04",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S04-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 이음새 오른쪽 사선; angle oblique; height 0.8m; size detail. Precise narrative focus: 옆에서 본 벌어진 이음새. Side-on detail wall seam opened to PALM width, gray insulation and concrete support behind; no body or limbs, only dark cavity. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S04-A2",
+      "scene_id": "C02-S04",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S04-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 밑 빗물받이 높이; angle low; height 0.2m; size detail. Precise narrative focus: 바닥 높이에서 드러난 긁힘과 분필 표시. Extreme low view into wall seam shows exactly SIX parallel pale rounded-tip scrape lines in dust, small fresh chalk line outside seam. No face or limbs. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C02-S05-A1",
+      "scene_id": "C02-S05",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S05-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 도로의 동료 위치에서 위쪽 패널 방향; angle upward; height 1.5m; size wide. Precise narrative focus: 아래 도로에서 본 부푼 패널. View from ROAD BELOW upward: ONE wall panel bends INWARD toward cavity, worker high above behind rail. Keep truck below, no creature. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S05-A2",
+      "scene_id": "C02-S05",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S05-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로 위 패널 정면; angle frontal; height 1.3m; size medium. Precise narrative focus: 위에서 단단한 볼트 주변만 움직이는 철판. Top close-up solid bolt securely fixed while surrounding sheet metal subtly bulges OUTWARD. Normal gloved fingertip tests bolt, no deformation in hand. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S06-A1",
+      "scene_id": "C02-S06",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S06-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 도로의 동료 위치에서 위쪽 패널 방향; angle upward; height 1.5m; size wide. Precise narrative focus: 트럭 발전기 시작. Close compact generator in work truck cargo bed below wall, cable and switch, one normal gloved worker hand turning it on, no sparks or magic. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. NO creature body or limbs yet; only trace if explicitly requested. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S06-A2",
+      "scene_id": "C02-S06",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S06-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 밑 빗물받이 높이; angle low; height 0.2m; size detail. Precise narrative focus: 분필선 아래를 지나는 여섯 갈래 긁힘. Six pale scratch grooves move along wall seam under a WHITE chalk line; no full limb or body; static instant of stretched scratched metal, no literal motion graphic lines. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S07-A1",
+      "scene_id": "C02-S07",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S07-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로에서 화자의 작업화 방향; angle downward; height 0.9m; size detail. Precise narrative focus: 멈춘 작업화 앞. Close main worker boots halted on upper metal grate, nearest toe near rain-gutter slot, no full creature; partial gray tip may be at very edge only. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S07-A2",
+      "scene_id": "C02-S07",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S07-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 밑 빗물받이 높이; angle low; height 0.2m; size detail. Precise narrative focus: 빗물받이 틈의 회색 마디들이 순서대로 움직임. Gray jointed appendage tips emerge one by one through rain-gutter slot beneath steel grating. SIX total tips, no human fingers/face, rest of single body hidden. Reference entity shape only. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S08-A1",
+      "scene_id": "C02-S08",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S08-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 도로의 동료 위치에서 위쪽 패널 방향; angle upward; height 1.5m; size wide. Precise narrative focus: 떨어진 공구통. Open metal tool tub fallen beside truck BELOW walkway, scattered small tools, no monster in road; natural gravity and object contact. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S08-A2",
+      "scene_id": "C02-S08",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S08-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로에서 화자의 작업화 방향; angle downward; height 0.9m; size detail. Precise narrative focus: 벽과 점검로 연결점, 발과 함께 전해지는 떨림. Detail steel grate bolted to same wall support, worker boot on grate, metal connection path readable, no arrows or diagrams/text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S09-A1",
+      "scene_id": "C02-S09",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S09-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 도로의 동료 위치에서 위쪽 패널 방향; angle upward; height 1.5m; size wide. Precise narrative focus: 아래쪽 동료의 시선에서 본 회색 등판. From colleague on ROAD looking UP: partial long flat gray BACK plate attached to outside panel, SIX total jointed appendages around single body as in creature reference, no face/eyes/digits. Main worker above cannot see backside from own position. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S09-A2",
+      "scene_id": "C02-S09",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S09-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로 계단 쪽에서 옆면 방향; angle side; height 1.2m; size medium. Precise narrative focus: 좁은 점검로에 멈춘 화자의 측면. Side view face-free main worker frozen on narrow UPPER walkway, charcoal jacket/boots, wall close on one side, outer guardrail, no duplicate worker or entity face. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S10-A1",
+      "scene_id": "C02-S10",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S10-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로에서 화자의 작업화 방향; angle downward; height 0.9m; size detail. Precise narrative focus: 발판 아래에서 작업화를 잡은 두 마디. Exactly TWO gray blunt jointed appendages from BELOW grate part floor opening and grip MAIN WORKER LEFT BOOT ankle; not fingers or hands. RIGHT boot stays on metal floor. Four other appendages of same entity hidden out of close frame, no extra creature. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S10-A2",
+      "scene_id": "C02-S10",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S10-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로 계단 쪽에서 옆면 방향; angle side; height 1.2m; size medium. Precise narrative focus: 다른 마디가 휘게 하는 난간. ONE other gray appendage bends outer steel guardrail TOWARD main worker while left boot caught below floor. Correct solid contact and bent metal, no human fingers, six total body limbs only if visible. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S11-A1",
+      "scene_id": "C02-S11",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S11-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 화자의 손과 금속이 떨어진 틈; angle side; height 1.2m; size detail. Precise narrative focus: 금속에서 떨어진 손의 드라이버. One normal gloved hand holds cordless electric screwdriver in AIR NOT touching metal, tool bit visible, wall distant; no monster near floating hand, arm attached to worker. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S11-A2",
+      "scene_id": "C02-S11",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S11-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 계단 쪽에서 오른쪽 끝 공구함 방향; angle oblique; height 1.3m; size medium. Precise narrative focus: 오른쪽 상자에 닿은 비트와 풀리는 발목. Electric screwdriver lands on RIGHT END metal TOOLBOX, turning bit contacts lid, gray appendage releases LEFT boot in near foreground, all action remains above road. No fingers on entity. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C02-entity-reference-v1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S12-A1",
+      "scene_id": "C02-S12",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S12-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 왼쪽 계단 아래에서 점검로 방향; angle upward; height 1.4m; size medium. Precise narrative focus: 한쪽 신발을 두고 내려오는 화자. Worker descends LEFT staircase toward colleague below, ONE LEFT foot in sock, RIGHT foot in boot; LEFT boot remains on upper grate behind. Two separate legs, natural balance, no extra limbs or faces. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S12-A2",
+      "scene_id": "C02-S12",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S12-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 도로의 동료 위치에서 위쪽 패널 방향; angle upward; height 1.5m; size wide. Precise narrative focus: 트럭 뒤에서 본 휘어진 난간과 패널. From behind work truck on ROAD looking UP at wall: upper guardrail bent, panel pressed inward. Two workers back silhouettes shelter behind truck; no entity visible now. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S13-A1",
+      "scene_id": "C02-S13",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S13-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 점검로에서 화자의 작업화 방향; angle downward; height 0.9m; size detail. Precise narrative focus: 낮에 회수된 왼쪽 작업화. DAYLIGHT recovered LEFT work boot on steel grate at stair landing, lace pressure marks in SIX directions, sole pushed outward; no extra boot/person or text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S13-A2",
+      "scene_id": "C02-S13",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S13-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 주간 점검자의 손 위 현장 사진; angle top_down; height 1.1m; size detail. Precise narrative focus: 현장 사진 속 철판 변형 여섯 곳. Normal gloved hands hold ONE blank phone/tablet screen to receive site-photo overlay in edit; actual DAY wall background has SIX pushed-out metal points under standing worker feet, no monster image. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S14-A1",
+      "scene_id": "C02-S14",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S14-A1. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 자재 창고 문턱에서 패널 적재대; angle oblique; height 1.5m; size wide. Precise narrative focus: 창고의 포장된 새 패널. DAY warehouse new large noise-wall panel still sealed in plain translucent protective wrap, lifted by stationary forklift, no readable label text or creature revealed. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C02-S14-A2",
+      "scene_id": "C02-S14",
+      "chapter_id": "C02",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S14-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 새 패널 포장 아래 모서리; angle low; height 0.4m; size detail. Precise narrative focus: 지게차 정지 뒤 멎는 포장 안의 국소 움직임. Closer low view unopened panel wrap with SIX shallow parallel raised scrape impressions under packaging, forklift wheel STOPPED in background, no exposed body or new creature. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S01-A1",
+      "scene_id": "C03-S01",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S01-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 얼굴 없는 화자 뒤에서 다가오는 버스. Cold open face-free charcoal-jacket worker back, ONE empty-driver-seat green-gray bus approaches in yard, no humanoid in windshield. Passenger center door slightly open, two axles correct. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S01-A2",
+      "scene_id": "C03-S01",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S01-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 앞바퀴 바깥쪽 지면; angle low; height 0.2m; size detail. Precise narrative focus: 시동 없이 굴러오는 바퀴와 세차선 글자. LOW front WHEEL of bus rolling on yellow lane edge near washing area; no tire smoke or driver, blank destination panel upper background for edited 세차선 clue. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S02-A1",
+      "scene_id": "C03-S02",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S02-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 차고지 사무동 위에서 정비 줄 방향; angle downward; height 3m; size wide. Precise narrative focus: 차고지 정문·세차선·정비동·전기실의 지리. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C03-S02-A2",
+      "scene_id": "C03-S02",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S02-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 사무실 책상 옆 단말기 위치; angle oblique; height 1.3m; size detail. Precise narrative focus: 차량 키와 출고 기록표. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C03-S03-A1",
+      "scene_id": "C03-S03",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S03-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 같은 예비 버스의 켜진 표시. TIGHT STRAIGHT-ON front of the SAME bus, upper windshield and EMPTY driver seat plus large DARK BLANK horizontal destination display centered at upper-middle. Keep display perfectly rectangular front-facing for exact Korean overlay. No identifiable ground/location background. This framing is the BASELINE for later destination comparisons; no generated text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C03-S03-A2",
+      "scene_id": "C03-S03",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S03-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 점검자의 기록표 위; angle top_down; height 1.2m; size detail. Precise narrative focus: 출고 없음 기록과 표시의 불일치. Departure clipboard and small screen both blank tabular forms, key on desk, spare bus blank display visible beyond window; no person figure, generated words or numbers. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": true
+    },
+    {
+      "asset_id": "C03-S04-A1",
+      "scene_id": "C03-S04",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S04-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 옆 격리 스위치 높이; angle side; height 0.9m; size detail. Precise narrative focus: 버스 격리 스위치 봉인. Close INTACT red-white paper seal across battery-isolation switch service hatch at REAR passenger side BEHIND rear axle, not on center door. Two wheels stay correct, no writing on seal. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S04-A2",
+      "scene_id": "C03-S04",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S04-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 사무실 책상 옆 단말기 위치; angle oblique; height 1.3m; size detail. Precise narrative focus: 단말기 공란 전송과 꺼지는 표시. Dispatch terminal front-on blank dark screen for UI compositing, one gloved hand beside keyboard; distant spare bus destination dark, no driver or figure. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S05-A1",
+      "scene_id": "C03-S05",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S05-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 텅 빈 운전석과 열린 중문. Passenger side of same TWO-door green-gray bus, FRONT door CLOSED and CENTER door OPEN, dark EMPTY seats inside; driver seat also empty. No human shadow or ghost in this early scene. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S05-A1.png"
+    },
+    {
+      "asset_id": "C03-S05-A2",
+      "scene_id": "C03-S05",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S05-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 같은 기준 구도의 세차선 글자. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": "C03-S03-A1",
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S06-A1",
+      "scene_id": "C03-S06",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S06-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 앞바퀴 바깥쪽 지면; angle low; height 0.2m; size detail. Precise narrative focus: 시동 없는 바퀴와 피해 움직이는 화자. LOW front tire begins rolling without exhaust smoke, faceless worker steps off yellow pedestrian line onto safe area, two natural legs; bus never intersects body. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S06-A1.png"
+    },
+    {
+      "asset_id": "C03-S06-A2",
+      "scene_id": "C03-S06",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S06-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 같은 표시 구도의 정비동 앞 글자. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": "C03-S03-A1",
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "scene_id": "C03-S07",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S07-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 세차선 배수로 옆; angle low; height 0.25m; size medium. Precise narrative focus: 버스와 화자 사이 배수로·호스. LOW side view OPEN CENTER door of bus stops just before drainage gutter, wash hose lies BETWEEN door threshold and faceless worker shoes. Correct hose/gutter geometry, no person in bus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A1.png"
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "scene_id": "C03-S07",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S07-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 화자가 물러날 때 따라 트는 앞바퀴. Close front steering tire ANGLED TOWARD retreating worker at frame edge, no visible driver, no impossible extra axle. Yard washing lane remains behind. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A2.png"
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "scene_id": "C03-S08",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S08-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화자의 손에 든 태그; angle top_down; height 1.2m; size detail. Precise narrative focus: 출입증에 달린 시험 태그. Close plain staff ID with ONE small gray plastic temporary test location tag clipped on, exact plain unprinted shapes, ONE normal hand touches it, no text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A1.png"
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "scene_id": "C03-S08",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S08-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 차고지 사무동 위에서 정비 줄 방향; angle downward; height 3m; size wide. Precise narrative focus: 밤 정차 위치와 낮 시험 경로의 대조. DAYLIGHT memory of test walk: ONE faceless worker with small test ID on yellow walkway between entry gate, wash lane, maintenance garage; SAME depot geometry from establishing reference. No bus moving, no neon routes/arrows/labels (added in edit). Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A2.png"
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "scene_id": "C03-S09",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S09-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 세차선 표지판 옆에서 화단과 태그; angle oblique; height 0.7m; size medium. Precise narrative focus: 세차선 표지판 밑 태그와 화단으로 이동한 화자. Small test ID/tag placed on DRY ground at base of blank washing-lane sign, worker now stands beside low flowerbed OUTSIDE pedestrian lane, bus separated across yard. No caption text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A1.png"
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "scene_id": "C03-S09",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S09-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 태그 쪽으로 향하는 버스와 표시. Same empty green-gray bus turns TOWARD small staff ID at washing sign base, OPEN center door faces tag, NO driver or shadow person, blank display for edit. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A2.png"
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "scene_id": "C03-S10",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S10-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 운반 카트 뒤에서 차단봉 방향; angle rear; height 1.0m; size medium. Precise narrative focus: 태그가 걸린 운반 카트. ONE normal gloved hand hangs small gray test tag and staff ID on handle of EMPTY flatbed utility transport cart; this is a small platform trolley, NOT a shopping wire basket. No bus driving over it, no text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1.png"
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "scene_id": "C03-S10",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S10-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 차고지 사무동 위에서 정비 줄 방향; angle downward; height 3m; size wide. Precise narrative focus: 화단 밖에서 보는 카트·버스·전기실 접근로. Wide from low flowerbed: utility CART with clipped tag rolls toward gate barrier, empty-driver bus follows cart to RIGHT dispatch lane, separate mechanic BACK silhouette reaches electrical room route behind cleared bus front. Vehicle path clear, no collision, no duplicate buses. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A2.png"
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "scene_id": "C03-S11",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S11-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 밖 중문 문턱 너머 빈 실내; angle oblique; height 1.3m; size medium. Precise narrative focus: 멈춘 카트 뒤 텅 빈 좌석과 흔들린 손잡이. Through OPEN CENTER door: empty seats, ONE overhead passenger strap hangs slightly tilted, stopped utility trolley with tag outside near barrier. NO human occupant or face, no extra strap figure. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A1.png"
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "scene_id": "C03-S11",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S11-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 문틀에 붙어 늦게 반응하는 그림자. Close open CENTER door frame: thin shadow clings flat to DOORFRAME surface, not an independent person silhouette; empty interior visible. Keep it subtle readable, no ghost face or occupant, no gore. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2.png"
+    },
+    {
+      "asset_id": "C03-S12-A1",
+      "scene_id": "C03-S12",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S12-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 구역 수신기 옆에서 켜진 작업등 방향; angle side; height 1.2m; size detail. Precise narrative focus: 작업등은 켜진 채 꺼지는 구역 수신기. Small zone receiver box beside blank depot sign with indicator OFF; amber industrial worklights REMAIN ON in background. No master blackout, bus not shown powered by receiver, no writing. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A1.png"
+    },
+    {
+      "asset_id": "C03-S12-A2",
+      "scene_id": "C03-S12",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S12-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 옆 격리 스위치 높이; angle side; height 0.9m; size detail. Precise narrative focus: 멈춘 버스와 여전히 붙은 봉인. Same bus completely STOPPED near barrier, destination DARK, center door remains open, intact rear-side isolation seal visible. Empty windshield, no mechanic rewiring vehicle. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A2.png"
+    },
+    {
+      "asset_id": "C03-S13-A1",
+      "scene_id": "C03-S13",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S13-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화자의 손에 든 태그; angle top_down; height 1.2m; size detail. Precise narrative focus: 태그 표면의 다섯 눌림. Close plastic test tag and staff ID with FIVE shallow fingertip pressure lines on plastic surface, no human hand crushing it now, no generated text or circuitry magic. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A1.png"
+    },
+    {
+      "asset_id": "C03-S13-A2",
+      "scene_id": "C03-S13",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S13-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 사무실 책상 옆 단말기 위치; angle oblique; height 1.3m; size detail. Precise narrative focus: 차단봉 앞 승차 기록과 출고 없는 차량 번호. Dispatch monitor FRONT-ON with large perfectly blank dark screen for boarding-log typography overlay. Beside screen plain staff ID, in window spare bus stands empty. NO generated numbers or words. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A2.png"
+    },
+    {
+      "asset_id": "C03-S14-A1",
+      "scene_id": "C03-S14",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S14-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 후일 마감의 예비 버스 기준 구도. Depict exactly this focus, do not add events or reveal an entity outside the requested focus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": "C03-S03-A1",
+      "already_generated": false
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "scene_id": "C03-S14",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S14-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 문만 조금 벌어진 빈 차고지. LATER same quiet empty depot: bus dark BLANK destination, center passenger door slightly cracked OPEN by a few centimeters while front door stays shut. No people, ghost shape, driver, light flash or text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S14-A2.png"
+    }
+  ],
+  "method": "built_in_image_gen_one_call_per_new_asset",
+  "review_required": "individual full-resolution first review; narration and adjacent-scene second review before render"
+}

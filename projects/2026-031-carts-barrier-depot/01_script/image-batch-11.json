@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "asset_id": "SH03-portrait-A05",
+      "prompt": "Edit the supplied ONE vertical pixel-art image. ALL INTERIOR ELECTRIC LIGHTS OF THE BUS MUST BE OFF. In particular the luminous yellow bar INSIDE THE BUS, just above the open CENTER PASSENGER doorway (approximately x=413..443, y=575..590 on the 941x1672 image), becomes a DARK ceiling fixture. The cabin and empty seats are dark, faint external reflections only. Keep ALL EXTERNAL DEPOT GARAGE ceiling lights and outdoor wall lamps ON, including fixture around x=410,y=380. Do not confuse the external garage ceiling with the bus interior. Preserve black-gloved worker, bus shape, two axles, open center door, CLOSED front door, blank LED, empty driver seat, exact camera and pixel texture. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v4.png"
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "prompt": "Fresh single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray shadows, amber rim light. A red-tape steel cart handle fills RIGHT 60% with exactly FOUR distinct FLAT WET DARK STREAKS on its surface. The four traces are TRANSLUCENT WATER STAINS lying flush on red tape, irregular narrow elongated damp patches with tiny clear droplets, not anatomical finger-shaped objects. NO raised lumps, skin, flesh, actual fingers, hands, ridges or blood. Ordinary blue-gray end caps and empty wire basket. Background only a cropped gray shelter wall and dry concrete; NO other carts. LEFT 40% uncluttered deep navy space for later Korean title. Reference establishes matte style and flat water on red tape only; create a new thumbnail composition, no collage or inset. No generated text.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source-v4.png"
+    },
+    {
+      "asset_id": "C01-S04-A1",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. NEW very LOW floor-only close view beneath ONE defective cart caster on completely DRY concrete with fine dust. Only one attached STEEL caster fork/wheel partly cropped in upper LEFT, lower cart basket outside TOP edge. NO other carts or people, NO background shelter overview, red cart, duplicate wheel, hand, shoe, water or tracks. Show local dry floor texture and small caster shadow, gray cropped wall only.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S03-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A1-v2.png"
+    },
+    {
+      "asset_id": "C01-S05-A2",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. Edit supplied scene ONLY: hang ONE small OFF-WHITE cotton towel over the RIGHT end of the red-tape handle, beside its blue-gray end cap. The empty red cart basket stays empty. No gray cuff, hand, ghost or cloth beneath towel. Preserve all carts and camera, dry floor, closed rear staff door, rough matte palette. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S05-A2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S05-A2-v2.png"
+    },
+    {
+      "asset_id": "C01-S06-A2",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. Edit supplied scene ONLY: the visible end cap of foreground red-tape defective cart handle (near x=1040,y=340) is BLUE-GRAY painted steel, not red. Only horizontal grip has RED TAPE. Preserve reverse view from open staff doorway toward parking, partially obscured normal blue cart row on RIGHT, dry floor, same exact geometry. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S06-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S06-A2-v2.png"
+    },
+    {
+      "asset_id": "C01-S08-A2",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. NEW tight low FRONT contact detail, ONE NORMAL BLUE-handle cart presses its steel upper frame into ONE fixed steel bollard at LEFT. One short loose chain lies UNATTACHED in a heap on DRY concrete below. Background only a cropped plain blue-gray wall. All other carts, red defective cart, door, handles of any other cart, people, hands and entity OUT OF FRAME. One attached wheel visible with natural geometry. Different higher contact view than floor-gap shot; front frame and bollard fill half canvas.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S06-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S08-A2-v2.png"
+    },
+    {
+      "asset_id": "C01-S11-A1",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. NEW TIGHT LOW side view of ONE red-tape-handle steel cart. ONE wet dark mesh sneaker toe with dirty thin white sole slides out from BELOW its basket. Behind the SIDE of wire basket, just a SMALL rounded wet gray SHOULDER FABRIC EDGE is visible at height BELOW handle. One wet gray forearm rests along upper frame, pale normal five-digit hand holds handle. All head/neck/face fully HIDDEN BEHIND the basket below rim, NO large cloak torso or standing figure, NO hood silhouette above basket, NO head cropped above frame. Close composition excludes upper body; only shoe, basket, tiny shoulder edge and forearm. Dry floor.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S08-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S09-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S11-A1-v2.png"
+    },
+    {
+      "asset_id": "C01-S13-A1",
+      "prompt": "Single LANDSCAPE 16:9 rough ink-outlined 2D horror animation illustration, broad matte blue-gray steel shadows, amber worklight, red tape accent. ONE frame, no collage, not photo. Edit supplied image ONLY: change the RED sections of cart BASKET UPPER FRAME and RED handle END CAPS to ordinary BLUE-GRAY STEEL. Keep ONLY the horizontal PUSH HANDLE wrapped in red tape. Preserve one diagonal defective cart, chain caster-to-bollard, partially obscured normal blue row, closed staff door, distant workers and dry floor. No new cart or object.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S13-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S13-A1-v2.png"
+    }
+  ]
+}

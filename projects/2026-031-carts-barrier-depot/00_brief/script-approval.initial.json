@@ -1,0 +1,51 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "approved",
+  "evidence": {
+    "date_kst": "2026-10-18",
+    "user_message": "그래 진행해줘.",
+    "context": "직전 질문: 본편 세 편과 쇼츠 세 편의 원고를 이대로 승인하실까요?",
+    "scope": [
+      "longform_narration_all_three_stories",
+      "separate_shorts_narration_all_three_stories"
+    ]
+  },
+  "approved_files": [
+    {
+      "path": "01_script/narration.txt",
+      "sha256": "5d1561702a593a1a3144e98fc5594381658ea258b0e3503307b53d41ac2ae70e",
+      "bytes": 23295
+    },
+    {
+      "path": "01_script/story-01-narration.txt",
+      "sha256": "8840598d4616f4f2a2ed6ab17910d153c5f0817c9e8d1d12587cbb83bf6b48ac",
+      "bytes": 7904
+    },
+    {
+      "path": "01_script/story-02-narration.txt",
+      "sha256": "d8861b0de42b4bcf08e0ab10814cd58e15e9c86e1baa5278871fb39f203e1130",
+      "bytes": 7653
+    },
+    {
+      "path": "01_script/story-03-narration.txt",
+      "sha256": "7127689d969b929b75a4b01d6a1341184ea97dcd480f7111fcbb5ea832ac0e97",
+      "bytes": 7736
+    },
+    {
+      "path": "01_script/shorts-01-narration.txt",
+      "sha256": "120e8525b4311da5fc23cdd509255cac1fc2831b32062fdd703664c98f853918",
+      "bytes": 392
+    },
+    {
+      "path": "01_script/shorts-02-narration.txt",
+      "sha256": "5deec1364b55ba0ce9eb4aae596c21bc55ac371c79e7343789ab4e27221800c2",
+      "bytes": 372
+    },
+    {
+      "path": "01_script/shorts-03-narration.txt",
+      "sha256": "f3d384b8b47191bc2fa4208df539aeb19738f2e339f8b26005ff5a31c1056ee7",
+      "bytes": 393
+    }
+  ],
+  "text_changes_require_reapproval": true
+}

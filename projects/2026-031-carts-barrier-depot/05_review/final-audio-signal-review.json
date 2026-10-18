@@ -1,0 +1,102 @@
+[
+  {
+    "file": "02_audio/working/voice-final.wav",
+    "sha256": "7eb2769db781a73224653de666a09abb8030dca768f7b0b4e47eb419d5de6eb8",
+    "duration": 1249.997,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.5207649565608206,
+    "first_100ms_peak": 0.28436279296875,
+    "last_100ms_peak": 0.003326416015625,
+    "clipped_samples": 0,
+    "loudness": {
+      "input_i": "-18.85",
+      "input_tp": "-3.51",
+      "input_lra": "2.90",
+      "input_thresh": "-29.02",
+      "output_i": "-18.15",
+      "output_tp": "-2.66",
+      "output_lra": "2.80",
+      "output_thresh": "-28.29",
+      "normalization_type": "dynamic",
+      "target_offset": "0.15"
+    },
+    "direct_listening": false,
+    "review_scope": "Whisper text reconciliation, signal levels, deliberate silence windows and mix separation; no subjective ear assessment claimed."
+  },
+  {
+    "file": "02_audio/sound-design/shorts-01-bgm.wav",
+    "sha256": "13a611a32fbbbf1f80f826089d8a27e2af3274b12c1292b36aa03a8003b3b495",
+    "duration": 20.494645833333333,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.1590682632831353,
+    "first_100ms_peak": 0.31585693359375,
+    "last_100ms_peak": 0.020751953125,
+    "clipped_samples": 0,
+    "loudness": {
+      "input_i": "-16.80",
+      "input_tp": "-3.16",
+      "input_lra": "3.50",
+      "input_thresh": "-26.83",
+      "output_i": "-18.91",
+      "output_tp": "-5.46",
+      "output_lra": "2.10",
+      "output_thresh": "-28.95",
+      "normalization_type": "dynamic",
+      "target_offset": "0.91"
+    },
+    "direct_listening": false,
+    "review_scope": "Whisper text reconciliation, signal levels, deliberate silence windows and mix separation; no subjective ear assessment claimed."
+  },
+  {
+    "file": "02_audio/sound-design/shorts-02-bgm.wav",
+    "sha256": "0e5f8cc0adb17c181c939ae6b3604a0786e0a0a94c2dbc170b8113b6140cfc35",
+    "duration": 20.52,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.9427223547143786,
+    "first_100ms_peak": 0.001220703125,
+    "last_100ms_peak": 0.02764892578125,
+    "clipped_samples": 0,
+    "loudness": {
+      "input_i": "-19.28",
+      "input_tp": "-3.92",
+      "input_lra": "1.50",
+      "input_thresh": "-29.81",
+      "output_i": "-17.97",
+      "output_tp": "-2.48",
+      "output_lra": "1.30",
+      "output_thresh": "-28.46",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.03"
+    },
+    "direct_listening": false,
+    "review_scope": "Whisper text reconciliation, signal levels, deliberate silence windows and mix separation; no subjective ear assessment claimed."
+  },
+  {
+    "file": "02_audio/sound-design/shorts-03-bgm.wav",
+    "sha256": "83c4cc8889c0abadc0026a67b218c96a792406f938ebfcd6b5d13e26ea0beb9b",
+    "duration": 20.711,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -3.72144795473983,
+    "first_100ms_peak": 0.35699462890625,
+    "last_100ms_peak": 0.01580810546875,
+    "clipped_samples": 0,
+    "loudness": {
+      "input_i": "-18.26",
+      "input_tp": "-3.70",
+      "input_lra": "1.30",
+      "input_thresh": "-28.58",
+      "output_i": "-18.13",
+      "output_tp": "-3.64",
+      "output_lra": "1.50",
+      "output_thresh": "-28.49",
+      "normalization_type": "dynamic",
+      "target_offset": "0.13"
+    },
+    "direct_listening": false,
+    "review_scope": "Whisper text reconciliation, signal levels, deliberate silence windows and mix separation; no subjective ear assessment claimed."
+  }
+]

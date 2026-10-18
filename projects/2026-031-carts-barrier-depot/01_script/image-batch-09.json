@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "asset_id": "SH03-portrait-A05",
+      "prompt": "Edit ONLY the single luminous yellow ceiling bar ABOVE CENTER DOOR: turn it OFF, a dark fixture, no internal electric light. Preserve all other geometry, black-gloved worker, open CENTER door, CLOSED front door, two axles, EMPTY cabin and driver seat, external yard lamps ON. Same exact vertical pixel-art image; no relighting or reframing.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v3.png"
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "prompt": "Edit ONLY the four raised opaque finger-shaped marks on red tape: replace them with exactly FOUR FLAT translucent clear WATER streaks lying on the red tape surface, subtle glossy outlines and tiny clear droplets. They are wet contact prints, NOT actual fingers, skin, flesh, blood or raised objects. Preserve the handle, steel cart, blue end caps, empty shelter and dark left text space, same rough 2D image and composition.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source-v3.png"
+    }
+  ]
+}

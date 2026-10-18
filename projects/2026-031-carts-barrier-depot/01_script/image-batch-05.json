@@ -1,0 +1,55 @@
+{
+  "assets": [
+    {
+      "asset_id": "C03-bus-reference-v3",
+      "prompt": "Edit the supplied pixel-art bus design reference. Keep the SAME green-gray TWO-AXLE bus, exactly TWO passenger doors (front and center), empty driver seat, body proportions and rear service hatch intact seal. Turn ALL bus electric lamps OFF: interior ceiling fixtures dark, headlights dark, tail lights dark, marker lights dark, destination screen blank dark. Only EXTERNAL amber depot work lights illuminate the metal body and faintly reflect in glass. Keep windows transparent enough to see empty seats; NO interior luminous fixtures. Same camera, pixel texture, no text or people.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+    },
+    {
+      "asset_id": "C02-S10-A2",
+      "prompt": "Single landscape 16:9 dark matte gouache horror painting, navy wall gray metal and amber worklight, visible broad brush texture, NOT photo or pixel art. NEW TIGHT side-detail view of ONE gray jointed blunt appendage looping OVER a steel upper walkway guardrail and pulling it INWARD toward the wall. The rail is visibly bent in a smooth curve with solid contact. Appendage is a single tapered stone-textured tube with two knuckle-like joints and ONE blunt tip: NO fingers, claws, human hands or branches. All worker body/feet and creature torso outside crop. Gray wall on right, drop to road outside left. Focus on contact and bent steel fills half frame.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S10-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S10-A2-v2.png"
+    },
+    {
+      "asset_id": "C02-S11-A2",
+      "prompt": "Single landscape 16:9 dark matte gouache horror painting, navy wall gray metal and amber worklight, visible broad brush texture, NOT photo or pixel art. NEW TIGHT top-side view of the SAME red-and-black cordless screwdriver just landed at a slant on top of ONE black-painted STEEL toolbox. Its rotating bit touches the steel lid, tiny subtle vibration streaks. Tool is unsupported by hands, correct battery/chuck/bit geometry. No creature, human hands, feet or figures in frame. Upper walkway grating and navy wall only at edges. Close focus on bit-steel contact.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S11-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S09-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S11-A2-v2.png"
+    },
+    {
+      "asset_id": "C02-S12-A1",
+      "prompt": "Single landscape 16:9 dark matte gouache horror painting, navy wall gray metal and amber worklight, visible broad brush texture, NOT photo or pixel art. NEW camera halfway DOWN the LEFT stairs looking UP toward a worker who is DESCENDING TOWARD camera. Show FRONT of charcoal reflective jacket from chest down, head completely outside TOP edge. Worker LEFT foot is in a plain gray SOCK, on viewer RIGHT; worker RIGHT foot in BLACK BOOT on viewer LEFT. Exactly two separate natural legs stepping DOWN. One hand holds stair rail. Behind him upper landing has ONE abandoned empty boot. No other people, creature or extra limbs. Tight framing on descending legs and stair tread.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S12-A1-v2.png"
+    },
+    {
+      "asset_id": "C02-S12-A2",
+      "prompt": "Single landscape 16:9 dark matte gouache horror painting, navy wall gray metal and amber worklight, visible broad brush texture, NOT photo or pixel art. NEW view from road behind parked maintenance truck looking UP at upper walkway. One continuous steel wall panel has a LONG SMOOTH PRESSURE DEPRESSION and the rail below it is BENT, but no hole, crater, debris or exposed concrete. One black metal toolbox only at RIGHT dead end. Left staircase visible left. Two workers backs partly cropped at BOTTOM, main charcoal jacket and colleague yellow vest. Creature gone. All panels remain recognizably thin steel, not shattered masonry.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S12-A2-v2.png"
+    },
+    {
+      "asset_id": "C02-S13-A2",
+      "prompt": "Single landscape 16:9 dark matte gouache horror painting, navy wall gray metal and amber worklight, visible broad brush texture, NOT photo or pixel art. Full-frame illustrated documentary PHOTO seen later, same night upper walkway. Look downward obliquely at METAL FLOOR PLATES UNDER worker legs: exactly SIX separate small blunt upward bulges, each lifts a rectangular floor plate slightly. All six deformations in HORIZONTAL WALKWAY FLOOR, not vertical wall. Two ordinary black work boots at TOP edge; flashlight amber beam grazes six raised plates. Wall remains flat at right. No creature, no hands, no device frame, no writing. New low near-floor camera angle, six bumps readable.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S04-A2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S10-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S13-A2-v2.png"
+    }
+  ]
+}

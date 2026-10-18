@@ -1,0 +1,8 @@
+{
+  "approved_character_coverage": 1.0,
+  "recognized_character_precision": 1.0,
+  "differences": [],
+  "extended_repeated_passages_detected": false,
+  "direct_listening_performed": false,
+  "status": "text_signal_checked_human_listening_pending"
+}

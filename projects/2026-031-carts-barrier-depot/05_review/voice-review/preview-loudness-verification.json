@@ -1,0 +1,30 @@
+{
+  "SH03-preview.mp3": {
+    "integrated_lufs": -23.27,
+    "true_peak_dbfs": -8.89
+  },
+  "C03-preview.mp3": {
+    "integrated_lufs": -23.27,
+    "true_peak_dbfs": -8.53
+  },
+  "three-story-listening-preview.mp3": {
+    "integrated_lufs": -23.03,
+    "true_peak_dbfs": -9.39
+  },
+  "C02-preview.mp3": {
+    "integrated_lufs": -23.26,
+    "true_peak_dbfs": -8.97
+  },
+  "SH02-preview.mp3": {
+    "integrated_lufs": -23.27,
+    "true_peak_dbfs": -8.49
+  },
+  "SH01-preview.mp3": {
+    "integrated_lufs": -23.26,
+    "true_peak_dbfs": -10.41
+  },
+  "C01-preview.mp3": {
+    "integrated_lufs": -23.27,
+    "true_peak_dbfs": -9.06
+  }
+}

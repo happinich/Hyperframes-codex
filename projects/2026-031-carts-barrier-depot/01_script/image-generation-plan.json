@@ -1,0 +1,1485 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "selected_native_assets_individually_reviewed",
+  "assets": [
+    {
+      "asset_id": "C01-S01-A1",
+      "baseline_asset_id": "C01-S01-A1",
+      "scene_id": "C01-S01",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S01-A1.png",
+      "sha256": "15463e1e1d2aae9575154dbb037e1cca04558acdda6f239eb0bd52dffe887dab",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+        "shot_size": "detail",
+        "subject_focus": "카트 옆면과 화자의 손목",
+        "start_seconds": 0.0,
+        "end_seconds": 4.97
+      }
+    },
+    {
+      "asset_id": "C01-S01-A2",
+      "baseline_asset_id": "C01-S01-A2",
+      "scene_id": "C01-S01",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S01-A2.png",
+      "sha256": "4ca161cddabb11935e7cfe54a4b45c915ebb35d33b3cfe9c7a86395cd75f8c09",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+        "shot_size": "detail",
+        "subject_focus": "손잡이 아래에서 감싸는 다섯 손가락",
+        "start_seconds": 4.97,
+        "end_seconds": 7.68
+      }
+    },
+    {
+      "asset_id": "C01-S02-A1",
+      "baseline_asset_id": "C01-S02-A1",
+      "scene_id": "C01-S02",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A1.png",
+      "sha256": "097a9cc67bc55000445e024c2ed6792e4bfb802cf0b6a8b75e4aff95baad226e",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 앞쪽 높은 사선",
+        "shot_size": "wide",
+        "subject_focus": "보관장의 출입구와 정상 카트 줄",
+        "start_seconds": 7.68,
+        "end_seconds": 32.61
+      }
+    },
+    {
+      "asset_id": "C01-S02-A2",
+      "baseline_asset_id": "C01-S02-A2",
+      "scene_id": "C01-S02",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S02-A2.png",
+      "sha256": "a3e8291d1750029946ce7e241496440b7cef8ba06cae10f81f0d5cf77065e85b",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+        "shot_size": "medium",
+        "subject_focus": "작업자 뒤에서 본 오른쪽 통로",
+        "start_seconds": 32.61,
+        "end_seconds": 35.45
+      }
+    },
+    {
+      "asset_id": "C01-S03-A1",
+      "baseline_asset_id": "C01-S03-A1",
+      "scene_id": "C01-S03",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S03-A1.png",
+      "sha256": "f105e7daf9cead6cca326faedd1178a89d850d884be2be5fafd36b38a6c04c1c",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+        "shot_size": "detail",
+        "subject_focus": "정상 카트 줄과 별도 고장 카트",
+        "start_seconds": 35.45,
+        "end_seconds": 59.45
+      }
+    },
+    {
+      "asset_id": "C01-S03-A2",
+      "baseline_asset_id": "C01-S03-A2",
+      "scene_id": "C01-S03",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S03-A2.png",
+      "sha256": "b6756d13f2c8edfb8efef65da28bfb348c40cfd9af35fa3342405d551142f4dd",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "카트 짐칸 아래 바닥",
+        "shot_size": "detail",
+        "subject_focus": "멈춘 바닥 위 혼자 회전하는 앞바퀴",
+        "start_seconds": 59.45,
+        "end_seconds": 64.22
+      }
+    },
+    {
+      "asset_id": "C01-S04-A1",
+      "baseline_asset_id": "C01-S04-A1",
+      "scene_id": "C01-S04",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A1.png",
+      "sha256": "1492a3bd19db4b047e93800991399d1a8ce7202995b04b952254e07eb8398e76",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "카트 짐칸 아래 바닥",
+        "shot_size": "detail",
+        "subject_focus": "물자국 없는 바닥",
+        "start_seconds": 64.22,
+        "end_seconds": 76.77
+      }
+    },
+    {
+      "asset_id": "C01-S04-A2",
+      "baseline_asset_id": "C01-S04-A2",
+      "scene_id": "C01-S04",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S04-A2.png",
+      "sha256": "7cb4999a1746e6ac13801332b8a1f4fc1c76aba6818176f92e42f26d31711356",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+        "shot_size": "detail",
+        "subject_focus": "빨간 테이프 위 손가락 네 줄과 옆 수건",
+        "start_seconds": 76.77,
+        "end_seconds": 90.12
+      }
+    },
+    {
+      "asset_id": "C01-S05-A1",
+      "baseline_asset_id": "C01-S05-A1",
+      "scene_id": "C01-S05",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S05-A1.png",
+      "sha256": "af4737bcbc52426a2c2dc8e15d245f91dbc052902b9d14bb284abf555af5f032",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 손 위 휴대전화",
+        "shot_size": "detail",
+        "subject_focus": "사진 속 손자국 방향",
+        "start_seconds": 90.12,
+        "end_seconds": 102.07
+      }
+    },
+    {
+      "asset_id": "C01-S05-A2",
+      "baseline_asset_id": "C01-S05-A2",
+      "scene_id": "C01-S05",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S05-A2.png",
+      "sha256": "a7c5a926569fc4b8d8ed694f806e4990a2e801180d28414febaa32952b4959a0",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 옆 짐칸을 향한 위치",
+        "shot_size": "medium",
+        "subject_focus": "손전등에 드러난 비어 있는 짐칸",
+        "start_seconds": 102.07,
+        "end_seconds": 124.95
+      }
+    },
+    {
+      "asset_id": "C01-S06-A1",
+      "baseline_asset_id": "C01-S06-A1",
+      "scene_id": "C01-S06",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S06-A1.png",
+      "sha256": "57ab37205d052a7ace609a3741bd3d74ebaba1bb26efda975e51b92e05890ed9",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 앞쪽 높은 사선",
+        "shot_size": "wide",
+        "subject_focus": "앞쪽 말뚝으로 가까워진 정상 카트 줄",
+        "start_seconds": 124.95,
+        "end_seconds": 135.63
+      }
+    },
+    {
+      "asset_id": "C01-S06-A2",
+      "baseline_asset_id": "C01-S06-A2",
+      "scene_id": "C01-S06",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S06-A2.png",
+      "sha256": "ad1cc8c970fe309f82f9ae184d7ae78cec12d864430dfef7823e8af679b19a52",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "뒤 직원문 문턱에서 앞 말뚝 방향",
+        "shot_size": "medium",
+        "subject_focus": "뒤 직원문의 열린 틈",
+        "start_seconds": 135.63,
+        "end_seconds": 149.82
+      }
+    },
+    {
+      "asset_id": "C01-S07-A1",
+      "baseline_asset_id": "C01-S07-A1",
+      "scene_id": "C01-S07",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S07-A1.png",
+      "sha256": "6ba6caabbea824ed7fea3af08f8d4d2e6d1763ddb56989f287753c23d69f4100",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+        "shot_size": "medium",
+        "subject_focus": "문 밖에서 무전하는 손",
+        "start_seconds": 149.82,
+        "end_seconds": 171.63
+      }
+    },
+    {
+      "asset_id": "C01-S07-A2",
+      "baseline_asset_id": "C01-S07-A2",
+      "scene_id": "C01-S07",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S07-A2.png",
+      "sha256": "ed5864f6a603cc875d60976401a90e325b5276fd0fba7dabbd948bb3adb740aa",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "카트 짐칸 아래 바닥",
+        "shot_size": "detail",
+        "subject_focus": "별도 빨간 카트와 정상 줄 사이의 신발 앞코",
+        "start_seconds": 171.63,
+        "end_seconds": 181.8
+      }
+    },
+    {
+      "asset_id": "C01-S08-A1",
+      "baseline_asset_id": "C01-S08-A1",
+      "scene_id": "C01-S08",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S08-A1.png",
+      "sha256": "0a578440c44a546c1ed7902f0d811b68ee3aa1c81f945669268d0fd50416630f",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "카트 짐칸 아래 바닥",
+        "shot_size": "detail",
+        "subject_focus": "운동화가 화자 쪽으로 돌아감",
+        "start_seconds": 181.8,
+        "end_seconds": 202.13
+      }
+    },
+    {
+      "asset_id": "C01-S08-A2",
+      "baseline_asset_id": "C01-S08-A2",
+      "scene_id": "C01-S08",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S08-A2.png",
+      "sha256": "117b3cf6f036efad2ba57e0991afe98fbd68ee2dbdd46c4edd12d77b5c6b396a",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 바깥 말뚝 오른쪽",
+        "shot_size": "medium",
+        "subject_focus": "열한 대가 말뚝에 부딪히는 외부 측면",
+        "start_seconds": 202.13,
+        "end_seconds": 208.82
+      }
+    },
+    {
+      "asset_id": "C01-S09-A1",
+      "baseline_asset_id": "C01-S09-A1",
+      "scene_id": "C01-S09",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S09-A1.png",
+      "sha256": "e356ed455b075524ee9bf2bd49d2425971a4514a969dbe13bbada390834b0d5a",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+        "shot_size": "detail",
+        "subject_focus": "젖은 회색 소매 한쪽",
+        "start_seconds": 208.82,
+        "end_seconds": 226.03
+      }
+    },
+    {
+      "asset_id": "C01-S09-A2",
+      "baseline_asset_id": "C01-S09-A2",
+      "scene_id": "C01-S09",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S09-A2.png",
+      "sha256": "dacfd4ad6ad0a9f572c0a5008bbcefb8ee5f2dbf2fb18f7938730b1f731f5517",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 바깥 말뚝 오른쪽",
+        "shot_size": "medium",
+        "subject_focus": "밀리는 카트 윗부분과 고정된 말뚝",
+        "start_seconds": 226.03,
+        "end_seconds": 242.19
+      }
+    },
+    {
+      "asset_id": "C01-S10-A1",
+      "baseline_asset_id": "C01-S10-A1",
+      "scene_id": "C01-S10",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S10-A1.png",
+      "sha256": "77fd5c0289dcaec8ac56d45c1d56ef03211feee8f395c302d77b1d1662cd3369",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "뒤 직원문 문턱에서 앞 말뚝 방향",
+        "shot_size": "medium",
+        "subject_focus": "정상 줄 뒤에서 별도로 빠져 오른쪽 통로로 선회",
+        "start_seconds": 242.19,
+        "end_seconds": 258.61
+      }
+    },
+    {
+      "asset_id": "C01-S10-A2",
+      "baseline_asset_id": "C01-S10-A2",
+      "scene_id": "C01-S10",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S10-A2.png",
+      "sha256": "36f6591c80db824fbc650b51c6aa6b9d54362e364a11e558a4589c80f0d25042",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+        "shot_size": "medium",
+        "subject_focus": "통로에 나타난 빨간 카트와 체인을 줍는 손",
+        "start_seconds": 258.61,
+        "end_seconds": 268.35
+      }
+    },
+    {
+      "asset_id": "C01-S11-A1",
+      "baseline_asset_id": "C01-S11-A1",
+      "scene_id": "C01-S11",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S11-A1.png",
+      "sha256": "61e2fb2eae3c84c8555ec073b40e93c2ef093416e3cc1ea27dc4fb020f7bc804",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+        "shot_size": "detail",
+        "subject_focus": "회색 어깨와 짐칸에 가려진 머리 위치",
+        "start_seconds": 268.35,
+        "end_seconds": 278.49
+      }
+    },
+    {
+      "asset_id": "C01-S11-A2",
+      "baseline_asset_id": "C01-S11-A2",
+      "scene_id": "C01-S11",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S11-A2.png",
+      "sha256": "3aab27e57531ed10930aaa56987761f3820cf22ca0280c1eb1f20a4f01e80ac3",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 옆 짐칸을 향한 위치",
+        "shot_size": "medium",
+        "subject_focus": "정상 손목을 붙잡은 하나의 손",
+        "start_seconds": 278.49,
+        "end_seconds": 300.27
+      }
+    },
+    {
+      "asset_id": "C01-S12-A0",
+      "baseline_asset_id": "C01-S12-A0",
+      "scene_id": "C01-S12",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S12-A0.png",
+      "sha256": "a23bfeecd21da3d8b3f9d9e5a7c0cefeecaac31f4cfa0ee1dde30bf253ed38f4",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 바깥 말뚝 왼쪽 바닥",
+        "shot_size": "detail",
+        "subject_focus": "검은 장갑 한 손으로 느슨한 체인을 말뚝에 감음",
+        "start_seconds": 300.27,
+        "end_seconds": 315.61
+      }
+    },
+    {
+      "asset_id": "C01-S12-A1",
+      "baseline_asset_id": "C01-S12-A1",
+      "scene_id": "C01-S12",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S12-A1.png",
+      "sha256": "7cb8c8373b11e337dca2845a46eec42982176320499e730058a3f9b432f9d254",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 바깥 말뚝 오른쪽",
+        "shot_size": "medium",
+        "subject_focus": "앞바퀴에 걸린 체인과 말뚝 고리",
+        "start_seconds": 315.61,
+        "end_seconds": 322.21
+      }
+    },
+    {
+      "asset_id": "C01-S12-A2",
+      "baseline_asset_id": "C01-S12-A2",
+      "scene_id": "C01-S12",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S12-A2.png",
+      "sha256": "79cc493c7bd8caefa266e276c94c6c852751eb291ce82673520f5fe7d64a2afa",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+        "shot_size": "detail",
+        "subject_focus": "팽팽해진 체인 뒤 손이 놓이고 몸을 빼는 동작",
+        "start_seconds": 322.21,
+        "end_seconds": 332.13
+      }
+    },
+    {
+      "asset_id": "C01-S13-A1",
+      "baseline_asset_id": "C01-S13-A1",
+      "scene_id": "C01-S13",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S13-A1.png",
+      "sha256": "c9abb3826d1caab12618aead5e8d8e3920e85404acf0628d6e31b4d847370671",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "보관장 앞쪽 높은 사선",
+        "shot_size": "wide",
+        "subject_focus": "다시 모인 카트와 체인",
+        "start_seconds": 332.13,
+        "end_seconds": 346.03
+      }
+    },
+    {
+      "asset_id": "C01-S13-A2",
+      "baseline_asset_id": "C01-S13-A2",
+      "scene_id": "C01-S13",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S13-A2.png",
+      "sha256": "87002d356737b5458445dc311bb29204b7e7891482b01806d238eab2ddf389e7",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+        "shot_size": "detail",
+        "subject_focus": "손목 바깥 네 자국과 안쪽 엄지 자국",
+        "start_seconds": 346.03,
+        "end_seconds": 356.32
+      }
+    },
+    {
+      "asset_id": "C01-S14-A1",
+      "baseline_asset_id": "C01-S14-A1",
+      "scene_id": "C01-S14",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S14-A1.png",
+      "sha256": "bea232177527915786f2984a4e2a9058dd4ac700ace366a740885c48655914a9",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 손 위 휴대전화",
+        "shot_size": "detail",
+        "subject_focus": "주간 시설 점검과 빨간 테이프",
+        "start_seconds": 356.32,
+        "end_seconds": 372.57
+      }
+    },
+    {
+      "asset_id": "C01-S14-A2",
+      "baseline_asset_id": "C01-photo-evidence",
+      "scene_id": "C01-S14",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-photo-evidence.png",
+      "sha256": "280ad5bd343d404973e54df44202af4c83e6a4cdbfabe4e25081bf02e6992e77",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+        "shot_size": "detail",
+        "subject_focus": "사진의 수건 아래 소매를 확대 비교",
+        "start_seconds": 372.57,
+        "end_seconds": 396.13
+      }
+    },
+    {
+      "asset_id": "C01-S15-A1",
+      "baseline_asset_id": "C01-S15-A1",
+      "scene_id": "C01-S15",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S15-A1.png",
+      "sha256": "cf50e80e66834aa5cca40e36f6b1e180306ae6cc9d39234c4f439cabfd775dc4",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "새 마트 주간 주차장 출입구 뒤",
+        "shot_size": "wide",
+        "subject_focus": "주간 새 마트 보관장을 멀리 보는 뒷모습",
+        "start_seconds": 396.13,
+        "end_seconds": 402.75
+      }
+    },
+    {
+      "asset_id": "C01-S15-A2",
+      "baseline_asset_id": "C01-S15-A2",
+      "scene_id": "C01-S15",
+      "style_id": "horror_rough_2d",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C01-S15-A2.png",
+      "sha256": "0cdd38dd6e4ed85f813f6233d4b42d484b037f3181bedf865c5398e0825cf1cf",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+        "shot_size": "detail",
+        "subject_focus": "잡는 손 없이 눌리는 화자 손목",
+        "start_seconds": 402.75,
+        "end_seconds": 411.582
+      }
+    },
+    {
+      "asset_id": "C02-S01-A1",
+      "baseline_asset_id": "C02-S01-A1",
+      "scene_id": "C02-S01",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S01-A1.png",
+      "sha256": "b5a1eefa8c962fd60c1c3dabc253d7343f08341c21c1e76d226f0ecde37ea425",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "통제 차로 바깥 높은 작업 위치",
+        "shot_size": "wide",
+        "subject_focus": "상부에 선 작업자와 벽",
+        "start_seconds": 416.582,
+        "end_seconds": 421.512
+      }
+    },
+    {
+      "asset_id": "C02-S01-A2",
+      "baseline_asset_id": "C02-S01-A2",
+      "scene_id": "C02-S01",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S01-A2.png",
+      "sha256": "f0a8ce9af73ac302ba9340b1f352ca5546a82c35ac608037a511101d78928dba",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "패널 밑 빗물받이 높이",
+        "shot_size": "detail",
+        "subject_focus": "패널 아래쪽에서 움직이는 여섯 자국만",
+        "start_seconds": 421.512,
+        "end_seconds": 424.702
+      }
+    },
+    {
+      "asset_id": "C02-S02-A1",
+      "baseline_asset_id": "C02-S02-A1",
+      "scene_id": "C02-S02",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+      "sha256": "93ed78596478962022e96448601f2f1e49b148fa6f41e8160909dcecc701201c",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "통제 차로 바깥 높은 작업 위치",
+        "shot_size": "wide",
+        "subject_focus": "통제 차로·트럭·상부 점검로",
+        "start_seconds": 424.702,
+        "end_seconds": 442.892
+      }
+    },
+    {
+      "asset_id": "C02-S02-A2",
+      "baseline_asset_id": "C02-S02-A2",
+      "scene_id": "C02-S02",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A2.png",
+      "sha256": "2425cc0bca3931c30d577efdf953490f7b2cecaa014df3b8d09891fd8d59db00",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "왼쪽 계단 아래에서 점검로 방향",
+        "shot_size": "medium",
+        "subject_focus": "계단 입구에서 보이는 오른쪽 끝",
+        "start_seconds": 442.892,
+        "end_seconds": 454.802
+      }
+    },
+    {
+      "asset_id": "C02-S03-A1",
+      "baseline_asset_id": "C02-S03-A1",
+      "scene_id": "C02-S03",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S03-A1.png",
+      "sha256": "63c81bc80be8451ee1371d9f2bcc52b59669bac76dcb1e90cc619c583add5860",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로 위 패널 정면",
+        "shot_size": "medium",
+        "subject_focus": "손이 떨어진 철판과 표시",
+        "start_seconds": 454.802,
+        "end_seconds": 480.572
+      }
+    },
+    {
+      "asset_id": "C02-S03-A2",
+      "baseline_asset_id": "C02-S03-A2",
+      "scene_id": "C02-S03",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S03-A2.png",
+      "sha256": "df8998e922372f9405bae5423c2f38b0bac1f79dd0534a35645521118aa3dbca",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로에서 화자의 작업화 방향",
+        "shot_size": "detail",
+        "subject_focus": "두 칸 옮긴 발과 그 아래 소리 위치",
+        "start_seconds": 480.572,
+        "end_seconds": 484.722
+      }
+    },
+    {
+      "asset_id": "C02-S04-A1",
+      "baseline_asset_id": "C02-S04-A1",
+      "scene_id": "C02-S04",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S04-A1.png",
+      "sha256": "0365872e3305133f0548545c5720f7151e7098258855d78319a6bc2eb3346b9c",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "패널 이음새 오른쪽 사선",
+        "shot_size": "detail",
+        "subject_focus": "옆에서 본 벌어진 이음새",
+        "start_seconds": 484.722,
+        "end_seconds": 500.592
+      }
+    },
+    {
+      "asset_id": "C02-S04-A2",
+      "baseline_asset_id": "C02-S04-A2",
+      "scene_id": "C02-S04",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S04-A2.png",
+      "sha256": "718b0eb7d41aaa7a2dabdac66aa5d410cf1f18e345b04ec439feec6cf67a17ca",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "패널 밑 빗물받이 높이",
+        "shot_size": "detail",
+        "subject_focus": "바닥 높이에서 드러난 긁힘과 분필 표시",
+        "start_seconds": 500.592,
+        "end_seconds": 512.852
+      }
+    },
+    {
+      "asset_id": "C02-S05-A1",
+      "baseline_asset_id": "C02-S05-A1",
+      "scene_id": "C02-S05",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S05-A1.png",
+      "sha256": "015cd2a69975ed1ec0d505629862046fd5ab03f63bd30b1e3a6a9ddd8fcb813d",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+        "shot_size": "wide",
+        "subject_focus": "아래 도로에서 본 부푼 패널",
+        "start_seconds": 512.852,
+        "end_seconds": 532.952
+      }
+    },
+    {
+      "asset_id": "C02-S05-A2",
+      "baseline_asset_id": "C02-S05-A2",
+      "scene_id": "C02-S05",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S05-A2.png",
+      "sha256": "c35a80dacb0a504fffc777f8f48f82f629539b57379cc15f974ea51683827bc3",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로 위 패널 정면",
+        "shot_size": "medium",
+        "subject_focus": "위에서 단단한 볼트 주변만 움직이는 철판",
+        "start_seconds": 532.952,
+        "end_seconds": 549.512
+      }
+    },
+    {
+      "asset_id": "C02-S06-A1",
+      "baseline_asset_id": "C02-S06-A1",
+      "scene_id": "C02-S06",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S06-A1.png",
+      "sha256": "df7078b2679a65110e1ea2b8d5b7427373b3a91fad730c9c942d026ba8363a29",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+        "shot_size": "wide",
+        "subject_focus": "트럭 발전기 시작",
+        "start_seconds": 549.512,
+        "end_seconds": 553.532
+      }
+    },
+    {
+      "asset_id": "C02-S06-A2",
+      "baseline_asset_id": "C02-S06-A2",
+      "scene_id": "C02-S06",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S06-A2.png",
+      "sha256": "45e28649c4cad45b20f09f3f00ed6b484c71443b8a22d2f7b1b77ad8d257bec1",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "패널 밑 빗물받이 높이",
+        "shot_size": "detail",
+        "subject_focus": "분필선 아래를 지나는 여섯 갈래 긁힘",
+        "start_seconds": 553.532,
+        "end_seconds": 559.612
+      }
+    },
+    {
+      "asset_id": "C02-S07-A1",
+      "baseline_asset_id": "C02-S07-A1",
+      "scene_id": "C02-S07",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S07-A1.png",
+      "sha256": "7a0c532f6b2e4d84763a05290e1b7cbed9999b1180d9a5f197bc3e7cd68bdc6d",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로에서 화자의 작업화 방향",
+        "shot_size": "detail",
+        "subject_focus": "멈춘 작업화 앞",
+        "start_seconds": 559.612,
+        "end_seconds": 566.012
+      }
+    },
+    {
+      "asset_id": "C02-S07-A2",
+      "baseline_asset_id": "C02-S07-A2",
+      "scene_id": "C02-S07",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S07-A2.png",
+      "sha256": "cfac2e707302826046a8a75b9f3b63d1176fecfa0408838f9f30e832a1376d78",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "패널 밑 빗물받이 높이",
+        "shot_size": "detail",
+        "subject_focus": "빗물받이 틈의 회색 마디들이 순서대로 움직임",
+        "start_seconds": 566.012,
+        "end_seconds": 594.512
+      }
+    },
+    {
+      "asset_id": "C02-S08-A1",
+      "baseline_asset_id": "C02-S08-A1",
+      "scene_id": "C02-S08",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S08-A1.png",
+      "sha256": "17b46062e21395fd14951ed75642b71d311e540ca76be768f3de4e6fd6e36b84",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+        "shot_size": "wide",
+        "subject_focus": "떨어진 공구통",
+        "start_seconds": 594.512,
+        "end_seconds": 606.232
+      }
+    },
+    {
+      "asset_id": "C02-S08-A2",
+      "baseline_asset_id": "C02-S08-A2",
+      "scene_id": "C02-S08",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S08-A2.png",
+      "sha256": "287ff4ca4469273271c5cf59f98ffe8a43f5bcf87282762b22cd212db49761c9",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로에서 화자의 작업화 방향",
+        "shot_size": "detail",
+        "subject_focus": "벽과 점검로 연결점, 발과 함께 전해지는 떨림",
+        "start_seconds": 606.232,
+        "end_seconds": 643.172
+      }
+    },
+    {
+      "asset_id": "C02-S09-A1",
+      "baseline_asset_id": "C02-S09-A1",
+      "scene_id": "C02-S09",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S09-A1.png",
+      "sha256": "c9fd4fc83ca00350cab55131b3c0e68d5385b9f409ba752d0a84bc29eae5be13",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+        "shot_size": "wide",
+        "subject_focus": "아래쪽 동료의 시선에서 본 회색 등판",
+        "start_seconds": 643.172,
+        "end_seconds": 654.332
+      }
+    },
+    {
+      "asset_id": "C02-S09-A2",
+      "baseline_asset_id": "C02-S09-A2",
+      "scene_id": "C02-S09",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S09-A2.png",
+      "sha256": "7e19ae759b9304444f7c05e6df751b1c3e6e50d06d53bc23b274fb4471ae2d6b",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로 계단 쪽에서 옆면 방향",
+        "shot_size": "medium",
+        "subject_focus": "좁은 점검로에 멈춘 화자의 측면",
+        "start_seconds": 654.332,
+        "end_seconds": 669.632
+      }
+    },
+    {
+      "asset_id": "C02-S10-A1",
+      "baseline_asset_id": "C02-S10-A1",
+      "scene_id": "C02-S10",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S10-A1.png",
+      "sha256": "b670d050407b465f36521797bdce00f3f2231739d4cfeead279258d3999c2e84",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로에서 화자의 작업화 방향",
+        "shot_size": "detail",
+        "subject_focus": "발판 아래에서 작업화를 잡은 두 마디",
+        "start_seconds": 669.632,
+        "end_seconds": 678.772
+      }
+    },
+    {
+      "asset_id": "C02-S10-A2",
+      "baseline_asset_id": "C02-S10-A2",
+      "scene_id": "C02-S10",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S10-A2.png",
+      "sha256": "e7bd1c0e8d2491d62fb402671eb9b88a8dc74aeb0336a359a8b8af8d13cdcda6",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로 계단 쪽에서 옆면 방향",
+        "shot_size": "medium",
+        "subject_focus": "다른 마디가 휘게 하는 난간",
+        "start_seconds": 678.772,
+        "end_seconds": 698.632
+      }
+    },
+    {
+      "asset_id": "C02-S11-A1",
+      "baseline_asset_id": "C02-S11-A1",
+      "scene_id": "C02-S11",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S11-A1.png",
+      "sha256": "c1aaf39867362a056fcad5ed34cef2abbe445da0fee90e8f72d6f7efcbf81ef5",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자의 손과 금속이 떨어진 틈",
+        "shot_size": "detail",
+        "subject_focus": "금속에서 떨어진 손의 드라이버",
+        "start_seconds": 698.632,
+        "end_seconds": 712.432
+      }
+    },
+    {
+      "asset_id": "C02-S11-A2",
+      "baseline_asset_id": "C02-S11-A2",
+      "scene_id": "C02-S11",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S11-A2.png",
+      "sha256": "19673934de84cf6c40ccaa1327129008cffa6a01cf79da58ed39a4c88fa6efe1",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "계단 쪽에서 오른쪽 끝 공구함 방향",
+        "shot_size": "medium",
+        "subject_focus": "오른쪽 상자에 닿은 비트와 풀리는 발목",
+        "start_seconds": 712.432,
+        "end_seconds": 726.772
+      }
+    },
+    {
+      "asset_id": "C02-S12-A1",
+      "baseline_asset_id": "C02-S12-A1",
+      "scene_id": "C02-S12",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S12-A1.png",
+      "sha256": "6123b082830916a42b4635d82860d01847925419ae21f539c46e3aa8c1c1945d",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "왼쪽 계단 아래에서 점검로 방향",
+        "shot_size": "medium",
+        "subject_focus": "한쪽 신발을 두고 내려오는 화자",
+        "start_seconds": 726.772,
+        "end_seconds": 742.852
+      }
+    },
+    {
+      "asset_id": "C02-S12-A2",
+      "baseline_asset_id": "C02-S12-A2",
+      "scene_id": "C02-S12",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S12-A2.png",
+      "sha256": "d920753372a459e48f3a344b9c60e2c9429e9f4161b7de0bad4d34e8f00d3a3f",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "도로의 동료 위치에서 위쪽 패널 방향",
+        "shot_size": "wide",
+        "subject_focus": "트럭 뒤에서 본 휘어진 난간과 패널",
+        "start_seconds": 742.852,
+        "end_seconds": 766.432
+      }
+    },
+    {
+      "asset_id": "C02-S13-A1",
+      "baseline_asset_id": "C02-S13-A1",
+      "scene_id": "C02-S13",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S13-A1.png",
+      "sha256": "7cf44f4d0b2fb66c598cba63e1eb064b74789cd0b542b2b5824704092dcbcbf0",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검로에서 화자의 작업화 방향",
+        "shot_size": "detail",
+        "subject_focus": "낮에 회수된 왼쪽 작업화",
+        "start_seconds": 766.432,
+        "end_seconds": 788.312
+      }
+    },
+    {
+      "asset_id": "C02-S13-A2",
+      "baseline_asset_id": "C02-S13-A2",
+      "scene_id": "C02-S13",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S13-A2.png",
+      "sha256": "749fd270b4885a6dd8890f77550f8604a89da578c30e4f21c6fe33783336cda5",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "주간 점검자의 손 위 현장 사진",
+        "shot_size": "detail",
+        "subject_focus": "현장 사진 속 철판 변형 여섯 곳",
+        "start_seconds": 788.312,
+        "end_seconds": 796.852
+      }
+    },
+    {
+      "asset_id": "C02-S14-A1",
+      "baseline_asset_id": "C02-S14-A1",
+      "scene_id": "C02-S14",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S14-A1.png",
+      "sha256": "9caf0fa30457f329d7c64dc52081a502be4cb3469ed8b4060ba9c45694da9404",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "자재 창고 문턱에서 패널 적재대",
+        "shot_size": "wide",
+        "subject_focus": "창고의 포장된 새 패널",
+        "start_seconds": 796.852,
+        "end_seconds": 805.012
+      }
+    },
+    {
+      "asset_id": "C02-S14-A2",
+      "baseline_asset_id": "C02-S14-A2",
+      "scene_id": "C02-S14",
+      "style_id": "horror_painterly",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S14-A2.png",
+      "sha256": "cdbe642e1414320d712c9eb5420343df1f00ad7093aa0c32ed84caa8595726e1",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "새 패널 포장 아래 모서리",
+        "shot_size": "detail",
+        "subject_focus": "지게차 정지 뒤 멎는 포장 안의 국소 움직임",
+        "start_seconds": 805.012,
+        "end_seconds": 826.262
+      }
+    },
+    {
+      "asset_id": "C03-S01-A1",
+      "baseline_asset_id": "C03-S01-A1",
+      "scene_id": "C03-S01",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S01-A1.png",
+      "sha256": "03b5f819814cc6775a2d93f1320d7b27d5f847b77acfcb999563134851e94e6a",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "얼굴 없는 화자 뒤에서 다가오는 버스",
+        "start_seconds": 831.262,
+        "end_seconds": 833.892
+      }
+    },
+    {
+      "asset_id": "C03-S01-A2",
+      "baseline_asset_id": "C03-S01-A2",
+      "scene_id": "C03-S01",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S01-A2.png",
+      "sha256": "6b86f425a1ecf0de858dee6591c8f246457137414998183fe685eea117c5b6f4",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "버스 앞바퀴 바깥쪽 지면",
+        "shot_size": "detail",
+        "subject_focus": "시동 없이 굴러오는 바퀴와 세차선 글자",
+        "start_seconds": 833.892,
+        "end_seconds": 838.502
+      }
+    },
+    {
+      "asset_id": "C03-S02-A1",
+      "baseline_asset_id": "C03-S02-A1",
+      "scene_id": "C03-S02",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png",
+      "sha256": "08a2078d27524cd7ab2955928bf004d24f73639dec4813c62d216ff553eff0ca",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "차고지 사무동 위에서 정비 줄 방향",
+        "shot_size": "wide",
+        "subject_focus": "차고지 정문·세차선·정비동·전기실의 지리",
+        "start_seconds": 838.502,
+        "end_seconds": 842.152
+      }
+    },
+    {
+      "asset_id": "C03-S02-A2",
+      "baseline_asset_id": "C03-S02-A2",
+      "scene_id": "C03-S02",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A2.png",
+      "sha256": "c33655c6f594f22e88f1e02fa5615d8637af9319ccdce53f53ef85bea509afcf",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "사무실 책상 옆 단말기 위치",
+        "shot_size": "detail",
+        "subject_focus": "차량 키와 출고 기록표",
+        "start_seconds": 842.152,
+        "end_seconds": 874.872
+      }
+    },
+    {
+      "asset_id": "C03-S03-A1",
+      "baseline_asset_id": "C03-S03-A1",
+      "scene_id": "C03-S03",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1.png",
+      "sha256": "268e5e5a3e7112554e5f2aabc3260270844ba6bce69501677871e7a0b9a507fd",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "같은 예비 버스의 켜진 표시",
+        "start_seconds": 874.872,
+        "end_seconds": 888.252
+      }
+    },
+    {
+      "asset_id": "C03-S03-A2",
+      "baseline_asset_id": "C03-S03-A2",
+      "scene_id": "C03-S03",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A2.png",
+      "sha256": "af6ecdac1716fc297836c14467947746fd68d8ad60fa284a618ad2a5be0bfebf",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "점검자의 기록표 위",
+        "shot_size": "detail",
+        "subject_focus": "출고 없음 기록과 표시의 불일치",
+        "start_seconds": 888.252,
+        "end_seconds": 893.112
+      }
+    },
+    {
+      "asset_id": "C03-S04-A1",
+      "baseline_asset_id": "C03-S04-A1",
+      "scene_id": "C03-S04",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A1.png",
+      "sha256": "bffb97290aa42b512f16e12a982d477811c72641700ab94b10566711f61faefa",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "버스 옆 격리 스위치 높이",
+        "shot_size": "detail",
+        "subject_focus": "버스 격리 스위치 봉인",
+        "start_seconds": 893.112,
+        "end_seconds": 914.112
+      }
+    },
+    {
+      "asset_id": "C03-S04-A2",
+      "baseline_asset_id": "C03-S04-A2",
+      "scene_id": "C03-S04",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A2.png",
+      "sha256": "6c9c62a8b40860a471a352d9fb082cd5b6c2f0a07ddcff5c40df1c3808bf3620",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "사무실 책상 옆 단말기 위치",
+        "shot_size": "detail",
+        "subject_focus": "단말기 공란 전송과 꺼지는 표시",
+        "start_seconds": 914.112,
+        "end_seconds": 928.052
+      }
+    },
+    {
+      "asset_id": "C03-S05-A1",
+      "baseline_asset_id": "C03-S05-A1",
+      "scene_id": "C03-S05",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S05-A1.png",
+      "sha256": "24ea731060ffeace89d326d624c94644cd9aff3f2aae8717157df63eee5ade8b",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화단 쪽에서 중문과 운전석 방향",
+        "shot_size": "medium",
+        "subject_focus": "텅 빈 운전석과 열린 중문",
+        "start_seconds": 928.052,
+        "end_seconds": 945.172
+      }
+    },
+    {
+      "asset_id": "C03-S05-A2",
+      "baseline_asset_id": "C03-S03-A1",
+      "scene_id": "C03-S05",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1.png",
+      "sha256": "268e5e5a3e7112554e5f2aabc3260270844ba6bce69501677871e7a0b9a507fd",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "같은 기준 구도의 세차선 글자",
+        "start_seconds": 945.172,
+        "end_seconds": 951.912
+      }
+    },
+    {
+      "asset_id": "C03-S06-A1",
+      "baseline_asset_id": "C03-S06-A1",
+      "scene_id": "C03-S06",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S06-A1.png",
+      "sha256": "094222139b03505e72cfcb9d1551314c86e0a94f3f6a6a06bf27b3f9ce014128",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "버스 앞바퀴 바깥쪽 지면",
+        "shot_size": "detail",
+        "subject_focus": "시동 없는 바퀴와 피해 움직이는 화자",
+        "start_seconds": 951.912,
+        "end_seconds": 979.172
+      }
+    },
+    {
+      "asset_id": "C03-S06-A2",
+      "baseline_asset_id": "C03-S03-A1",
+      "scene_id": "C03-S06",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1.png",
+      "sha256": "268e5e5a3e7112554e5f2aabc3260270844ba6bce69501677871e7a0b9a507fd",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "같은 표시 구도의 정비동 앞 글자",
+        "start_seconds": 979.172,
+        "end_seconds": 983.432
+      }
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "baseline_asset_id": "C03-S07-A1",
+      "scene_id": "C03-S07",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A1.png",
+      "sha256": "d2154362badb2dfff91ac916c8edfc128551e4e25af015cc5240c5dd3fe5b02a",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "세차선 배수로 옆",
+        "shot_size": "medium",
+        "subject_focus": "버스와 화자 사이 배수로·호스",
+        "start_seconds": 983.432,
+        "end_seconds": 1007.612
+      }
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "baseline_asset_id": "C03-S07-A2",
+      "scene_id": "C03-S07",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A2.png",
+      "sha256": "a790ea1cc2c141e6bafbb28f65a5941e091b77efcaf69378dad8808db7c3d0dc",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화단 쪽에서 중문과 운전석 방향",
+        "shot_size": "medium",
+        "subject_focus": "화자가 물러날 때 따라 트는 앞바퀴",
+        "start_seconds": 1007.612,
+        "end_seconds": 1030.412
+      }
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "baseline_asset_id": "C03-S08-A1",
+      "scene_id": "C03-S08",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A1.png",
+      "sha256": "7482cc35778c63806deb196f1a74192d5f7ec2c3e61d1da5f1e776f5e7e270a6",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자의 손에 든 태그",
+        "shot_size": "detail",
+        "subject_focus": "출입증에 달린 시험 태그",
+        "start_seconds": 1030.412,
+        "end_seconds": 1039.592
+      }
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "baseline_asset_id": "C03-S08-A2",
+      "scene_id": "C03-S08",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A2.png",
+      "sha256": "1af1d39bab1434779c5c88eb94de5953331a6ca15f8dbf9cbe29317a7c18da4c",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "차고지 사무동 위에서 정비 줄 방향",
+        "shot_size": "wide",
+        "subject_focus": "밤 정차 위치와 낮 시험 경로의 대조",
+        "start_seconds": 1039.592,
+        "end_seconds": 1053.332
+      }
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "baseline_asset_id": "C03-S09-A1",
+      "scene_id": "C03-S09",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A1.png",
+      "sha256": "b183f4724e57fe2700217ee012206d45ad78ca67d4918c9fb984a34bbfff7f8b",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "세차선 표지판 옆에서 화단과 태그",
+        "shot_size": "medium",
+        "subject_focus": "세차선 표지판 밑 태그와 화단으로 이동한 화자",
+        "start_seconds": 1053.332,
+        "end_seconds": 1060.052
+      }
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "baseline_asset_id": "C03-S09-A2",
+      "scene_id": "C03-S09",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A2.png",
+      "sha256": "ffd5d8c2377dc2aaab2c118fcdc65519c2156e16b930520307e1d9541c955a23",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "태그 쪽으로 향하는 버스와 표시",
+        "start_seconds": 1060.052,
+        "end_seconds": 1085.552
+      }
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "baseline_asset_id": "C03-S10-A1",
+      "scene_id": "C03-S10",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1.png",
+      "sha256": "b0da6b2330a0b566e74a083906c604234efeb4a0e21d43e2a8da9086f43175ce",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "운반 카트 뒤에서 차단봉 방향",
+        "shot_size": "medium",
+        "subject_focus": "태그가 걸린 운반 카트",
+        "start_seconds": 1085.552,
+        "end_seconds": 1103.572
+      }
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "baseline_asset_id": "C03-S10-A2",
+      "scene_id": "C03-S10",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A2.png",
+      "sha256": "23702121e1195c7f782496c322c55c730792dc4a31777322b0be9fa50aee9367",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "차고지 사무동 위에서 정비 줄 방향",
+        "shot_size": "wide",
+        "subject_focus": "화단 밖에서 보는 카트·버스·전기실 접근로",
+        "start_seconds": 1103.572,
+        "end_seconds": 1121.012
+      }
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "baseline_asset_id": "C03-S11-cleanplate",
+      "scene_id": "C03-S11",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-cleanplate.png",
+      "sha256": "ba8aa670a6e01f1fa2554d000fdb712f6287df396b6211c641498fe3c85ff2ae",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "버스 밖 중문 문턱 너머 빈 실내",
+        "shot_size": "medium",
+        "subject_focus": "멈춘 카트 뒤 텅 빈 좌석과 흔들린 손잡이",
+        "start_seconds": 1121.012,
+        "end_seconds": 1133.352
+      }
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "baseline_asset_id": "C03-S11-A2",
+      "scene_id": "C03-S11",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2.png",
+      "sha256": "62a2e1b8f33af99bd4f2cd9e4f543db7d807ad0251b00a6e64ef1f77dd0ad0ad",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화단 쪽에서 중문과 운전석 방향",
+        "shot_size": "medium",
+        "subject_focus": "문틀에 붙어 늦게 반응하는 그림자",
+        "start_seconds": 1133.352,
+        "end_seconds": 1145.812
+      }
+    },
+    {
+      "asset_id": "C03-S12-A1",
+      "baseline_asset_id": "C03-S12-A1",
+      "scene_id": "C03-S12",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A1.png",
+      "sha256": "def0ac1138c7ff452cf497796cd10e5d0fc812401bac6ca81a8f002850be8bd5",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "구역 수신기 옆에서 켜진 작업등 방향",
+        "shot_size": "detail",
+        "subject_focus": "작업등은 켜진 채 꺼지는 구역 수신기",
+        "start_seconds": 1145.812,
+        "end_seconds": 1156.652
+      }
+    },
+    {
+      "asset_id": "C03-S12-A2",
+      "baseline_asset_id": "C03-S12-A2",
+      "scene_id": "C03-S12",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A2.png",
+      "sha256": "c53ee9d54593e0de56a67c7436e8d5244145b03904b1a30e50c23378eff78f59",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "버스 옆 격리 스위치 높이",
+        "shot_size": "detail",
+        "subject_focus": "멈춘 버스와 여전히 붙은 봉인",
+        "start_seconds": 1156.652,
+        "end_seconds": 1185.772
+      }
+    },
+    {
+      "asset_id": "C03-S13-A1",
+      "baseline_asset_id": "C03-S13-A1",
+      "scene_id": "C03-S13",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A1.png",
+      "sha256": "34d6e8f6c99973814ed40b7c49f7130e45746f33ecc825ca252e38159818f5ac",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화자의 손에 든 태그",
+        "shot_size": "detail",
+        "subject_focus": "태그 표면의 다섯 눌림",
+        "start_seconds": 1185.772,
+        "end_seconds": 1201.112
+      }
+    },
+    {
+      "asset_id": "C03-S13-A2",
+      "baseline_asset_id": "C03-S13-A2",
+      "scene_id": "C03-S13",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A2.png",
+      "sha256": "6aa15c1b472ae71d55dccd601251d829abcc8d111f4caff1ee393855357a300f",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "사무실 책상 옆 단말기 위치",
+        "shot_size": "detail",
+        "subject_focus": "차단봉 앞 승차 기록과 출고 없는 차량 번호",
+        "start_seconds": 1201.112,
+        "end_seconds": 1216.872
+      }
+    },
+    {
+      "asset_id": "C03-S14-A1",
+      "baseline_asset_id": "C03-S03-A1",
+      "scene_id": "C03-S14",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1.png",
+      "sha256": "268e5e5a3e7112554e5f2aabc3260270844ba6bce69501677871e7a0b9a507fd",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "노란 보행선의 동일 기준 위치에서 예비 버스 정면",
+        "shot_size": "medium",
+        "subject_focus": "후일 마감의 예비 버스 기준 구도",
+        "start_seconds": 1216.872,
+        "end_seconds": 1241.292
+      }
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "baseline_asset_id": "C03-S14-A2",
+      "scene_id": "C03-S14",
+      "style_id": "horror_pixel",
+      "output_path": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S14-A2.png",
+      "sha256": "baba92b8265bd6291801abba9b8f4b9157db7d34af877ed90eb5bba44ce76188",
+      "review": "05_review/image-review.json",
+      "native_provenance_receipts": "05_review/generated-assets/",
+      "shot_sequence": {
+        "camera_position": "화단 쪽에서 중문과 운전석 방향",
+        "shot_size": "medium",
+        "subject_focus": "문만 조금 벌어진 빈 차고지",
+        "start_seconds": 1241.292,
+        "end_seconds": 1245.997
+      }
+    }
+  ]
+}

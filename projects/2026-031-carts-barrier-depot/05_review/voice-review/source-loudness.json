@@ -1,0 +1,32 @@
+{
+  "C01": {
+    "source": "02_audio/chapters/story-01/02_audio/working/voice.wav",
+    "integrated_lufs": -17.92,
+    "true_peak_dbfs": -3.73
+  },
+  "C02": {
+    "source": "02_audio/chapters/story-02/02_audio/working/voice.wav",
+    "integrated_lufs": -19.16,
+    "true_peak_dbfs": -4.87
+  },
+  "C03": {
+    "source": "02_audio/chapters/story-03/02_audio/working/voice.wav",
+    "integrated_lufs": -18.49,
+    "true_peak_dbfs": -3.75
+  },
+  "SH01": {
+    "source": "02_audio/shorts/shorts-01/02_audio/working/voice.wav",
+    "integrated_lufs": -16.89,
+    "true_peak_dbfs": -4.03
+  },
+  "SH02": {
+    "source": "02_audio/shorts/shorts-02/02_audio/working/voice.wav",
+    "integrated_lufs": -19.42,
+    "true_peak_dbfs": -4.64
+  },
+  "SH03": {
+    "source": "02_audio/shorts/shorts-03/02_audio/working/voice.wav",
+    "integrated_lufs": -18.39,
+    "true_peak_dbfs": -4.01
+  }
+}

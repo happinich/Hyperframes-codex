@@ -1,0 +1,31 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "title": "아무도 없는데, 누가 밀고 있었다｜창작 괴담 3편",
+  "alternative_titles": [
+    "막차가 끝난 차고지에서, 빈 버스가 나를 따라왔다｜창작 괴담 3편",
+    "마른 바닥, 젖은 손잡이… 마지막 한 대가 이상했다｜직업 괴담 3편",
+    "벽 안의 발소리와 운전기사 없는 버스｜창작 공포 3편",
+    "퇴근하려던 사람들만 본 것들｜마트·방음벽·차고지 괴담",
+    "그날 야간 근무를 끝내지 말았어야 했다｜창작 괴담 3편"
+  ],
+  "description": "모두 돌아간 뒤에도 움직이는 것이 있었습니다.\n마른 바닥 위의 젖은 손잡이, 방음벽 안에서 따라오는 발소리, 현재 위치로 바뀌는 버스 행선지.\n서로 다른 일터에서 겪는 세 편의 완결 창작 괴담입니다.\n\n00:00 맨 뒤 카트의 젖은 손잡이\n06:56 방음벽 안에서 따라오는 것\n13:51 예비 버스의 다음 정류장\n\n※ 본 영상은 창작 공포 이야기입니다. 검증된 실화 또는 실제 사건 재현물이 아닙니다.\n공개 공포 영상의 일반 모티프에서 착안해 인물·장소·사건·결말을 새로 구성했습니다. 원작 대사·녹음·영상·삽화는 사용하지 않았습니다.\n\n참고 모티프 및 화면 시점 출처\n돌비공포라디오 · 야근 금지 회사\nhttps://www.youtube.com/watch?v=yL4tbBaVuH4\n왓섭! 공포라디오 · 오대산에서 생긴 일\nhttps://www.youtube.com/watch?v=bsI8CG-SuhQ\n괴들남 공포이야기 · 제주도 택시 손님 사건\nhttps://www.youtube.com/watch?v=G9cW9c8qu3g\nMr. Nightmare · 공간 시점 참고\nhttps://www.youtube.com/watch?v=Kyjxoqovpyw&t=35s\n\nAI 생성 음성과 생성 일러스트를 사용했습니다. 실제 촬영·실제 현장 녹음이 아닙니다.\n본편 자막은 YouTube 자동 자막을 이용해 주세요.\n재생목록 분류: 직업 괴담 · 공포괴담 본편\n\n#공포라디오 #창작괴담 #직업괴담",
+  "tags": "공포라디오,창작괴담,직업괴담,야간근무,마트괴담,카트괴담,방음벽,미확인존재,버스괴담,차고지,괴담모음,무서운이야기,한국공포,잠들기전괴담",
+  "pinned_comment": "셋 중에서 혼자 마주치기 가장 싫은 것은 무엇인가요? ① 젖은 손잡이 ② 벽 안의 발소리 ③ 빈 버스\n다음 편도 평범한 일터에서 시작되는 창작 괴담으로 찾아오겠습니다. 경험을 남기실 때는 개인정보를 빼 주세요. 별도 작품으로 채택할 때 사용 허락과 익명 처리 범위를 먼저 확인합니다.",
+  "sns_copy": "아무도 없는데, 누가 밀고 있었다.\n마트의 마지막 카트부터 운전석이 빈 예비 버스까지. 세 편의 완결 창작 괴담을 한 영상에 담았습니다.\n#공포라디오 #창작괴담 #직업괴담",
+  "content_nature": "fiction",
+  "recommended_publish_kst": "2026-10-21 22:00",
+  "schedule_basis": "config/horror-channel-strategy.json fallback_release_schedule_kst; audience heatmap not supplied",
+  "playlist": "직업 괴담",
+  "end_screen": {
+    "start_seconds": 1231.997,
+    "end_seconds": 1249.997,
+    "primary": "직업 괴담 public playlist",
+    "secondary": "subscribe",
+    "youtube_control_action": "업로드 후 해당 공개 재생목록과 구독 요소를 배치"
+  },
+  "main_mp4": "2026-031-carts-barrier-depot-youtube.mp4",
+  "captions": "YouTube automatic; no external SRT/VTT",
+  "thumbnail_primary": "thumbnail-a.png",
+  "thumbnail_alternative": "thumbnail-b.png",
+  "public_upload_status": "not_requested_not_uploaded"
+}

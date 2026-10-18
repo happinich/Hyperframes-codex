@@ -1,0 +1,60 @@
+{
+  "status": "all_six_voices_generated_text_signal_checked_human_listening_pending",
+  "model_id": "eleven_v4",
+  "voice_id": null,
+  "language_code": "ko",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75
+  },
+  "recommended_voice": null,
+  "postprocess": {
+    "voice_speed_multiplier": 1.0,
+    "automatic_speedup": false
+  },
+  "text_source": "01_script/narration.txt",
+  "performance_direction": "절제된 존댓말 구술, 초반 관찰→중반 불안→접촉 순간 긴장. 승인 원고에 연기 태그 없음. 선택과 승인 후 발음용 원고 별도 준비.",
+  "bgm": {
+    "status": "not_generated_pending_voice_review_and_separate_approval",
+    "source": "bgm/candidates/cand-04.mp3"
+  },
+  "script_approval_manifest": "00_brief/script-approval.json",
+  "voice_plan": "00_brief/voice-plan.json",
+  "per_chapter_casting": [
+    {
+      "chapter_id": "C01",
+      "selected_voice": {
+        "name": "Jian.K",
+        "voice_id": "ah4r1hZOydd3XWlHOm3Y"
+      },
+      "selection_status": "voice_approved"
+    },
+    {
+      "chapter_id": "C02",
+      "selected_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2"
+      },
+      "selection_status": "voice_approved"
+    },
+    {
+      "chapter_id": "C03",
+      "selected_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2"
+      },
+      "selection_status": "voice_approved"
+    }
+  ],
+  "manifest_only": true,
+  "child_requests": [
+    "02_audio/chapters/story-01/02_audio/elevenlabs-request.json",
+    "02_audio/chapters/story-02/02_audio/elevenlabs-request.json",
+    "02_audio/chapters/story-03/02_audio/elevenlabs-request.json",
+    "02_audio/shorts/shorts-01/02_audio/elevenlabs-request.json",
+    "02_audio/shorts/shorts-02/02_audio/elevenlabs-request.json",
+    "02_audio/shorts/shorts-03/02_audio/elevenlabs-request.json"
+  ],
+  "existing_audio_generated": true,
+  "voice_review": "05_review/voice-review.md"
+}

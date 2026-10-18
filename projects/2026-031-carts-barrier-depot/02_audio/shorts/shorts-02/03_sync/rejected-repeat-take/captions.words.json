@@ -1,0 +1,276 @@
+{
+  "duration": 28.76,
+  "cues": [
+    {
+      "start": 3.5,
+      "end": 6.7,
+      "text": "방음벽 안에서 누군가 제 발에 맞춰 걸었어요."
+    },
+    {
+      "start": 7.12,
+      "end": 9.98,
+      "text": "밤에 느슨해진 패널을 확인하던 중이었죠."
+    },
+    {
+      "start": 10.54,
+      "end": 13.96,
+      "text": "벽을 두드린 손을 뗐는데도 안쪽에서 세 번의"
+    },
+    {
+      "start": 13.96,
+      "end": 17.28,
+      "text": "소리가 돌아왔습니다. 이음새를 비추자 흰"
+    },
+    {
+      "start": 17.28,
+      "end": 20.64,
+      "text": "긁힘 여섯 줄이 보였어요. 아래쪽 발전기가 켜진"
+    },
+    {
+      "start": 20.64,
+      "end": 24.06,
+      "text": "순간, 그 선들이 제 발밑으로 빠르게 옮겨"
+    },
+    {
+      "start": 23.36,
+      "end": 24.06,
+      "text": "왔습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "방음벽",
+      "start": 3.5,
+      "end": 4.2,
+      "matched": true
+    },
+    {
+      "text": "안에서",
+      "start": 4.2,
+      "end": 4.56,
+      "matched": true
+    },
+    {
+      "text": "누군가",
+      "start": 4.56,
+      "end": 5.42,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 5.42,
+      "end": 5.7,
+      "matched": true
+    },
+    {
+      "text": "발에",
+      "start": 5.7,
+      "end": 6.0,
+      "matched": true
+    },
+    {
+      "text": "맞춰",
+      "start": 6.0,
+      "end": 6.22,
+      "matched": true
+    },
+    {
+      "text": "걸었어요.",
+      "start": 6.22,
+      "end": 6.7,
+      "matched": true
+    },
+    {
+      "text": "밤에",
+      "start": 7.12,
+      "end": 7.8,
+      "matched": true
+    },
+    {
+      "text": "느슨해진",
+      "start": 7.8,
+      "end": 8.52,
+      "matched": true
+    },
+    {
+      "text": "패널을",
+      "start": 8.52,
+      "end": 8.96,
+      "matched": true
+    },
+    {
+      "text": "확인하던",
+      "start": 8.96,
+      "end": 9.46,
+      "matched": true
+    },
+    {
+      "text": "중이었죠.",
+      "start": 9.46,
+      "end": 9.98,
+      "matched": true
+    },
+    {
+      "text": "벽을",
+      "start": 10.54,
+      "end": 11.04,
+      "matched": true
+    },
+    {
+      "text": "두드린",
+      "start": 11.04,
+      "end": 11.34,
+      "matched": true
+    },
+    {
+      "text": "손을",
+      "start": 11.34,
+      "end": 11.62,
+      "matched": true
+    },
+    {
+      "text": "뗐는데도",
+      "start": 11.62,
+      "end": 12.24,
+      "matched": true
+    },
+    {
+      "text": "안쪽에서",
+      "start": 12.24,
+      "end": 13.3,
+      "matched": true
+    },
+    {
+      "text": "세",
+      "start": 13.3,
+      "end": 13.7,
+      "matched": true
+    },
+    {
+      "text": "번의",
+      "start": 13.7,
+      "end": 13.96,
+      "matched": true
+    },
+    {
+      "text": "소리가",
+      "start": 13.96,
+      "end": 14.24,
+      "matched": true
+    },
+    {
+      "text": "돌아왔습니다.",
+      "start": 14.24,
+      "end": 14.88,
+      "matched": true
+    },
+    {
+      "text": "이음새를",
+      "start": 15.56,
+      "end": 16.08,
+      "matched": true
+    },
+    {
+      "text": "비추자",
+      "start": 16.08,
+      "end": 16.54,
+      "matched": true
+    },
+    {
+      "text": "흰",
+      "start": 16.54,
+      "end": 17.28,
+      "matched": true
+    },
+    {
+      "text": "긁힘",
+      "start": 17.28,
+      "end": 17.68,
+      "matched": true
+    },
+    {
+      "text": "여섯",
+      "start": 17.68,
+      "end": 18.02,
+      "matched": true
+    },
+    {
+      "text": "줄이",
+      "start": 18.02,
+      "end": 18.24,
+      "matched": true
+    },
+    {
+      "text": "보였어요.",
+      "start": 18.24,
+      "end": 18.76,
+      "matched": true
+    },
+    {
+      "text": "아래쪽",
+      "start": 19.3,
+      "end": 19.76,
+      "matched": true
+    },
+    {
+      "text": "발전기가",
+      "start": 19.76,
+      "end": 20.26,
+      "matched": true
+    },
+    {
+      "text": "켜진",
+      "start": 20.26,
+      "end": 20.64,
+      "matched": true
+    },
+    {
+      "text": "순간,",
+      "start": 20.64,
+      "end": 20.94,
+      "matched": true
+    },
+    {
+      "text": "그",
+      "start": 20.94,
+      "end": 21.7,
+      "matched": true
+    },
+    {
+      "text": "선들이",
+      "start": 21.7,
+      "end": 22.12,
+      "matched": true
+    },
+    {
+      "text": "제",
+      "start": 22.12,
+      "end": 22.48,
+      "matched": true
+    },
+    {
+      "text": "발밑으로",
+      "start": 22.48,
+      "end": 23.0,
+      "matched": true
+    },
+    {
+      "text": "빠르게",
+      "start": 23.0,
+      "end": 23.36,
+      "matched": true
+    },
+    {
+      "text": "옮겨",
+      "start": 23.36,
+      "end": 24.06,
+      "matched": true
+    },
+    {
+      "text": "왔습니다.",
+      "start": 23.36,
+      "end": 24.06,
+      "matched": true
+    }
+  ]
+}

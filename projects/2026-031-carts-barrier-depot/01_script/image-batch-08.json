@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "C03-S11-A2",
+      "prompt": "Edit this one pixel-art scene ONLY: remove the partial trolley and ALL its wheels at far LEFT, replace with empty continuous asphalt. Keep ONE bus open center doorway, attached broad rectangular NON-HUMAN doorframe shadow, empty dark cabin, exterior light, camera and geometry. No other change.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S11-cleanplate",
+      "prompt": "Edit this one pixel-art scene ONLY: REMOVE the ONE triangular yellow hanging passenger strap and its short vertical suspension above it. Leave the horizontal ceiling rail intact. Reconstruct empty dark ceiling/seat background behind removed strap. Preserve every other seat, rail, open doorway, light, camera, pixel texture and exterior depot. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A1-v2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-cleanplate.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A03",
+      "prompt": "Keep this exact vertical 9:16 rough 2D scene and all foreground anatomy/phone/empty red-handle basket. REMOVE the entire long normal-cart row in left background, replace it with a cropped plain blue-gray shelter wall and dry concrete. Only ONE foreground red cart remains visible. Keep black glove, blank phone, same dry floor and palette. No additional objects, no marks, no ghost.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A03.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A03-v2.png"
+    },
+    {
+      "asset_id": "SH01-portrait-A05",
+      "prompt": "Keep exact vertical 9:16 rough 2D image. Correct the cart at RIGHT: vertical post and caster fork are ordinary blue-gray STEEL, wheel is BLACK rubber, no red paint. ONLY the defective handle far ABOVE outside this crop has red tape. The left ordinary cart remains blue-gray. Preserve ONE wet dark mesh sneaker toe with thin dirty white sole facing camera, hide any leg above it behind basket. Same dry floor, no added body/face/hand.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A05.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH01-portrait-A05-v2.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A02",
+      "prompt": "FRESH PORTRAIT 9:16 dark matte GOUACHE painting with broad visible brushstrokes, navy steel/gray and amber light. NEW elevated oblique view of an ORDINARY 4-METER TALL ROAD NOISE BARRIER, its narrow steel grated walkway only 2 METERS above ROAD with a small maintenance truck below. LEFT descending staircase, RIGHT metal wall and one black steel toolbox at right dead end. One faceless charcoal-reflective worker back and hardhat. NO cliff, dam, pit, huge concrete structure, tall drop, entity, face or text. References establish road-scale geometry only, make a genuinely fresh portrait camera view.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S02-A2.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A02-v2.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A03",
+      "prompt": "Edit this vertical gouache image ONLY: remove all white handprints/fingerprints from the wall, leaving plain navy-gray steel texture and fixed bolts. Keep ONE natural five-digit black-gloved hand withdrawn several centimeters from steel, no physical contact. Preserve arm, camera and amber worklight. No creature, extra hand or letters.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A03.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A03-v2.png"
+    },
+    {
+      "asset_id": "SH02-portrait-A05",
+      "prompt": "FRESH PORTRAIT 9:16 dark matte GOUACHE painting, broad brushstrokes, navy gray steel and amber worklight. NEW close DOWNWARD view of two ordinary black work boots on upper grated inspection walkway. At the INNER wall-bottom gutter directly AHEAD of boots are exactly SIX thin parallel chalk-white scratch lines moving toward feet. All six on a narrow steel floor strip, no creature or limb. Only local floor and lower steel wall visible; NO view over edge, pit, drop, dam, cliff, generator, road or other setting. No human face, text, full-body shadow or identity reveal. Six lines in central middle, lower 25% simple for captions.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S04-A2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S07-A1.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH02-portrait-A05-v2.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A02",
+      "prompt": "Edit only the small visible human hands to thin BLACK work gloves, five natural digits each. Preserve the same vertical pixel-art worker back, short dark hair, charcoal jacket, walking pose, yellow walkway, wash brushes, flowerbed, exterior lighting and all geometry. No other changes.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A02.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A02-v2.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A04",
+      "prompt": "Edit only CENTER passenger door BETWEEN TWO axles to OPEN, dark empty doorway with folded leaves at sides. Front door immediately beside windshield remains CLOSED. Same vertical pixel-art single green-gray bus, large blank destination display, blank wash sign, EMPTY driver seat, all electric bus lamps OFF, external amber worklights. No added objects or people.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A04.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A04-v2.png"
+    },
+    {
+      "asset_id": "SH03-portrait-A05",
+      "prompt": "Edit this vertical pixel-art scene: visible worker hands wear thin BLACK gloves, natural anatomy. Bus CENTER passenger door BETWEEN TWO axles stays OPEN, front passenger door immediately beside windshield CLOSED. Keep worker back, short dark hair, charcoal jacket, stepping backward, blank destination display, one bus, empty driver seat, exterior lighting. Do not add any other vehicle or person.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/SH03-portrait-A05-v2.png"
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "prompt": "Edit this rough ink 2D landscape thumbnail. REMOVE ALL carts from background shelter: fill with empty blue-gray shelter wall and dry floor, no additional red cart or normal-cart row. Preserve EXACTLY ONE foreground steel cart red-tape handle with FOUR wet finger streaks, blue end caps, empty basket. Left 40% dark and empty for later text. No actual fingers, hands or figure. Matte rough 2D style and external amber light.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-a-source-v2.png"
+    },
+    {
+      "asset_id": "thumbnail-b-source",
+      "prompt": "Edit this landscape pixel-art thumbnail ONLY: turn ALL bus INTERIOR CEILING LAMPS OFF. Ceiling fixtures are DARK, no luminous yellow bars in cabin. Empty seats remain dimly visible through EXTERNAL amber depot light entering OPEN CENTER doorway. Front door CLOSED; headlights/markers/tail lamps OFF; blank display. Keep bus, open center door, empty driver seat, left 40% navy empty text space, camera, pixel art and geometry. No other change.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-b-source.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/thumbnail-b-source-v2.png"
+    }
+  ]
+}

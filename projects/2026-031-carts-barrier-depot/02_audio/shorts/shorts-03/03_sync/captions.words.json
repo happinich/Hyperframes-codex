@@ -1,0 +1,276 @@
+{
+  "duration": 20.34,
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 2.7,
+      "text": "운전석이 빈 예비 버스의 행선지가 켜졌어요."
+    },
+    {
+      "start": 3.08,
+      "end": 6.24,
+      "text": "저는 야간 배차를 끝내고 세차선으로 걸어가던"
+    },
+    {
+      "start": 6.24,
+      "end": 9.24,
+      "text": "중이었습니다. 표시를 껐는데 가운데 문이"
+    },
+    {
+      "start": 9.24,
+      "end": 12.82,
+      "text": "열리고, 버스가 시동 소리도 없이 굴렀죠. 앞"
+    },
+    {
+      "start": 12.82,
+      "end": 15.26,
+      "text": "유리에 새로 뜬 행선지는 제가 서 있던"
+    },
+    {
+      "start": 15.26,
+      "end": 18.6,
+      "text": "세차선이었습니다. 제가 정비동 쪽으로 물러서자"
+    },
+    {
+      "start": 18.6,
+      "end": 20.34,
+      "text": "글자가 다시 바뀌었습니다."
+    }
+  ],
+  "words": [
+    {
+      "text": "운전석이",
+      "start": 0.0,
+      "end": 0.56,
+      "matched": true
+    },
+    {
+      "text": "빈",
+      "start": 0.56,
+      "end": 0.82,
+      "matched": true
+    },
+    {
+      "text": "예비",
+      "start": 0.82,
+      "end": 1.2,
+      "matched": true
+    },
+    {
+      "text": "버스의",
+      "start": 1.2,
+      "end": 1.6,
+      "matched": true
+    },
+    {
+      "text": "행선지가",
+      "start": 1.6,
+      "end": 2.1,
+      "matched": true
+    },
+    {
+      "text": "켜졌어요.",
+      "start": 2.1,
+      "end": 2.7,
+      "matched": true
+    },
+    {
+      "text": "저는",
+      "start": 3.08,
+      "end": 3.62,
+      "matched": true
+    },
+    {
+      "text": "야간",
+      "start": 3.62,
+      "end": 4.08,
+      "matched": true
+    },
+    {
+      "text": "배차를",
+      "start": 4.08,
+      "end": 4.44,
+      "matched": true
+    },
+    {
+      "text": "끝내고",
+      "start": 4.44,
+      "end": 4.98,
+      "matched": true
+    },
+    {
+      "text": "세차선으로",
+      "start": 4.98,
+      "end": 5.76,
+      "matched": true
+    },
+    {
+      "text": "걸어가던",
+      "start": 5.76,
+      "end": 6.24,
+      "matched": true
+    },
+    {
+      "text": "중이었습니다.",
+      "start": 6.24,
+      "end": 6.84,
+      "matched": true
+    },
+    {
+      "text": "표시를",
+      "start": 7.36,
+      "end": 7.88,
+      "matched": true
+    },
+    {
+      "text": "껐는데",
+      "start": 7.88,
+      "end": 8.28,
+      "matched": true
+    },
+    {
+      "text": "가운데",
+      "start": 8.28,
+      "end": 8.94,
+      "matched": true
+    },
+    {
+      "text": "문이",
+      "start": 8.94,
+      "end": 9.24,
+      "matched": true
+    },
+    {
+      "text": "열리고,",
+      "start": 9.24,
+      "end": 9.58,
+      "matched": true
+    },
+    {
+      "text": "버스가",
+      "start": 9.58,
+      "end": 10.3,
+      "matched": true
+    },
+    {
+      "text": "시동",
+      "start": 10.3,
+      "end": 10.82,
+      "matched": true
+    },
+    {
+      "text": "소리도",
+      "start": 10.82,
+      "end": 11.14,
+      "matched": true
+    },
+    {
+      "text": "없이",
+      "start": 11.14,
+      "end": 11.32,
+      "matched": true
+    },
+    {
+      "text": "굴렀죠.",
+      "start": 11.32,
+      "end": 11.82,
+      "matched": true
+    },
+    {
+      "text": "앞",
+      "start": 12.62,
+      "end": 12.82,
+      "matched": true
+    },
+    {
+      "text": "유리에",
+      "start": 12.82,
+      "end": 13.18,
+      "matched": true
+    },
+    {
+      "text": "새로",
+      "start": 13.18,
+      "end": 13.38,
+      "matched": true
+    },
+    {
+      "text": "뜬",
+      "start": 13.38,
+      "end": 13.62,
+      "matched": true
+    },
+    {
+      "text": "행선지는",
+      "start": 13.62,
+      "end": 14.16,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 14.16,
+      "end": 14.76,
+      "matched": true
+    },
+    {
+      "text": "서",
+      "start": 14.76,
+      "end": 14.94,
+      "matched": true
+    },
+    {
+      "text": "있던",
+      "start": 14.94,
+      "end": 15.26,
+      "matched": true
+    },
+    {
+      "text": "세차선이었습니다.",
+      "start": 15.26,
+      "end": 16.22,
+      "matched": true
+    },
+    {
+      "text": "제가",
+      "start": 16.98,
+      "end": 17.22,
+      "matched": true
+    },
+    {
+      "text": "정비동",
+      "start": 17.22,
+      "end": 17.74,
+      "matched": true
+    },
+    {
+      "text": "쪽으로",
+      "start": 17.74,
+      "end": 18.06,
+      "matched": true
+    },
+    {
+      "text": "물러서자",
+      "start": 18.06,
+      "end": 18.6,
+      "matched": true
+    },
+    {
+      "text": "글자가",
+      "start": 18.6,
+      "end": 19.36,
+      "matched": true
+    },
+    {
+      "text": "다시",
+      "start": 19.36,
+      "end": 19.76,
+      "matched": true
+    },
+    {
+      "text": "바뀌었습니다.",
+      "start": 19.76,
+      "end": 20.34,
+      "matched": true
+    }
+  ]
+}

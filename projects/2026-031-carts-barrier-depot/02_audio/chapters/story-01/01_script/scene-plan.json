@@ -1,0 +1,1476 @@
+{
+  "project_id": "story-01",
+  "parent_project_id": "2026-031-carts-barrier-depot",
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_rough_2d",
+  "voice_speed_multiplier": 1.0,
+  "timing_source": "actual_approved_words_from_Whisper",
+  "scenes": [
+    {
+      "id": "C01-S01",
+      "chapter_id": "C01",
+      "type": "cold_open",
+      "start_seconds": 0.0,
+      "end_seconds": 7.68,
+      "duration_seconds": 7.68,
+      "estimated_words": 15,
+      "target_wpm": 125.0,
+      "purpose": "붙잡힌 손목의 콜드 오픈",
+      "narration_text": "카트 열두 대를 다 모았는데, 맨 뒤 카트에서 누가 제 손목을 잡았어요. 그쪽에는 손잡이만 있었거든요.",
+      "caption_text": "카트 열두 대를 다 모았는데, 맨 뒤 카트에서 누가 제 손목을 잡았어요. 그쪽에는 손잡이만 있었거든요.",
+      "visual": "카트 옆면과 화자의 손목 / 손잡이 아래에서 감싸는 다섯 손가락",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 0.0,
+          "action": "cut to distinct camera setup C01-S01-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 4.97,
+          "action": "cut to distinct camera setup C01-S01-A2",
+          "spoken_anchor": "그쪽에는"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S01",
+            "spoken_cue": "제 손목을",
+            "start_seconds": 0.96,
+            "kind": "fabric",
+            "duration_seconds": 0.52
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "젖은 손과 손목",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "붙잡힌 손목의 콜드 오픈에서 젖은 손과 손목가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S01-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 0.0,
+          "end_seconds": 4.97,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "contact",
+          "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+          "camera_angle": "downward",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "카트 옆면과 화자의 손목",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S01-A1",
+          "new_information": "카트 옆면과 화자의 손목",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S01-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 4.97,
+          "end_seconds": 7.68,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "handle",
+          "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+          "camera_angle": "side",
+          "camera_height": "1.0m",
+          "shot_size": "detail",
+          "subject_focus": "손잡이 아래에서 감싸는 다섯 손가락",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S01-A2",
+          "new_information": "손잡이 아래에서 감싸는 다섯 손가락",
+          "reuse_reason": null,
+          "spoken_anchor": "그쪽에는"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 0,
+      "audio_local_end_seconds": 7.68
+    },
+    {
+      "id": "C01-S02",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 7.68,
+      "end_seconds": 35.8,
+      "duration_seconds": 28.12,
+      "estimated_words": 59,
+      "target_wpm": 125.0,
+      "purpose": "정상 회수 업무와 탈출구",
+      "narration_text": "대형마트 야간조에서 일할 때였어요. 문을 닫고 나면 지상 주차장에 흩어진 카트를 모아 보관장 안에 넣는 게 제 일이었습니다. 비가 그친 밤이었지만, 지붕 아래 보관장 바닥은 말라 있었죠. 뒤에는 직원이 지나는 좁은 문이 있고, 앞쪽에는 쇠말뚝 두 개가 박혀 있었습니다. 정상 카트는 한 줄로 포개고, 맨 뒤에 따로 세워 둔 고장 카트까지 체인으로 잠그면 끝이었어요. 오른쪽에는 사람이 지나는 통로가 남았습니다.",
+      "caption_text": "대형마트 야간조에서 일할 때였어요. 문을 닫고 나면 지상 주차장에 흩어진 카트를 모아 보관장 안에 넣는 게 제 일이었습니다. 비가 그친 밤이었지만, 지붕 아래 보관장 바닥은 말라 있었죠. 뒤에는 직원이 지나는 좁은 문이 있고, 앞쪽에는 쇠말뚝 두 개가 박혀 있었습니다. 정상 카트는 한 줄로 포개고, 맨 뒤에 따로 세워 둔 고장 카트까지 체인으로 잠그면 끝이었어요. 오른쪽에는 사람이 지나는 통로가 남았습니다.",
+      "visual": "보관장의 출입구와 정상 카트 줄 / 작업자 뒤에서 본 오른쪽 통로",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 7.68,
+          "action": "cut to distinct camera setup C01-S02-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 32.61,
+          "action": "cut to distinct camera setup C01-S02-A2",
+          "spoken_anchor": "오른쪽에는"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "말뚝·직원문·오른쪽 통로",
+        "tension_stage": "normal",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "정상 회수 업무와 탈출구에서 말뚝·직원문·오른쪽 통로가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S02-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 7.68,
+          "end_seconds": 32.61,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "overview",
+          "camera_position": "보관장 앞쪽 높은 사선",
+          "camera_angle": "downward",
+          "camera_height": "2.5m",
+          "shot_size": "wide",
+          "subject_focus": "보관장의 출입구와 정상 카트 줄",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S02-A1",
+          "new_information": "보관장의 출입구와 정상 카트 줄",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S02-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 32.61,
+          "end_seconds": 35.45,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "aisle",
+          "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+          "camera_angle": "oblique",
+          "camera_height": "1.4m",
+          "shot_size": "medium",
+          "subject_focus": "작업자 뒤에서 본 오른쪽 통로",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S02-A2",
+          "new_information": "작업자 뒤에서 본 오른쪽 통로",
+          "reuse_reason": null,
+          "spoken_anchor": "오른쪽에는"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 7.68,
+      "audio_local_end_seconds": 35.8
+    },
+    {
+      "id": "C01-S03",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 35.8,
+      "end_seconds": 64.22,
+      "duration_seconds": 28.42,
+      "estimated_words": 56,
+      "target_wpm": 125.0,
+      "purpose": "손대지 않은 고장 바퀴",
+      "narration_text": "고장 카트 손잡이에는 빨간 테이프가 감겨 있었습니다. 바퀴가 비뚤어져서 손님에게 내놓지 않았고, 주간 시설팀이 맡으니 밤에는 옮기지 말라는 인수인계가 있었어요. 저는 그 앞에 정상 카트 열한 대를 차례로 포갰습니다. 마지막 한 대를 밀어 넣고 멈췄을 때, 보관장 안쪽에서 바퀴가 짧게 끽, 하고 울렸어요. 제가 밀던 바퀴는 멈춰 있었는데요. 닿지도 않은 빨간 카트의 앞바퀴만 천천히 돌아가고 있었습니다.",
+      "caption_text": "고장 카트 손잡이에는 빨간 테이프가 감겨 있었습니다. 바퀴가 비뚤어져서 손님에게 내놓지 않았고, 주간 시설팀이 맡으니 밤에는 옮기지 말라는 인수인계가 있었어요. 저는 그 앞에 정상 카트 열한 대를 차례로 포갰습니다. 마지막 한 대를 밀어 넣고 멈췄을 때, 보관장 안쪽에서 바퀴가 짧게 끽, 하고 울렸어요. 제가 밀던 바퀴는 멈춰 있었는데요. 닿지도 않은 빨간 카트의 앞바퀴만 천천히 돌아가고 있었습니다.",
+      "visual": "정상 카트 줄과 별도 고장 카트 / 멈춘 바닥 위 혼자 회전하는 앞바퀴",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 35.45,
+          "action": "cut to distinct camera setup C01-S03-A1",
+          "spoken_anchor": "고장 카트 손잡이에는"
+        },
+        {
+          "absolute_seconds": 59.45,
+          "action": "cut to distinct camera setup C01-S03-A2",
+          "spoken_anchor": "닿지도 않은"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S03",
+            "spoken_cue": "끽, 하고",
+            "start_seconds": 52.16,
+            "kind": "squeak",
+            "duration_seconds": 0.48
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "빨간 테이프와 회전 바퀴",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "손대지 않은 고장 바퀴에서 빨간 테이프와 회전 바퀴가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S03-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 35.45,
+          "end_seconds": 59.45,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "handle",
+          "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+          "camera_angle": "side",
+          "camera_height": "1.0m",
+          "shot_size": "detail",
+          "subject_focus": "정상 카트 줄과 별도 고장 카트",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S03-A1",
+          "new_information": "정상 카트 줄과 별도 고장 카트",
+          "reuse_reason": null,
+          "spoken_anchor": "고장 카트 손잡이에는"
+        },
+        {
+          "shot_id": "C01-S03-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 59.45,
+          "end_seconds": 64.22,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "floor",
+          "camera_position": "카트 짐칸 아래 바닥",
+          "camera_angle": "low",
+          "camera_height": "0.15m",
+          "shot_size": "detail",
+          "subject_focus": "멈춘 바닥 위 혼자 회전하는 앞바퀴",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S03-A2",
+          "new_information": "멈춘 바닥 위 혼자 회전하는 앞바퀴",
+          "reuse_reason": null,
+          "spoken_anchor": "닿지도 않은"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 35.8,
+      "audio_local_end_seconds": 64.22
+    },
+    {
+      "id": "C01-S04",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 64.22,
+      "end_seconds": 90.12,
+      "duration_seconds": 25.9,
+      "estimated_words": 55,
+      "target_wpm": 125.0,
+      "purpose": "마른 바닥과 젖은 손잡이",
+      "narration_text": "아직 물기가 남아서 그런 줄 알았어요. 그런데 그 카트 밑의 바닥은 말라 있었고, 바퀴 자국도 없었습니다. 대신 손잡이에 물방울이 맺혀 있었죠. 누가 젖은 손으로 꽉 쥐었다가 놓은 모양으로요. 테이프 위에는 손가락 네 개가 선명하게 남아 있었고 엄지 자리는 보이지 않았습니다. 저는 닦으려던 수건을 옆에 걸고 사진부터 찍었어요. 고장 난 카트를 수리 요청할 때 붙이려던 사진이었습니다.",
+      "caption_text": "아직 물기가 남아서 그런 줄 알았어요. 그런데 그 카트 밑의 바닥은 말라 있었고, 바퀴 자국도 없었습니다. 대신 손잡이에 물방울이 맺혀 있었죠. 누가 젖은 손으로 꽉 쥐었다가 놓은 모양으로요. 테이프 위에는 손가락 네 개가 선명하게 남아 있었고 엄지 자리는 보이지 않았습니다. 저는 닦으려던 수건을 옆에 걸고 사진부터 찍었어요. 고장 난 카트를 수리 요청할 때 붙이려던 사진이었습니다.",
+      "visual": "물자국 없는 바닥 / 빨간 테이프 위 손가락 네 줄과 옆 수건",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 64.22,
+          "action": "cut to distinct camera setup C01-S04-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 76.77,
+          "action": "cut to distinct camera setup C01-S04-A2",
+          "spoken_anchor": "테이프 위에는"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S04",
+            "spoken_cue": "물방울이",
+            "start_seconds": 68.5,
+            "kind": "click",
+            "duration_seconds": 0.14
+          },
+          {
+            "scene_id": "C01-S04",
+            "spoken_cue": "사진부터 찍었어요",
+            "start_seconds": 81.94,
+            "kind": "click",
+            "duration_seconds": 0.14
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "엄지가 안 보이는 네 손가락 자국",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "마른 바닥과 젖은 손잡이에서 엄지가 안 보이는 네 손가락 자국가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S04-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 64.22,
+          "end_seconds": 76.77,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "floor",
+          "camera_position": "카트 짐칸 아래 바닥",
+          "camera_angle": "low",
+          "camera_height": "0.15m",
+          "shot_size": "detail",
+          "subject_focus": "물자국 없는 바닥",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S04-A1",
+          "new_information": "물자국 없는 바닥",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S04-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 76.77,
+          "end_seconds": 90.12,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "handle",
+          "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+          "camera_angle": "side",
+          "camera_height": "1.0m",
+          "shot_size": "detail",
+          "subject_focus": "빨간 테이프 위 손가락 네 줄과 옆 수건",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S04-A2",
+          "new_information": "빨간 테이프 위 손가락 네 줄과 옆 수건",
+          "reuse_reason": null,
+          "spoken_anchor": "테이프 위에는"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 64.22,
+      "audio_local_end_seconds": 90.12
+    },
+    {
+      "id": "C01-S05",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 90.12,
+      "end_seconds": 121.32,
+      "duration_seconds": 31.2,
+      "estimated_words": 61,
+      "target_wpm": 125.0,
+      "purpose": "비어 있는 짐칸 확인",
+      "narration_text": "사진을 확대해 보니 물자국이 손잡이 바깥이 아니라 안쪽으로 말려 있더라고요. 누군가 보관장 바깥에서 잡은 게 아니라 카트 안에 서서 자기 쪽으로 손잡이를 당긴 모양이었어요. 손전등으로 카트 짐칸을 하나씩 비췄습니다. 앞의 열한 대는 바닥이 겹쳐 있어 깊이도 잘 보이지 않았지만, 끝에 있는 빨간 카트는 비어 있었습니다. 바닥에는 물건 대신 마른 먼지만 쌓여 있었어요. 저는 그때까지 손자국이 테이프 접착제에 맺힌 물방울이라고 믿으려고 했습니다.",
+      "caption_text": "사진을 확대해 보니 물자국이 손잡이 바깥이 아니라 안쪽으로 말려 있더라고요. 누군가 보관장 바깥에서 잡은 게 아니라 카트 안에 서서 자기 쪽으로 손잡이를 당긴 모양이었어요. 손전등으로 카트 짐칸을 하나씩 비췄습니다. 앞의 열한 대는 바닥이 겹쳐 있어 깊이도 잘 보이지 않았지만, 끝에 있는 빨간 카트는 비어 있었습니다. 바닥에는 물건 대신 마른 먼지만 쌓여 있었어요. 저는 그때까지 손자국이 테이프 접착제에 맺힌 물방울이라고 믿으려고 했습니다.",
+      "visual": "사진 속 손자국 방향 / 손전등에 드러난 비어 있는 짐칸",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 90.12,
+          "action": "cut to distinct camera setup C01-S05-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 102.07,
+          "action": "cut to distinct camera setup C01-S05-A2",
+          "spoken_anchor": "손전등으로"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "안쪽을 향한 손자국",
+        "tension_stage": "anomaly",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "비어 있는 짐칸 확인에서 안쪽을 향한 손자국가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S05-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 90.12,
+          "end_seconds": 102.07,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "phone",
+          "camera_position": "화자 손 위 휴대전화",
+          "camera_angle": "top_down",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "사진 속 손자국 방향",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S05-A1",
+          "new_information": "사진 속 손자국 방향",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S05-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 102.07,
+          "end_seconds": 124.95,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "inside",
+          "camera_position": "빨간 카트 옆 짐칸을 향한 위치",
+          "camera_angle": "downward",
+          "camera_height": "1.5m",
+          "shot_size": "medium",
+          "subject_focus": "손전등에 드러난 비어 있는 짐칸",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S05-A2",
+          "new_information": "손전등에 드러난 비어 있는 짐칸",
+          "reuse_reason": null,
+          "spoken_anchor": "손전등으로"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 90.12,
+      "audio_local_end_seconds": 121.32
+    },
+    {
+      "id": "C01-S06",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 121.32,
+      "end_seconds": 149.82,
+      "duration_seconds": 28.5,
+      "estimated_words": 61,
+      "target_wpm": 125.0,
+      "purpose": "줄이 밀리고 직원문이 열린다",
+      "narration_text": "체인을 걸려고 옆으로 돌아가는데 다시 바퀴 소리가 났어요. 이번에는 카트들이 제 쪽으로 아주 조금 밀려 나왔습니다. 앞쪽 쇠말뚝까지는 손 한 뼘이 남아 있었죠. 저는 맨 앞 카트를 눌러 세우고 뒤를 비춰 봤습니다. 빨간 카트는 그대로였는데, 그 뒤의 직원 통로 문이 열려 있더라고요. 아까 분명히 닫아 둔 문이었습니다. 문 너머에는 전등을 끈 재고 창고가 있었고, 그쪽에서 누가 카트를 미는 소리는 들리지 않았어요.",
+      "caption_text": "체인을 걸려고 옆으로 돌아가는데 다시 바퀴 소리가 났어요. 이번에는 카트들이 제 쪽으로 아주 조금 밀려 나왔습니다. 앞쪽 쇠말뚝까지는 손 한 뼘이 남아 있었죠. 저는 맨 앞 카트를 눌러 세우고 뒤를 비춰 봤습니다. 빨간 카트는 그대로였는데, 그 뒤의 직원 통로 문이 열려 있더라고요. 아까 분명히 닫아 둔 문이었습니다. 문 너머에는 전등을 끈 재고 창고가 있었고, 그쪽에서 누가 카트를 미는 소리는 들리지 않았어요.",
+      "visual": "앞쪽 말뚝으로 가까워진 정상 카트 줄 / 뒤 직원문의 열린 틈",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 124.95,
+          "action": "cut to distinct camera setup C01-S06-A1",
+          "spoken_anchor": "이번에는 카트들이"
+        },
+        {
+          "absolute_seconds": 135.63,
+          "action": "cut to distinct camera setup C01-S06-A2",
+          "spoken_anchor": "빨간 카트는 그대로였는데"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S06",
+            "spoken_cue": "다시 바퀴 소리가",
+            "start_seconds": 121.32,
+            "kind": "squeak",
+            "duration_seconds": 0.48
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "말뚝과 카트 사이 거리",
+        "tension_stage": "escalation",
+        "shot_scale": "wide → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "줄이 밀리고 직원문이 열린다에서 말뚝과 카트 사이 거리가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S06-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 124.95,
+          "end_seconds": 135.63,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "overview",
+          "camera_position": "보관장 앞쪽 높은 사선",
+          "camera_angle": "downward",
+          "camera_height": "2.5m",
+          "shot_size": "wide",
+          "subject_focus": "앞쪽 말뚝으로 가까워진 정상 카트 줄",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S06-A1",
+          "new_information": "앞쪽 말뚝으로 가까워진 정상 카트 줄",
+          "reuse_reason": null,
+          "spoken_anchor": "이번에는 카트들이"
+        },
+        {
+          "shot_id": "C01-S06-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 135.63,
+          "end_seconds": 149.82,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "door",
+          "camera_position": "뒤 직원문 문턱에서 앞 말뚝 방향",
+          "camera_angle": "reverse_oblique",
+          "camera_height": "1.3m",
+          "shot_size": "medium",
+          "subject_focus": "뒤 직원문의 열린 틈",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S06-A2",
+          "new_information": "뒤 직원문의 열린 틈",
+          "reuse_reason": null,
+          "spoken_anchor": "빨간 카트는 그대로였는데"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 121.32,
+      "audio_local_end_seconds": 149.82
+    },
+    {
+      "id": "C01-S07",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 149.82,
+      "end_seconds": 181.8,
+      "duration_seconds": 31.98,
+      "estimated_words": 69,
+      "target_wpm": 125.0,
+      "purpose": "지원 요청과 신발의 등장",
+      "narration_text": "무전기로 안쪽 정리 직원에게 문을 닫아 달라고 했어요. 그 사람은 창고 쪽에 아무도 없고, 자기 무전기는 계산대에 있다고 답했습니다. 잠깐 기다리면 같이 확인해 주겠다고 했죠. 저는 보관장 앞에서 카트 열두 대를 다시 세었습니다. 앞의 열한 대는 서로 밀착해 있는데 빨간 카트와 그 앞 카트 사이에 좁은 틈이 생겨 있었어요. 틈 아래로 젖은 운동화 앞코가 보였습니다. 사람이 서 있기에는 카트가 겹친 공간이 너무 좁았고, 신발 위로 올라오는 다리는 보이지 않았어요.",
+      "caption_text": "무전기로 안쪽 정리 직원에게 문을 닫아 달라고 했어요. 그 사람은 창고 쪽에 아무도 없고, 자기 무전기는 계산대에 있다고 답했습니다. 잠깐 기다리면 같이 확인해 주겠다고 했죠. 저는 보관장 앞에서 카트 열두 대를 다시 세었습니다. 앞의 열한 대는 서로 밀착해 있는데 빨간 카트와 그 앞 카트 사이에 좁은 틈이 생겨 있었어요. 틈 아래로 젖은 운동화 앞코가 보였습니다. 사람이 서 있기에는 카트가 겹친 공간이 너무 좁았고, 신발 위로 올라오는 다리는 보이지 않았어요.",
+      "visual": "문 밖에서 무전하는 손 / 별도 빨간 카트와 정상 줄 사이의 신발 앞코",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 149.82,
+          "action": "cut to distinct camera setup C01-S07-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 171.63,
+          "action": "cut to distinct camera setup C01-S07-A2",
+          "spoken_anchor": "틈 아래로"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "카트 사이 젖은 운동화",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "지원 요청과 신발의 등장에서 카트 사이 젖은 운동화가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S07-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 149.82,
+          "end_seconds": 171.63,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "aisle",
+          "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+          "camera_angle": "oblique",
+          "camera_height": "1.4m",
+          "shot_size": "medium",
+          "subject_focus": "문 밖에서 무전하는 손",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S07-A1",
+          "new_information": "문 밖에서 무전하는 손",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S07-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 171.63,
+          "end_seconds": 181.8,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "floor",
+          "camera_position": "카트 짐칸 아래 바닥",
+          "camera_angle": "low",
+          "camera_height": "0.15m",
+          "shot_size": "detail",
+          "subject_focus": "별도 빨간 카트와 정상 줄 사이의 신발 앞코",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S07-A2",
+          "new_information": "별도 빨간 카트와 정상 줄 사이의 신발 앞코",
+          "reuse_reason": null,
+          "spoken_anchor": "틈 아래로"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 149.82,
+      "audio_local_end_seconds": 181.8
+    },
+    {
+      "id": "C01-S08",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 181.8,
+      "end_seconds": 208.82,
+      "duration_seconds": 27.02,
+      "estimated_words": 54,
+      "target_wpm": 125.0,
+      "purpose": "신발의 회전과 동시 이동",
+      "narration_text": "저도 모르게 한 걸음 물러섰습니다. 운동화 앞코가 천천히 제 쪽으로 돌아갔어요. 그때 빨간 카트 손잡이에서 물방울이 한 번 더 떨어졌습니다. 저는 안쪽 직원이 장난을 치는 거라고 생각하고 통로 문을 향해 소리쳤어요. 그런데 대답 대신, 카트 열두 대의 바퀴가 한꺼번에 반 바퀴쯤 돌았습니다. 앞 카트가 쇠말뚝에 부딪히면서 금속 소리가 크게 났죠. 저는 체인을 손에서 놓쳤습니다.",
+      "caption_text": "저도 모르게 한 걸음 물러섰습니다. 운동화 앞코가 천천히 제 쪽으로 돌아갔어요. 그때 빨간 카트 손잡이에서 물방울이 한 번 더 떨어졌습니다. 저는 안쪽 직원이 장난을 치는 거라고 생각하고 통로 문을 향해 소리쳤어요. 그런데 대답 대신, 카트 열두 대의 바퀴가 한꺼번에 반 바퀴쯤 돌았습니다. 앞 카트가 쇠말뚝에 부딪히면서 금속 소리가 크게 났죠. 저는 체인을 손에서 놓쳤습니다.",
+      "visual": "운동화가 화자 쪽으로 돌아감 / 열한 대가 말뚝에 부딪히는 외부 측면",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 181.8,
+          "action": "cut to distinct camera setup C01-S08-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 202.13,
+          "action": "cut to distinct camera setup C01-S08-A2",
+          "spoken_anchor": "앞 카트가 쇠말뚝에"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S08",
+            "spoken_cue": "금속 소리가",
+            "start_seconds": 200.88,
+            "kind": "metal",
+            "duration_seconds": 0.58
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "인간 없이 돌아가는 신발",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "신발의 회전과 동시 이동에서 인간 없이 돌아가는 신발가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S08-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 181.8,
+          "end_seconds": 202.13,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "floor",
+          "camera_position": "카트 짐칸 아래 바닥",
+          "camera_angle": "low",
+          "camera_height": "0.15m",
+          "shot_size": "detail",
+          "subject_focus": "운동화가 화자 쪽으로 돌아감",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S08-A1",
+          "new_information": "운동화가 화자 쪽으로 돌아감",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S08-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 202.13,
+          "end_seconds": 208.82,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "bollard",
+          "camera_position": "보관장 바깥 말뚝 오른쪽",
+          "camera_angle": "side",
+          "camera_height": "0.6m",
+          "shot_size": "medium",
+          "subject_focus": "열한 대가 말뚝에 부딪히는 외부 측면",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S08-A2",
+          "new_information": "열한 대가 말뚝에 부딪히는 외부 측면",
+          "reuse_reason": null,
+          "spoken_anchor": "앞 카트가 쇠말뚝에"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 181.8,
+      "audio_local_end_seconds": 208.82
+    },
+    {
+      "id": "C01-S09",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 208.82,
+      "end_seconds": 235.12,
+      "duration_seconds": 26.3,
+      "estimated_words": 49,
+      "target_wpm": 125.0,
+      "purpose": "회색 소매와 손의 부분 공개",
+      "narration_text": "카트 틈으로 회색 소매가 올라왔어요. 옷이 젖어 검게 보였고, 팔꿈치 아래부터 손까지밖에 안 보였습니다. 손은 빨간 테이프 손잡이를 쥐고 있었어요. 아까 물자국에 엄지가 없었던 이유를 그제야 알았습니다. 엄지는 손잡이 아래쪽을 향해 꺾여 있었거든요. 그 손이 앞쪽을 밀자 카트들이 다시 말뚝을 눌렀습니다. 쇠말뚝은 흔들리지 않았지만, 카트 윗부분이 제 쪽으로 휘어졌어요.",
+      "caption_text": "카트 틈으로 회색 소매가 올라왔어요. 옷이 젖어 검게 보였고, 팔꿈치 아래부터 손까지밖에 안 보였습니다. 손은 빨간 테이프 손잡이를 쥐고 있었어요. 아까 물자국에 엄지가 없었던 이유를 그제야 알았습니다. 엄지는 손잡이 아래쪽을 향해 꺾여 있었거든요. 그 손이 앞쪽을 밀자 카트들이 다시 말뚝을 눌렀습니다. 쇠말뚝은 흔들리지 않았지만, 카트 윗부분이 제 쪽으로 휘어졌어요.",
+      "visual": "젖은 회색 소매 한쪽 / 밀리는 카트 윗부분과 고정된 말뚝",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 208.82,
+          "action": "cut to distinct camera setup C01-S09-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 226.03,
+          "action": "cut to distinct camera setup C01-S09-A2",
+          "spoken_anchor": "그 손이 앞쪽을"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.9,
+        "intentional_silence_note": "음악·공간음·효과음만 0.9초 낮추는 구간; 나레이션은 원래 흐름을 유지한다.",
+        "foley_events": [
+          {
+            "scene_id": "C01-S09",
+            "spoken_cue": "손잡이를 쥐고",
+            "start_seconds": 214.24,
+            "kind": "fabric",
+            "duration_seconds": 0.52
+          }
+        ],
+        "intentional_silence_start_seconds": 219.42
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "손잡이 아래를 감싼 엄지",
+        "tension_stage": "escalation",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "회색 소매와 손의 부분 공개에서 손잡이 아래를 감싼 엄지가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S09-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 208.82,
+          "end_seconds": 226.03,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "handle",
+          "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+          "camera_angle": "side",
+          "camera_height": "1.0m",
+          "shot_size": "detail",
+          "subject_focus": "젖은 회색 소매 한쪽",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S09-A1",
+          "new_information": "젖은 회색 소매 한쪽",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S09-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 226.03,
+          "end_seconds": 242.19,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "bollard",
+          "camera_position": "보관장 바깥 말뚝 오른쪽",
+          "camera_angle": "side",
+          "camera_height": "0.6m",
+          "shot_size": "medium",
+          "subject_focus": "밀리는 카트 윗부분과 고정된 말뚝",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S09-A2",
+          "new_information": "밀리는 카트 윗부분과 고정된 말뚝",
+          "reuse_reason": null,
+          "spoken_anchor": "그 손이 앞쪽을"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 208.82,
+      "audio_local_end_seconds": 235.12
+    },
+    {
+      "id": "C01-S10",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 235.12,
+      "end_seconds": 262.94,
+      "duration_seconds": 27.82,
+      "estimated_words": 58,
+      "target_wpm": 125.0,
+      "purpose": "빨간 카트가 통로를 막는다",
+      "narration_text": "통로 문으로 빠지면 된다고 생각했어요. 보관장 옆을 돌아 문까지 세 걸음이면 갔습니다. 그런데 발을 떼는 순간 빨간 카트가 대열에서 뒤로 빠졌어요. 다른 카트들은 여전히 말뚝에 붙어 있었고 그 한 대만 저와 통로 문 사이를 가로막았습니다. 바퀴 네 개가 서로 다른 방향을 보는데도 똑바로 굴러왔죠. 손잡이 위의 회색 손은 움직이지 않았습니다. 저는 바닥에 떨어진 체인을 집어 카트 앞바퀴에 걸었습니다.",
+      "caption_text": "통로 문으로 빠지면 된다고 생각했어요. 보관장 옆을 돌아 문까지 세 걸음이면 갔습니다. 그런데 발을 떼는 순간 빨간 카트가 대열에서 뒤로 빠졌어요. 다른 카트들은 여전히 말뚝에 붙어 있었고 그 한 대만 저와 통로 문 사이를 가로막았습니다. 바퀴 네 개가 서로 다른 방향을 보는데도 똑바로 굴러왔죠. 손잡이 위의 회색 손은 움직이지 않았습니다. 저는 바닥에 떨어진 체인을 집어 카트 앞바퀴에 걸었습니다.",
+      "visual": "정상 줄 뒤에서 별도로 빠져 오른쪽 통로로 선회 / 통로에 나타난 빨간 카트와 체인을 줍는 손",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 242.19,
+          "action": "cut to distinct camera setup C01-S10-A1",
+          "spoken_anchor": "빨간 카트가 대열에서"
+        },
+        {
+          "absolute_seconds": 258.61,
+          "action": "cut to distinct camera setup C01-S10-A2",
+          "spoken_anchor": "저는 바닥에 떨어진 체인을"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S10",
+            "spoken_cue": "체인을 집어",
+            "start_seconds": 256.94,
+            "kind": "key",
+            "duration_seconds": 0.44
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "직원문 앞을 가로막은 고장 카트",
+        "tension_stage": "escalation",
+        "shot_scale": "medium → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "빨간 카트가 통로를 막는다에서 직원문 앞을 가로막은 고장 카트가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S10-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 242.19,
+          "end_seconds": 258.61,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "door",
+          "camera_position": "뒤 직원문 문턱에서 앞 말뚝 방향",
+          "camera_angle": "reverse_oblique",
+          "camera_height": "1.3m",
+          "shot_size": "medium",
+          "subject_focus": "정상 줄 뒤에서 별도로 빠져 오른쪽 통로로 선회",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S10-A1",
+          "new_information": "정상 줄 뒤에서 별도로 빠져 오른쪽 통로로 선회",
+          "reuse_reason": null,
+          "spoken_anchor": "빨간 카트가 대열에서"
+        },
+        {
+          "shot_id": "C01-S10-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 258.61,
+          "end_seconds": 268.35,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "aisle",
+          "camera_position": "오른쪽 통로 입구에서 직원문 방향",
+          "camera_angle": "oblique",
+          "camera_height": "1.4m",
+          "shot_size": "medium",
+          "subject_focus": "통로에 나타난 빨간 카트와 체인을 줍는 손",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S10-A2",
+          "new_information": "통로에 나타난 빨간 카트와 체인을 줍는 손",
+          "reuse_reason": null,
+          "spoken_anchor": "저는 바닥에 떨어진 체인을"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 235.12,
+      "audio_local_end_seconds": 262.94
+    },
+    {
+      "id": "C01-S11",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 262.94,
+      "end_seconds": 296.84,
+      "duration_seconds": 33.9,
+      "estimated_words": 65,
+      "target_wpm": 125.0,
+      "purpose": "한 존재가 손목을 붙잡는다",
+      "narration_text": "체인을 당기면 바퀴가 잠길 거라고 생각했는데, 카트가 오히려 저를 끌어당겼어요. 젖은 운동화가 카트 아래에서 미끄러져 나오고, 회색 소매 뒤에 어깨 일부가 보였습니다. 얼굴이 있어야 할 높이는 카트 안쪽 짐칸에 가려져 있었죠. 그 손이 제 손목을 잡았습니다. 차갑다기보다 물에 오래 담갔다 건진 손처럼 무겁고 미끄러웠어요. 손가락 네 개가 제 손목 바깥쪽을 누르고, 아래로 꺾인 엄지가 안쪽을 받쳤습니다. 제가 팔을 빼려 할수록 카트가 통로 문 쪽으로 돌아갔어요.",
+      "caption_text": "체인을 당기면 바퀴가 잠길 거라고 생각했는데, 카트가 오히려 저를 끌어당겼어요. 젖은 운동화가 카트 아래에서 미끄러져 나오고, 회색 소매 뒤에 어깨 일부가 보였습니다. 얼굴이 있어야 할 높이는 카트 안쪽 짐칸에 가려져 있었죠. 그 손이 제 손목을 잡았습니다. 차갑다기보다 물에 오래 담갔다 건진 손처럼 무겁고 미끄러웠어요. 손가락 네 개가 제 손목 바깥쪽을 누르고, 아래로 꺾인 엄지가 안쪽을 받쳤습니다. 제가 팔을 빼려 할수록 카트가 통로 문 쪽으로 돌아갔어요.",
+      "visual": "회색 어깨와 짐칸에 가려진 머리 위치 / 정상 손목을 붙잡은 하나의 손",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 268.35,
+          "action": "cut to distinct camera setup C01-S11-A1",
+          "spoken_anchor": "젖은 운동화가 카트 아래에서"
+        },
+        {
+          "absolute_seconds": 278.49,
+          "action": "cut to distinct camera setup C01-S11-A2",
+          "spoken_anchor": "그 손이 제 손목을"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S11",
+            "spoken_cue": "제 손목을 잡았습니다",
+            "start_seconds": 277.06,
+            "kind": "fabric",
+            "duration_seconds": 0.52
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "네 손가락과 아래쪽 엄지",
+        "tension_stage": "interaction",
+        "shot_scale": "detail → medium",
+        "baseline_scene_id": null,
+        "selection_reason": "한 존재가 손목을 붙잡는다에서 네 손가락과 아래쪽 엄지가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "door_continuity": "직접 접촉 숏에서 뒤 문이 닫혀 함정이 완성된다. S12 그 문을 열면이라는 대사와 맞춤."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S11-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 268.35,
+          "end_seconds": 278.49,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "contact",
+          "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+          "camera_angle": "downward",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "회색 어깨와 짐칸에 가려진 머리 위치",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S11-A1",
+          "new_information": "회색 어깨와 짐칸에 가려진 머리 위치",
+          "reuse_reason": null,
+          "spoken_anchor": "젖은 운동화가 카트 아래에서"
+        },
+        {
+          "shot_id": "C01-S11-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 278.49,
+          "end_seconds": 300.27,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "inside",
+          "camera_position": "빨간 카트 옆 짐칸을 향한 위치",
+          "camera_angle": "downward",
+          "camera_height": "1.5m",
+          "shot_size": "medium",
+          "subject_focus": "정상 손목을 붙잡은 하나의 손",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S11-A2",
+          "new_information": "정상 손목을 붙잡은 하나의 손",
+          "reuse_reason": null,
+          "spoken_anchor": "그 손이 제 손목을"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 262.94,
+      "audio_local_end_seconds": 296.84
+    },
+    {
+      "id": "C01-S12",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 296.84,
+      "end_seconds": 329.02,
+      "duration_seconds": 32.18,
+      "estimated_words": 65,
+      "target_wpm": 125.0,
+      "purpose": "체인으로 카트를 고정하고 탈출",
+      "narration_text": "그 문을 열면 창고 안으로 같이 들어갈 것 같았습니다. 저는 체인의 다른 끝을 앞쪽 쇠말뚝에 감았어요. 손목이 붙잡힌 채라 한 번에 묶을 수 없었습니다. 두 번째로 감을 때 카트가 세게 밀려와 제 어깨가 말뚝에 부딪혔죠. 그래도 체인을 끝까지 당겨 고리를 걸었습니다. 빨간 카트가 더 밀자 앞바퀴가 들렸고, 바퀴에 걸린 체인이 소리를 내며 팽팽해졌어요. 그 손이 손목을 놓았습니다. 저는 곧장 통로 문 반대쪽, 주차장 차로로 뛰어나왔어요.",
+      "caption_text": "그 문을 열면 창고 안으로 같이 들어갈 것 같았습니다. 저는 체인의 다른 끝을 앞쪽 쇠말뚝에 감았어요. 손목이 붙잡힌 채라 한 번에 묶을 수 없었습니다. 두 번째로 감을 때 카트가 세게 밀려와 제 어깨가 말뚝에 부딪혔죠. 그래도 체인을 끝까지 당겨 고리를 걸었습니다. 빨간 카트가 더 밀자 앞바퀴가 들렸고, 바퀴에 걸린 체인이 소리를 내며 팽팽해졌어요. 그 손이 손목을 놓았습니다. 저는 곧장 통로 문 반대쪽, 주차장 차로로 뛰어나왔어요.",
+      "visual": "앞바퀴에 걸린 체인과 말뚝 고리 / 팽팽해진 체인 뒤 손이 놓이고 몸을 빼는 동작",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 300.27,
+          "action": "cut to distinct camera setup C01-S12-A0",
+          "spoken_anchor": "저는 체인의 다른 끝을"
+        },
+        {
+          "absolute_seconds": 315.61,
+          "action": "cut to distinct camera setup C01-S12-A1",
+          "spoken_anchor": "빨간 카트가 더 밀자"
+        },
+        {
+          "absolute_seconds": 322.21,
+          "action": "cut to distinct camera setup C01-S12-A2",
+          "spoken_anchor": "그 손이 손목을 놓았습니다"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null,
+        "foley_events": [
+          {
+            "scene_id": "C01-S12",
+            "spoken_cue": "말뚝에 감았어요",
+            "start_seconds": 299.64,
+            "kind": "metal",
+            "duration_seconds": 0.58
+          },
+          {
+            "scene_id": "C01-S12",
+            "spoken_cue": "체인이 소리를",
+            "start_seconds": 316.78,
+            "kind": "key",
+            "duration_seconds": 0.44
+          }
+        ]
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action",
+          "foreground_depth"
+        ],
+        "clue": "바퀴·체인·말뚝의 접촉",
+        "tension_stage": "interaction",
+        "shot_scale": "medium → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "체인으로 카트를 고정하고 탈출에서 바퀴·체인·말뚝의 접촉가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S12-SH0",
+          "location_id": "cart_shelter",
+          "start_seconds": 300.27,
+          "end_seconds": 315.61,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "bollard",
+          "camera_position": "보관장 바깥 말뚝 왼쪽 바닥",
+          "camera_angle": "side_detail",
+          "camera_height": "0.4m",
+          "shot_size": "detail",
+          "subject_focus": "검은 장갑 한 손으로 느슨한 체인을 말뚝에 감음",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S12-A0",
+          "new_information": "고정되기 전의 느슨한 체인과 바닥에 닿은 바퀴",
+          "reuse_reason": null,
+          "spoken_anchor": "저는 체인의 다른 끝을"
+        },
+        {
+          "shot_id": "C01-S12-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 315.61,
+          "end_seconds": 322.21,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "bollard",
+          "camera_position": "보관장 바깥 말뚝 오른쪽",
+          "camera_angle": "side",
+          "camera_height": "0.6m",
+          "shot_size": "medium",
+          "subject_focus": "앞바퀴에 걸린 체인과 말뚝 고리",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S12-A1",
+          "new_information": "앞바퀴에 걸린 체인과 말뚝 고리",
+          "reuse_reason": null,
+          "spoken_anchor": "빨간 카트가 더 밀자"
+        },
+        {
+          "shot_id": "C01-S12-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 322.21,
+          "end_seconds": 332.13,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "contact",
+          "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+          "camera_angle": "downward",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "팽팽해진 체인 뒤 손이 놓이고 몸을 빼는 동작",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S12-A2",
+          "new_information": "팽팽해진 체인 뒤 손이 놓이고 몸을 빼는 동작",
+          "reuse_reason": null,
+          "spoken_anchor": "그 손이 손목을 놓았습니다"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 296.84,
+      "audio_local_end_seconds": 329.02
+    },
+    {
+      "id": "C01-S13",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 329.02,
+      "end_seconds": 356.32,
+      "duration_seconds": 27.3,
+      "estimated_words": 58,
+      "target_wpm": 125.0,
+      "purpose": "동료가 상처와 현장을 확인",
+      "narration_text": "안쪽 직원이 계산대 쪽 출입문으로 나오는 걸 봤습니다. 같이 돌아왔을 때 카트는 열두 대 모두 보관장 안에 있었습니다. 앞의 열한 대는 말뚝에 붙어 있었고, 빨간 카트만 옆으로 비스듬히 선 채 체인에 걸려 있었어요. 통로 문도 닫혀 있었습니다. 직원은 제 손목에 남은 자국을 보고 말을 멈췄어요. 손가락 네 개의 붉은 멍과, 안쪽에서 위로 밀린 엄지 자국이 따로 남아 있었거든요.",
+      "caption_text": "안쪽 직원이 계산대 쪽 출입문으로 나오는 걸 봤습니다. 같이 돌아왔을 때 카트는 열두 대 모두 보관장 안에 있었습니다. 앞의 열한 대는 말뚝에 붙어 있었고, 빨간 카트만 옆으로 비스듬히 선 채 체인에 걸려 있었어요. 통로 문도 닫혀 있었습니다. 직원은 제 손목에 남은 자국을 보고 말을 멈췄어요. 손가락 네 개의 붉은 멍과, 안쪽에서 위로 밀린 엄지 자국이 따로 남아 있었거든요.",
+      "visual": "다시 모인 카트와 체인 / 손목 바깥 네 자국과 안쪽 엄지 자국",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 332.13,
+          "action": "cut to distinct camera setup C01-S13-A1",
+          "spoken_anchor": "같이 돌아왔을 때"
+        },
+        {
+          "absolute_seconds": 346.03,
+          "action": "cut to distinct camera setup C01-S13-A2",
+          "spoken_anchor": "직원은 제 손목에"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "별도 카트와 손목 멍",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "동료가 상처와 현장을 확인에서 별도 카트와 손목 멍가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "non_graphic_visual_substitution": "자국/압박은 음성으로 전하고 정상적인 손·소매와 마른 손잡이로 표현. 이미지 도구 차단 이후 안전한 장면 선택."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S13-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 332.13,
+          "end_seconds": 346.03,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "overview",
+          "camera_position": "보관장 앞쪽 높은 사선",
+          "camera_angle": "downward",
+          "camera_height": "2.5m",
+          "shot_size": "wide",
+          "subject_focus": "다시 모인 카트와 체인",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S13-A1",
+          "new_information": "다시 모인 카트와 체인",
+          "reuse_reason": null,
+          "spoken_anchor": "같이 돌아왔을 때"
+        },
+        {
+          "shot_id": "C01-S13-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 346.03,
+          "end_seconds": 356.32,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "contact",
+          "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+          "camera_angle": "downward",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "손목 바깥 네 자국과 안쪽 엄지 자국",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S13-A2",
+          "new_information": "손목 바깥 네 자국과 안쪽 엄지 자국",
+          "reuse_reason": null,
+          "spoken_anchor": "직원은 제 손목에"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 329.02,
+      "audio_local_end_seconds": 356.32
+    },
+    {
+      "id": "C01-S14",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 356.32,
+      "end_seconds": 391.26,
+      "duration_seconds": 34.94,
+      "estimated_words": 71,
+      "target_wpm": 125.0,
+      "purpose": "사진에 먼저 있던 소매",
+      "narration_text": "다음 날 시설팀이 바퀴를 확인했습니다. 빨간 카트는 제가 입사한 뒤로 손님에게 한 번도 나간 적이 없었고, 폐기 목록에는 지난달부터 올라가 있었어요. 그 카트를 누가 쓰던 물건인지도, 언제 손잡이에 테이프를 감았는지도 모른다고 했습니다. 저는 전날 찍은 사진을 보여 줬어요. 테이프에는 젖은 손가락 자국이 그대로 찍혀 있었습니다. 이상한 건 사진 한쪽 끝이었어요. 제가 걸어 둔 수건 아래에서 회색 소매가 조금 보였습니다. 카트 안이 비어 있는 걸 확인하기도 전부터, 그 손은 거기 있었던 겁니다.",
+      "caption_text": "다음 날 시설팀이 바퀴를 확인했습니다. 빨간 카트는 제가 입사한 뒤로 손님에게 한 번도 나간 적이 없었고, 폐기 목록에는 지난달부터 올라가 있었어요. 그 카트를 누가 쓰던 물건인지도, 언제 손잡이에 테이프를 감았는지도 모른다고 했습니다. 저는 전날 찍은 사진을 보여 줬어요. 테이프에는 젖은 손가락 자국이 그대로 찍혀 있었습니다. 이상한 건 사진 한쪽 끝이었어요. 제가 걸어 둔 수건 아래에서 회색 소매가 조금 보였습니다. 카트 안이 비어 있는 걸 확인하기도 전부터, 그 손은 거기 있었던 겁니다.",
+      "visual": "주간 시설 점검과 빨간 테이프 / 사진의 수건 아래 소매를 확대 비교",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 356.32,
+          "action": "cut to distinct camera setup C01-S14-A1",
+          "spoken_anchor": ""
+        },
+        {
+          "absolute_seconds": 372.57,
+          "action": "cut to distinct camera setup C01-S14-A2",
+          "spoken_anchor": "저는 전날 찍은 사진을"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "clue_directed_motion"
+        ],
+        "clue": "수건 아래 회색 소매",
+        "tension_stage": "aftermath",
+        "shot_scale": "detail → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "이미 찍힌 사진에 새 사실이 생기는 것이 아니라, 같은 사진의 수건 아래 소매를 뒤늦게 읽히는 접근으로 공개한다."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S14-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 356.32,
+          "end_seconds": 372.57,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "phone",
+          "camera_position": "화자 손 위 휴대전화",
+          "camera_angle": "top_down",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "주간 시설 점검과 빨간 테이프",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S14-A1",
+          "new_information": "주간 시설 점검과 빨간 테이프",
+          "reuse_reason": null,
+          "spoken_anchor": ""
+        },
+        {
+          "shot_id": "C01-S14-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 372.57,
+          "end_seconds": 396.13,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "handle",
+          "camera_position": "빨간 카트 오른쪽 손잡이 옆",
+          "camera_angle": "side",
+          "camera_height": "1.0m",
+          "shot_size": "detail",
+          "subject_focus": "사진의 수건 아래 소매를 확대 비교",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S14-A2",
+          "new_information": "사진의 수건 아래 소매를 확대 비교",
+          "reuse_reason": "S05 휴대폰의 동일한 원본 사진을 다시 열어 수건 아래 단서를 확인하는 의도적 기준화면 비교",
+          "spoken_anchor": "저는 전날 찍은 사진을",
+          "baseline_asset_id": "C01-photo-evidence"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 356.32,
+      "audio_local_end_seconds": 391.26
+    },
+    {
+      "id": "C01-S15",
+      "chapter_id": "C01",
+      "type": "story_beat",
+      "start_seconds": 391.26,
+      "end_seconds": 411.582,
+      "duration_seconds": 20.322,
+      "estimated_words": 40,
+      "target_wpm": 125.0,
+      "purpose": "마른 날에 남는 감각",
+      "narration_text": "카트는 그날 바로 밖으로 빼냈습니다. 저는 마감조를 그만두었어요. 지금도 마트에 가면 카트 보관장 앞에서 손잡이를 먼저 봅니다. 빨간 테이프 같은 건 없겠죠. 그런데 한 번씩 손목 안쪽이 눌릴 때가 있어요. 비가 오고 나서가 아니라, 바닥도 손잡이도 전부 말라 있는 날에요.",
+      "caption_text": "카트는 그날 바로 밖으로 빼냈습니다. 저는 마감조를 그만두었어요. 지금도 마트에 가면 카트 보관장 앞에서 손잡이를 먼저 봅니다. 빨간 테이프 같은 건 없겠죠. 그런데 한 번씩 손목 안쪽이 눌릴 때가 있어요. 비가 오고 나서가 아니라, 바닥도 손잡이도 전부 말라 있는 날에요.",
+      "visual": "주간 새 마트 보관장을 멀리 보는 뒷모습 / 잡는 손 없이 눌리는 화자 손목",
+      "motion": "원고의 새 정보가 있는 지점에 별도 카메라 자산으로 전환하고, 각 숏 안에서 단서·빛·시차를 1–3초 간격으로 변화시킨다.",
+      "motion_beats": [
+        {
+          "absolute_seconds": 396.13,
+          "action": "cut to distinct camera setup C01-S15-A1",
+          "spoken_anchor": "지금도 마트에 가면"
+        },
+        {
+          "absolute_seconds": 402.75,
+          "action": "cut to distinct camera setup C01-S15-A2",
+          "spoken_anchor": "그런데 한 번씩"
+        }
+      ],
+      "audio": {
+        "narration": "text_alignment_and_signal_review_accepted_under_user_delegation; subjective_listening_not_performed",
+        "room_ambience": "original_generated_layer",
+        "event_foley": "고무 바퀴 끽 소리, 카트 금속 충돌, 체인 당김, 젖은 손 마찰",
+        "bgm": "approved_cand-04",
+        "intentional_silence_seconds": 0.0,
+        "intentional_silence_note": null
+      },
+      "transition_out": "단서·행동이 바뀌는 발화 경계에 컷; 무의미한 플래시·글리치 제외",
+      "shorts_adaptation": "별도 승인 대본 shorts-01-narration.txt와 새 세로 이미지 사용",
+      "editing": {
+        "technique_ids": [
+          "space_clue_action"
+        ],
+        "clue": "손목 안쪽의 압박",
+        "tension_stage": "aftermath",
+        "shot_scale": "wide → detail",
+        "baseline_scene_id": null,
+        "selection_reason": "마른 날에 남는 감각에서 손목 안쪽의 압박가 들리는 대사와 같은 시점에 읽히도록 구도를 선택한다.",
+        "non_graphic_visual_substitution": "자국/압박은 음성으로 전하고 정상적인 손·소매와 마른 손잡이로 표현. 이미지 도구 차단 이후 안전한 장면 선택."
+      },
+      "shot_sequence": [
+        {
+          "shot_id": "C01-S15-SH1",
+          "location_id": "cart_shelter",
+          "start_seconds": 396.13,
+          "end_seconds": 402.75,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "exit",
+          "camera_position": "새 마트 주간 주차장 출입구 뒤",
+          "camera_angle": "oblique",
+          "camera_height": "1.5m",
+          "shot_size": "wide",
+          "subject_focus": "주간 새 마트 보관장을 멀리 보는 뒷모습",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S15-A1",
+          "new_information": "주간 새 마트 보관장을 멀리 보는 뒷모습",
+          "reuse_reason": null,
+          "spoken_anchor": "지금도 마트에 가면"
+        },
+        {
+          "shot_id": "C01-S15-SH2",
+          "location_id": "cart_shelter",
+          "start_seconds": 402.75,
+          "end_seconds": 411.582,
+          "timing_status": "spoken_clue_anchor_minus_0.35s",
+          "camera_setup_id": "contact",
+          "camera_position": "화자 어깨 아래 손목을 보는 일인칭",
+          "camera_angle": "downward",
+          "camera_height": "1.2m",
+          "shot_size": "detail",
+          "subject_focus": "잡는 손 없이 눌리는 화자 손목",
+          "spatial_anchors": "보관장 앞 쇠말뚝 두 개 / 뒤 직원문 / 정상 11대는 중앙에 포갬 / 고장 빨간 카트는 별도로 뒤에 / 오른쪽 통로. 빨간 카트가 정상 줄을 통과하거나 겹쳐 빠져나오지 않는다.",
+          "asset_id": "C01-S15-A2",
+          "new_information": "잡는 손 없이 눌리는 화자 손목",
+          "reuse_reason": null,
+          "spoken_anchor": "그런데 한 번씩"
+        }
+      ],
+      "visual_style_id": "horror_rough_2d",
+      "timing_status": "actual_approved_word_alignment",
+      "audio_local_start_seconds": 391.26,
+      "audio_local_end_seconds": 411.582042
+    }
+  ]
+}

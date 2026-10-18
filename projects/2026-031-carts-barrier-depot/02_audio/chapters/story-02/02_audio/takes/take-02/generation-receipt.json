@@ -1,0 +1,17 @@
+{
+  "take": "02",
+  "script_sha256": "d8861b0de42b4bcf08e0ab10814cd58e15e9c86e1baa5278871fb39f203e1130",
+  "chunks": [
+    1043,
+    1060,
+    1052
+  ],
+  "context_stitching": "previous_request_ids_only",
+  "sequential": true,
+  "prior_request_count": 3,
+  "model_id": "eleven_v4",
+  "voice_id": "ZJCNdZEjYwkOElxugmW2",
+  "voice_speed_multiplier": 1.0,
+  "parts_preserved": true,
+  "reason": "confirmed repetition and corruption in initial take"
+}

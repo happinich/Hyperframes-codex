@@ -1,0 +1,21 @@
+{
+  "source": "verbatim_excerpts_of_approved_scripts",
+  "calm_source": "01_script/story-03-narration.txt paragraph 3",
+  "physical_source": "01_script/story-02-narration.txt paragraph 10 first sentences",
+  "sha256": "2d882f57a2e4386bc267f1314fb584a429679188f16a5bd82ee21a55a080afd6",
+  "characters": 293,
+  "audition_only": true,
+  "no_longform_generation_before_visual_approval": true,
+  "candidates": [
+    {
+      "id": "hyuk",
+      "name": "Hyuk - Cold and Clear",
+      "voice_id": "ZJCNdZEjYwkOElxugmW2"
+    },
+    {
+      "id": "harry-kim",
+      "name": "Harry Kim - conversational",
+      "voice_id": "pb3lVZVjdFWbkhPKlelB"
+    }
+  ]
+}

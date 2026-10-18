@@ -1,0 +1,9 @@
+{
+  "asset_id": "C02-S01-A2",
+  "attempt": 1,
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-663d40d4-51db-4ad1-8d3c-2989a90f6572.png",
+  "target": "04_composition/assets/visuals/C02-S01-A2.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C02-S01-A2. Style: dark matte gouache horror painting, visible broad brush texture, navy wall gray metal chalk white and amber; NOT photorealistic or pixel art. NEW camera position: 패널 밑 빗물받이 높이; angle low; height 0.2m; size detail. Precise narrative focus: 패널 아래쪽에서 움직이는 여섯 자국만. Only SIX pale scrape marks visible below lower panel seam; no limbs or body in cold-open trace shot. Continuity: one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons."
+}

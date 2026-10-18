@@ -1,0 +1,27 @@
+{
+  "project_id": "harry-kim",
+  "status": "authorized_male_voice_audition_only",
+  "script_source": "../01_script/narration.txt",
+  "tts_script_source": "../01_script/tts-narration.txt",
+  "target_audio": "inbox/harry-kim-031-audition.mp3",
+  "auth": {
+    "env_var": "ELEVENLABS_API_KEY"
+  },
+  "request": {
+    "voice_id": "pb3lVZVjdFWbkhPKlelB",
+    "model_id": "eleven_v4",
+    "language_code": "ko",
+    "output_format": "mp3_44100_128",
+    "apply_text_normalization": "on",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75
+    },
+    "performance_direction": "Natural Korean firsthand storytelling, calm and conversational at first, gradually tense, no announcer voice or constant whispering"
+  },
+  "postprocess": {
+    "voice_speed_multiplier": 1.0,
+    "automatic_speedup": false
+  },
+  "source_approval": "../../../../00_brief/script-approval.json"
+}

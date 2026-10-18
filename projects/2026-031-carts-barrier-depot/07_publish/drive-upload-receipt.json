@@ -1,0 +1,191 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "uploaded_and_verified",
+  "verified_at": "2026-10-18T11:11:14.936205+00:00",
+  "method": "authenticated_native_Chrome_macOS_file_picker",
+  "folder_id": "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b",
+  "folder_url": "https://drive.google.com/drive/folders/1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b",
+  "parent_folder_id": "1lHIlE0jvyjqaGKbwLJBSrZGpi1EBYW11",
+  "count": 16,
+  "files": [
+    {
+      "filename": "delivery-manifest.json",
+      "file_id": "1tmn6zzo75ZzZi6pn_SsxBLQ7bLcQppgO",
+      "bytes": 2646,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1tmn6zzo75ZzZi6pn_SsxBLQ7bLcQppgO/view?usp=drivesdk",
+      "local_sha256": "c8842a8fbb3d1e2d97b2c1caf8b9bee03e24f21b7d65aa681c2579f78084c3ff",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "longform-publish.html",
+      "file_id": "13cwdm7Q9XkleojduxMVH3Sf8X_zfXFkQ",
+      "bytes": 5521,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/13cwdm7Q9XkleojduxMVH3Sf8X_zfXFkQ/view?usp=drivesdk",
+      "local_sha256": "16b75d9961a8f32c62c20a2714c9d26720cab67a90f538e2f39fd7e6aed83cae",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "README.md",
+      "file_id": "113joRy2mEY4TTOpsH69S51N9vN3rTeKn",
+      "bytes": 1034,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/113joRy2mEY4TTOpsH69S51N9vN3rTeKn/view?usp=drivesdk",
+      "local_sha256": "5f3c7afbb4255f0a85e8e49c766639f52be072fe23d6e83efbf4bbaa1129b57a",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-03-publish.html",
+      "file_id": "1c5k_x4O01KqAZpf8YACjFSBkjhk6nOu_",
+      "bytes": 3221,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1c5k_x4O01KqAZpf8YACjFSBkjhk6nOu_/view?usp=drivesdk",
+      "local_sha256": "967c7694da80f0576591a678d27f87fcb189cb065a04b2babfd831a35e15d8ad",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-02-publish.html",
+      "file_id": "17PPP8diw6vHjQ7ou37QZtzFRcYtITX07",
+      "bytes": 3221,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/17PPP8diw6vHjQ7ou37QZtzFRcYtITX07/view?usp=drivesdk",
+      "local_sha256": "63f7a985c6699ae8fe0363ae6100653ce2aadf4b2a5f0f160a2030d0c8dbbc1b",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-01-publish.html",
+      "file_id": "1AUbDgKQ3TPAVeGs0nkH5TuTCr076Vzka",
+      "bytes": 3221,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1AUbDgKQ3TPAVeGs0nkH5TuTCr076Vzka/view?usp=drivesdk",
+      "local_sha256": "4906fedd9d4a068ded854b97568840ef3769c77225291f08b8609a3442d13af3",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-01-publish.md",
+      "file_id": "1Ey9czWAN6hvt09QI7b30IVCz6yW327Xp",
+      "bytes": 1249,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1Ey9czWAN6hvt09QI7b30IVCz6yW327Xp/view?usp=drivesdk",
+      "local_sha256": "3f70dcae2093490e55c8a948cbd5637409790eaa7a56b2f71c91422067742ae5",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-02-publish.md",
+      "file_id": "1i4PD1QC5PSYeYtRujfHaq8c9_9xn6LmD",
+      "bytes": 1249,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1i4PD1QC5PSYeYtRujfHaq8c9_9xn6LmD/view?usp=drivesdk",
+      "local_sha256": "8c0e4578b68338b7380b2fb3e4c540c497a322f9609067273fc8b6006bb562c4",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "shorts-03-publish.md",
+      "file_id": "1PXPBN417R3IuWaKNm8i_7jaZ8hDO06vs",
+      "bytes": 1249,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1PXPBN417R3IuWaKNm8i_7jaZ8hDO06vs/view?usp=drivesdk",
+      "local_sha256": "0f170445577c566463e48c83424fd8d8b2d393e87c07817a3a372c6883e8dbc8",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "longform-publish.md",
+      "file_id": "12QEza3X3BZAJMqzso2RaW8STqW9zwHcl",
+      "bytes": 3177,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/12QEza3X3BZAJMqzso2RaW8STqW9zwHcl/view?usp=drivesdk",
+      "local_sha256": "8c4fe1779071877ac73b9b22be251221d59687afe3ebad5ef90d5209c12fe51f",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "2026-031-carts-barrier-depot-youtube.mp4",
+      "file_id": "1-V8NCcL9mKike6GyfNsaHxZ5fW_e5Rqa",
+      "bytes": 1040483174,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1-V8NCcL9mKike6GyfNsaHxZ5fW_e5Rqa/view?usp=drivesdk",
+      "local_sha256": "e825b4572d7e2677d314e4af087a18adc9736c4c1308b8126581c4bea3722246",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "2026-031-carts-barrier-depot-shorts-03.mp4",
+      "file_id": "1gdtCqykC-rBCVK0WLr5BIJx8w_wFJkn_",
+      "bytes": 27637182,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1gdtCqykC-rBCVK0WLr5BIJx8w_wFJkn_/view?usp=drivesdk",
+      "local_sha256": "bab44f4e1101f866e73777fc7641ac23eabf51fca88a8e3313000192f3c3d085",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "2026-031-carts-barrier-depot-shorts-02.mp4",
+      "file_id": "1DYEyc62HU6shAJPv3ko2srRPBDkFJfpY",
+      "bytes": 19753513,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1DYEyc62HU6shAJPv3ko2srRPBDkFJfpY/view?usp=drivesdk",
+      "local_sha256": "c01f51a7ed34902786fcf4b3e938d9f1fe606603164f92d42ff706d07f15ec6e",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "2026-031-carts-barrier-depot-shorts-01.mp4",
+      "file_id": "1ei0dftzdCth4vhdkkgVtGTvCnLSJ4HJu",
+      "bytes": 17737745,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1ei0dftzdCth4vhdkkgVtGTvCnLSJ4HJu/view?usp=drivesdk",
+      "local_sha256": "67697eae2a2f97f1ac3020b1d5bdaeb91070710886ac954f8fdd5f9d2f6c891e",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "thumbnail-b.png",
+      "file_id": "1cnMc5y5Gca2viiC2ZKn7hS29rMZrqNFu",
+      "bytes": 1130958,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1cnMc5y5Gca2viiC2ZKn7hS29rMZrqNFu/view?usp=drivesdk",
+      "local_sha256": "64f0ddc8ae4963fb77b89cb562fc58789bc6729e093721f3bce2bc3cd1c49f11",
+      "filename_size_parent_verified": true
+    },
+    {
+      "filename": "thumbnail-a.png",
+      "file_id": "1mcLh4axmQOrIWG4sM26lRWtFtSmQlcTI",
+      "bytes": 1194166,
+      "parent_ids": [
+        "1gfB-gAswiJFfpT9ftxMCztHfEqsxmo3b"
+      ],
+      "url": "https://drive.google.com/file/d/1mcLh4axmQOrIWG4sM26lRWtFtSmQlcTI/view?usp=drivesdk",
+      "local_sha256": "2ff207d895f0300c81689c406bcd2ec921849908750a4c182d834f565d379328",
+      "filename_size_parent_verified": true
+    }
+  ],
+  "verification": "Connected Drive metadata exact names, byte sizes, destination parent; local SHA256 retained, remote checksum not exposed by connector",
+  "youtube_published": false,
+  "ui_completion_proof": "05_review/drive-upload-complete.png"
+}

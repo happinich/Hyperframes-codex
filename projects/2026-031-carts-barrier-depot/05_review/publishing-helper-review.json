@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "helpers": [
+    {
+      "file": "youtube/youtube-publish.html",
+      "title": "아무도 없는데, 누가 밀고 있었다｜창작 괴담 3편",
+      "buttons": 8,
+      "fields": [
+        {
+          "text": 27,
+          "overflow": false
+        },
+        {
+          "text": 165,
+          "overflow": false
+        },
+        {
+          "text": 718,
+          "overflow": false
+        },
+        {
+          "text": 73,
+          "overflow": false
+        },
+        {
+          "text": 158,
+          "overflow": false
+        },
+        {
+          "text": 95,
+          "overflow": false
+        },
+        {
+          "text": 60,
+          "overflow": false
+        },
+        {
+          "text": 74,
+          "overflow": false
+        }
+      ],
+      "images": [
+        {
+          "src": "thumbnail-a.png",
+          "loaded": true
+        },
+        {
+          "src": "thumbnail-b.png",
+          "loaded": true
+        }
+      ],
+      "links": [
+        "../../06_delivery/youtube/2026-031-carts-barrier-depot-youtube.mp4",
+        "../../06_delivery/youtube/2026-031-carts-barrier-depot-youtube.mp4",
+        "thumbnail-a.png",
+        "thumbnail-b.png"
+      ]
+    },
+    {
+      "file": "shorts/shorts-01-publish.html",
+      "title": "카트 안은 비었는데, 운동화가 돌아갔다",
+      "buttons": 6,
+      "fields": [
+        {
+          "text": 29,
+          "overflow": false
+        },
+        {
+          "text": 109,
+          "overflow": false
+        },
+        {
+          "text": 69,
+          "overflow": false
+        },
+        {
+          "text": 208,
+          "overflow": false
+        },
+        {
+          "text": 48,
+          "overflow": false
+        },
+        {
+          "text": 54,
+          "overflow": false
+        }
+      ],
+      "images": [],
+      "links": [
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-01.mp4",
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-01.mp4"
+      ]
+    },
+    {
+      "file": "shorts/shorts-02-publish.html",
+      "title": "벽을 두드린 손을 뗐는데도 대답이 왔다",
+      "buttons": 6,
+      "fields": [
+        {
+          "text": 29,
+          "overflow": false
+        },
+        {
+          "text": 109,
+          "overflow": false
+        },
+        {
+          "text": 69,
+          "overflow": false
+        },
+        {
+          "text": 208,
+          "overflow": false
+        },
+        {
+          "text": 48,
+          "overflow": false
+        },
+        {
+          "text": 54,
+          "overflow": false
+        }
+      ],
+      "images": [],
+      "links": [
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-02.mp4",
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-02.mp4"
+      ]
+    },
+    {
+      "file": "shorts/shorts-03-publish.html",
+      "title": "빈 버스의 행선지가 내 위치로 바뀌었다",
+      "buttons": 6,
+      "fields": [
+        {
+          "text": 29,
+          "overflow": false
+        },
+        {
+          "text": 109,
+          "overflow": false
+        },
+        {
+          "text": 69,
+          "overflow": false
+        },
+        {
+          "text": 208,
+          "overflow": false
+        },
+        {
+          "text": 48,
+          "overflow": false
+        },
+        {
+          "text": 54,
+          "overflow": false
+        }
+      ],
+      "images": [],
+      "links": [
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-03.mp4",
+        "../../06_delivery/shorts/2026-031-carts-barrier-depot-shorts-03.mp4"
+      ]
+    }
+  ]
+}

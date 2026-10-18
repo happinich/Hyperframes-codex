@@ -1,0 +1,12 @@
+{
+  "status": "rendered_technical_and_sampled_visual_review_passed",
+  "fps": 60,
+  "duration_seconds": 1250.0,
+  "longform_camera_shots": 87,
+  "segments": 46,
+  "burned_longform_captions": false,
+  "review_limitations": [
+    "No direct auditory listening",
+    "No complete normal-speed visual playback"
+  ]
+}

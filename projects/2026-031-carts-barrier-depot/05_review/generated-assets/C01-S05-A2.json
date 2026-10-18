@@ -1,0 +1,8 @@
+{
+  "asset_id": "C01-S05-A2",
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-bc1bd826-3bd4-404d-aa82-e781eb3e8ba3.png",
+  "target": "04_composition/assets/visuals/C01-S05-A2.png",
+  "review": "pending_individual_model_inspection",
+  "generation_mode": "built_in_image_gen",
+  "prompt_plan": "01_script/production-image-queue.json"
+}

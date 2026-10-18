@@ -1,0 +1,70 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "approved_styles_reference_design_before_scene_generation",
+  "period": "contemporary fictional Korea",
+  "face_free_narration": true,
+  "stories": [
+    {
+      "chapter_id": "C01",
+      "style_id": "horror_rough_2d",
+      "palette": [
+        "blue-gray",
+        "desaturated steel",
+        "amber worklight",
+        "red handle tape"
+      ],
+      "narrator": "face unseen; charcoal work jacket, black thin work gloves when handling tools; exposed wrist for contact; no visible gender-defining features",
+      "location": "roofed supermarket cart shelter; rear staff door; front two dark steel bollards; eleven normal steel carts nested centrally; ONE additional separate defective cart behind the nested row, red taped handle; person-width right aisle; dry concrete under roof; damp asphalt outside",
+      "entity": "one ghost, soaked gray sleeve, pale normal five-finger hand with thumb wrapped UNDER handle, dark wet sneakers; shoulder partially visible only late; head hidden by cart basket; no extra arms, digits, faces, or gore",
+      "recurring_props": [
+        "red taped cart handle",
+        "white cleaning towel draped at handle side",
+        "steel chain around front caster and front bollard",
+        "phone with screen content composited in edit"
+      ],
+      "lighting": "amber practical roof fixture; blue night spill; flashlight where narrated; readable mobile clues without crushing blacks",
+      "reveal": "opening contact teaser only; restart normal workplace; wet trace then shoe then sleeve then physical wrist contact; no early whole entity",
+      "reference_assets_planned": [
+        "C01-REF-location",
+        "C01-REF-entity"
+      ],
+      "shorts": "fresh portrait images, same design, reveal ends on shoe only",
+      "palette_reference_asset": "04_composition/assets/references/C01-reference-v2.png",
+      "reference_limit": "style and palette only; uncertain count/hand not accepted for final scene use"
+    },
+    {
+      "chapter_id": "C02",
+      "style_id": "horror_painterly",
+      "palette": [
+        "navy",
+        "gray metal",
+        "chalk white",
+        "amber"
+      ],
+      "narrator": "face unseen; charcoal maintenance jacket, work boots; LEFT boot caught and left behind",
+      "location": "one narrow upper metal inspection walkway along road noise barrier; stairs screen-left, deadend and metal toolbox screen-right; road and parked maintenance truck below; retain action axis",
+      "entity": "ONE flat gray nonhuman body, TOTAL SIX jointed appendages; matte damp surface; no human fingers, face, eyes or mouth; scratches correspond to six appendages",
+      "lighting": "work lamps and flashlight; matte gouache/paint texture; body edges and six scratch lines readable on mobile",
+      "reveal": "six white scratches then gray joints then partial flat body then left boot/rail physical contact",
+      "shorts": "fresh portrait assets; scratches and below-foot movement only",
+      "entity_reference_asset": "04_composition/assets/references/C02-entity-reference-v1.png"
+    },
+    {
+      "chapter_id": "C03",
+      "style_id": "horror_pixel",
+      "palette": [
+        "navy",
+        "green-gray bus",
+        "yellow walkway",
+        "white display"
+      ],
+      "narrator": "face unseen; charcoal dispatch jacket, temporary test location tag clipped to staff ID; second mechanic remains distant back silhouette when needed",
+      "location": "one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane",
+      "entity": "single driverless bus with intact battery isolation seal; no human/ghost driver in windshield; supernatural contradiction intentionally retained",
+      "clues": "destination display, blank transfer, test ID tag, intact seal, boarding log; exact Korean text added in composition not generated",
+      "lighting": "restrained industrial lamps; crisp pixel grid with deliberate pixel motion, readable large clue shapes",
+      "shorts": "fresh portrait pixel assets, no identity/escape/boarding log reveal",
+      "vehicle_reference_asset": "04_composition/assets/references/C03-bus-reference-v2.png"
+    }
+  ]
+}

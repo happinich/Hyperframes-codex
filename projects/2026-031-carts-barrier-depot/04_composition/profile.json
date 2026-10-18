@@ -1,0 +1,10 @@
+{
+  "production_profile_id": "horror_cinematic_story_v1",
+  "visual_style_id": "horror_rough_2d",
+  "visual_style_ids_by_chapter": {
+    "C01": "horror_rough_2d",
+    "C02": "horror_painterly",
+    "C03": "horror_pixel"
+  },
+  "captioned_output_default_enabled": false
+}

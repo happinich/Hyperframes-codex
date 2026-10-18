@@ -1,0 +1,133 @@
+{
+  "status": "pacing_review_required",
+  "duration": 469.18,
+  "word_count": 804,
+  "average_wpm": 102.8,
+  "window_seconds": 15.0,
+  "step_seconds": 5.0,
+  "slow_wpm_threshold": 58.0,
+  "fast_wpm_threshold": 135.0,
+  "long_silence_threshold_seconds": 0.8,
+  "long_silence_count": 0,
+  "long_silences": [],
+  "long_word_gap_threshold_seconds": 0.8,
+  "long_word_gap_count": 10,
+  "long_word_gaps": [
+    {
+      "start": 144.5,
+      "end": 147.58,
+      "duration": 3.08,
+      "before": "안쪽에서",
+      "after": "여섯"
+    },
+    {
+      "start": 190.72,
+      "end": 198.1,
+      "duration": 7.38,
+      "before": "무전했습니다.",
+      "after": "그가"
+    },
+    {
+      "start": 206.04,
+      "end": 206.94,
+      "duration": 0.9,
+      "before": "움직였습니다.",
+      "after": "이번에는"
+    },
+    {
+      "start": 219.18,
+      "end": 223.14,
+      "duration": 3.96,
+      "before": "점검로가",
+      "after": "벽과"
+    },
+    {
+      "start": 229.4,
+      "end": 233.18,
+      "duration": 3.78,
+      "before": "알려",
+      "after": "주고"
+    },
+    {
+      "start": 249.74,
+      "end": 250.72,
+      "duration": 0.98,
+      "before": "들었습니다.",
+      "after": "제가"
+    },
+    {
+      "start": 274.86,
+      "end": 276.64,
+      "duration": 1.78,
+      "before": "폭이었고,",
+      "after": "돌아서는"
+    },
+    {
+      "start": 278.92,
+      "end": 281.88,
+      "duration": 2.96,
+      "before": "꺼졌습니다.",
+      "after": "철판이"
+    },
+    {
+      "start": 303.08,
+      "end": 307.12,
+      "duration": 4.04,
+      "before": "거칠었고,",
+      "after": "손가락은"
+    },
+    {
+      "start": 315.2,
+      "end": 327.28,
+      "duration": 12.08,
+      "before": "걸렸습니다.",
+      "after": "동료가"
+    }
+  ],
+  "slow_window_count": 5,
+  "slow_windows": [
+    {
+      "start": 190.0,
+      "end": 205.0,
+      "word_count": 13,
+      "wpm": 52.0
+    },
+    {
+      "start": 280.0,
+      "end": 295.0,
+      "word_count": 5,
+      "wpm": 20.0
+    },
+    {
+      "start": 285.0,
+      "end": 300.0,
+      "word_count": 11,
+      "wpm": 44.0
+    },
+    {
+      "start": 315.0,
+      "end": 330.0,
+      "word_count": 6,
+      "wpm": 24.0
+    },
+    {
+      "start": 465.0,
+      "end": 469.18,
+      "word_count": 8,
+      "wpm": 32.0
+    }
+  ],
+  "fast_window_count": 1,
+  "fast_windows": [
+    {
+      "start": 265.0,
+      "end": 280.0,
+      "word_count": 34,
+      "wpm": 136.0
+    }
+  ],
+  "recommendations": [
+    "Use eleven_v4 with 1,000-1,300 character sentence chunks and review voice settings before rendering.",
+    "Review fast windows for rushed pronunciation before accepting."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "ready_for_review",
+  "whisper_backend": "mlx-whisper",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions",
+  "subtitle_text_source": "01_script/narration.txt",
+  "spoken_text_source": "01_script/tts-narration.txt",
+  "matched_character_ratio": 0.9942,
+  "caption_surface_match_ratio": 0.9933,
+  "spoken_match_ratio": 0.9942,
+  "required_ratio": 0.92,
+  "note": "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used."
+}

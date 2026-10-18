@@ -1,0 +1,133 @@
+{
+  "checked_on": "2026-10-18",
+  "scope": "available professional male Korean voices",
+  "has_more": false,
+  "voices": [
+    {
+      "voice_id": "ZJCNdZEjYwkOElxugmW2",
+      "name": "Hyuk - Cold and Clear",
+      "description": "Middle aged Soft and emotional Korean male voice. Great for Narration & Storytelling.",
+      "labels": {
+        "accent": "standard",
+        "gender": "male",
+        "age": "middle_aged",
+        "use_case": "narrative_story",
+        "language": "ko",
+        "descriptive": "relaxed"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "s07IwTCOrCDCaETjUVjx",
+      "name": "Hyunbin - Diplomatic, Clear and Measured",
+      "description": "Cool Korean male voice. Great for Professional corporate PR narration. ",
+      "labels": {
+        "age": "middle_aged",
+        "gender": "male",
+        "language": "ko",
+        "use_case": "narrative_story",
+        "accent": "seoul",
+        "descriptive": "professional"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "jB1Cifc2UQbq1gR3wnb0",
+      "name": "Bin - Measured and Serious",
+      "description": "Middle aged Korean male with a warm and sweet voice. Great for Narrations.",
+      "labels": {
+        "language": "ko",
+        "gender": "male",
+        "age": "middle_aged",
+        "accent": "standard",
+        "use_case": "narrative_story",
+        "descriptive": "relaxed"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "LKOcTG4J4tYTPR9DnLeM",
+      "name": "Mr. K  - Natural Korean Voice",
+      "description": "A premium Korean male voice optimized with rich emotional expression and natural conversational delivery. Trained with 117 minutes of diverse tonal variations.\n\nPerfect for: Social media content, automotive ads, luxury brand storytelling, podcast narration, and premium product intros.\n\nTone: warm, expressive, professional, versatile. Best for Korean premium content targeting professionals aged 30-60.",
+      "labels": {
+        "accent": "seoul",
+        "gender": "male",
+        "age": "young",
+        "use_case": "social_media",
+        "language": "ko",
+        "descriptive": "classy"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "R8dnZzaYuW5eOaAfSWyJ",
+      "name": "Isaac - Calm & trustful",
+      "description": "Korean, male, tech explainer for social media.",
+      "labels": {
+        "accent": "standard",
+        "gender": "male",
+        "language": "ko",
+        "use_case": "informative_educational",
+        "age": "young",
+        "descriptive": "calm"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "HYALOqtTLlRjxo4uBKeg",
+      "name": "Jaeil Warm Male Narrator",
+      "description": "A warm, calm Korean male voice with a mature and trustworthy tone. Suitable for narration, documentaries, storytelling, meditation, educational content, and voiceovers.",
+      "labels": {
+        "accent": "seoul",
+        "gender": "male",
+        "use_case": "narrative_story",
+        "age": "middle-aged",
+        "language": "ko",
+        "descriptive": "relaxed"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "8lidWTlnwgjObqCImnE2",
+      "name": "Juan - Deep & Rich Storyteller",
+      "description": "A warm, confident, and velvety smooth. For narration, educational content. Refined International accent.",
+      "labels": {
+        "language": "ko",
+        "gender": "male",
+        "age": "young",
+        "accent": "standard",
+        "use_case": "narrative_story",
+        "descriptive": "gentle"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "WzMnDIgiICcj1oXbUBO0",
+      "name": "ai.samhottman (subscribe youtube 샘호트만)",
+      "description": "Sam hottman  - Sam Hottman's charming voice will empower people with AI.",
+      "labels": {
+        "use_case": "informative_educational",
+        "gender": "male",
+        "accent": "gyeongsang",
+        "language": "ko",
+        "age": "young",
+        "descriptive": "gentle"
+      },
+      "category": "professional"
+    },
+    {
+      "voice_id": "pb3lVZVjdFWbkhPKlelB",
+      "name": "Harry Kim - conversational",
+      "description": "Harry Kim - conversational - Steady, soft, and natural - ideal for podcasts, dialogue-heavy narration, or unscripted monologues.",
+      "labels": {
+        "use_case": "conversational",
+        "gender": "male",
+        "accent": "standard",
+        "language": "ko",
+        "age": "middle_aged",
+        "descriptive": "casual"
+      },
+      "category": "professional"
+    }
+  ]
+}

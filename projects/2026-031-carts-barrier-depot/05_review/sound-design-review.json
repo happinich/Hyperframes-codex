@@ -1,0 +1,224 @@
+{
+  "status": "generated_pending_final_mix_signal_review",
+  "provenance": "Original deterministic numpy/scipy synthesis; no external sampled recordings",
+  "voice_only_sha256": "89a237e195ddb5b839169afd713e7ac443a6515affdf14d105add0d50e8fa51f",
+  "voice_master_preserved": true,
+  "bgm_candidate": "cand-04",
+  "events": [
+    {
+      "scene_id": "C01-S01",
+      "spoken_cue": "제 손목을",
+      "start_seconds": 0.96,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S03",
+      "spoken_cue": "끽, 하고",
+      "start_seconds": 52.16,
+      "kind": "squeak",
+      "duration_seconds": 0.48
+    },
+    {
+      "scene_id": "C01-S04",
+      "spoken_cue": "물방울이",
+      "start_seconds": 68.5,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S04",
+      "spoken_cue": "사진부터 찍었어요",
+      "start_seconds": 81.94,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C01-S06",
+      "spoken_cue": "다시 바퀴 소리가",
+      "start_seconds": 121.32,
+      "kind": "squeak",
+      "duration_seconds": 0.48
+    },
+    {
+      "scene_id": "C01-S08",
+      "spoken_cue": "금속 소리가",
+      "start_seconds": 200.88,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C01-S09",
+      "spoken_cue": "손잡이를 쥐고",
+      "start_seconds": 214.24,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S10",
+      "spoken_cue": "체인을 집어",
+      "start_seconds": 256.94,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C01-S11",
+      "spoken_cue": "제 손목을 잡았습니다",
+      "start_seconds": 277.06,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C01-S12",
+      "spoken_cue": "말뚝에 감았어요",
+      "start_seconds": 299.64,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C01-S12",
+      "spoken_cue": "체인이 소리를",
+      "start_seconds": 316.78,
+      "kind": "key",
+      "duration_seconds": 0.44
+    },
+    {
+      "scene_id": "C02-S03",
+      "spoken_cue": "세 번 두드리는",
+      "start_seconds": 469.162,
+      "kind": "triple",
+      "duration_seconds": 0.9
+    },
+    {
+      "scene_id": "C02-S06",
+      "spoken_cue": "발전기가 켜지는",
+      "start_seconds": 549.862,
+      "kind": "generator",
+      "duration_seconds": 1.2
+    },
+    {
+      "scene_id": "C02-S07",
+      "spoken_cue": "회색 조각이",
+      "start_seconds": 563.682,
+      "kind": "fabric",
+      "duration_seconds": 0.52
+    },
+    {
+      "scene_id": "C02-S08",
+      "spoken_cue": "공구통이 떨어졌어요",
+      "start_seconds": 593.602,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S10",
+      "spoken_cue": "발목을 잡았습니다",
+      "start_seconds": 670.782,
+      "kind": "thud",
+      "duration_seconds": 0.37
+    },
+    {
+      "scene_id": "C02-S10",
+      "spoken_cue": "난간이 제 쪽으로",
+      "start_seconds": 678.002,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S11",
+      "spoken_cue": "전동 드라이버를 켰습니다",
+      "start_seconds": 699.562,
+      "kind": "drill",
+      "duration_seconds": 0.9
+    },
+    {
+      "scene_id": "C02-S11",
+      "spoken_cue": "상자 위로 던졌어요",
+      "start_seconds": 711.362,
+      "kind": "metal",
+      "duration_seconds": 0.58
+    },
+    {
+      "scene_id": "C02-S12",
+      "spoken_cue": "계단을 내려왔습니다",
+      "start_seconds": 727.122,
+      "kind": "gravel",
+      "duration_seconds": 0.66
+    },
+    {
+      "scene_id": "C02-S14",
+      "spoken_cue": "여섯 번의 가벼운",
+      "start_seconds": 806.382,
+      "kind": "sixscrape",
+      "duration_seconds": 1.25
+    },
+    {
+      "scene_id": "C03-S04",
+      "spoken_cue": "공란으로 다시 보냈습니다",
+      "start_seconds": 914.542,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S05",
+      "spoken_cue": "출입문 접히는",
+      "start_seconds": 923.962,
+      "kind": "door",
+      "duration_seconds": 0.78
+    },
+    {
+      "scene_id": "C03-S06",
+      "spoken_cue": "바퀴가 굴렀어요",
+      "start_seconds": 952.262,
+      "kind": "gravel",
+      "duration_seconds": 0.66
+    },
+    {
+      "scene_id": "C03-S08",
+      "spoken_cue": "위치 태그를 만졌어요",
+      "start_seconds": 1030.762,
+      "kind": "click",
+      "duration_seconds": 0.14
+    },
+    {
+      "scene_id": "C03-S10",
+      "spoken_cue": "느리게 굴러갔습니다",
+      "start_seconds": 1089.522,
+      "kind": "gravel",
+      "duration_seconds": 0.66
+    },
+    {
+      "scene_id": "C03-S11",
+      "spoken_cue": "손잡이 하나가",
+      "start_seconds": 1120.302,
+      "kind": "key",
+      "duration_seconds": 0.44
+    }
+  ],
+  "ambience_and_foley_separate_layers": true,
+  "shorts_outro_delay_seconds": 0,
+  "subjective_listening_performed": false,
+  "implemented_sound_bed_hush_windows": [
+    {
+      "scene_id": "C01-S09",
+      "start_seconds": 219.42,
+      "end_seconds": 220.32,
+      "voice_unchanged": true,
+      "ramp_seconds": 0.03
+    },
+    {
+      "scene_id": "C02-S09",
+      "start_seconds": 640.722,
+      "end_seconds": 641.622,
+      "voice_unchanged": true,
+      "ramp_seconds": 0.03
+    },
+    {
+      "scene_id": "C03-S11",
+      "start_seconds": 1118.122,
+      "end_seconds": 1119.022,
+      "voice_unchanged": true,
+      "ramp_seconds": 0.03
+    }
+  ]
+}

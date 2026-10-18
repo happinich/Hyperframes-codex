@@ -1,0 +1,269 @@
+{
+  "assets": [
+    {
+      "asset_id": "C03-S01-A2",
+      "prompt": "NEW SINGLE landscape 16:9 crisp chunky pixel-art shot from LOW FRONT oblique camera, looking UP toward driverless green-gray bus windshield and large blank DARK destination LED panel above it. Empty driver seat plainly visible through dark glass. Front door CLOSED; all bus electric lamps OFF, no glowing interior fixtures. External amber depot lights only. Crop tightly around front of same two-axle, two-passenger-door bus; no text, faces, symbols or silhouette. Deliberate visible square pixel clusters, not smooth painting. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S01-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S03-A1",
+      "prompt": "Edit the supplied pixel-art image with exact continuity. Turn off ALL electrical lamps INSIDE THE BUS: ceiling lamps dark, headlights dark, tail and marker lights dark. Preserve EXTERNAL amber depot lights and their reflections, dark empty seats and empty driver seat; no new figures or objects. Keep two passenger doors, two axles, same body and camera. Front passenger door CLOSED. Leave destination display blank dark; Korean words added in composition. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S03-A1-v3.png"
+    },
+    {
+      "asset_id": "C03-S04-A2",
+      "prompt": "Edit the supplied pixel-art image with exact continuity. Turn off ALL electrical lamps INSIDE THE BUS: ceiling lamps dark, headlights dark, tail and marker lights dark. Preserve EXTERNAL amber depot lights and their reflections, dark empty seats and empty driver seat; no new figures or objects. Keep two passenger doors, two axles, same body and camera. Front passenger door CLOSED. Leave destination display blank dark; Korean words added in composition. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A2.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A2-v2.png"
+    },
+    {
+      "asset_id": "C03-S04-A1",
+      "prompt": "Edit the supplied pixel-art image with exact continuity. Turn off ALL electrical lamps INSIDE THE BUS: ceiling lamps dark, headlights dark, tail and marker lights dark. Preserve EXTERNAL amber depot lights and their reflections, dark empty seats and empty driver seat; no new figures or objects. Keep two passenger doors, two axles, same body and camera. Front passenger door CLOSED. Leave destination display blank dark; Korean words added in composition. Preserve intact red-white service hatch seal behind rear wheel.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S04-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S01-A1",
+      "prompt": "Edit the supplied pixel-art image with exact continuity. Turn off ALL electrical lamps INSIDE THE BUS: ceiling lamps dark, headlights dark, tail and marker lights dark. Preserve EXTERNAL amber depot lights and their reflections, dark empty seats and empty driver seat; no new figures or objects. Keep two passenger doors, two axles, same body and camera. Front passenger door CLOSED. Leave destination display blank dark; Korean words added in composition. ",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S01-A1.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png"
+      ],
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S01-A1-v2.png"
+    },
+    {
+      "asset_id": "C03-S05-A1",
+      "scene_id": "C03-S05",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S05-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 텅 빈 운전석과 열린 중문. Passenger side of same TWO-door green-gray bus, FRONT door CLOSED and CENTER door OPEN, dark EMPTY seats inside; driver seat also empty. No human shadow or ghost in this early scene. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S05-A1.png"
+    },
+    {
+      "asset_id": "C03-S06-A1",
+      "scene_id": "C03-S06",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S06-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 앞바퀴 바깥쪽 지면; angle low; height 0.2m; size detail. Precise narrative focus: 시동 없는 바퀴와 피해 움직이는 화자. LOW front tire begins rolling without exhaust smoke, faceless worker steps off yellow pedestrian line onto safe area, two natural legs; bus never intersects body. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S06-A1.png"
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "scene_id": "C03-S07",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S07-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 세차선 배수로 옆; angle low; height 0.25m; size medium. Precise narrative focus: 버스와 화자 사이 배수로·호스. LOW side view OPEN CENTER door of bus stops just before drainage gutter, wash hose lies BETWEEN door threshold and faceless worker shoes. Correct hose/gutter geometry, no person in bus. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A1.png"
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "scene_id": "C03-S07",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S07-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 화자가 물러날 때 따라 트는 앞바퀴. Close front steering tire ANGLED TOWARD retreating worker at frame edge, no visible driver, no impossible extra axle. Yard washing lane remains behind. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S07-A2.png"
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "scene_id": "C03-S08",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S08-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화자의 손에 든 태그; angle top_down; height 1.2m; size detail. Precise narrative focus: 출입증에 달린 시험 태그. Close plain staff ID with ONE small gray plastic temporary test location tag clipped on, exact plain unprinted shapes, ONE normal hand touches it, no text. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A1.png"
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "scene_id": "C03-S08",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S08-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 차고지 사무동 위에서 정비 줄 방향; angle downward; height 3m; size wide. Precise narrative focus: 밤 정차 위치와 낮 시험 경로의 대조. DAYLIGHT memory of test walk: ONE faceless worker with small test ID on yellow walkway between entry gate, wash lane, maintenance garage; SAME depot geometry from establishing reference. No bus moving, no neon routes/arrows/labels (added in edit). Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S08-A2.png"
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "scene_id": "C03-S09",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S09-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 세차선 표지판 옆에서 화단과 태그; angle oblique; height 0.7m; size medium. Precise narrative focus: 세차선 표지판 밑 태그와 화단으로 이동한 화자. Small test ID/tag placed on DRY ground at base of blank washing-lane sign, worker now stands beside low flowerbed OUTSIDE pedestrian lane, bus separated across yard. No caption text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A1.png"
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "scene_id": "C03-S09",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S09-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 노란 보행선의 동일 기준 위치에서 예비 버스 정면; angle frontal; height 1.5m; size medium. Precise narrative focus: 태그 쪽으로 향하는 버스와 표시. Same empty green-gray bus turns TOWARD small staff ID at washing sign base, OPEN center door faces tag, NO driver or shadow person, blank display for edit. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S09-A2.png"
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "scene_id": "C03-S10",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S10-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 운반 카트 뒤에서 차단봉 방향; angle rear; height 1.0m; size medium. Precise narrative focus: 태그가 걸린 운반 카트. ONE normal gloved hand hangs small gray test tag and staff ID on handle of EMPTY flatbed utility transport cart; this is a small platform trolley, NOT a shopping wire basket. No bus driving over it, no text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A1.png"
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "scene_id": "C03-S10",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S10-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 차고지 사무동 위에서 정비 줄 방향; angle downward; height 3m; size wide. Precise narrative focus: 화단 밖에서 보는 카트·버스·전기실 접근로. Wide from low flowerbed: utility CART with clipped tag rolls toward gate barrier, empty-driver bus follows cart to RIGHT dispatch lane, separate mechanic BACK silhouette reaches electrical room route behind cleared bus front. Vehicle path clear, no collision, no duplicate buses. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S10-A2.png"
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "scene_id": "C03-S11",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S11-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 밖 중문 문턱 너머 빈 실내; angle oblique; height 1.3m; size medium. Precise narrative focus: 멈춘 카트 뒤 텅 빈 좌석과 흔들린 손잡이. Through OPEN CENTER door: empty seats, ONE overhead passenger strap hangs slightly tilted, stopped utility trolley with tag outside near barrier. NO human occupant or face, no extra strap figure. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A1.png"
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "scene_id": "C03-S11",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S11-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 문틀에 붙어 늦게 반응하는 그림자. Close open CENTER door frame: thin shadow clings flat to DOORFRAME surface, not an independent person silhouette; empty interior visible. Keep it subtle readable, no ghost face or occupant, no gore. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S11-A2.png"
+    },
+    {
+      "asset_id": "C03-S12-A1",
+      "scene_id": "C03-S12",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S12-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 구역 수신기 옆에서 켜진 작업등 방향; angle side; height 1.2m; size detail. Precise narrative focus: 작업등은 켜진 채 꺼지는 구역 수신기. Small zone receiver box beside blank depot sign with indicator OFF; amber industrial worklights REMAIN ON in background. No master blackout, bus not shown powered by receiver, no writing. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A1.png"
+    },
+    {
+      "asset_id": "C03-S12-A2",
+      "scene_id": "C03-S12",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S12-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 버스 옆 격리 스위치 높이; angle side; height 0.9m; size detail. Precise narrative focus: 멈춘 버스와 여전히 붙은 봉인. Same bus completely STOPPED near barrier, destination DARK, center door remains open, intact rear-side isolation seal visible. Empty windshield, no mechanic rewiring vehicle. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S12-A2.png"
+    },
+    {
+      "asset_id": "C03-S13-A1",
+      "scene_id": "C03-S13",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S13-A1. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화자의 손에 든 태그; angle top_down; height 1.2m; size detail. Precise narrative focus: 태그 표면의 다섯 눌림. Close plastic test tag and staff ID with FIVE shallow fingertip pressure lines on plastic surface, no human hand crushing it now, no generated text or circuitry magic. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A1.png"
+    },
+    {
+      "asset_id": "C03-S13-A2",
+      "scene_id": "C03-S13",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S13-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 사무실 책상 옆 단말기 위치; angle oblique; height 1.3m; size detail. Precise narrative focus: 차단봉 앞 승차 기록과 출고 없는 차량 번호. Dispatch monitor FRONT-ON with large perfectly blank dark screen for boarding-log typography overlay. Beside screen plain staff ID, in window spare bus stands empty. NO generated numbers or words. CRITICAL CLOSE FRAMING: the described object/clue fills at least HALF of the canvas width. Only local materials from reference; background is an unidentifiable cropped wall or floor. Do NOT reconstruct the entire shelter/depot/walkway, truck, distant cart row, extra red cart or extra bus in this CLOSE frame. Exactly ONE focal cart/vehicle/prop and correct natural anatomy. No text, logos, narrator face, gore, collage or panels. Keep the established paint/pixel style. Entity scope limited to the stated clue. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S13-A2.png"
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "scene_id": "C03-S14",
+      "chapter_id": "C03",
+      "prompt": "Use case: illustration-story. Final SINGLE landscape 16:9 scene for asset C03-S14-A2. Style: crisp chunky pixel art, deliberate square pixel clusters, navy asphalt green-gray bus yellow walkway amber lamps; NOT smooth painting or photographic. NEW camera position: 화단 쪽에서 중문과 운전석 방향; angle oblique; height 1.4m; size medium. Precise narrative focus: 문만 조금 벌어진 빈 차고지. LATER same quiet empty depot: bus dark BLANK destination, center passenger door slightly cracked OPEN by a few centimeters while front door stays shut. No people, ghost shape, driver, light flash or text. Continuity: one driverless spare green-gray bus parked at maintenance row end; fixed route frontgate→washlane→maintenance→dispatchlane→barrier; electrical room reached across front-of-bus lane; flowerbed outside pedestrian lane. No readable generated text, watermark, logos, collage, panels, gore, or human narrator face. One camera setup, one precise frozen moment, correct object contact, physically coherent perspective, mobile-readable clues, safe crop margin. Reference images establish design and geography ONLY; generate a genuinely new camera view except intentional baseline comparisons. All electrical lamps on this bus are OFF, including INTERIOR CEILING lights, headlights, tail lamps and marker lights. The seats are dark, faintly visible ONLY through EXTERNAL amber yard light reflections. Do not draw luminous yellow ceiling fixtures inside the bus. The front passenger door is CLOSED; only the CENTER passenger door may open when explicitly stated. No driver, humanoid, ghost or silhouette in windshield. Leave destination screens blank for exact Korean composition overlay.",
+      "referenced_image_paths": [
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/references/C03-bus-reference-v3.png",
+        "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S02-A1.png"
+      ],
+      "reuse_of": null,
+      "already_generated": false,
+      "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C03-S14-A2.png"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "status": "all_six_voices_generated_text_signal_checked_human_listening_pending",
+  "updated_on": "2026-10-18",
+  "user_direction": "목소리는 너무 여성 목소리로만 하지말고 남성 목소리로도 해줘. 이야기에 따라서 처음부터 남자로 할건지 여성으로 할건지 추천해서 시작하자.",
+  "policy": "이야기별 성별·원하는 음색 판단을 먼저 하고 실제 보이스를 선택한다. 성별 비율·순환은 강제하지 않는다. 여성 1순위는 여성 캐스팅 선택 뒤 적용한다.",
+  "longform_voice_speed_multiplier": 1.0,
+  "shorts_voice_speed_multiplier": 1.07,
+  "model_id": "eleven_v4",
+  "stories": [
+    {
+      "chapter_id": "C01",
+      "title": "맨 뒤 카트의 젖은 손잡이",
+      "recommended_gender": "female",
+      "desired_vocal_character": "Jian.K의 차분한 중저음. 작은 촉감과 관찰을 가까이 말하다 접촉 순간에만 호흡이 흔들리는 구술.",
+      "reason": "손자국·소매·손목 감각이라는 작은 정보가 핵심이다. 이미 청취 확인한 Jian.K의 차분한 전달 질감이 이 감각을 단계적으로 드러내는 데 적합하다.",
+      "recommended_voice": {
+        "name": "Jian.K",
+        "voice_id": "ah4r1hZOydd3XWlHOm3Y",
+        "status": "approved",
+        "preference_scope": "female_cast_stories_only",
+        "standing_preference_approved_on": "2026-10-15"
+      },
+      "alternative": {
+        "gender": "male",
+        "desired_vocal_character": "담담한 일상 경험담, 과한 저음·진행자 톤 없음",
+        "tradeoff": "건조한 현장 증언의 질감을 만들 수 있다. 미세한 불안과 손목 감각이 무심하게 지나가지 않는지 샘플 확인이 필요하다."
+      },
+      "protagonist_gender_fixed": false,
+      "narrator_gender_must_match_protagonist": false,
+      "selection_status": "voice_approved",
+      "shorts_casting": "same_as_corresponding_longform_story_recommended",
+      "selected_gender": "female",
+      "selected_voice": {
+        "name": "Jian.K",
+        "voice_id": "ah4r1hZOydd3XWlHOm3Y"
+      }
+    },
+    {
+      "chapter_id": "C02",
+      "title": "방음벽 안에서 따라오는 것",
+      "recommended_gender": "male",
+      "desired_vocal_character": "자연스러운 중저음, 또렷한 공간 관찰, 후반에는 과장된 비명 대신 짧아지는 숨과 문장.",
+      "reason": "상부·하부의 위치 설명에서 발목을 붙잡히는 직접 위협으로 감정 폭이 커진다. 담담하게 현장을 복기하다 후반 호흡이 달라지는 남성 화자를 이번 편의 우선 캐스팅으로 제안한다. 직업이 남성이어야 해서 고른 것은 아니다.",
+      "recommended_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2",
+        "status": "approved"
+      },
+      "alternative": {
+        "gender": "female",
+        "desired_vocal_character": "Jian.K의 절제된 구술과 점진적 긴장",
+        "tradeoff": "움직이지 못하고 기다리는 중반의 불안에 적합하다. 후반 신체 위협에서도 차분함이 지나치게 일정하지 않은지 확인이 필요하다."
+      },
+      "protagonist_gender_fixed": false,
+      "narrator_gender_must_match_protagonist": false,
+      "selection_status": "voice_approved",
+      "shorts_casting": "same_as_corresponding_longform_story_recommended",
+      "selected_gender": "male",
+      "selected_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2"
+      }
+    },
+    {
+      "chapter_id": "C03",
+      "title": "예비 버스의 다음 정류장",
+      "recommended_gender": "male",
+      "desired_vocal_character": "건조하고 정확한 중저음. 보고서 낭독처럼 딱딱하지 않은 일상 말투, 큰 감정 없이 짧게 드러나는 당혹감.",
+      "reason": "기록표·봉인·행선지를 확인하는 신중한 화자와 설명할 수 없는 차량 이동의 대비가 중심이다. 감정을 먼저 싣지 않는 남성 목소리로 그 대비를 만드는 방향을 우선 제안한다.",
+      "recommended_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2",
+        "status": "approved"
+      },
+      "alternative": {
+        "gender": "female",
+        "desired_vocal_character": "Jian.K의 차분하고 신뢰감 있는 관찰형 구술",
+        "tradeoff": "표시와 동선을 명료하게 들려줄 수 있다. 이번 추천의 마른 증언 질감과 어떤 차이가 나는지 같은 대사로 비교할 수 있다."
+      },
+      "protagonist_gender_fixed": false,
+      "narrator_gender_must_match_protagonist": false,
+      "selection_status": "voice_approved",
+      "shorts_casting": "same_as_corresponding_longform_story_recommended",
+      "selected_gender": "male",
+      "selected_voice": {
+        "name": "Hyuk - Cold and Clear",
+        "voice_id": "ZJCNdZEjYwkOElxugmW2"
+      }
+    }
+  ],
+  "existing_audio_generated": true,
+  "male_candidate_note": "이번 원고의 샘플 비교 전에는 특정 남성 보이스 ID를 확정하지 않는다. 기존 다른 프로젝트의 실패 테이크를 새 편의 승인으로 사용하지 않는다.",
+  "approval_evidence": {
+    "date_kst": "2026-10-18",
+    "user_message": "좋아. 그렇게 해서 진행해줘.",
+    "context": "카트=여성 Jian.K / 방음벽·차고지=동일 남성 보이스, 이야기 경계에서 화자 전환 제안",
+    "scope": [
+      "two_narrator_structure",
+      "C01_Jian_K",
+      "C02_C03_same_male_voice",
+      "matching_shorts_narrators"
+    ]
+  },
+  "male_voice_shared_between": [
+    "C02",
+    "C03"
+  ],
+  "male_auditions": {
+    "A": "Hyuk - Cold and Clear",
+    "B": "Harry Kim - conversational",
+    "status": "A_Hyuk_selected",
+    "review": "05_review/voice-auditions/comparison.md",
+    "approval_evidence": {
+      "date_kst": "2026-10-18",
+      "user_message": "A · Hyuk (추천)",
+      "context": "방음벽·차고지 두 편에 함께 쓸 남성 목소리 선택",
+      "scope": [
+        "C02_C03_Hyuk",
+        "SH02_SH03_Hyuk"
+      ]
+    }
+  },
+  "voice_review": "05_review/voice-review.md"
+}

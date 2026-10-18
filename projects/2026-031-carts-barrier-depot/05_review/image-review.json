@@ -1,0 +1,1099 @@
+{
+  "project_id": "2026-031-carts-barrier-depot",
+  "assets": [
+    {
+      "asset_id": "C02-S02-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S02-A1.png",
+      "sha256": "93ed78596478962022e96448601f2f1e49b148fa6f41e8160909dcecc701201c",
+      "pass_1": "passed",
+      "pass_1_notes": "Individual generated original inspected: physical layout, no premature entity, readable style and lighting.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C03-S02-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S02-A1.png",
+      "sha256": "08a2078d27524cd7ab2955928bf004d24f73639dec4813c62d216ff553eff0ca",
+      "pass_1": "passed",
+      "pass_1_notes": "Individual generated original inspected: physical layout, no premature entity, readable style and lighting.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C01-S02-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S02-A1.png",
+      "sha256": "097a9cc67bc55000445e024c2ed6792e4bfb802cf0b6a8b75e4aff95baad226e",
+      "pass_1": "passed",
+      "pass_1_notes": "Visible partial normal row with structural occlusion avoids overcount; clear right aisle, dry floor, separate red cart, rear door.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C02-S02-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S02-A2.png",
+      "sha256": "2425cc0bca3931c30d577efdf953490f7b2cecaa014df3b8d09891fd8d59db00",
+      "pass_1": "passed",
+      "pass_1_notes": "New eye-height view from stair landing, truck below, right dead end/toolbox, face-free worker, no premature entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C03-S02-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S02-A2.png",
+      "sha256": "c33655c6f594f22e88f1e02fa5615d8637af9319ccdce53f53ef85bea509afcf",
+      "pass_1": "passed",
+      "pass_1_notes": "Key and record clipboard; normal two glove hands, empty bus outside; tiny gray header marks to be covered by exact edited table headings.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C01-S01-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S01-A1.png",
+      "sha256": "15463e1e1d2aae9575154dbb037e1cca04558acdda6f239eb0bd52dffe887dab",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S01-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S01-A2.png",
+      "sha256": "4ca161cddabb11935e7cfe54a4b45c915ebb35d33b3cfe9c7a86395cd75f8c09",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S02-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S02-A2.png",
+      "sha256": "a3e8291d1750029946ce7e241496440b7cef8ba06cae10f81f0d5cf77065e85b",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S03-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S03-A1.png",
+      "sha256": "f105e7daf9cead6cca326faedd1178a89d850d884be2be5fafd36b38a6c04c1c",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S03-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S03-A2.png",
+      "sha256": "b6756d13f2c8edfb8efef65da28bfb348c40cfd9af35fa3342405d551142f4dd",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S04-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S04-A1.png",
+      "sha256": "1492a3bd19db4b047e93800991399d1a8ce7202995b04b952254e07eb8398e76",
+      "pass_1": "passed",
+      "pass_1_notes": "Single attached caster and local dry dusty floor only; no extra foreground cart overview.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S05-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S05-A1.png",
+      "sha256": "af4737bcbc52426a2c2dc8e15d245f91dbc052902b9d14bb284abf555af5f032",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S05-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S05-A2.png",
+      "sha256": "a7c5a926569fc4b8d8ed694f806e4990a2e801180d28414febaa32952b4959a0",
+      "pass_1": "passed",
+      "pass_1_notes": "Off-white towel on right handle end, empty basket and no premature cuff; closed rear door.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S06-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S06-A1.png",
+      "sha256": "57ab37205d052a7ace609a3741bd3d74ebaba1bb26efda975e51b92e05890ed9",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 3,
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C02-S01-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S01-A1.png",
+      "sha256": "b5a1eefa8c962fd60c1c3dabc253d7343f08341c21c1e76d226f0ecde37ea425",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S01-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S01-A2.png",
+      "sha256": "f0a8ce9af73ac302ba9340b1f352ca5546a82c35ac608037a511101d78928dba",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S03-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S03-A1.png",
+      "sha256": "63c81bc80be8451ee1371d9f2bcc52b59669bac76dcb1e90cc619c583add5860",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S03-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S03-A2.png",
+      "sha256": "df8998e922372f9405bae5423c2f38b0bac1f79dd0534a35645521118aa3dbca",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S04-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S04-A1.png",
+      "sha256": "0365872e3305133f0548545c5720f7151e7098258855d78319a6bc2eb3346b9c",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S04-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S04-A2.png",
+      "sha256": "718b0eb7d41aaa7a2dabdac66aa5d410cf1f18e345b04ec439feec6cf67a17ca",
+      "pass_1": "passed",
+      "pass_1_notes": "Native replacement individually inspected at original resolution.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "history": [
+        {
+          "sha256": "58f992b5bc4a9edc3c9387d3cb3eee4cd68e60da82218ed4dc6fa40f9e38ab7e",
+          "decision": "excluded_continuity_or_surface_defect",
+          "replacement_batch": 12
+        }
+      ],
+      "pass_2_notes": "Replacement re-opened full original with exact narration and neighbors: one red cart chained to bollard; misplaced toolbox removed; black glove/open center door preserved; four transparent flat water streaks replace raised pads."
+    },
+    {
+      "asset_id": "C02-S05-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S05-A2.png",
+      "sha256": "c35a80dacb0a504fffc777f8f48f82f629539b57379cc15f974ea51683827bc3",
+      "pass_1": "passed",
+      "pass_1_notes": "Convex outward panel visible in side profile; one black-gloved finger touches fixed bolt; no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S06-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S06-A1.png",
+      "sha256": "df7078b2679a65110e1ea2b8d5b7427373b3a91fad730c9c942d026ba8363a29",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S06-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S06-A2.png",
+      "sha256": "45e28649c4cad45b20f09f3f00ed6b484c71443b8a22d2f7b1b77ad8d257bec1",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S07-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S07-A2.png",
+      "sha256": "cfac2e707302826046a8a75b9f3b63d1176fecfa0408838f9f30e832a1376d78",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S08-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S08-A1.png",
+      "sha256": "17b46062e21395fd14951ed75642b71d311e540ca76be768f3de4e6fd6e36b84",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S08-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S08-A2.png",
+      "sha256": "287ff4ca4469273271c5cf59f98ffe8a43f5bcf87282762b22cd212db49761c9",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S09-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S09-A1.png",
+      "sha256": "c9fd4fc83ca00350cab55131b3c0e68d5385b9f409ba752d0a84bc29eae5be13",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C03-S03-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S03-A1.png",
+      "sha256": "268e5e5a3e7112554e5f2aabc3260270844ba6bce69501677871e7a0b9a507fd",
+      "pass_1": "passed",
+      "pass_1_notes": "Same baseline LED geometry; empty driver, all electric lights off.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S03-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S03-A2.png",
+      "sha256": "af6ecdac1716fc297836c14467947746fd68d8ad60fa284a618ad2a5be0bfebf",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected native full image: correct identity and anatomy, appropriate early/late entity scope, readable clue, physical continuity; no unresolved visible defect in this pass.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 1,
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C01-S07-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S07-A2.png",
+      "sha256": "ed5864f6a603cc875d60976401a90e325b5276fd0fba7dabbd948bb3adb740aa",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected original: no extra entity/face, readable clue and valid hand/object geometry; full second continuity review pending.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S12-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S12-A1.png",
+      "sha256": "7cb8c8373b11e337dca2845a46eec42982176320499e730058a3f9b432f9d254",
+      "pass_1": "passed",
+      "pass_1_notes": "Prior door objection resolved by S11 trap door closure, recorded scene plan; this late shot now starts at actual taut-chain utterance after new loose-chain A0. One raised caster and chain tension, ordinary steel body.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened full original with actual narration and chronological neighbors. Prior door objection resolved by S11 trap door closure, recorded scene plan; this late shot now starts at actual taut-chain utterance after new loose-chain A0. One raised caster and chain tension, ordinary steel body."
+    },
+    {
+      "asset_id": "C01-S06-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S06-A2.png",
+      "sha256": "ad1cc8c970fe309f82f9ae184d7ae78cec12d864430dfef7823e8af679b19a52",
+      "pass_1": "passed",
+      "pass_1_notes": "Reverse doorway view preserved; blue-gray end cap, red tape only on grip, partial normal row occluded.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S13-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S13-A1.png",
+      "sha256": "c9abb3826d1caab12618aead5e8d8e3920e85404acf0628d6e31b4d847370671",
+      "pass_1": "passed",
+      "pass_1_notes": "Native replacement individually inspected at original resolution.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "history": [
+        {
+          "sha256": "baf37908cdba6813a8ff481e5046d5d87bd94c29dff8c4fd7a873ba36968095b",
+          "decision": "excluded_continuity_or_surface_defect",
+          "replacement_batch": 12
+        }
+      ],
+      "pass_2_notes": "Replacement re-opened full original with exact narration and neighbors: one red cart chained to bollard; misplaced toolbox removed; black glove/open center door preserved; four transparent flat water streaks replace raised pads."
+    },
+    {
+      "asset_id": "C01-S14-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S14-A2.png",
+      "sha256": "f8addcae72467e1865a98b781bedb38ac236fed28eb6cc898de5c73938a770e0",
+      "pass_1": "failed",
+      "pass_1_notes": "Photo clue uses different endcap color and framing from original handprint photo; replace with exact original photo geometry plus tiny sleeve edge under towel.",
+      "pass_2": "pending",
+      "decision": "excluded_regenerate"
+    },
+    {
+      "asset_id": "C01-S11-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S11-A1.png",
+      "sha256": "61e2fb2eae3c84c8555ec073b40e93c2ef093416e3cc1ea27dc4fb020f7bc804",
+      "pass_1": "passed",
+      "pass_1_notes": "Low cart view, wet sneaker, partial small gray shoulder edge below rim, one pale five-digit hand; head hidden behind basket, no full cloak silhouette.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S08-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S08-A1.png",
+      "sha256": "0a578440c44a546c1ed7902f0d811b68ee3aa1c81f945669268d0fd50416630f",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected original: no extra entity/face, readable clue and valid hand/object geometry; full second continuity review pending.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S09-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S09-A1.png",
+      "sha256": "e356ed455b075524ee9bf2bd49d2425971a4514a969dbe13bbada390834b0d5a",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected original: no extra entity/face, readable clue and valid hand/object geometry; full second continuity review pending.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S10-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S10-A1.png",
+      "sha256": "77fd5c0289dcaec8ac56d45c1d56ef03211feee8f395c302d77b1d1662cd3369",
+      "pass_1": "passed",
+      "pass_1_notes": "Only one red defective handle; all partial normal handles blue; open rear door; no complete ghost figure.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S10-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S10-A2.png",
+      "sha256": "36f6591c80db824fbc650b51c6aa6b9d54362e364a11e558a4589c80f0d25042",
+      "pass_1": "passed",
+      "pass_1_notes": "One black-gloved hand picks loose chain beside one attached caster, no extra cart or limb.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S09-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S09-A2.png",
+      "sha256": "dacfd4ad6ad0a9f572c0a5008bbcefb8ee5f2dbf2fb18f7938730b1f731f5517",
+      "pass_1": "passed",
+      "pass_1_notes": "Blue normal cart pressing fixed bollard; open rear door; no early chain.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S08-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S08-A2.png",
+      "sha256": "117b3cf6f036efad2ba57e0991afe98fbd68ee2dbdd46c4edd12d77b5c6b396a",
+      "pass_1": "passed",
+      "pass_1_notes": "Count-independent contact close-up, one normal blue cart frame against fixed bollard and loose chain on dry floor.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S14-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S14-A1.png",
+      "sha256": "bea232177527915786f2984a4e2a9058dd4ac700ace366a740885c48655914a9",
+      "pass_1": "passed",
+      "pass_1_notes": "Individually inspected original: no extra entity/face, readable clue and valid hand/object geometry; full second continuity review pending.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S11-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S11-A2.png",
+      "sha256": "3aab27e57531ed10930aaa56987761f3820cf22ca0280c1eb1f20a4f01e80ac3",
+      "pass_1": "passed",
+      "pass_1_notes": "One pale five-digit hand grips exposed healthy wrist above black glove; rear door has closed during trapping beat.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S07-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S07-A1.png",
+      "sha256": "6ba6caabbea824ed7fea3af08f8d4d2e6d1763ddb56989f287753c23d69f4100",
+      "pass_1": "passed",
+      "pass_1_notes": "Open rear door, empty stockroom; one black glove and radio; partial normal row obscured by post.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S12-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S12-A2.png",
+      "sha256": "79cc493c7bd8caefa266e276c94c6c852751eb291ce82673520f5fe7d64a2afa",
+      "pass_1": "passed",
+      "pass_1_notes": "Hands clearly separated, normal five-digit anatomy, black glove, no injury; chain remains on cart caster.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C02-S05-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S05-A1.png",
+      "sha256": "015cd2a69975ed1ec0d505629862046fd5ab03f63bd30b1e3a6a9ddd8fcb813d",
+      "pass_1": "passed",
+      "pass_1_notes": "Revised lower inward panel concavity / clean empty-gutter boots checked individually; original defect removed.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S07-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S07-A1.png",
+      "sha256": "7a0c532f6b2e4d84763a05290e1b7cbed9999b1180d9a5f197bc3e7cd68bdc6d",
+      "pass_1": "passed",
+      "pass_1_notes": "Revised lower inward panel concavity / clean empty-gutter boots checked individually; original defect removed.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "attempt": 2,
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C01-S12-A0",
+      "relative_path": "04_composition/assets/visuals/C01-S12-A0.png",
+      "sha256": "a23bfeecd21da3d8b3f9d9e5a7c0cefeecaac31f4cfa0ee1dde30bf253ed38f4",
+      "pass_1": "passed",
+      "pass_1_notes": "Slack chain looped around fixed bollard by one black-gloved hand, wheel still grounded.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S13-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S13-A2.png",
+      "sha256": "87002d356737b5458445dc311bb29204b7e7891482b01806d238eab2ddf389e7",
+      "pass_1": "passed",
+      "pass_1_notes": "Aftermath shown as checking fully clothed sleeve; no visible marks/injury; normal hands.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S15-A1",
+      "relative_path": "04_composition/assets/visuals/C01-S15-A1.png",
+      "sha256": "cf50e80e66834aa5cca40e36f6b1e180306ae6cc9d39234c4f439cabfd775dc4",
+      "pass_1": "passed",
+      "pass_1_notes": "Dry daylight shelter, only blue handles, faceless back, no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-S15-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S15-A2.png",
+      "sha256": "0cdd38dd6e4ed85f813f6233d4b42d484b037f3181bedf865c5398e0825cf1cf",
+      "pass_1": "passed",
+      "pass_1_notes": "Ordinary healthy hand on dry blue handle, sleeve covers wrist; no phantom contact depicted.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C01-photo-evidence",
+      "relative_path": "04_composition/assets/visuals/C01-photo-evidence.png",
+      "sha256": "280ad5bd343d404973e54df44202af4c83e6a4cdbfabe4e25081bf02e6992e77",
+      "pass_1": "passed",
+      "pass_1_notes": "Same original camera, blue end caps, four wet streaks and towel; tiny gray cuff beneath far right towel edge.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Individually re-opened at full resolution with exact scene narration and adjacent chronological shots. Partial views preserve clue/hand/cart geometry; reveal and door state follow story. C01 S11 door closes during trapping beat; photo cuff is reserved for later focus."
+    },
+    {
+      "asset_id": "C02-S09-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S09-A2.png",
+      "sha256": "7e19ae759b9304444f7c05e6df751b1c3e6e50d06d53bc23b274fb4471ae2d6b",
+      "pass_1": "passed",
+      "pass_1_notes": "Narrow walkway, left stair/right toolbox, main worker frozen, creature out of view.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S10-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S10-A1.png",
+      "sha256": "b670d050407b465f36521797bdce00f3f2231739d4cfeead279258d3999c2e84",
+      "pass_1": "passed",
+      "pass_1_notes": "Two blunt gray appendages from under floor hold left boot; right boot grounded, no fingers.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S10-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S10-A2.png",
+      "sha256": "e7bd1c0e8d2491d62fb402671eb9b88a8dc74aeb0336a359a8b8af8d13cdcda6",
+      "pass_1": "passed",
+      "pass_1_notes": "Single blunt jointed stone-textured appendage bends rail; no fingers or extra body.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S11-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S11-A1.png",
+      "sha256": "c1aaf39867362a056fcad5ed34cef2abbe445da0fee90e8f72d6f7efcbf81ef5",
+      "pass_1": "passed",
+      "pass_1_notes": "One ordinary gloved hand holds electric screwdriver free of all metal.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S11-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S11-A2.png",
+      "sha256": "19673934de84cf6c40ccaa1327129008cffa6a01cf79da58ed39a4c88fa6efe1",
+      "pass_1": "passed",
+      "pass_1_notes": "Same red-black screwdriver bit contacts steel toolbox lid, no hand or entity, normal tool geometry.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S12-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S12-A1.png",
+      "sha256": "6123b082830916a42b4635d82860d01847925419ae21f539c46e3aa8c1c1945d",
+      "pass_1": "passed",
+      "pass_1_notes": "Descending front torso view, LEFT sock on viewer right, RIGHT boot viewer left, abandoned boot behind; natural two legs.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S12-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S12-A2.png",
+      "sha256": "d920753372a459e48f3a344b9c60e2c9429e9f4161b7de0bad4d34e8f00d3a3f",
+      "pass_1": "passed",
+      "pass_1_notes": "Continuous steel panel with long pressure depression, bent rail, one toolbox, two workers below; no crater.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S13-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S13-A1.png",
+      "sha256": "7cf44f4d0b2fb66c598cba63e1eb064b74789cd0b542b2b5824704092dcbcbf0",
+      "pass_1": "passed",
+      "pass_1_notes": "Single empty work boot on grate; natural geometry, no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S13-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S13-A2.png",
+      "sha256": "749fd270b4885a6dd8890f77550f8604a89da578c30e4f21c6fe33783336cda5",
+      "pass_1": "passed",
+      "pass_1_notes": "Exactly six raised floor plates below boots in illustrated field photo, no vertical-wall substitution.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S14-A1",
+      "relative_path": "04_composition/assets/visuals/C02-S14-A1.png",
+      "sha256": "9caf0fa30457f329d7c64dc52081a502be4cb3469ed8b4060ba9c45694da9404",
+      "pass_1": "passed",
+      "pass_1_notes": "Wrapped replacement panel on forklift, storage foreground, no creature.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C02-S14-A2",
+      "relative_path": "04_composition/assets/visuals/C02-S14-A2.png",
+      "sha256": "cdbe642e1414320d712c9eb5420343df1f00ad7093aa0c32ed84caa8595726e1",
+      "pass_1": "passed",
+      "pass_1_notes": "Six localized parallel creases beneath intact wrapping, no creature.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Full original re-opened with narration and chronological neighbors. Trace precedes six-limb reveal, lower/upper wall deformation are distinct views, two blunt limbs hold left boot, drill touches right steel box, left sock on descent, six raised floor plates and wrapped-panel traces preserve continuity. Cart replacements retain single object, towel and ordinary cap colors."
+    },
+    {
+      "asset_id": "C03-S01-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S01-A1.png",
+      "sha256": "03b5f819814cc6775a2d93f1320d7b27d5f847b77acfcb999563134851e94e6a",
+      "pass_1": "passed",
+      "pass_1_notes": "Original individually inspected, no unintended figure or obvious geometry defect.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S01-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S01-A2.png",
+      "sha256": "6b86f425a1ecf0de858dee6591c8f246457137414998183fe685eea117c5b6f4",
+      "pass_1": "passed",
+      "pass_1_notes": "Distinct low oblique windshield/LED; empty dark cabin.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S04-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S04-A1.png",
+      "sha256": "bffb97290aa42b512f16e12a982d477811c72641700ab94b10566711f61faefa",
+      "pass_1": "passed",
+      "pass_1_notes": "Single rear hatch close view, intact seal behind axle, no collage, lights off.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S04-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S04-A2.png",
+      "sha256": "6c9c62a8b40860a471a352d9fb082cd5b6c2f0a07ddcff5c40df1c3808bf3620",
+      "pass_1": "passed",
+      "pass_1_notes": "Blank UI monitor, normal glove, bus lamps off.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-bus-reference-v3",
+      "relative_path": "04_composition/assets/references/C03-bus-reference-v3.png",
+      "sha256": "039be0d90d059d7ddcdf1046e713c651d5ce1e2aaf4caad76214577d7eb2f9c7",
+      "pass_1": "passed",
+      "pass_1_notes": "Exactly two passenger doors and two axles, intact rear seal, all electric lamps off, external amber lighting only.",
+      "pass_2": "reference_design_only",
+      "decision": "approved_design_reference"
+    },
+    {
+      "asset_id": "C03-S05-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S05-A1.png",
+      "sha256": "24ea731060ffeace89d326d624c94644cd9aff3f2aae8717157df63eee5ade8b",
+      "pass_1": "passed",
+      "pass_1_notes": "Open center and closed front door; two axles, empty dark cabin.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S06-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S06-A1.png",
+      "sha256": "094222139b03505e72cfcb9d1551314c86e0a94f3f6a6a06bf27b3f9ce014128",
+      "pass_1": "passed",
+      "pass_1_notes": "Native replacement individually inspected at original resolution.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "history": [
+        {
+          "sha256": "89d76d5a825e7b08ba98ba89fee153b88838cb1a2bbf4852747d2c6f792b9859",
+          "decision": "excluded_continuity_or_surface_defect",
+          "replacement_batch": 13
+        }
+      ],
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S07-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S07-A1.png",
+      "sha256": "d2154362badb2dfff91ac916c8edfc128551e4e25af015cc5240c5dd3fe5b02a",
+      "pass_1": "passed",
+      "pass_1_notes": "One foreground bus only; open middle doorway over wash hose and drain.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S07-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S07-A2.png",
+      "sha256": "a790ea1cc2c141e6bafbb28f65a5941e091b77efcaf69378dad8808db7c3d0dc",
+      "pass_1": "passed",
+      "pass_1_notes": "Open center door, closed front door, empty driver, no duplicate bus.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S08-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S08-A1.png",
+      "sha256": "7482cc35778c63806deb196f1a74192d5f7ec2c3e61d1da5f1e776f5e7e270a6",
+      "pass_1": "passed",
+      "pass_1_notes": "One natural black-gloved hand touches attached location tag on blue-lanyard ID.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S08-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S08-A2.png",
+      "sha256": "1af1d39bab1434779c5c88eb94de5953331a6ca15f8dbf9cbe29317a7c18da4c",
+      "pass_1": "passed",
+      "pass_1_notes": "Correct daylight system-test flashback, same yard geography, spare bus parked with doors closed.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S09-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S09-A1.png",
+      "sha256": "b183f4724e57fe2700217ee012206d45ad78ca67d4918c9fb984a34bbfff7f8b",
+      "pass_1": "passed",
+      "pass_1_notes": "Single bus nearer wash-zone tag, open center door; same sign and flowerbed.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S09-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S09-A2.png",
+      "sha256": "ffd5d8c2377dc2aaab2c118fcdc65519c2156e16b930520307e1d9541c955a23",
+      "pass_1": "passed",
+      "pass_1_notes": "Only one bus, open center and closed front door, tag below sign.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S10-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S10-A1.png",
+      "sha256": "b0da6b2330a0b566e74a083906c604234efeb4a0e21d43e2a8da9086f43175ce",
+      "pass_1": "passed",
+      "pass_1_notes": "Black glove, gray flatbed four-caster hand trolley, single closer bus and open center door.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S10-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S10-A2.png",
+      "sha256": "23702121e1195c7f782496c322c55c730792dc4a31777322b0be9fa50aee9367",
+      "pass_1": "passed",
+      "pass_1_notes": "Gray nonmotorized flatbed trolley leads single bus toward barrier. Right mechanic is framed out until later cue.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened full original; premature worker removed, full wide frame now retains LED and all trolley casters, open center/closed front door, no extra vehicle.",
+      "history": [
+        {
+          "sha256": "1be074f59bd2262ca9b6bc606012585b35698752e5322d4ce912a2d75465c736",
+          "decision": "excluded_early_running_worker_required_excessive_crop"
+        }
+      ]
+    },
+    {
+      "asset_id": "C03-S11-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S11-A1.png",
+      "sha256": "bd6e75cfcc0073885e6eb8ba6ea5f7a0f59f78841972b9d50d0865505222ab26",
+      "pass_1": "passed",
+      "pass_1_notes": "View from outside open center door into empty seats, one attached triangular strap, no other bus.",
+      "pass_2": "pending_narration_and_adjacent_scene_review",
+      "decision": "not_yet_approved_for_render"
+    },
+    {
+      "asset_id": "C03-S11-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S11-A2.png",
+      "sha256": "62a2e1b8f33af99bd4f2cd9e4f543db7d807ad0251b00a6e64ef1f77dd0ad0ad",
+      "pass_1": "passed",
+      "pass_1_notes": "Removed inconsistent partial trolley. Open dark center door and rectangular frame shadow retained.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S12-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S12-A1.png",
+      "sha256": "def0ac1138c7ff452cf497796cd10e5d0fc812401bac6ca81a8f002850be8bd5",
+      "pass_1": "passed",
+      "pass_1_notes": "Receiver off, yard work lamps on.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S12-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S12-A2.png",
+      "sha256": "c53ee9d54593e0de56a67c7436e8d5244145b03904b1a30e50c23378eff78f59",
+      "pass_1": "passed",
+      "pass_1_notes": "Intact seal behind rear axle, bus lamps off.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S13-A1",
+      "relative_path": "04_composition/assets/visuals/C03-S13-A1.png",
+      "sha256": "34d6e8f6c99973814ed40b7c49f7130e45746f33ecc825ca252e38159818f5ac",
+      "pass_1": "passed",
+      "pass_1_notes": "Five shallow pressure marks in plastic tag; no bodily injury.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S13-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S13-A2.png",
+      "sha256": "6aa15c1b472ae71d55dccd601251d829abcc8d111f4caff1ee393855357a300f",
+      "pass_1": "passed",
+      "pass_1_notes": "Monitor blank for log overlay, one empty bus behind barrier.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S14-A2",
+      "relative_path": "04_composition/assets/visuals/C03-S14-A2.png",
+      "sha256": "baba92b8265bd6291801abba9b8f4b9157db7d34af877ed90eb5bba44ce76188",
+      "pass_1": "passed",
+      "pass_1_notes": "Center door narrow open gap; front door closed, empty dark cabin, no words.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH01-portrait-A01",
+      "relative_path": "04_composition/assets/visuals/SH01-portrait-A01.png",
+      "sha256": "927c8e9de512397176e5c03bf35c71d7d9662c0d5b16dea1d98f3ad29d4d862d",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh portrait, single caster attached to steel frame, dry floor and rough 2D style.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH01-portrait-A02",
+      "relative_path": "04_composition/assets/visuals/SH01-portrait-A02.png",
+      "sha256": "68f3e02d620615e62a6cd58fa950f18c16ac077d593b97cccc0051e9c2367050",
+      "pass_1": "passed",
+      "pass_1_notes": "Native replacement individually inspected at original resolution.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "history": [
+        {
+          "sha256": "172b0f21107221558909e410db3c5cba6a2034ee319b0b21d2fb1d1c9e41a9de",
+          "decision": "excluded_continuity_or_surface_defect",
+          "replacement_batch": 14
+        }
+      ],
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH01-portrait-A03",
+      "relative_path": "04_composition/assets/visuals/SH01-portrait-A03.png",
+      "sha256": "c7e758a80ec67b88a42921119e210a626d6ee201b1d5a4c88290e87bb3032da0",
+      "pass_1": "passed",
+      "pass_1_notes": "Background overcount removed; one black-gloved hand, phone and empty basket retained.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH01-portrait-A04",
+      "relative_path": "04_composition/assets/visuals/SH01-portrait-A04.png",
+      "sha256": "7b9e2d7ae46c25ed9283d2d683fe119782ab36a75279d497c2a8e370432ba352",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh top-down portrait, completely empty dusty steel basket, no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH01-portrait-A05",
+      "relative_path": "04_composition/assets/visuals/SH01-portrait-A05.png",
+      "sha256": "dc4e1f50015aab4d20af6d2c0b5ba0f7edea31c6f03962dbd662a90e0efa0c5a",
+      "pass_1": "passed",
+      "pass_1_notes": "Both cart forks steel and tires black; single wet dark mesh sneaker toe between carts.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH02-portrait-A01",
+      "relative_path": "04_composition/assets/visuals/SH02-portrait-A01.png",
+      "sha256": "75e51f5f9f57168b98d1a8c0b85ed43cafba88d9c869887804a21e676f5106f3",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh portrait, two black boots on upper grate, steel wall and road below, no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH02-portrait-A02",
+      "relative_path": "04_composition/assets/visuals/SH02-portrait-A02.png",
+      "sha256": "1be77cae9e1481d4809998c93ab7a6f514efa782df4d71f0c23bd19e2af19f53",
+      "pass_1": "passed",
+      "pass_1_notes": "Road-scale thin steel barrier, upper walkway, left stairs, right toolbox, maintenance truck and coworker below; no dam.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH02-portrait-A03",
+      "relative_path": "04_composition/assets/visuals/SH02-portrait-A03.png",
+      "sha256": "d7a93db9449d1df5c9ac1436a3ea4820e9de1fac7f48320a33b99b3daef4d2ee",
+      "pass_1": "passed",
+      "pass_1_notes": "White fingerprints removed; one natural gloved hand withdrawn from plain steel.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH02-portrait-A04",
+      "relative_path": "04_composition/assets/visuals/SH02-portrait-A04.png",
+      "sha256": "ffabde5ac8fafe4111df8fdb1092a1b34dddd13685a35218b783e62f083aa0f5",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh portrait, six thin white scratches at lower seam, no entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH02-portrait-A05",
+      "relative_path": "04_composition/assets/visuals/SH02-portrait-A05.png",
+      "sha256": "6a7b08eaaabab95da8e21275ac8e8d7c9be51e78309ab64d906eb11f72083c3a",
+      "pass_1": "passed",
+      "pass_1_notes": "Exactly six white floor-strip scratches before two black boots, no shaft/pit or entity.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH03-portrait-A01",
+      "relative_path": "04_composition/assets/visuals/SH03-portrait-A01.png",
+      "sha256": "bb1383d8fec1bb9eb859d468a4b02657f7fd37304eb3f9c2903aee335deefa7f",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh portrait, empty driver seat, dark LED and cabin, external amber light.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH03-portrait-A02",
+      "relative_path": "04_composition/assets/visuals/SH03-portrait-A02.png",
+      "sha256": "51c3fa667873d98e03a70587382c0cfee3213d978d3a7f486cce57e6b1e95701",
+      "pass_1": "passed",
+      "pass_1_notes": "Black gloves now match narrator; faceless walking back in established yard.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH03-portrait-A03",
+      "relative_path": "04_composition/assets/visuals/SH03-portrait-A03.png",
+      "sha256": "e000428f5f2c10ce149b9658fc56dcc83d6bac5e80e355552f51c053ab06bc33",
+      "pass_1": "passed",
+      "pass_1_notes": "Fresh portrait, open center/closed front door, two axles, no lit cabin or driver.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH03-portrait-A04",
+      "relative_path": "04_composition/assets/visuals/SH03-portrait-A04.png",
+      "sha256": "92a91999c8163cb0c0ad52e39ba5a3570419eaeaf7b7e1c6150eca424af43297",
+      "pass_1": "passed",
+      "pass_1_notes": "Open center/closed front door, dark empty cabin, blank LED/sign ready for exact Korean.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "SH03-portrait-A05",
+      "relative_path": "04_composition/assets/visuals/SH03-portrait-A05.png",
+      "sha256": "c33b388289b80a066052085df56c987779744e1f3546b88b9df3d3cc491e82cf",
+      "pass_1": "passed",
+      "pass_1_notes": "Correct coordinate-specific edit: interior electric bar dark, ALL exterior fixtures still lit, black gloves/open center/closed front door retained.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "thumbnail-a-source",
+      "relative_path": "04_composition/assets/visuals/thumbnail-a-source.png",
+      "sha256": "d1da29c7d0eb558dc5cf39a1ff1cf2be62ec5c023d456643f1cbdd15b1f9d7b6",
+      "pass_1": "passed",
+      "pass_1_notes": "Four flat translucent wet streaks, no raised anatomy, one foreground red handle and dry floor, empty navy left text space.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "thumbnail-b-source",
+      "relative_path": "04_composition/assets/visuals/thumbnail-b-source.png",
+      "sha256": "e8bae5cf30f5d7180b63a0f3487dc34f00bdfb829111e6508ecc8175d5cdf540",
+      "pass_1": "passed",
+      "pass_1_notes": "Interior fixtures dark, open center door illuminated only by external worklight; empty driver, single bus.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C03-S11-cleanplate",
+      "relative_path": "04_composition/assets/visuals/C03-S11-cleanplate.png",
+      "sha256": "ba8aa670a6e01f1fa2554d000fdb712f6287df396b6211c641498fe3c85ff2ae",
+      "pass_1": "passed",
+      "pass_1_notes": "Native clean plate removes only hanging strap; stable ceiling rail/empty seats retained for separate motion layer.",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_2_notes": "Re-opened individual original alongside narration and neighboring shots. Single bus, empty cabin, appropriate doors and external lighting; daytime test separated as flashback; fresh portrait clues stop before identity/ending. Exact fictional text and strap animation supplied in composition. No unresolved visible anatomy or object defect."
+    },
+    {
+      "asset_id": "C01-S04-A2",
+      "relative_path": "04_composition/assets/visuals/C01-S04-A2.png",
+      "sha256": "7cb4999a1746e6ac13801332b8a1f4fc1c76aba6818176f92e42f26d31711356",
+      "pass_1": "passed",
+      "pass_2": "passed",
+      "decision": "approved",
+      "pass_1_notes": "Four flat water marks, blue-gray endcaps and off-white towel; exact same source used for later evidence image.",
+      "pass_2_notes": "Re-opened full original with actual narration and chronological neighbors. Four flat water marks, blue-gray endcaps and off-white towel; exact same source used for later evidence image."
+    }
+  ]
+}

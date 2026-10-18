@@ -1,0 +1,6 @@
+{
+  "asset_id": "C02-S04-A2",
+  "prompt": "Edit this one gouache scene ONLY: REMOVE the black toolbox near the LEFT staircase in distant background, reconstruct empty steel grated walkway there. Preserve all six thin white scratch lines on foreground inner floor strip, chalk mark, wall bolts, left stairs, railing, camera, scale and lighting. No added object or creature. Toolbox at right dead end is OFFSCREEN; do not add any box.",
+  "native_source": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-e4872b27-01df-47fa-910f-e84be5f4c5ec.png",
+  "target": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co/projects/2026-031-carts-barrier-depot/04_composition/assets/visuals/C02-S04-A2-batch12.png"
+}

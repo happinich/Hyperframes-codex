@@ -1,0 +1,17 @@
+{
+  "source": "working/voice-1.07x-with-repeats.wav",
+  "kept_source_intervals_seconds": [
+    [
+      0,
+      3.3
+    ],
+    [
+      6.98,
+      24.2
+    ]
+  ],
+  "removed": "second duplicate first sentence; extra duplicate ending sentence",
+  "approved_words_modified": false,
+  "raw_1x_and_full_1.07x_preserved": true,
+  "verification": "new Whisper analysis required"
+}

@@ -1,0 +1,62 @@
+{
+  "C01": {
+    "path": "05_review/voice-review/C01-preview.mp3",
+    "bytes": 9879596,
+    "sha256": "a5255b1ba981ef2125683b2b8ed66068495c9ea9e3fd6f75d256a2ae4a255685",
+    "duration_seconds": 411.582042,
+    "gain_db": -5.08,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.0
+  },
+  "C02": {
+    "path": "05_review/voice-review/C02-preview.mp3",
+    "bytes": 9833516,
+    "sha256": "da9865b14eb671d8c138a51e77bd24c0c42f7fcfacecd9a0438d4f7d29b64def",
+    "duration_seconds": 409.68,
+    "gain_db": -3.84,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.0
+  },
+  "C03": {
+    "path": "05_review/voice-review/C03-preview.mp3",
+    "bytes": 9958508,
+    "sha256": "3b76c2a2cbecde662a86ea6d92051e7e1a237ab1ff292e5d8b3ff932c5811c7d",
+    "duration_seconds": 414.875104,
+    "gain_db": -4.51,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.0
+  },
+  "SH01": {
+    "path": "05_review/voice-review/SH01-preview.mp3",
+    "bytes": 493100,
+    "sha256": "56f71356f310cd00905c517027adc96db1f1954376da6e0be7f756eadad5bba7",
+    "duration_seconds": 20.494604,
+    "gain_db": -6.11,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.07
+  },
+  "SH02": {
+    "path": "05_review/voice-review/SH02-preview.mp3",
+    "bytes": 493676,
+    "sha256": "28ea6543754e4544fe2eca7a6d179e5d70b79f99b75cd54310980536fda862d9",
+    "duration_seconds": 20.52,
+    "gain_db": -3.58,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.07
+  },
+  "SH03": {
+    "path": "05_review/voice-review/SH03-preview.mp3",
+    "bytes": 493676,
+    "sha256": "547e2c5eec8ff9a88eb5087f3fa63caaabab171d2a7c741e3d03501056b6f5f7",
+    "duration_seconds": 20.500583,
+    "gain_db": -4.61,
+    "target_lufs": -23,
+    "method": "static gain only; no pitch or dynamic change",
+    "source_voice_speed": 1.07
+  }
+}

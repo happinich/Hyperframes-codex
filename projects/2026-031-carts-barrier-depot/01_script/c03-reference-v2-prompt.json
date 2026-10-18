@@ -1,0 +1,8 @@
+{
+  "mode": "built_in_image_gen",
+  "asset_id": "C03-REF-bus-v2",
+  "prompt": "Use case: precise-object-edit. Correct only the bus door configuration in this pixel-art continuity reference, retain the same bus, two axles, camera, sharp chunky pixel art, depot, palette, lighting, empty driver seat and blank destination sign. This Korean city bus requires TWO entry/exit doors on the visible passenger side. Keep the EXISTING front door ahead of the front wheel. ADD a clearly visible CLOSED full-height black glazed bi-fold CENTER door just behind the front wheel, between the two axles; place this at the current middle-side battery hatch position. Move the small red-white intact battery-isolation paper seal and its small maintenance hatch to the rear side service panel BEHIND the rear axle near the left end of the bus, away from both doors. Doors are closed in this normal baseline. Do not add any person, face, driver, text, logo, number, wheel, extra bus, or motion. Keep yellow pedestrian walkway and flowerbed unchanged. Preserve 16:9 and crisp pixel-grid style.",
+  "original": "/Users/happinich/.codex/generated_images/01a14cec-93f9-79c2-ada6-27f925270ea5/exec-a2679ccd-ac1c-4f2b-9e7b-c4ef8a5effd2.png",
+  "supersedes": "C03-REF-bus-v1",
+  "review": "two closed passenger doors now visible, seal moved behind rear axle, single empty two-axle bus, approved pixel art maintained"
+}
