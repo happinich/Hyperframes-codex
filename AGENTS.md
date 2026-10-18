@@ -112,6 +112,16 @@ silently carry a previous project's style or BGM into a new project.
   long-form video, with three as the default and 20-40 minutes total. Let each
   story's structure determine its length. Plan a separate spoiler-free Short for each story.
   Compilations of past stories use only approved published stories.
+- For future anthologies, vary both story structure and duration within the same
+  episode. Do not divide the total runtime equally, reuse a 6–7 minute script
+  budget, or copy scene counts and beat positions across stories. Independently
+  design the inciting event, character goal, chronology, escalation, decisive
+  choice, and ending device. Record each story's estimated duration and narrative
+  reason, character count, scene count, and comparison with the previous anthology
+  in the brief; review the differences before TTS and against actual voice times.
+  Rework similar outlines and clustered lengths through story content. Do not
+  manufacture differences with playback speed, padding, silence, or a fixed
+  short/medium/long runtime template. User preference recorded 2026-10-18.
 - Write new horror narration as natural spoken Korean storytelling, as if a
   person were recounting an experience directly to the listener. Mix endings
   such as `~했어요`, `~였죠`, `~거든요`, `~더라고요`, and occasional
