@@ -330,7 +330,10 @@
     "preserve_existing_approval_gates": true,
     "preserve_completed_projects": true,
     "automation_id": "automation-3",
-    "automation_kind": "heartbeat"
+    "automation_kind": "heartbeat",
+    "availability_recheck_rule": "직전 회원 우선 공개 항목이 최근 목록에서 공개로 바뀌면 일반 플레이어 접근을 확인한 뒤 미검토 ID만 검토한다. 기존 제외/대기 이력은 보존하며 이미 검토한 ID는 중복 분석하지 않는다. 긴 단일 사연을 길이만으로 대형 합본으로 분류하지 않는다.",
+    "approval_policy_source": "config/success-rules.json#workflow_authorization",
+    "usage_reconciliation_rule": "다음 추천 전에 후보와 최신 프로젝트 브리프·편집 계획·검수 기록을 대조해 채택 이력을 갱신한다. 문서상의 채택, 출력 검수 기록, 이번 감시의 직접 검증 범위를 구분하고 최초 후보 상태도 보존한다."
   },
   "continuity_guard": {
     "do_not_clone_or_repeat": ["새벽 배달", "새벽 세 시 십칠 분", "사라진 십사 층", "가라앉은 마을", "여섯 번째 손님", "편의점 호출벨", "삼호실 빈소", "노원 묘지터 아파트", "강릉 탁송", "시골 흉가 마을"],

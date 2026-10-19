@@ -57,9 +57,53 @@
         "모바일에서 단서 크기·대비 확인",
         "실제 음성에 맞춘 연속 재생으로 반복감·전환 확인"
       ],
-      "usage_status": "candidate_not_selected_or_implemented",
+      "usage_status": "documented_in_project_plans_not_reaudited_by_monitor",
       "report_path": "planning/horror-reference-monitoring/2026-10-12/report.ko.md",
-      "reviewed_at": "2026-10-12T10:10:50+09:00"
+      "reviewed_at": "2026-10-12T10:10:50+09:00",
+      "usage_history": [
+        {
+          "project_id": "2026-029-three-unreturned-items",
+          "chapter_ids": [
+            "C02"
+          ],
+          "scope": "brief_adoption",
+          "evidence_paths": [
+            "projects/2026-029-three-unreturned-items/00_brief/brief.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        },
+        {
+          "project_id": "2026-030-wardrobe-orchard-scale",
+          "chapter_ids": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "scope": "brief_adoption",
+          "evidence_paths": [
+            "projects/2026-030-wardrobe-orchard-scale/00_brief/brief.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        },
+        {
+          "project_id": "2026-031-carts-barrier-depot",
+          "chapter_ids": [
+            "C02"
+          ],
+          "scope": "brief_and_editing_plan_adoption_with_separate_output_review_record",
+          "evidence_paths": [
+            "projects/2026-031-carts-barrier-depot/00_brief/brief.md",
+            "projects/2026-031-carts-barrier-depot/01_script/editing-plan.json",
+            "projects/2026-031-carts-barrier-depot/05_review/editing-review.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        }
+      ],
+      "usage_limitations": "기존 제작 문서의 채택 근거만 대조. 이번 조사에서 완성 영상 연속 재생·직접 청취·효과 입증을 다시 수행하지 않음. 031 편집 계획의 일부 진행 상태는 과거 단계로 남아 있어 최신 브리프·출력 검수 기록과 구분함.",
+      "initial_candidate_snapshot": {
+        "usage_status": "candidate_not_selected_or_implemented",
+        "as_of": "2026-10-12"
+      }
     },
     {
       "id": "2026-10-12-premise-alteration-sleeve",
@@ -101,19 +145,48 @@
       },
       "kind": "premise_candidate",
       "truth_label": "fiction",
-      "usage_status": "candidate_not_selected_or_approved",
+      "usage_status": "used_in_project",
       "report_path": "planning/horror-reference-monitoring/2026-10-12/report.ko.md",
       "reviewed_at": "2026-10-12T10:10:50+09:00",
       "approval_status": {
-        "topic": "not_selected",
-        "script": "not_written_or_approved",
-        "visual_style": "recommendation_only",
-        "voice": "not_selected_for_this_story",
-        "bgm": "not_selected"
+        "as_of_record": "2026-10-13 project 029 brief",
+        "script": "user_approved_longform_and_shorts",
+        "visual_style": "selected_under_project_specific_delegation",
+        "voice": "selected_under_project_specific_delegation",
+        "bgm": "later_status_not_audited_by_this_monitor"
       },
       "limitations": [
-        "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
-        "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        "원본 영상 전체 사건·결말은 여전히 미확인. 원본 출처의 확인 범위는 확대하지 않음.",
+        "029 원고·스타일 승인과 030의 제작 활용 기록을 확인. 이번 감시에서 029 결과물의 새 검수·YouTube 공개 여부·BGM 최종 상태는 감사하지 않음."
+      ],
+      "initial_candidate_snapshot": {
+        "usage_status": "candidate_not_selected_or_approved",
+        "approval_status": {
+          "topic": "not_selected",
+          "script": "not_written_or_approved",
+          "visual_style": "recommendation_only",
+          "voice": "not_selected_for_this_story",
+          "bgm": "not_selected"
+        },
+        "limitations": [
+          "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
+          "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        ],
+        "as_of": "2026-10-12"
+      },
+      "usage_history": [
+        {
+          "project_id": "2026-029-three-unreturned-items",
+          "chapter_ids": [
+            "C01"
+          ],
+          "scope": "story_used_in_production_records",
+          "evidence_paths": [
+            "projects/2026-029-three-unreturned-items/00_brief/brief.md",
+            "projects/2026-030-wardrobe-orchard-scale/00_brief/brief.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        }
       ]
     },
     {
@@ -168,19 +241,48 @@
       },
       "kind": "premise_candidate",
       "truth_label": "fiction",
-      "usage_status": "candidate_not_selected_or_approved",
+      "usage_status": "used_in_project",
       "report_path": "planning/horror-reference-monitoring/2026-10-12/report.ko.md",
       "reviewed_at": "2026-10-12T10:10:50+09:00",
       "approval_status": {
-        "topic": "not_selected",
-        "script": "not_written_or_approved",
-        "visual_style": "recommendation_only",
-        "voice": "not_selected_for_this_story",
-        "bgm": "not_selected"
+        "as_of_record": "2026-10-13 project 029 brief",
+        "script": "user_approved_longform_and_shorts",
+        "visual_style": "selected_under_project_specific_delegation",
+        "voice": "selected_under_project_specific_delegation",
+        "bgm": "later_status_not_audited_by_this_monitor"
       },
       "limitations": [
-        "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
-        "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        "원본 영상 전체 사건·결말은 여전히 미확인. 원본 출처의 확인 범위는 확대하지 않음.",
+        "029 원고·스타일 승인과 030의 제작 활용 기록을 확인. 이번 감시에서 029 결과물의 새 검수·YouTube 공개 여부·BGM 최종 상태는 감사하지 않음."
+      ],
+      "initial_candidate_snapshot": {
+        "usage_status": "candidate_not_selected_or_approved",
+        "approval_status": {
+          "topic": "not_selected",
+          "script": "not_written_or_approved",
+          "visual_style": "recommendation_only",
+          "voice": "not_selected_for_this_story",
+          "bgm": "not_selected"
+        },
+        "limitations": [
+          "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
+          "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        ],
+        "as_of": "2026-10-12"
+      },
+      "usage_history": [
+        {
+          "project_id": "2026-029-three-unreturned-items",
+          "chapter_ids": [
+            "C02"
+          ],
+          "scope": "story_used_in_production_records",
+          "evidence_paths": [
+            "projects/2026-029-three-unreturned-items/00_brief/brief.md",
+            "projects/2026-030-wardrobe-orchard-scale/00_brief/brief.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        }
       ]
     },
     {
@@ -226,19 +328,281 @@
       },
       "kind": "premise_candidate",
       "truth_label": "fiction",
-      "usage_status": "candidate_not_selected_or_approved",
+      "usage_status": "used_in_project",
       "report_path": "planning/horror-reference-monitoring/2026-10-12/report.ko.md",
       "reviewed_at": "2026-10-12T10:10:50+09:00",
       "approval_status": {
-        "topic": "not_selected",
-        "script": "not_written_or_approved",
-        "visual_style": "recommendation_only",
-        "voice": "not_selected_for_this_story",
-        "bgm": "not_selected"
+        "as_of_record": "2026-10-13 project 029 brief",
+        "script": "user_approved_longform_and_shorts",
+        "visual_style": "selected_under_project_specific_delegation",
+        "voice": "selected_under_project_specific_delegation",
+        "bgm": "later_status_not_audited_by_this_monitor"
       },
       "limitations": [
-        "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
-        "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        "원본 영상 전체 사건·결말은 여전히 미확인. 원본 출처의 확인 범위는 확대하지 않음.",
+        "029 원고·스타일 승인과 030의 제작 활용 기록을 확인. 이번 감시에서 029 결과물의 새 검수·YouTube 공개 여부·BGM 최종 상태는 감사하지 않음."
+      ],
+      "initial_candidate_snapshot": {
+        "usage_status": "candidate_not_selected_or_approved",
+        "approval_status": {
+          "topic": "not_selected",
+          "script": "not_written_or_approved",
+          "visual_style": "recommendation_only",
+          "voice": "not_selected_for_this_story",
+          "bgm": "not_selected"
+        },
+        "limitations": [
+          "원본 영상의 전체 사건·결말은 미확인. 표본·제목의 일반 발상 축으로만 연결.",
+          "원고·이미지·음성·영상 미생성; 제작 시 별도 두 차례 검수 필요."
+        ],
+        "as_of": "2026-10-12"
+      },
+      "usage_history": [
+        {
+          "project_id": "2026-029-three-unreturned-items",
+          "chapter_ids": [
+            "C03"
+          ],
+          "scope": "story_used_in_production_records",
+          "evidence_paths": [
+            "projects/2026-029-three-unreturned-items/00_brief/brief.md",
+            "projects/2026-030-wardrobe-orchard-scale/00_brief/brief.md"
+          ],
+          "checked_at": "2026-10-19T10:16:56+09:00"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19-threshold-anchor-pair",
+      "kind": "editing_candidate",
+      "label_ko": "출입구와 내부를 같은 기준물로 연결하기",
+      "sources": [
+        {
+          "video_id": "cXEkHfwv-JA",
+          "url": "https://www.youtube.com/watch?v=cXEkHfwv-JA",
+          "sample_seconds": [
+            512.733333,
+            517.733333,
+            522.733333
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "observation": "외부 출입구, 실내 작업 공간, 두 화면이 겹쳐 보이는 정지 표본. 실제 같은 문·동선·전환 길이는 입증하지 않음.",
+      "proposal": "우리 새 자산에서는 외부 문틀·문 손잡이 높이·상자·빛 방향 중 명확한 기준을 유지한 외부/내부 짝을 계획해 출구 위치를 먼저 익히게 한다.",
+      "related_catalog_techniques": [
+        "space_clue_action",
+        "foreground_depth",
+        "tension_driven_transition"
+      ],
+      "difference_from_existing": "새 카탈로그 효과가 아닌 shot_sequence의 공간 연속성 적용안. 원본이 매치 컷을 썼다는 단정 아님.",
+      "apply_when": [
+        "문턱을 지나 작업장으로 진입하고 출구 관계가 후반 선택에 중요할 때",
+        "자산별 새 카메라 위치가 실제 정보 차이를 줄 때"
+      ],
+      "avoid_when": [
+        "서로 다른 장소를 한 문처럼 오인시키는 연결",
+        "같은 그림 크롭만 바꾼 가짜 새 시점",
+        "위협을 일찍 공개하거나 비교 기준까지 뒤집는 경우"
+      ],
+      "suitable_visual_styles": [
+        "horror_puppet_stopmotion",
+        "horror_retro_3d",
+        "horror_rough_2d"
+      ],
+      "qa": [
+        "새 시점별 이미지 개별 2회 검수",
+        "문 여는 방향·힌지·광원·상자 위치·행동 축 대조",
+        "모바일에서 문틀·후퇴 경로가 읽히는지 확인",
+        "실제 음성 기준 연속 출력에서 진입·위협·탈출 방향 확인"
+      ],
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+      "reviewed_at": "2026-10-19T10:16:56+09:00"
+    },
+    {
+      "id": "2026-10-19-point-light-route",
+      "kind": "editing_candidate",
+      "label_ko": "작은 광원의 열로 어두운 동선을 보여주기",
+      "sources": [
+        {
+          "video_id": "5vg8TKoCAFw",
+          "url": "https://www.youtube.com/watch?v=5vg8TKoCAFw",
+          "sample_seconds": [
+            5.0
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "observation": "어두운 길 옆 켜진 호박 모양 장식의 열과 전후 깊이만 확인. 소등·누락·점멸 사건은 관찰하지 않음.",
+      "proposal": "우리 이야기에서 정상 광원 경로를 먼저 세운 뒤 한 구간의 그림자 방향이나 빈 간격을 의도한 변화로 비교한다. 각 변화는 원고 단서에 한정한다.",
+      "related_catalog_techniques": [
+        "local_darkness_texture",
+        "return_with_changed_clue",
+        "clue_directed_motion"
+      ],
+      "difference_from_existing": "암부·기준 구도 재방문의 조건부 응용. 원본 사건·조명 제어 효과를 확인한 것으로 쓰지 않음.",
+      "apply_when": [
+        "빛과 그림자의 방향이 위협의 이동 또는 인물의 탈출 경로를 보여줄 때"
+      ],
+      "avoid_when": [
+        "모바일에서 작은 점을 세어야만 이해되는 구성",
+        "빠른 점멸·전면 암전·단서까지 검게 묻는 화면",
+        "반복 줌으로 새 구도를 대신하거나 생성 결함을 어둠으로 덮는 경우"
+      ],
+      "suitable_visual_styles": [
+        "horror_shadow_theatre",
+        "horror_ink_charcoal",
+        "horror_paper_stage"
+      ],
+      "qa": [
+        "기준 컷의 광원 위치·그림자 방향을 기록",
+        "새 낮은 길 시점·상부 경로 시점의 별도 자산 생성",
+        "작은 화면에서 간격과 형체를 읽을 수 있게 제한된 수의 광원 사용",
+        "원본 2회·출력 크롭·연속 재생에서 의도한 변화와 우연한 결함 분리"
+      ],
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+      "reviewed_at": "2026-10-19T10:16:56+09:00"
+    },
+    {
+      "id": "2026-10-19-premise-arboretum-lights",
+      "kind": "premise_candidate",
+      "working_title": "수목원 조명을 껐는데 그림자가 남았어요",
+      "cold_open_line": "불은 다 껐는데, 제 발밑 그림자 하나만 계속 저를 붙잡고 있었어요.",
+      "premise": "폐장한 야간 전시 조명을 회수하는 임시 조명 기사. 평소 빈 산책로의 바닥 등 하나가 꺼진 뒤에도 검은 사람 모양만 남는다.",
+      "character": "단기 설치를 철수하는 조명 기사",
+      "character_goal": "새벽 인계 전에 빌린 장비를 정상 회수하고 팀과 합류하기",
+      "horror_type": "explicit_ghost",
+      "rule": "회수한 조명과 남은 장비의 작업 구역을 분리한다는 정상 절차가 그림자의 경계를 가름",
+      "recurring_object": "바닥 조명의 넓은 빛 타원과 케이블 릴",
+      "independent_structure": {
+        "inciting_event": "꺼진 등 앞 바닥의 그림자가 다른 등 방향과 맞지 않음",
+        "chronology": "한 번의 철수 밤을 주인공의 이동 순서로 구술",
+        "escalation": "고정된 검은 자국→빛을 가로막는 맨발·옷자락 일부→케이블을 통해 손목을 붙드는 한 귀신의 직접 접촉",
+        "decisive_choice": "장비 회수를 포기하고 케이블 릴에서 손을 떼어 밝은 관리동으로 후퇴",
+        "ending": "다음 아침 빈 산책로에서 다른 그림자는 햇빛을 따라 기울지만 그 사람 그림자만 밤의 방향으로 서 있다. 귀신은 현장에 남고 주인공은 작업 복귀를 거부한다."
+      },
+      "sources": [
+        {
+          "video_id": "5vg8TKoCAFw",
+          "url": "https://www.youtube.com/watch?v=5vg8TKoCAFw",
+          "sample_seconds": [
+            5.0
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "borrowed_axis_only": "계절 야간 장식과 길의 작은 광원이라는 일반 축. 원본 할로윈 사건·인물·대사·결말은 미확인이고 사용하지 않음.",
+      "recommended_visual_style": "horror_shadow_theatre",
+      "alternative_visual_styles": [
+        "horror_ink_charcoal",
+        "horror_rough_2d"
+      ],
+      "visual_reason": "낮은 채도의 남청색 배경·탁한 황색 빛 타원·검은 종이 윤곽. 암부에도 케이블과 손목 접점은 남긴다. 그림자가 평면 장식처럼 흐려지지 않게 단일 실루엣과 실제 접촉을 크게 보여준다. 길 옆 낮은 시점·관리동 상부 시점을 새 자산으로 설계하고 짧은 국소 광량·그림자 이동만 사용한다.",
+      "editing_candidate_ids": [
+        "2026-10-19-point-light-route"
+      ],
+      "editing_direction": "local_darkness_texture + return_with_changed_clue. 광원 수 맞히기나 점멸 대신 그림자 방향 한 가지를 비교; 접촉은 새 주관 시점.",
+      "overlap_check": {
+        "nearest_projects": [
+          "2026-030-wardrobe-orchard-scale",
+          "2026-031-carts-barrier-depot"
+        ],
+        "changed_elements": {
+          "job": "과수원 호스 철수·마트 카트→전시 조명 기사",
+          "taboo_or_rule": "소리 유도·카트 이동 금기→밝은 작업 구역의 경계",
+          "object": "뿌리·호스·젖은 카트→바닥 등·빛 타원·케이블 릴",
+          "twist": "나무 이동·장화 압박·사진 잔상→빛이 꺼져도 남는 귀신과 해 방향을 거부하는 그림자"
+        },
+        "result": "030 야외 철수 업무와 넓은 축이 겹치므로 네 요소 및 결말을 분리. 나무 이동·말소리 흉내·젖은 손잡이·집으로 따라온 물건은 제외. 전체 원고 작성 시 재대조."
+      },
+      "narrative_variation_reason": "아래 가마 후보의 여러 날 기록 역추적과 달리 한밤의 이동·포기 선택으로 구성. 정해진 짧음/중간/김 슬롯이나 동일 씬 수를 부여하지 않음.",
+      "truth_label": "fiction",
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+      "reviewed_at": "2026-10-19T10:16:56+09:00",
+      "approval_status": {
+        "stage": "premise_candidate_only",
+        "production_started": false,
+        "decision_policy_source": "config/success-rules.json#workflow_authorization",
+        "note": "새 제작 요청 때 상시 위임에 따라 원고·스타일·보이스·BGM 선택을 각각 기록. 이 감시 실행만으로 제작하지 않음."
+      },
+      "limitations": [
+        "원본 전체 줄거리·결말은 미확인; 구체적 사건을 참고했다고 주장하지 않음.",
+        "완성 원고·음성·이미지·영상은 미생성. 다음 제작에서 독립성·스타일·개별 이미지·출력을 각각 두 차례 검수.",
+        "후보 두 개는 다음 합본의 확정 편수가 아님. 기본 세 편·전체 20–40분은 별도 기획에서 구조와 함께 결정."
+      ]
+    },
+    {
+      "id": "2026-10-19-premise-ceramic-kiln",
+      "kind": "premise_candidate",
+      "working_title": "식은 가마 안에서 무언가 숨을 쉬었어요",
+      "cold_open_line": "가마는 식어 있었는데, 안에서 제 숨을 따라 쉬는 소리가 났어요.",
+      "premise": "소규모 도자기 공방의 외부 설비 점검 기사가 며칠 간의 점검 기록을 거슬러 읽으며 출고 전 가마 안의 도기형 존재를 확인한다.",
+      "character": "외부 가마 설비 점검 기사",
+      "character_goal": "불량 원인을 확인해 출고 여부를 결정할 근거를 남기기",
+      "horror_type": "creature_or_unknown_entity",
+      "rule": "냉각 기록과 물품 상태를 대조하고 이상이 있으면 출고와 작업 재개를 멈춘다",
+      "recurring_object": "무광 시험 타일·내화 받침판·가마 문 가장자리",
+      "independent_structure": {
+        "inciting_event": "전날 사진에 없던 좁은 압흔이 시험 타일과 받침판에 동시에 있음",
+        "chronology": "현재 점검에서 시작해 사흘의 사진·작업 기록을 되짚고 마지막 점검으로 돌아옴",
+        "escalation": "마른 압흔과 안쪽 숨결→받침판 사이 도자기 관절 팔→차가운 팔이 문을 붙들어 주인공의 퇴로를 막는 물리적 접촉",
+        "decisive_choice": "출고 지연 책임을 감수하고 작업 중단을 확정한 뒤 장비를 두고 점검실에서 후퇴. 실제 인터록 해제나 위험 설비 조작을 탈출 요령으로 묘사하지 않음.",
+        "ending": "작업을 멈춘 뒤 가마 문 틈에 같은 도기형 몸통과 팔이 이어져 주인공의 호흡을 따라 움직이는 모습을 확인한다. 존재를 가마에 남긴 채 공방을 폐쇄하고 재개 판정을 거부한다. 새 주인·집·수량 반전을 덧붙이지 않음."
+      },
+      "sources": [
+        {
+          "video_id": "cXEkHfwv-JA",
+          "url": "https://www.youtube.com/watch?v=cXEkHfwv-JA",
+          "sample_seconds": [
+            512.733333,
+            522.733333
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "borrowed_axis_only": "산업 작업 공간과 공정 확인이라는 일반 축. 원본 공장 사연의 식품·등장인물·특정 사건·제보·대사·결말을 사용하지 않음.",
+      "recommended_visual_style": "horror_puppet_stopmotion",
+      "alternative_visual_styles": [
+        "horror_painterly",
+        "horror_retro_3d"
+      ],
+      "visual_reason": "진흙·도기·내화 벽돌의 물성과 절단면 같은 관절이 인형 질감에 맞음. 어두운 회갈색에 제한된 누런 점검등, 번들거리는 실사 광택 절제. 존재의 관절 수·무광 표면을 고정하고 손·금속 문 접점은 큰 윤곽으로 남긴다. 가마 외부·문턱·내부 선반의 새 구도로 깊이를 읽히되 작은 흔들림 반복은 제외.",
+      "editing_candidate_ids": [
+        "2026-10-19-threshold-anchor-pair"
+      ],
+      "editing_direction": "space_clue_action 중심. 현재 문틀과 내부 받침판 관계를 먼저 세우고 기록 사진 비교에만 return_with_changed_clue. 점검 기사 시선과 내부 구도는 별도 자산.",
+      "overlap_check": {
+        "nearest_projects": [
+          "2026-028-curtain-coldroom-broadcast",
+          "2026-030-wardrobe-orchard-scale",
+          "2026-031-carts-barrier-depot"
+        ],
+        "changed_elements": {
+          "job": "냉동창고 야간 작업·고물상 계량→외부 가마 점검",
+          "taboo_or_rule": "냉장 작업·영점 압력·차고지 봉인→불량 판정과 작업 중단 책임",
+          "object": "상자·피부·장화·저울·행선지→시험 타일·받침판·도기 관절",
+          "twist": "창고 존재·압력 전이·운행 정보 추적→기록 역추적과 출고 포기·현장 봉쇄"
+        },
+        "result": "산업 공간 축만 공유하고 네 요소를 구별. 미끼 목소리·사람 수·물건의 가정 귀환·봉인 버스 이동은 사용하지 않음. 전체 원고와 실제 설비 표현은 기획 단계에서 재검수."
+      },
+      "narrative_variation_reason": "단일 밤 추격 대신 사흘 기록의 인과 재구성과 직업적 판정의 대가로 긴장을 쌓음. 길이는 사건의 충분한 전개 후 산정하며 후보 단계에서 고정 분량을 배분하지 않음.",
+      "truth_label": "fiction",
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+      "reviewed_at": "2026-10-19T10:16:56+09:00",
+      "approval_status": {
+        "stage": "premise_candidate_only",
+        "production_started": false,
+        "decision_policy_source": "config/success-rules.json#workflow_authorization",
+        "note": "새 제작 요청 때 상시 위임에 따라 원고·스타일·보이스·BGM 선택을 각각 기록. 이 감시 실행만으로 제작하지 않음."
+      },
+      "limitations": [
+        "원본 전체 줄거리·결말은 미확인; 구체적 사건을 참고했다고 주장하지 않음.",
+        "완성 원고·음성·이미지·영상은 미생성. 다음 제작에서 독립성·스타일·개별 이미지·출력을 각각 두 차례 검수.",
+        "후보 두 개는 다음 합본의 확정 편수가 아님. 기본 세 편·전체 20–40분은 별도 기획에서 구조와 함께 결정."
       ]
     }
   ]
