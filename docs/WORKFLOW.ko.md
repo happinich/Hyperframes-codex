@@ -68,24 +68,24 @@
 ## 초기 설정
 
 ```bash
-uv venv --python 3.14.8 .venv
+uv venv --python 3.14.9 .venv
 uv pip sync --python .venv/bin/python --link-mode copy requirements.lock
 source .venv/bin/activate
 ```
 
-Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.8이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
+Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.9이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
 
-2026-10-19 검증 환경은 Hyperframes `0.8.173`, Node.js `22.23.3`,
-FFmpeg/ffprobe `9.0.2`, uv `0.13.1`입니다. uv 0.13의 기본 다운로드
-대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.8`과
+2026-10-26 검증 환경은 Hyperframes `0.8.200`, Node.js `22.23.4`,
+FFmpeg/ffprobe `9.0.2`, uv `0.13.5`입니다. uv 0.13의 기본 다운로드
+대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.9`와
 기존 `.python-version`을 유지합니다. Python 전체 설치 버전은
 `requirements.lock`으로 재현합니다. MLX·mlx-metal은 `0.32.4`, mlx-whisper는
-`0.4.3`입니다. uv 0.13.1의 의존성 검사는 Python 요구 범위의 상한을
-무시하므로 주간 점검에서는 패키지 메타데이터의 상·하한도 별도로 대조합니다.
+`0.4.3`입니다. 주간 점검에서는 uv 검사와 별도로 패키지 메타데이터의 Python 상·하한 및
+활성 의존 범위를 대조합니다.
 주간 점검에서는 제작·설치 실행 여부와
 Git 상태를 먼저 확인하고, 격리 환경 검증 뒤 호환되는 안정 버전만 적용합니다.
 자세한 버전, 보안 검사 및 렌더 결과는
-[2026-10-19 점검 기록](reviews/2026-10-19-toolchain-update.md)을 참고합니다.
+[2026-10-26 점검 기록](reviews/2026-10-26-toolchain-update.md)을 참고합니다.
 
 기본 정렬 모델은 Apple Silicon에서 빠르게 동작하는 `mlx-community/whisper-large-v3-turbo`입니다. 이 프로젝트에서는 Whisper가 자막 문구를 새로 쓰지 않고, 승인된 대본 원문의 실제 발화 시간만 찾습니다.
 

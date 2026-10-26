@@ -1,0 +1,730 @@
+{
+  "automation_id": "hyperframes",
+  "triggered_at": "2026-10-25T23:58:38.165Z",
+  "checked_at": "2026-10-26T09:10:46+09:00",
+  "workspace": "/Volumes/WorkSpace/Projects/ChatGPT/Hyperframs-co",
+  "status": "updated_and_verified",
+  "starting_head": "0020318ce947afaaf1c69d8390f53ef1b47a346f",
+  "branch": "main",
+  "conflicting_processes_at_start": [],
+  "changes": {
+    "hyperframes": [
+      "0.8.173",
+      "0.8.200"
+    ],
+    "node": [
+      "22.23.3",
+      "22.23.4"
+    ],
+    "homebrew_python": [
+      "3.14.8_2",
+      "3.14.9"
+    ],
+    "python_runtime": [
+      "3.14.8",
+      "3.14.9"
+    ],
+    "uv": [
+      "0.13.1",
+      "0.13.5"
+    ],
+    "ca_certificates": [
+      "2026-09-25",
+      "2026-10-20"
+    ],
+    "homebrew_required_dependencies": {
+      "brotli": [
+        "1.2.0",
+        "1.2.1"
+      ],
+      "c-ares": [
+        "1.34.8",
+        "1.34.9"
+      ]
+    },
+    "python_packages": [
+      {
+        "name": "filelock",
+        "before": "4.2.2",
+        "after": "4.2.4"
+      },
+      {
+        "name": "httpcore2",
+        "before": "2.14.0",
+        "after": "2.16.0"
+      },
+      {
+        "name": "httpx2",
+        "before": "2.14.0",
+        "after": "2.16.0"
+      },
+      {
+        "name": "pip",
+        "before": "26.2.1",
+        "after": "26.2.2"
+      },
+      {
+        "name": "setuptools",
+        "before": "84.0.0",
+        "after": "84.2.1"
+      },
+      {
+        "name": "certifi",
+        "before": "2026.10.18",
+        "after": "2026.10.23"
+      },
+      {
+        "name": "huggingface_hub",
+        "before": "2.2.0",
+        "after": "2.3.0"
+      }
+    ],
+    "npm_packages_in_lock": [
+      {
+        "path": "node_modules/@esbuild/aix-ppc64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/android-arm",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/android-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/android-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/darwin-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/darwin-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/freebsd-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/freebsd-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-arm",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-ia32",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-loong64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-mips64el",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-ppc64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-riscv64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-s390x",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/linux-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/netbsd-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/netbsd-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/openbsd-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/openbsd-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/openharmony-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/sunos-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/win32-arm64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/win32-ia32",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@esbuild/win32-x64",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/@puppeteer/browsers",
+        "before": "3.2.5",
+        "after": "3.2.6"
+      },
+      {
+        "path": "node_modules/acorn",
+        "before": null,
+        "after": "8.19.0"
+      },
+      {
+        "path": "node_modules/devtools-protocol",
+        "before": "0.0.1696802",
+        "after": "0.0.1704951"
+      },
+      {
+        "path": "node_modules/esbuild",
+        "before": "0.25.12",
+        "after": "0.28.2"
+      },
+      {
+        "path": "node_modules/hono",
+        "before": "4.13.13",
+        "after": "4.13.14"
+      },
+      {
+        "path": "node_modules/hyperframes",
+        "before": "0.8.173",
+        "after": "0.8.200"
+      },
+      {
+        "path": "node_modules/node-abi",
+        "before": "3.99.0",
+        "after": "3.101.0"
+      },
+      {
+        "path": "node_modules/puppeteer-core",
+        "before": "25.14.0",
+        "after": "25.16.0"
+      }
+    ],
+    "npm_non_platform_entries_count": 8
+  },
+  "preserved": {
+    "node_major": 22,
+    "npm": "10.9.9",
+    "ffmpeg": "9.0.2",
+    "ffmpeg_homebrew": "9.0.2_1",
+    "mlx": "0.32.4",
+    "mlx_metal": "0.32.4",
+    "mlx_whisper": "0.4.3",
+    "python_dotenv": "1.2.4",
+    "pytest": "9.1.1",
+    "canvas": "3.2.3",
+    "elevenlabs_model": "eleven_v4",
+    "mpmath": "1.3.0",
+    "completed_projects": true,
+    "remotion_repository": true
+  },
+  "deferred": {
+    "mpmath_1_4_1": "SymPy 1.14.0 requires mpmath>=1.1.0,<1.4; keep compatible 1.3.0.",
+    "devtools_protocol_peer_wanted": "chromium-bidi peer range accepts latest 0.0.1724436, but Puppeteer 25.16.0 requires exact 0.0.1704951. Keep official shared dependency; no override or forced root install.",
+    "unrelated_homebrew_dependents": "No broad upgrade of the 22 outdated dependents listed in the first dry run; only four requested formulae and two required Node dependencies changed."
+  },
+  "registry_checks": [
+    {
+      "name": "mlx",
+      "installed": "0.32.4",
+      "latest": "0.32.4",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "click",
+      "installed": "8.5.0",
+      "latest": "8.5.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "torch",
+      "installed": "2.14.1",
+      "latest": "2.14.1",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "packaging",
+      "installed": "26.3",
+      "latest": "26.3",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "networkx",
+      "installed": "3.7",
+      "latest": "3.7",
+      "requires_python": "!=3.14.1,>=3.12"
+    },
+    {
+      "name": "Pygments",
+      "installed": "2.21.0",
+      "latest": "2.21.0",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "filelock",
+      "installed": "4.2.2",
+      "latest": "4.2.4",
+      "requires_python": ">=3.11"
+    },
+    {
+      "name": "requests",
+      "installed": "2.34.2",
+      "latest": "2.34.2",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "httpcore2",
+      "installed": "2.14.0",
+      "latest": "2.16.0",
+      "requires_python": ">=3.11"
+    },
+    {
+      "name": "httpx2",
+      "installed": "2.14.0",
+      "latest": "2.16.0",
+      "requires_python": ">=3.11"
+    },
+    {
+      "name": "mlx-whisper",
+      "installed": "0.4.3",
+      "latest": "0.4.3",
+      "requires_python": ">=3.8"
+    },
+    {
+      "name": "iniconfig",
+      "installed": "2.3.1",
+      "latest": "2.3.1",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "numpy",
+      "installed": "2.5.4",
+      "latest": "2.5.4",
+      "requires_python": ">=3.12"
+    },
+    {
+      "name": "pillow",
+      "installed": "13.0.0",
+      "latest": "13.0.0",
+      "requires_python": ">=3.11"
+    },
+    {
+      "name": "sympy",
+      "installed": "1.14.0",
+      "latest": "1.14.0",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "pip",
+      "installed": "26.2.1",
+      "latest": "26.2.2",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "pluggy",
+      "installed": "1.7.0",
+      "latest": "1.7.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "hf-xet",
+      "installed": "1.7.0",
+      "latest": "1.7.0",
+      "requires_python": ">=3.8"
+    },
+    {
+      "name": "tqdm",
+      "installed": "4.70.1",
+      "latest": "4.70.1",
+      "requires_python": ">=3.8"
+    },
+    {
+      "name": "pytest",
+      "installed": "9.1.1",
+      "latest": "9.1.1",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "setuptools",
+      "installed": "84.0.0",
+      "latest": "84.2.1",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "urllib3",
+      "installed": "2.8.0",
+      "latest": "2.8.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "h11",
+      "installed": "0.16.0",
+      "latest": "0.16.0",
+      "requires_python": ">=3.8"
+    },
+    {
+      "name": "mlx-metal",
+      "installed": "0.32.4",
+      "latest": "0.32.4",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "mpmath",
+      "installed": "1.3.0",
+      "latest": "1.4.1",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "certifi",
+      "installed": "2026.10.18",
+      "latest": "2026.10.23",
+      "requires_python": ">=3.7"
+    },
+    {
+      "name": "PyYAML",
+      "installed": "6.0.3",
+      "latest": "6.0.3",
+      "requires_python": ">=3.8"
+    },
+    {
+      "name": "fsspec",
+      "installed": "2026.9.0",
+      "latest": "2026.9.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "huggingface_hub",
+      "installed": "2.2.0",
+      "latest": "2.3.0",
+      "requires_python": ">=3.10.0"
+    },
+    {
+      "name": "truststore",
+      "installed": "0.10.5",
+      "latest": "0.10.5",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "python-dotenv",
+      "installed": "1.2.4",
+      "latest": "1.2.4",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "llvmlite",
+      "installed": "0.50.0",
+      "latest": "0.50.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "Jinja2",
+      "installed": "3.1.6",
+      "latest": "3.1.6",
+      "requires_python": ">=3.7"
+    },
+    {
+      "name": "regex",
+      "installed": "2026.9.29",
+      "latest": "2026.9.29",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "numba",
+      "installed": "0.68.0",
+      "latest": "0.68.0",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "tiktoken",
+      "installed": "0.14.0",
+      "latest": "0.14.0",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "more-itertools",
+      "installed": "11.2.1",
+      "latest": "11.2.1",
+      "requires_python": ">=3.11"
+    },
+    {
+      "name": "typing_extensions",
+      "installed": "4.16.0",
+      "latest": "4.16.0",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "MarkupSafe",
+      "installed": "3.0.4",
+      "latest": "3.0.4",
+      "requires_python": ">=3.9"
+    },
+    {
+      "name": "charset-normalizer",
+      "installed": "3.5.2",
+      "latest": "3.5.2",
+      "requires_python": ">=3.7"
+    },
+    {
+      "name": "anyio",
+      "installed": "4.15.1",
+      "latest": "4.15.1",
+      "requires_python": ">=3.10"
+    },
+    {
+      "name": "scipy",
+      "installed": "1.18.1",
+      "latest": "1.18.1",
+      "requires_python": ">=3.12"
+    },
+    {
+      "name": "idna",
+      "installed": "3.20",
+      "latest": "3.20",
+      "requires_python": ">=3.9"
+    }
+  ],
+  "runtime_after": {
+    "node": "v22.23.4",
+    "npm": "10.9.9",
+    "python": "Python 3.14.9",
+    "uv": "uv 0.13.5 (Homebrew 2026-10-22 aarch64-apple-darwin)",
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 9.0.2 Copyright (c) 2007-2026 the FFmpeg developers",
+    "ssl": "OpenSSL 4.0.3 29 Sep 2026",
+    "sqlite": "3.54.1"
+  },
+  "verification": {
+    "python_candidate_interpreter": "3.14.8",
+    "python_final_interpreter": "3.14.9",
+    "python_candidate_tests": "69 passed",
+    "python_final_tests": "69 passed",
+    "strict_python_requirements": {
+      "packages": 43,
+      "python": "3.14.9",
+      "upper_and_lower_bounds_checked": true
+    },
+    "candidate_alignment_ratio": 1.0,
+    "final_alignment": {
+      "status": "ready_for_review",
+      "whisper_backend": "mlx-whisper",
+      "whisper_model": "mlx-community/whisper-large-v3-turbo",
+      "subtitle_delivery_mode": "internal_timing_only_youtube_automatic_captions",
+      "subtitle_text_source": "01_script/narration.txt",
+      "spoken_text_source": "01_script/narration.txt",
+      "matched_character_ratio": 1.0,
+      "caption_surface_match_ratio": 1.0,
+      "spoken_match_ratio": 1.0,
+      "required_ratio": 0.92,
+      "note": "SRT/VTT and word timing are internal editing artifacts. External caption files are excluded from delivery; YouTube automatic captions are used."
+    },
+    "numerical_and_image_tls_smoke": {
+      "metal": 328350.0,
+      "device": "Device(gpu, 0)",
+      "numpy": "2.5.4",
+      "numba": "0.68.0",
+      "torch": "2.14.1",
+      "pillow": "13.0.0",
+      "httpx2": "2.16.0",
+      "ssl": "OpenSSL 4.0.3 29 Sep 2026",
+      "pillow_rgb_rgba_png_roundtrip": "passed",
+      "httpx2_tls_get": "200"
+    },
+    "npm_audit_candidate": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "npm_audit_final": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "candidate_and_final_landscape_portrait_lint": "0 errors, 0 warnings",
+    "renders": [
+      {
+        "format": "landscape",
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": 180,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "video_duration": 3.0,
+        "audio_duration": 3.0,
+        "freeze_or_black_over_1s": false,
+        "sample_frame_sha256": {
+          "0": "84adcfa9e94a0285422f8919efc9576f4f22b301da47279b0d37ccd0b3f686f4",
+          "1.5": "f0ca1fd28472cd23a47d3d910606752097e6fdb99ebdc9297a98979524cb698e",
+          "2.95": "d988e74b6ef7836d58505b95736280683d251bd9228921546f3dda9557d32ceb"
+        },
+        "sha256": "13fdb508c7044e2d3f97bce783f7f5fceee2c1c7ebf3358074c515ebdf69f7d3",
+        "visual_review": "passed_individual_final_frames",
+        "reviewed_frame_times": [
+          0,
+          1.5,
+          2.95
+        ]
+      },
+      {
+        "format": "portrait",
+        "width": 1080,
+        "height": 1920,
+        "fps": "60/1",
+        "frames": 180,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "video_duration": 3.0,
+        "audio_duration": 3.0,
+        "freeze_or_black_over_1s": false,
+        "sample_frame_sha256": {
+          "0": "2d805803f8daf268316fa8cd2becaedd51b280576ff9e776954cdc10751e434b",
+          "1.5": "191f665bf6e00787164d4a9e74cfbf177e8317f61942298ce38f175d39b0fe9b",
+          "2.95": "0740c686e520d8030b9b064a34f94f85b1f9a746bc537491eab57e87eebe1491"
+        },
+        "sha256": "51b7469a825016bd3b215886eb1ad5b364e3afddf1bcc24341a0012a54921118",
+        "visual_review": "passed_individual_final_frames",
+        "reviewed_frame_times": [
+          0,
+          1.5,
+          2.95
+        ]
+      },
+      {
+        "format": "canvas",
+        "width": 1920,
+        "height": 1080,
+        "fps": "60/1",
+        "frames": 180,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "video_duration": 3.0,
+        "audio_duration": 3.0,
+        "freeze_or_black_over_1s": false,
+        "sample_frame_sha256": {
+          "0.8": "e818f56d375430c0b1a9ef17f59c79466895e1a39890d954cab7e1111f4f186a",
+          "1.5": "9fe0715e07806ee0232663d785a4b16c329e253bbc8d483954909dafa31e9223",
+          "2.7": "d39bd91acfa3a60ee87791f48fbbc26d87792bd3781dd6b0b48ebc125e38e879"
+        },
+        "sha256": "d61aa100c6aaea20d5bcb255a18b441b9d9637e3713e160eaf940b301bb56cce",
+        "visual_review": "passed_individual_final_frames",
+        "reviewed_frame_times": [
+          0.8,
+          1.5,
+          2.7
+        ]
+      }
+    ],
+    "headless_browser_used": "HeadlessChrome/152.0.7977.30",
+    "homebrew_linkage": "node@22, python@3.14 and uv passed",
+    "homebrew_developer_mode": "linkage command enabled it; restored to disabled immediately after the check",
+    "fixture_correction": "Only this run landscape test fixture: progress bar bottom 12% to 5% to avoid caption overlap. Landscape and canvas rerendered; final frames rereviewed.",
+    "paid_tts_image_music_calls": 0,
+    "uploads": 0,
+    "rollback_required": false,
+    "source_alignment_audio": "existing local 10-second experiment copy; HF_HUB_OFFLINE=1 and TRANSFORMERS_OFFLINE=1",
+    "scope_limits": "Three-second diagnostic renders and individual frames; not a long-episode performance benchmark, direct listening approval, or proof of fixing desktop app restarts."
+  },
+  "elevenlabs_read_only_model_check": {
+    "model_id": "eleven_v4",
+    "paid_generation_calls": 0,
+    "http_status": 200,
+    "models": [
+      {
+        "model_id": "eleven_v4",
+        "can_do_text_to_speech": true,
+        "max_characters_request_subscribed_user": 10000
+      }
+    ]
+  },
+  "skill_review": {
+    "skill": "hyperframes-longform-producer",
+    "result": "Current V4 rules match official supported settings; no changed API settings or stale updated-tool version pins requiring skill edits."
+  },
+  "backup_directory": "tmp/maintenance/2026-10-26/backups",
+  "old_homebrew_kegs_retained": true,
+  "old_project_venv_retained": "tmp/maintenance/2026-10-26/backups/venv-old",
+  "old_node_modules_retained": "tmp/maintenance/2026-10-26/backups/node_modules-old",
+  "unrelated_status_entries_preserved": 526,
+  "sources": {
+    "hyperframes": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.200",
+    "hyperframes_security_dependency": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.196",
+    "node": "https://nodejs.org/en/blog/release/v22.23.4",
+    "node_support": "https://github.com/nodejs/Release/blob/main/schedule.json",
+    "python": "https://www.python.org/downloads/release/python-3149/",
+    "uv": "https://github.com/astral-sh/uv/releases/tag/0.13.5",
+    "uv_ca_advisory": "https://github.com/astral-sh/uv/security/advisories/GHSA-hq85-5cpj-mr62",
+    "pip": "https://pip.pypa.io/en/stable/news/#v26-2-2",
+    "certifi": "https://github.com/certifi/python-certifi/compare/2026.10.18...2026.10.23",
+    "filelock": "https://github.com/tox-dev/filelock/releases/tag/4.2.3",
+    "httpx2": "https://github.com/pydantic/httpx2/blob/main/src/httpx2/CHANGELOG.md",
+    "httpcore2": "https://github.com/pydantic/httpx2/blob/main/src/httpcore2/CHANGELOG.md",
+    "huggingface_hub": "https://github.com/huggingface/huggingface_hub/releases/tag/v2.3.0",
+    "setuptools": "https://setuptools.pypa.io/en/latest/history.html#v84-2-1",
+    "homebrew_scoped_update": "https://docs.brew.sh/Manpage",
+    "elevenlabs_settings": "https://github.com/elevenlabs/skills/blob/main/text-to-speech/references/voice-settings.md",
+    "elevenlabs_models_api": "https://elevenlabs.io/docs/api-reference/models/list",
+    "brew_node": "https://formulae.brew.sh/api/formula/node@22.json",
+    "brew_python": "https://formulae.brew.sh/api/formula/python@3.14.json",
+    "brew_ffmpeg": "https://formulae.brew.sh/api/formula/ffmpeg.json",
+    "brew_uv": "https://formulae.brew.sh/api/formula/uv.json",
+    "brew_ca": "https://formulae.brew.sh/api/formula/ca-certificates.json"
+  },
+  "registry_release_file_evidence": "tmp/maintenance/2026-10-26/pypi-check.json; stable/non-yanked candidates checked before isolated sync"
+}

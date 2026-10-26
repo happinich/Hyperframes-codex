@@ -4,13 +4,13 @@
 
 ## 실행 환경
 
-Python 3.14.8과 프로젝트 전용 `.venv`를 사용합니다.
+Python 3.14.9와 프로젝트 전용 `.venv`를 사용합니다.
 
-현재 검증된 제작 환경은 Hyperframes 0.8.149, Node.js 22.23.3,
-FFmpeg 9.0.2, uv 0.13.0입니다. [2026-10-12 주간 점검 기록](docs/reviews/2026-10-12-toolchain-update.md)에 적용 버전과 검증 결과를 보관합니다.
+현재 검증된 제작 환경은 Hyperframes 0.8.200, Node.js 22.23.4,
+FFmpeg 9.0.2, uv 0.13.5입니다. [2026-10-26 주간 점검 기록](docs/reviews/2026-10-26-toolchain-update.md)에 적용 버전과 검증 결과를 보관합니다.
 
 ```bash
-uv venv --python 3.14.8 .venv
+uv venv --python 3.14.9 .venv
 uv pip sync --python .venv/bin/python --link-mode copy requirements.lock
 npm ci
 ```

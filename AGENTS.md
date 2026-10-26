@@ -11,7 +11,7 @@ commands, project files, generated media, and deliverables. The legacy path
 existing chats and file links continue to resolve.
 
 Use `.venv/bin/python` for project Python commands. The project environment is
-Python 3.14.8; `/usr/bin/python3` is the separate macOS developer-tools interpreter.
+Python 3.14.9; `/usr/bin/python3` is the separate macOS developer-tools interpreter.
 
 This repository is the standalone Hyperframes production workspace. Do not edit,
 sync, or assume a runtime dependency on `/Users/happinich/Documents/Remotion-codex`.
