@@ -3,7 +3,7 @@
   "timezone": "Asia/Seoul",
   "baseline_report": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
   "baseline_scope": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
-  "last_scheduled_run_at": "2026-10-19T01:00:55.096Z",
+  "last_scheduled_run_at": "2026-10-26T00:57:08.348Z",
   "reviewed_videos": [
     {
       "video_id": "LBTkwwxGfI8",
@@ -980,9 +980,94 @@
         ],
         "limitations": "조회수 원인·클릭률·유지율·Shorts 연결은 검증하지 않음; 다른 세 표본의 썸네일은 상세 평가하지 않음"
       }
+    },
+    {
+      "run_id": "2026-10-26-weekly-01",
+      "triggered_at": "2026-10-26T00:57:08.348Z",
+      "checked_at": "2026-10-26T10:02:08+09:00",
+      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md",
+      "status": "access_limited_no_new_content_verified",
+      "result": "web_listing_unreliable_and_in_app_browser_attach_failed",
+      "reviewed_video_ids": [],
+      "detailed_review_counts": {
+        "Mr. Nightmare": 0,
+        "돌비공포라디오": 0,
+        "왓섭! 공포라디오": 0,
+        "괴들남 공포이야기": 0
+      },
+      "pending_count": 14,
+      "excluded_count": 8,
+      "audio_review_scope": "not_listened",
+      "observed_segments": [],
+      "content_review_completed": false,
+      "access_checks": [
+        {
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/@돌비공포라디오/videos",
+          "method": "web_open",
+          "result": "stale_footer_only_not_current_upload_inventory"
+        },
+        {
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/@왓섭/videos",
+          "method": "web_open",
+          "result": "fetch_throttled"
+        },
+        {
+          "channel": "괴들남",
+          "url": "https://www.youtube.com/@괴들남/videos",
+          "method": "web_open",
+          "result": "stale_footer_only_not_current_upload_inventory"
+        },
+        {
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/@MrNightmare/videos",
+          "method": "web_open",
+          "result": "stale_footer_only_not_current_upload_inventory"
+        }
+      ],
+      "browser_attempts": {
+        "browser": "iab",
+        "url": "https://www.youtube.com/@MrNightmare/videos",
+        "attempt_count": 3,
+        "variants": [
+          "background_tab",
+          "fresh_background_tab_after_empty_tab_inventory",
+          "visible_tab_for_attach_recovery"
+        ],
+        "result": "all_timed_out_waiting_for_webview_attach",
+        "troubleshooting_document_read": true,
+        "watch_page_reached": false
+      },
+      "web_search_fallback": {
+        "query_count": 4,
+        "scope": "one focused query per target channel, dated after 2026-10-18",
+        "result": "empty_results_do_not_imply_no_new_uploads"
+      },
+      "review_passes": [
+        {
+          "name": "source_and_observation_accuracy",
+          "result": "access_evidence_checked_no_content_completion_claim"
+        },
+        {
+          "name": "story_style_and_mobile_applicability",
+          "result": "deferred_no_new_visual_or_audio_evidence"
+        }
+      ],
+      "last_verified_content_report": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+      "idea_library_changes": 0,
+      "new_premise_candidates": 0,
+      "new_editing_candidates": 0,
+      "next_action": "Retry current public listings and existing pending IDs at the next scheduled run; keep already reviewed IDs excluded from duplicate content review.",
+      "limitations": [
+        "현재 신작 유무·공개 전환·게시 표시 미확인",
+        "영상 초반·중반·후반·전환 주변·썸네일·훅·음향을 새로 확인하지 못함",
+        "검색 결과 부재를 업로드 부재로 해석하지 않음",
+        "기존 검토·대기·제외의 공개 상태를 이번 조사 시점으로 갱신하지 않음"
+      ]
     }
   ],
-  "latest_report": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+  "latest_report": "planning/horror-reference-monitoring/2026-10-26/report.ko.md",
   "excluded_videos": [
     {
       "video_id": "v40aTNt0lqc",
@@ -1067,6 +1152,41 @@
       "reason": "회원 우선 공개; 공개 전환 시 재확인",
       "checked_at": "2026-10-19T10:16:56+09:00",
       "review_status": "listing_only_not_analyzed"
+    }
+  ],
+  "latest_successful_content_report": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
+  "pending_channel_checks": [
+    {
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/@돌비공포라디오/videos",
+      "status": "current_public_listing_unverified",
+      "last_attempt_at": "2026-10-26T10:02:08+09:00",
+      "reason": "web_unreliable_and_iab_unavailable",
+      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
+    },
+    {
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/@왓섭/videos",
+      "status": "current_public_listing_unverified",
+      "last_attempt_at": "2026-10-26T10:02:08+09:00",
+      "reason": "web_unreliable_and_iab_unavailable",
+      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
+    },
+    {
+      "channel": "괴들남",
+      "url": "https://www.youtube.com/@괴들남/videos",
+      "status": "current_public_listing_unverified",
+      "last_attempt_at": "2026-10-26T10:02:08+09:00",
+      "reason": "web_unreliable_and_iab_unavailable",
+      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
+    },
+    {
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/@MrNightmare/videos",
+      "status": "current_public_listing_unverified",
+      "last_attempt_at": "2026-10-26T10:02:08+09:00",
+      "reason": "web_unreliable_and_iab_unavailable",
+      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
     }
   ]
 }
