@@ -296,7 +296,8 @@
       "limitations",
       "review_status",
       "playback_content_verification",
-      "chapter_source"
+      "chapter_source",
+      "browser_overlay_limitations"
     ],
     "timezone": "Asia/Seoul",
     "schedule_local": {
@@ -324,7 +325,8 @@
     "evidence_checks": {
       "playback_content_verification": "광고·스폰서 표시, 원 영상 duration, UI 시각과 일시정지 상태를 대조하고 광고 프레임은 근거에서 제외한다.",
       "chapter_source": "creator_authored / youtube_auto_generated / not_inspected를 구분한다. 자동 생성 챕터의 제목·시각만으로 제작자의 구성 의도나 실제 편집점을 단정하지 않는다.",
-      "paused_sample_limit": "개별 정지 표본을 연속 재생 구간·컷 속도·음향 확인으로 기록하지 않는다."
+      "paused_sample_limit": "개별 정지 표본을 연속 재생 구간·컷 속도·음향 확인으로 기록하지 않는다.",
+      "browser_overlay_limitations": "번역·전사 자막과 확장 프로그램 UI는 원본 번인 자막과 구분한다. 출처를 확인하지 못하면 채널 편집으로 귀속하지 않는다. 탐색 직후 미디코딩 화면은 제외하고 실제 시각·재생 준비 상태·보이는 범위를 대조한다. 상단 가림·UI 중첩이 있으면 해당 제한을 기록한다."
     },
     "pending_videos_rule": "접근 불가 또는 검토량 초과 항목은 완료로 표시하지 않고 다음 회차에 이어서 확인한다.",
     "preserve_existing_approval_gates": true,

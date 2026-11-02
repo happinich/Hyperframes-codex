@@ -604,6 +604,182 @@
         "완성 원고·음성·이미지·영상은 미생성. 다음 제작에서 독립성·스타일·개별 이미지·출력을 각각 두 차례 검수.",
         "후보 두 개는 다음 합본의 확정 편수가 아님. 기본 세 편·전체 20–40분은 별도 기획에서 구조와 함께 결정."
       ]
+    },
+    {
+      "id": "2026-11-02-lit-empty-object",
+      "kind": "editing_candidate",
+      "label_ko": "평범한 빈 가구에 빛의 중심을 두기",
+      "sources": [
+        {
+          "video_id": "BbyQGWmOKrI",
+          "url": "https://www.youtube.com/watch?v=BbyQGWmOKrI",
+          "sample_seconds": [
+            696.54585,
+            701.54585,
+            706.54585
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "observation": "보이는 중앙·하부에서 원탁 면은 밝고 주변 의자와 유리 뒤 공간은 어둡다. 프레임 상단은 가려 전체 공간·조명 설계는 미확인.",
+      "proposal": "우리 새 컷에서 정상적인 빈 좌석·받침대 한 개를 먼저 밝게 읽히고, 사건이 시작되면 그 물건과 주변 공간의 관계가 달라지는 새 시점으로 연결한다. 어둠 자체보다 평범한 대상의 공백에 시선을 둔다.",
+      "related_catalog_techniques": [
+        "local_darkness_texture",
+        "space_clue_action",
+        "clue_directed_motion"
+      ],
+      "difference_from_existing": "기존 암부 처리의 구체적인 초점 선택안. 점광원의 열·바닥 흔적 높이 대비·출입구 짝과 달리 넓은 밝은 일상 물건 한 개를 정상 기준으로 삼음. 새 효과나 검증된 프리셋 아님.",
+      "apply_when": [
+        "원고에서 빈 자리·비어 있는 물건이 확인 행동의 대상일 때",
+        "주변 어둠 속에서도 대상의 정상 윤곽을 먼저 읽혀야 할 때"
+      ],
+      "avoid_when": [
+        "결정적 단서가 다른 위치인데 빛이 가구로 시선을 빼앗을 때",
+        "전체 검정·과노출로 공간을 지울 때",
+        "같은 그림의 줌·흔들림만 반복할 때"
+      ],
+      "suitable_visual_styles": [
+        "horror_painterly",
+        "horror_ink_charcoal",
+        "horror_retro_3d"
+      ],
+      "style_limits": "회화·목탄은 재료 명암을 유지하고 초기 3D는 거친 텍스처를 유지. 평면·픽셀에는 사실적 보케를 강제하지 않음.",
+      "qa": [
+        "정상 가구·출입구가 보이는 별도 전체 컷과 단서 근접 자산 확보",
+        "원본별 2회 검사 및 인접 컷의 광원·물건 위치 대조",
+        "모바일에서 넓은 빛 면과 핵심 접촉부가 남는지 확인",
+        "최종 음성에 맞춘 연속 출력에서 반복감·밝기 튐 검수"
+      ],
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+      "reviewed_at": "2026-11-02T10:12:57+09:00"
+    },
+    {
+      "id": "2026-11-02-occluding-surface-edge",
+      "kind": "editing_candidate",
+      "label_ko": "가림면과 열린 경계의 정보량 나누기",
+      "sources": [
+        {
+          "video_id": "IaxCbkTq5Ec",
+          "url": "https://www.youtube.com/watch?v=IaxCbkTq5Ec",
+          "sample_seconds": [
+            2692.12944
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "observation": "후반 정지 화면에 불투명한 창 면의 어두운 얼룩과 상부 프레임 경계의 밝은 형체 일부가 함께 보인다. 실체·실제 등장 과정·전후 연속성은 미확인.",
+      "proposal": "우리 새 장면은 가림면 뒤 넓은 윤곽과 열린 경계의 큰 단서 한 조각을 구분해 설계한다. 실체 공개 전에는 둘의 연결을 단정하지 않고 후반 새 접촉 컷에서 한 존재임을 확인한다.",
+      "related_catalog_techniques": [
+        "foreground_depth",
+        "local_darkness_texture",
+        "space_clue_action"
+      ],
+      "difference_from_existing": "기존 부분 노출의 가림 재료·공개 위치 선택안. 레이어 모션이나 원본의 귀신 출현 효과를 확인했다는 뜻 아님.",
+      "apply_when": [
+        "반투명 패널·종이·벽 가장자리처럼 가림 재료 자체가 이야기 정보일 때",
+        "한 조각의 윤곽을 모바일에서도 충분히 크게 남길 수 있을 때"
+      ],
+      "avoid_when": [
+        "반사·투과·실루엣을 설명 없이 섞어 개체 수를 오해하게 할 때",
+        "작은 눈·머리 조각을 찾아야만 단서를 이해할 때",
+        "유리 필터로 손·몸의 생성 결함을 숨길 때",
+        "이전 커튼·냉장실 공개 구성을 그대로 복제할 때"
+      ],
+      "suitable_visual_styles": [
+        "horror_ink_charcoal",
+        "horror_paper_stage",
+        "horror_rough_2d"
+      ],
+      "style_limits": "종이는 실제 카드지 가림으로, 목탄은 면의 명암으로 구현. 유리 광택·사진 초점 흐림을 모든 재료에 강제하지 않음.",
+      "qa": [
+        "가림면·바깥 경계·존재의 앞뒤 관계를 숏별 기록",
+        "새 시점 자산 개별 2회 검수와 신체·형체 연속성 대조",
+        "모바일 축소에서 단서가 한눈에 읽히는지 확인",
+        "원고 공개 시점과 출력의 마스크·크롭·접촉 장면 재검수"
+      ],
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+      "reviewed_at": "2026-11-02T10:12:57+09:00"
+    },
+    {
+      "id": "2026-11-02-premise-last-planetarium",
+      "kind": "premise_candidate",
+      "working_title": "마지막 상영에서 제 의자가 천장을 향해 들렸어요",
+      "cold_open_line": "별은 천장에 있어야 하는데, 제 의자 아래에서 그 무늬가 접히고 있었어요.",
+      "premise": "폐관 전 마지막 상영을 보러 간 성인 관객이 천장 무늬와 같은 자국이 난 빈 좌석을 발견한다. 향수를 채우려 머무르려던 선택이 머리 위와 발밑을 잇는 존재를 확인하게 한다.",
+      "character": "어린 시절 가족과 다니던 작은 천문관에 다시 온 성인 관객",
+      "character_goal": "사라질 장소의 마지막 상영을 끝까지 보고 일상으로 돌아가기",
+      "horror_type": "creature_or_unknown_entity",
+      "truth_label": "fiction",
+      "rule": "뒤로 기대어 천장을 보는 정상 관람 습관이 발밑 공간을 가림. 숫자 세기·답변 금지·업무 인수인계 규칙은 사용하지 않음.",
+      "recurring_object": "빈 객석의 넓은 등받이, 천장 가장자리의 굵은 접힘 자국",
+      "independent_structure": {
+        "inciting_event": "평범한 독서등 아래 빈 좌석 등받이에 천장 가장자리와 같은 넓은 접힘 자국이 있음.",
+        "chronology": "의자가 들리던 현재의 한 줄로 열고, 그날 방문 목적과 스스로 자리를 고른 과정을 되짚은 뒤 현재의 탈출 선택으로 돌아옴. 업무 점검 기록 역추적이나 같은 규칙 3회 반복 구조를 쓰지 않음.",
+        "escalation": "등받이의 자국→객석 아래에서 접히는 검은 막의 일부→천장과 좌석 사이로 이어진 한 몸이 등받이를 감싸 의자를 실제로 들어 올림. 얼굴·인간 손이 없는 무광 주름 표면을 일관되게 유지.",
+        "decisive_choice": "마지막 장면을 보려는 미련을 포기하고 짐을 두고 통로로 빠져나와 다른 관람객의 입장을 멈춰 달라고 알림. 실제 설비 해체·전기 조작을 탈출 요령으로 묘사하지 않음.",
+        "ending": "출구에서 돌아보니 천장 가장자리와 떠 있는 빈 의자 사이에 같은 접힌 몸이 이어져 있다. 현장을 벗어나며 기억을 그 장소에서 끝까지 재현하려던 마음을 놓는다. 집으로 따라온 물건·다음 근무자·사진 속 인원 증가의 후일담은 붙이지 않음."
+      },
+      "sources": [
+        {
+          "video_id": "BbyQGWmOKrI",
+          "url": "https://www.youtube.com/watch?v=BbyQGWmOKrI",
+          "sample_seconds": [
+            696.54585
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        },
+        {
+          "video_id": "IaxCbkTq5Ec",
+          "url": "https://www.youtube.com/watch?v=IaxCbkTq5Ec",
+          "sample_seconds": [
+            2692.12944
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "borrowed_axis_only": "공용 공간의 빛받는 빈 가구, 가림면과 경계라는 일반 시각 축만 참고. 원본 대학·가족/의식 사건·제보·인물·대사·귀신 외형·결말은 사용하지 않음.",
+      "recommended_visual_style": "horror_ink_charcoal",
+      "alternative_visual_styles": [
+        "horror_paper_stage",
+        "horror_retro_3d"
+      ],
+      "visual_reason": "먹·목탄의 넓은 면과 접힘 윤곽이 천장/객석의 앞뒤를 구분하기 좋음. 짙은 남청·회백색·탁한 독서등 빛으로 명암을 제한하고 반짝이는 실사 광택을 피한다. 별 점 개수 대신 큰 접힘과 등받이 접촉부를 읽히며 천장 전체·통로 사선·객석 아래 낮은 시점은 새 자산으로 생성. 종이는 겹침, 초기 3D는 관람석 공간의 대안이다.",
+      "editing_candidate_ids": [
+        "2026-11-02-lit-empty-object",
+        "2026-11-02-occluding-surface-edge"
+      ],
+      "editing_direction": "space_clue_action 중심, 가림 경계만 foreground_depth 보조. 밝은 빈 좌석→객석 아래 새 시점→실제 접촉 순으로 정보가 늘어야 하며 초반부터 전체 몸을 공개하지 않음.",
+      "overlap_check": {
+        "nearest_projects": [
+          "2026-028-curtain-coldroom-broadcast",
+          "2026-030-wardrobe-orchard-scale",
+          "2026-031-carts-barrier-depot"
+        ],
+        "changed_elements": {
+          "job": "철수·경비·현장 작업자→개인 기억 때문에 방문한 일반 관객",
+          "taboo_or_rule": "응답·인수인계·빛 회수 규칙→천장을 보느라 발밑을 놓치는 관람 습관과 머무를 이유",
+          "object": "커튼·방송기·카트·장롱→천장 접힘과 객석 등받이",
+          "twist": "집/사진/다음 직원에 남은 물건→한 장소의 천장과 객석이 한 몸으로 이어지는 직접 확인과 상영 포기"
+        },
+        "result": "028 공연장/빈 의자와 넓은 공간 축은 유사해 네 요소와 결말 장치를 분리했다. 후보 단계 비교이며 전체 원고 작성 전 중복·동선·인물 동기를 다시 검토한다."
+      },
+      "narrative_variation_reason": "야간 근무·인수인계 대신 개인적 미련 때문에 머무르는 관객의 선택을 중심으로 함. 길이·장면 수·합본 채택은 아직 정하지 않음.",
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+      "reviewed_at": "2026-11-02T10:12:57+09:00",
+      "approval_status": {
+        "stage": "premise_candidate_only",
+        "production_started": false,
+        "decision_policy_source": "config/success-rules.json#workflow_authorization",
+        "note": "새 제작 요청 때 상시 위임에 따라 각 판단·검수를 따로 기록. 이 감시로 원고·이미지·음성·영상 제작을 시작하지 않음."
+      },
+      "limitations": [
+        "원본 전체 사건과 결말은 미확인. 시각 발상 축만 사용.",
+        "후보를 완성 원고·실제 구현·검수 완료로 표시하지 않음.",
+        "현재 028–031 및 기존 아이디어와 비교했으나 이후 새 기획에서 다시 확인. 기본 세 편·전체 20–40분은 별도 제작 요청의 규칙."
+      ]
     }
   ]
 }

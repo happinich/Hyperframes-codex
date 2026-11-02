@@ -3,7 +3,7 @@
   "timezone": "Asia/Seoul",
   "baseline_report": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
   "baseline_scope": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
-  "last_scheduled_run_at": "2026-10-26T00:57:08.348Z",
+  "last_scheduled_run_at": "2026-11-02T01:02:44.020Z",
   "reviewed_videos": [
     {
       "video_id": "LBTkwwxGfI8",
@@ -736,6 +736,281 @@
       "review_scope": "partial_visual_samples_only",
       "discovery_class": "new_upload",
       "report_path": "planning/horror-reference-monitoring/2026-10-19/report.ko.md"
+    },
+    {
+      "video_id": "BbyQGWmOKrI",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=BbyQGWmOKrI",
+      "title": "3 Disturbing TRUE College Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "23:14",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "observation_window_started_at": "2026-11-02T10:02:44+09:00",
+      "duration_seconds": 1393.201,
+      "observed_segments": [
+        {
+          "at_seconds": 5,
+          "kind": "single_paused_frame",
+          "observation": "낮의 캠퍼스 건물·지붕과 큰 영문 대학 이야기 타이틀",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 696.54585,
+          "kind": "single_paused_frame",
+          "observation": "중앙 원탁과 의자, 원탁 위 밝은 빛과 뒤쪽 어두운 유리 공간",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 701.54585,
+          "kind": "single_paused_frame",
+          "observation": "같은 유형 원탁·의자·유리 뒤 공간",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 706.54585,
+          "kind": "single_paused_frame",
+          "observation": "같은 유형 원탁·의자 구도",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 1114.47336,
+          "kind": "single_paused_frame",
+          "observation": "생활 물건·책·상자를 담은 선반 근접 구도",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        }
+      ],
+      "observation_method": "native_Chrome_extension_browser_UI_screenshots_and_read_only_video_currentTime_duration_paused_muted_readyState; keyboard seeking",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "18초 광고를 건너뛴 뒤 원 영상 1393.201초, muted/paused 및 유효 프레임 readyState 4 대조. 탐색 직후 readyState 1의 이전 화면은 근거에서 제외. 일부 시도가 전체화면/스크롤을 바꾸지 못해 상단이 가린 범위로 기록.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음.",
+      "premise_in_one_line": "제목 또는 화면의 일반 공간·물건 축만 확인. 원본 사건은 각색하지 않음.",
+      "editing_findings": [
+        "밝은 평범한 원탁과 어두운 주변부의 명암 대비. 중앙·하부에서 보이는 대상만 판단.",
+        "인접 표본이 유사하나 10초 연속 유지·실제 컷 없음·움직임 속도를 입증하지 않음."
+      ],
+      "adaptation_proposal": "밝은 빈 가구를 단서의 중심에 두는 조건부 구도 후보. 실제 같은 장소·위협 사건·효과를 단정하지 않음.",
+      "overlap_with_existing_projects": "028 객석·031 카트/기기와 구별할 관객 목적·천장/객석 관계의 독립 소재만 제안.",
+      "limitations": [
+        "무음 정지 표본만 확인; 직접 청취·컷 속도·연속 재생·정확한 전환 길이는 미검증.",
+        "전체 이야기·첫 문장 훅·전체 단서 공개 순서·결말은 미검토. 제목의 실화·범죄·의식 주장을 사실로 검증하지 않음.",
+        "Shorts Related Video 연결 미확인.",
+        "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md"
+    },
+    {
+      "video_id": "IaxCbkTq5Ec",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=IaxCbkTq5Ec",
+      "title": "강신무 (레코딩군님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2시간 전",
+      "list_duration_label": "56분",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "observation_window_started_at": "2026-11-02T10:02:44+09:00",
+      "duration_seconds": 3365.181,
+      "observed_segments": [
+        {
+          "at_seconds": 30,
+          "kind": "single_paused_frame",
+          "observation": "마이크·안경·이어폰을 쓴 진행자",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 1682.5809,
+          "kind": "single_paused_frame",
+          "observation": "푸른 야외 길과 점퍼를 입은 인물 상체",
+          "visible_scope": "upper_player_cropped_in_viewport; visible_center_lower_only"
+        },
+        {
+          "at_seconds": 1687.5809,
+          "kind": "single_paused_frame",
+          "observation": "푸른 길·왼쪽 가로등과 인물 삽화",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 1692.5809,
+          "kind": "single_paused_frame",
+          "observation": "공군 출입구 사진과 이야기와 무관한 참고용 자료라는 표시",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 2692.12944,
+          "kind": "single_paused_frame",
+          "observation": "불투명한 창 면의 어두운 얼룩과 상부 프레임 경계의 밝은 형체 일부",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        }
+      ],
+      "observation_method": "native_Chrome_extension_browser_UI_screenshots_and_read_only_video_currentTime_duration_paused_muted_readyState; keyboard seeking",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "원 영상 3365.181초 확인, 해당 진입에 별도 광고 표본 없음. 30·1682초는 상단이 가린 범위. 플레이어 전체 라벨로 키 입력한 뒤 scrollY 0 및 전체 플레이어가 보이는 표본 확보. 상품 UI·추가 전사 자막은 분석에서 제외.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음.",
+      "premise_in_one_line": "제목 또는 화면의 일반 공간·물건 축만 확인. 원본 사건은 각색하지 않음.",
+      "editing_findings": [
+        "1687.581초 인물 삽화와 1692.581초 시설 참고 사진은 서로 다름. 실제 전환 시각·길이 미측정.",
+        "후반 창 면과 윗경계의 서로 다른 가림 관계만 확인. 밝은 조각의 정체·개체 수·출현 사건은 미확인."
+      ],
+      "adaptation_proposal": "가림면 전체를 흐리지 않고 경계에 단서를 남기는 조건부 응용. 실제 시설 사진·지역·의식 사건은 새 제작에 차용하지 않음.",
+      "overlap_with_existing_projects": "028 커튼/비닐막과 넓은 가림 축이 겹쳐 같은 손·문틈·젖은 신발·공연사진 반전은 소재 후보에서 제외.",
+      "limitations": [
+        "무음 정지 표본만 확인; 직접 청취·컷 속도·연속 재생·정확한 전환 길이는 미검증.",
+        "전체 이야기·첫 문장 훅·전체 단서 공개 순서·결말은 미검토. 제목의 실화·범죄·의식 주장을 사실로 검증하지 않음.",
+        "Shorts Related Video 연결 미확인.",
+        "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md"
+    },
+    {
+      "video_id": "JgBxoAjAocc",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=JgBxoAjAocc",
+      "title": "302호 겁나 예쁜 그녀 (난효정이다님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "7일 전; 목록 회원 배지 없음, 재생 페이지 회원 우선 공개 이력 링크",
+      "list_duration_label": "35분",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "observation_window_started_at": "2026-11-02T10:02:44+09:00",
+      "duration_seconds": 2100.021,
+      "observed_segments": [
+        {
+          "at_seconds": 10,
+          "kind": "single_paused_frame",
+          "observation": "진행자·오른쪽 채팅·상단 안내 문구가 있는 도입 화면",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 1050,
+          "kind": "single_paused_frame",
+          "observation": "푸른빛 커튼과 뒤쪽 창 격자",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 1055,
+          "kind": "single_paused_frame",
+          "observation": "같은 유형 커튼이며 왼쪽 천의 윤곽이 다른 정지 표본",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 1060,
+          "kind": "single_paused_frame",
+          "observation": "같은 유형 커튼·창 구도",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 1680,
+          "kind": "single_paused_frame",
+          "observation": "어두운 배경에 손이 크게 보이는 근접 구도",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        }
+      ],
+      "observation_method": "native_Chrome_extension_browser_UI_screenshots_and_read_only_video_currentTime_duration_paused_muted_readyState; keyboard seeking",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "목록에는 회원 배지 없음. 27초 광고를 건너뛴 뒤 일반 플레이어 2100.021초 확인. 재생 페이지의 회원 우선 공개 링크는 이력 표기와 구분. 연결 중단 뒤 동일 탭을 새 Chrome 연결로 이어받아 원 영상·muted/paused를 대조.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음.",
+      "premise_in_one_line": "제목 또는 화면의 일반 공간·물건 축만 확인. 원본 사건은 각색하지 않음.",
+      "editing_findings": [
+        "1050·1055초 천 윤곽 차이만 확인. 실제 물체 이동·모션 구현 방식·속도는 미검증.",
+        "채팅 도입과 손 근접 구도는 기존 가이드에 이미 있어 새 효과를 추가하지 않음."
+      ],
+      "adaptation_proposal": "새 소재·기법을 별도 추가하지 않음. 아파트 귀신·원작 인물·사연·손 행동을 복제하지 않음.",
+      "overlap_with_existing_projects": "028 커튼과 실내 가림 소재가 겹치므로 기존 카탈로그 범위로 유지.",
+      "limitations": [
+        "무음 정지 표본만 확인; 직접 청취·컷 속도·연속 재생·정확한 전환 길이는 미검증.",
+        "전체 이야기·첫 문장 훅·전체 단서 공개 순서·결말은 미검토. 제목의 실화·범죄·의식 주장을 사실로 검증하지 않음.",
+        "Shorts Related Video 연결 미확인.",
+        "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "became_public",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+      "prior_exclusion_record": {
+        "video_id": "JgBxoAjAocc",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=JgBxoAjAocc",
+        "title": "302호 겁나 예쁜 그녀｜난효정이다 님 사연",
+        "publication_label": "1일 전",
+        "list_duration_label": "35분",
+        "reason": "회원 우선 공개; 공개 전환 시 재확인",
+        "checked_at": "2026-10-19T10:16:56+09:00",
+        "review_status": "listing_only_not_analyzed"
+      }
+    },
+    {
+      "video_id": "btAVrKnyzGQ",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=btAVrKnyzGQ",
+      "title": "도시가스 점검·충북 제천 빌라 사건",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "7일 전",
+      "list_duration_label": "14:44",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "observation_window_started_at": "2026-11-02T10:02:44+09:00",
+      "duration_seconds": 884.761,
+      "observed_segments": [
+        {
+          "at_seconds": 30,
+          "kind": "single_paused_frame",
+          "observation": "낡은 건물 외관·왼쪽 작은 진행자 창·큰 하단 문장 글자",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 442.366666,
+          "kind": "single_paused_frame",
+          "observation": "타일 벽의 가스 배관·밸브 근접 구도",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 447.366666,
+          "kind": "single_paused_frame",
+          "observation": "여러 창과 배관이 있는 건물 외관",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 452.366666,
+          "kind": "single_paused_frame",
+          "observation": "같은 계열 건물 외관의 계량기들이 더 크게 보이는 표본",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        },
+        {
+          "at_seconds": 707.786666,
+          "kind": "single_paused_frame",
+          "observation": "타일·배관·밸브 근접 구도",
+          "visible_scope": "full_player_visible_with_UI_overlays"
+        }
+      ],
+      "observation_method": "native_Chrome_extension_browser_UI_screenshots_and_read_only_video_currentTime_duration_paused_muted_readyState; keyboard seeking",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "해당 진입에서 별도 광고 표본 없이 원 영상 884.761초 및 muted/paused·readyState 4 대조. 상품·워터마크·추가 전사 자막은 연출 후보와 구분.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음.",
+      "premise_in_one_line": "제목 또는 화면의 일반 공간·물건 축만 확인. 원본 사건은 각색하지 않음.",
+      "editing_findings": [
+        "설비 근접→외관 전체의 다른 표본이 있음. 실제 같은 건물·동선·매치 컷을 입증하지 않음.",
+        "밸브·벽·배관은 읽히지만 진행자 창과 문장 글자가 하부 영역을 차지함. 새 기법은 기존 공간-단서 방식과 중복되어 추가하지 않음."
+      ],
+      "adaptation_proposal": "근접과 전체의 정보 차이는 기존 space_clue_action으로 참고. 실제 가스 점검 절차·특정 지역 사건·범죄 결말은 차용하지 않음.",
+      "overlap_with_existing_projects": "028 냉동창고·031 방음벽/차고지·기존 가마 후보와 직업/설비 축이 겹쳐 새 점검업 소재는 추가하지 않음.",
+      "limitations": [
+        "무음 정지 표본만 확인; 직접 청취·컷 속도·연속 재생·정확한 전환 길이는 미검증.",
+        "전체 이야기·첫 문장 훅·전체 단서 공개 순서·결말은 미검토. 제목의 실화·범죄·의식 주장을 사실로 검증하지 않음.",
+        "Shorts Related Video 연결 미확인.",
+        "검은 바탕 번역/전사 자막과 일부 UI는 브라우저 확장·플레이어 오버레이일 수 있어 원본 번인 자막 또는 채널 편집으로 귀속하지 않음."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md"
     }
   ],
   "pending_videos": [
@@ -892,6 +1167,269 @@
       "discovered_at": "2026-10-19T10:16:56+09:00",
       "status": "not_selected_this_run",
       "reason": "신규 화면 적용 후보와 기존 대기·공개 전환 항목을 우선 표본 검토. 회차 상한 도달을 의미하지 않음; 재생·내용 미검토. 제목의 실화·범죄 주장은 미검증."
+    },
+    {
+      "video_id": "kwRXWbEwY2k",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=kwRXWbEwY2k",
+      "title": "3 Terrifying TRUE Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "4일 전",
+      "list_duration_label": "28:12",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "8ZFTlvcVWLg",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=8ZFTlvcVWLg",
+      "title": "3 Terrifying TRUE Travel Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "29:18",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "7I-fUQtscag",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=7I-fUQtscag",
+      "title": "3 Terrifying TRUE Thunderstorm Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "10일 전",
+      "list_duration_label": "26:20",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "LPrD0f-bP2k",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=LPrD0f-bP2k",
+      "title": "3 Terrifying TRUE Fall Camping Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "13일 전",
+      "list_duration_label": "23:44",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "pVkMaV19OMk",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=pVkMaV19OMk",
+      "title": "준현 실험 사건 (동네꼬마님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "49분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "cXdnBS82ZVw",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=cXdnBS82ZVw",
+      "title": "사람 죽는 동호회 (테즈님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "53분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "t-jhpTsaI5M",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=t-jhpTsaI5M",
+      "title": "7년 악귀 떨구기 (소보로떡님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "4일 전",
+      "list_duration_label": "34분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "RCBhKAb1zbs",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=RCBhKAb1zbs",
+      "title": "인천 도깨비 포차 (소고기님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "46분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "dUA_bBG_uf0",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=dUA_bBG_uf0",
+      "title": "호스피스 인간 섭취남 (열무아빠님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "50분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "P0x0Ax7yZl4",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=P0x0Ax7yZl4",
+      "title": "강원도 고어 폐가 (방울님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "7일 전",
+      "list_duration_label": "1시간 1분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "RUueIFm-lWQ",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=RUueIFm-lWQ",
+      "title": "바퀴벌레 브로커 (동네꼬마님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "9일 전",
+      "list_duration_label": "46분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "FHecNTBjE-I",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=FHecNTBjE-I",
+      "title": "아프리카 대답 금지 주택 (영님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "10일 전",
+      "list_duration_label": "46분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "GewKc_OJ6qY",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=GewKc_OJ6qY",
+      "title": "신을 지고 있는 남자 (신남님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "11일 전",
+      "list_duration_label": "29분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "gI3XOyKfI5w",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=gI3XOyKfI5w",
+      "title": "그루밍 박수 무당 사건 (진수바리님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "12일 전",
+      "list_duration_label": "30분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "GiJVwdhvBjA",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=GiJVwdhvBjA",
+      "title": "엔플라잉 밴드 공포 썰",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "13일 전",
+      "list_duration_label": "42분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "A5Nz9jR-B-s",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=A5Nz9jR-B-s",
+      "title": "낯선 곳에서의 하루 (다이몬님 원작)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "1일 전",
+      "list_duration_label": "8:12",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "5peOgrTjKqI",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=5peOgrTjKqI",
+      "title": "선한 사마리아인 (레딧괴담)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "37분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "aGUsTz3M75s",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=aGUsTz3M75s",
+      "title": "넋건지기 굿 도중 사기꾼이 된 이모",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "9일 전",
+      "list_duration_label": "14:11",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "fg9O3W535_Y",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=fg9O3W535_Y",
+      "title": "귀문이 열려 저주받은 가문 - 뒷S구",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "10일 전",
+      "list_duration_label": "48분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "BK-AEd82tmM",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=BK-AEd82tmM",
+      "title": "귀신도 포기한 우리 큰언니 (잔벼리님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "12일 전; 목록 회원 배지 없음",
+      "list_duration_label": "17분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "public_listing_player_unverified",
+      "reason": "현재 목록에는 회원 배지가 없음. 일반 플레이어 접근·내용은 미검증이므로 공개 전환 확정 없이 대기. 이전 제외 이력 보존.",
+      "prior_exclusion_record": {
+        "video_id": "BK-AEd82tmM",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=BK-AEd82tmM",
+        "title": "귀신도 포기한 우리 큰언니｜잔벼리 님 사연",
+        "publication_label": "3일 전",
+        "list_duration_label": "17분",
+        "reason": "회원 우선 공개; 공개 전환 시 재확인",
+        "checked_at": "2026-10-19T10:16:56+09:00",
+        "review_status": "listing_only_not_analyzed"
+      }
+    },
+    {
+      "video_id": "-6GXb95SUnU",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=-6GXb95SUnU",
+      "title": "당근 친목 모임 사건",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "17분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "pending",
+      "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
     }
   ],
   "runs": [
@@ -1065,9 +1603,428 @@
         "검색 결과 부재를 업로드 부재로 해석하지 않음",
         "기존 검토·대기·제외의 공개 상태를 이번 조사 시점으로 갱신하지 않음"
       ]
+    },
+    {
+      "run_id": "2026-11-02-weekly-01",
+      "triggered_at": "2026-11-02T01:02:44.020Z",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+      "status": "partial_visual_review_complete",
+      "result": "Chrome current listings recovered; four unreviewed IDs sampled, including one previously members-first item.",
+      "reviewed_video_ids": [
+        "BbyQGWmOKrI",
+        "IaxCbkTq5Ec",
+        "JgBxoAjAocc",
+        "btAVrKnyzGQ"
+      ],
+      "detailed_review_counts": {
+        "Mr. Nightmare": 1,
+        "돌비공포라디오": 1,
+        "왓섭! 공포라디오": 1,
+        "괴들남 공포이야기": 1
+      },
+      "pending_count": 35,
+      "excluded_count": 14,
+      "audio_review_scope": "not_listened",
+      "content_review_completed": false,
+      "recorded_visual_sample_review_completed": true,
+      "observed_sample_count": 20,
+      "listing_scope": {
+        "Mr. Nightmare": 6,
+        "돌비공포라디오": 14,
+        "왓섭! 공포라디오": 10,
+        "괴들남 공포이야기": 3
+      },
+      "listing_observations": [
+        {
+          "video_id": "BbyQGWmOKrI",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=BbyQGWmOKrI",
+          "title": "3 Disturbing TRUE College Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "23:14",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "selected"
+        },
+        {
+          "video_id": "V-JNxhZya-w",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=V-JNxhZya-w",
+          "title": "3 Terrifying October Horror Stories to Close Out the Month",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "26:15",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "members"
+        },
+        {
+          "video_id": "kwRXWbEwY2k",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=kwRXWbEwY2k",
+          "title": "3 Terrifying TRUE Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "4일 전",
+          "list_duration_label": "28:12",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "8ZFTlvcVWLg",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=8ZFTlvcVWLg",
+          "title": "3 Terrifying TRUE Travel Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "29:18",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "7I-fUQtscag",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=7I-fUQtscag",
+          "title": "3 Terrifying TRUE Thunderstorm Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "26:20",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "LPrD0f-bP2k",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=LPrD0f-bP2k",
+          "title": "3 Terrifying TRUE Fall Camping Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "13일 전",
+          "list_duration_label": "23:44",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "IaxCbkTq5Ec",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=IaxCbkTq5Ec",
+          "title": "강신무 (레코딩군님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2시간 전",
+          "list_duration_label": "56분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "selected"
+        },
+        {
+          "video_id": "2S9GT9UFZ6w",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=2S9GT9UFZ6w",
+          "title": "시들무에서도 들어보기 힘든 기묘한 이야기 모음",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "1일 전",
+          "list_duration_label": "2시간 22분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "pVkMaV19OMk",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=pVkMaV19OMk",
+          "title": "준현 실험 사건 (동네꼬마님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "49분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "cXdnBS82ZVw",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=cXdnBS82ZVw",
+          "title": "사람 죽는 동호회 (테즈님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "53분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "t-jhpTsaI5M",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=t-jhpTsaI5M",
+          "title": "7년 악귀 떨구기 (소보로떡님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "4일 전",
+          "list_duration_label": "34분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "RCBhKAb1zbs",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=RCBhKAb1zbs",
+          "title": "인천 도깨비 포차 (소고기님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "46분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "dUA_bBG_uf0",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=dUA_bBG_uf0",
+          "title": "호스피스 인간 섭취남 (열무아빠님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "50분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "P0x0Ax7yZl4",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=P0x0Ax7yZl4",
+          "title": "강원도 고어 폐가 (방울님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "7일 전",
+          "list_duration_label": "1시간 1분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "ZW0Mh4xUKhA",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=ZW0Mh4xUKhA",
+          "title": "시골 숙박 괴담 모음",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "8일 전",
+          "list_duration_label": "2시간 10분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "RUueIFm-lWQ",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=RUueIFm-lWQ",
+          "title": "바퀴벌레 브로커 (동네꼬마님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "9일 전",
+          "list_duration_label": "46분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "FHecNTBjE-I",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=FHecNTBjE-I",
+          "title": "아프리카 대답 금지 주택 (영님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "46분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "GewKc_OJ6qY",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=GewKc_OJ6qY",
+          "title": "신을 지고 있는 남자 (신남님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "11일 전",
+          "list_duration_label": "29분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "gI3XOyKfI5w",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=gI3XOyKfI5w",
+          "title": "그루밍 박수 무당 사건 (진수바리님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "12일 전",
+          "list_duration_label": "30분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "GiJVwdhvBjA",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=GiJVwdhvBjA",
+          "title": "엔플라잉 밴드 공포 썰",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "13일 전",
+          "list_duration_label": "42분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "A5Nz9jR-B-s",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=A5Nz9jR-B-s",
+          "title": "낯선 곳에서의 하루 (다이몬님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "1일 전",
+          "list_duration_label": "8:12",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "V552k1615rI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=V552k1615rI",
+          "title": "범인은 왜 현장마다 안개꽃을 놓았을까? 통합본",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "2시간",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "3InoqTW0IpI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+          "title": "동물병원의 악몽 (환상괴담님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "32분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "5peOgrTjKqI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=5peOgrTjKqI",
+          "title": "선한 사마리아인 (레딧괴담)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "37분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "P-v1VYKKBXU",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+          "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "20분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "JgBxoAjAocc",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=JgBxoAjAocc",
+          "title": "302호 겁나 예쁜 그녀 (난효정이다님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "7일 전; 목록 회원 배지 없음, 재생 페이지 회원 우선 공개 이력 링크",
+          "list_duration_label": "35분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "selected_became_public"
+        },
+        {
+          "video_id": "aGUsTz3M75s",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=aGUsTz3M75s",
+          "title": "넋건지기 굿 도중 사기꾼이 된 이모",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "9일 전",
+          "list_duration_label": "14:11",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "fg9O3W535_Y",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=fg9O3W535_Y",
+          "title": "귀문이 열려 저주받은 가문 - 뒷S구",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "48분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "QgMgpOOHLq4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
+          "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "52분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "BK-AEd82tmM",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=BK-AEd82tmM",
+          "title": "귀신도 포기한 우리 큰언니 (잔벼리님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "12일 전; 목록 회원 배지 없음",
+          "list_duration_label": "17분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "public_listing_player_unverified"
+        },
+        {
+          "video_id": "-6GXb95SUnU",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=-6GXb95SUnU",
+          "title": "당근 친목 모임 사건",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "17분",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "btAVrKnyzGQ",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=btAVrKnyzGQ",
+          "title": "도시가스 점검·충북 제천 빌라 사건",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "7일 전",
+          "list_duration_label": "14:44",
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "selected"
+        },
+        {
+          "video_id": "WseFGU5UzfM",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=WseFGU5UzfM",
+          "title": "시청자 반응이 뜨거웠던 레전드 실화 괴담 모음",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "11일 전",
+          "list_duration_label": null,
+          "discovered_at": "2026-11-02T10:12:57+09:00",
+          "status": "compilation"
+        }
+      ],
+      "web_access_result": "three stale footer-only pages and one throttled page; not used as current inventory",
+      "browser_access": {
+        "surface": "native Chrome extension",
+        "result": "current lists and public players reached",
+        "transient_reconnect": "one connection interruption recovered on the same task-created tab",
+        "screenshot_limitations": "Early Mr samples and first two Dol samples had upper viewport crop; subsequent player-level keyboard navigation restored full player view. Only visible areas are described. Extension subtitles are not attributed to channel edits."
+      },
+      "review_passes": [
+        {
+          "name": "source_and_observation_accuracy",
+          "result": "IDs, current labels, ads, duration, paused/muted/ready frames and crop/overlay limits checked"
+        },
+        {
+          "name": "story_style_and_mobile_applicability",
+          "result": "two conditional composition applications and one independent premise; existing catalog IDs retained, mobile clue scale and recent story overlap reviewed"
+        }
+      ],
+      "new_editing_candidates": 2,
+      "new_premise_candidates": 1,
+      "guide_changes": "browser overlay provenance and decoded-frame/visible-scope checks; no production preset changed",
+      "production_started": false,
+      "next_action": "Read latest report and unused candidates for the next requested anthology; recheck pending IDs/public availability without duplicate review."
     }
   ],
-  "latest_report": "planning/horror-reference-monitoring/2026-10-26/report.ko.md",
+  "latest_report": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
   "excluded_videos": [
     {
       "video_id": "v40aTNt0lqc",
@@ -1132,61 +2089,118 @@
       "review_status": "listing_only_not_analyzed"
     },
     {
-      "video_id": "JgBxoAjAocc",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=JgBxoAjAocc",
-      "title": "302호 겁나 예쁜 그녀｜난효정이다 님 사연",
-      "publication_label": "1일 전",
-      "list_duration_label": "35분",
-      "reason": "회원 우선 공개; 공개 전환 시 재확인",
-      "checked_at": "2026-10-19T10:16:56+09:00",
+      "video_id": "V-JNxhZya-w",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=V-JNxhZya-w",
+      "title": "3 Terrifying October Horror Stories to Close Out the Month",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "26:15",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "members",
+      "reason": "회원 전용",
+      "checked_at": "2026-11-02T10:12:57+09:00",
       "review_status": "listing_only_not_analyzed"
     },
     {
-      "video_id": "BK-AEd82tmM",
+      "video_id": "2S9GT9UFZ6w",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=2S9GT9UFZ6w",
+      "title": "시들무에서도 들어보기 힘든 기묘한 이야기 모음",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "1일 전",
+      "list_duration_label": "2시간 22분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "compilation",
+      "reason": "제목에서 확인한 대형 모음/통합본",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "ZW0Mh4xUKhA",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=ZW0Mh4xUKhA",
+      "title": "시골 숙박 괴담 모음",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "8일 전",
+      "list_duration_label": "2시간 10분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "compilation",
+      "reason": "제목에서 확인한 대형 모음/통합본",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "V552k1615rI",
       "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=BK-AEd82tmM",
-      "title": "귀신도 포기한 우리 큰언니｜잔벼리 님 사연",
+      "url": "https://www.youtube.com/watch?v=V552k1615rI",
+      "title": "범인은 왜 현장마다 안개꽃을 놓았을까? 통합본",
+      "title_recording": "concise identification from current visible listing, not full heading",
       "publication_label": "3일 전",
-      "list_duration_label": "17분",
+      "list_duration_label": "2시간",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "compilation",
+      "reason": "제목에서 확인한 대형 모음/통합본",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "3InoqTW0IpI",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+      "title": "동물병원의 악몽 (환상괴담님 원작)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "32분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "members_first",
       "reason": "회원 우선 공개; 공개 전환 시 재확인",
-      "checked_at": "2026-10-19T10:16:56+09:00",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "P-v1VYKKBXU",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+      "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "20분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "members_first",
+      "reason": "회원 우선 공개; 공개 전환 시 재확인",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "QgMgpOOHLq4",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
+      "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "10일 전",
+      "list_duration_label": "52분",
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "members_first",
+      "reason": "회원 우선 공개; 공개 전환 시 재확인",
+      "checked_at": "2026-11-02T10:12:57+09:00",
+      "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "WseFGU5UzfM",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=WseFGU5UzfM",
+      "title": "시청자 반응이 뜨거웠던 레전드 실화 괴담 모음",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "11일 전",
+      "list_duration_label": null,
+      "discovered_at": "2026-11-02T10:12:57+09:00",
+      "status": "compilation",
+      "reason": "제목에서 확인한 대형 모음/통합본",
+      "checked_at": "2026-11-02T10:12:57+09:00",
       "review_status": "listing_only_not_analyzed"
     }
   ],
-  "latest_successful_content_report": "planning/horror-reference-monitoring/2026-10-19/report.ko.md",
-  "pending_channel_checks": [
-    {
-      "channel": "돌비공포라디오",
-      "url": "https://www.youtube.com/@돌비공포라디오/videos",
-      "status": "current_public_listing_unverified",
-      "last_attempt_at": "2026-10-26T10:02:08+09:00",
-      "reason": "web_unreliable_and_iab_unavailable",
-      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
-    },
-    {
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/@왓섭/videos",
-      "status": "current_public_listing_unverified",
-      "last_attempt_at": "2026-10-26T10:02:08+09:00",
-      "reason": "web_unreliable_and_iab_unavailable",
-      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
-    },
-    {
-      "channel": "괴들남",
-      "url": "https://www.youtube.com/@괴들남/videos",
-      "status": "current_public_listing_unverified",
-      "last_attempt_at": "2026-10-26T10:02:08+09:00",
-      "reason": "web_unreliable_and_iab_unavailable",
-      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
-    },
-    {
-      "channel": "Mr. Nightmare",
-      "url": "https://www.youtube.com/@MrNightmare/videos",
-      "status": "current_public_listing_unverified",
-      "last_attempt_at": "2026-10-26T10:02:08+09:00",
-      "reason": "web_unreliable_and_iab_unavailable",
-      "report_path": "planning/horror-reference-monitoring/2026-10-26/report.ko.md"
-    }
-  ]
+  "latest_successful_content_report": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+  "pending_channel_checks": []
 }
