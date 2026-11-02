@@ -11,7 +11,7 @@ commands, project files, generated media, and deliverables. The legacy path
 existing chats and file links continue to resolve.
 
 Use `.venv/bin/python` for project Python commands. The project environment is
-Python 3.14.9; `/usr/bin/python3` is the separate macOS developer-tools interpreter.
+Python 3.14.10; `/usr/bin/python3` is the separate macOS developer-tools interpreter.
 
 This repository is the standalone Hyperframes production workspace. Do not edit,
 sync, or assume a runtime dependency on `/Users/happinich/Documents/Remotion-codex`.
@@ -156,13 +156,17 @@ silently carry a previous project's style or BGM into a new project.
 - Use ElevenLabs model `eleven_v4` for new narration and the voice settings in
   `config/success-rules.json`. Explicit model settings in existing projects remain
   authoritative when reviewing or reproducing those projects.
-- V4 uses Stability and Similarity only. Direct emotion and cadence with sparse
-  audio tags in `tts-narration.txt` or `request.performance_direction`; keep
+- The current V4 pipeline sends Stability and Similarity only. Direct emotion
+  and cadence with sparse audio tags in `tts-narration.txt` or `request.performance_direction`; keep
   `narration.txt` and captions free of performance tags. Do not send Style, Speed,
   Speaker Boost or SSML. Build restrained spoken Korean with a gradual emotional
   arc, and review any generated non-speech or background audio before accepting
   a voice-only master. Connect sequential chunks using prior request IDs or
   neighboring text.
+- The provider also documents `clone_strength` for Professional Voice Clones
+  fine-tuned for the exact v4 model. It is not implemented in this pipeline; do
+  not add it to requests. Check voice/model eligibility, request support and
+  audio quality separately before considering a future implementation.
 - Split long text at sentence boundaries into approximately 1,000-1,300
   characters, generate chunks sequentially, and concatenate them without gaps.
 - Keep API keys only in environment variables. Never place a real key in source,

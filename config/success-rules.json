@@ -276,7 +276,22 @@
         "ssml_supported": false,
         "narration_style": "Natural spoken Korean with restrained tension, conversational cadence, and gradual emotional escalation; use sparse performance tags only in the TTS input.",
         "sound_effects_in_narration": false,
-        "review_model_generated_background_audio": true
+        "review_model_generated_background_audio": true,
+        "provider_conditional_settings": {
+          "clone_strength": {
+            "provider_scope": "Professional Voice Clones fine-tuned for the exact v4 model",
+            "provider_range": [
+              0.0,
+              1.0
+            ],
+            "provider_recommended_initial_value": 0.0,
+            "pipeline_support": "not_implemented",
+            "send_by_default": false,
+            "guidance": "Do not add to project requests. Revisit only after checking exact voice/model eligibility and separately validating request support and audio quality.",
+            "official_source": "https://github.com/elevenlabs/skills/blob/main/text-to-speech/references/voice-settings.md",
+            "verified_on": "2026-11-02"
+          }
+        }
       }
     },
     "bgm": {

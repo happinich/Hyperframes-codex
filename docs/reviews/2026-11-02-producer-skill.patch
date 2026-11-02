@@ -1,0 +1,12 @@
+--- a/SKILL.md
++++ b/SKILL.md
+@@ -97 +97 @@
+-Use `eleven_v4`, Korean language, sentence-aware 1,000-1,300 character chunks, and the repository's approved voice settings. Keep API keys in environment variables only. V4 uses Stability and Similarity;
++Use `eleven_v4`, Korean language, sentence-aware 1,000-1,300 character chunks, and the repository's approved voice settings. Keep API keys in environment variables only. This pipeline sends Stability and Similarity for V4;
+@@ -102,0 +103,6 @@
++
++The provider also documents `clone_strength` for Professional Voice Clones fine-tuned
++for the exact v4 model. This pipeline does not implement it: do not add it to project
++requests or treat it as a general similarity control. Revisit only with verified
++voice/model eligibility and separately validated request support and audio quality.
++See `config/success-rules.json` under `audio_rules.elevenlabs.performance.provider_conditional_settings`.

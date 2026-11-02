@@ -125,8 +125,9 @@ def build_audio_payload(
     settings = dict(request_config.get("voice_settings", DEFAULT_VOICE_SETTINGS))
     is_v4 = model_id in {"eleven_v4", "eleven_v4_turbo"}
     if is_v4:
-        # V4 exposes Stability and Similarity; Style, Speed and Speaker Boost
-        # from an older project must not leak into its request.
+        # This pipeline implements baseline V4 Stability and Similarity.
+        # Conditional PVC clone_strength is not implemented; legacy Style, Speed
+        # and Speaker Boost must not leak into requests.
         settings = {key: value for key, value in settings.items() if key in {"stability", "similarity_boost"}}
         if re.search(r"<\s*/?\s*(?:speak|break|prosody|phoneme)\b", text, flags=re.I):
             raise ValueError("Eleven V4 does not support SSML; use audio tags in the TTS source")

@@ -68,16 +68,16 @@
 ## 초기 설정
 
 ```bash
-uv venv --python 3.14.9 .venv
+uv venv --python 3.14.10 .venv
 uv pip sync --python .venv/bin/python --link-mode copy requirements.lock
 source .venv/bin/activate
 ```
 
-Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.9이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
+Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.10이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
 
-2026-10-26 검증 환경은 Hyperframes `0.8.200`, Node.js `22.23.4`,
-FFmpeg/ffprobe `9.0.2`, uv `0.13.5`입니다. uv 0.13의 기본 다운로드
-대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.9`와
+2026-11-02 검증 환경은 Hyperframes `0.8.214`, Node.js `22.23.4`,
+FFmpeg/ffprobe `9.0.2`, uv `0.13.6`입니다. uv 0.13의 기본 다운로드
+대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.10`와
 기존 `.python-version`을 유지합니다. Python 전체 설치 버전은
 `requirements.lock`으로 재현합니다. MLX·mlx-metal은 `0.32.4`, mlx-whisper는
 `0.4.3`입니다. 주간 점검에서는 uv 검사와 별도로 패키지 메타데이터의 Python 상·하한 및
@@ -85,7 +85,10 @@ FFmpeg/ffprobe `9.0.2`, uv `0.13.5`입니다. uv 0.13의 기본 다운로드
 주간 점검에서는 제작·설치 실행 여부와
 Git 상태를 먼저 확인하고, 격리 환경 검증 뒤 호환되는 안정 버전만 적용합니다.
 자세한 버전, 보안 검사 및 렌더 결과는
-[2026-10-26 점검 기록](reviews/2026-10-26-toolchain-update.md)을 참고합니다.
+[2026-11-02 점검 기록](reviews/2026-11-02-toolchain-update.md)을 참고합니다.
+최신 Hyperframes 0.8.229는 고정 undici 의존성의 보안 문제로 보류하고,
+보안 검사 0건인 0.8.214를 검증해 고정했습니다. Node 22는 Homebrew에서
+deprecated로 표시되지만 공식 지원은 2027-04-30까지입니다. 자동 메이저 변경은 하지 않습니다.
 
 기본 정렬 모델은 Apple Silicon에서 빠르게 동작하는 `mlx-community/whisper-large-v3-turbo`입니다. 이 프로젝트에서는 Whisper가 자막 문구를 새로 쓰지 않고, 승인된 대본 원문의 실제 발화 시간만 찾습니다.
 
@@ -172,7 +175,14 @@ ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. A
 
 V4는 요청당 최대 10,000자를 지원하지만 재시도와 구간 검수가 쉬운 문장 청크를 사용합니다. `generate_elevenlabs_audio.py`가 원고를 공백 포함 1,000~1,300자로 나누고 이전 요청 ID 또는 앞뒤 원문으로 흐름을 연결합니다. 청크는 순차 생성해 ffmpeg로 병합합니다.
 
-V4는 Stability와 Similarity만 지원합니다. Style·Speed·Speaker Boost·SSML은 API에 보내지 않습니다. 감정 지시는 `request.performance_direction`에 괄호 없는 한 줄로 쓰거나 발음용 `tts-narration.txt`에 `[quiet, measured narration]`, `[whispering]` 같은 태그를 필요한 부분에만 넣습니다. `prepare_tts_script.py`로 숫자를 정리한 뒤 태그를 편집하고, 승인 원고와 자막에는 태그를 넣지 않습니다. 생성기는 V4 발음용 원문에서 태그를 제외한 문장이 승인 원고의 숫자 발음 변환과 일치하는지 확인합니다. 태그를 핑계로 대사를 추가하거나 결말을 바꾸지 않습니다.
+현재 생성기는 V4의 Stability와 Similarity만 전송합니다. Style·Speed·Speaker Boost·SSML은 API에 보내지 않습니다. 감정 지시는 `request.performance_direction`에 괄호 없는 한 줄로 쓰거나 발음용 `tts-narration.txt`에 `[quiet, measured narration]`, `[whispering]` 같은 태그를 필요한 부분에만 넣습니다. `prepare_tts_script.py`로 숫자를 정리한 뒤 태그를 편집하고, 승인 원고와 자막에는 태그를 넣지 않습니다. 생성기는 V4 발음용 원문에서 태그를 제외한 문장이 승인 원고의 숫자 발음 변환과 일치하는지 확인합니다. 태그를 핑계로 대사를 추가하거나 결말을 바꾸지 않습니다.
+
+공식 문서에는 정확한 V4 모델용으로 미세 조정된 전문 복제 보이스(PVC)에 한해
+`clone_strength`도 안내되어 있습니다. 범위·권고값·출처는
+`audio_rules.elevenlabs.performance.provider_conditional_settings`에 기록합니다.
+이 생성기는 해당 선택 설정을 구현하지 않았으므로 프로젝트 요청에 추가하지 않습니다.
+향후 지원을 검토할 때는 실제 보이스·모델의 자격, 요청 경로와 음질을 각각 검증합니다.
+정기 환경 점검에서는 유료 합성 없이 기본 요청과 읽기 전용 API 가용성을 확인합니다.
 
 공포는 조용한 구술체에서 시작해 단서가 쌓일수록 불안을 높이고, 결정적인 대사에만 억양·속삭임 지시를 사용합니다. 문장마다 태그를 반복하거나 자동 효과음을 요청하지 않습니다. V4 출력에 의도하지 않은 비음성·배경음이 섞였는지 별도로 검수합니다. 새 프로젝트는 `eleven_v4`로 만들며, 기존 프로젝트의 명시적 모델 설정은 재현 시 유지합니다.
 
