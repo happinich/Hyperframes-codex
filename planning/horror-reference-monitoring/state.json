@@ -3,7 +3,7 @@
   "timezone": "Asia/Seoul",
   "baseline_report": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
   "baseline_scope": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
-  "last_scheduled_run_at": "2026-11-02T01:02:44.020Z",
+  "last_scheduled_run_at": "2026-11-09T00:56:12.838Z",
   "reviewed_videos": [
     {
       "video_id": "LBTkwwxGfI8",
@@ -1430,6 +1430,220 @@
       "discovered_at": "2026-11-02T10:12:57+09:00",
       "status": "pending",
       "reason": "미검토 구도 표본을 채널별 한 편씩 우선 선택. 회차 상한 소진을 뜻하지 않으며 재생·내용 검토는 대기."
+    },
+    {
+      "video_id": "6aZH2a40BCU",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=6aZH2a40BCU",
+      "title": "3 Terrifying October Horror Stories to Close Out the Month",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "26분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음.",
+      "playback_content_verification": "58초 스폰서 광고 건너뛰기 후 원 영상 1574.621초. 5초에서 paused=true, muted=true, readyState=4 확인. 두 화면 캡처 모두 시간 초과하여 실제 프레임 관찰 없음.",
+      "observed_segments": [],
+      "chapter_source": "not_inspected",
+      "audio_review_scope": "not_listened"
+    },
+    {
+      "video_id": "mD_3uqR6au8",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=mD_3uqR6au8",
+      "title": "시골 미친 언니 괴담 (약과님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2시간 전",
+      "list_duration_label": "29분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "JtQEB6jJmzU",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=JtQEB6jJmzU",
+      "title": "유럽 도살자 사건 (동네꼬마님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "44분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "XKQ9HjoD2Cs",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=XKQ9HjoD2Cs",
+      "title": "피원하모니 공포 썰 P1Harmony",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "47분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "nWMIeHee4nM",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=nWMIeHee4nM",
+      "title": "셰어하우스 (디제이캣님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "4일 전",
+      "list_duration_label": "57분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "DgHBihNQ1K8",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=DgHBihNQ1K8",
+      "title": "자수하고 싶은 건달 (전설의배송맨님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "37분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "F5R_kkGJpvk",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=F5R_kkGJpvk",
+      "title": "VIP의 20가지 금기사항 (탁린이님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "34분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "3InoqTW0IpI",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+      "title": "동물병원의 악몽 (환상괴담님 원작)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3시간 전",
+      "list_duration_label": "32분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "public_listing_player_unverified",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 회원 배지가 사라짐. 일반 플레이어 접근·내용 미확인으로 공개 전환 확정 없이 대기. 이전 제외 이력 보존.",
+      "prior_exclusion_record": {
+        "video_id": "3InoqTW0IpI",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+        "title": "동물병원의 악몽 (환상괴담님 원작)",
+        "title_recording": "concise identification from current visible listing, not full heading",
+        "publication_label": "3일 전",
+        "list_duration_label": "32분",
+        "discovered_at": "2026-11-02T10:12:57+09:00",
+        "status": "members_first",
+        "reason": "회원 우선 공개; 공개 전환 시 재확인",
+        "checked_at": "2026-11-02T10:12:57+09:00",
+        "review_status": "listing_only_not_analyzed"
+      }
+    },
+    {
+      "video_id": "w2V1rVb-Yq4",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=w2V1rVb-Yq4",
+      "title": "군대 여자 귀신과 흑인 병사 귀신 - 우리 춘천 이모 08화",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "1일 전",
+      "list_duration_label": "17분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "P-v1VYKKBXU",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+      "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "20분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "public_listing_player_unverified",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 회원 배지가 사라짐. 일반 플레이어 접근·내용 미확인으로 공개 전환 확정 없이 대기. 이전 제외 이력 보존.",
+      "prior_exclusion_record": {
+        "video_id": "P-v1VYKKBXU",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+        "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
+        "title_recording": "concise identification from current visible listing, not full heading",
+        "publication_label": "5일 전",
+        "list_duration_label": "20분",
+        "discovered_at": "2026-11-02T10:12:57+09:00",
+        "status": "members_first",
+        "reason": "회원 우선 공개; 공개 전환 시 재확인",
+        "checked_at": "2026-11-02T10:12:57+09:00",
+        "review_status": "listing_only_not_analyzed"
+      }
+    },
+    {
+      "video_id": "QgMgpOOHLq4",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
+      "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "52분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "public_listing_player_unverified",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 회원 배지가 사라짐. 일반 플레이어 접근·내용 미확인으로 공개 전환 확정 없이 대기. 이전 제외 이력 보존.",
+      "prior_exclusion_record": {
+        "video_id": "QgMgpOOHLq4",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
+        "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
+        "title_recording": "concise identification from current visible listing, not full heading",
+        "publication_label": "10일 전",
+        "list_duration_label": "52분",
+        "discovered_at": "2026-11-02T10:12:57+09:00",
+        "status": "members_first",
+        "reason": "회원 우선 공개; 공개 전환 시 재확인",
+        "checked_at": "2026-11-02T10:12:57+09:00",
+        "review_status": "listing_only_not_analyzed"
+      }
+    },
+    {
+      "video_id": "GquaSi147EY",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=GquaSi147EY",
+      "title": "20만 원짜리 출장 알바 사건",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "14분 10초",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
     }
   ],
   "runs": [
@@ -2022,9 +2236,358 @@
       "guide_changes": "browser overlay provenance and decoded-frame/visible-scope checks; no production preset changed",
       "production_started": false,
       "next_action": "Read latest report and unused candidates for the next requested anthology; recheck pending IDs/public availability without duplicate review."
+    },
+    {
+      "run_id": "2026-11-09-weekly-01",
+      "triggered_at": "2026-11-09T00:56:12.838Z",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "report_path": "planning/horror-reference-monitoring/2026-11-09/report.ko.md",
+      "status": "listing_only_frame_capture_failed",
+      "result": "Current listings verified in in-app browser; Chrome tab creation failed and in-app frame captures timed out. No new content review or candidates.",
+      "reviewed_video_ids": [],
+      "detailed_review_counts": {
+        "Mr. Nightmare": 0,
+        "돌비공포라디오": 0,
+        "왓섭! 공포라디오": 0,
+        "괴들남 공포이야기": 0
+      },
+      "pending_count": 47,
+      "excluded_count": 18,
+      "audio_review_scope": "not_listened",
+      "content_review_completed": false,
+      "recorded_visual_sample_review_completed": false,
+      "observed_sample_count": 0,
+      "listing_scope": {
+        "Mr. Nightmare": 4,
+        "돌비공포라디오": 8,
+        "왓섭! 공포라디오": 9,
+        "괴들남 공포이야기": 4
+      },
+      "listing_observations": [
+        {
+          "video_id": "6aZH2a40BCU",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=6aZH2a40BCU",
+          "title": "3 Terrifying October Horror Stories to Close Out the Month",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "26분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "oulccPTl3pg",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=oulccPTl3pg",
+          "title": "3 Scary TRUE Cold Night Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "24분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "members"
+        },
+        {
+          "video_id": "sZntZ2HASEI",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=sZntZ2HASEI",
+          "title": "2 Bonus Halloween Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "13분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "members"
+        },
+        {
+          "video_id": "BbyQGWmOKrI",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=BbyQGWmOKrI",
+          "title": "3 Disturbing TRUE College Horror Stories",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "9일 전",
+          "list_duration_label": "23분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_reviewed"
+        },
+        {
+          "video_id": "mD_3uqR6au8",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=mD_3uqR6au8",
+          "title": "시골 미친 언니 괴담 (약과님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2시간 전",
+          "list_duration_label": "29분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "9Y343tTfcEk",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=9Y343tTfcEk",
+          "title": "팔자 괴담 모음",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "1일 전",
+          "list_duration_label": "2시간 1분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "JtQEB6jJmzU",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=JtQEB6jJmzU",
+          "title": "유럽 도살자 사건 (동네꼬마님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "44분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "XKQ9HjoD2Cs",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=XKQ9HjoD2Cs",
+          "title": "피원하모니 공포 썰 P1Harmony",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "47분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "nWMIeHee4nM",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=nWMIeHee4nM",
+          "title": "셰어하우스 (디제이캣님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "4일 전",
+          "list_duration_label": "57분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "DgHBihNQ1K8",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=DgHBihNQ1K8",
+          "title": "자수하고 싶은 건달 (전설의배송맨님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "37분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "F5R_kkGJpvk",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=F5R_kkGJpvk",
+          "title": "VIP의 20가지 금기사항 (탁린이님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "34분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "IaxCbkTq5Ec",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=IaxCbkTq5Ec",
+          "title": "강신무 (레코딩군님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "7일 전",
+          "list_duration_label": "56분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_reviewed"
+        },
+        {
+          "video_id": "3InoqTW0IpI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+          "title": "동물병원의 악몽 (환상괴담님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3시간 전",
+          "list_duration_label": "32분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "public_listing_player_unverified"
+        },
+        {
+          "video_id": "w2V1rVb-Yq4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=w2V1rVb-Yq4",
+          "title": "군대 여자 귀신과 흑인 병사 귀신 - 우리 춘천 이모 08화",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "1일 전",
+          "list_duration_label": "17분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "IH1HfrLHwr0",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=IH1HfrLHwr0",
+          "title": "끝나지 않는 지배 통합본",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "3시간 4분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "E93oad0FFr4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
+          "title": "입주민들이 계속 심장마비로 죽어나간 이유 - 연쇄 살인귀",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "51분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "P-v1VYKKBXU",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+          "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "20분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "public_listing_player_unverified"
+        },
+        {
+          "video_id": "mRrFQ54ULWk",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+          "title": "일본 연수중에 겪은 일 (리키스님 사연)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "17분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "QgMgpOOHLq4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
+          "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "52분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "public_listing_player_unverified"
+        },
+        {
+          "video_id": "A5Nz9jR-B-s",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=A5Nz9jR-B-s",
+          "title": "낯선 곳에서의 하루 (다이몬님 원작)",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "8일 전",
+          "list_duration_label": "8분 12초",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_pending"
+        },
+        {
+          "video_id": "V552k1615rI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=V552k1615rI",
+          "title": "범인은 왜 현장마다 안개꽃을 놓았을까? 통합본",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "2시간",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_excluded"
+        },
+        {
+          "video_id": "B9k5m55BSeg",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=B9k5m55BSeg",
+          "title": "인간이길 포기한 실화 괴담 모음",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "1시간 4분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "GquaSi147EY",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=GquaSi147EY",
+          "title": "20만 원짜리 출장 알바 사건",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "14분 10초",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "pending"
+        },
+        {
+          "video_id": "-6GXb95SUnU",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=-6GXb95SUnU",
+          "title": "당근 친목 모임 사건",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "17분",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_pending"
+        },
+        {
+          "video_id": "btAVrKnyzGQ",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=btAVrKnyzGQ",
+          "title": "도시가스 점검·충북 제천 빌라 사건",
+          "title_recording": "concise identification from current visible listing, not full heading",
+          "publication_label": "2주 전",
+          "list_duration_label": "14분 45초",
+          "checked_at": "2026-11-09T10:03:37+09:00",
+          "status": "already_reviewed"
+        }
+      ],
+      "new_pending_video_ids": [
+        "6aZH2a40BCU",
+        "mD_3uqR6au8",
+        "JtQEB6jJmzU",
+        "XKQ9HjoD2Cs",
+        "nWMIeHee4nM",
+        "DgHBihNQ1K8",
+        "F5R_kkGJpvk",
+        "w2V1rVb-Yq4",
+        "GquaSi147EY"
+      ],
+      "listing_public_status_recheck_ids": [
+        "3InoqTW0IpI",
+        "P-v1VYKKBXU",
+        "QgMgpOOHLq4"
+      ],
+      "new_excluded_video_ids": [
+        "oulccPTl3pg",
+        "sZntZ2HASEI",
+        "9Y343tTfcEk",
+        "IH1HfrLHwr0",
+        "E93oad0FFr4",
+        "mRrFQ54ULWk",
+        "B9k5m55BSeg"
+      ],
+      "access_attempts": [
+        {
+          "method": "web.open",
+          "result": "Mr/Dol/Goe returned old footer-only pages; Wat throttled. Not current-upload evidence."
+        },
+        {
+          "method": "Chrome documented tab creation",
+          "result": "Failed with timeoutMs property error, including after documented troubleshooting and one CUA reset. No content or current Chrome listing observed."
+        },
+        {
+          "method": "in-app browser DOM",
+          "result": "Four current channel listings verified; bounded recent scope 4/8/9/4. One ordinary Mr player duration and paused metadata verified after ad skip."
+        },
+        {
+          "method": "in-app browser screenshot and getScreenshot",
+          "result": "Both failed Page.captureScreenshot timeout at t=5. No frame evidence; no screenshot-based technique analysis."
+        }
+      ],
+      "browser_cleanup": "Own in-app research tab closed; no user tab operated.",
+      "follow_up": "Next run verify playback/screenshots for unreviewed IDs; public-listing badge removal is not confirmed player accessibility."
     }
   ],
-  "latest_report": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
+  "latest_report": "planning/horror-reference-monitoring/2026-11-09/report.ko.md",
   "excluded_videos": [
     {
       "video_id": "v40aTNt0lqc",
@@ -2145,48 +2708,6 @@
       "review_status": "listing_only_not_analyzed"
     },
     {
-      "video_id": "3InoqTW0IpI",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
-      "title": "동물병원의 악몽 (환상괴담님 원작)",
-      "title_recording": "concise identification from current visible listing, not full heading",
-      "publication_label": "3일 전",
-      "list_duration_label": "32분",
-      "discovered_at": "2026-11-02T10:12:57+09:00",
-      "status": "members_first",
-      "reason": "회원 우선 공개; 공개 전환 시 재확인",
-      "checked_at": "2026-11-02T10:12:57+09:00",
-      "review_status": "listing_only_not_analyzed"
-    },
-    {
-      "video_id": "P-v1VYKKBXU",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
-      "title": "소중한 사람을 데려간다던 악귀 (소유니님 사연)",
-      "title_recording": "concise identification from current visible listing, not full heading",
-      "publication_label": "5일 전",
-      "list_duration_label": "20분",
-      "discovered_at": "2026-11-02T10:12:57+09:00",
-      "status": "members_first",
-      "reason": "회원 우선 공개; 공개 전환 시 재확인",
-      "checked_at": "2026-11-02T10:12:57+09:00",
-      "review_status": "listing_only_not_analyzed"
-    },
-    {
-      "video_id": "QgMgpOOHLq4",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=QgMgpOOHLq4",
-      "title": "죽은 상사가 매일 출근한다 (전건우님 원작)",
-      "title_recording": "concise identification from current visible listing, not full heading",
-      "publication_label": "10일 전",
-      "list_duration_label": "52분",
-      "discovered_at": "2026-11-02T10:12:57+09:00",
-      "status": "members_first",
-      "reason": "회원 우선 공개; 공개 전환 시 재확인",
-      "checked_at": "2026-11-02T10:12:57+09:00",
-      "review_status": "listing_only_not_analyzed"
-    },
-    {
       "video_id": "WseFGU5UzfM",
       "channel": "괴들남 공포이야기",
       "url": "https://www.youtube.com/watch?v=WseFGU5UzfM",
@@ -2199,8 +2720,135 @@
       "reason": "제목에서 확인한 대형 모음/통합본",
       "checked_at": "2026-11-02T10:12:57+09:00",
       "review_status": "listing_only_not_analyzed"
+    },
+    {
+      "video_id": "oulccPTl3pg",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=oulccPTl3pg",
+      "title": "3 Scary TRUE Cold Night Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "24분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "members",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록의 회원 전용 배지"
+    },
+    {
+      "video_id": "sZntZ2HASEI",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=sZntZ2HASEI",
+      "title": "2 Bonus Halloween Horror Stories",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "13분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "members",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록의 회원 전용 배지"
+    },
+    {
+      "video_id": "9Y343tTfcEk",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=9Y343tTfcEk",
+      "title": "팔자 괴담 모음",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "1일 전",
+      "list_duration_label": "2시간 1분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "compilation",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 제목의 모음/통합본과 1시간 이상 길이를 확인한 대형 합본"
+    },
+    {
+      "video_id": "IH1HfrLHwr0",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=IH1HfrLHwr0",
+      "title": "끝나지 않는 지배 통합본",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "3시간 4분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "compilation",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 제목의 모음/통합본과 1시간 이상 길이를 확인한 대형 합본"
+    },
+    {
+      "video_id": "E93oad0FFr4",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
+      "title": "입주민들이 계속 심장마비로 죽어나간 이유 - 연쇄 살인귀",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "51분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "members_first",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
+    },
+    {
+      "video_id": "mRrFQ54ULWk",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+      "title": "일본 연수중에 겪은 일 (리키스님 사연)",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "17분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "members_first",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
+    },
+    {
+      "video_id": "B9k5m55BSeg",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=B9k5m55BSeg",
+      "title": "인간이길 포기한 실화 괴담 모음",
+      "title_recording": "concise identification from current visible listing, not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "1시간 4분",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "compilation",
+      "discovered_at": "2026-11-09T10:03:37+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 제목의 모음/통합본과 1시간 이상 길이를 확인한 대형 합본"
     }
   ],
   "latest_successful_content_report": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
-  "pending_channel_checks": []
+  "pending_channel_checks": [
+    {
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/@MrNightmare/videos",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "listing_verified_content_review_pending",
+      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
+    },
+    {
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/@돌비공포라디오/videos",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "listing_verified_content_review_pending",
+      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
+    },
+    {
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/@왓섭/videos",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "listing_verified_content_review_pending",
+      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
+    },
+    {
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/@괴들남/videos",
+      "checked_at": "2026-11-09T10:03:37+09:00",
+      "status": "listing_verified_content_review_pending",
+      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
+    }
+  ]
 }
