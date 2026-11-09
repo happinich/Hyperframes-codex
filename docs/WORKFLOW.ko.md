@@ -75,8 +75,8 @@ source .venv/bin/activate
 
 Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.10이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
 
-2026-11-02 검증 환경은 Hyperframes `0.8.214`, Node.js `22.23.4`,
-FFmpeg/ffprobe `9.0.2`, uv `0.13.6`입니다. uv 0.13의 기본 다운로드
+2026-11-09 검증 환경은 Hyperframes `0.8.214`, Node.js `22.23.4`,
+FFmpeg/ffprobe `9.0.2`, uv `0.13.7`입니다. uv 0.13의 기본 다운로드
 대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.10`와
 기존 `.python-version`을 유지합니다. Python 전체 설치 버전은
 `requirements.lock`으로 재현합니다. MLX·mlx-metal은 `0.32.4`, mlx-whisper는
@@ -85,8 +85,8 @@ FFmpeg/ffprobe `9.0.2`, uv `0.13.6`입니다. uv 0.13의 기본 다운로드
 주간 점검에서는 제작·설치 실행 여부와
 Git 상태를 먼저 확인하고, 격리 환경 검증 뒤 호환되는 안정 버전만 적용합니다.
 자세한 버전, 보안 검사 및 렌더 결과는
-[2026-11-02 점검 기록](reviews/2026-11-02-toolchain-update.md)을 참고합니다.
-최신 Hyperframes 0.8.229는 고정 undici 의존성의 보안 문제로 보류하고,
+[2026-11-09 점검 기록](reviews/2026-11-09-toolchain-update.md)을 참고합니다.
+최신 Hyperframes 0.9.25는 고정 undici 의존성의 보안 문제로 보류하고,
 보안 검사 0건인 0.8.214를 검증해 고정했습니다. Node 22는 Homebrew에서
 deprecated로 표시되지만 공식 지원은 2027-04-30까지입니다. 자동 메이저 변경은 하지 않습니다.
 
