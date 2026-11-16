@@ -6,10 +6,10 @@
 
 Python 3.14.10와 프로젝트 전용 `.venv`를 사용합니다.
 
-현재 검증된 제작 환경은 Hyperframes 0.8.214, Node.js 22.23.4,
-FFmpeg 9.0.2, uv 0.13.7입니다. [2026-11-09 주간 점검 기록](docs/reviews/2026-11-09-toolchain-update.md)에 적용 버전과 검증 결과를 보관합니다.
+현재 검증된 제작 환경은 Hyperframes 0.9.55, Node.js 22.23.5,
+FFmpeg 9.0.2, uv 0.13.8입니다. [2026-11-16 주간 점검 기록](docs/reviews/2026-11-16-toolchain-update.md)에 적용 버전과 검증 결과를 보관합니다.
 
-Hyperframes 최신 0.9.25는 고정 의존성의 보안 문제로 보류하고, 검사 0건인 0.8.214를 사용합니다. Node 22는 Homebrew에서 deprecated로 표시되지만 공식 지원은 2027-04-30까지이며 메이저 변경은 별도 검토합니다.
+Hyperframes 0.9.55에는 지난 업데이트를 보류하게 한 undici 보안 수정이 포함되어 있습니다. 잠금 파일로 설치하며, 적용 후 npm audit는 0건입니다. Node 22는 Homebrew에서 deprecated로 표시되며 공식 지원은 2027-04-30까지입니다. 메이저 변경은 별도 검토합니다.
 
 ```bash
 uv venv --python 3.14.10 .venv
