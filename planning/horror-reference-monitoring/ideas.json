@@ -780,6 +780,132 @@
         "후보를 완성 원고·실제 구현·검수 완료로 표시하지 않음.",
         "현재 028–031 및 기존 아이디어와 비교했으나 이후 새 기획에서 다시 확인. 기본 세 편·전체 20–40분은 별도 제작 요청의 규칙."
       ]
+    },
+    {
+      "id": "2026-11-16-fixed-line-contact-change",
+      "kind": "editing_candidate",
+      "label_ko": "공간 기준선을 남기고 가림 면만 바꾸기",
+      "sources": [
+        {
+          "video_id": "84yRxDVgxg0",
+          "url": "https://www.youtube.com/watch?v=84yRxDVgxg0",
+          "sample_seconds": [
+            761.9612,
+            766.9612,
+            771.9612,
+            1214.13792,
+            1219.13792
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "observation": "수평 구조선과 큰 윤곽이 비슷한 중반 정지 표본에서 입의 열린 면적이 달라진다. 후반에도 배경 가구와 정면 인물 배치를 유지한 유사 구도에서 입 형태 차이가 보인다. 연속 애니메이션·정확한 편집점·립싱크 여부는 미확인.",
+      "proposal": "우리 영상에서는 판 모서리나 난간처럼 쉽게 읽히는 기준선을 유지한 두 상태에서 존재가 덮거나 누르는 면만 크게 달라지게 한다. 첫 표본은 정상 상태, 두 번째는 경계 변형이나 접촉이 의미를 갖는 박자에 둔다. 다음 행동은 새로운 카메라 자산에서 확인한다.",
+      "related_catalog_techniques": [
+        "return_with_changed_clue",
+        "foreground_depth",
+        "space_clue_action"
+      ],
+      "difference_from_existing": "빛의 위치·가림 재료 자체를 바꾸는 이전 후보와 달리 동일한 기준선에 대한 접촉 상태를 비교한다. 같은 구도 안의 국소 교체 지시이며 새 고정 효과나 효능 검증이 아니다.",
+      "apply_when": [
+        "같은 물리 위치에서 벌어지는 접촉의 변화가 결정적 단서일 때",
+        "비인간 실루엣과 기준선이 작은 화면에서도 따로 읽힐 때"
+      ],
+      "avoid_when": [
+        "촬영 방향을 바꾸는 장면 전체를 같은 이미지로 때울 때",
+        "레이어가 투과인지 앞뒤 가림인지 모호할 때",
+        "원본 얼굴 변형을 재현하거나 단서가 아닌 얼굴·전경을 움직일 때"
+      ],
+      "suitable_visual_styles": [
+        "horror_paper_stage",
+        "horror_ink_charcoal",
+        "horror_rough_2d"
+      ],
+      "qa": [
+        "기준선·광원·카메라 높이와 실제 변화 위치를 기준 씬에 표시",
+        "각 상태 자산을 두 번 검수하고 나머지 구조의 의도하지 않은 차이를 대조",
+        "가로와 세로 별도 구도에서 기준과 변화가 눈에 띄는지 확인",
+        "실제 발화·행동에 맞춰 두 상태와 새 시점 출력 비교"
+      ],
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+      "reviewed_at": "2026-11-16T10:06:23+09:00"
+    },
+    {
+      "id": "2026-11-16-premise-print-registration",
+      "kind": "premise_candidate",
+      "working_title": "판화의 두 모서리를 맞추자 종이 안에서 롤러를 잡았어요",
+      "cold_open_line": "종이 밑에서 제 롤러를 잡아당기는 게 느껴졌어요. 그런데 종이는 하나도 찢어지지 않았어요.",
+      "premise": "낮 판화 체험실에 친구에게 줄 카드 한 장을 만들러 온 참가자가, 판과 종이의 맞춤 표시가 함께 닿을 때만 인쇄면에 생기는 접힘을 확인한다. 종이를 덮는 평범한 행동이 그 안쪽 공간에 길을 연다.",
+      "character": "주말 공공 체험실에 혼자 온 성인 참가자",
+      "character_goal": "늦게라도 친구에게 손수 만든 축하 카드를 건네기",
+      "horror_type": "creature_or_unknown_entity",
+      "truth_label": "fiction",
+      "rule": "판과 종이의 큰 모서리 맞춤 표시 두 개가 동시에 겹칠 때 인쇄면과 판 밑의 빈 틈이 연결된다. 체험실에 붙은 금지 문구나 이전 직원 설명은 없다.",
+      "recurring_object": "두 개의 끊어진 맞춤 표시와 손에 쥔 잉크 롤러",
+      "independent_structure": {
+        "inciting_event": "한쪽 모서리만 맞췄을 때 잉크가 없는 종이의 가장자리에서 눌린 쐐기 모양을 발견.",
+        "chronology": "손에 전해진 힘의 한 줄로 연 뒤 카드 체험의 일상에서 그 순간으로 돌아오고 이후는 당일 순행.",
+        "escalation": "쐐기 눌림 → 종이 밑에서 들린 접힌 마디 일부 → 맞춤 표시가 다 닿자 한 몸이 평면 바깥으로 굽어 나와 롤러 축을 감고 참가자의 손까지 당김.",
+        "decisive_choice": "완성하려던 카드를 포기하고 롤러를 놓아 손을 빼며 옆 사람에게 다른 종이를 올리지 말라고 알림. 별도 기기 조작이나 실제 안전 안내는 묘사하지 않음.",
+        "ending": "비뚤어져 맞춤 표시가 벌어진 종이 밖에는 평범한 작업대가 보인다. 연결이 끊기기 직전 마디가 롤러 축에서 풀리는 것을 목격하고 체험실을 나선다. 집으로 따라오거나 다음 참가자에게 전염되는 후일담은 없다."
+      },
+      "sources": [
+        {
+          "video_id": "84yRxDVgxg0",
+          "url": "https://www.youtube.com/watch?v=84yRxDVgxg0",
+          "sample_seconds": [
+            761.9612,
+            766.9612
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        },
+        {
+          "video_id": "mRrFQ54ULWk",
+          "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+          "sample_seconds": [
+            849
+          ],
+          "scope": "muted_paused_visual_frames_only"
+        }
+      ],
+      "borrowed_axis_only": "수평 경계 안의 국소 형태 차이와 밝은 탁상 물건의 가독성만 참고. 교회·일본 연수·인물·정체·불/의식·대사·결말은 차용하지 않음.",
+      "recommended_visual_style": "horror_paper_stage",
+      "alternative_visual_styles": [
+        "horror_ink_charcoal",
+        "horror_rough_2d"
+      ],
+      "visual_reason": "따뜻한 낮 작업면에 먹색과 회색 종이를 써서 카드지의 절단면, 굵은 맞춤 표식, 눌린 면을 읽힌다. 종이 겹침과 무광 면을 유지하고, 전체 책상·옆면·손과 롤러 축 접촉은 새 각도 자산으로 설계. 목탄은 눌림 질감, 거친 2D는 마디 윤곽의 대안.",
+      "editing_candidate_ids": [
+        "2026-11-16-fixed-line-contact-change"
+      ],
+      "editing_direction": "space_clue_action 주기법. 상태 비교에는 return_with_changed_clue와 foreground_depth를 필요한 비트에만 적용. 후반에 롤러 축과 손의 힘 방향이 이어지는 실제 접촉을 새 시점에서 확인.",
+      "overlap_check": {
+        "nearest_projects": [
+          "2026-029-three-unreturned-items",
+          "2026-031-carts-barrier-depot"
+        ],
+        "changed_elements": {
+          "job": "야간 수선사·보수자 또는 운영 담당자 → 낮 취미 체험에 온 일반 방문객",
+          "taboo_or_rule": "수선실 인수·거치나 진동 추적·전송 대신, 판과 종이의 두 기준점이 겹칠 때만 통로가 열린다.",
+          "object": "코트·점검로·차량 태그 → 정합 표시와 잉크 롤러",
+          "twist": "천의 손이나 금속 밑 추적, 외부 잔류 흔적 대신 평면 인쇄면에서 나온 몸의 롤러 접촉과 정합 해제로 현장에서 끝남."
+        },
+        "result": "가까운 작업면과 접촉만 공통이다. 기존 가마 후보와도 직업·점검기록 순서·가마/도기·폐쇄 결말이 다르다. 후보 채택 때 전체 구조 재대조."
+      },
+      "narrative_variation_reason": "야간 점검을 피해 낮에 사소한 선물을 만들겠다는 목적이 선택의 이유가 된다. 편 길이·합본 조합은 미정.",
+      "usage_status": "candidate_not_selected_or_implemented",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+      "reviewed_at": "2026-11-16T10:06:23+09:00",
+      "approval_status": {
+        "stage": "premise_candidate_only",
+        "production_started": false,
+        "decision_policy_source": "config/success-rules.json#workflow_authorization"
+      },
+      "limitations": [
+        "정지 프레임의 시각 발상만 사용; 원본의 전체 내용 또는 효과를 검증하지 않음.",
+        "후보에 한하며 완성 원고·시각 승인·실제 구현으로 기록하지 않음."
+      ]
     }
   ]
 }

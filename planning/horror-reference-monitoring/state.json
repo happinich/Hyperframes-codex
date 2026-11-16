@@ -3,7 +3,7 @@
   "timezone": "Asia/Seoul",
   "baseline_report": "planning/2026-10-05-horror-reference-editing/analysis.ko.md",
   "baseline_scope": "YouTube public channel lists and player UI; visual sampling of opening, middle, and late frames",
-  "last_scheduled_run_at": "2026-11-09T00:56:12.838Z",
+  "last_scheduled_run_at": "2026-11-16T01:02:59.442Z",
   "reviewed_videos": [
     {
       "video_id": "LBTkwwxGfI8",
@@ -1011,6 +1011,334 @@
       "review_scope": "partial_visual_samples_only",
       "discovery_class": "new_upload",
       "report_path": "planning/horror-reference-monitoring/2026-11-02/report.ko.md"
+    },
+    {
+      "video_id": "7dsPGHlxMKo",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=7dsPGHlxMKo",
+      "title": "3 Scary TRUE Cold Night Horror Stories",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "24분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "observation_window_started_at": "2026-11-16T10:02:59+09:00",
+      "duration_seconds": 1464.501,
+      "observed_segments": [
+        {
+          "at_seconds": 5,
+          "section": "초반",
+          "kind": "single_paused_frame",
+          "observation": "어두운 천의 주름 근접 구도 위에 흰색·적색 시리즈 제목",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 10,
+          "section": "제목과 첫 편 사이",
+          "kind": "single_paused_frame",
+          "observation": "검은색에 가까운 배경의 첫 이야기 번호와 익명 표기",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 15,
+          "section": "첫 편 공간",
+          "kind": "single_paused_frame",
+          "observation": "젖은 야간 상가 도로, 가로등과 간판 빛이 노면에 반사",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 737.18145,
+          "section": "중반",
+          "kind": "single_paused_frame",
+          "observation": "목제 벽과 액자, 왼쪽 벽등 하나가 밝은 좁은 복도",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 742.18145,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "같은 계열의 목제 복도·벽등·끝 벽 액자 구도",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 1171.49032,
+          "section": "후반",
+          "kind": "single_paused_frame",
+          "observation": "손잡이와 세로 장식유리가 있는 문, 유리 너머 작은 조명",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        }
+      ],
+      "observation_method": "Chrome extension; YouTube public listing DOM and keyboard-seek player screenshots; read-only video currentTime/duration/readyState/paused/muted and ad-state check",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "진입 직후 스폰서 표시를 봤다. 표본 시 광고 표시 없음, 목록 24분과 원 영상 1464.501초 일치. 준비 상태 1이던 732.18145초 표본은 제외.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외.",
+      "premise_in_one_line": "목록 제목과 확인한 화면의 일반 발상만 기록; 원본 전체 사연 미확인.",
+      "editing_findings": [
+        "5·10·15초에 시리즈 제목, 번호 카드, 거리 장면이 서로 다른 정지 표본으로 확인된다. 카드 길이·암전 길이·페이드 방식은 확인하지 않았다.",
+        "후반 문 장식과 유리의 작은 광점은 읽히지만 유리 뒤 인물은 확인되지 않는다."
+      ],
+      "overlap_with_existing_projects": "기존 편 사이 호흡과 번호 안내에 해당. 문·유리·조명은 문턱 기준물 및 가림 경계 후보와 중복되어 별도 기법 추가 없음.",
+      "adaptation_proposal": "합본의 번호 표기와 본편 공간 시작을 따로 설계하는 기존 전환 방식에 참고. 콜드 오픈 전 제목을 강제하거나 검은 카드의 길이를 따라 하지 않음.",
+      "limitations": [
+        "준비 상태 4의 무음·정지 프레임만 확인. 연속 재생·컷 속도·전환 길이·음향은 미검증.",
+        "첫 발화·사건 사실성·전체 단서 순서·정체·결말은 미확인. 원작의 대본·제보·실화 표기는 차용하지 않음.",
+        "썸네일 원본 이미지와 Shorts 관련 동영상 연결 미확인.",
+        "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+      "same_title_prior_members_video_id": "oulccPTl3pg",
+      "same_title_identity_verified": false
+    },
+    {
+      "video_id": "84yRxDVgxg0",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=84yRxDVgxg0",
+      "title": "상가 교회 천장",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "25분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "observation_window_started_at": "2026-11-16T10:02:59+09:00",
+      "duration_seconds": 1523.941,
+      "observed_segments": [
+        {
+          "at_seconds": 10,
+          "section": "초반",
+          "kind": "single_paused_frame",
+          "observation": "보라색 통로 형태 배경의 중앙 안내문",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 761.9612,
+          "section": "중반",
+          "kind": "single_paused_frame",
+          "observation": "수평 구조선이 비쳐 보이는 창백한 얼굴 도형, 입이 크게 벌어짐",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 766.9612,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "비슷한 수평 구조선과 얼굴 윤곽, 입이 상대적으로 닫힘",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 771.9612,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "수평선과 창백한 얼굴 윤곽 유지, 입 형태가 닫힌 쪽",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 1214.13792,
+          "section": "후반 인접",
+          "kind": "single_paused_frame",
+          "observation": "가구 배경의 정면 인물 삽화, 입이 열림",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 1219.13792,
+          "section": "후반",
+          "kind": "single_paused_frame",
+          "observation": "비슷한 인물·가구 배치에서 입이 닫힌 쪽",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        }
+      ],
+      "observation_method": "Chrome extension; YouTube public listing DOM and keyboard-seek player screenshots; read-only video currentTime/duration/readyState/paused/muted and ad-state check",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "일반 플레이어, 목록 25분과 원 영상 1523.941초 대조. 표본 시 광고 없음.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외.",
+      "premise_in_one_line": "목록 제목과 확인한 화면의 일반 발상만 기록; 원본 전체 사연 미확인.",
+      "editing_findings": [
+        "중반 세 정지 화면에서 수평 구조선과 큰 윤곽은 유사한데 입의 열린 면적이 다르다. 수평선이 실제 가림인지 합성 반투명인지는 미확인.",
+        "후반 두 표본에서도 비슷한 배경과 인물 배치에 국소적인 입 형태 차이가 있다. 립싱크, 정확한 변경 시각, 모션 구현 방식은 확인하지 않았다."
+      ],
+      "overlap_with_existing_projects": "031 C02 패널 틈의 부분 노출 및 C03 버스 표시 변화와 범주가 닿는다. 새 후보는 배경 기준선에 대한 국소 가림·접촉 면 변화에만 한정한다.",
+      "adaptation_proposal": "문틀·레일 같은 큰 선을 고정해 위협 상태만 비교하는 응용 후보. 원본의 얼굴·입을 쓰지 않고 비인간 형태의 접힘 또는 눌림처럼 원고에 필요한 신호만 바꾼다.",
+      "limitations": [
+        "준비 상태 4의 무음·정지 프레임만 확인. 연속 재생·컷 속도·전환 길이·음향은 미검증.",
+        "첫 발화·사건 사실성·전체 단서 순서·정체·결말은 미확인. 원작의 대본·제보·실화 표기는 차용하지 않음.",
+        "썸네일 원본 이미지와 Shorts 관련 동영상 연결 미확인.",
+        "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md"
+    },
+    {
+      "video_id": "mRrFQ54ULWk",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+      "title": "거꾸로 매달린 귀신 · 일본 연수중에 겪은 일",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "17분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "observation_window_started_at": "2026-11-16T10:02:59+09:00",
+      "duration_seconds": 1055.041,
+      "observed_segments": [
+        {
+          "at_seconds": 10,
+          "section": "초반",
+          "kind": "single_paused_frame",
+          "observation": "안내문 아래 진행자, 오른쪽 채팅, 어두운 실내 배경",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 527.5,
+          "section": "중반",
+          "kind": "single_paused_frame",
+          "observation": "푸른 밤 창과 두 침대, 수하물, 오른쪽 출입부",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 532.5,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "같은 침대·창 위치 관계, 출입부 주변이 더 드러난 구도",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 537.5,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "비슷한 침실 구도, 오른쪽 문 면과 손잡이 일부가 보임",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 844,
+          "section": "후반 전환 인접",
+          "kind": "single_paused_frame",
+          "observation": "푸른 어둠 속 욕조·커튼·거울·세면대",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 849,
+          "section": "후반 전환 인접",
+          "kind": "single_paused_frame",
+          "observation": "밝은 창 앞 책상과 접시, 접힌 종이의 불빛",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        }
+      ],
+      "observation_method": "Chrome extension; YouTube public listing DOM and keyboard-seek player screenshots; read-only video currentTime/duration/readyState/paused/muted and ad-state check",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "직전 회원 우선 공개 ID에서 현재 목록 회원 배지 없음, 원 영상 일반 플레이어 1055.041초 확인. 표본 시 광고 없음.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외.",
+      "premise_in_one_line": "목록 제목과 확인한 화면의 일반 발상만 기록; 원본 전체 사연 미확인.",
+      "editing_findings": [
+        "844초의 욕실과 849초의 탁상은 공간과 밝기가 다른 정지 표본이다. 시간 이동의 이유·컷 방식·두 시각 사이 전체 화면은 미확인.",
+        "849초에는 넓은 종이와 접시가 중심이어서 불빛이 있는 작은 사건의 위치가 읽힌다."
+      ],
+      "overlap_with_existing_projects": "028 냉장실·029 수선실과 작업면은 유사할 수 있어 새 소재의 장소·인물·물건·규칙·결말을 분리. 숙박·출장·귀신 외형은 차용하지 않음.",
+      "adaptation_proposal": "직접 접촉을 어둠에 숨기기 어려운 이야기라면, 평소 작업대와 위협 물건을 같은 밝기에서 분명히 읽히게 하는 소재 후보의 시각 발상으로만 참고. 불을 쓰는 사건은 가져오지 않음.",
+      "limitations": [
+        "준비 상태 4의 무음·정지 프레임만 확인. 연속 재생·컷 속도·전환 길이·음향은 미검증.",
+        "첫 발화·사건 사실성·전체 단서 순서·정체·결말은 미확인. 원작의 대본·제보·실화 표기는 차용하지 않음.",
+        "썸네일 원본 이미지와 Shorts 관련 동영상 연결 미확인.",
+        "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "became_public",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+      "prior_exclusion_record": {
+        "video_id": "mRrFQ54ULWk",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+        "title": "일본 연수중에 겪은 일 (리키스님 사연)",
+        "title_recording": "concise identification from current visible listing, not full heading",
+        "publication_label": "5일 전",
+        "list_duration_label": "17분",
+        "checked_at": "2026-11-09T10:03:37+09:00",
+        "status": "members_first",
+        "discovered_at": "2026-11-09T10:03:37+09:00",
+        "review_status": "listing_only_not_analyzed",
+        "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
+      }
+    },
+    {
+      "video_id": "7u_J6Ers6WI",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=7u_J6Ers6WI",
+      "title": "전남 보성 녹차밭 사건",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "16분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "observation_window_started_at": "2026-11-16T10:02:59+09:00",
+      "duration_seconds": 991.881,
+      "observed_segments": [
+        {
+          "at_seconds": 10,
+          "section": "초반",
+          "kind": "single_paused_frame",
+          "observation": "중앙 진행자와 좌우 도서·오디오 소개 화면",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 495.916666,
+          "section": "중반",
+          "kind": "single_paused_frame",
+          "observation": "줄지어 굽은 수풀, 산 능선, 중경의 낮은 지붕; 왼쪽 하단 진행자 창",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 500.916666,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "수풀 열과 낮은 지붕 중심의 유사 전경",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 505.916666,
+          "section": "중반 인접",
+          "kind": "single_paused_frame",
+          "observation": "같은 계열 수풀과 지붕; 건물 비중이 조금 큼",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 788.466666,
+          "section": "후반 인접",
+          "kind": "single_paused_frame",
+          "observation": "푸른 저조도에서 낡은 지붕·창·문이 크게 보임",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        },
+        {
+          "at_seconds": 793.466666,
+          "section": "후반",
+          "kind": "single_paused_frame",
+          "observation": "비슷한 건물 정면 구도에서 지붕·창·문이 읽힘",
+          "visible_scope": "player screenshot crop; lower/right edges may be clipped; overlays excluded"
+        }
+      ],
+      "observation_method": "Chrome extension; YouTube public listing DOM and keyboard-seek player screenshots; read-only video currentTime/duration/readyState/paused/muted and ad-state check",
+      "audio_review_scope": "not_listened",
+      "playback_content_verification": "일반 플레이어, 목록 16분과 원 영상 991.881초 대조. 표본 시 광고 없음.",
+      "chapter_source": "not_inspected",
+      "browser_overlay_limitations": "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외.",
+      "premise_in_one_line": "목록 제목과 확인한 화면의 일반 발상만 기록; 원본 전체 사연 미확인.",
+      "editing_findings": [
+        "중반의 곡선 수풀과 지붕은 시선을 같은 큰 면으로 모으는 배치를 이루고 후반에는 건물 정면이 크게 보인다. 같은 건물인지와 실제 카메라 이동은 확인하지 않았다.",
+        "하단 진행자 창·문장 및 전사 오버레이가 지면 일부와 겹쳐 보인다."
+      ],
+      "overlap_with_existing_projects": "030 과수원 및 점광원 동선 후보와 야외 반복 열이 비슷해 별도 신규 소재로 연결하지 않음.",
+      "adaptation_proposal": "기존 공간→단서 항목의 넓은 면과 가까운 디테일 대비로만 참고. 새로운 기법·실제 장소·범죄 소재는 추가하지 않음.",
+      "limitations": [
+        "준비 상태 4의 무음·정지 프레임만 확인. 연속 재생·컷 속도·전환 길이·음향은 미검증.",
+        "첫 발화·사건 사실성·전체 단서 순서·정체·결말은 미확인. 원작의 대본·제보·실화 표기는 차용하지 않음.",
+        "썸네일 원본 이미지와 Shorts 관련 동영상 연결 미확인.",
+        "캡처는 플레이어 영역 일부의 우측·하단이 잘릴 수 있다. +5/+10, 제품 보기, Immersive Translate/전사 상자 및 출처 미확인 글자는 영상 편집 근거에서 제외."
+      ],
+      "review_status": "two_pass_review_complete_for_recorded_visual_samples_only",
+      "review_scope": "partial_visual_samples_only",
+      "discovery_class": "new_upload",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md"
     }
   ],
   "pending_videos": [
@@ -1644,6 +1972,160 @@
       "discovered_at": "2026-11-09T10:03:37+09:00",
       "review_status": "listing_only_not_analyzed",
       "reason": "현재 목록 ID·제목·게시 표시만 확인. 화면 캡처 실패로 내용·편집 검토 대기. 채널별 상한 소진을 뜻하지 않음."
+    },
+    {
+      "video_id": "Y-Nt0nioZPM",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=Y-Nt0nioZPM",
+      "title": "3 Scary TRUE Home Alone Horror Stories",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "24분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "1eZtzjUoTyw",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=1eZtzjUoTyw",
+      "title": "수호령 금수저",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "2시간 전",
+      "list_duration_label": "28분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "3kUHTU-BxzY",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=3kUHTU-BxzY",
+      "title": "기생귀",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "2일 전",
+      "list_duration_label": "44분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "oWJ_WOxFEzo",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=oWJ_WOxFEzo",
+      "title": "망가진 순이네",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "49분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "iAF4p_C-3ok",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=iAF4p_C-3ok",
+      "title": "SM 사이비",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "4일 전",
+      "list_duration_label": "1시간 7분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "-9_7tNmGlhM",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=-9_7tNmGlhM",
+      "title": "무적자",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "51분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "E93oad0FFr4",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
+      "title": "연쇄 살인귀",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3시간 전",
+      "list_duration_label": "51분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "public_listing_player_unverified",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "현재 목록의 회원 우선 공개 배지가 사라짐. 일반 플레이어 접근은 미확인.",
+      "prior_exclusion_record": {
+        "video_id": "E93oad0FFr4",
+        "channel": "왓섭! 공포라디오",
+        "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
+        "title": "입주민들이 계속 심장마비로 죽어나간 이유 - 연쇄 살인귀",
+        "title_recording": "concise identification from current visible listing, not full heading",
+        "publication_label": "3일 전",
+        "list_duration_label": "51분",
+        "checked_at": "2026-11-09T10:03:37+09:00",
+        "status": "members_first",
+        "discovered_at": "2026-11-09T10:03:37+09:00",
+        "review_status": "listing_only_not_analyzed",
+        "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
+      }
+    },
+    {
+      "video_id": "UY2HFauft3I",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=UY2HFauft3I",
+      "title": "나에겐 너무 무서웠던 공포실화",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "1시간 7분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "_DyFhqT518Y",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=_DyFhqT518Y",
+      "title": "일본 화류계 사건",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "1시간 전",
+      "list_duration_label": "13분 32초",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
+    },
+    {
+      "video_id": "mlrU6wfcQfw",
+      "channel": "괴들남 공포이야기",
+      "url": "https://www.youtube.com/watch?v=mlrU6wfcQfw",
+      "title": "카카오톡 음지 빨래방",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "6일 전",
+      "list_duration_label": "22분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "pending",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "최근 공개 목록 확인. 이번에는 채널별 1편을 상세 표본으로 선택했으며 본편 확인은 대기."
     }
   ],
   "runs": [
@@ -2585,9 +3067,386 @@
       ],
       "browser_cleanup": "Own in-app research tab closed; no user tab operated.",
       "follow_up": "Next run verify playback/screenshots for unreviewed IDs; public-listing badge removal is not confirmed player accessibility."
+    },
+    {
+      "run_id": "2026-11-16-weekly-01",
+      "triggered_at": "2026-11-16T01:02:59.442Z",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "report_path": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+      "status": "partial_visual_review_complete",
+      "result": "Four current Chrome listings and four public players sampled; 24 decoded paused visual frames; one editing application and one independent premise.",
+      "reviewed_video_ids": [
+        "7dsPGHlxMKo",
+        "84yRxDVgxg0",
+        "mRrFQ54ULWk",
+        "7u_J6Ers6WI"
+      ],
+      "detailed_review_counts": {
+        "Mr. Nightmare": 1,
+        "돌비공포라디오": 1,
+        "왓섭! 공포라디오": 1,
+        "괴들남 공포이야기": 1
+      },
+      "pending_count": 57,
+      "excluded_count": 21,
+      "audio_review_scope": "not_listened",
+      "content_review_completed": false,
+      "recorded_visual_sample_review_completed": true,
+      "observed_sample_count": 24,
+      "listing_scope": {
+        "Mr. Nightmare": 5,
+        "돌비공포라디오": 8,
+        "왓섭! 공포라디오": 10,
+        "괴들남 공포이야기": 5
+      },
+      "listing_observations": [
+        {
+          "video_id": "Y-Nt0nioZPM",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=Y-Nt0nioZPM",
+          "title": "3 Scary TRUE Home Alone Horror Stories",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "24분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "oqj9XT1d5HE",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=oqj9XT1d5HE",
+          "title": "5 Disturbing TRUE Road Trip Horror Stories",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "26분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "members"
+        },
+        {
+          "video_id": "7dsPGHlxMKo",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=7dsPGHlxMKo",
+          "title": "3 Scary TRUE Cold Night Horror Stories",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "24분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "review"
+        },
+        {
+          "video_id": "6aZH2a40BCU",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=6aZH2a40BCU",
+          "title": "3 Terrifying October Horror Stories to Close Out the Month",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "26분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "sZntZ2HASEI",
+          "channel": "Mr. Nightmare",
+          "url": "https://www.youtube.com/watch?v=sZntZ2HASEI",
+          "title": "2 Bonus Halloween Horror Stories",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "12일 전",
+          "list_duration_label": "13분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "members"
+        },
+        {
+          "video_id": "1eZtzjUoTyw",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=1eZtzjUoTyw",
+          "title": "수호령 금수저",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "2시간 전",
+          "list_duration_label": "28분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "FZn0Tw2JE00",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=FZn0Tw2JE00",
+          "title": "빌런 괴담 모음",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "1일 전",
+          "list_duration_label": "2시간 1분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "3kUHTU-BxzY",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=3kUHTU-BxzY",
+          "title": "기생귀",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "44분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "oWJ_WOxFEzo",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=oWJ_WOxFEzo",
+          "title": "망가진 순이네",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "49분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "iAF4p_C-3ok",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=iAF4p_C-3ok",
+          "title": "SM 사이비",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "4일 전",
+          "list_duration_label": "1시간 7분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "84yRxDVgxg0",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=84yRxDVgxg0",
+          "title": "상가 교회 천장",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "25분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "review"
+        },
+        {
+          "video_id": "-9_7tNmGlhM",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=-9_7tNmGlhM",
+          "title": "무적자",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "51분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "mD_3uqR6au8",
+          "channel": "돌비공포라디오",
+          "url": "https://www.youtube.com/watch?v=mD_3uqR6au8",
+          "title": "시골 미친 언니 괴담",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "7일 전",
+          "list_duration_label": "29분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "E93oad0FFr4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
+          "title": "연쇄 살인귀",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3시간 전",
+          "list_duration_label": "51분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "badge_removed"
+        },
+        {
+          "video_id": "465hmjSs27w",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=465hmjSs27w",
+          "title": "민박집 주인 아저씨가 들려준 섬뜩한 이야기",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "17시간 전",
+          "list_duration_label": "23분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "UY2HFauft3I",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=UY2HFauft3I",
+          "title": "나에겐 너무 무서웠던 공포실화",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "1시간 7분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "tlvW8_Xy3l8",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=tlvW8_Xy3l8",
+          "title": "소름끼치는 소리의 출처 - 땅, 땅",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "3일 전",
+          "list_duration_label": "40분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "mRrFQ54ULWk",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
+          "title": "거꾸로 매달린 귀신 · 일본 연수중에 겪은 일",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "17분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "review"
+        },
+        {
+          "video_id": "GVazQtBKTVI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=GVazQtBKTVI",
+          "title": "생닭을 뜯어먹던 아저씨",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "5일 전",
+          "list_duration_label": "20분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "members_first"
+        },
+        {
+          "video_id": "3InoqTW0IpI",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=3InoqTW0IpI",
+          "title": "동물병원의 악몽",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "7일 전",
+          "list_duration_label": "32분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "badge_removed"
+        },
+        {
+          "video_id": "w2V1rVb-Yq4",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=w2V1rVb-Yq4",
+          "title": "우리 춘천 이모 08화",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "8일 전",
+          "list_duration_label": "17분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "IH1HfrLHwr0",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=IH1HfrLHwr0",
+          "title": "끝나지 않는 지배 통합본",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "3시간 4분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "P-v1VYKKBXU",
+          "channel": "왓섭! 공포라디오",
+          "url": "https://www.youtube.com/watch?v=P-v1VYKKBXU",
+          "title": "소중한 사람을 데려간다던 악귀",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "12일 전",
+          "list_duration_label": "20분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "badge_removed"
+        },
+        {
+          "video_id": "_DyFhqT518Y",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=_DyFhqT518Y",
+          "title": "일본 화류계 사건",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "1시간 전",
+          "list_duration_label": "13분 32초",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "7u_J6Ers6WI",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=7u_J6Ers6WI",
+          "title": "전남 보성 녹차밭 사건",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "2일 전",
+          "list_duration_label": "16분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "review"
+        },
+        {
+          "video_id": "mlrU6wfcQfw",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=mlrU6wfcQfw",
+          "title": "카카오톡 음지 빨래방",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "6일 전",
+          "list_duration_label": "22분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        },
+        {
+          "video_id": "B9k5m55BSeg",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=B9k5m55BSeg",
+          "title": "현실 공포 괴담 모음",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "10일 전",
+          "list_duration_label": "1시간 4분",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "compilation"
+        },
+        {
+          "video_id": "GquaSi147EY",
+          "channel": "괴들남 공포이야기",
+          "url": "https://www.youtube.com/watch?v=GquaSi147EY",
+          "title": "20만 원짜리 출장 알바 사건",
+          "title_recording": "concise identification from current visible listing; not full heading",
+          "publication_label": "13일 전",
+          "list_duration_label": "14분 10초",
+          "checked_at": "2026-11-16T10:06:23+09:00",
+          "status": "public"
+        }
+      ],
+      "new_pending_video_ids": [
+        "Y-Nt0nioZPM",
+        "1eZtzjUoTyw",
+        "3kUHTU-BxzY",
+        "oWJ_WOxFEzo",
+        "iAF4p_C-3ok",
+        "-9_7tNmGlhM",
+        "UY2HFauft3I",
+        "_DyFhqT518Y",
+        "mlrU6wfcQfw"
+      ],
+      "listing_public_status_recheck_ids": [
+        "E93oad0FFr4",
+        "3InoqTW0IpI",
+        "P-v1VYKKBXU"
+      ],
+      "new_excluded_video_ids": [
+        "oqj9XT1d5HE",
+        "FZn0Tw2JE00",
+        "465hmjSs27w",
+        "tlvW8_Xy3l8",
+        "GVazQtBKTVI"
+      ],
+      "access_attempts": [
+        {
+          "method": "web.open",
+          "result": "돌비·괴들남·Mr은 과거 푸터; 왓섭 조회 제한. 신작 유무 판단에 미사용."
+        },
+        {
+          "method": "Chrome public listing and player screenshots",
+          "result": "현재 목록 4개 및 원 본편 플레이어에서 준비된 정지 프레임 확인; 11-09 접근 제한 재현되지 않음."
+        }
+      ],
+      "browser_cleanup": "Own single Chrome research tab closed; no user tab operated.",
+      "follow_up": "미확인 공개/회원 전환 ID를 대기에 보존. 다음 새 이야기 기획 때 아래 판화 후보와 국소 가림 변화를 적합한 경우에만 사용."
     }
   ],
-  "latest_report": "planning/horror-reference-monitoring/2026-11-09/report.ko.md",
+  "latest_report": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
   "excluded_videos": [
     {
       "video_id": "v40aTNt0lqc",
@@ -2778,34 +3637,6 @@
       "reason": "현재 제목의 모음/통합본과 1시간 이상 길이를 확인한 대형 합본"
     },
     {
-      "video_id": "E93oad0FFr4",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=E93oad0FFr4",
-      "title": "입주민들이 계속 심장마비로 죽어나간 이유 - 연쇄 살인귀",
-      "title_recording": "concise identification from current visible listing, not full heading",
-      "publication_label": "3일 전",
-      "list_duration_label": "51분",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "members_first",
-      "discovered_at": "2026-11-09T10:03:37+09:00",
-      "review_status": "listing_only_not_analyzed",
-      "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
-    },
-    {
-      "video_id": "mRrFQ54ULWk",
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/watch?v=mRrFQ54ULWk",
-      "title": "일본 연수중에 겪은 일 (리키스님 사연)",
-      "title_recording": "concise identification from current visible listing, not full heading",
-      "publication_label": "5일 전",
-      "list_duration_label": "17분",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "members_first",
-      "discovered_at": "2026-11-09T10:03:37+09:00",
-      "review_status": "listing_only_not_analyzed",
-      "reason": "현재 목록의 회원 우선 공개 배지; 공개 전환 시 일반 플레이어 확인"
-    },
-    {
       "video_id": "B9k5m55BSeg",
       "channel": "괴들남 공포이야기",
       "url": "https://www.youtube.com/watch?v=B9k5m55BSeg",
@@ -2818,37 +3649,78 @@
       "discovered_at": "2026-11-09T10:03:37+09:00",
       "review_status": "listing_only_not_analyzed",
       "reason": "현재 제목의 모음/통합본과 1시간 이상 길이를 확인한 대형 합본"
+    },
+    {
+      "video_id": "oqj9XT1d5HE",
+      "channel": "Mr. Nightmare",
+      "url": "https://www.youtube.com/watch?v=oqj9XT1d5HE",
+      "title": "5 Disturbing TRUE Road Trip Horror Stories",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "26분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "members",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "목록 회원 전용 배지"
+    },
+    {
+      "video_id": "FZn0Tw2JE00",
+      "channel": "돌비공포라디오",
+      "url": "https://www.youtube.com/watch?v=FZn0Tw2JE00",
+      "title": "빌런 괴담 모음",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "1일 전",
+      "list_duration_label": "2시간 1분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "compilation",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "목록 제목의 모음 표시 및 2시간 1분 길이"
+    },
+    {
+      "video_id": "465hmjSs27w",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=465hmjSs27w",
+      "title": "민박집 주인 아저씨가 들려준 섬뜩한 이야기",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "17시간 전",
+      "list_duration_label": "23분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "members_first",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "목록 회원 우선 공개 배지; 공개 전환 시 확인"
+    },
+    {
+      "video_id": "tlvW8_Xy3l8",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=tlvW8_Xy3l8",
+      "title": "소름끼치는 소리의 출처 - 땅, 땅",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "3일 전",
+      "list_duration_label": "40분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "members_first",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "목록 회원 우선 공개 배지; 공개 전환 시 확인"
+    },
+    {
+      "video_id": "GVazQtBKTVI",
+      "channel": "왓섭! 공포라디오",
+      "url": "https://www.youtube.com/watch?v=GVazQtBKTVI",
+      "title": "생닭을 뜯어먹던 아저씨",
+      "title_recording": "concise identification from current visible listing; not full heading",
+      "publication_label": "5일 전",
+      "list_duration_label": "20분",
+      "checked_at": "2026-11-16T10:06:23+09:00",
+      "status": "members_first",
+      "discovered_at": "2026-11-16T10:06:23+09:00",
+      "review_status": "listing_only_not_analyzed",
+      "reason": "목록 회원 우선 공개 배지; 공개 전환 시 확인"
     }
   ],
-  "latest_successful_content_report": "planning/horror-reference-monitoring/2026-11-02/report.ko.md",
-  "pending_channel_checks": [
-    {
-      "channel": "Mr. Nightmare",
-      "url": "https://www.youtube.com/@MrNightmare/videos",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "listing_verified_content_review_pending",
-      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
-    },
-    {
-      "channel": "돌비공포라디오",
-      "url": "https://www.youtube.com/@돌비공포라디오/videos",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "listing_verified_content_review_pending",
-      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
-    },
-    {
-      "channel": "왓섭! 공포라디오",
-      "url": "https://www.youtube.com/@왓섭/videos",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "listing_verified_content_review_pending",
-      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
-    },
-    {
-      "channel": "괴들남 공포이야기",
-      "url": "https://www.youtube.com/@괴들남/videos",
-      "checked_at": "2026-11-09T10:03:37+09:00",
-      "status": "listing_verified_content_review_pending",
-      "reason": "현재 최근 목록은 확인. 프레임·음향·전환 내용 검토는 캡처 실패로 대기. 다음 예약에서 미검토 ID만 확인."
-    }
-  ]
+  "latest_successful_content_report": "planning/horror-reference-monitoring/2026-11-16/report.ko.md",
+  "pending_channel_checks": []
 }
