@@ -267,7 +267,14 @@
       },
       "merge_chunks_sequentially": true,
       "context_stitching": true,
-      "api_character_limit": 10000,
+      "api_character_limit": 100000,
+      "api_character_limit_verification": {
+        "verified_on": "2026-11-23",
+        "official_source": "https://elevenlabs.io/docs/overview/models#character-limits",
+        "read_only_api": "GET /v1/models: eleven_v4.maximum_text_length_per_request = 100000",
+        "production_chunking_unchanged": true,
+        "note": "Provider metadata only; keep sequential 1000–1300-character production chunks. No long request or paid synthesis was tested."
+      },
       "performance": {
         "direction_field": "request.performance_direction",
         "inline_tags_source": "01_script/tts-narration.txt",

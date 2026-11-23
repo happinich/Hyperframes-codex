@@ -1,15 +1,15 @@
-# Verified on Python 3.14.10 / macOS arm64, 2026-11-16.
+# Verified on Python 3.14.10 / macOS arm64, 2026-11-23.
 # Runtime and development packages; install with uv pip sync.
 anyio==4.16.0
-certifi==2026.10.23
+certifi==2026.11.20
 charset-normalizer==3.5.2
 click==8.5.1
-filelock==4.2.10
+filelock==4.3.0
 fsspec==2026.9.0
 h11==0.16.0
 hf-xet==1.8.0
-httpcore2==2.16.0
-httpx2==2.16.0
+httpcore2==2.16.2
+httpx2==2.16.2
 huggingface-hub==2.4.0
 idna==3.20
 iniconfig==2.3.1
@@ -31,8 +31,8 @@ pluggy==1.7.0
 pygments==2.21.0
 pytest==9.2.0
 python-dotenv==1.2.4
-pyyaml==6.0.3
-regex==2026.11.15
+pyyaml==6.0.4
+regex==2026.11.19
 requests==2.34.2
 scipy==1.18.1
 setuptools==84.2.1

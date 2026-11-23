@@ -75,8 +75,8 @@ source .venv/bin/activate
 
 Python 명령은 `.venv/bin/python`으로 실행합니다. 이 프로젝트의 Python은 3.14.10이며 macOS 개발 도구의 `/usr/bin/python3`와 분리합니다.
 
-2026-11-16 검증 환경은 Hyperframes `0.9.55`, Node.js `22.23.5`,
-FFmpeg/ffprobe `9.0.2`, uv `0.13.8`입니다. uv 0.13의 기본 다운로드
+2026-11-23 검증 환경은 Hyperframes `0.9.83`, Node.js `22.23.5`,
+FFmpeg/ffprobe `9.0.2`, uv `0.13.9`입니다. uv 0.13의 기본 다운로드
 대상은 Python 3.15이므로 이 저장소에서는 위 명령의 `--python 3.14.10`와
 기존 `.python-version`을 유지합니다. Python 전체 설치 버전은
 `requirements.lock`으로 재현합니다. MLX·mlx-metal은 `0.32.4`, mlx-whisper는
@@ -85,8 +85,8 @@ FFmpeg/ffprobe `9.0.2`, uv `0.13.8`입니다. uv 0.13의 기본 다운로드
 주간 점검에서는 제작·설치 실행 여부와
 Git 상태를 먼저 확인하고, 격리 환경 검증 뒤 호환되는 안정 버전만 적용합니다.
 자세한 버전, 보안 검사 및 렌더 결과는
-[2026-11-16 점검 기록](reviews/2026-11-16-toolchain-update.md)을 참고합니다.
-지난주 보류 사유였던 undici 보안 수정이 포함된 Hyperframes `0.9.55`를
+[2026-11-23 점검 기록](reviews/2026-11-23-toolchain-update.md)을 참고합니다.
+Hyperframes `0.9.83`을
 격리 설치·렌더와 npm audit 0건 확인 후 고정했습니다. 새 lint가 로컬 글꼴만 쓰는
 컴포지션에 경고를 표시할 수 있습니다. 다른 머신이나 클라우드에서 렌더할 프로젝트는
 배포 가능한 글꼴 파일을 자산으로 포함하고 해당 환경에서 글자를 확인합니다. Node 22는 Homebrew에서
@@ -175,7 +175,7 @@ ElevenLabs API를 사용할 때 필요한 입력값은 아래와 같습니다. A
 }
 ```
 
-V4는 요청당 최대 10,000자를 지원하지만 재시도와 구간 검수가 쉬운 문장 청크를 사용합니다. `generate_elevenlabs_audio.py`가 원고를 공백 포함 1,000~1,300자로 나누고 이전 요청 ID 또는 앞뒤 원문으로 흐름을 연결합니다. 청크는 순차 생성해 ffmpeg로 병합합니다.
+V4의 공급자 문서와 읽기 전용 모델 API는 2026-11-23 기준 요청당 최대 100,000자를 안내합니다. 이 수치는 공급자 상한이며 실제 대용량 합성은 검증하지 않았습니다. 제작은 재시도와 구간 검수가 쉬운 문장 청크를 유지합니다. `generate_elevenlabs_audio.py`가 원고를 공백 포함 1,000~1,300자로 나누고 이전 요청 ID 또는 앞뒤 원문으로 흐름을 연결합니다. 청크는 순차 생성해 ffmpeg로 병합합니다.
 
 현재 생성기는 V4의 Stability와 Similarity만 전송합니다. Style·Speed·Speaker Boost·SSML은 API에 보내지 않습니다. 감정 지시는 `request.performance_direction`에 괄호 없는 한 줄로 쓰거나 발음용 `tts-narration.txt`에 `[quiet, measured narration]`, `[whispering]` 같은 태그를 필요한 부분에만 넣습니다. `prepare_tts_script.py`로 숫자를 정리한 뒤 태그를 편집하고, 승인 원고와 자막에는 태그를 넣지 않습니다. 생성기는 V4 발음용 원문에서 태그를 제외한 문장이 승인 원고의 숫자 발음 변환과 일치하는지 확인합니다. 태그를 핑계로 대사를 추가하거나 결말을 바꾸지 않습니다.
 
